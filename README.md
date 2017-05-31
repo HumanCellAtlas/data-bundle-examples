@@ -37,6 +37,8 @@ NOTE: we need to get the real fastq files
 
 ## 10x
 
+
+
 ## TODO & Questions for the Group
 * we need to check the fastq files, I don't think they are correct since we expect multiple fastq files per data bundle.
 * we have a cell.json and sample.json... do we need both? Laura and Tim think it's overlapping for sample and should just use sample.json.
