@@ -1,46 +1,46 @@
 {
-  “analysis_id” : 4342342,
+  "analysis_id" : 4342342,
   "timestamp_start_utc" : "2017-05-18T03:44:23-5:00",
   "timestamp_stop_utc" : "2017-05-18T014:44:23-5:00",
   "sample_json" : "bluebox://databundleuuid/version/fileuuid/version#sample.json",
   "metadata_schema" : "version_232",
   "reference_version" : "bluebox://databundleuuid/version#hg19_version_04232017", # Data bundle id
-  “computational_method” :  “url”,
+  "computational_method" :  "url",
   "log" : "bluebox://databundleuuid/version/fileuuid/version#file.log.tar.gz"
- “timings” : {
-    “step_one” : {
-      “start_utc” : “2017-05-18T03:44:23-5:00,
-      “stop_utc”:  “2017-05-18T08:44:23-5:00” },
-    “step_two” : {
-      “start_utc” : “2017-05-18T08:44:23-5:00”,
-      “stop_utc”:  “2017-05-18T14:44:23-5:00” }},
+  "timings" : {
+    "step_one" : {
+      "start_utc" : "2017-05-18T03:44:23-5:00",
+      "stop_utc":  "2017-05-18T08:44:23-5:00" },
+    "step_two" : {
+      "start_utc" : "2017-05-18T08:44:23-5:00",
+      "stop_utc":  "2017-05-18T14:44:23-5:00" }},
   "inputs" : [ # Run specific inputs
-    “left_sample” : {   
+    "left_sample" : {   
       "file_path" : "bluebox://databundleuuid/version/fileuuid/version#file.bam",
       "file_type" : "fastq",
-      “checksum”: d0f7d08f1980f7980f
+      "checksum": d0f7d08f1980f7980f
     },
-   “right_sample” : {   
+   "right_sample" : {   
       "file_path" : "bluebox://databundleuuid/version/fileuuid/version#file.bam",
       "file_type" : "fastq",
-      “checksum”: d0f7d18f7980f7980f
+      "checksum": d0f7d18f7980f7980f
     },
   ],  
   "outputs" : [ 
-   “aligned_bam” : {   
+   "aligned_bam" : {   
       "file_path" : "bluebox://databundleuuid/version/fileuuid/version#file.bam",
       "file_type" : "bam",
-      “checksum”: d0f7d08f7980f7910f
+      "checksum": d0f7d08f7980f7910f
     },
-   “expression_matrix” : {   
+   "expression_matrix" : {   
       "file_path" : "bluebox://databundleuuid/version/fileuuid/version#file.txt",
       "file_type" : "bam",
-      “checksum”: d0f7d08f7910f7980f
+      "checksum": d0f7d08f7910f7980f
     },
-    “report_qc” : {   
+    "report_qc" : {   
       "file_path" : "bluebox://databundleuuid/version/fileuuid/version#qc.txt",
       "file_type" : "text",
-      “checksum”: d0f7d18f7980f7980f
+      "checksum": d0f7d18f7980f7980f
     }
   ]
 }
