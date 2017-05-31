@@ -39,3 +39,5 @@ NOTE: we need to get the real fastq files
 
 ## TODO
 * we need to check the fastq files, I don't think they are correct since we expect multiple fastq files per data bundle.
+* we have a cell.json and sample.json... do we need both?
+* 
