@@ -37,7 +37,9 @@ NOTE: we need to get the real fastq files
 
 ## 10x
 
-## TODO
+## TODO & Questions for the Group
 * we need to check the fastq files, I don't think they are correct since we expect multiple fastq files per data bundle.
-* we have a cell.json and sample.json... do we need both?
-* 
+* we have a cell.json and sample.json... do we need both? Laura and Tim think it's overlapping for sample and should just use sample.json.
+* where does quality control for a release go?
+* what about samples being run multiple times (multiple lanes)?  Do they get individual data bundles or a single data bundle which has been combined?  
+*
