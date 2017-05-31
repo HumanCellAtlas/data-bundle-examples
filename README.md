@@ -21,6 +21,14 @@ Downloads the fastq files associated with each example:
 
 ## smartseq2
 
-This is E-MTAB-5061.  I'm basing this on Jim's example see his google doc [here](https://docs.google.com/document/d/1QSd_nnTUFSBMUnXvlva8ouzcuX5s8ljeBCLXU4afpQs/edit).
+This is E-MTAB-5061.  This is based on Jim's example, see his google doc [here](https://docs.google.com/document/d/1QSd_nnTUFSBMUnXvlva8ouzcuX5s8ljeBCLXU4afpQs/edit).
 
-Jim made several hundred sample bundles, we're just storing the first one in this repo.
+Jim made several hundred sample bundles, we're just storing the first one in this repo that corresponds to a single cell.
+
+## dropseq
+
+This is E-GEOD-81904.  This is based on Jim's example, see his google doc [here](https://docs.google.com/document/d/1CNFGWxsrrc8vVn4PBsojfb1aAM_dkwfHrJW0vjR_ulU/edit).
+
+Jim made several bundles (one per sample), we're just storing the first one in this repo that corresponds to a single sample and multiple cells.
+
+ 
