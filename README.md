@@ -25,10 +25,14 @@ This is E-MTAB-5061.  This is based on Jim's example, see his google doc [here](
 
 Jim made several hundred sample bundles, we're just storing the first one in this repo that corresponds to a single cell.
 
+NOTE: we need to get the real fastq files 
+
 ## dropseq
 
 This is E-GEOD-81904.  This is based on Jim's example, see his google doc [here](https://docs.google.com/document/d/1CNFGWxsrrc8vVn4PBsojfb1aAM_dkwfHrJW0vjR_ulU/edit).
 
 Jim made several bundles (one per sample), we're just storing the first one in this repo that corresponds to a single sample and multiple cells.
+
+NOTE: we need to get the real fastq files
 
 ## 10x
