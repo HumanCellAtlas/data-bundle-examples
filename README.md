@@ -25,7 +25,7 @@ This is E-MTAB-5061.  This is based on Jim's example, see his google doc [here](
 
 Jim made several hundred sample bundles, we're just storing the first one in this repo that corresponds to a single cell.
 
-NOTE: we need to get the real fastq files 
+NOTE: we need to get the real fastq files
 
 ## dropseq
 
@@ -36,3 +36,6 @@ Jim made several bundles (one per sample), we're just storing the first one in t
 NOTE: we need to get the real fastq files
 
 ## 10x
+
+## TODO
+* we need to check the fastq files, I don't think they are correct since we expect multiple fastq files per data bundle.
