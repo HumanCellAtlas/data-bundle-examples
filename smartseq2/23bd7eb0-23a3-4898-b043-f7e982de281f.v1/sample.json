@@ -1,1 +1,22 @@
-#todo
+{
+   "uuid" : "ad8d0ac6-3ff1-49e6-8871-6204d3bd6045",
+   "biosd_sample" : "SAMEA4437021",
+   "body_part" : {
+      "organ" : "pancreas",
+      "source" : "Prodo Laboratories Inc.",
+      "name" : "pancreatic islets"
+   },
+   "donor" : {
+      "species" : "Homo sapiens",
+      "sex" : "male",
+      "disease" : "normal",
+      "age_unit" : "year",
+      "body_mass_index" : "30.8",
+      "life_stage" : "postpartum",
+      "uuid" : "08965457-c5aa-43de-894c-cc01483a5691",
+      "id" : "AZ",
+      "age" : "43",
+      "ncbi_taxon" : "9606"
+   },
+   "ena_sample" : "ERS1348470"
+}
