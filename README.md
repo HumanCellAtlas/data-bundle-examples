@@ -25,7 +25,7 @@ This is E-MTAB-5061.  This is based on Jim's example, see his google doc [here](
 
 Jim made several hundred sample bundles, we're just storing the first one in this repo that corresponds to a single cell.
 
-NOTE: we need to get the real fastq files
+According to Array Express: "Libraries were sequenced on an Illumina HiSeq 2000, generating 43 bp single-end reads." So I believe the single file is correct.
 
 ## dropseq
 
@@ -37,11 +37,16 @@ NOTE: we need to get the real fastq files
 
 ## 10x
 
+This is based on Jim's example, see his google doc [here](https://docs.google.com/document/d/1iu03FdjLH9TjDS3XN135l0G1sSmsnR6tS7_Kp2yMkEg/edit).
+
+See https://support.10xgenomics.com/single-cell-gene-expression/datasets/pbmc8k
 
 
 ## TODO & Questions for the Group
+* the analysis.json files need to be redone to show an upload not an alignment
 * we need to check the fastq files, I don't think they are correct since we expect multiple fastq files per data bundle.
+    * smartseq2 I think is correct since it's a single-end experiment
+    * dropseq I think is missing the fastq1 file since it was converted from BAM, so this is lost?
 * we have a cell.json and sample.json... do we need both? Laura and Tim think it's overlapping for sample and should just use sample.json.
 * where does quality control for a release go?
 * what about samples being run multiple times (multiple lanes)?  Do they get individual data bundles or a single data bundle which has been combined?  
-*
