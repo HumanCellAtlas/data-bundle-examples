@@ -1,1 +1,66 @@
-#todo once upstream json are defined.
+{
+   "inputs" : [
+   ],
+   "timestamp_start_utc" : "2017-05-18T03:44:23-5:00",
+   "analysis_id" : 4342342,
+   "outputs" : [
+      {
+         "fastq1" : {
+            "file_path" : "bluebox://databundleuuid/version/fileuuid/version#pbmc8k_S1_L007_I1_001.fastq.gz",
+            "checksum" : "d0f7d08f7980f7910f",
+            "file_type" : "fastq.gz"
+         }
+      },
+      {
+         "fastq1" : {
+            "file_path" : "bluebox://databundleuuid/version/fileuuid/version#pbmc8k_S1_L007_R1_001.fastq.gz",
+            "checksum" : "839f7d08f7980f7910f",
+            "file_type" : "fastq.gz"
+         }
+      },
+      {
+         "fastq1" : {
+            "file_path" : "bluebox://databundleuuid/version/fileuuid/version#pbmc8k_S1_L007_R2_001.fastq.gz",
+            "checksum" : "228398f7980f7910f",
+            "file_type" : "fastq.gz"
+         }
+      },
+      {
+         "fastq1" : {
+            "file_path" : "bluebox://databundleuuid/version/fileuuid/version#pbmc8k_S1_L008_I1_001.fastq.gz",
+            "checksum" : "928s7d08f7980f7910f",
+            "file_type" : "fastq.gz"
+         }
+      },
+      {
+         "fastq1" : {
+            "file_path" : "bluebox://databundleuuid/version/fileuuid/version#pbmc8k_S1_L008_R1_001.fastq.gz",
+            "checksum" : "092397d08f7980f7910f",
+            "file_type" : "fastq.gz"
+         }
+      },
+      {
+         "fastq1" : {
+            "file_path" : "bluebox://databundleuuid/version/fileuuid/version#pbmc8k_S1_L008_R2_001.fastq.gz",
+            "checksum" : "11232f7980f7910f",
+            "file_type" : "fastq.gz"
+         }
+      },
+   ],
+   "log" : "bluebox://databundleuuid/version/fileuuid/version#file.log.tar.gz",
+   "sample_json" : "bluebox://databundleuuid/version/fileuuid/version#sample.json",
+   "timestamp_stop_utc" : "2017-05-18T014:44:23-5:00",
+   "computational_method" : "https://www.dockstore.org:8443/api/ga4gh/v1/tools/quay.io%2Fhca%2Fdockstore-hca-uploader/",
+   "reference_version" : "bluebox://databundleuuid/version#hg19_version_04232017",
+   "timings" : {
+      "step_upload" : {
+         "stop_utc" : "2017-05-18T08:44:23-5:00",
+         "start_utc" : "2017-05-18T03:44:23-5:00"
+      },
+      "step_registration" : {
+         "start_utc" : "2017-05-18T08:44:23-5:00",
+         "stop_utc" : "2017-05-18T14:44:23-5:00"
+      }
+   },
+   "metadata_schema" : "version_232"
+}
