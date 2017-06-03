@@ -1,0 +1,59 @@
+{
+   "inputs" : [
+      {
+         "left_sample" : {
+            "file_path" : "bluebox://13bd7eb0-23a3-4898-b043-f7e98223281g/v1/12bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_R1.fastq.gz",
+            "checksum" : "d0f7d08f1980f7980f",
+            "format" : "fastq.gz"
+         }
+      },
+      {
+         "right_sample" : {
+            "file_path" : "bluebox://13bd7eb0-23a3-4898-b043-f7e98223281g/v1/01bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_R2.fastq.gz",
+            "checksum" : "d0f7d18f7980f7980f"
+            "format" : "fastq.gz",
+         }
+      }
+   ],
+   "timestamp_start_utc" : "2017-05-18T03:44:23-5:00",
+   "analysis_id" : 4342342,
+   "outputs" : [
+      {
+         "aligned_bam" : {
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/02bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq.bam",
+            "checksum" : "d0f7d08f7980f7910f",
+            "format" : "bam"
+         }
+      },
+      {
+         "expression_matrix" : {
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/03bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_expression.txt"
+            "checksum" : "d0f7d08f7910f7980f",
+            "format" : "expression_matrix",
+         }
+      },
+      {
+         "report_qc" : {
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_qc.txt",
+            "checksum" : "d0f7d18f7980f7980f",
+            "format" : "qc_matrix"
+         }
+      }
+   ],
+   "log" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_log.tar.gz",
+   "sample_json" : "bluebox://13bd7eb0-23a3-4898-b043-f7e98223281g/v1/06bd7eb0-23a3-4898-b043-f7e982de281g/v1#sample.json",
+   "timestamp_stop_utc" : "2017-05-18T014:44:23-5:00",
+   "computational_method" : "repository://url",
+   "reference_version" : "bluebox://03gh7eb0-23a3-4898-b043-f7e982de281b/v1/07bd7eb0-23a3-4898-b043-f7e982de281g/v1#hg_19.fasta",
+   "timings" : {
+      "step_one" : {
+         "stop_utc" : "2017-05-18T08:44:23-5:00",
+         "start_utc" : "2017-05-18T03:44:23-5:00"
+      },
+      "step_two" : {
+         "start_utc" : "2017-05-18T08:44:23-5:00",
+         "stop_utc" : "2017-05-18T14:44:23-5:00"
+      }
+   },
+   "metadata_schema" : "version_232"
+}

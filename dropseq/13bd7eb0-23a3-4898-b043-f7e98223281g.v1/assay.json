@@ -8,7 +8,11 @@
    "files" : [
       {
          "format" : "fastq.gz",
-         "name" : "E-GEOD-81904.GSM2177575_Bipolar6.fastq.gz"
+         "name" : "E-GEOD-81904.GSM2177575_Bipolar6_R1.fastq.gz"
+      },
+      {
+         "format" : "fastq.gz",
+         "name" : "E-GEOD-81904.GSM2177575_Bipolar6_R2.fastq.gz"
       }
    ],
    "seq" : {
