@@ -59,19 +59,19 @@ See https://support.10xgenomics.com/single-cell-gene-expression/datasets/pbmc8k
 
 ### General
 1. The analysis.json files need to be redone to show an upload not an alignment.
-    -- What do you mean by this? Analysis.json (now provenance.json) are generated after a green run not a purple upload [from Tim].
+    * What do you mean by this? Analysis.json (now provenance.json) are generated after a green run not a purple upload [from Tim].
 2. We need to check the fastq files, I don't think they are correct since we expect multiple fastq files per data bundle.
     * Smartseq2 I think is correct since it's a single-end experiment
-        -- this is not standard, Smartseq2 is expected to be paired sequencing [from Tim]
+        * this is not standard, Smartseq2 is expected to be paired sequencing [from Tim]
     * Drop-seq I think is missing the fastq1 file since it was converted from BAM, so this is lost?
-        -- Agreed, this would happen if the bam was post alignment, pre-annotation [from Tim].
-        -- I have some files for Smartseq2 and Drop-seq, where can I put them for the get_data.sh to pull. Also have associated output files that were ran on pipelines from the input data. It would be great to wget these files not to the data folder but into thier respective bundles [from Tim].
+        * Agreed, this would happen if the bam was post alignment, pre-annotation [from Tim].
+        * I have some files for Smartseq2 and Drop-seq, where can I put them for the get_data.sh to pull. Also have associated output files that were ran on pipelines from the input data. It would be great to wget these files not to the data folder but into thier respective bundles [from Tim].
 3. We have a cell.json and sample.json... do we need both? Laura and Tim think it's overlapping for sample and should just use sample.json.
-    -- Agreed, moved to an attic space for now [from Tim].
+    * Agreed, moved to an attic space for now [from Tim].
 4. Where does quality control for a release go?
-    -- Would we want the release to be a bundle that contains the products of the release process (in line with our handling of green runs)? I would like to see in the release a file manifest, indication of white/grey/black listing, information about the criteria to be in each listing (because this may change between releases), time/date info [from Tim].
+    * Would we want the release to be a bundle that contains the products of the release process (in line with our handling of green runs)? I would like to see in the release a file manifest, indication of white/grey/black listing, information about the criteria to be in each listing (because this may change between releases), time/date info [from Tim].
 5. What about samples being run multiple times (multiple lanes)?  Do they get individual data bundles or a single data bundle which has been combined?
-    -- My current thinking is that I feel this is best served by updating a bundle but not making a new one [Tim].
+    * My current thinking is that I feel this is best served by updating a bundle but not making a new one [Tim].
 6. What will be the input file format expected in the system? Are we going to start with fastq.gz file uploads or something else? [from Tim]
 7. Do we want to store the expression matrices in a format more usable for sparse data [from Tim]?
-    -- I am inclinded to say yes [Tim].
+    * I am inclinded to say yes [Tim].
