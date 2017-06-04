@@ -43,14 +43,14 @@
    "log" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#smartseq2_log.tar.gz",
    "sample_json" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/06bd7eb0-23a3-4898-b043-f7e982de281g/v1#sample.json",
    "timestamp_stop_utc" : "2017-05-18T014:44:23-5:00",
-   "computational_method" : "repository://url",
+   "computational_method" : "https://www.dockstore.org:8443/api/ga4gh/v1/tools/quay.io%2Fhca%2Fdockstore-hca-uploader/",
    "reference_version" : "bluebox://03gh7eb0-23a3-4898-b043-f7e982de281b/v1/07bd7eb0-23a3-4898-b043-f7e982de281g/v1#hg_19.fasta",
    "timings" : {
-      "step_one" : {
+      "step_upload" : {
          "stop_utc" : "2017-05-18T08:44:23-5:00",
          "start_utc" : "2017-05-18T03:44:23-5:00"
       },
-      "step_two" : {
+      "step_align" : {
          "start_utc" : "2017-05-18T08:44:23-5:00",
          "stop_utc" : "2017-05-18T14:44:23-5:00"
       }
