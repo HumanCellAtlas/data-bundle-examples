@@ -1,0 +1,29 @@
+{
+   "single_cell" : {
+      "cell_barcode_size" : "12",
+      "method" : "drop-seq",
+      "cell_barcode_offset" : "0"
+   },
+   "sra_experiment" : "SRX1800080",
+   "files" : [
+      {
+         "format" : "fastq.gz",
+         "name" : "E-GEOD-81904.GSM2177575_Bipolar6_R1.fastq.gz"
+      },
+      {
+         "format" : "fastq.gz",
+         "name" : "E-GEOD-81904.GSM2177575_Bipolar6_R2.fastq.gz"
+      }
+   ],
+   "seq" : {
+      "prep" : "modified Nextera XT",
+      "molecule" : "RNA",
+      "umi_barcode_offset" : "12",
+      "machine" : "Illumina NextSeq 500",
+      "umi_barcode_size" : "8",
+      "paired_ends" : "no"
+   },
+   "rna" : {
+      "primer" : "poly-dt"
+   }
+}
