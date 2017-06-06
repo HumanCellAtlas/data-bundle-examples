@@ -14,10 +14,19 @@
       {
          "format" : "tiff",
          "name" : "fov_001_stack.tiff"
+      },
+      {
+         "format" : "csv",
+         "name" : "codebook.csv"
       }
    ],
    "seq" : {
       "molecule" : "RNA",
-      "paired_ends" : "options are yes/no/index1_reads2 (for 10x and drop-seq)"
+      "paired_ends" : "options are yes/no/index1_reads2 (for 10x and drop-seq)",
+      "prep": "?? - DNA sequencing library preparation kit",
+      "machine" : "?? -- should this say something about microscope"
+   },
+   "rna": {
+      "rna_primer": "?? - primer for cDNA synthesis from RNA",
    }
 }
