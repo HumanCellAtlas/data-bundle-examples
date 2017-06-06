@@ -1,21 +1,16 @@
 
 {
-   "short_label" : "Bipolar6",
-   "geo_id" : "GSM2177575",
-   "uuid" : "c53a6a6c-6d58-43f9-95c6-bb94cb6a9660",
+   "short_label" : "U2OS Cells",
+   "long_label" : "Osteosarcoma from the tibia of a 15 year old",
+   "uuid" : "5f16b743defc4b5c8717f023f9921069",
    "body_part" : {
-      "ontology" : "UBERON:0000966",
-      "organ" : "eye",
-      "name" : "retina"
+      "name" : "tibia"
    },
    "donor" : {
-      "life_stage" : "postpartum",
-      "uuid" : "d9ce7fe5-c9bd-4fcf-8ffc-ece609823d38",
-      "age_unit" : "day",
-      "age" : "17",
-      "ncbi_taxon" : "10090",
-      "genotype" : "Vsx2-GFP",
-      "species" : "Mus musculus"
-   },
-   "long_label" : "P17 Vsx2-GFP mouse retina 6 (Batch 2)"
+      "id": "U2",
+      "uuid": "a1ef5009045f42e88a0e3db1d1f2b050",
+      "life_stage" : "child",
+      "age": "15",
+      "species": "Homo sapiens",
+   }
 }
