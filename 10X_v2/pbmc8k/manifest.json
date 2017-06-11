@@ -1,0 +1,22 @@
+{
+    "version": "1",
+    "dir": "http://hgwdev.soe.ucsc.edu/~kent/hca/10x_examples/chosenSets/pbmc8k/bundles.1/bundle1/",
+    "files": [
+        {
+            "format": ".fastq.gz", 
+            "name": "pbmc8k_S1_L007_R1_001.fastq.gz"
+        }, 
+        {
+            "format": ".fastq.gz", 
+            "name": "pbmc8k_S1_L007_R2_001.fastq.gz" 
+        }, 
+        {
+            "format": ".fastq.gz", 
+            "name": "pbmc8k_S1_L008_R1_001.fastq.gz" 
+        }, 
+        {
+            "format": ".fastq.gz", 
+            "name": "pbmc8k_S1_L008_R2_001.fastq.gz" 
+        }
+   ]
+}
