@@ -1,27 +1,29 @@
 {
-   "seq" : {
-      "molecule" : "RNA",
-      "umi_barcode_size" : "0",
-      "machine" : "Illumina HiSeq 2000",
-      "paired_ends" : "no"
-   },
-   "ena_run" : "ERR1630013",
-   "rna" : {
-      "spike_in_dilution" : "40000",
-      "prep" : "smart-seq2",
-      "primer" : "random",
-      "spike_in" : "ERCC"
-   },
-   "ena_experiment" : "ERX1700346",
-   "single_cell" : {
-      "method" : "FACS",
-      "cell_barcode_size" : "0"
-   },
-   "files" : [
-      {
-         "format" : "fastq.gz",
-         "name" : "ERR1630013.fastq.gz",
-         "type" : "single_read"
-      }
-   ]
+    "ena_experiment": "ERX1700346", 
+    "ena_run": "ERR1630013", 
+    "files": [
+        {
+            "format": ".fastq.gz", 
+            "name": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1630013/ERR1630013.fastq.gz", 
+            "type": "reads"
+        }
+    ], 
+    "rna": {
+        "prep": "smart-seq2", 
+        "primer": "random", 
+        "spike_in": "ERCC", 
+        "spike_in_dilution": "40000", 
+        "strand": "both"
+    }, 
+    "seq": {
+        "machine": "Illumina HiSeq 2000", 
+        "molecule": "RNA", 
+        "paired_ends": "no", 
+        "umi_barcode_size": "0"
+    }, 
+    "single_cell": {
+        "cell_barcode_size": "0", 
+        "method": "FACS"
+    }, 
+    "submitted_file_names": "AZ_A1.fastq.gz"
 }
