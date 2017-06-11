@@ -1,20 +1,28 @@
 {
-   "short_label" : "Bipolar6",
-   "geo_id" : "GSM2177575",
-   "uuid" : "c53a6a6c-6d58-43f9-95c6-bb94cb6a9660",
-   "body_part" : {
-      "ontology" : "UBERON:0000966",
-      "organ" : "eye",
-      "name" : "retina"
-   },
-   "donor" : {
-      "life_stage" : "postpartum",
-      "uuid" : "d9ce7fe5-c9bd-4fcf-8ffc-ece609823d38",
-      "age_unit" : "day",
-      "age" : "17",
-      "ncbi_taxon" : "10090",
-      "genotype" : "Vsx2-GFP",
-      "species" : "Mus musculus"
-   },
-   "long_label" : "P17 Vsx2-GFP mouse retina 6 (Batch 2)"
+    "body_part": {
+        "name": "retina", 
+        "ontology": "UBERON:0000966", 
+        "organ": "eye"
+    }, 
+    "donor": {
+        "age": "17", 
+        "age_unit": "day", 
+        "genotype": "Vsx2-GFP", 
+        "life_stage": "postpartum", 
+        "ncbi_taxon": "10090", 
+        "species": "Mus musculus"
+    }, 
+    "geo_sample": "GSM2177570", 
+    "last_update_date": "2016-08-25", 
+    "long_label": "P17 Vsx2-GFP sorted mouse bipolar retina cells 1 (Batch 1)", 
+    "ncbi_biosample": "SAMN05177285", 
+    "protocols": [
+        {
+            "description": "suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads. Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol.", 
+            "type": "nucleic acid library construction protocol"
+        }
+    ], 
+    "short_label": "retina bipolar 1", 
+    "submission_date": "2016-05-25", 
+    "uuid": "5aca931f-9c88-4483-ba46-685b70c08a73"
 }
