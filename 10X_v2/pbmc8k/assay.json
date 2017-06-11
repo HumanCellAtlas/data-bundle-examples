@@ -1,44 +1,39 @@
 {
-   "files" : [
-      {
-         "format" : "fastq.gz",
-         "name" : "pbmc8k_S1_L007_R1_001.fastq.gz",
-         "lane" : "7",
-         "type" : "10x_barcodes"
-      },
-      {
-         "format" : "fastq.gz",
-         "lane" : "7",
-         "type" : "10x_transcript",
-         "name" : "pbmc8k_S1_L007_R2_001.fastq.gz"
-      },
-      {
-         "format" : "fastq.gz",
-         "name" : "pbmc8k_S1_L008_R1_001.fastq.gz",
-         "type" : "10x_barcodes",
-         "lane" : "8"
-      },
-      {
-         "name" : "pbmc8k_S1_L008_R2_001.fastq.gz",
-         "lane" : "8",
-         "type" : "10x_transcript",
-         "format" : "fastq.gz"
-      }
-   ],
-   "rna" : {
-      "primer" : "poly-dt"
-   },
-   "seq" : {
-      "umi_barcode_size" : "10",
-      "paired_ends" : "index1_data2",
-      "umi_barcode_offset" : "16",
-      "machine" : "Illumina HiSeq 4000",
-      "molecule" : "RNA"
-   },
-   "single_cell" : {
-      "method_version" : "2",
-      "cell_barcode_offset" : "0",
-      "method" : "10x Chromium",
-      "cell_barcode_size" : "16"
-   }
+    "files": [
+        {
+            "format": ".fastq.gz", 
+            "name": "pbmc8k_S1_L007_R1_001.fastq.gz", 
+            "type": "index"
+        }, 
+        {
+            "format": ".fastq.gz", 
+            "name": "pbmc8k_S1_L007_R2_001.fastq.gz", 
+            "type": "reads"
+        }, 
+        {
+            "format": ".fastq.gz", 
+            "name": "pbmc8k_S1_L008_R1_001.fastq.gz", 
+            "type": "index"
+        }, 
+        {
+            "format": ".fastq.gz", 
+            "name": "pbmc8k_S1_L008_R2_001.fastq.gz", 
+            "type": "reads"
+        }
+    ], 
+    "rna": {
+        "primer": "poly-dt"
+    }, 
+    "seq": {
+        "machine": "Illumina HiSeq 4000", 
+        "molecule": "RNA", 
+        "paired_ends": "index1_reads2", 
+        "umi_barcode_offset": "16", 
+        "umi_barcode_size": "10"
+    }, 
+    "single_cell": {
+        "cell_barcode_offset": "0", 
+        "cell_barcode_size": "16", 
+        "method": "10x_v2"
+    }
 }
