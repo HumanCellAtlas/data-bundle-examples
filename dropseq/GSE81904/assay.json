@@ -3,11 +3,13 @@
         {
             "format": ".fastq.gz", 
             "name": "SRR3587500_1.fastq.gz", 
+	    "lane": "1",
             "type": "index"
         }, 
         {
             "format": ".fastq.gz", 
             "name": "SRR3587500_2.fastq.gz", 
+	    "lane": "1",
             "type": "reads"
         }
     ], 

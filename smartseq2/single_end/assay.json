@@ -5,6 +5,7 @@
         {
             "format": ".fastq.gz", 
             "name": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1630013/ERR1630013.fastq.gz", 
+	    "lane": "1",
             "type": "reads"
         }
     ], 
