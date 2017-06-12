@@ -3,25 +3,25 @@
         {
             "format": ".fastq.gz", 
             "name": "pbmc8k_S1_L007_R1_001.fastq.gz", 
-	    "land": "7",
+	    "lane": "7",
             "type": "index"
         }, 
         {
             "format": ".fastq.gz", 
             "name": "pbmc8k_S1_L007_R2_001.fastq.gz", 
-	    "land": "7",
+	    "lane": "7",
             "type": "reads"
         }, 
         {
             "format": ".fastq.gz", 
             "name": "pbmc8k_S1_L008_R1_001.fastq.gz", 
-	    "land": "8",
+	    "lane": "8",
             "type": "index"
         }, 
         {
             "format": ".fastq.gz", 
             "name": "pbmc8k_S1_L008_R2_001.fastq.gz", 
-	    "land": "8",
+	    "lane": "8",
             "type": "reads"
         }
     ], 
