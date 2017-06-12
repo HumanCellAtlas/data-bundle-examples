@@ -26,10 +26,10 @@ project.release_status 2015-04-28
 project.summary "From the arcuate nucleus of mice, we have dissociated neurons that express Proopiomelanocortin(POMC) and captured them on the Fluidigm C1 platform. These neurons play important roles in the regulation of appetite and sexual behavior. Here we propose to sequence RNA from 96 single POMC-expressing neurons to understand the variance in their transcriptomes. This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/"
 project.title RNAseq of mouse POMC neurons
 sample.donor.sex male
-sample.donor.species House mouse
+sample.donor.species Mus musculus
 sample.protocol_types nucleic acid library construction protocol,nucleic acid sequencing protocol
 sample.protocols qPCR only,Illumina HiSeq 2500
-sample.enrichment POMC+
+sample.treatment.enrichment POMC+
 
 	sample.ena_sample ERS639336
 	sample.submitted_id ERS639336

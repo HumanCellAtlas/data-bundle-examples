@@ -27,7 +27,7 @@ project.last_update_date 2017-05-26
 project.ncbi_bioproject PRJNA323370
 project.overall_design Drop-Seq was performed on two different batches. Bipolar1-Bipolar4 are replicates from batch 1 and Bipolar5-6 are replicates from Batch 2
 project.pmid 27565351
-project.release_status Public on Aug 25 2016
+project.release_status 2016-08-25
 project.sra_project SRP075719
 project.submission_date 2016-05-25
 project.summary "Vsx2-GFP mouse retinas were dissected, FACS sorted for GFP+ cells and single-cell mRNAseq libraries generated with Drop-Seq"

@@ -1,6 +1,16 @@
 project.id 10x_pbmc8k
 project.title Peripheral blood mononuclear cells (PBMCs) from a healthy donor
 project.uuid 7068d6f8-31aa-405f-b02d-51ce7361b686
+project.contact.email info@10xgenomics.com
+project.contact.phone +1 925 401 7300
+project.contact.address 7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA
+project.contact.institute 10X Genomics Inc.
+project.contact.name 10X Genomics Inc.
+project.contact.street_address 7068 Koll Center Parkway Suite 401
+project.contact.city Pleasanton
+project.contact.state CA
+project.contact.country USA
+project.summary "Peripheral blood mononuclear cells (PBMCs) from a healthy donor (same donor as pbmc4k). PBMCs are primary cells with relatively small amounts of RNA (~1pg RNA/cell). Used Chromium v2 chemistry and Cell Ranger 1.3.0 software.  8403 cells were detected."
 sample.donor.species Homo sapiens
 sample.donor.ncbi_taxon 9606
 sample.donor.life_stage adult

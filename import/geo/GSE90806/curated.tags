@@ -1,18 +1,19 @@
 project.id GSE90806
 sample.donor.genotype AAV-GFP+ RIP-Cre+
 assay.single_cell.method mouth pipette
-assay.rna.primer cDNA
+assay.rna.primer poly-dt
 assay.seq.paired_ends no
 sample.body_part.organ brain
 sample.body_part.name arcuate nucleus and median eminence of hypothalamus
 sample.donor.age 63
 sample.donor.age_unit day
-sample.donor.live_stage adult
+sample.donor.life_stage adult
+sample.donor.sex male
 # After here mostly machine generated
 assay.rna.prep transcriptomic
 assay.seq.machine Illumina NextSeq 500
 assay.seq.molecule polyA RNA
-project.contact.address "Center for Life Science, room 7-717; Boston, Massachusetts 02115 USA"
+project.contact.address "Center for Life Science, room 7-717; Boston, MA 02115 USA"
 project.contact.city Boston
 project.contact.country USA
 project.contact.department Medicine
@@ -22,7 +23,7 @@ project.contact.laboratory Lowell Lab
 project.contact.name "John,N,Campbell"
 project.contact.phone 3392229246
 project.contact.postal_code 02115
-project.contact.state Massachusetts
+project.contact.state MA
 project.contact.street_address "Center for Life Science, room 7-717"
 project.contributor "Linus,T,Tsai","John,N,Campbell"
 project.geo_series GSE90806
@@ -30,7 +31,7 @@ project.last_update_date 2017-06-05
 project.ncbi_bioproject PRJNA355987
 project.overall_design Single-cell RNA-seq was performed on Cre-dependent AAV-GFP+ cells that were manually isolated from dissociated Arc-ME of two adult male RIP-Cre mice
 project.pmid 28166221
-project.release_status Public on Feb 06 2017
+project.release_status 2017-02-06
 project.sra_project SRP094469
 project.submission_date 2016-12-02
 project.summary Drop-seq and single cell sequencing of mouse arcuate nucleus and median eminence
@@ -39,7 +40,6 @@ project.title A Molecular Census of Arcuate Hypothalamus and Median Eminence Cel
 project.uuid 24ec624c-fe81-4482-9766-a86d7840140f
 sample.data_processing Base calls performed with bcl2fastq2.15.0.4,"Alignment by TopHat v2.0.14. [Using “-M”, “--no-coverage-search”, “--segment-length 10”]","Removal of duplicates and low quality reads, indexing, and sorting: Picard 2.5.0 and samtools 0.1.19.",Assigned reads to features: featureCounts-1.4.6. [Using recommended setting and a custom meta-annotation that merges overlapping isoforms.],Genome_build: Genome_build: mm10 (GRCm38),Supplementary_files_format_and_content: CSV file containing expression values by sample (columns) and gene ID (rows)
 sample.donor.ncbi_taxon 10090
-sample.donor.sex M
 sample.donor.species Mus musculus
 sample.donor.strain (C57BL/6 x DBA)F2
 sample.last_update_date 2017-02-06

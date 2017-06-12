@@ -15,7 +15,7 @@ project.last_update_date 2017-06-02
 project.ncbi_bioproject PRJNA304993
 project.overall_design "Cells were collected from in vitro clonal expansions, or from tissue or blood, to study the effect of relatedness and cell size on allele-specific expression"
 project.pmid 27668657
-project.release_status Public on Sep 26 2016
+project.release_status 2016-09-26
 project.sra_project SRP066963
 project.submission_date 2015-12-03
 project.summary "Cellular heterogeneity can emerge from the expression of only one parental allele, however it has remained unknown to what degree patterns of random monoallelic expression of autosomal genes (aRME) are mitotically inherited (clonal) or stochastic (dynamic) in somatic cells. Here, we resolved this by applying allele-sensitive single-cell RNA-seq on primary mouse fibroblasts and in vivo human T-cells to simultaneously investigate clonal and dynamic aRME. Dynamic aRME affected a considerable portion of the transcriptome, with levels dependent on the cell’s transcriptional activity, but clonal aRME was surprisingly scarce (<1% of genes) and affected mainly lowly expressed genes. Consequently, the overwhelming portion of aRME occurs transiently and is scattered throughout somatic populations rather than, as previously hypothesized, confined to spatially restricted patches of clonally related cells."
@@ -43,6 +43,7 @@ sample.protocol_types nucleic acid library construction protocol
 
 			sample.body_part.cell_count 1
 			cell.type CD8+ T cell
+			sample.body_part.name CD8+ T cell
 			sample.treatment.culture_type tissue
 			sample.treatment.enrichment CD3+ CD8+
 			sample.long_label in vivo CD3+ CD8+ T cells
@@ -3930,6 +3931,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962631/suppl/GSM1962631_Tcell_person1_P1299_2152_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461737
 
 			cell.type CD8+ T cell
+			sample.body_part.name CD8+ T cell
 			sample.treatment.enrichment CD3+ CD8+
 			sample.treatment.culture_type primary culture
 			sample.body_part.cell_count 1
@@ -6394,6 +6396,7 @@ sample.protocol_types nucleic acid library construction protocol
 				sample.donor.sex female
 
 					cell.type fibroblast
+					sample.body_part.name fibroblast
 					sample.treatment.culture_type primary culture
 					sample.body_part.cell_count 1
 					sample.long_label single.fibroblast
@@ -7504,6 +7507,7 @@ sample.protocol_types nucleic acid library construction protocol
 					assay.sra_experiment SRX1460976
 					assay.sra_run SRR2971603
 					cell.type fibroblast
+					sample.body_part.name fibroblast
 					sample.culture_type primary culture
 					sample.body_part.cell_count 15
 					sample.short_label 15 fibroblasts
@@ -7516,6 +7520,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961870/suppl/GSM1961870_fibroblast.120.cl7_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460976
 
 					cell.type fibroblast
+					sample.body_part.name fibroblast
 					sample.body_part.cell_count 5
 					sample.culture_type primary culture
 					sample.short_label 5 fibroblasts
@@ -7539,6 +7544,7 @@ sample.protocol_types nucleic acid library construction protocol
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961872/suppl/GSM1961872_fibroblast.122.cl7_5.pooled.cells_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460978
 
 					cell.type fibroblast
+					sample.body_part.name fibroblast
 					sample.body_part.cell_count 0.5
 					sample.culture_type primary culture
 					sample.short_label split fibroblast
@@ -7804,6 +7810,7 @@ sample.protocol_types nucleic acid library construction protocol
 				sample.donor.sex male
 
 					cell.type fibroblast
+					sample.body_part.name fibroblast
 					sample.culture_type primary culture
 					sample.body_part.cell_count 1
 					sample.short_label E15 fibroblast
@@ -8084,7 +8091,8 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.donor.age adult
 
 						cell.type fibroblast
-						sample.body_part.cell_type 1
+						sample.body_part.name fibroblast
+						sample.body_part.cell_count 1
 						sample.short_label fibroblast
 						sample.long_label fibroblast with no clonal expansion
 
@@ -8747,6 +8755,7 @@ sample.protocol_types nucleic acid library construction protocol
 						assay.sra_experiment SRX1461125
 						assay.sra_run SRR2971752
 						cell.type fibroblast
+						sample.body_part.name fibroblast
 						sample.culture_type primary culture
 						sample.body_part.cell_count 0.5
 						sample.short_label split fibroblast
@@ -8766,6 +8775,7 @@ sample.protocol_types nucleic acid library construction protocol
 
 					sample.body_part.organ brain
 					cell.type brain cell
+					sample.body_part.name brain cell
 					sample.short_label E15 brain cell
 					sample.long_label brain cell from 15 day embryo mouse
 
@@ -8798,6 +8808,7 @@ sample.protocol_types nucleic acid library construction protocol
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962055/suppl/GSM1962055_brain.305_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461161
 
 					cell.type hepatocyte
+					sample.body_part.name hepatocyte
 					sample.body_part.organ liver
 					sample.donor.age 15
 					sample.donor.age_unit day
@@ -9023,6 +9034,7 @@ sample.protocol_types nucleic acid library construction protocol
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962086/suppl/GSM1962086_liver.336_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461192
 
 			cell.type fibroblast
+			sample.body_part.name fibroblast
 			sample.body_part.cell_count 1
 			sample.long_label mouse fibroblast 
 			sample.short_label fibroblast
@@ -9078,8 +9090,10 @@ sample.protocol_types nucleic acid library construction protocol
 		sample.submission_date 2016-04-19
 
 			cell.type fibroblast
+			sample.body_part.name fibroblast
 			sample.body_part.cell_count 1
-			sample.long_label single.fibroblast
+			sample.short_label fibroblast
+			sample.long_label mouse fibroblast
 			sample.characteristics_cross CASTxC57
 
 				assay.sra_experiment SRX1714297
@@ -9661,6 +9675,8 @@ sample.protocol_types nucleic acid library construction protocol
 			assay.rna.strand first
 			assay.rna.prep Illumina TruSeq
 			cell.type fibroblast
+			sample.body_part.name fibroblast
+			sample.short_label fibroblast
 			sample.long_label Fibroblast culture
 			sample.characteristics_cross C57xCAST
 			sample.geo_sample GSM2127554
@@ -9675,6 +9691,7 @@ sample.protocol_types nucleic acid library construction protocol
 #	sample.body_part.organ blood
 #	sample.treatment.culture_type tissue
 #	cell.type peripheral blood mononuclear cells
+#	sample.body_part.name peripheral blood mononuclear cells
 #	sample.data_processing genome build:  hg19,Aligned reads with rna-star,Calculated expression values with rpkmforgenes.py (available at https://github.com/danielramskold/S3_species-specific_sequencing) with options -readcount -fulltranscript -mRNAnorm -rmnameoverlap -bothendceil and gene annotation for the UCSC genome browser Ensembl track,Supplementary_files_format_and_content: Tab-delimited text files report RPKMs and read counts.
 #	sample.donor.life_stage adult
 #	sample.donor.ncbi_taxon 9606

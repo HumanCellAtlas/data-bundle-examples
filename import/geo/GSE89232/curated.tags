@@ -6,7 +6,7 @@ assay.seq.molecule polyA RNA
 assay.seq.paired_ends no
 assay.seq.prep DNA Library Prep kit (Nextera XT; Illumina)
 assay.single_cell.method FACS
-project.contact.address "1230 York Ave.; New York, New York 10065 USA"
+project.contact.address "1230 York Ave.; New York, NY 10065 USA"
 project.contact.city New York
 project.contact.country USA
 project.contact.department "Immunology, Virology and Microbiology"
@@ -15,8 +15,8 @@ project.contact.institute The Rockefeller University
 project.contact.laboratory Laboratory of Molecular Immunology
 project.contact.name "Thiago,Y,Oliveira"
 project.contact.postal_code 10065
-project.contact.state New York
-project.contact.street_address 1230 YORK AVE
+project.contact.state NY
+project.contact.street_address 1230 York Ave
 project.contributor "Thiago,,Oliveira","Rahul,,Satija"
 project.geo_doc_id 200089232
 project.geo_series GSE89232
@@ -24,7 +24,7 @@ project.last_update_date 2017-06-02
 project.ncbi_bioproject PRJNA350790
 project.overall_design "RNA seq libraries from 957 single cells were prepared using the SMART-Seq 2 protocol (Picelli et al., 2013)",341 Blood pre-cDC (Blood pre-cDC_S* data columns in the expMatrix.txt),452 CB pre-cDC (CB pre-cDC_S* data columns in the expMatrix.txt),87 CD141+ cDC (blood_bdca3_S* data columns in the expMatrix.txt),77 CD1c+ cDC (blood_bdca1_S* data columns in the expMatrix.txt)
 project.pmid 27864467
-project.release_status Public on Nov 15 2016
+project.release_status 2016-11-15
 project.sra_project SRP092166
 project.submission_date 2016-10-27
 project.summary "Here, we use a microfluidics-based approach to prepare single-cell RNA-Seq libraries from 164 primary human conventional dendritic cells (cDCs) as well as cord blood (452) and blood (341) pre-cDCs. We examined heterogeneity between individual cells to document potential subpopulations within human cDCs and pre-cDCs."
