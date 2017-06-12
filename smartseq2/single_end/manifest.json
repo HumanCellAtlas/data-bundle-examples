@@ -4,8 +4,7 @@
     "files": [
         {
             "format": ".fastq.gz", 
-            "name": "ERR1630013.fastq.gz", 
-            "type": "reads"
+            "name": "ERR1630013.fastq.gz"
         }
    ]
 }

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "We need to find a better solution for this than this script.  I'm disabling it for now"
+echo "rather than update the uuid.v1 names to point to the right place. -Jim Kent"
+exit -1
+
 # downloads data files too big to store on github
 
 # smartseq2
