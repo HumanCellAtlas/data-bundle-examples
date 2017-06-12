@@ -1,0 +1,2354 @@
+project.id E-MTAB-2805
+assay.single_cell.method Fluidigm C1
+assay.seq.molecule RNA
+assay.rna.primer random
+assay.rna.spike_in ERCC
+sample.treatment.culture_type cell line
+sample.body_part.cell_count 1
+sample.cell_line AB2.2
+sample.storage fresh
+sample.body_part.name embryonic stem cell
+cell.type embyronic stem cell
+# After this is mostly machine generated
+assay.seq.machine Illumina HiSeq 2000
+assay.seq.paired_ends yes
+assay.seq.prep Nextera XT
+project.array_express.accession E-MTAB-2805
+project.array_express.experiment_type RNA-seq of coding RNA from single cells
+project.array_express.term_source_file http://www.ebi.ac.uk/efo,http://www.ebi.ac.uk/arrayexpress
+project.array_express.term_source_name EFO,ArrayExpress
+project.contact.email kedarnat@ebi.ac.uk
+project.contact.institute EMBL-EBI, Wellcome Trust Genome Campus, Cambridge
+project.contact.name "Kedar,N,Natarajan"
+project.contributor "Kedar,N,Natarajan"
+project.ddjb_trace_project ERP006670
+project.experimental_factor_name cell cycle stage
+project.mage_tab_version 1.1
+project.overall_design cell type comparison design,in_vitro_design,co-expression_design
+project.publication_author_list Natarajan, K
+project.release_status 2014-12-29
+project.summary "In this study, we aimed to study the gene expression patterns at single cell level across the different cell cycle stages in mESC. We performed single cell RNA-Seq experiment on mESC that were stained with Hoechst 33342 and Flow cytometry sorted for G1, S and G2M stages of cell cycle. Single cell RNA-Seq was performed using Fluidigm C1 system and libraries were generated using Nextera XT (Illumina) kit."
+project.supplementary_files ERCC_Sequences.txt
+project.title Gene expression pattern of single mES cells during cell cycle stages
+project.uuid 8573819D-DDDE-4472-BADE-D3871027CB4D
+sample.donor.species Mus musculus
+sample.protocol_types growth protocol,sample collection protocol,treatment protocol,nucleic acid extraction protocol,nucleic acid library construction protocol,nucleic acid sequencing protocol,high throughput sequence alignment protocol,normalization data transformation protocol
+sample.protocols "mESC were grown in standard 2i media. The media composition was N2B27 basal media (NDiff 227, StemCells), 100 U/ml recombinant human leukemia inhibitory factor (Millipore), 1M PD0325901 (Stemgent), 3M CHIR99021 (Stemgent).","Sorted cells corresponding to cycle fractions (G1, S and G2M) were collected and loaded on the 10-17 micron Fluidigm C1 Single-Cell Auto Prep IFC.","For sorting of cell cycle fractions (G1, S and G2M), cells were trypisinized and stained with Hoechst 33342 (5_M) for 30min at 37C. Cells were sorted based on Hoechst staining for G1, S and G2M stages of cell cycle.","For each cell cycle fraction, 3000 cells were loaded onto a 10-17 micron Fluidigm C1 Single-Cell Auto Prep IFC and cell capture was performed as per manufacturers protocol. Single cell capture, lysis, Reverse transcription and cDNA amplification are performed using the SMARTer cDNA synthesis kit (Clonetech) and Advantage2PCR kit (Clonetech) with 1:100 ratio of spike in (Ambion), within the IFC inside the C1-Autoprep system as per manufacturers protocol.",Harvested cDNA from single cells after C1-Autoprep system run were used to make single cell libraries using Nextera XT DNA sample preparation kit (Illumina) utilising 96 dual barcoded indices. Library poolup was performed using AMPure XP beads (Agencourt Biosciences) and single cell libraries were sent for paired end sequencing at the Wellcome Trust Sequencing facility,Single cell libraries were multiplexed and sequenced across 4 lanes of HiSeq 2000 (Illumina) using 100bp paired-end sequencing.,As per Wellcome Trust Sequencing pipeline guidelines,Mapping for each single cell dataset was done using GSNAP/GMAP (released on 2014-01-21) to a custom mouse genome (mm10; Ensembl GRCm38.p1) including ERCC sequences. Mapped reads were counted using HTSeq (0.6.1)
+sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/MTAB/E-MTAB-2805/E-MTAB-2805.processed.1.zip
+
+	cell.cell_cycle G1
+	sample.short_label G1 phase mESCs
+	sample.long_label G1 phase mouse embryonic stem cell line AB2.2
+
+		cell.id G1_cell1
+		assay.ena_experiment ERX538284
+		assay.ena_run ERR580157
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580157/ERR580157_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580157/ERR580157_2.fastq.gz
+		assay.submitted_file_names G1_Cell1_1.fastq.gz,G1_Cell1_2.fastq.gz
+		sample.ena_sample ERS527385
+		sample.submitted_id G1_cell1
+
+		cell.id G1_cell2
+		assay.ena_experiment ERX538181
+		assay.ena_run ERR580026
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580026/ERR580026_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580026/ERR580026_2.fastq.gz
+		assay.submitted_file_names G1_Cell2_1.fastq.gz,G1_Cell2_2.fastq.gz
+		sample.ena_sample ERS527282
+		sample.submitted_id G1_cell2
+
+		cell.id G1_cell3
+		assay.ena_experiment ERX538422
+		assay.ena_run ERR580203
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580203/ERR580203_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580203/ERR580203_2.fastq.gz
+		assay.submitted_file_names G1_Cell3_1.fastq.gz,G1_Cell3_2.fastq.gz
+		sample.ena_sample ERS527523
+		sample.submitted_id G1_cell3
+
+		cell.id G1_cell4
+		assay.ena_experiment ERX538339
+		assay.ena_run ERR580180
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580180/ERR580180_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580180/ERR580180_2.fastq.gz
+		assay.submitted_file_names G1_Cell4_1.fastq.gz,G1_Cell4_2.fastq.gz
+		sample.ena_sample ERS527440
+		sample.submitted_id G1_cell4
+
+		cell.id G1_cell5
+		assay.ena_experiment ERX538331
+		assay.ena_run ERR580113
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580113/ERR580113_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580113/ERR580113_2.fastq.gz
+		assay.submitted_file_names G1_Cell5_1.fastq.gz,G1_Cell5_2.fastq.gz
+		sample.ena_sample ERS527432
+		sample.submitted_id G1_cell5
+
+		cell.id G1_cell6
+		assay.ena_experiment ERX538256
+		assay.ena_run ERR580065
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580065/ERR580065_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580065/ERR580065_2.fastq.gz
+		assay.submitted_file_names G1_Cell6_1.fastq.gz,G1_Cell6_2.fastq.gz
+		sample.ena_sample ERS527357
+		sample.submitted_id G1_cell6
+
+		cell.id G1_cell7
+		assay.ena_experiment ERX538373
+		assay.ena_run ERR580207
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580207/ERR580207_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580207/ERR580207_2.fastq.gz
+		assay.submitted_file_names G1_Cell7_1.fastq.gz,G1_Cell7_2.fastq.gz
+		sample.ena_sample ERS527474
+		sample.submitted_id G1_cell7
+
+		cell.id G1_cell8
+		assay.ena_experiment ERX538157
+		assay.ena_run ERR580012
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580012/ERR580012_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580012/ERR580012_2.fastq.gz
+		assay.submitted_file_names G1_Cell8_1.fastq.gz,G1_Cell8_2.fastq.gz
+		sample.ena_sample ERS527258
+		sample.submitted_id G1_cell8
+
+		cell.id G1_cell9
+		assay.ena_experiment ERX538210
+		assay.ena_run ERR580262
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580262/ERR580262_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580262/ERR580262_2.fastq.gz
+		assay.submitted_file_names G1_Cell9_1.fastq.gz,G1_Cell9_2.fastq.gz
+		sample.ena_sample ERS527311
+		sample.submitted_id G1_cell9
+
+		cell.id G1_cell10
+		assay.ena_experiment ERX538258
+		assay.ena_run ERR580037
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580037/ERR580037_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580037/ERR580037_2.fastq.gz
+		assay.submitted_file_names G1_Cell10_1.fastq.gz,G1_Cell10_2.fastq.gz
+		sample.ena_sample ERS527359
+		sample.submitted_id G1_cell10
+
+		cell.id G1_cell11
+		assay.ena_experiment ERX538249
+		assay.ena_run ERR580215
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580215/ERR580215_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580215/ERR580215_2.fastq.gz
+		assay.submitted_file_names G1_Cell11_1.fastq.gz,G1_Cell11_2.fastq.gz
+		sample.ena_sample ERS527350
+		sample.submitted_id G1_cell11
+
+		cell.id G1_cell12
+		assay.ena_experiment ERX538334
+		assay.ena_run ERR580258
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580258/ERR580258_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580258/ERR580258_2.fastq.gz
+		assay.submitted_file_names G1_Cell12_1.fastq.gz,G1_Cell12_2.fastq.gz
+		sample.ena_sample ERS527435
+		sample.submitted_id G1_cell12
+
+		cell.id G1_cell13
+		assay.ena_experiment ERX538354
+		assay.ena_run ERR580031
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580031/ERR580031_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580031/ERR580031_2.fastq.gz
+		assay.submitted_file_names G1_Cell13_1.fastq.gz,G1_Cell13_2.fastq.gz
+		sample.ena_sample ERS527455
+		sample.submitted_id G1_cell13
+
+		cell.id G1_cell14
+		assay.ena_experiment ERX538140
+		assay.ena_run ERR580277
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580277/ERR580277_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580277/ERR580277_2.fastq.gz
+		assay.submitted_file_names G1_Cell14_1.fastq.gz,G1_Cell14_2.fastq.gz
+		sample.ena_sample ERS527241
+		sample.submitted_id G1_cell14
+
+		cell.id G1_cell15
+		assay.ena_experiment ERX538216
+		assay.ena_run ERR580175
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580175/ERR580175_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580175/ERR580175_2.fastq.gz
+		assay.submitted_file_names G1_Cell15_1.fastq.gz,G1_Cell15_2.fastq.gz
+		sample.ena_sample ERS527317
+		sample.submitted_id G1_cell15
+
+		cell.id G1_cell16
+		assay.ena_experiment ERX538404
+		assay.ena_run ERR580295
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580295/ERR580295_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580295/ERR580295_2.fastq.gz
+		assay.submitted_file_names G1_Cell16_1.fastq.gz,G1_Cell16_2.fastq.gz
+		sample.ena_sample ERS527505
+		sample.submitted_id G1_cell16
+
+		cell.id G1_cell17
+		assay.ena_experiment ERX538167
+		assay.ena_run ERR580142
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580142/ERR580142_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580142/ERR580142_2.fastq.gz
+		assay.submitted_file_names G1_Cell17_1.fastq.gz,G1_Cell17_2.fastq.gz
+		sample.ena_sample ERS527268
+		sample.submitted_id G1_cell17
+
+		cell.id G1_cell18
+		assay.ena_experiment ERX538241
+		assay.ena_run ERR580029
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580029/ERR580029_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580029/ERR580029_2.fastq.gz
+		assay.submitted_file_names G1_Cell18_1.fastq.gz,G1_Cell18_2.fastq.gz
+		sample.ena_sample ERS527342
+		sample.submitted_id G1_cell18
+
+		cell.id G1_cell19
+		assay.ena_experiment ERX538254
+		assay.ena_run ERR580291
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580291/ERR580291_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580291/ERR580291_2.fastq.gz
+		assay.submitted_file_names G1_Cell19_1.fastq.gz,G1_Cell19_2.fastq.gz
+		sample.ena_sample ERS527355
+		sample.submitted_id G1_cell19
+
+		cell.id G1_cell20
+		assay.ena_experiment ERX538341
+		assay.ena_run ERR580024
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580024/ERR580024_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580024/ERR580024_2.fastq.gz
+		assay.submitted_file_names G1_Cell20_1.fastq.gz,G1_Cell20_2.fastq.gz
+		sample.ena_sample ERS527442
+		sample.submitted_id G1_cell20
+
+		cell.id G1_cell21
+		assay.ena_experiment ERX538390
+		assay.ena_run ERR580195
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580195/ERR580195_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580195/ERR580195_2.fastq.gz
+		assay.submitted_file_names G1_Cell21_1.fastq.gz,G1_Cell21_2.fastq.gz
+		sample.ena_sample ERS527491
+		sample.submitted_id G1_cell21
+
+		cell.id G1_cell22
+		assay.ena_experiment ERX538230
+		assay.ena_run ERR580103
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580103/ERR580103_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580103/ERR580103_2.fastq.gz
+		assay.submitted_file_names G1_Cell22_1.fastq.gz,G1_Cell22_2.fastq.gz
+		sample.ena_sample ERS527331
+		sample.submitted_id G1_cell22
+
+		cell.id G1_cell23
+		assay.ena_experiment ERX538159
+		assay.ena_run ERR580284
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580284/ERR580284_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580284/ERR580284_2.fastq.gz
+		assay.submitted_file_names G1_Cell23_1.fastq.gz,G1_Cell23_2.fastq.gz
+		sample.ena_sample ERS527260
+		sample.submitted_id G1_cell23
+
+		cell.id G1_cell24
+		assay.ena_experiment ERX538355
+		assay.ena_run ERR580068
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580068/ERR580068_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580068/ERR580068_2.fastq.gz
+		assay.submitted_file_names G1_Cell24_1.fastq.gz,G1_Cell24_2.fastq.gz
+		sample.ena_sample ERS527456
+		sample.submitted_id G1_cell24
+
+		cell.id G1_cell25
+		assay.ena_experiment ERX538333
+		assay.ena_run ERR580181
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580181/ERR580181_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580181/ERR580181_2.fastq.gz
+		assay.submitted_file_names G1_Cell25_1.fastq.gz,G1_Cell25_2.fastq.gz
+		sample.ena_sample ERS527434
+		sample.submitted_id G1_cell25
+
+		cell.id G1_cell26
+		assay.ena_experiment ERX538273
+		assay.ena_run ERR580285
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580285/ERR580285_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580285/ERR580285_2.fastq.gz
+		assay.submitted_file_names G1_Cell26_1.fastq.gz,G1_Cell26_2.fastq.gz
+		sample.ena_sample ERS527374
+		sample.submitted_id G1_cell26
+
+		cell.id G1_cell27
+		assay.ena_experiment ERX538182
+		assay.ena_run ERR580094
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580094/ERR580094_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580094/ERR580094_2.fastq.gz
+		assay.submitted_file_names G1_Cell27_1.fastq.gz,G1_Cell27_2.fastq.gz
+		sample.ena_sample ERS527283
+		sample.submitted_id G1_cell27
+
+		cell.id G1_cell28
+		assay.ena_experiment ERX538286
+		assay.ena_run ERR580230
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580230/ERR580230_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580230/ERR580230_2.fastq.gz
+		assay.submitted_file_names G1_Cell28_1.fastq.gz,G1_Cell28_2.fastq.gz
+		sample.ena_sample ERS527387
+		sample.submitted_id G1_cell28
+
+		cell.id G1_cell29
+		assay.ena_experiment ERX538240
+		assay.ena_run ERR580287
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580287/ERR580287_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580287/ERR580287_2.fastq.gz
+		assay.submitted_file_names G1_Cell29_1.fastq.gz,G1_Cell29_2.fastq.gz
+		sample.ena_sample ERS527341
+		sample.submitted_id G1_cell29
+
+		cell.id G1_cell30
+		assay.ena_experiment ERX538226
+		assay.ena_run ERR580143
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580143/ERR580143_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580143/ERR580143_2.fastq.gz
+		assay.submitted_file_names G1_Cell30_1.fastq.gz,G1_Cell30_2.fastq.gz
+		sample.ena_sample ERS527327
+		sample.submitted_id G1_cell30
+
+		cell.id G1_cell31
+		assay.ena_experiment ERX538394
+		assay.ena_run ERR580077
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580077/ERR580077_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580077/ERR580077_2.fastq.gz
+		assay.submitted_file_names G1_Cell31_1.fastq.gz,G1_Cell31_2.fastq.gz
+		sample.ena_sample ERS527495
+		sample.submitted_id G1_cell31
+
+		cell.id G1_cell32
+		assay.ena_experiment ERX538371
+		assay.ena_run ERR580102
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580102/ERR580102_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580102/ERR580102_2.fastq.gz
+		assay.submitted_file_names G1_Cell32_1.fastq.gz,G1_Cell32_2.fastq.gz
+		sample.ena_sample ERS527472
+		sample.submitted_id G1_cell32
+
+		cell.id G1_cell33
+		assay.ena_experiment ERX538201
+		assay.ena_run ERR580097
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580097/ERR580097_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580097/ERR580097_2.fastq.gz
+		assay.submitted_file_names G1_Cell33_1.fastq.gz,G1_Cell33_2.fastq.gz
+		sample.ena_sample ERS527302
+		sample.submitted_id G1_cell33
+
+		cell.id G1_cell34
+		assay.ena_experiment ERX538313
+		assay.ena_run ERR580281
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580281/ERR580281_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580281/ERR580281_2.fastq.gz
+		assay.submitted_file_names G1_Cell34_1.fastq.gz,G1_Cell34_2.fastq.gz
+		sample.ena_sample ERS527414
+		sample.submitted_id G1_cell34
+
+		cell.id G1_cell35
+		assay.ena_experiment ERX538387
+		assay.ena_run ERR580152
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580152/ERR580152_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580152/ERR580152_2.fastq.gz
+		assay.submitted_file_names G1_Cell35_1.fastq.gz,G1_Cell35_2.fastq.gz
+		sample.ena_sample ERS527488
+		sample.submitted_id G1_cell35
+
+		cell.id G1_cell36
+		assay.ena_experiment ERX538346
+		assay.ena_run ERR580162
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580162/ERR580162_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580162/ERR580162_2.fastq.gz
+		assay.submitted_file_names G1_Cell36_1.fastq.gz,G1_Cell36_2.fastq.gz
+		sample.ena_sample ERS527447
+		sample.submitted_id G1_cell36
+
+		cell.id G1_cell37
+		assay.ena_experiment ERX538144
+		assay.ena_run ERR580192
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580192/ERR580192_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580192/ERR580192_2.fastq.gz
+		assay.submitted_file_names G1_Cell37_1.fastq.gz,G1_Cell37_2.fastq.gz
+		sample.ena_sample ERS527245
+		sample.submitted_id G1_cell37
+
+		cell.id G1_cell38
+		assay.ena_experiment ERX538243
+		assay.ena_run ERR580101
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580101/ERR580101_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580101/ERR580101_2.fastq.gz
+		assay.submitted_file_names G1_Cell38_1.fastq.gz,G1_Cell38_2.fastq.gz
+		sample.ena_sample ERS527344
+		sample.submitted_id G1_cell38
+
+		cell.id G1_cell39
+		assay.ena_experiment ERX538304
+		assay.ena_run ERR580117
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580117/ERR580117_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580117/ERR580117_2.fastq.gz
+		assay.submitted_file_names G1_Cell39_1.fastq.gz,G1_Cell39_2.fastq.gz
+		sample.ena_sample ERS527405
+		sample.submitted_id G1_cell39
+
+		cell.id G1_cell40
+		assay.ena_experiment ERX538141
+		assay.ena_run ERR580164
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580164/ERR580164_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580164/ERR580164_2.fastq.gz
+		assay.submitted_file_names G1_Cell40_1.fastq.gz,G1_Cell40_2.fastq.gz
+		sample.ena_sample ERS527242
+		sample.submitted_id G1_cell40
+
+		cell.id G1_cell41
+		assay.ena_experiment ERX538262
+		assay.ena_run ERR580115
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580115/ERR580115_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580115/ERR580115_2.fastq.gz
+		assay.submitted_file_names G1_Cell41_1.fastq.gz,G1_Cell41_2.fastq.gz
+		sample.ena_sample ERS527363
+		sample.submitted_id G1_cell41
+
+		cell.id G1_cell42
+		assay.ena_experiment ERX538301
+		assay.ena_run ERR580085
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580085/ERR580085_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580085/ERR580085_2.fastq.gz
+		assay.submitted_file_names G1_Cell42_1.fastq.gz,G1_Cell42_2.fastq.gz
+		sample.ena_sample ERS527402
+		sample.submitted_id G1_cell42
+
+		cell.id G1_cell43
+		assay.ena_experiment ERX538220
+		assay.ena_run ERR580129
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580129/ERR580129_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580129/ERR580129_2.fastq.gz
+		assay.submitted_file_names G1_Cell43_1.fastq.gz,G1_Cell43_2.fastq.gz
+		sample.ena_sample ERS527321
+		sample.submitted_id G1_cell43
+
+		cell.id G1_cell44
+		assay.ena_experiment ERX538223
+		assay.ena_run ERR580196
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580196/ERR580196_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580196/ERR580196_2.fastq.gz
+		assay.submitted_file_names G1_Cell44_1.fastq.gz,G1_Cell44_2.fastq.gz
+		sample.ena_sample ERS527324
+		sample.submitted_id G1_cell44
+
+		cell.id G1_cell45
+		assay.ena_experiment ERX538161
+		assay.ena_run ERR580186
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580186/ERR580186_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580186/ERR580186_2.fastq.gz
+		assay.submitted_file_names G1_Cell45_1.fastq.gz,G1_Cell45_2.fastq.gz
+		sample.ena_sample ERS527262
+		sample.submitted_id G1_cell45
+
+		cell.id G1_cell46
+		assay.ena_experiment ERX538403
+		assay.ena_run ERR580214
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580214/ERR580214_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580214/ERR580214_2.fastq.gz
+		assay.submitted_file_names G1_Cell46_1.fastq.gz,G1_Cell46_2.fastq.gz
+		sample.ena_sample ERS527504
+		sample.submitted_id G1_cell46
+
+		cell.id G1_cell47
+		assay.ena_experiment ERX538209
+		assay.ena_run ERR580109
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580109/ERR580109_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580109/ERR580109_2.fastq.gz
+		assay.submitted_file_names G1_Cell47_1.fastq.gz,G1_Cell47_2.fastq.gz
+		sample.ena_sample ERS527310
+		sample.submitted_id G1_cell47
+
+		cell.id G1_cell48
+		assay.ena_experiment ERX538265
+		assay.ena_run ERR580061
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580061/ERR580061_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580061/ERR580061_2.fastq.gz
+		assay.submitted_file_names G1_Cell48_1.fastq.gz,G1_Cell48_2.fastq.gz
+		sample.ena_sample ERS527366
+		sample.submitted_id G1_cell48
+
+		cell.id G1_cell49
+		assay.ena_experiment ERX538187
+		assay.ena_run ERR580125
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580125/ERR580125_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580125/ERR580125_2.fastq.gz
+		assay.submitted_file_names G1_Cell49_1.fastq.gz,G1_Cell49_2.fastq.gz
+		sample.ena_sample ERS527288
+		sample.submitted_id G1_cell49
+
+		cell.id G1_cell50
+		assay.ena_experiment ERX538192
+		assay.ena_run ERR580188
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580188/ERR580188_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580188/ERR580188_2.fastq.gz
+		assay.submitted_file_names G1_Cell50_1.fastq.gz,G1_Cell50_2.fastq.gz
+		sample.ena_sample ERS527293
+		sample.submitted_id G1_cell50
+
+		cell.id G1_cell51
+		assay.ena_experiment ERX538375
+		assay.ena_run ERR580139
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580139/ERR580139_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580139/ERR580139_2.fastq.gz
+		assay.submitted_file_names G1_Cell51_1.fastq.gz,G1_Cell51_2.fastq.gz
+		sample.ena_sample ERS527476
+		sample.submitted_id G1_cell51
+
+		cell.id G1_cell52
+		assay.ena_experiment ERX538277
+		assay.ena_run ERR580198
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580198/ERR580198_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580198/ERR580198_2.fastq.gz
+		assay.submitted_file_names G1_Cell52_1.fastq.gz,G1_Cell52_2.fastq.gz
+		sample.ena_sample ERS527378
+		sample.submitted_id G1_cell52
+
+		cell.id G1_cell53
+		assay.ena_experiment ERX538228
+		assay.ena_run ERR580133
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580133/ERR580133_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580133/ERR580133_2.fastq.gz
+		assay.submitted_file_names G1_Cell53_1.fastq.gz,G1_Cell53_2.fastq.gz
+		sample.ena_sample ERS527329
+		sample.submitted_id G1_cell53
+
+		cell.id G1_cell54
+		assay.ena_experiment ERX538186
+		assay.ena_run ERR580221
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580221/ERR580221_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580221/ERR580221_2.fastq.gz
+		assay.submitted_file_names G1_Cell54_1.fastq.gz,G1_Cell54_2.fastq.gz
+		sample.ena_sample ERS527287
+		sample.submitted_id G1_cell54
+
+		cell.id G1_cell55
+		assay.ena_experiment ERX538175
+		assay.ena_run ERR580052
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580052/ERR580052_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580052/ERR580052_2.fastq.gz
+		assay.submitted_file_names G1_Cell55_1.fastq.gz,G1_Cell55_2.fastq.gz
+		sample.ena_sample ERS527276
+		sample.submitted_id G1_cell55
+
+		cell.id G1_cell56
+		assay.ena_experiment ERX538388
+		assay.ena_run ERR580271
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580271/ERR580271_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580271/ERR580271_2.fastq.gz
+		assay.submitted_file_names G1_Cell56_1.fastq.gz,G1_Cell56_2.fastq.gz
+		sample.ena_sample ERS527489
+		sample.submitted_id G1_cell56
+
+		cell.id G1_cell57
+		assay.ena_experiment ERX538303
+		assay.ena_run ERR580135
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580135/ERR580135_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580135/ERR580135_2.fastq.gz
+		assay.submitted_file_names G1_Cell57_1.fastq.gz,G1_Cell57_2.fastq.gz
+		sample.ena_sample ERS527404
+		sample.submitted_id G1_cell57
+
+		cell.id G1_cell58
+		assay.ena_experiment ERX538397
+		assay.ena_run ERR580219
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580219/ERR580219_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580219/ERR580219_2.fastq.gz
+		assay.submitted_file_names G1_Cell58_1.fastq.gz,G1_Cell58_2.fastq.gz
+		sample.ena_sample ERS527498
+		sample.submitted_id G1_cell58
+
+		cell.id G1_cell59
+		assay.ena_experiment ERX538198
+		assay.ena_run ERR580226
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580226/ERR580226_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580226/ERR580226_2.fastq.gz
+		assay.submitted_file_names G1_Cell59_1.fastq.gz,G1_Cell59_2.fastq.gz
+		sample.ena_sample ERS527299
+		sample.submitted_id G1_cell59
+
+		cell.id G1_cell60
+		assay.ena_experiment ERX538264
+		assay.ena_run ERR580140
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580140/ERR580140_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580140/ERR580140_2.fastq.gz
+		assay.submitted_file_names G1_Cell60_1.fastq.gz,G1_Cell60_2.fastq.gz
+		sample.ena_sample ERS527365
+		sample.submitted_id G1_cell60
+
+		cell.id G1_cell61
+		assay.ena_experiment ERX538194
+		assay.ena_run ERR580161
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580161/ERR580161_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580161/ERR580161_2.fastq.gz
+		assay.submitted_file_names G1_Cell61_1.fastq.gz,G1_Cell61_2.fastq.gz
+		sample.ena_sample ERS527295
+		sample.submitted_id G1_cell61
+
+		cell.id G1_cell62
+		assay.ena_experiment ERX538420
+		assay.ena_run ERR580015
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580015/ERR580015_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580015/ERR580015_2.fastq.gz
+		assay.submitted_file_names G1_Cell62_1.fastq.gz,G1_Cell62_2.fastq.gz
+		sample.ena_sample ERS527521
+		sample.submitted_id G1_cell62
+
+		cell.id G1_cell63
+		assay.ena_experiment ERX538193
+		assay.ena_run ERR580145
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580145/ERR580145_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580145/ERR580145_2.fastq.gz
+		assay.submitted_file_names G1_Cell63_1.fastq.gz,G1_Cell63_2.fastq.gz
+		sample.ena_sample ERS527294
+		sample.submitted_id G1_cell63
+
+		cell.id G1_cell64
+		assay.ena_experiment ERX538246
+		assay.ena_run ERR580201
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580201/ERR580201_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580201/ERR580201_2.fastq.gz
+		assay.submitted_file_names G1_Cell64_1.fastq.gz,G1_Cell64_2.fastq.gz
+		sample.ena_sample ERS527347
+		sample.submitted_id G1_cell64
+
+		cell.id G1_cell65
+		assay.ena_experiment ERX538319
+		assay.ena_run ERR580280
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580280/ERR580280_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580280/ERR580280_2.fastq.gz
+		assay.submitted_file_names G1_Cell65_1.fastq.gz,G1_Cell65_2.fastq.gz
+		sample.ena_sample ERS527420
+		sample.submitted_id G1_cell65
+
+		cell.id G1_cell66
+		assay.ena_experiment ERX538145
+		assay.ena_run ERR580055
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580055/ERR580055_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580055/ERR580055_2.fastq.gz
+		assay.submitted_file_names G1_Cell66_1.fastq.gz,G1_Cell66_2.fastq.gz
+		sample.ena_sample ERS527246
+		sample.submitted_id G1_cell66
+
+		cell.id G1_cell67
+		assay.ena_experiment ERX538200
+		assay.ena_run ERR580131
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580131/ERR580131_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580131/ERR580131_2.fastq.gz
+		assay.submitted_file_names G1_Cell67_1.fastq.gz,G1_Cell67_2.fastq.gz
+		sample.ena_sample ERS527301
+		sample.submitted_id G1_cell67
+
+		cell.id G1_cell68
+		assay.ena_experiment ERX538279
+		assay.ena_run ERR580099
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580099/ERR580099_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580099/ERR580099_2.fastq.gz
+		assay.submitted_file_names G1_Cell68_1.fastq.gz,G1_Cell68_2.fastq.gz
+		sample.ena_sample ERS527380
+		sample.submitted_id G1_cell68
+
+		cell.id G1_cell69
+		assay.ena_experiment ERX538349
+		assay.ena_run ERR580240
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580240/ERR580240_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580240/ERR580240_2.fastq.gz
+		assay.submitted_file_names G1_Cell69_1.fastq.gz,G1_Cell69_2.fastq.gz
+		sample.ena_sample ERS527450
+		sample.submitted_id G1_cell69
+
+		cell.id G1_cell70
+		assay.ena_experiment ERX538364
+		assay.ena_run ERR580218
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580218/ERR580218_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580218/ERR580218_2.fastq.gz
+		assay.submitted_file_names G1_Cell70_1.fastq.gz,G1_Cell70_2.fastq.gz
+		sample.ena_sample ERS527465
+		sample.submitted_id G1_cell70
+
+		cell.id G1_cell71
+		assay.ena_experiment ERX538253
+		assay.ena_run ERR580067
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580067/ERR580067_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580067/ERR580067_2.fastq.gz
+		assay.submitted_file_names G1_Cell71_1.fastq.gz,G1_Cell71_2.fastq.gz
+		sample.ena_sample ERS527354
+		sample.submitted_id G1_cell71
+
+		cell.id G1_cell72
+		assay.ena_experiment ERX538239
+		assay.ena_run ERR580084
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580084/ERR580084_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580084/ERR580084_2.fastq.gz
+		assay.submitted_file_names G1_Cell72_1.fastq.gz,G1_Cell72_2.fastq.gz
+		sample.ena_sample ERS527340
+		sample.submitted_id G1_cell72
+
+		cell.id G1_cell73
+		assay.ena_experiment ERX538391
+		assay.ena_run ERR580282
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580282/ERR580282_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580282/ERR580282_2.fastq.gz
+		assay.submitted_file_names G1_Cell73_1.fastq.gz,G1_Cell73_2.fastq.gz
+		sample.ena_sample ERS527492
+		sample.submitted_id G1_cell73
+
+		cell.id G1_cell74
+		assay.ena_experiment ERX538300
+		assay.ena_run ERR580130
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580130/ERR580130_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580130/ERR580130_2.fastq.gz
+		assay.submitted_file_names G1_Cell74_1.fastq.gz,G1_Cell74_2.fastq.gz
+		sample.ena_sample ERS527401
+		sample.submitted_id G1_cell74
+
+		cell.id G1_cell75
+		assay.ena_experiment ERX538204
+		assay.ena_run ERR580144
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580144/ERR580144_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580144/ERR580144_2.fastq.gz
+		assay.submitted_file_names G1_Cell75_1.fastq.gz,G1_Cell75_2.fastq.gz
+		sample.ena_sample ERS527305
+		sample.submitted_id G1_cell75
+
+		cell.id G1_cell76
+		assay.ena_experiment ERX538154
+		assay.ena_run ERR580233
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580233/ERR580233_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580233/ERR580233_2.fastq.gz
+		assay.submitted_file_names G1_Cell76_1.fastq.gz,G1_Cell76_2.fastq.gz
+		sample.ena_sample ERS527255
+		sample.submitted_id G1_cell76
+
+		cell.id G1_cell77
+		assay.ena_experiment ERX538164
+		assay.ena_run ERR580132
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580132/ERR580132_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580132/ERR580132_2.fastq.gz
+		assay.submitted_file_names G1_Cell77_1.fastq.gz,G1_Cell77_2.fastq.gz
+		sample.ena_sample ERS527265
+		sample.submitted_id G1_cell77
+
+		cell.id G1_cell78
+		assay.ena_experiment ERX538312
+		assay.ena_run ERR580047
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580047/ERR580047_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580047/ERR580047_2.fastq.gz
+		assay.submitted_file_names G1_Cell78_1.fastq.gz,G1_Cell78_2.fastq.gz
+		sample.ena_sample ERS527413
+		sample.submitted_id G1_cell78
+
+		cell.id G1_cell79
+		assay.ena_experiment ERX538310
+		assay.ena_run ERR580034
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580034/ERR580034_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580034/ERR580034_2.fastq.gz
+		assay.submitted_file_names G1_Cell79_1.fastq.gz,G1_Cell79_2.fastq.gz
+		sample.ena_sample ERS527411
+		sample.submitted_id G1_cell79
+
+		cell.id G1_cell80
+		assay.ena_experiment ERX538353
+		assay.ena_run ERR580048
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580048/ERR580048_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580048/ERR580048_2.fastq.gz
+		assay.submitted_file_names G1_Cell80_1.fastq.gz,G1_Cell80_2.fastq.gz
+		sample.ena_sample ERS527454
+		sample.submitted_id G1_cell80
+
+		cell.id G1_cell81
+		assay.ena_experiment ERX538332
+		assay.ena_run ERR580166
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580166/ERR580166_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580166/ERR580166_2.fastq.gz
+		assay.submitted_file_names G1_Cell81_1.fastq.gz,G1_Cell81_2.fastq.gz
+		sample.ena_sample ERS527433
+		sample.submitted_id G1_cell81
+
+		cell.id G1_cell82
+		assay.ena_experiment ERX538293
+		assay.ena_run ERR580216
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580216/ERR580216_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580216/ERR580216_2.fastq.gz
+		assay.submitted_file_names G1_Cell82_1.fastq.gz,G1_Cell82_2.fastq.gz
+		sample.ena_sample ERS527394
+		sample.submitted_id G1_cell82
+
+		cell.id G1_cell83
+		assay.ena_experiment ERX538379
+		assay.ena_run ERR580273
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580273/ERR580273_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580273/ERR580273_2.fastq.gz
+		assay.submitted_file_names G1_Cell83_1.fastq.gz,G1_Cell83_2.fastq.gz
+		sample.ena_sample ERS527480
+		sample.submitted_id G1_cell83
+
+		cell.id G1_cell84
+		assay.ena_experiment ERX538418
+		assay.ena_run ERR580210
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580210/ERR580210_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580210/ERR580210_2.fastq.gz
+		assay.submitted_file_names G1_Cell84_1.fastq.gz,G1_Cell84_2.fastq.gz
+		sample.ena_sample ERS527519
+		sample.submitted_id G1_cell84
+
+		cell.id G1_cell85
+		assay.ena_experiment ERX538171
+		assay.ena_run ERR580045
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580045/ERR580045_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580045/ERR580045_2.fastq.gz
+		assay.submitted_file_names G1_Cell85_1.fastq.gz,G1_Cell85_2.fastq.gz
+		sample.ena_sample ERS527272
+		sample.submitted_id G1_cell85
+
+		cell.id G1_cell86
+		assay.ena_experiment ERX538238
+		assay.ena_run ERR580148
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580148/ERR580148_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580148/ERR580148_2.fastq.gz
+		assay.submitted_file_names G1_Cell86_1.fastq.gz,G1_Cell86_2.fastq.gz
+		sample.ena_sample ERS527339
+		sample.submitted_id G1_cell86
+
+		cell.id G1_cell87
+		assay.ena_experiment ERX538306
+		assay.ena_run ERR580259
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580259/ERR580259_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580259/ERR580259_2.fastq.gz
+		assay.submitted_file_names G1_Cell87_1.fastq.gz,G1_Cell87_2.fastq.gz
+		sample.ena_sample ERS527407
+		sample.submitted_id G1_cell87
+
+		cell.id G1_cell88
+		assay.ena_experiment ERX538148
+		assay.ena_run ERR580261
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580261/ERR580261_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580261/ERR580261_2.fastq.gz
+		assay.submitted_file_names G1_Cell88_1.fastq.gz,G1_Cell88_2.fastq.gz
+		sample.ena_sample ERS527249
+		sample.submitted_id G1_cell88
+
+		cell.id G1_cell89
+		assay.ena_experiment ERX538218
+		assay.ena_run ERR580105
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580105/ERR580105_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580105/ERR580105_2.fastq.gz
+		assay.submitted_file_names G1_Cell89_1.fastq.gz,G1_Cell89_2.fastq.gz
+		sample.ena_sample ERS527319
+		sample.submitted_id G1_cell89
+
+		cell.id G1_cell90
+		assay.ena_experiment ERX538347
+		assay.ena_run ERR580044
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580044/ERR580044_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580044/ERR580044_2.fastq.gz
+		assay.submitted_file_names G1_Cell90_1.fastq.gz,G1_Cell90_2.fastq.gz
+		sample.ena_sample ERS527448
+		sample.submitted_id G1_cell90
+
+		cell.id G1_cell91
+		assay.ena_experiment ERX538411
+		assay.ena_run ERR580245
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580245/ERR580245_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580245/ERR580245_2.fastq.gz
+		assay.submitted_file_names G1_Cell91_1.fastq.gz,G1_Cell91_2.fastq.gz
+		sample.ena_sample ERS527512
+		sample.submitted_id G1_cell91
+
+		cell.id G1_cell92
+		assay.ena_experiment ERX538298
+		assay.ena_run ERR580177
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580177/ERR580177_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580177/ERR580177_2.fastq.gz
+		assay.submitted_file_names G1_Cell92_1.fastq.gz,G1_Cell92_2.fastq.gz
+		sample.ena_sample ERS527399
+		sample.submitted_id G1_cell92
+
+		cell.id G1_cell93
+		assay.ena_experiment ERX538225
+		assay.ena_run ERR580141
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580141/ERR580141_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580141/ERR580141_2.fastq.gz
+		assay.submitted_file_names G1_Cell93_1.fastq.gz,G1_Cell93_2.fastq.gz
+		sample.ena_sample ERS527326
+		sample.submitted_id G1_cell93
+
+		cell.id G1_cell94
+		assay.ena_experiment ERX538160
+		assay.ena_run ERR580293
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580293/ERR580293_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580293/ERR580293_2.fastq.gz
+		assay.submitted_file_names G1_Cell94_1.fastq.gz,G1_Cell94_2.fastq.gz
+		sample.ena_sample ERS527261
+		sample.submitted_id G1_cell94
+
+		cell.id G1_cell95
+		assay.ena_experiment ERX538360
+		assay.ena_run ERR580147
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580147/ERR580147_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580147/ERR580147_2.fastq.gz
+		assay.submitted_file_names G1_Cell95_1.fastq.gz,G1_Cell95_2.fastq.gz
+		sample.ena_sample ERS527461
+		sample.submitted_id G1_cell95
+
+		cell.id G1_cell96
+		assay.ena_experiment ERX538384
+		assay.ena_run ERR580171
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580171/ERR580171_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580171/ERR580171_2.fastq.gz
+		assay.submitted_file_names G1_Cell96_1.fastq.gz,G1_Cell96_2.fastq.gz
+		sample.ena_sample ERS527485
+		sample.submitted_id G1_cell96
+
+	cell.cell_cycle S
+	sample.short_label S phase mESCs
+	sample.long_label S phase mouse embryonic stem cell line AB2.2
+
+		cell.id S_cell1
+		assay.ena_experiment ERX538232
+		assay.ena_run ERR580066
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580066/ERR580066_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580066/ERR580066_2.fastq.gz
+		assay.submitted_file_names S_Cell1_1.fastq.gz,S_Cell1_2.fastq.gz
+		sample.ena_sample ERS527333
+		sample.submitted_id S_cell1
+
+		cell.id S_cell2
+		assay.ena_experiment ERX538252
+		assay.ena_run ERR580176
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580176/ERR580176_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580176/ERR580176_2.fastq.gz
+		assay.submitted_file_names S_Cell2_1.fastq.gz,S_Cell2_2.fastq.gz
+		sample.ena_sample ERS527353
+		sample.submitted_id S_cell2
+
+		cell.id S_cell3
+		assay.ena_experiment ERX538317
+		assay.ena_run ERR580126
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580126/ERR580126_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580126/ERR580126_2.fastq.gz
+		assay.submitted_file_names S_Cell3_1.fastq.gz,S_Cell3_2.fastq.gz
+		sample.ena_sample ERS527418
+		sample.submitted_id S_cell3
+
+		cell.id S_cell4
+		assay.ena_experiment ERX538205
+		assay.ena_run ERR580173
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580173/ERR580173_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580173/ERR580173_2.fastq.gz
+		assay.submitted_file_names S_Cell4_1.fastq.gz,S_Cell4_2.fastq.gz
+		sample.ena_sample ERS527306
+		sample.submitted_id S_cell4
+
+		cell.id S_cell5
+		assay.ena_experiment ERX538195
+		assay.ena_run ERR580014
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580014/ERR580014_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580014/ERR580014_2.fastq.gz
+		assay.submitted_file_names S_Cell5_1.fastq.gz,S_Cell5_2.fastq.gz
+		sample.ena_sample ERS527296
+		sample.submitted_id S_cell5
+
+		cell.id S_cell6
+		assay.ena_experiment ERX538365
+		assay.ena_run ERR580086
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580086/ERR580086_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580086/ERR580086_2.fastq.gz
+		assay.submitted_file_names S_Cell6_1.fastq.gz,S_Cell6_2.fastq.gz
+		sample.ena_sample ERS527466
+		sample.submitted_id S_cell6
+
+		cell.id S_cell7
+		assay.ena_experiment ERX538307
+		assay.ena_run ERR580160
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580160/ERR580160_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580160/ERR580160_2.fastq.gz
+		assay.submitted_file_names S_Cell7_1.fastq.gz,S_Cell7_2.fastq.gz
+		sample.ena_sample ERS527408
+		sample.submitted_id S_cell7
+
+		cell.id S_cell8
+		assay.ena_experiment ERX538342
+		assay.ena_run ERR580093
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580093/ERR580093_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580093/ERR580093_2.fastq.gz
+		assay.submitted_file_names S_Cell8_1.fastq.gz,S_Cell8_2.fastq.gz
+		sample.ena_sample ERS527443
+		sample.submitted_id S_cell8
+
+		cell.id S_cell9
+		assay.ena_experiment ERX538247
+		assay.ena_run ERR580023
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580023/ERR580023_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580023/ERR580023_2.fastq.gz
+		assay.submitted_file_names S_Cell9_1.fastq.gz,S_Cell9_2.fastq.gz
+		sample.ena_sample ERS527348
+		sample.submitted_id S_cell9
+
+		cell.id S_cell10
+		assay.ena_experiment ERX538325
+		assay.ena_run ERR580235
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580235/ERR580235_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580235/ERR580235_2.fastq.gz
+		assay.submitted_file_names S_Cell10_1.fastq.gz,S_Cell10_2.fastq.gz
+		sample.ena_sample ERS527426
+		sample.submitted_id S_cell10
+
+		cell.id S_cell11
+		assay.ena_experiment ERX538285
+		assay.ena_run ERR580278
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580278/ERR580278_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580278/ERR580278_2.fastq.gz
+		assay.submitted_file_names S_Cell11_1.fastq.gz,S_Cell11_2.fastq.gz
+		sample.ena_sample ERS527386
+		sample.submitted_id S_cell11
+
+		cell.id S_cell12
+		assay.ena_experiment ERX538222
+		assay.ena_run ERR580028
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580028/ERR580028_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580028/ERR580028_2.fastq.gz
+		assay.submitted_file_names S_Cell12_1.fastq.gz,S_Cell12_2.fastq.gz
+		sample.ena_sample ERS527323
+		sample.submitted_id S_cell12
+
+		cell.id S_cell13
+		assay.ena_experiment ERX538147
+		assay.ena_run ERR580298
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580298/ERR580298_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580298/ERR580298_2.fastq.gz
+		assay.submitted_file_names S_Cell13_1.fastq.gz,S_Cell13_2.fastq.gz
+		sample.ena_sample ERS527248
+		sample.submitted_id S_cell13
+
+		cell.id S_cell14
+		assay.ena_experiment ERX538229
+		assay.ena_run ERR580217
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580217/ERR580217_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580217/ERR580217_2.fastq.gz
+		assay.submitted_file_names S_Cell14_1.fastq.gz,S_Cell14_2.fastq.gz
+		sample.ena_sample ERS527330
+		sample.submitted_id S_cell14
+
+		cell.id S_cell15
+		assay.ena_experiment ERX538302
+		assay.ena_run ERR580255
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580255/ERR580255_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580255/ERR580255_2.fastq.gz
+		assay.submitted_file_names S_Cell15_1.fastq.gz,S_Cell15_2.fastq.gz
+		sample.ena_sample ERS527403
+		sample.submitted_id S_cell15
+
+		cell.id S_cell16
+		assay.ena_experiment ERX538352
+		assay.ena_run ERR580017
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580017/ERR580017_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580017/ERR580017_2.fastq.gz
+		assay.submitted_file_names S_Cell16_1.fastq.gz,S_Cell16_2.fastq.gz
+		sample.ena_sample ERS527453
+		sample.submitted_id S_cell16
+
+		cell.id S_cell17
+		assay.ena_experiment ERX538416
+		assay.ena_run ERR580169
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580169/ERR580169_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580169/ERR580169_2.fastq.gz
+		assay.submitted_file_names S_Cell17_1.fastq.gz,S_Cell17_2.fastq.gz
+		sample.ena_sample ERS527517
+		sample.submitted_id S_cell17
+
+		cell.id S_cell18
+		assay.ena_experiment ERX538168
+		assay.ena_run ERR580265
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580265/ERR580265_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580265/ERR580265_2.fastq.gz
+		assay.submitted_file_names S_Cell18_1.fastq.gz,S_Cell18_2.fastq.gz
+		sample.ena_sample ERS527269
+		sample.submitted_id S_cell18
+
+		cell.id S_cell19
+		assay.ena_experiment ERX538399
+		assay.ena_run ERR580167
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580167/ERR580167_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580167/ERR580167_2.fastq.gz
+		assay.submitted_file_names S_Cell19_1.fastq.gz,S_Cell19_2.fastq.gz
+		sample.ena_sample ERS527500
+		sample.submitted_id S_cell19
+
+		cell.id S_cell20
+		assay.ena_experiment ERX538143
+		assay.ena_run ERR580212
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580212/ERR580212_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580212/ERR580212_2.fastq.gz
+		assay.submitted_file_names S_Cell20_1.fastq.gz,S_Cell20_2.fastq.gz
+		sample.ena_sample ERS527244
+		sample.submitted_id S_cell20
+
+		cell.id S_cell21
+		assay.ena_experiment ERX538328
+		assay.ena_run ERR580228
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580228/ERR580228_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580228/ERR580228_2.fastq.gz
+		assay.submitted_file_names S_Cell21_1.fastq.gz,S_Cell21_2.fastq.gz
+		sample.ena_sample ERS527429
+		sample.submitted_id S_cell21
+
+		cell.id S_cell22
+		assay.ena_experiment ERX538282
+		assay.ena_run ERR580211
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580211/ERR580211_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580211/ERR580211_2.fastq.gz
+		assay.submitted_file_names S_Cell22_1.fastq.gz,S_Cell22_2.fastq.gz
+		sample.ena_sample ERS527383
+		sample.submitted_id S_cell22
+
+		cell.id S_cell23
+		assay.ena_experiment ERX538207
+		assay.ena_run ERR580134
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580134/ERR580134_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580134/ERR580134_2.fastq.gz
+		assay.submitted_file_names S_Cell23_1.fastq.gz,S_Cell23_2.fastq.gz
+		sample.ena_sample ERS527308
+		sample.submitted_id S_cell23
+
+		cell.id S_cell24
+		assay.ena_experiment ERX538407
+		assay.ena_run ERR580250
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580250/ERR580250_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580250/ERR580250_2.fastq.gz
+		assay.submitted_file_names S_Cell24_1.fastq.gz,S_Cell24_2.fastq.gz
+		sample.ena_sample ERS527508
+		sample.submitted_id S_cell24
+
+		cell.id S_cell25
+		assay.ena_experiment ERX538316
+		assay.ena_run ERR580069
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580069/ERR580069_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580069/ERR580069_2.fastq.gz
+		assay.submitted_file_names S_Cell25_1.fastq.gz,S_Cell25_2.fastq.gz
+		sample.ena_sample ERS527417
+		sample.submitted_id S_cell25
+
+		cell.id S_cell26
+		assay.ena_experiment ERX538351
+		assay.ena_run ERR580251
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580251/ERR580251_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580251/ERR580251_2.fastq.gz
+		assay.submitted_file_names S_Cell26_1.fastq.gz,S_Cell26_2.fastq.gz
+		sample.ena_sample ERS527452
+		sample.submitted_id S_cell26
+
+		cell.id S_cell27
+		assay.ena_experiment ERX538149
+		assay.ena_run ERR580237
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580237/ERR580237_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580237/ERR580237_2.fastq.gz
+		assay.submitted_file_names S_Cell27_1.fastq.gz,S_Cell27_2.fastq.gz
+		sample.ena_sample ERS527250
+		sample.submitted_id S_cell27
+
+		cell.id S_cell28
+		assay.ena_experiment ERX538234
+		assay.ena_run ERR580063
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580063/ERR580063_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580063/ERR580063_2.fastq.gz
+		assay.submitted_file_names S_Cell28_1.fastq.gz,S_Cell28_2.fastq.gz
+		sample.ena_sample ERS527335
+		sample.submitted_id S_cell28
+
+		cell.id S_cell29
+		assay.ena_experiment ERX538321
+		assay.ena_run ERR580248
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580248/ERR580248_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580248/ERR580248_2.fastq.gz
+		assay.submitted_file_names S_Cell29_1.fastq.gz,S_Cell29_2.fastq.gz
+		sample.ena_sample ERS527422
+		sample.submitted_id S_cell29
+
+		cell.id S_cell30
+		assay.ena_experiment ERX538237
+		assay.ena_run ERR580222
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580222/ERR580222_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580222/ERR580222_2.fastq.gz
+		assay.submitted_file_names S_Cell30_1.fastq.gz,S_Cell30_2.fastq.gz
+		sample.ena_sample ERS527338
+		sample.submitted_id S_cell30
+
+		cell.id S_cell31
+		assay.ena_experiment ERX538381
+		assay.ena_run ERR580292
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580292/ERR580292_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580292/ERR580292_2.fastq.gz
+		assay.submitted_file_names S_Cell31_1.fastq.gz,S_Cell31_2.fastq.gz
+		sample.ena_sample ERS527482
+		sample.submitted_id S_cell31
+
+		cell.id S_cell32
+		assay.ena_experiment ERX538372
+		assay.ena_run ERR580239
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580239/ERR580239_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580239/ERR580239_2.fastq.gz
+		assay.submitted_file_names S_Cell32_1.fastq.gz,S_Cell32_2.fastq.gz
+		sample.ena_sample ERS527473
+		sample.submitted_id S_cell32
+
+		cell.id S_cell33
+		assay.ena_experiment ERX538415
+		assay.ena_run ERR580163
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580163/ERR580163_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580163/ERR580163_2.fastq.gz
+		assay.submitted_file_names S_Cell33_1.fastq.gz,S_Cell33_2.fastq.gz
+		sample.ena_sample ERS527516
+		sample.submitted_id S_cell33
+
+		cell.id S_cell34
+		assay.ena_experiment ERX538383
+		assay.ena_run ERR580283
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580283/ERR580283_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580283/ERR580283_2.fastq.gz
+		assay.submitted_file_names S_Cell34_1.fastq.gz,S_Cell34_2.fastq.gz
+		sample.ena_sample ERS527484
+		sample.submitted_id S_cell34
+
+		cell.id S_cell35
+		assay.ena_experiment ERX538311
+		assay.ena_run ERR580191
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580191/ERR580191_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580191/ERR580191_2.fastq.gz
+		assay.submitted_file_names S_Cell35_1.fastq.gz,S_Cell35_2.fastq.gz
+		sample.ena_sample ERS527412
+		sample.submitted_id S_cell35
+
+		cell.id S_cell36
+		assay.ena_experiment ERX538268
+		assay.ena_run ERR580081
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580081/ERR580081_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580081/ERR580081_2.fastq.gz
+		assay.submitted_file_names S_Cell36_1.fastq.gz,S_Cell36_2.fastq.gz
+		sample.ena_sample ERS527369
+		sample.submitted_id S_cell36
+
+		cell.id S_cell37
+		assay.ena_experiment ERX538366
+		assay.ena_run ERR580019
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580019/ERR580019_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580019/ERR580019_2.fastq.gz
+		assay.submitted_file_names S_Cell37_1.fastq.gz,S_Cell37_2.fastq.gz
+		sample.ena_sample ERS527467
+		sample.submitted_id S_cell37
+
+		cell.id S_cell38
+		assay.ena_experiment ERX538184
+		assay.ena_run ERR580190
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580190/ERR580190_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580190/ERR580190_2.fastq.gz
+		assay.submitted_file_names S_Cell38_1.fastq.gz,S_Cell38_2.fastq.gz
+		sample.ena_sample ERS527285
+		sample.submitted_id S_cell38
+
+		cell.id S_cell39
+		assay.ena_experiment ERX538267
+		assay.ena_run ERR580020
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580020/ERR580020_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580020/ERR580020_2.fastq.gz
+		assay.submitted_file_names S_Cell39_1.fastq.gz,S_Cell39_2.fastq.gz
+		sample.ena_sample ERS527368
+		sample.submitted_id S_cell39
+
+		cell.id S_cell40
+		assay.ena_experiment ERX538345
+		assay.ena_run ERR580289
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580289/ERR580289_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580289/ERR580289_2.fastq.gz
+		assay.submitted_file_names S_Cell40_1.fastq.gz,S_Cell40_2.fastq.gz
+		sample.ena_sample ERS527446
+		sample.submitted_id S_cell40
+
+		cell.id S_cell41
+		assay.ena_experiment ERX538294
+		assay.ena_run ERR580118
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580118/ERR580118_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580118/ERR580118_2.fastq.gz
+		assay.submitted_file_names S_Cell41_1.fastq.gz,S_Cell41_2.fastq.gz
+		sample.ena_sample ERS527395
+		sample.submitted_id S_cell41
+
+		cell.id S_cell42
+		assay.ena_experiment ERX538242
+		assay.ena_run ERR580022
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580022/ERR580022_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580022/ERR580022_2.fastq.gz
+		assay.submitted_file_names S_Cell42_1.fastq.gz,S_Cell42_2.fastq.gz
+		sample.ena_sample ERS527343
+		sample.submitted_id S_cell42
+
+		cell.id S_cell43
+		assay.ena_experiment ERX538374
+		assay.ena_run ERR580205
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580205/ERR580205_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580205/ERR580205_2.fastq.gz
+		assay.submitted_file_names S_Cell43_1.fastq.gz,S_Cell43_2.fastq.gz
+		sample.ena_sample ERS527475
+		sample.submitted_id S_cell43
+
+		cell.id S_cell44
+		assay.ena_experiment ERX538263
+		assay.ena_run ERR580070
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580070/ERR580070_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580070/ERR580070_2.fastq.gz
+		assay.submitted_file_names S_Cell44_1.fastq.gz,S_Cell44_2.fastq.gz
+		sample.ena_sample ERS527364
+		sample.submitted_id S_cell44
+
+		cell.id S_cell45
+		assay.ena_experiment ERX538338
+		assay.ena_run ERR580178
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580178/ERR580178_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580178/ERR580178_2.fastq.gz
+		assay.submitted_file_names S_Cell45_1.fastq.gz,S_Cell45_2.fastq.gz
+		sample.ena_sample ERS527439
+		sample.submitted_id S_cell45
+
+		cell.id S_cell46
+		assay.ena_experiment ERX538357
+		assay.ena_run ERR580244
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580244/ERR580244_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580244/ERR580244_2.fastq.gz
+		assay.submitted_file_names S_Cell46_1.fastq.gz,S_Cell46_2.fastq.gz
+		sample.ena_sample ERS527458
+		sample.submitted_id S_cell46
+
+		cell.id S_cell47
+		assay.ena_experiment ERX538162
+		assay.ena_run ERR580243
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580243/ERR580243_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580243/ERR580243_2.fastq.gz
+		assay.submitted_file_names S_Cell47_1.fastq.gz,S_Cell47_2.fastq.gz
+		sample.ena_sample ERS527263
+		sample.submitted_id S_cell47
+
+		cell.id S_cell48
+		assay.ena_experiment ERX538215
+		assay.ena_run ERR580041
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580041/ERR580041_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580041/ERR580041_2.fastq.gz
+		assay.submitted_file_names S_Cell48_1.fastq.gz,S_Cell48_2.fastq.gz
+		sample.ena_sample ERS527316
+		sample.submitted_id S_cell48
+
+		cell.id S_cell49
+		assay.ena_experiment ERX538276
+		assay.ena_run ERR580269
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580269/ERR580269_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580269/ERR580269_2.fastq.gz
+		assay.submitted_file_names S_Cell49_1.fastq.gz,S_Cell49_2.fastq.gz
+		sample.ena_sample ERS527377
+		sample.submitted_id S_cell49
+
+		cell.id S_cell50
+		assay.ena_experiment ERX538367
+		assay.ena_run ERR580018
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580018/ERR580018_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580018/ERR580018_2.fastq.gz
+		assay.submitted_file_names S_Cell50_1.fastq.gz,S_Cell50_2.fastq.gz
+		sample.ena_sample ERS527468
+		sample.submitted_id S_cell50
+
+		cell.id S_cell51
+		assay.ena_experiment ERX538410
+		assay.ena_run ERR580257
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580257/ERR580257_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580257/ERR580257_2.fastq.gz
+		assay.submitted_file_names S_Cell51_1.fastq.gz,S_Cell51_2.fastq.gz
+		sample.ena_sample ERS527511
+		sample.submitted_id S_cell51
+
+		cell.id S_cell52
+		assay.ena_experiment ERX538280
+		assay.ena_run ERR580059
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580059/ERR580059_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580059/ERR580059_2.fastq.gz
+		assay.submitted_file_names S_Cell52_1.fastq.gz,S_Cell52_2.fastq.gz
+		sample.ena_sample ERS527381
+		sample.submitted_id S_cell52
+
+		cell.id S_cell53
+		assay.ena_experiment ERX538202
+		assay.ena_run ERR580200
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580200/ERR580200_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580200/ERR580200_2.fastq.gz
+		assay.submitted_file_names S_Cell53_1.fastq.gz,S_Cell53_2.fastq.gz
+		sample.ena_sample ERS527303
+		sample.submitted_id S_cell53
+
+		cell.id S_cell54
+		assay.ena_experiment ERX538257
+		assay.ena_run ERR580079
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580079/ERR580079_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580079/ERR580079_2.fastq.gz
+		assay.submitted_file_names S_Cell54_1.fastq.gz,S_Cell54_2.fastq.gz
+		sample.ena_sample ERS527358
+		sample.submitted_id S_cell54
+
+		cell.id S_cell55
+		assay.ena_experiment ERX538359
+		assay.ena_run ERR580043
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580043/ERR580043_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580043/ERR580043_2.fastq.gz
+		assay.submitted_file_names S_Cell55_1.fastq.gz,S_Cell55_2.fastq.gz
+		sample.ena_sample ERS527460
+		sample.submitted_id S_cell55
+
+		cell.id S_cell56
+		assay.ena_experiment ERX538287
+		assay.ena_run ERR580127
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580127/ERR580127_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580127/ERR580127_2.fastq.gz
+		assay.submitted_file_names S_Cell56_1.fastq.gz,S_Cell56_2.fastq.gz
+		sample.ena_sample ERS527388
+		sample.submitted_id S_cell56
+
+		cell.id S_cell57
+		assay.ena_experiment ERX538213
+		assay.ena_run ERR580156
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580156/ERR580156_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580156/ERR580156_2.fastq.gz
+		assay.submitted_file_names S_Cell57_1.fastq.gz,S_Cell57_2.fastq.gz
+		sample.ena_sample ERS527314
+		sample.submitted_id S_cell57
+
+		cell.id S_cell58
+		assay.ena_experiment ERX538176
+		assay.ena_run ERR580076
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580076/ERR580076_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580076/ERR580076_2.fastq.gz
+		assay.submitted_file_names S_Cell58_1.fastq.gz,S_Cell58_2.fastq.gz
+		sample.ena_sample ERS527277
+		sample.submitted_id S_cell58
+
+		cell.id S_cell59
+		assay.ena_experiment ERX538212
+		assay.ena_run ERR580170
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580170/ERR580170_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580170/ERR580170_2.fastq.gz
+		assay.submitted_file_names S_Cell59_1.fastq.gz,S_Cell59_2.fastq.gz
+		sample.ena_sample ERS527313
+		sample.submitted_id S_cell59
+
+		cell.id S_cell60
+		assay.ena_experiment ERX538199
+		assay.ena_run ERR580108
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580108/ERR580108_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580108/ERR580108_2.fastq.gz
+		assay.submitted_file_names S_Cell60_1.fastq.gz,S_Cell60_2.fastq.gz
+		sample.ena_sample ERS527300
+		sample.submitted_id S_cell60
+
+		cell.id S_cell61
+		assay.ena_experiment ERX538412
+		assay.ena_run ERR580136
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580136/ERR580136_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580136/ERR580136_2.fastq.gz
+		assay.submitted_file_names S_Cell61_1.fastq.gz,S_Cell61_2.fastq.gz
+		sample.ena_sample ERS527513
+		sample.submitted_id S_cell61
+
+		cell.id S_cell62
+		assay.ena_experiment ERX538329
+		assay.ena_run ERR580197
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580197/ERR580197_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580197/ERR580197_2.fastq.gz
+		assay.submitted_file_names S_Cell62_1.fastq.gz,S_Cell62_2.fastq.gz
+		sample.ena_sample ERS527430
+		sample.submitted_id S_cell62
+
+		cell.id S_cell63
+		assay.ena_experiment ERX538396
+		assay.ena_run ERR580241
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580241/ERR580241_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580241/ERR580241_2.fastq.gz
+		assay.submitted_file_names S_Cell63_1.fastq.gz,S_Cell63_2.fastq.gz
+		sample.ena_sample ERS527497
+		sample.submitted_id S_cell63
+
+		cell.id S_cell64
+		assay.ena_experiment ERX538363
+		assay.ena_run ERR580165
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580165/ERR580165_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580165/ERR580165_2.fastq.gz
+		assay.submitted_file_names S_Cell64_1.fastq.gz,S_Cell64_2.fastq.gz
+		sample.ena_sample ERS527464
+		sample.submitted_id S_cell64
+
+		cell.id S_cell65
+		assay.ena_experiment ERX538137
+		assay.ena_run ERR580185
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580185/ERR580185_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580185/ERR580185_2.fastq.gz
+		assay.submitted_file_names S_Cell65_1.fastq.gz,S_Cell65_2.fastq.gz
+		sample.ena_sample ERS527238
+		sample.submitted_id S_cell65
+
+		cell.id S_cell66
+		assay.ena_experiment ERX538211
+		assay.ena_run ERR580279
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580279/ERR580279_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580279/ERR580279_2.fastq.gz
+		assay.submitted_file_names S_Cell66_1.fastq.gz,S_Cell66_2.fastq.gz
+		sample.ena_sample ERS527312
+		sample.submitted_id S_cell66
+
+		cell.id S_cell67
+		assay.ena_experiment ERX538409
+		assay.ena_run ERR580159
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580159/ERR580159_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580159/ERR580159_2.fastq.gz
+		assay.submitted_file_names S_Cell67_1.fastq.gz,S_Cell67_2.fastq.gz
+		sample.ena_sample ERS527510
+		sample.submitted_id S_cell67
+
+		cell.id S_cell68
+		assay.ena_experiment ERX538370
+		assay.ena_run ERR580111
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580111/ERR580111_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580111/ERR580111_2.fastq.gz
+		assay.submitted_file_names S_Cell68_1.fastq.gz,S_Cell68_2.fastq.gz
+		sample.ena_sample ERS527471
+		sample.submitted_id S_cell68
+
+		cell.id S_cell69
+		assay.ena_experiment ERX538158
+		assay.ena_run ERR580040
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580040/ERR580040_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580040/ERR580040_2.fastq.gz
+		assay.submitted_file_names S_Cell69_1.fastq.gz,S_Cell69_2.fastq.gz
+		sample.ena_sample ERS527259
+		sample.submitted_id S_cell69
+
+		cell.id S_cell70
+		assay.ena_experiment ERX538377
+		assay.ena_run ERR580274
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580274/ERR580274_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580274/ERR580274_2.fastq.gz
+		assay.submitted_file_names S_Cell70_1.fastq.gz,S_Cell70_2.fastq.gz
+		sample.ena_sample ERS527478
+		sample.submitted_id S_cell70
+
+		cell.id S_cell71
+		assay.ena_experiment ERX538170
+		assay.ena_run ERR580199
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580199/ERR580199_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580199/ERR580199_2.fastq.gz
+		assay.submitted_file_names S_Cell71_1.fastq.gz,S_Cell71_2.fastq.gz
+		sample.ena_sample ERS527271
+		sample.submitted_id S_cell71
+
+		cell.id S_cell72
+		assay.ena_experiment ERX538206
+		assay.ena_run ERR580194
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580194/ERR580194_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580194/ERR580194_2.fastq.gz
+		assay.submitted_file_names S_Cell72_1.fastq.gz,S_Cell72_2.fastq.gz
+		sample.ena_sample ERS527307
+		sample.submitted_id S_cell72
+
+		cell.id S_cell73
+		assay.ena_experiment ERX538231
+		assay.ena_run ERR580138
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580138/ERR580138_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580138/ERR580138_2.fastq.gz
+		assay.submitted_file_names S_Cell73_1.fastq.gz,S_Cell73_2.fastq.gz
+		sample.ena_sample ERS527332
+		sample.submitted_id S_cell73
+
+		cell.id S_cell74
+		assay.ena_experiment ERX538185
+		assay.ena_run ERR580119
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580119/ERR580119_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580119/ERR580119_2.fastq.gz
+		assay.submitted_file_names S_Cell74_1.fastq.gz,S_Cell74_2.fastq.gz
+		sample.ena_sample ERS527286
+		sample.submitted_id S_cell74
+
+		cell.id S_cell75
+		assay.ena_experiment ERX538392
+		assay.ena_run ERR580035
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580035/ERR580035_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580035/ERR580035_2.fastq.gz
+		assay.submitted_file_names S_Cell75_1.fastq.gz,S_Cell75_2.fastq.gz
+		sample.ena_sample ERS527493
+		sample.submitted_id S_cell75
+
+		cell.id S_cell76
+		assay.ena_experiment ERX538343
+		assay.ena_run ERR580121
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580121/ERR580121_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580121/ERR580121_2.fastq.gz
+		assay.submitted_file_names S_Cell76_1.fastq.gz,S_Cell76_2.fastq.gz
+		sample.ena_sample ERS527444
+		sample.submitted_id S_cell76
+
+		cell.id S_cell77
+		assay.ena_experiment ERX538413
+		assay.ena_run ERR580151
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580151/ERR580151_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580151/ERR580151_2.fastq.gz
+		assay.submitted_file_names S_Cell77_1.fastq.gz,S_Cell77_2.fastq.gz
+		sample.ena_sample ERS527514
+		sample.submitted_id S_cell77
+
+		cell.id S_cell78
+		assay.ena_experiment ERX538361
+		assay.ena_run ERR580266
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580266/ERR580266_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580266/ERR580266_2.fastq.gz
+		assay.submitted_file_names S_Cell78_1.fastq.gz,S_Cell78_2.fastq.gz
+		sample.ena_sample ERS527462
+		sample.submitted_id S_cell78
+
+		cell.id S_cell79
+		assay.ena_experiment ERX538270
+		assay.ena_run ERR580153
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580153/ERR580153_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580153/ERR580153_2.fastq.gz
+		assay.submitted_file_names S_Cell79_1.fastq.gz,S_Cell79_2.fastq.gz
+		sample.ena_sample ERS527371
+		sample.submitted_id S_cell79
+
+		cell.id S_cell80
+		assay.ena_experiment ERX538135
+		assay.ena_run ERR580242
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580242/ERR580242_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580242/ERR580242_2.fastq.gz
+		assay.submitted_file_names S_Cell80_1.fastq.gz,S_Cell80_2.fastq.gz
+		sample.ena_sample ERS527236
+		sample.submitted_id S_cell80
+
+		cell.id S_cell81
+		assay.ena_experiment ERX538203
+		assay.ena_run ERR580146
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580146/ERR580146_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580146/ERR580146_2.fastq.gz
+		assay.submitted_file_names S_Cell81_1.fastq.gz,S_Cell81_2.fastq.gz
+		sample.ena_sample ERS527304
+		sample.submitted_id S_cell81
+
+		cell.id S_cell82
+		assay.ena_experiment ERX538322
+		assay.ena_run ERR580150
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580150/ERR580150_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580150/ERR580150_2.fastq.gz
+		assay.submitted_file_names S_Cell82_1.fastq.gz,S_Cell82_2.fastq.gz
+		sample.ena_sample ERS527423
+		sample.submitted_id S_cell82
+
+		cell.id S_cell83
+		assay.ena_experiment ERX538376
+		assay.ena_run ERR580232
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580232/ERR580232_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580232/ERR580232_2.fastq.gz
+		assay.submitted_file_names S_Cell83_1.fastq.gz,S_Cell83_2.fastq.gz
+		sample.ena_sample ERS527477
+		sample.submitted_id S_cell83
+
+		cell.id S_cell84
+		assay.ena_experiment ERX538217
+		assay.ena_run ERR580096
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580096/ERR580096_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580096/ERR580096_2.fastq.gz
+		assay.submitted_file_names S_Cell84_1.fastq.gz,S_Cell84_2.fastq.gz
+		sample.ena_sample ERS527318
+		sample.submitted_id S_cell84
+
+		cell.id S_cell85
+		assay.ena_experiment ERX538283
+		assay.ena_run ERR580299
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580299/ERR580299_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580299/ERR580299_2.fastq.gz
+		assay.submitted_file_names S_Cell85_1.fastq.gz,S_Cell85_2.fastq.gz
+		sample.ena_sample ERS527384
+		sample.submitted_id S_cell85
+
+		cell.id S_cell86
+		assay.ena_experiment ERX538177
+		assay.ena_run ERR580051
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580051/ERR580051_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580051/ERR580051_2.fastq.gz
+		assay.submitted_file_names S_Cell86_1.fastq.gz,S_Cell86_2.fastq.gz
+		sample.ena_sample ERS527278
+		sample.submitted_id S_cell86
+
+		cell.id S_cell87
+		assay.ena_experiment ERX538261
+		assay.ena_run ERR580016
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580016/ERR580016_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580016/ERR580016_2.fastq.gz
+		assay.submitted_file_names S_Cell87_1.fastq.gz,S_Cell87_2.fastq.gz
+		sample.ena_sample ERS527362
+		sample.submitted_id S_cell87
+
+		cell.id S_cell88
+		assay.ena_experiment ERX538244
+		assay.ena_run ERR580290
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580290/ERR580290_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580290/ERR580290_2.fastq.gz
+		assay.submitted_file_names S_Cell88_1.fastq.gz,S_Cell88_2.fastq.gz
+		sample.ena_sample ERS527345
+		sample.submitted_id S_cell88
+
+		cell.id S_cell89
+		assay.ena_experiment ERX538138
+		assay.ena_run ERR580264
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580264/ERR580264_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580264/ERR580264_2.fastq.gz
+		assay.submitted_file_names S_Cell89_1.fastq.gz,S_Cell89_2.fastq.gz
+		sample.ena_sample ERS527239
+		sample.submitted_id S_cell89
+
+		cell.id S_cell90
+		assay.ena_experiment ERX538197
+		assay.ena_run ERR580172
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580172/ERR580172_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580172/ERR580172_2.fastq.gz
+		assay.submitted_file_names S_Cell90_1.fastq.gz,S_Cell90_2.fastq.gz
+		sample.ena_sample ERS527298
+		sample.submitted_id S_cell90
+
+		cell.id S_cell91
+		assay.ena_experiment ERX538314
+		assay.ena_run ERR580270
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580270/ERR580270_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580270/ERR580270_2.fastq.gz
+		assay.submitted_file_names S_Cell91_1.fastq.gz,S_Cell91_2.fastq.gz
+		sample.ena_sample ERS527415
+		sample.submitted_id S_cell91
+
+		cell.id S_cell92
+		assay.ena_experiment ERX538400
+		assay.ena_run ERR580091
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580091/ERR580091_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580091/ERR580091_2.fastq.gz
+		assay.submitted_file_names S_Cell92_1.fastq.gz,S_Cell92_2.fastq.gz
+		sample.ena_sample ERS527501
+		sample.submitted_id S_cell92
+
+		cell.id S_cell93
+		assay.ena_experiment ERX538362
+		assay.ena_run ERR580179
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580179/ERR580179_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580179/ERR580179_2.fastq.gz
+		assay.submitted_file_names S_Cell93_1.fastq.gz,S_Cell93_2.fastq.gz
+		sample.ena_sample ERS527463
+		sample.submitted_id S_cell93
+
+		cell.id S_cell94
+		assay.ena_experiment ERX538358
+		assay.ena_run ERR580236
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580236/ERR580236_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580236/ERR580236_2.fastq.gz
+		assay.submitted_file_names S_Cell94_1.fastq.gz,S_Cell94_2.fastq.gz
+		sample.ena_sample ERS527459
+		sample.submitted_id S_cell94
+
+		cell.id S_cell95
+		assay.ena_experiment ERX538405
+		assay.ena_run ERR580078
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580078/ERR580078_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580078/ERR580078_2.fastq.gz
+		assay.submitted_file_names S_Cell95_1.fastq.gz,S_Cell95_2.fastq.gz
+		sample.ena_sample ERS527506
+		sample.submitted_id S_cell95
+
+		cell.id S_cell96
+		assay.ena_experiment ERX538156
+		assay.ena_run ERR580252
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580252/ERR580252_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580252/ERR580252_2.fastq.gz
+		assay.submitted_file_names S_Cell96_1.fastq.gz,S_Cell96_2.fastq.gz
+		sample.ena_sample ERS527257
+		sample.submitted_id S_cell96
+
+	cell.cell_cycle G2/M
+	sample.short_label G2/M phase mESCs
+	sample.long_label G2/M phase mouse embryonic stem cell line AB2.2
+
+		cell.id G2M_cell1
+		assay.ena_experiment ERX538136
+		assay.ena_run ERR580054
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580054/ERR580054_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580054/ERR580054_2.fastq.gz
+		assay.submitted_file_names G2M_Cell1_1.fastq.gz,G2M_Cell1_2.fastq.gz
+		sample.ena_sample ERS527237
+		sample.submitted_id G2M_cell1
+
+		cell.id G2M_cell2
+		assay.ena_experiment ERX538214
+		assay.ena_run ERR580120
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580120/ERR580120_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580120/ERR580120_2.fastq.gz
+		assay.submitted_file_names G2M_Cell2_1.fastq.gz,G2M_Cell2_2.fastq.gz
+		sample.ena_sample ERS527315
+		sample.submitted_id G2M_cell2
+
+		cell.id G2M_cell3
+		assay.ena_experiment ERX538221
+		assay.ena_run ERR580183
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580183/ERR580183_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580183/ERR580183_2.fastq.gz
+		assay.submitted_file_names G2M_Cell3_1.fastq.gz,G2M_Cell3_2.fastq.gz
+		sample.ena_sample ERS527322
+		sample.submitted_id G2M_cell3
+
+		cell.id G2M_cell4
+		assay.ena_experiment ERX538146
+		assay.ena_run ERR580155
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580155/ERR580155_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580155/ERR580155_2.fastq.gz
+		assay.submitted_file_names G2M_Cell4_1.fastq.gz,G2M_Cell4_2.fastq.gz
+		sample.ena_sample ERS527247
+		sample.submitted_id G2M_cell4
+
+		cell.id G2M_cell5
+		assay.ena_experiment ERX538414
+		assay.ena_run ERR580060
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580060/ERR580060_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580060/ERR580060_2.fastq.gz
+		assay.submitted_file_names G2M_Cell5_1.fastq.gz,G2M_Cell5_2.fastq.gz
+		sample.ena_sample ERS527515
+		sample.submitted_id G2M_cell5
+
+		cell.id G2M_cell6
+		assay.ena_experiment ERX538340
+		assay.ena_run ERR580231
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580231/ERR580231_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580231/ERR580231_2.fastq.gz
+		assay.submitted_file_names G2M_Cell6_1.fastq.gz,G2M_Cell6_2.fastq.gz
+		sample.ena_sample ERS527441
+		sample.submitted_id G2M_cell6
+
+		cell.id G2M_cell7
+		assay.ena_experiment ERX538250
+		assay.ena_run ERR580254
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580254/ERR580254_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580254/ERR580254_2.fastq.gz
+		assay.submitted_file_names G2M_Cell7_1.fastq.gz,G2M_Cell7_2.fastq.gz
+		sample.ena_sample ERS527351
+		sample.submitted_id G2M_cell7
+
+		cell.id G2M_cell8
+		assay.ena_experiment ERX538166
+		assay.ena_run ERR580053
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580053/ERR580053_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580053/ERR580053_2.fastq.gz
+		assay.submitted_file_names G2M_Cell8_1.fastq.gz,G2M_Cell8_2.fastq.gz
+		sample.ena_sample ERS527267
+		sample.submitted_id G2M_cell8
+
+		cell.id G2M_cell9
+		assay.ena_experiment ERX538385
+		assay.ena_run ERR580057
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580057/ERR580057_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580057/ERR580057_2.fastq.gz
+		assay.submitted_file_names G2M_Cell9_1.fastq.gz,G2M_Cell9_2.fastq.gz
+		sample.ena_sample ERS527486
+		sample.submitted_id G2M_cell9
+
+		cell.id G2M_cell10
+		assay.ena_experiment ERX538337
+		assay.ena_run ERR580208
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580208/ERR580208_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580208/ERR580208_2.fastq.gz
+		assay.submitted_file_names G2M_Cell10_1.fastq.gz,G2M_Cell10_2.fastq.gz
+		sample.ena_sample ERS527438
+		sample.submitted_id G2M_cell10
+
+		cell.id G2M_cell11
+		assay.ena_experiment ERX538259
+		assay.ena_run ERR580267
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580267/ERR580267_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580267/ERR580267_2.fastq.gz
+		assay.submitted_file_names G2M_Cell11_1.fastq.gz,G2M_Cell11_2.fastq.gz
+		sample.ena_sample ERS527360
+		sample.submitted_id G2M_cell11
+
+		cell.id G2M_cell12
+		assay.ena_experiment ERX538369
+		assay.ena_run ERR580204
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580204/ERR580204_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580204/ERR580204_2.fastq.gz
+		assay.submitted_file_names G2M_Cell12_1.fastq.gz,G2M_Cell12_2.fastq.gz
+		sample.ena_sample ERS527470
+		sample.submitted_id G2M_cell12
+
+		cell.id G2M_cell13
+		assay.ena_experiment ERX538174
+		assay.ena_run ERR580253
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580253/ERR580253_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580253/ERR580253_2.fastq.gz
+		assay.submitted_file_names G2M_Cell13_1.fastq.gz,G2M_Cell13_2.fastq.gz
+		sample.ena_sample ERS527275
+		sample.submitted_id G2M_cell13
+
+		cell.id G2M_cell14
+		assay.ena_experiment ERX538350
+		assay.ena_run ERR580106
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580106/ERR580106_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580106/ERR580106_2.fastq.gz
+		assay.submitted_file_names G2M_Cell14_1.fastq.gz,G2M_Cell14_2.fastq.gz
+		sample.ena_sample ERS527451
+		sample.submitted_id G2M_cell14
+
+		cell.id G2M_cell15
+		assay.ena_experiment ERX538278
+		assay.ena_run ERR580223
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580223/ERR580223_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580223/ERR580223_2.fastq.gz
+		assay.submitted_file_names G2M_Cell15_1.fastq.gz,G2M_Cell15_2.fastq.gz
+		sample.ena_sample ERS527379
+		sample.submitted_id G2M_cell15
+
+		cell.id G2M_cell16
+		assay.ena_experiment ERX538382
+		assay.ena_run ERR580182
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580182/ERR580182_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580182/ERR580182_2.fastq.gz
+		assay.submitted_file_names G2M_Cell16_1.fastq.gz,G2M_Cell16_2.fastq.gz
+		sample.ena_sample ERS527483
+		sample.submitted_id G2M_cell16
+
+		cell.id G2M_cell17
+		assay.ena_experiment ERX538151
+		assay.ena_run ERR580013
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580013/ERR580013_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580013/ERR580013_2.fastq.gz
+		assay.submitted_file_names G2M_Cell17_1.fastq.gz,G2M_Cell17_2.fastq.gz
+		sample.ena_sample ERS527252
+		sample.submitted_id G2M_cell17
+
+		cell.id G2M_cell18
+		assay.ena_experiment ERX538269
+		assay.ena_run ERR580033
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580033/ERR580033_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580033/ERR580033_2.fastq.gz
+		assay.submitted_file_names G2M_Cell18_1.fastq.gz,G2M_Cell18_2.fastq.gz
+		sample.ena_sample ERS527370
+		sample.submitted_id G2M_cell18
+
+		cell.id G2M_cell19
+		assay.ena_experiment ERX538318
+		assay.ena_run ERR580227
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580227/ERR580227_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580227/ERR580227_2.fastq.gz
+		assay.submitted_file_names G2M_Cell19_1.fastq.gz,G2M_Cell19_2.fastq.gz
+		sample.ena_sample ERS527419
+		sample.submitted_id G2M_cell19
+
+		cell.id G2M_cell20
+		assay.ena_experiment ERX538224
+		assay.ena_run ERR580107
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580107/ERR580107_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580107/ERR580107_2.fastq.gz
+		assay.submitted_file_names G2M_Cell20_1.fastq.gz,G2M_Cell20_2.fastq.gz
+		sample.ena_sample ERS527325
+		sample.submitted_id G2M_cell20
+
+		cell.id G2M_cell21
+		assay.ena_experiment ERX538155
+		assay.ena_run ERR580058
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580058/ERR580058_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580058/ERR580058_2.fastq.gz
+		assay.submitted_file_names G2M_Cell21_1.fastq.gz,G2M_Cell21_2.fastq.gz
+		sample.ena_sample ERS527256
+		sample.submitted_id G2M_cell21
+
+		cell.id G2M_cell22
+		assay.ena_experiment ERX538191
+		assay.ena_run ERR580174
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580174/ERR580174_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580174/ERR580174_2.fastq.gz
+		assay.submitted_file_names G2M_Cell22_1.fastq.gz,G2M_Cell22_2.fastq.gz
+		sample.ena_sample ERS527292
+		sample.submitted_id G2M_cell22
+
+		cell.id G2M_cell23
+		assay.ena_experiment ERX538336
+		assay.ena_run ERR580027
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580027/ERR580027_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580027/ERR580027_2.fastq.gz
+		assay.submitted_file_names G2M_Cell23_1.fastq.gz,G2M_Cell23_2.fastq.gz
+		sample.ena_sample ERS527437
+		sample.submitted_id G2M_cell23
+
+		cell.id G2M_cell24
+		assay.ena_experiment ERX538305
+		assay.ena_run ERR580074
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580074/ERR580074_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580074/ERR580074_2.fastq.gz
+		assay.submitted_file_names G2M_Cell24_1.fastq.gz,G2M_Cell24_2.fastq.gz
+		sample.ena_sample ERS527406
+		sample.submitted_id G2M_cell24
+
+		cell.id G2M_cell25
+		assay.ena_experiment ERX538368
+		assay.ena_run ERR580297
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580297/ERR580297_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580297/ERR580297_2.fastq.gz
+		assay.submitted_file_names G2M_Cell25_1.fastq.gz,G2M_Cell25_2.fastq.gz
+		sample.ena_sample ERS527469
+		sample.submitted_id G2M_cell25
+
+		cell.id G2M_cell26
+		assay.ena_experiment ERX538152
+		assay.ena_run ERR580249
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580249/ERR580249_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580249/ERR580249_2.fastq.gz
+		assay.submitted_file_names G2M_Cell26_1.fastq.gz,G2M_Cell26_2.fastq.gz
+		sample.ena_sample ERS527253
+		sample.submitted_id G2M_cell26
+
+		cell.id G2M_cell27
+		assay.ena_experiment ERX538227
+		assay.ena_run ERR580246
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580246/ERR580246_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580246/ERR580246_2.fastq.gz
+		assay.submitted_file_names G2M_Cell27_1.fastq.gz,G2M_Cell27_2.fastq.gz
+		sample.ena_sample ERS527328
+		sample.submitted_id G2M_cell27
+
+		cell.id G2M_cell28
+		assay.ena_experiment ERX538299
+		assay.ena_run ERR580116
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580116/ERR580116_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580116/ERR580116_2.fastq.gz
+		assay.submitted_file_names G2M_Cell28_1.fastq.gz,G2M_Cell28_2.fastq.gz
+		sample.ena_sample ERS527400
+		sample.submitted_id G2M_cell28
+
+		cell.id G2M_cell29
+		assay.ena_experiment ERX538380
+		assay.ena_run ERR580049
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580049/ERR580049_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580049/ERR580049_2.fastq.gz
+		assay.submitted_file_names G2M_Cell29_1.fastq.gz,G2M_Cell29_2.fastq.gz
+		sample.ena_sample ERS527481
+		sample.submitted_id G2M_cell29
+
+		cell.id G2M_cell30
+		assay.ena_experiment ERX538344
+		assay.ena_run ERR580088
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580088/ERR580088_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580088/ERR580088_2.fastq.gz
+		assay.submitted_file_names G2M_Cell30_1.fastq.gz,G2M_Cell30_2.fastq.gz
+		sample.ena_sample ERS527445
+		sample.submitted_id G2M_cell30
+
+		cell.id G2M_cell31
+		assay.ena_experiment ERX538292
+		assay.ena_run ERR580080
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580080/ERR580080_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580080/ERR580080_2.fastq.gz
+		assay.submitted_file_names G2M_Cell31_1.fastq.gz,G2M_Cell31_2.fastq.gz
+		sample.ena_sample ERS527393
+		sample.submitted_id G2M_cell31
+
+		cell.id G2M_cell32
+		assay.ena_experiment ERX538245
+		assay.ena_run ERR580238
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580238/ERR580238_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580238/ERR580238_2.fastq.gz
+		assay.submitted_file_names G2M_Cell32_1.fastq.gz,G2M_Cell32_2.fastq.gz
+		sample.ena_sample ERS527346
+		sample.submitted_id G2M_cell32
+
+		cell.id G2M_cell33
+		assay.ena_experiment ERX538188
+		assay.ena_run ERR580229
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580229/ERR580229_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580229/ERR580229_2.fastq.gz
+		assay.submitted_file_names G2M_Cell33_1.fastq.gz,G2M_Cell33_2.fastq.gz
+		sample.ena_sample ERS527289
+		sample.submitted_id G2M_cell33
+
+		cell.id G2M_cell34
+		assay.ena_experiment ERX538421
+		assay.ena_run ERR580275
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580275/ERR580275_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580275/ERR580275_2.fastq.gz
+		assay.submitted_file_names G2M_Cell34_1.fastq.gz,G2M_Cell34_2.fastq.gz
+		sample.ena_sample ERS527522
+		sample.submitted_id G2M_cell34
+
+		cell.id G2M_cell35
+		assay.ena_experiment ERX538356
+		assay.ena_run ERR580062
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580062/ERR580062_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580062/ERR580062_2.fastq.gz
+		assay.submitted_file_names G2M_Cell35_1.fastq.gz,G2M_Cell35_2.fastq.gz
+		sample.ena_sample ERS527457
+		sample.submitted_id G2M_cell35
+
+		cell.id G2M_cell36
+		assay.ena_experiment ERX538297
+		assay.ena_run ERR580225
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580225/ERR580225_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580225/ERR580225_2.fastq.gz
+		assay.submitted_file_names G2M_Cell36_1.fastq.gz,G2M_Cell36_2.fastq.gz
+		sample.ena_sample ERS527398
+		sample.submitted_id G2M_cell36
+
+		cell.id G2M_cell37
+		assay.ena_experiment ERX538251
+		assay.ena_run ERR580092
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580092/ERR580092_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580092/ERR580092_2.fastq.gz
+		assay.submitted_file_names G2M_Cell37_1.fastq.gz,G2M_Cell37_2.fastq.gz
+		sample.ena_sample ERS527352
+		sample.submitted_id G2M_cell37
+
+		cell.id G2M_cell38
+		assay.ena_experiment ERX538173
+		assay.ena_run ERR580220
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580220/ERR580220_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580220/ERR580220_2.fastq.gz
+		assay.submitted_file_names G2M_Cell38_1.fastq.gz,G2M_Cell38_2.fastq.gz
+		sample.ena_sample ERS527274
+		sample.submitted_id G2M_cell38
+
+		cell.id G2M_cell39
+		assay.ena_experiment ERX538402
+		assay.ena_run ERR580123
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580123/ERR580123_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580123/ERR580123_2.fastq.gz
+		assay.submitted_file_names G2M_Cell39_1.fastq.gz,G2M_Cell39_2.fastq.gz
+		sample.ena_sample ERS527503
+		sample.submitted_id G2M_cell39
+
+		cell.id G2M_cell40
+		assay.ena_experiment ERX538169
+		assay.ena_run ERR580021
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580021/ERR580021_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580021/ERR580021_2.fastq.gz
+		assay.submitted_file_names G2M_Cell40_1.fastq.gz,G2M_Cell40_2.fastq.gz
+		sample.ena_sample ERS527270
+		sample.submitted_id G2M_cell40
+
+		cell.id G2M_cell41
+		assay.ena_experiment ERX538393
+		assay.ena_run ERR580036
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580036/ERR580036_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580036/ERR580036_2.fastq.gz
+		assay.submitted_file_names G2M_Cell41_1.fastq.gz,G2M_Cell41_2.fastq.gz
+		sample.ena_sample ERS527494
+		sample.submitted_id G2M_cell41
+
+		cell.id G2M_cell42
+		assay.ena_experiment ERX538295
+		assay.ena_run ERR580025
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580025/ERR580025_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580025/ERR580025_2.fastq.gz
+		assay.submitted_file_names G2M_Cell42_1.fastq.gz,G2M_Cell42_2.fastq.gz
+		sample.ena_sample ERS527396
+		sample.submitted_id G2M_cell42
+
+		cell.id G2M_cell43
+		assay.ena_experiment ERX538208
+		assay.ena_run ERR580090
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580090/ERR580090_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580090/ERR580090_2.fastq.gz
+		assay.submitted_file_names G2M_Cell43_1.fastq.gz,G2M_Cell43_2.fastq.gz
+		sample.ena_sample ERS527309
+		sample.submitted_id G2M_cell43
+
+		cell.id G2M_cell44
+		assay.ena_experiment ERX538142
+		assay.ena_run ERR580137
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580137/ERR580137_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580137/ERR580137_2.fastq.gz
+		assay.submitted_file_names G2M_Cell44_1.fastq.gz,G2M_Cell44_2.fastq.gz
+		sample.ena_sample ERS527243
+		sample.submitted_id G2M_cell44
+
+		cell.id G2M_cell45
+		assay.ena_experiment ERX538327
+		assay.ena_run ERR580187
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580187/ERR580187_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580187/ERR580187_2.fastq.gz
+		assay.submitted_file_names G2M_Cell45_1.fastq.gz,G2M_Cell45_2.fastq.gz
+		sample.ena_sample ERS527428
+		sample.submitted_id G2M_cell45
+
+		cell.id G2M_cell46
+		assay.ena_experiment ERX538248
+		assay.ena_run ERR580268
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580268/ERR580268_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580268/ERR580268_2.fastq.gz
+		assay.submitted_file_names G2M_Cell46_1.fastq.gz,G2M_Cell46_2.fastq.gz
+		sample.ena_sample ERS527349
+		sample.submitted_id G2M_cell46
+
+		cell.id G2M_cell47
+		assay.ena_experiment ERX538315
+		assay.ena_run ERR580276
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580276/ERR580276_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580276/ERR580276_2.fastq.gz
+		assay.submitted_file_names G2M_Cell47_1.fastq.gz,G2M_Cell47_2.fastq.gz
+		sample.ena_sample ERS527416
+		sample.submitted_id G2M_cell47
+
+		cell.id G2M_cell48
+		assay.ena_experiment ERX538183
+		assay.ena_run ERR580260
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580260/ERR580260_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580260/ERR580260_2.fastq.gz
+		assay.submitted_file_names G2M_Cell48_1.fastq.gz,G2M_Cell48_2.fastq.gz
+		sample.ena_sample ERS527284
+		sample.submitted_id G2M_cell48
+
+		cell.id G2M_cell49
+		assay.ena_experiment ERX538398
+		assay.ena_run ERR580149
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580149/ERR580149_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580149/ERR580149_2.fastq.gz
+		assay.submitted_file_names G2M_Cell49_1.fastq.gz,G2M_Cell49_2.fastq.gz
+		sample.ena_sample ERS527499
+		sample.submitted_id G2M_cell49
+
+		cell.id G2M_cell50
+		assay.ena_experiment ERX538233
+		assay.ena_run ERR580206
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580206/ERR580206_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580206/ERR580206_2.fastq.gz
+		assay.submitted_file_names G2M_Cell50_1.fastq.gz,G2M_Cell50_2.fastq.gz
+		sample.ena_sample ERS527334
+		sample.submitted_id G2M_cell50
+
+		cell.id G2M_cell51
+		assay.ena_experiment ERX538281
+		assay.ena_run ERR580168
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580168/ERR580168_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580168/ERR580168_2.fastq.gz
+		assay.submitted_file_names G2M_Cell51_1.fastq.gz,G2M_Cell51_2.fastq.gz
+		sample.ena_sample ERS527382
+		sample.submitted_id G2M_cell51
+
+		cell.id G2M_cell52
+		assay.ena_experiment ERX538386
+		assay.ena_run ERR580095
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580095/ERR580095_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580095/ERR580095_2.fastq.gz
+		assay.submitted_file_names G2M_Cell52_1.fastq.gz,G2M_Cell52_2.fastq.gz
+		sample.ena_sample ERS527487
+		sample.submitted_id G2M_cell52
+
+		cell.id G2M_cell53
+		assay.ena_experiment ERX538180
+		assay.ena_run ERR580122
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580122/ERR580122_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580122/ERR580122_2.fastq.gz
+		assay.submitted_file_names G2M_Cell53_1.fastq.gz,G2M_Cell53_2.fastq.gz
+		sample.ena_sample ERS527281
+		sample.submitted_id G2M_cell53
+
+		cell.id G2M_cell54
+		assay.ena_experiment ERX538150
+		assay.ena_run ERR580209
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580209/ERR580209_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580209/ERR580209_2.fastq.gz
+		assay.submitted_file_names G2M_Cell54_1.fastq.gz,G2M_Cell54_2.fastq.gz
+		sample.ena_sample ERS527251
+		sample.submitted_id G2M_cell54
+
+		cell.id G2M_cell55
+		assay.ena_experiment ERX538324
+		assay.ena_run ERR580075
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580075/ERR580075_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580075/ERR580075_2.fastq.gz
+		assay.submitted_file_names G2M_Cell55_1.fastq.gz,G2M_Cell55_2.fastq.gz
+		sample.ena_sample ERS527425
+		sample.submitted_id G2M_cell55
+
+		cell.id G2M_cell56
+		assay.ena_experiment ERX538290
+		assay.ena_run ERR580286
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580286/ERR580286_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580286/ERR580286_2.fastq.gz
+		assay.submitted_file_names G2M_Cell56_1.fastq.gz,G2M_Cell56_2.fastq.gz
+		sample.ena_sample ERS527391
+		sample.submitted_id G2M_cell56
+
+		cell.id G2M_cell57
+		assay.ena_experiment ERX538235
+		assay.ena_run ERR580030
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580030/ERR580030_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580030/ERR580030_2.fastq.gz
+		assay.submitted_file_names G2M_Cell57_1.fastq.gz,G2M_Cell57_2.fastq.gz
+		sample.ena_sample ERS527336
+		sample.submitted_id G2M_cell57
+
+		cell.id G2M_cell58
+		assay.ena_experiment ERX538178
+		assay.ena_run ERR580098
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580098/ERR580098_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580098/ERR580098_2.fastq.gz
+		assay.submitted_file_names G2M_Cell58_1.fastq.gz,G2M_Cell58_2.fastq.gz
+		sample.ena_sample ERS527279
+		sample.submitted_id G2M_cell58
+
+		cell.id G2M_cell59
+		assay.ena_experiment ERX538296
+		assay.ena_run ERR580193
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580193/ERR580193_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580193/ERR580193_2.fastq.gz
+		assay.submitted_file_names G2M_Cell59_1.fastq.gz,G2M_Cell59_2.fastq.gz
+		sample.ena_sample ERS527397
+		sample.submitted_id G2M_cell59
+
+		cell.id G2M_cell60
+		assay.ena_experiment ERX538309
+		assay.ena_run ERR580104
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580104/ERR580104_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580104/ERR580104_2.fastq.gz
+		assay.submitted_file_names G2M_Cell60_1.fastq.gz,G2M_Cell60_2.fastq.gz
+		sample.ena_sample ERS527410
+		sample.submitted_id G2M_cell60
+
+		cell.id G2M_cell61
+		assay.ena_experiment ERX538219
+		assay.ena_run ERR580296
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580296/ERR580296_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580296/ERR580296_2.fastq.gz
+		assay.submitted_file_names G2M_Cell61_1.fastq.gz,G2M_Cell61_2.fastq.gz
+		sample.ena_sample ERS527320
+		sample.submitted_id G2M_cell61
+
+		cell.id G2M_cell62
+		assay.ena_experiment ERX538190
+		assay.ena_run ERR580158
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580158/ERR580158_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580158/ERR580158_2.fastq.gz
+		assay.submitted_file_names G2M_Cell62_1.fastq.gz,G2M_Cell62_2.fastq.gz
+		sample.ena_sample ERS527291
+		sample.submitted_id G2M_cell62
+
+		cell.id G2M_cell63
+		assay.ena_experiment ERX538395
+		assay.ena_run ERR580073
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580073/ERR580073_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580073/ERR580073_2.fastq.gz
+		assay.submitted_file_names G2M_Cell63_1.fastq.gz,G2M_Cell63_2.fastq.gz
+		sample.ena_sample ERS527496
+		sample.submitted_id G2M_cell63
+
+		cell.id G2M_cell64
+		assay.ena_experiment ERX538275
+		assay.ena_run ERR580288
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580288/ERR580288_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580288/ERR580288_2.fastq.gz
+		assay.submitted_file_names G2M_Cell64_1.fastq.gz,G2M_Cell64_2.fastq.gz
+		sample.ena_sample ERS527376
+		sample.submitted_id G2M_cell64
+
+		cell.id G2M_cell65
+		assay.ena_experiment ERX538172
+		assay.ena_run ERR580039
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580039/ERR580039_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580039/ERR580039_2.fastq.gz
+		assay.submitted_file_names G2M_Cell65_1.fastq.gz,G2M_Cell65_2.fastq.gz
+		sample.ena_sample ERS527273
+		sample.submitted_id G2M_cell65
+
+		cell.id G2M_cell66
+		assay.ena_experiment ERX538139
+		assay.ena_run ERR580202
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580202/ERR580202_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580202/ERR580202_2.fastq.gz
+		assay.submitted_file_names G2M_Cell66_1.fastq.gz,G2M_Cell66_2.fastq.gz
+		sample.ena_sample ERS527240
+		sample.submitted_id G2M_cell66
+
+		cell.id G2M_cell67
+		assay.ena_experiment ERX538323
+		assay.ena_run ERR580256
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580256/ERR580256_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580256/ERR580256_2.fastq.gz
+		assay.submitted_file_names G2M_Cell67_1.fastq.gz,G2M_Cell67_2.fastq.gz
+		sample.ena_sample ERS527424
+		sample.submitted_id G2M_cell67
+
+		cell.id G2M_cell68
+		assay.ena_experiment ERX538335
+		assay.ena_run ERR580038
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580038/ERR580038_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580038/ERR580038_2.fastq.gz
+		assay.submitted_file_names G2M_Cell68_1.fastq.gz,G2M_Cell68_2.fastq.gz
+		sample.ena_sample ERS527436
+		sample.submitted_id G2M_cell68
+
+		cell.id G2M_cell69
+		assay.ena_experiment ERX538266
+		assay.ena_run ERR580042
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580042/ERR580042_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580042/ERR580042_2.fastq.gz
+		assay.submitted_file_names G2M_Cell69_1.fastq.gz,G2M_Cell69_2.fastq.gz
+		sample.ena_sample ERS527367
+		sample.submitted_id G2M_cell69
+
+		cell.id G2M_cell70
+		assay.ena_experiment ERX538406
+		assay.ena_run ERR580056
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580056/ERR580056_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580056/ERR580056_2.fastq.gz
+		assay.submitted_file_names G2M_Cell70_1.fastq.gz,G2M_Cell70_2.fastq.gz
+		sample.ena_sample ERS527507
+		sample.submitted_id G2M_cell70
+
+		cell.id G2M_cell71
+		assay.ena_experiment ERX538320
+		assay.ena_run ERR580213
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580213/ERR580213_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580213/ERR580213_2.fastq.gz
+		assay.submitted_file_names G2M_Cell71_1.fastq.gz,G2M_Cell71_2.fastq.gz
+		sample.ena_sample ERS527421
+		sample.submitted_id G2M_cell71
+
+		cell.id G2M_cell72
+		assay.ena_experiment ERX538255
+		assay.ena_run ERR580189
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580189/ERR580189_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580189/ERR580189_2.fastq.gz
+		assay.submitted_file_names G2M_Cell72_1.fastq.gz,G2M_Cell72_2.fastq.gz
+		sample.ena_sample ERS527356
+		sample.submitted_id G2M_cell72
+
+		cell.id G2M_cell73
+		assay.ena_experiment ERX538165
+		assay.ena_run ERR580110
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580110/ERR580110_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580110/ERR580110_2.fastq.gz
+		assay.submitted_file_names G2M_Cell73_1.fastq.gz,G2M_Cell73_2.fastq.gz
+		sample.ena_sample ERS527266
+		sample.submitted_id G2M_cell73
+
+		cell.id G2M_cell74
+		assay.ena_experiment ERX538389
+		assay.ena_run ERR580247
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580247/ERR580247_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580247/ERR580247_2.fastq.gz
+		assay.submitted_file_names G2M_Cell74_1.fastq.gz,G2M_Cell74_2.fastq.gz
+		sample.ena_sample ERS527490
+		sample.submitted_id G2M_cell74
+
+		cell.id G2M_cell75
+		assay.ena_experiment ERX538196
+		assay.ena_run ERR580224
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580224/ERR580224_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580224/ERR580224_2.fastq.gz
+		assay.submitted_file_names G2M_Cell75_1.fastq.gz,G2M_Cell75_2.fastq.gz
+		sample.ena_sample ERS527297
+		sample.submitted_id G2M_cell75
+
+		cell.id G2M_cell76
+		assay.ena_experiment ERX538274
+		assay.ena_run ERR580064
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580064/ERR580064_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580064/ERR580064_2.fastq.gz
+		assay.submitted_file_names G2M_Cell76_1.fastq.gz,G2M_Cell76_2.fastq.gz
+		sample.ena_sample ERS527375
+		sample.submitted_id G2M_cell76
+
+		cell.id G2M_cell77
+		assay.ena_experiment ERX538326
+		assay.ena_run ERR580072
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580072/ERR580072_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580072/ERR580072_2.fastq.gz
+		assay.submitted_file_names G2M_Cell77_1.fastq.gz,G2M_Cell77_2.fastq.gz
+		sample.ena_sample ERS527427
+		sample.submitted_id G2M_cell77
+
+		cell.id G2M_cell78
+		assay.ena_experiment ERX538419
+		assay.ena_run ERR580071
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580071/ERR580071_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580071/ERR580071_2.fastq.gz
+		assay.submitted_file_names G2M_Cell78_1.fastq.gz,G2M_Cell78_2.fastq.gz
+		sample.ena_sample ERS527520
+		sample.submitted_id G2M_cell78
+
+		cell.id G2M_cell79
+		assay.ena_experiment ERX538417
+		assay.ena_run ERR580046
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580046/ERR580046_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580046/ERR580046_2.fastq.gz
+		assay.submitted_file_names G2M_Cell79_1.fastq.gz,G2M_Cell79_2.fastq.gz
+		sample.ena_sample ERS527518
+		sample.submitted_id G2M_cell79
+
+		cell.id G2M_cell80
+		assay.ena_experiment ERX538288
+		assay.ena_run ERR580114
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580114/ERR580114_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580114/ERR580114_2.fastq.gz
+		assay.submitted_file_names G2M_Cell80_1.fastq.gz,G2M_Cell80_2.fastq.gz
+		sample.ena_sample ERS527389
+		sample.submitted_id G2M_cell80
+
+		cell.id G2M_cell81
+		assay.ena_experiment ERX538260
+		assay.ena_run ERR580082
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580082/ERR580082_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580082/ERR580082_2.fastq.gz
+		assay.submitted_file_names G2M_Cell81_1.fastq.gz,G2M_Cell81_2.fastq.gz
+		sample.ena_sample ERS527361
+		sample.submitted_id G2M_cell81
+
+		cell.id G2M_cell82
+		assay.ena_experiment ERX538179
+		assay.ena_run ERR580294
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580294/ERR580294_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580294/ERR580294_2.fastq.gz
+		assay.submitted_file_names G2M_Cell82_1.fastq.gz,G2M_Cell82_2.fastq.gz
+		sample.ena_sample ERS527280
+		sample.submitted_id G2M_cell82
+
+		cell.id G2M_cell83
+		assay.ena_experiment ERX538272
+		assay.ena_run ERR580154
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580154/ERR580154_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580154/ERR580154_2.fastq.gz
+		assay.submitted_file_names G2M_Cell83_1.fastq.gz,G2M_Cell83_2.fastq.gz
+		sample.ena_sample ERS527373
+		sample.submitted_id G2M_cell83
+
+		cell.id G2M_cell84
+		assay.ena_experiment ERX538308
+		assay.ena_run ERR580184
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580184/ERR580184_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580184/ERR580184_2.fastq.gz
+		assay.submitted_file_names G2M_Cell84_1.fastq.gz,G2M_Cell84_2.fastq.gz
+		sample.ena_sample ERS527409
+		sample.submitted_id G2M_cell84
+
+		cell.id G2M_cell85
+		assay.ena_experiment ERX538348
+		assay.ena_run ERR580112
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580112/ERR580112_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580112/ERR580112_2.fastq.gz
+		assay.submitted_file_names G2M_Cell85_1.fastq.gz,G2M_Cell85_2.fastq.gz
+		sample.ena_sample ERS527449
+		sample.submitted_id G2M_cell85
+
+		cell.id G2M_cell86
+		assay.ena_experiment ERX538289
+		assay.ena_run ERR580124
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580124/ERR580124_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580124/ERR580124_2.fastq.gz
+		assay.submitted_file_names G2M_Cell86_1.fastq.gz,G2M_Cell86_2.fastq.gz
+		sample.ena_sample ERS527390
+		sample.submitted_id G2M_cell86
+
+		cell.id G2M_cell87
+		assay.ena_experiment ERX538271
+		assay.ena_run ERR580128
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580128/ERR580128_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580128/ERR580128_2.fastq.gz
+		assay.submitted_file_names G2M_Cell87_1.fastq.gz,G2M_Cell87_2.fastq.gz
+		sample.ena_sample ERS527372
+		sample.submitted_id G2M_cell87
+
+		cell.id G2M_cell88
+		assay.ena_experiment ERX538189
+		assay.ena_run ERR580050
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580050/ERR580050_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580050/ERR580050_2.fastq.gz
+		assay.submitted_file_names G2M_Cell88_1.fastq.gz,G2M_Cell88_2.fastq.gz
+		sample.ena_sample ERS527290
+		sample.submitted_id G2M_cell88
+
+		cell.id G2M_cell89
+		assay.ena_experiment ERX538291
+		assay.ena_run ERR580263
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580263/ERR580263_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580263/ERR580263_2.fastq.gz
+		assay.submitted_file_names G2M_Cell89_1.fastq.gz,G2M_Cell89_2.fastq.gz
+		sample.ena_sample ERS527392
+		sample.submitted_id G2M_cell89
+
+		cell.id G2M_cell90
+		assay.ena_experiment ERX538401
+		assay.ena_run ERR580032
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580032/ERR580032_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580032/ERR580032_2.fastq.gz
+		assay.submitted_file_names G2M_Cell90_1.fastq.gz,G2M_Cell90_2.fastq.gz
+		sample.ena_sample ERS527502
+		sample.submitted_id G2M_cell90
+
+		cell.id G2M_cell91
+		assay.ena_experiment ERX538153
+		assay.ena_run ERR580234
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580234/ERR580234_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580234/ERR580234_2.fastq.gz
+		assay.submitted_file_names G2M_Cell91_1.fastq.gz,G2M_Cell91_2.fastq.gz
+		sample.ena_sample ERS527254
+		sample.submitted_id G2M_cell91
+
+		cell.id G2M_cell92
+		assay.ena_experiment ERX538236
+		assay.ena_run ERR580100
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580100/ERR580100_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580100/ERR580100_2.fastq.gz
+		assay.submitted_file_names G2M_Cell92_1.fastq.gz,G2M_Cell92_2.fastq.gz
+		sample.ena_sample ERS527337
+		sample.submitted_id G2M_cell92
+
+		cell.id G2M_cell93
+		assay.ena_experiment ERX538163
+		assay.ena_run ERR580089
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580089/ERR580089_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580089/ERR580089_2.fastq.gz
+		assay.submitted_file_names G2M_Cell93_1.fastq.gz,G2M_Cell93_2.fastq.gz
+		sample.ena_sample ERS527264
+		sample.submitted_id G2M_cell93
+
+		cell.id G2M_cell94
+		assay.ena_experiment ERX538378
+		assay.ena_run ERR580272
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580272/ERR580272_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580272/ERR580272_2.fastq.gz
+		assay.submitted_file_names G2M_Cell94_1.fastq.gz,G2M_Cell94_2.fastq.gz
+		sample.ena_sample ERS527479
+		sample.submitted_id G2M_cell94
+
+		cell.id G2M_cell95
+		assay.ena_experiment ERX538330
+		assay.ena_run ERR580087
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580087/ERR580087_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580087/ERR580087_2.fastq.gz
+		assay.submitted_file_names G2M_Cell95_1.fastq.gz,G2M_Cell95_2.fastq.gz
+		sample.ena_sample ERS527431
+		sample.submitted_id G2M_cell95
+
+		cell.id G2M_cell96
+		assay.ena_experiment ERX538408
+		assay.ena_run ERR580083
+		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580083/ERR580083_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580083/ERR580083_2.fastq.gz
+		assay.submitted_file_names G2M_Cell96_1.fastq.gz,G2M_Cell96_2.fastq.gz
+		sample.ena_sample ERS527509
+		sample.submitted_id G2M_cell96
+
