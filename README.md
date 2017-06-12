@@ -41,9 +41,11 @@ This is based on Jim's example, see his google doc [here](https://docs.google.co
 
 See https://support.10xgenomics.com/single-cell-gene-expression/datasets/pbmc8k
 
-## import
+## Import
 
 Larger scale examples imported in full from ArrayExpress, GEO, etc.
+
+See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html
 
 ## TODO & Questions for the Group
 

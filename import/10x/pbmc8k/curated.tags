@@ -18,3 +18,4 @@ assay.single_cell.method 10x_v2
 assay.single_cell.cell_barcode_size 16
 assay.single_cell.cell_barcode_offset 0
 assay.files pbmc8k_S1_L007_R1_001.fastq.gz, pbmc8k_S1_L007_R2_001.fastq.gz, pbmc8k_S1_L008_R1_001.fastq.gz, pbmc8k_S1_L008_R2_001.fastq.gz
+
