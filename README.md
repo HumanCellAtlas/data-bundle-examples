@@ -30,9 +30,9 @@ According to Array Express: "Libraries were sequenced on an Illumina HiSeq 2000,
 
 ## Drop-seq
 
-This is E-GEOD-81904.  This is based on Jim's example, see his google doc [here](https://docs.google.com/document/d/1CNFGWxsrrc8vVn4PBsojfb1aAM_dkwfHrJW0vjR_ulU/edit).
+This is GSE81904.  This is based on Jim's example, see his google doc [here](https://docs.google.com/document/d/1CNFGWxsrrc8vVn4PBsojfb1aAM_dkwfHrJW0vjR_ulU/edit).
 
-Jim made several bundles (one per sample), we're just storing the first one in this repo that corresponds to a single sample and multiple cells.
+* Jim made several bundles (one per sample), we're just storing the first one in this repo that corresponds to a single sample and multiple cells.
 
 
 ## 10X
@@ -49,20 +49,20 @@ Larger scale examples imported in full from ArrayExpress, GEO, etc.
 
 ### Drop-seq
 1. UMI offset, UMI size,cell barcode size, cell barcode offset should not change for the assay Drop-seq (or the 10X version assay). It is possible to minimize the metadata here given they are all realistically one unit of information. It depends on the purpose of the json file just FYI [from Tim].
-     -True.  I could drop these, but as assay methods proliferate I thought it might be nice to have these spelled out.
+     * True.  I could drop these, but as assay methods proliferate I thought it might be nice to have these spelled out. [from Jim].
 2. Need to add 10X channel information on top of sequencer lane information for this [from Tim].
-     -I'm not quite sure what you mean by this. [from Jim]
+     * I'm not quite sure what you mean by this. [from Jim]
 3. Need to add lane information to this like you have in 10X [from Tim].
-     -Ok.  Still a TODO on the drop-seq ones. [from Jim]
+     * Ok.  Still a TODO on the drop-seq ones. [from Jim]
 
 ### 10X
 1. This is documented as an example of v2 chemistry, do we want v1 and V(D)J? If so are you going to grab the data or do we want to simulate from this data set [from Tim]?
-    --I can grab a 10x v1, which I think would be good to have.  The V(D)J is sort of specialized.  I'd like to skip it for now. [from Jim]
+    * I can grab a 10x v1, which I think would be good to have.  The V(D)J is sort of specialized.  I'd like to skip it for now. [from Jim]
 
 2. If you are going to have a type for fastq file to differentiate the file with the transcript then this generalizes to Drop-Seq and you should do that too, you could also do this to Smartseq2 (both transcript) if you want to keep the pattern standard [from Tim].
-    - I've got it set up for both drop-seq and 10x_v2 to use type=index and type=reads  [from Jim]
+    8 I've got it set up for both drop-seq and 10x_v2 to use type=index and type=reads  [from Jim]
 3. Need to include the barcodes used for the 10X run (there are different library barcodes one can use) [from Tim].
-    - Hmm.  There is and I.fastq.gz file (or is it I3.fastq.gz) file that has the observed sample library barcodes.
+    * Hmm.  There is and I.fastq.gz file (or is it I3.fastq.gz) file that has the observed sample library barcodes.
       I wonder if that's what you mean.  Otherwise I'm not sure where to find it. I could parse it out of their
       matrix I suppose, but maybe it's somewhere pre-alignment. [from Jim]
 
@@ -72,7 +72,7 @@ Larger scale examples imported in full from ArrayExpress, GEO, etc.
 2. We need to check the fastq files, I don't think they are correct since we expect multiple fastq files per data bundle.
     * Smartseq2 I think is correct since it's a single-end experiment
         * this is not standard, Smartseq2 is expected to be paired sequencing [from Tim]
-	* I've got both single and paired end examples now under smartseq1 [from Jim]
+	* I've got both single and paired end examples now under smartseq2 [from Jim]
     * Drop-seq I think is missing the fastq1 file since it was converted from BAM, so this is lost?
         * Agreed, this would happen if the bam was post alignment, pre-annotation [from Tim].
         * I have some files for Smartseq2 and Drop-seq, where can I put them for the get_data.sh to pull. Also have associated output files that were ran on pipelines from the input data. It would be great to wget these files not to the data folder but into thier respective bundles [from Tim].
