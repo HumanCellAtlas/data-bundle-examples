@@ -1,0 +1,1 @@
+{"seq":{"machine":"Illumina HiSeq 2000","molecule":"total RNA","paired_ends":"no"},"rna":{"primer":"random","prep":"smart-seq2"},"single_cell":{"method":"FACS"},"sra_experiment":"SRX1461250","sra_run":"SRR2971878","files":[{"name":"SRR2971878_1.fastq.gz","format":".fastq.gz","type":"reads"}]}

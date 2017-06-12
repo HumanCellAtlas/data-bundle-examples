@@ -1,0 +1,1 @@
+{"rna":{"primer":"random","spike_in":"ERCC"},"seq":{"paired_ends":"yes","molecule":"total RNA","machine":"Illumina HiSeq 2500"},"single_cell":{"method":"Fluidigm C1"},"sra_experiment":"SRX1457098","sra_run":"SRR2967652","files":[{"name":"SRR2967652_1.fastq.gz","format":".fastq.gz","type":"read1"},{"name":"SRR2967652_2.fastq.gz","format":".fastq.gz","type":"read2"}]}

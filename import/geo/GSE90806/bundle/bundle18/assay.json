@@ -1,0 +1,1 @@
+{"single_cell":{"method":"mouth pipette"},"rna":{"primer":"cDNA","prep":"transcriptomic"},"seq":{"paired_ends":"no","machine":"Illumina NextSeq 500","molecule":"polyA RNA"},"sra_experiment":"SRX2390171","sra_run":"SRR5070324","files":[{"name":"SRR5070324_1.fastq.gz","format":".fastq.gz","type":"reads"}]}
