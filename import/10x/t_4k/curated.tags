@@ -1,0 +1,27 @@
+project.id 10x_t_4k
+project.title Pan T Cells isolated from mononuclear cells of a healthy donor
+project.uuid 32985886-022b-4cde-b128-e732a22ab6df
+sample.donor.species Homo sapiens
+sample.donor.ncbi_taxon 9606
+sample.donor.life_stage adult
+sample.donor.uuid 0f4108bb-d548-495a-a19e-87e36b0a198e
+sample.body_part.name peripheral blood pan T-cells
+sample.long_label peripheral blood pan T-cells
+sample.short_label T-cells
+sample.body_part.organ blood
+sample.treatment.enrichment CD3+
+sample.treatment.enrichment_method pan
+assay.seq.machine Illumina HiSeq 4000
+assay.seq.molecule RNA
+assay.seq.paired_ends index1_reads2
+assay.seq.umi_barcode_size 10
+assay.seq.umi_barcode_offset 16
+assay.rna.primer poly-dt
+assay.single_cell.cell_barcode_size 16
+assay.single_cell.cell_barcode_offset 0
+assay.single_cell.method 10x_v2
+
+    assay.files t_4k_S1_L001_R1_001.fastq.gz, t_4k_S1_L001_R2_001.fastq.gz, t_4k_S1_L002_R1_001.fastq.gz, t_4k_S1_L002_R2_001.fastq.gz, t_4k_S1_L003_R1_001.fastq.gz, t_4k_S1_L003_R2_001.fastq.gz, t_4k_S1_L004_R1_001.fastq.gz, t_4k_S1_L004_R2_001.fastq.gz, t_4k_S1_L005_R1_001.fastq.gz, t_4k_S1_L005_R2_001.fastq.gz, t_4k_S1_L006_R1_001.fastq.gz, t_4k_S1_L006_R2_001.fastq.gz, t_4k_S1_L007_R1_001.fastq.gz, t_4k_S1_L007_R2_001.fastq.gz, t_4k_S1_L008_R1_001.fastq.gz, t_4k_S1_L008_R2_001.fastq.gz
+
+    
+

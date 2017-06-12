@@ -1,0 +1,20 @@
+project.id 10x_pbmc8k
+project.title Peripheral blood mononuclear cells (PBMCs) from a healthy donor
+project.uuid 7068d6f8-31aa-405f-b02d-51ce7361b686
+sample.donor.species Homo sapiens
+sample.donor.ncbi_taxon 9606
+sample.donor.life_stage adult
+sample.body_part.name peripheral blood mononuclear cells (PBMCs)
+sample.long_label peripheral blood mononuclear cells (PBMCs)
+sample.short_label PBMCs
+sample.body_part.organ blood
+assay.seq.machine Illumina HiSeq 4000
+assay.seq.molecule RNA
+assay.seq.paired_ends index1_reads2
+assay.seq.umi_barcode_size 10
+assay.seq.umi_barcode_offset 16
+assay.rna.primer poly-dt
+assay.single_cell.method 10x_v2
+assay.single_cell.cell_barcode_size 16
+assay.single_cell.cell_barcode_offset 0
+assay.files pbmc8k_S1_L007_R1_001.fastq.gz, pbmc8k_S1_L007_R2_001.fastq.gz, pbmc8k_S1_L008_R1_001.fastq.gz, pbmc8k_S1_L008_R2_001.fastq.gz

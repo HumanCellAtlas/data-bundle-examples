@@ -1,0 +1,1 @@
+{"uuid":"767d214b-dbe2-4341-97b8-02bcf39f367a","donor":{"species":"Homo sapiens","ncbi_taxon":"9606","life_stage":"adult","uuid":"0f4108bb-d548-495a-a19e-87e36b0a198e"},"body_part":{"name":"peripheral blood pan T-cells","organ":"blood"},"long_label":"peripheral blood pan T-cells","short_label":"T-cells","treatment":{"enrichment":"CD3+","enrichment_method":"pan"}}
