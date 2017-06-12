@@ -8,7 +8,7 @@ This directory contains imported projects from GEO, ArrayExpress and 10x.
 
 The top level directories represent the major import sources.  Underneath this it
 is arranged into a directory per project.  The projects  from GEO all start with
-GSE and are named aftet the GEO sample accessions.  Similarly the ArrayExpress all
+GSE and are named after the GEO sample accessions.  Similarly the ArrayExpress all
 start with E- and are ArrayExpress accessions.  The 10x projects are individually named.
 
 Within each project directory you'll find metadata files downloaded from the original source,

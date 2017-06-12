@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-ERAD-357
+MAGE-TAB Version	1.1
+Investigation Title	RNAseq of mouse POMC neurons
+Comment[Submitted Name]	RNAseq of mouse POMC neurons
+Experiment Description	From the arcuate nucleus of mice, we have dissociated neurons that express Proopiomelanocortin(POMC) and captured them on the Fluidigm C1 platform. These neuronsplay important roles in the regulation of appetite and sexual behavior. Here we propose tosequence RNA from 96 single POMC-expressing neurons to understand the variance in theirtranscriptomes.This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/
+Experimental Factor Name	individual
+Experimental Factor Type	individual
+Experimental Factor Term Source REF	EFO
+Experimental Factor Term Accession Number	EFO_0000542
+Person Last Name	The Wellcome Trust Sanger Institute
+Person Email	datahose@sanger.ac.uk
+Person Address	Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK
+Person Affiliation	Wellcome Trust Sanger Institute
+Person Roles	submitter
+Public Release Date	2015-04-28
+Protocol Name	SEQUENCING_PROTOCOL_1	LIBRARY_CONSTRUCTION_PROTOCOL_1
+Protocol Type	nucleic acid sequencing protocol	nucleic acid library construction protocol
+Protocol Term Source REF	EFO	EFO
+Protocol Term Accession Number	EFO_0004170	EFO_0004184
+Protocol Description	Illumina HiSeq 2500	qPCR only
+Protocol Hardware	Illumina HiSeq 2500
+Term Source Name	NCBI Taxonomy	EFO
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/efo
+Term Source Version		2.38
+Comment[SecondaryAccession]	ERP009255
+Comment[SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERP009255
+Comment[AEExperimentType]	RNA-seq of coding RNA
+Comment[SRASubmissionDate]	2015-01-13
+Comment[AEExperimentDisplayName]	RNAseq of mouse POMC neurons
+SDRF File	E-ERAD-357.sdrf.txt
