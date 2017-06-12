@@ -55,7 +55,7 @@ See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html
 2. Need to add 10X channel information on top of sequencer lane information for this [from Tim].
      * I'm not quite sure what you mean by this. [from Jim]
 3. Need to add lane information to this like you have in 10X [from Tim].
-     * Ok.  Still a TODO on the drop-seq ones. [from Jim]
+     * OK. Everything has lanes now. [from Jim]
 
 ### 10X
 1. This is documented as an example of v2 chemistry, do we want v1 and V(D)J? If so are you going to grab the data or do we want to simulate from this data set [from Tim]?
