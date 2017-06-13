@@ -34,10 +34,10 @@ project.contact.department $ *
 !project.contact.email $ *@*.*
 project.contact.institute $ *
 project.contact.laboratory $ *
-!project.contact.name $ 
-project.contact.phone $ 
-project.contact.postal_code $ 
-project.contact.state $ CA FL TX MA MA NY OR WA
+!project.contact.name $ *
+project.contact.phone $ *
+project.contact.postal_code $ *
+project.contact.state $ CA FL MA MA NY OR TX WA
 project.contact.street_address $ *
 project.contributor $ *
 project.ddjb_trace_project $ ERP*
