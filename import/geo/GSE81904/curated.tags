@@ -56,6 +56,7 @@ sample.submission_date 2016-05-25
 	sample.short_label retina bipolar 1
 	sample.ncbi_biosample SAMN05177285
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177570/GSM2177570_Bipolar1.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800075
+	sample.uuid 5053a2b0-0c07-4df3-8a9d-4485688e29e7
 
 	assay.sra_experiment SRX1800076
 	assay.sra_run SRR3587501
@@ -64,6 +65,7 @@ sample.submission_date 2016-05-25
 	sample.short_label retina bipolar 2
 	sample.ncbi_biosample SAMN05177286
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177571/GSM2177571_Bipolar2.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800076
+	sample.uuid df661039-ad34-4e2b-8555-f42e8869ba6c
 
 	assay.sra_experiment SRX1800077
 	assay.sra_run SRR3587502
@@ -72,6 +74,7 @@ sample.submission_date 2016-05-25
 	sample.ncbi_biosample SAMN05177287
 	sample.short_label retina bipolar 3
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177572/GSM2177572_Bipolar3.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800077
+	sample.uuid df557776-643b-40e4-8502-389b4c697a92
 
 	assay.sra_experiment SRX1800078
 	assay.sra_run SRR3587503
@@ -80,6 +83,7 @@ sample.submission_date 2016-05-25
 	sample.short_label retina bipolar 4
 	sample.long_label P17 Vsx2-GFP sorted mouse bipolar retina cells 4 (Batch 1)
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177573/GSM2177573_Bipolar4.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800078
+	sample.uuid 13b08ba4-0eb6-4555-bf21-d89950b62b0e
 
 	assay.sra_experiment SRX1800079
 	assay.sra_run SRR3587504
@@ -88,6 +92,7 @@ sample.submission_date 2016-05-25
 	sample.short_label retina bipolar 5
 	sample.long_label P17 Vsx2-GFP sorted mouse bipolar retina cells 5 (Batch 2)
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177574/GSM2177574_Bipolar5.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800079
+	sample.uuid 0088e6cb-7ea4-47e1-a228-207f1cb17532
 
 	assay.sra_experiment SRX1800080
 	assay.sra_run SRR3587505
@@ -96,4 +101,5 @@ sample.submission_date 2016-05-25
 	sample.short_label retina bipolar 6
 	sample.long_label P17 Vsx2-GFP sorted mouse bipolar retina cells 6 (Batch 2)
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177575/GSM2177575_Bipolar6.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800080
+	sample.uuid c5644370-fe35-4909-90cf-9ee99900d10d
 

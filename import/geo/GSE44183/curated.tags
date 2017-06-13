@@ -55,6 +55,7 @@ sample.donor.life_stage embryo
 			cell.id human oocyte 1
 			sample.ncbi_biosample SAMN02195141
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300873
+			sample.uuid 0e0c85ff-849d-4b6c-aba6-eda30024b35d
 
 			assay.sra_experiment SRX300874
 			assay.sra_run SRR893047
@@ -62,6 +63,7 @@ sample.donor.life_stage embryo
 			cell.id human oocyte 3
 			sample.ncbi_biosample SAMN02195142
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300874
+			sample.uuid 2f7c4284-dc41-4b3e-834f-5beea7fd88d7
 
 			assay.sra_experiment SRX300875
 			assay.sra_run SRR893048
@@ -69,6 +71,7 @@ sample.donor.life_stage embryo
 			cell.id human oocyte 4
 			sample.ncbi_biosample SAMN02195143
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300875
+			sample.uuid fce04869-faee-4719-9605-c5d4186741b0
 
 		cell.type fertilized oocyte
 		sample.body_part.name fertilized oocyte
@@ -82,6 +85,7 @@ sample.donor.life_stage embryo
 			cell.id human pronuclei 2
 			sample.ncbi_biosample SAMN02195144
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300876
+			sample.uuid 0034d227-a8bd-48b5-8278-2b0f4aa18a9a
 
 			assay.sra_experiment SRX300877
 			assay.sra_run SRR893050
@@ -89,6 +93,7 @@ sample.donor.life_stage embryo
 			cell.id human pronuclei 3
 			sample.ncbi_biosample SAMN02195145
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300877
+			sample.uuid 784ffcab-a8a5-45a4-9218-fbb533506fb0
 
 			assay.sra_experiment SRX300878
 			assay.sra_run SRR893051
@@ -96,6 +101,7 @@ sample.donor.life_stage embryo
 			cell.id human pronuclei 4
 			sample.ncbi_biosample SAMN02195146
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300878
+			sample.uuid d80b90b5-a32a-4ea7-a609-e469743aae32
 
 		cell.type zygote
 		sample.body_part.name zygote
@@ -109,6 +115,7 @@ sample.donor.life_stage embryo
 			cell.id human zygote 1
 			sample.ncbi_biosample SAMN02195147
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300879
+			sample.uuid 218d4093-a1d6-491f-b8be-857481f9e7b1
 
 			assay.sra_experiment SRX300880
 			assay.sra_run SRR893053
@@ -116,6 +123,7 @@ sample.donor.life_stage embryo
 			cell.id human zygote 2
 			sample.ncbi_biosample SAMN02195148
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300880
+			sample.uuid 91c28071-7f4b-4e7f-84db-dfa70c18829f
 
 		cell.type 2-cell blastomere
 		sample.body_part.name 2-cell blastomere
@@ -129,6 +137,7 @@ sample.donor.life_stage embryo
 			cell.id human 2-cell 1
 			sample.ncbi_biosample SAMN02195149
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300881
+			sample.uuid 21989aaa-caa7-4d16-bfe8-cbf816538652
 
 			assay.sra_experiment SRX300882
 			assay.sra_run SRR893055
@@ -136,6 +145,7 @@ sample.donor.life_stage embryo
 			cell.id human 2-cell 5
 			sample.ncbi_biosample SAMN02195150
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300882
+			sample.uuid 3dfc852e-3ae5-4292-b269-af32ffdf6b2f
 
 			assay.sra_experiment SRX300883
 			assay.sra_run SRR893056
@@ -143,6 +153,7 @@ sample.donor.life_stage embryo
 			cell.id human 2-cell 6
 			sample.ncbi_biosample SAMN02195151
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300883
+			sample.uuid 1ba549ae-a264-41b6-a54d-6c5e389191ff
 
 		cell.type 4-cell blastomere
 		sample.body_part.name 4-cell blastomere
@@ -156,6 +167,7 @@ sample.donor.life_stage embryo
 			cell.id human 4-cell 1
 			sample.ncbi_biosample SAMN02195152
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300884
+			sample.uuid 29d39aa5-6431-4ad8-828b-4ba7b37b7f8a
 
 			assay.sra_experiment SRX300885
 			assay.sra_run SRR893058
@@ -163,6 +175,7 @@ sample.donor.life_stage embryo
 			cell.id human 4-cell 2
 			sample.ncbi_biosample SAMN02195153
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300885
+			sample.uuid 0bc0f088-8c64-4e31-9498-922146ff2528
 
 			assay.sra_experiment SRX300886
 			assay.sra_run SRR893059
@@ -170,6 +183,7 @@ sample.donor.life_stage embryo
 			cell.id human 4-cell 3
 			sample.ncbi_biosample SAMN02195154
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300886
+			sample.uuid 63a710e2-7492-472e-a547-784ee60db914
 
 			assay.sra_experiment SRX300887
 			assay.sra_run SRR893060
@@ -177,6 +191,7 @@ sample.donor.life_stage embryo
 			cell.id human 4-cell 4
 			sample.ncbi_biosample SAMN02195155
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300887
+			sample.uuid d20a04dc-38be-421a-9193-339fa4eba94c
 
 		cell.type 8-cell blastomere
 		sample.body_part.name 8-cell blastomere
@@ -190,6 +205,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell 3a
 			sample.ncbi_biosample SAMN02195156
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300888
+			sample.uuid 803e3b8a-3029-4cc2-90d1-10439fa12fec
 
 			assay.sra_experiment SRX300889
 			assay.sra_run SRR893062
@@ -197,6 +213,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell 6a
 			sample.ncbi_biosample SAMN02195157
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300889
+			sample.uuid 9ea5f974-6554-493f-9981-e506c1681ac8
 
 			assay.sra_experiment SRX300890
 			assay.sra_run SRR893063
@@ -204,6 +221,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell 7a
 			sample.ncbi_biosample SAMN02195158
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300890
+			sample.uuid 3b923941-948a-4a86-b549-106919bbf561
 
 			assay.sra_experiment SRX300891
 			assay.sra_run SRR893064
@@ -211,6 +229,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell 1b
 			sample.ncbi_biosample SAMN02195159
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300891
+			sample.uuid 9dda6c78-2269-4e4e-ba06-7dd27d6b538a
 
 			assay.sra_experiment SRX300892
 			assay.sra_run SRR893065
@@ -218,6 +237,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell 2b
 			sample.ncbi_biosample SAMN02195160
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300892
+			sample.uuid 0c30122b-06a2-4c36-99ef-74f127a3919f
 
 			assay.sra_experiment SRX300893
 			assay.sra_run SRR893066
@@ -225,6 +245,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell 3b
 			sample.ncbi_biosample SAMN02195161
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300893
+			sample.uuid 0f4b7c13-7b43-43c5-af12-9b3e42a29acf
 
 			assay.sra_experiment SRX300894
 			assay.sra_run SRR893067
@@ -232,6 +253,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell 4b
 			sample.ncbi_biosample SAMN02195162
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300894
+			sample.uuid b84e9169-3fe6-47f9-b9a1-3a8fbe6c7607
 
 			assay.sra_experiment SRX300895
 			assay.sra_run SRR893068
@@ -239,6 +261,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell 5b
 			sample.ncbi_biosample SAMN02195163
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300895
+			sample.uuid e745ba47-52b8-4b52-b466-ae866a89f189
 
 			assay.sra_experiment SRX300896
 			assay.sra_run SRR893069
@@ -246,6 +269,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell 3c
 			sample.ncbi_biosample SAMN02195164
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300896
+			sample.uuid e69a40bb-e975-4329-9912-72b052c8a6ed
 
 			assay.sra_experiment SRX300897
 			assay.sra_run SRR893070
@@ -253,6 +277,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell 5c
 			sample.ncbi_biosample SAMN02195165
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300897
+			sample.uuid 44892d68-ccf4-4ac3-bb93-eb64a7e874d9
 
 			assay.sra_experiment SRX300898
 			assay.sra_run SRR893071
@@ -260,6 +285,7 @@ sample.donor.life_stage embryo
 			cell.id human 8-cell pooled
 			sample.ncbi_biosample SAMN02195166
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300898
+			sample.uuid b68aa770-7b4b-441b-911a-19bbbb4b17f1
 
 		cell.type morula
 		sample.body_part.name morula stage embryo
@@ -273,6 +299,7 @@ sample.donor.life_stage embryo
 			cell.id human morula stage embryo cell 1
 			sample.ncbi_biosample SAMN02195167
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300899
+			sample.uuid e80eb11e-457a-45a5-bd0d-3462016d093e
 
 			assay.sra_experiment SRX300900
 			assay.sra_run SRR893073
@@ -280,6 +307,7 @@ sample.donor.life_stage embryo
 			cell.id human morula 4
 			sample.ncbi_biosample SAMN02195168
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300900
+			sample.uuid 358a1142-7dae-42e0-b757-cb73b2dff90e
 
 			assay.sra_experiment SRX300901
 			assay.sra_run SRR893074
@@ -287,6 +315,7 @@ sample.donor.life_stage embryo
 			cell.id human morula 5
 			sample.ncbi_biosample SAMN02195169
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300901
+			sample.uuid 31666589-5a36-4ccc-a55f-2a1d1fcf91d6
 
 	assay.rna.primer poly-dt
 	sample.data_processing Raw reads from the Illumina HiSeq2000 were mapped to the mm9 genome using default parameters in BWA,Mapped transcripts reads were transformed using the reads per kilobase per million (RPKM) metric,"Genes with low expression in all stages (average RPKM<0.1) were filtered out, followed by quantile normalization.",mm9,mouse_expression_mat.txt: matrix listing normalized RPKM
@@ -309,6 +338,7 @@ sample.donor.life_stage embryo
 			cell.id mouse oocyte 1
 			sample.ncbi_biosample SAMN01915415
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229784
+			sample.uuid 9c0d8469-0597-47ab-b3ca-5fa7b3e5b51b
 
 			assay.sra_experiment SRX229785
 			assay.sra_run SRR689234
@@ -316,6 +346,7 @@ sample.donor.life_stage embryo
 			cell.id mouse oocyte 2
 			sample.ncbi_biosample SAMN01915416
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229785
+			sample.uuid 9f0970a9-4651-446e-af23-4861aa04a178
 
 		cell.type fertilized oocyte
 		sample.body_part.name fertilized oocyte
@@ -329,6 +360,7 @@ sample.donor.life_stage embryo
 			cell.id mouse pronuclei cell 1
 			sample.ncbi_biosample SAMN01915417
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229786
+			sample.uuid b7b7b191-fbf6-440c-890f-dbf43beedde2
 
 			assay.sra_experiment SRX229787
 			assay.sra_run SRR689236
@@ -336,6 +368,7 @@ sample.donor.life_stage embryo
 			cell.id mouse pronuclei cell 2
 			sample.ncbi_biosample SAMN01915418
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229787
+			sample.uuid 11a90e51-5207-49e2-b376-21ce5281bede
 
 			assay.sra_experiment SRX229788
 			assay.sra_run SRR689237
@@ -343,6 +376,7 @@ sample.donor.life_stage embryo
 			cell.id mouse pronuclei 3
 			sample.ncbi_biosample SAMN01915419
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229788
+			sample.uuid accda7d0-1dc1-4032-9133-b57a730dc952
 
 		cell.type 2-cell blastomere
 		sample.body_part.name 2-cell blastomere
@@ -356,6 +390,7 @@ sample.donor.life_stage embryo
 			cell.id mouse 2-cell 1
 			sample.ncbi_biosample SAMN01915420
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229789
+			sample.uuid fdf0f4ab-8ee8-443b-bdee-56af2a562134
 
 			assay.sra_experiment SRX229790
 			assay.sra_run SRR689239
@@ -363,6 +398,7 @@ sample.donor.life_stage embryo
 			cell.id mouse 2-cell 2
 			sample.ncbi_biosample SAMN01915421
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229790
+			sample.uuid bf265839-d035-4445-a8bf-1bf92f0b33a3
 
 			assay.sra_experiment SRX229791
 			assay.sra_run SRR689240
@@ -370,6 +406,7 @@ sample.donor.life_stage embryo
 			cell.id mouse 2-cell 3
 			sample.ncbi_biosample SAMN01915422
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229791
+			sample.uuid 9aa3ef97-b809-4dae-a0c6-318ca0ce1872
 
 		cell.type 4-cell blastomere
 		sample.body_part.name 4-cell blastomere
@@ -383,6 +420,7 @@ sample.donor.life_stage embryo
 			cell.id mouse 4-cell 1
 			sample.ncbi_biosample SAMN01915423
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229792
+			sample.uuid 21aba87a-7b1d-40df-b058-4e5ac35f0ae3
 
 			assay.sra_experiment SRX229793
 			assay.sra_run SRR689242
@@ -390,6 +428,7 @@ sample.donor.life_stage embryo
 			cell.id mouse 4-cell 2
 			sample.ncbi_biosample SAMN01915424
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229793
+			sample.uuid 3de9c2ae-c344-4878-8f81-c6802a02103b
 
 			assay.sra_experiment SRX229794
 			assay.sra_run SRR689243
@@ -397,6 +436,7 @@ sample.donor.life_stage embryo
 			cell.id mouse 4-cell 3
 			sample.ncbi_biosample SAMN01915425
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229794
+			sample.uuid 219e0f35-5753-48f5-bdff-f4de3107374b
 
 		cell.type 8-cell blastomere
 		sample.body_part.name 8-cell blastomere
@@ -410,6 +450,7 @@ sample.donor.life_stage embryo
 			cell.id mouse 8-cell 1
 			sample.ncbi_biosample SAMN01915426
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229795
+			sample.uuid d11822da-0041-460b-ab41-f6af6b8d420d
 
 			assay.sra_experiment SRX229796
 			assay.sra_run SRR689245
@@ -417,6 +458,7 @@ sample.donor.life_stage embryo
 			cell.id mouse 8-cell 2
 			sample.ncbi_biosample SAMN01915427
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229796
+			sample.uuid 406b0eab-95af-4161-9452-ee1d982a2293
 
 			assay.sra_experiment SRX229797
 			assay.sra_run SRR689246
@@ -424,6 +466,7 @@ sample.donor.life_stage embryo
 			cell.id mouse 8-cell 3
 			sample.ncbi_biosample SAMN01915428
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229797
+			sample.uuid 8439b4f1-2b0d-4f8f-b0f1-3d59c055357d
 
 		cell.type morula
 		sample.body_part.name morula stage embryo
@@ -437,6 +480,7 @@ sample.donor.life_stage embryo
 			cell.id mouse morula stage embryo cell 1
 			sample.ncbi_biosample SAMN01915429
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229798
+			sample.uuid 0046ed2b-da4e-42ac-a923-d5eded8311d0
 
 			assay.sra_experiment SRX229799
 			assay.sra_run SRR689248
@@ -444,6 +488,7 @@ sample.donor.life_stage embryo
 			cell.id mouse morula stage embryo cell 2
 			sample.ncbi_biosample SAMN01915430
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229799
+			sample.uuid 2efea911-5ecc-4287-b28d-e6764bdb3ebb
 
 			assay.sra_experiment SRX229800
 			assay.sra_run SRR689249
@@ -451,4 +496,5 @@ sample.donor.life_stage embryo
 			cell.id mouse morula 3
 			sample.ncbi_biosample SAMN01915431
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229800
+			sample.uuid bf331fed-a837-417a-9396-43796cbb8edf
 

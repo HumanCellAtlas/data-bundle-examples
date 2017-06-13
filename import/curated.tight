@@ -10,10 +10,10 @@ assay.seq.machine $ "Illumina HiSeq 2000" "Illumina HiSeq 2500" "Illumina HiSeq 
 !assay.seq.molecule $ RNA "polyA RNA" "total RNA"
 !assay.seq.paired_ends $ index1_reads2 no yes
 assay.seq.prep $ "DNA Library Prep kit (Nextera XT; Illumina)" "Nextera XT" TruSeq "modified Nextera XT"
-assay.seq.umi_barcode_offset # 1 100
-assay.seq.umi_barcode_size # 0 10
-assay.single_cell.cell_barcode_offset # 0 0
-assay.single_cell.cell_barcode_size # 0 100
+assay.seq.umi_barcode_offset # 0 50
+assay.seq.umi_barcode_size # 0 50
+assay.single_cell.cell_barcode_offset # 0 50
+assay.single_cell.cell_barcode_size # 0 50
 !assay.single_cell.method $ 10x_v2 FACS "Fluidigm C1" drop-seq "mouth pipette"
 assay.sra_experiment $ *
 assay.sra_run $ *
@@ -59,7 +59,7 @@ project.submission_date $ 2???-??-??
 !project.summary $ *
 project.supplementary_files $ *
 !project.title $ *
-!project.uuid $ *
+!project.uuid $ ????????-????-????-????-????????????
 sample.biosd_sample $ *
 sample.body_part.cell_count % 0 100
 sample.body_part.cell_type # 1 1
@@ -87,9 +87,10 @@ sample.donor.ncbi_taxon # 1 100000
 sample.donor.sex $ female male
 sample.donor.species $ "Homo sapiens" "House mouse" "Mus musculus"
 sample.donor.strain $ "(C57BL/6 x DBA)F2" C57BL/6 "C57BL/6J (mother) x CAST/EiJ (father)" "CAST/EiJ (mother) x C57BL/6J (father)" "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ" CAST/EiJ_x_C57BL/6J ICR
-sample.donor.uuid $ *
+sample.donor.uuid $ ????????-????-????-????-????????????
 sample.ena_sample $ *
 sample.geo_sample $ *
+sample.id $ *
 sample.last_update_date $ 2013-07-29 2013-08-10 2015-12-07 2016-08-25 2016-09-26 2016-11-15 2017-02-06
 sample.long_label $ *
 sample.ncbi_biosample $ *
@@ -97,10 +98,10 @@ sample.passage_number # 0 10
 sample.protocol_types $ *
 sample.protocols $ *
 sample.short $ *
+!sample.uuid $ ????????-????-????-????-????????????
 !sample.short_label $ *
 sample.storage $ *
 sample.submission_date $ *
-sample.submitted_id $ *
 sample.supplementary_files $ *
 sample.treatment.culture_type $ "cell line" "primary culture" tissue
 sample.treatment.enrichment $ *

@@ -21,8 +21,10 @@ Convert to tagStorm for curation with
 	tagStormFromTab srr.tsv uncurated.tags -div=project.title,sample.protocols,sample.characteristics_Stage,assay.sra_experiment
 	cp uncurated.tags curated.tags
 
-Edit curated tags.  Be sure to add assay.single_cell.method, assay.seq.molecule, and assay.seq.paired_end.  Then add files
-and convert to bundles
+Edit curated tags.  Be sure to add assay.single_cell.method, assay.seq.molecule, and assay.seq.paired_end.   Run
+    hcaAddUuidToStorm curated.tags curated.tags
+
+Then add files and convert to bundles
 	hcaAddSrrFiles curated.tags hcaTagStorm.tags
 	hcaStormToBundles hcaTagStorm.tags `pwd`/sra bundles
 
