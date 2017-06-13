@@ -21,6 +21,7 @@ sample.short_label T-cells
 sample.body_part.organ blood
 sample.treatment.enrichment CD3+
 sample.treatment.enrichment_method pan
+sample.uuid 849f023a-da3b-4017-a151-23575bd94ca4
 assay.seq.machine Illumina HiSeq 4000
 assay.seq.molecule RNA
 assay.seq.paired_ends index1_reads2

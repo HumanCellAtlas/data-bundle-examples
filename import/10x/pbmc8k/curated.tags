@@ -18,6 +18,7 @@ sample.body_part.name peripheral blood mononuclear cells (PBMCs)
 sample.long_label peripheral blood mononuclear cells (PBMCs)
 sample.short_label PBMCs
 sample.body_part.organ blood
+sample.uuid 63cba020-fbb5-4fe5-82c2-eeb1cd5dd957
 assay.seq.machine Illumina HiSeq 4000
 assay.seq.molecule RNA
 assay.seq.paired_ends index1_reads2
