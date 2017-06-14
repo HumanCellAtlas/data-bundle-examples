@@ -3,7 +3,7 @@ project.title Pan T Cells isolated from mononuclear cells of a healthy donor
 project.uuid 32985886-022b-4cde-b128-e732a22ab6df
 project.contact.email info@10xgenomics.com
 project.contact.phone +1 925 401 7300
-project.contact.address 7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA
+project.contact.address "7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA"
 project.contact.institute 10X Genomics Inc.
 project.contact.name 10X Genomics Inc.
 project.contact.street_address 7068 Koll Center Parkway Suite 401
