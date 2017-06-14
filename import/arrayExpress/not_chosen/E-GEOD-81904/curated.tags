@@ -1,0 +1,91 @@
+project.id E-GEOD-81904
+project.uuid f35c2bce-a4a7-4e1e-a8a6-8637e65d19a7
+sample.donor.age 17
+sample.donor.age_unit day
+sample.donor.life_stage postpartum
+sample.body_part.organ eye
+assay.seq.umi_barcode_size 8
+assay.seq.umi_barcode_offset 12
+assay.seq.prep modified Nextera XT 
+assay.rna.primer poly-dt
+assay.single_cell.cell_barcode_size 12
+assay.single_cell.cell_barcode_offset 0
+assay.single_cell.method drop-seq
+# From hear just generated automatically and perhaps hand edited
+assay.seq.machine Illumina NextSeq 500
+assay.seq.molecule RNA
+project.array_express.accession E-GEOD-81904
+project.array_express.experiment_type RNA-seq of coding RNA
+project.array_express.term_source_file http://www.ebi.ac.uk/arrayexpress/,http://www.ebi.ac.uk/efo/efo.owl
+project.array_express.term_source_name ArrayExpress,EFO
+project.contact.address Broad Institute, 415 Main St., Cambridge, MA, USA
+project.contact.email karthik@broadinstitute.org
+project.contact.institute Broad Institute
+project.contact.name "Karthik,,Shekhar"
+project.contact.phone 217-979-9852
+project.contributor "Karthik,,Shekhar"
+project.geo_series GSE81904
+project.last_update_date 2016-08-29
+project.mage_tab_version 1.1
+project.pmid 27565351
+project.publication_author_list Shekhar K, Lapan SW, Whitney IE, Tran NM, Macosko EZ, Kowalczyk M, Adiconis X, Levin JZ, Nemesh J, Goldman M, McCarroll SA, Cepko CL, Regev A, Sanes JR
+project.publication_doi 10.1016/j.cell.2016.07.054
+project.publication_title Comprehensive Classification of Retinal Bipolar Neurons by Single-Cell Transcriptomics.
+project.release_status 2016-08-25
+project.sra_project SRP075719
+project.submission_date 2016-05-25
+project.summary "Vsx2-GFP mouse retinas were dissected, FACS sorted for GFP+ cells and single-cell mRNAseq libraries generated with Drop-Seq Drop-Seq was performed on two different batches. Bipolar1-Bipolar4 are replicates from batch 1 and Bipolar5-6 are replicates from Batch 2"
+project.supplementary_files GSE81904_BipolarUMICounts_Cell2016.txt,GSE81904_bipolar_data_Cell2016.Rdata,GSE81904_class.R
+project.title "Drop-Seq analysis of  P17 FACS sorted retinal cells from the Tg(Chx10-EGFP/cre,-ALPP)2Clc or Vsx2-GFP transgenic line"
+sample.body_part.name retina
+sample.body_part.ontology http://purl.obolibrary.org/obo/UBERON_0000966
+sample.body_part.source_name "Mus musculus retina, P17"
+sample.donor.developmental_stage P17
+sample.donor.genotype Vsx2-GFP
+sample.donor.ncbi_taxon 10090
+sample.donor.species Mus musculus
+sample.protocol_types nucleic acid library construction protocol
+sample.protocols "Single cell suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol."
+
+	assay.array_express_assay_name GSM2177575
+	assay.ena_experiment SRX1800080
+	sample.long_label P17 Vsx2-GFP mouse retina 6 (Batch 2)
+	sample.short_label Bipolar6
+	sample.submitted_id GSM2177575 1
+	sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/GEOD/E-GEOD-81904/E-GEOD-81904.GSM2177575_Bipolar6.bam
+
+	assay.array_express_assay_name GSM2177574
+	assay.ena_experiment SRX1800079
+	sample.long_label P17 Vsx2-GFP mouse retina 5 (Batch 2)
+	sample.short_label Bipolar5
+	sample.submitted_id GSM2177574 1
+	sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/GEOD/E-GEOD-81904/E-GEOD-81904.GSM2177574_Bipolar5.bam
+
+	assay.array_express_assay_name GSM2177573
+	assay.ena_experiment SRX1800078
+	sample.long_label P17 Vsx2-GFP mouse retina 4 (Batch 1)
+	sample.short_label Bipolar4
+	sample.submitted_id GSM2177573 1
+	sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/GEOD/E-GEOD-81904/E-GEOD-81904.GSM2177573_Bipolar4.bam
+
+	assay.array_express_assay_name GSM2177572
+	assay.ena_experiment SRX1800077
+	sample.long_label P17 Vsx2-GFP mouse retina 3 (Batch 1)
+	sample.short_label Bipolar3
+	sample.submitted_id GSM2177572 1
+	sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/GEOD/E-GEOD-81904/E-GEOD-81904.GSM2177572_Bipolar3.bam
+
+	assay.array_express_assay_name GSM2177571
+	assay.ena_experiment SRX1800076
+	sample.long_label P17 Vsx2-GFP mouse retina 2 (Batch 1)
+	sample.short_label Bipolar2
+	sample.submitted_id GSM2177571 1
+	sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/GEOD/E-GEOD-81904/E-GEOD-81904.GSM2177571_Bipolar2.bam
+
+	assay.array_express_assay_name GSM2177570
+	assay.ena_experiment SRX1800075
+	sample.long_label P17 Vsx2-GFP mouse retina 1 (Batch 1)
+	sample.short_label Bipolar1
+	sample.submitted_id GSM2177570 1
+	sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/GEOD/E-GEOD-81904/E-GEOD-81904.GSM2177570_Bipolar1.bam
+

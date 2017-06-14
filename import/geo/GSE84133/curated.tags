@@ -5,13 +5,14 @@ assay.seq.machine Illumina HiSeq 2500
 assay.seq.molecule total RNA
 assay.seq.paired_ends index1_reads2
 assay.single_cell.method drop-seq
-project.contact.address "7 Divinity Ave; Cambridge, Massachusetts 02138 USA"
+project.contact.address "7 Divinity Ave; Cambridge, MA 02138 USA"
 project.contact.city Cambridge
 project.contact.country USA
+project.contact.email adrian.veres@gmail.com
 project.contact.institute Harvard University
 project.contact.name "Adrian,,Veres"
 project.contact.postal_code 02138
-project.contact.state Massachusetts
+project.contact.state MA
 project.contact.street_address 7 Divinity Ave
 project.contributor "Adrian,,Veres","Maayan,,Baron"
 project.geo_doc_id 200084133
@@ -20,7 +21,7 @@ project.last_update_date 2017-06-02
 project.ncbi_bioproject PRJNA328774
 project.overall_design Single-cell RNA sequencing of pancreatic islets from 4 human donors and 2 mice strains.
 project.pmid 27667365
-project.release_status Public on Sep 26 2016
+project.release_status 2016-09-26
 project.sra_project SRP078321
 project.submission_date 2016-07-07
 project.summary "While the function of the mammalian pancreas hinges on complex interactions of distinct cell types, gene expression profiles have primarily been described with bulk mixtures of cells. Here, we invoked inDrop, a droplet-based single-cell RNA-Seq method, to determine the transcriptomes of over 12,000 individual pancreatic cells from four human donors and two strains of mice. Cells could be divided into 15 clusters that matched previously characterized cell types: all endocrine cell types, including rare ghrelin-expressing epsilon-cells, exocrine cell types, vascular cells, Schwann cells, quiescent and activated pancreatic stellate cells, and four types of immune cells. We detected subpopulations of ductal cells with distinct expression profiles, and validated their existence with immuno-histochemistry stains. Moreover, among human beta-cells, we detected heterogeneity in the regulation of genes relating to functional maturation and levels of ER-stress. Finally, we deconvolve bulk gene expression samples using single-cell RNA-Seq to detect disease associated differential expression. Thus, our cross-species dataset provides a resource for the discovery of novel cell type-specific and cell type-restricted transcription factors, signaling receptors, and medically-relevant genes."
@@ -47,9 +48,10 @@ sample.body_part.organ pancreas
 		sample.donor.body_mass_index 21.5
 		sample.donor.sex male
 		sample.geo_sample GSM2230757
-		sample.submitted_id "human pancreatic islets, sample 1"
+		sample.id "human pancreatic islets, sample 1"
 		sample.ncbi_biosample SAMN05379702
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230757/suppl/GSM2230757_human1_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935938
+		sample.uuid 521b4fef-8239-4e78-a1ee-ea9ce242026d
 
 		assay.sra_experiment SRX1935939
 		assay.sra_run SRR3879604,SRR3879605,SRR3879606
@@ -59,9 +61,10 @@ sample.body_part.organ pancreas
 		sample.donor.body_mass_index 21.1
 		sample.donor.sex female
 		sample.geo_sample GSM2230758
-		sample.submitted_id "human pancreatic islets, sample 2"
+		sample.id "human pancreatic islets, sample 2"
 		sample.ncbi_biosample SAMN05379703
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230758/suppl/GSM2230758_human2_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935939
+		sample.uuid 69ef9006-c127-45c6-9b35-68852896d504
 
 		assay.sra_experiment SRX1935941
 		assay.sra_run SRR3879607,SRR3879608,SRR3879609,SRR3879610
@@ -71,9 +74,10 @@ sample.body_part.organ pancreas
 		sample.donor.body_mass_index 27.5
 		sample.donor.sex male
 		sample.geo_sample GSM2230759
-		sample.submitted_id "human pancreatic islets, sample 3"
+		sample.id "human pancreatic islets, sample 3"
 		sample.ncbi_biosample SAMN05379704
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230759/suppl/GSM2230759_human3_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935941
+		sample.uuid d399ccad-b5ad-4663-a060-b1723d75aa04
 
 		assay.sra_experiment SRX1935942
 		assay.sra_run SRR3879611,SRR3879612,SRR3879613
@@ -84,9 +88,10 @@ sample.body_part.organ pancreas
 		sample.donor.body_mass_index 29.9
 		sample.donor.sex female
 		sample.geo_sample GSM2230760
-		sample.submitted_id "human pancreatic islets, sample 4"
+		sample.id "human pancreatic islets, sample 4"
 		sample.ncbi_biosample SAMN05379705
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230760/suppl/GSM2230760_human4_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935942
+		sample.uuid c9c71349-5724-48d8-b349-2d3402db6655
 
 	sample.donor.ncbi_taxon 10090
 	sample.donor.species Mus musculus
@@ -95,19 +100,21 @@ sample.body_part.organ pancreas
 		assay.sra_run SRR3879614,SRR3879615,SRR3879616
 		sample.donor.strain ICR
 		sample.geo_sample GSM2230761
- 		sample.long_label "pancreatic islets from five ICR mice pooled together"
- 		sample.short_label "pancreas islet ICR"
- 		sample.submitted_id "mouse pancreatic islets, sample 1"
+		sample.long_label "pancreatic islets from five ICR mice pooled together"
+		sample.short_label "pancreas islet ICR"
+		sample.id "mouse pancreatic islets, sample 1"
 		sample.ncbi_biosample SAMN05379706
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230761/suppl/GSM2230761_mouse1_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935943
+		sample.uuid bf9fe4f8-b859-4874-b610-b84fdd069b6f
 
 		assay.sra_experiment SRX1935944
 		assay.sra_run SRR3879617,SRR3879618,SRR3879619
 		sample.donor.strain C57BL/6
 		sample.geo_sample GSM2230762
- 		sample.submitted_id "mouse pancreatic islets, sample 2"
- 		sample.long_label "pancreatic islets from five C57BL/6 mice pooled together"
- 		sample.short_label "pancreas islet C57BL/6"
+		sample.id "mouse pancreatic islets, sample 2"
+		sample.long_label "pancreatic islets from five C57BL/6 mice pooled together"
+		sample.short_label "pancreas islet C57BL/6"
 		sample.ncbi_biosample SAMN05379707
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230762/suppl/GSM2230762_mouse2_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935944
+		sample.uuid 8bfbfec2-f0e5-4072-9343-b7ae0a9877a4
 

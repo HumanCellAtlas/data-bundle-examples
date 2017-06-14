@@ -18,6 +18,8 @@ Edit curated.tags.  Added following tags:
     sample.storage fresh
     sample.body_part.name embryonic stem cell
     cell.type embyronic stem cell
+and ran
+    hcaAddUuidToStorm curated.tags curated.tags
 
 Be sure to add assay.single_cell.method, assay.seq.molecule, and assay.seq.paired_end.  
 

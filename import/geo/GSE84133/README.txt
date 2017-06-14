@@ -19,7 +19,8 @@ Convert to tagStorm for curation with
 	cp uncurated.tags curated.tags
 
 Edit curated.tags.  Be sure to add assay.single_cell.method, assay.seq.molecule, and assay.seq.paired_end.  
-Also change an embryo to blastomere and hoist to get all leaf stanzas at same level.  
+Also change an embryo to blastomere and hoist to get all leaf stanzas at same level.  Then ran
+	hcaAddUuidToStorm curated.tags curated.tags
 
 Finally add files and make bundles
 	hcaAddSrrFiles curated.tags hcaTagStorm.tags

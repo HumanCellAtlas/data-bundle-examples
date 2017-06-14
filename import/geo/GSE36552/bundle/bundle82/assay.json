@@ -1,1 +1,0 @@
-{"rna":{"primer":"random"},"seq":{"machine":"Illumina HiSeq 2000","molecule":"total RNA","paired_ends":"no","prep":"TruSeq"},"single_cell":{"method":"mouth pipette"},"sra_experiment":"SRX144409","sra_run":"SRR491030","files":[{"name":"SRR491030_1.fastq.gz","format":".fastq.gz","type":"reads"}]}

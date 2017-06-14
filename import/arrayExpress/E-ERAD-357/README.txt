@@ -17,6 +17,8 @@ Edit curated.tags.  Added following tags:
     sample.donor.ncbi_taxon 10090
     cell.type neuron
     cell.id
+and ran
+    hcaAddUuidToStorm curated.tags curated.tags
 
 Finally add files and make bundles
 	hcaStormToBundles curated.tags urls bundles

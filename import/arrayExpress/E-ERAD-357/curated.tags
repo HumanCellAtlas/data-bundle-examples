@@ -14,7 +14,7 @@ project.array_express.accession E-ERAD-357
 project.array_express.experiment_type RNA-seq of coding RNA
 project.array_express.term_source_file http://www.ncbi.nlm.nih.gov/Taxonomy/,http://www.ebi.ac.uk/efo
 project.array_express.term_source_name NCBI Taxonomy,EFO
-project.contact.address Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK
+project.contact.address "Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK"
 project.contact.email datahose@sanger.ac.uk
 project.contact.institute Wellcome Trust Sanger Institute
 project.contact.name ",,The Wellcome Trust Sanger Institute"
@@ -26,17 +26,18 @@ project.release_status 2015-04-28
 project.summary "From the arcuate nucleus of mice, we have dissociated neurons that express Proopiomelanocortin(POMC) and captured them on the Fluidigm C1 platform. These neurons play important roles in the regulation of appetite and sexual behavior. Here we propose to sequence RNA from 96 single POMC-expressing neurons to understand the variance in their transcriptomes. This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/"
 project.title RNAseq of mouse POMC neurons
 sample.donor.sex male
-sample.donor.species House mouse
+sample.donor.species Mus musculus
 sample.protocol_types nucleic acid library construction protocol,nucleic acid sequencing protocol
 sample.protocols qPCR only,Illumina HiSeq 2500
-sample.enrichment POMC+
+sample.treatment.enrichment POMC+
 
 	sample.ena_sample ERS639336
-	sample.submitted_id ERS639336
+	sample.id ERS639336
 	sample.donor.id POMC_GFP_I_1
 	sample.donor.uuid e9d16835-e30f-4e10-b432-e79777e2b71c
 	sample.short_label POMC+ from mouse 1
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 1
+	sample.uuid 131e2e35-7521-4acc-b9f2-af548c201d0f
 
 		cell.id ERX945814
 		assay.ena_experiment ERX945814
@@ -49,11 +50,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866282/ERR866282_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866282/ERR866282_2.fastq.gz
 
 	sample.ena_sample ERS639337
-	sample.submitted_id ERS639337
+	sample.id ERS639337
 	sample.donor.id POMC_GFP_I_2
 	sample.donor.uuid 58f521ec-c28c-476c-b186-4a452884ab21
 	sample.short_label POMC+ from mouse 2
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 2
+	sample.uuid 8130cb65-752f-45f3-91fb-8cb9e92aea0e
 
 		cell.id ERX945815
 		assay.ena_experiment ERX945815
@@ -66,11 +68,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866283/ERR866283_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866283/ERR866283_2.fastq.gz
 
 	sample.ena_sample ERS639338
-	sample.submitted_id ERS639338
+	sample.id ERS639338
 	sample.donor.id POMC_GFP_I_3
 	sample.donor.uuid 29708a27-1134-4bc4-92a4-4715ac490fd2
 	sample.short_label POMC+ from mouse 3
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 3
+	sample.uuid 903e8946-8f14-4b84-bd9b-a85dc1773cc8
 
 		cell.id ERX945816
 		assay.ena_experiment ERX945816
@@ -83,11 +86,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866284/ERR866284_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866284/ERR866284_2.fastq.gz
 
 	sample.ena_sample ERS639339
-	sample.submitted_id ERS639339
+	sample.id ERS639339
 	sample.donor.id POMC_GFP_I_4
 	sample.donor.uuid 5baa1b6d-6ecd-4dea-8312-7294ccafd35d
 	sample.short_label POMC+ from mouse 4
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 4
+	sample.uuid b02dedef-7f9f-4188-9bc9-ae50b3722464
 
 		cell.id ERX945817
 		assay.ena_experiment ERX945817
@@ -100,11 +104,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866285/ERR866285_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866285/ERR866285_2.fastq.gz
 
 	sample.ena_sample ERS639340
-	sample.submitted_id ERS639340
+	sample.id ERS639340
 	sample.donor.id POMC_GFP_I_5
 	sample.donor.uuid 7fb4bbd6-e009-4fa0-8114-f7e735baf534
 	sample.short_label POMC+ from mouse 5
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 5
+	sample.uuid b047cd26-2d54-41d4-9463-fca2c731d2a8
 
 		cell.id ERX945818
 		assay.ena_experiment ERX945818
@@ -117,11 +122,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866286/ERR866286_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866286/ERR866286_2.fastq.gz
 
 	sample.ena_sample ERS639341
-	sample.submitted_id ERS639341
+	sample.id ERS639341
 	sample.donor.id POMC_GFP_I_6
 	sample.donor.uuid 81b9cae4-555f-4f1e-9854-0c2c807a9ff6
 	sample.short_label POMC+ from mouse 6
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 6
+	sample.uuid 06caa559-10c4-4af0-bd0e-8cf17f4c1e36
 
 		cell.id ERX945819
 		assay.ena_experiment ERX945819
@@ -134,11 +140,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866287/ERR866287_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866287/ERR866287_2.fastq.gz
 
 	sample.ena_sample ERS639342
-	sample.submitted_id ERS639342
+	sample.id ERS639342
 	sample.donor.id POMC_GFP_I_7
 	sample.donor.uuid 1498fb83-50db-4069-a5a2-4a6b96a1970d
 	sample.short_label POMC+ from mouse 7
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 7
+	sample.uuid 5920495c-6ba9-49c4-a3fb-c70ef957db60
 
 		cell.id ERX945820
 		assay.ena_experiment ERX945820
@@ -151,11 +158,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866288/ERR866288_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866288/ERR866288_2.fastq.gz
 
 	sample.ena_sample ERS639343
-	sample.submitted_id ERS639343
+	sample.id ERS639343
 	sample.donor.id POMC_GFP_I_8
 	sample.donor.uuid ecfe1c37-de25-4352-8951-d6ccdb9398e5
 	sample.short_label POMC+ from mouse 8
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 8
+	sample.uuid d3be1943-43dc-47b8-bec4-3f5185480f96
 
 		cell.id ERX945821
 		assay.ena_experiment ERX945821
@@ -168,11 +176,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866289/ERR866289_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866289/ERR866289_2.fastq.gz
 
 	sample.ena_sample ERS639344
-	sample.submitted_id ERS639344
+	sample.id ERS639344
 	sample.donor.id POMC_GFP_I_9
 	sample.donor.uuid a7e79d25-0032-45c3-9e2e-0252502d0577
 	sample.short_label POMC+ from mouse 9
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 9
+	sample.uuid 6db68a63-f3c1-43e4-9f03-35da04e9243d
 
 		cell.id ERX945822
 		assay.ena_experiment ERX945822
@@ -185,11 +194,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866290/ERR866290_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866290/ERR866290_2.fastq.gz
 
 	sample.ena_sample ERS639345
-	sample.submitted_id ERS639345
+	sample.id ERS639345
 	sample.donor.id POMC_GFP_I_10
 	sample.donor.uuid 66dfc6cc-5ccf-46b0-9e1a-28055db7fd09
 	sample.short_label POMC+ from mouse 10
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 10
+	sample.uuid fc797b0c-255c-45e5-a4a4-ec21b7b4506e
 
 		cell.id ERX945823
 		assay.ena_experiment ERX945823
@@ -202,11 +212,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866291/ERR866291_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866291/ERR866291_2.fastq.gz
 
 	sample.ena_sample ERS639346
-	sample.submitted_id ERS639346
+	sample.id ERS639346
 	sample.donor.id POMC_GFP_I_11
 	sample.donor.uuid c850c43c-2821-4884-9fc3-e52182346df8
 	sample.short_label POMC+ from mouse 11
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 11
+	sample.uuid ca824fea-9dfc-4e32-b25a-11b382158fd6
 
 		cell.id ERX945824
 		assay.ena_experiment ERX945824
@@ -219,11 +230,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866292/ERR866292_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866292/ERR866292_2.fastq.gz
 
 	sample.ena_sample ERS639347
-	sample.submitted_id ERS639347
+	sample.id ERS639347
 	sample.donor.id POMC_GFP_I_12
 	sample.donor.uuid 7c3de743-f627-4e54-9d51-8f968c35c744
 	sample.short_label POMC+ from mouse 12
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 12
+	sample.uuid b2ecd5f9-ec43-4ad8-9ec0-ee1b57dc1d11
 
 		cell.id ERX945825
 		assay.ena_experiment ERX945825
@@ -236,11 +248,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866293/ERR866293_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866293/ERR866293_2.fastq.gz
 
 	sample.ena_sample ERS639348
-	sample.submitted_id ERS639348
+	sample.id ERS639348
 	sample.donor.id POMC_GFP_I_13
 	sample.donor.uuid 0ddd776d-3bed-4c19-8460-33b1f0cc702c
 	sample.short_label POMC+ from mouse 13
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 13
+	sample.uuid 33c9b5d1-64b4-42d3-ba76-d3390d21b83e
 
 		cell.id ERX945826
 		assay.ena_experiment ERX945826
@@ -253,11 +266,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866294/ERR866294_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866294/ERR866294_2.fastq.gz
 
 	sample.ena_sample ERS639349
-	sample.submitted_id ERS639349
+	sample.id ERS639349
 	sample.donor.id POMC_GFP_I_14
 	sample.donor.uuid 03860fbd-4902-4e63-8735-aadd36205be4
 	sample.short_label POMC+ from mouse 14
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 14
+	sample.uuid 6d18d3a7-5d5c-456a-a2b3-92ce33e470dd
 
 		cell.id ERX945827
 		assay.ena_experiment ERX945827
@@ -270,11 +284,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866295/ERR866295_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866295/ERR866295_2.fastq.gz
 
 	sample.ena_sample ERS639350
-	sample.submitted_id ERS639350
+	sample.id ERS639350
 	sample.donor.id POMC_GFP_I_15
 	sample.donor.uuid 05348aa5-1602-4147-b5ac-a0b85c0fa455
 	sample.short_label POMC+ from mouse 15
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 15
+	sample.uuid 3354b601-8550-4bb3-9ba0-93ad7705e73f
 
 		cell.id ERX945828
 		assay.ena_experiment ERX945828
@@ -287,11 +302,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866296/ERR866296_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866296/ERR866296_2.fastq.gz
 
 	sample.ena_sample ERS639351
-	sample.submitted_id ERS639351
+	sample.id ERS639351
 	sample.donor.id POMC_GFP_I_16
 	sample.donor.uuid c893f9ac-ad01-4b5c-931f-d9856796cd1e
 	sample.short_label POMC+ from mouse 16
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 16
+	sample.uuid fdc706ef-19d8-4f3d-a166-2a653c12680e
 
 		cell.id ERX945829
 		assay.ena_experiment ERX945829
@@ -304,11 +320,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866297/ERR866297_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866297/ERR866297_2.fastq.gz
 
 	sample.ena_sample ERS639352
-	sample.submitted_id ERS639352
+	sample.id ERS639352
 	sample.donor.id POMC_GFP_I_17
 	sample.donor.uuid f98a13bc-d1c1-4c7a-ad00-bab21543a90a
 	sample.short_label POMC+ from mouse 17
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 17
+	sample.uuid 7a29e9dd-6dc7-4aa7-9c35-7e63c4e0dfd7
 
 		cell.id ERX945830
 		assay.ena_experiment ERX945830
@@ -321,11 +338,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866298/ERR866298_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866298/ERR866298_2.fastq.gz
 
 	sample.ena_sample ERS639353
-	sample.submitted_id ERS639353
+	sample.id ERS639353
 	sample.donor.id POMC_GFP_I_18
 	sample.donor.uuid 7d4fed6d-3e83-4154-80c2-ad9bd2eafad6
 	sample.short_label POMC+ from mouse 18
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 18
+	sample.uuid c5897916-e5d7-467b-92e6-dabb3713056c
 
 		cell.id ERX945831
 		assay.ena_experiment ERX945831
@@ -338,11 +356,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866299/ERR866299_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866299/ERR866299_2.fastq.gz
 
 	sample.ena_sample ERS639354
-	sample.submitted_id ERS639354
+	sample.id ERS639354
 	sample.donor.id POMC_GFP_I_19
 	sample.donor.uuid 47320142-5d50-4263-ad52-d4272ac9c3cb
 	sample.short_label POMC+ from mouse 19
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 19
+	sample.uuid f89eb1a4-a514-4e9e-9a1d-4434a8038897
 
 		cell.id ERX945832
 		assay.ena_experiment ERX945832
@@ -355,11 +374,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866300/ERR866300_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866300/ERR866300_2.fastq.gz
 
 	sample.ena_sample ERS639355
-	sample.submitted_id ERS639355
+	sample.id ERS639355
 	sample.donor.id POMC_GFP_I_20
 	sample.donor.uuid c23c772e-3cf8-4684-bd68-69b6c289f0c7
 	sample.short_label POMC+ from mouse 20
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 20
+	sample.uuid 981252e6-e7b4-4f55-b9dc-9c44c3e6e964
 
 		cell.id ERX945833
 		assay.ena_experiment ERX945833
@@ -372,11 +392,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866301/ERR866301_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866301/ERR866301_2.fastq.gz
 
 	sample.ena_sample ERS639356
-	sample.submitted_id ERS639356
+	sample.id ERS639356
 	sample.donor.id POMC_GFP_I_21
 	sample.donor.uuid 47578b97-d0ee-4420-820c-804d614870d4
 	sample.short_label POMC+ from mouse 21
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 21
+	sample.uuid f3c97ba6-0e67-472b-a561-ef1ab95de75a
 
 		cell.id ERX945834
 		assay.ena_experiment ERX945834
@@ -389,11 +410,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866302/ERR866302_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866302/ERR866302_2.fastq.gz
 
 	sample.ena_sample ERS639357
-	sample.submitted_id ERS639357
+	sample.id ERS639357
 	sample.donor.id POMC_GFP_I_22
 	sample.donor.uuid 10834b15-e0ac-41c4-9e9c-b7cc49ac53d7
 	sample.short_label POMC+ from mouse 22
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 22
+	sample.uuid 5e43d8a2-af22-42a3-805e-1c2add3c9db4
 
 		cell.id ERX945835
 		assay.ena_experiment ERX945835
@@ -406,11 +428,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866303/ERR866303_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866303/ERR866303_2.fastq.gz
 
 	sample.ena_sample ERS639358
-	sample.submitted_id ERS639358
+	sample.id ERS639358
 	sample.donor.id POMC_GFP_I_23
 	sample.donor.uuid dfcf743d-d158-4d56-8a94-3a69b84a3a15
 	sample.short_label POMC+ from mouse 23
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 23
+	sample.uuid 751cf460-cd9b-45a3-8110-a320b5905b93
 
 		cell.id ERX945836
 		assay.ena_experiment ERX945836
@@ -423,11 +446,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866304/ERR866304_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866304/ERR866304_2.fastq.gz
 
 	sample.ena_sample ERS639359
-	sample.submitted_id ERS639359
+	sample.id ERS639359
 	sample.donor.id POMC_GFP_I_24
 	sample.donor.uuid 6d103776-d34a-4209-b844-b065fd1d2c2d
 	sample.short_label POMC+ from mouse 24
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 24
+	sample.uuid 1d5ded14-093f-4682-99f0-311550a9742d
 
 		cell.id ERX945837
 		assay.ena_experiment ERX945837
@@ -440,11 +464,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866305/ERR866305_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866305/ERR866305_2.fastq.gz
 
 	sample.ena_sample ERS639360
-	sample.submitted_id ERS639360
+	sample.id ERS639360
 	sample.donor.id POMC_GFP_I_25
 	sample.donor.uuid 59d2895a-0216-4b02-af2d-3b04cecbaafa
 	sample.short_label POMC+ from mouse 25
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 25
+	sample.uuid 8dcc6d9e-0a09-4715-9ea4-47e93c658f9a
 
 		cell.id ERX945838
 		assay.ena_experiment ERX945838
@@ -457,11 +482,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866306/ERR866306_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866306/ERR866306_2.fastq.gz
 
 	sample.ena_sample ERS639361
-	sample.submitted_id ERS639361
+	sample.id ERS639361
 	sample.donor.id POMC_GFP_I_26
 	sample.donor.uuid c7373a7a-ff66-40e3-9f11-3c7da12afca7
 	sample.short_label POMC+ from mouse 26
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 26
+	sample.uuid b70ab1d6-6430-4f60-b281-654ae9eb463c
 
 		cell.id ERX945839
 		assay.ena_experiment ERX945839
@@ -474,11 +500,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866307/ERR866307_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866307/ERR866307_2.fastq.gz
 
 	sample.ena_sample ERS639362
-	sample.submitted_id ERS639362
+	sample.id ERS639362
 	sample.donor.id POMC_GFP_I_27
 	sample.donor.uuid 756f001e-2228-489c-ab63-77170d82b768
 	sample.short_label POMC+ from mouse 27
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 27
+	sample.uuid 01dfcbeb-e58d-42f6-9fa7-4f9094b1ee8c
 
 		cell.id ERX945840
 		assay.ena_experiment ERX945840
@@ -491,11 +518,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866308/ERR866308_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866308/ERR866308_2.fastq.gz
 
 	sample.ena_sample ERS639363
-	sample.submitted_id ERS639363
+	sample.id ERS639363
 	sample.donor.id POMC_GFP_I_28
 	sample.donor.uuid 1c079b9b-9d5c-4078-98cc-f28ed87b85d5
 	sample.short_label POMC+ from mouse 28
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 28
+	sample.uuid d492fea6-2020-4c16-9082-244e4183a010
 
 		cell.id ERX945841
 		assay.ena_experiment ERX945841
@@ -508,11 +536,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866309/ERR866309_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866309/ERR866309_2.fastq.gz
 
 	sample.ena_sample ERS639364
-	sample.submitted_id ERS639364
+	sample.id ERS639364
 	sample.donor.id POMC_GFP_I_29
 	sample.donor.uuid 374375ef-47b6-498f-b5d3-3e9a58c96c4d
 	sample.short_label POMC+ from mouse 29
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 29
+	sample.uuid 5e9e79cc-2f7c-438f-a9bd-276541a6e75c
 
 		cell.id ERX945842
 		assay.ena_experiment ERX945842
@@ -525,11 +554,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866310/ERR866310_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866310/ERR866310_2.fastq.gz
 
 	sample.ena_sample ERS639365
-	sample.submitted_id ERS639365
+	sample.id ERS639365
 	sample.donor.id POMC_GFP_I_30
 	sample.donor.uuid eb32f18d-9099-4d3a-adc6-15a05ba529cb
 	sample.short_label POMC+ from mouse 30
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 30
+	sample.uuid e01d949e-8ec7-4b08-8bdb-baac12b70f69
 
 		cell.id ERX945843
 		assay.ena_experiment ERX945843
@@ -542,11 +572,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866311/ERR866311_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866311/ERR866311_2.fastq.gz
 
 	sample.ena_sample ERS639366
-	sample.submitted_id ERS639366
+	sample.id ERS639366
 	sample.donor.id POMC_GFP_I_31
 	sample.donor.uuid efaf9e8d-0563-48d4-afdf-460f17ac061b
 	sample.short_label POMC+ from mouse 31
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 31
+	sample.uuid abfbc673-6b98-4807-94b4-8aba1bc89af2
 
 		cell.id ERX945844
 		assay.ena_experiment ERX945844
@@ -559,11 +590,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866312/ERR866312_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866312/ERR866312_2.fastq.gz
 
 	sample.ena_sample ERS639367
-	sample.submitted_id ERS639367
+	sample.id ERS639367
 	sample.donor.id POMC_GFP_I_32
 	sample.donor.uuid 0640fac5-491e-4878-866d-1153cea0ade4
 	sample.short_label POMC+ from mouse 32
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 32
+	sample.uuid 52be67b5-c995-4eeb-9a84-46268da9285c
 
 		cell.id ERX945845
 		assay.ena_experiment ERX945845
@@ -576,11 +608,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866313/ERR866313_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866313/ERR866313_2.fastq.gz
 
 	sample.ena_sample ERS639368
-	sample.submitted_id ERS639368
+	sample.id ERS639368
 	sample.donor.id POMC_GFP_I_33
 	sample.donor.uuid aebab3e4-300d-4d37-af72-29ae21ae1ede
 	sample.short_label POMC+ from mouse 33
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 33
+	sample.uuid 2cf011e4-7c6a-49d9-bd20-cbaad5dcd195
 
 		cell.id ERX945846
 		assay.ena_experiment ERX945846
@@ -593,11 +626,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866314/ERR866314_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866314/ERR866314_2.fastq.gz
 
 	sample.ena_sample ERS639369
-	sample.submitted_id ERS639369
+	sample.id ERS639369
 	sample.donor.id POMC_GFP_I_34
 	sample.donor.uuid 72ed7ece-b6f3-4645-bf86-ddf378541d26
 	sample.short_label POMC+ from mouse 34
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 34
+	sample.uuid 5be2df75-09f1-41b3-a8e4-11ceddd92320
 
 		cell.id ERX945847
 		assay.ena_experiment ERX945847
@@ -610,11 +644,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866315/ERR866315_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866315/ERR866315_2.fastq.gz
 
 	sample.ena_sample ERS639370
-	sample.submitted_id ERS639370
+	sample.id ERS639370
 	sample.donor.id POMC_GFP_I_35
 	sample.donor.uuid c0613b50-7c1b-4f1a-ae8d-12ccc003ee02
 	sample.short_label POMC+ from mouse 35
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 35
+	sample.uuid 14c15fc9-321a-445e-8838-fee2cdc6d220
 
 		cell.id ERX945848
 		assay.ena_experiment ERX945848
@@ -627,11 +662,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866316/ERR866316_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866316/ERR866316_2.fastq.gz
 
 	sample.ena_sample ERS639371
-	sample.submitted_id ERS639371
+	sample.id ERS639371
 	sample.donor.id POMC_GFP_I_36
 	sample.donor.uuid f27bad64-d17c-4dbe-887d-633c7294adbe
 	sample.short_label POMC+ from mouse 36
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 36
+	sample.uuid ac7c2cfe-f5f7-4da7-97d7-f47c3184b56e
 
 		cell.id ERX945849
 		assay.ena_experiment ERX945849
@@ -644,11 +680,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866317/ERR866317_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866317/ERR866317_2.fastq.gz
 
 	sample.ena_sample ERS639372
-	sample.submitted_id ERS639372
+	sample.id ERS639372
 	sample.donor.id POMC_GFP_I_37
 	sample.donor.uuid 7ccc9398-004f-47a3-928b-ed9eee966c36
 	sample.short_label POMC+ from mouse 37
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 37
+	sample.uuid ac5f49d4-dd33-4a01-9953-68f55f134c89
 
 		cell.id ERX945850
 		assay.ena_experiment ERX945850
@@ -661,11 +698,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866318/ERR866318_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866318/ERR866318_2.fastq.gz
 
 	sample.ena_sample ERS639373
-	sample.submitted_id ERS639373
+	sample.id ERS639373
 	sample.donor.id POMC_GFP_I_38
 	sample.donor.uuid acb86171-19ed-4c08-aefa-eaa826f73644
 	sample.short_label POMC+ from mouse 38
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 38
+	sample.uuid 291fe510-a5e6-4853-8f95-02ac7add9144
 
 		cell.id ERX945851
 		assay.ena_experiment ERX945851
@@ -678,11 +716,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866319/ERR866319_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866319/ERR866319_2.fastq.gz
 
 	sample.ena_sample ERS639374
-	sample.submitted_id ERS639374
+	sample.id ERS639374
 	sample.donor.id POMC_GFP_I_39
 	sample.donor.uuid f485a70f-ecfa-47e5-a833-73323a850789
 	sample.short_label POMC+ from mouse 39
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 39
+	sample.uuid 6dcbfb01-8c3a-48a5-897c-45b6f7dfe059
 
 		cell.id ERX945852
 		assay.ena_experiment ERX945852
@@ -695,11 +734,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866320/ERR866320_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866320/ERR866320_2.fastq.gz
 
 	sample.ena_sample ERS639375
-	sample.submitted_id ERS639375
+	sample.id ERS639375
 	sample.donor.id POMC_GFP_I_40
 	sample.donor.uuid 0c15c18b-c83b-457c-a0af-e9a6f4f039c4
 	sample.short_label POMC+ from mouse 40
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 40
+	sample.uuid f6180ad9-2db5-4af2-b89d-6011d0413bd4
 
 		cell.id ERX945853
 		assay.ena_experiment ERX945853
@@ -712,11 +752,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866321/ERR866321_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866321/ERR866321_2.fastq.gz
 
 	sample.ena_sample ERS639376
-	sample.submitted_id ERS639376
+	sample.id ERS639376
 	sample.donor.id POMC_GFP_I_41
 	sample.donor.uuid f51062c8-d4e4-436b-a08d-1c16645febc3
 	sample.short_label POMC+ from mouse 41
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 41
+	sample.uuid 8cecf32f-d51c-4c38-8e96-a0d8d2417234
 
 		cell.id ERX945854
 		assay.ena_experiment ERX945854
@@ -729,11 +770,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866322/ERR866322_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866322/ERR866322_2.fastq.gz
 
 	sample.ena_sample ERS639377
-	sample.submitted_id ERS639377
+	sample.id ERS639377
 	sample.donor.id POMC_GFP_I_42
 	sample.donor.uuid 9db1c073-bab1-486a-9bb4-a02b882508b1
 	sample.short_label POMC+ from mouse 42
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 42
+	sample.uuid 231ce516-04f2-4591-8bce-451daf804bd1
 
 		cell.id ERX945855
 		assay.ena_experiment ERX945855
@@ -746,11 +788,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866323/ERR866323_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866323/ERR866323_2.fastq.gz
 
 	sample.ena_sample ERS639378
-	sample.submitted_id ERS639378
+	sample.id ERS639378
 	sample.donor.id POMC_GFP_I_43
 	sample.donor.uuid 0874d2ba-0085-4235-a226-433177658559
 	sample.short_label POMC+ from mouse 43
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 43
+	sample.uuid e1995287-ec63-4b5f-8884-6858c08ca2ba
 
 		cell.id ERX945856
 		assay.ena_experiment ERX945856
@@ -763,11 +806,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866324/ERR866324_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866324/ERR866324_2.fastq.gz
 
 	sample.ena_sample ERS639379
-	sample.submitted_id ERS639379
+	sample.id ERS639379
 	sample.donor.id POMC_GFP_I_44
 	sample.donor.uuid f1d2a894-b6cd-431f-8250-981f7ec2c341
 	sample.short_label POMC+ from mouse 44
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 44
+	sample.uuid a43f0186-3d34-47fa-9c04-63cb30add199
 
 		cell.id ERX945857
 		assay.ena_experiment ERX945857
@@ -780,11 +824,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866325/ERR866325_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866325/ERR866325_2.fastq.gz
 
 	sample.ena_sample ERS639380
-	sample.submitted_id ERS639380
+	sample.id ERS639380
 	sample.donor.id POMC_GFP_I_45
 	sample.donor.uuid 364890f1-fea8-4384-ac2d-7c583ba2e378
 	sample.short_label POMC+ from mouse 45
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 45
+	sample.uuid ec598220-0c9f-4668-bf3b-753985136e62
 
 		cell.id ERX945858
 		assay.ena_experiment ERX945858
@@ -797,11 +842,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866326/ERR866326_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866326/ERR866326_2.fastq.gz
 
 	sample.ena_sample ERS639381
-	sample.submitted_id ERS639381
+	sample.id ERS639381
 	sample.donor.id POMC_GFP_I_46
 	sample.donor.uuid fec6a033-9169-4175-9dc1-c210bb30224d
 	sample.short_label POMC+ from mouse 46
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 46
+	sample.uuid c97b65f4-c888-428f-a3a5-45aa777177e3
 
 		cell.id ERX945859
 		assay.ena_experiment ERX945859
@@ -814,11 +860,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866327/ERR866327_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866327/ERR866327_2.fastq.gz
 
 	sample.ena_sample ERS639382
-	sample.submitted_id ERS639382
+	sample.id ERS639382
 	sample.donor.id POMC_GFP_I_47
 	sample.donor.uuid eae4fc87-2872-4143-b79d-b478b8c8cc51
 	sample.short_label POMC+ from mouse 47
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 47
+	sample.uuid cc5fa29a-fdd5-465c-b202-45f7e2607099
 
 		cell.id ERX945860
 		assay.ena_experiment ERX945860
@@ -831,11 +878,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866328/ERR866328_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866328/ERR866328_2.fastq.gz
 
 	sample.ena_sample ERS639383
-	sample.submitted_id ERS639383
+	sample.id ERS639383
 	sample.donor.id POMC_GFP_I_48
 	sample.donor.uuid 19742992-7ac4-40c0-8354-7058c4ec77ee
 	sample.short_label POMC+ from mouse 48
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 48
+	sample.uuid 17fb876d-8f20-4a04-8e96-2051ed967e38
 
 		cell.id ERX945861
 		assay.ena_experiment ERX945861
@@ -848,11 +896,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866329/ERR866329_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866329/ERR866329_2.fastq.gz
 
 	sample.ena_sample ERS639384
-	sample.submitted_id ERS639384
+	sample.id ERS639384
 	sample.donor.id POMC_GFP_I_49
 	sample.donor.uuid 4c7c4f2a-d2cf-4bc7-9eae-c78abce913dd
 	sample.short_label POMC+ from mouse 49
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 49
+	sample.uuid f0183360-9f6f-409c-b3e5-34accfe2c55c
 
 		cell.id ERX945862
 		assay.ena_experiment ERX945862
@@ -865,11 +914,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866330/ERR866330_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866330/ERR866330_2.fastq.gz
 
 	sample.ena_sample ERS639385
-	sample.submitted_id ERS639385
+	sample.id ERS639385
 	sample.donor.id POMC_GFP_I_50
 	sample.donor.uuid abc69d50-7f4d-4b69-97b8-a7728cb2217e
 	sample.short_label POMC+ from mouse 50
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 50
+	sample.uuid 42e93c2d-4e1c-4bc7-8128-ede7c8b981f4
 
 		cell.id ERX945863
 		assay.ena_experiment ERX945863
@@ -882,11 +932,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866331/ERR866331_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866331/ERR866331_2.fastq.gz
 
 	sample.ena_sample ERS639386
-	sample.submitted_id ERS639386
+	sample.id ERS639386
 	sample.donor.id POMC_GFP_I_51
 	sample.donor.uuid a75942ef-934b-46d3-9622-303608326bd5
 	sample.short_label POMC+ from mouse 51
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 51
+	sample.uuid 9026bef1-c74a-4b64-850e-1d806ead4949
 
 		cell.id ERX945864
 		assay.ena_experiment ERX945864
@@ -899,11 +950,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866332/ERR866332_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866332/ERR866332_2.fastq.gz
 
 	sample.ena_sample ERS639387
-	sample.submitted_id ERS639387
+	sample.id ERS639387
 	sample.donor.id POMC_GFP_I_52
 	sample.donor.uuid 51cfaa4b-dc87-4bf1-80d4-b5a9585f37fd
 	sample.short_label POMC+ from mouse 52
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 52
+	sample.uuid b6cb2c36-a917-428a-bcf6-5f309620b9d8
 
 		cell.id ERX945865
 		assay.ena_experiment ERX945865
@@ -916,11 +968,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866333/ERR866333_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866333/ERR866333_2.fastq.gz
 
 	sample.ena_sample ERS639388
-	sample.submitted_id ERS639388
+	sample.id ERS639388
 	sample.donor.id POMC_GFP_I_53
 	sample.donor.uuid e0d2017a-5612-4fbf-8a60-f0f3f7019152
 	sample.short_label POMC+ from mouse 53
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 53
+	sample.uuid 4f835da8-5819-4e2a-b38c-8e0540200ba0
 
 		cell.id ERX945866
 		assay.ena_experiment ERX945866
@@ -933,11 +986,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866334/ERR866334_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866334/ERR866334_2.fastq.gz
 
 	sample.ena_sample ERS639389
-	sample.submitted_id ERS639389
+	sample.id ERS639389
 	sample.donor.id POMC_GFP_I_54
 	sample.donor.uuid af861fed-eb2b-4cd9-bf8e-316bc73fc8d9
 	sample.short_label POMC+ from mouse 54
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 54
+	sample.uuid 40180bbc-d44b-4830-8fde-08a19c533211
 
 		cell.id ERX945867
 		assay.ena_experiment ERX945867
@@ -950,11 +1004,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866335/ERR866335_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866335/ERR866335_2.fastq.gz
 
 	sample.ena_sample ERS639390
-	sample.submitted_id ERS639390
+	sample.id ERS639390
 	sample.donor.id POMC_GFP_I_55
 	sample.donor.uuid bd584fd2-9304-4524-aa42-a4b4cb4596bd
 	sample.short_label POMC+ from mouse 55
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 55
+	sample.uuid 6da7608b-026e-4bab-a257-adad9d3350ef
 
 		cell.id ERX945868
 		assay.ena_experiment ERX945868
@@ -967,11 +1022,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866336/ERR866336_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866336/ERR866336_2.fastq.gz
 
 	sample.ena_sample ERS639391
-	sample.submitted_id ERS639391
+	sample.id ERS639391
 	sample.donor.id POMC_GFP_I_56
 	sample.donor.uuid a88c518c-70e8-476d-85d5-b18b2c6d5d7a
 	sample.short_label POMC+ from mouse 56
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 56
+	sample.uuid 96a6efef-2c0a-4d98-baa6-1e16a8db7c61
 
 		cell.id ERX945869
 		assay.ena_experiment ERX945869
@@ -984,11 +1040,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866337/ERR866337_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866337/ERR866337_2.fastq.gz
 
 	sample.ena_sample ERS639392
-	sample.submitted_id ERS639392
+	sample.id ERS639392
 	sample.donor.id POMC_GFP_I_57
 	sample.donor.uuid c2b01741-8f4d-489c-9c5a-50f8fe8512d8
 	sample.short_label POMC+ from mouse 57
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 57
+	sample.uuid 5f27a949-b72a-4119-a4e1-620188cfce38
 
 		cell.id ERX945870
 		assay.ena_experiment ERX945870
@@ -1001,11 +1058,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866338/ERR866338_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866338/ERR866338_2.fastq.gz
 
 	sample.ena_sample ERS639393
-	sample.submitted_id ERS639393
+	sample.id ERS639393
 	sample.donor.id POMC_GFP_I_58
 	sample.donor.uuid 95f98d5f-6172-4ad7-b504-b32a963a8283
 	sample.short_label POMC+ from mouse 58
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 58
+	sample.uuid 7753abdd-5ce0-4524-b63d-d2292142296d
 
 		cell.id ERX945871
 		assay.ena_experiment ERX945871
@@ -1018,11 +1076,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866339/ERR866339_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866339/ERR866339_2.fastq.gz
 
 	sample.ena_sample ERS639394
-	sample.submitted_id ERS639394
+	sample.id ERS639394
 	sample.donor.id POMC_GFP_I_59
 	sample.donor.uuid 628b16b7-3603-45a5-8535-4a9d3c800a37
 	sample.short_label POMC+ from mouse 59
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 59
+	sample.uuid 01da731f-f940-4db8-9853-8cc3b1cfd63c
 
 		cell.id ERX945872
 		assay.ena_experiment ERX945872
@@ -1035,11 +1094,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866340/ERR866340_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866340/ERR866340_2.fastq.gz
 
 	sample.ena_sample ERS639395
-	sample.submitted_id ERS639395
+	sample.id ERS639395
 	sample.donor.id POMC_GFP_I_60
 	sample.donor.uuid 344e3ae8-c3eb-4348-8fa0-f019131daa9d
 	sample.short_label POMC+ from mouse 60
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 60
+	sample.uuid ce29b1dc-51be-4387-92b9-5b6a0b4c3fda
 
 		cell.id ERX945873
 		assay.ena_experiment ERX945873
@@ -1052,11 +1112,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866341/ERR866341_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866341/ERR866341_2.fastq.gz
 
 	sample.ena_sample ERS639396
-	sample.submitted_id ERS639396
+	sample.id ERS639396
 	sample.donor.id POMC_GFP_I_61
 	sample.donor.uuid cdc70902-d23b-4b08-8725-a28b8d6eb0c2
 	sample.short_label POMC+ from mouse 61
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 61
+	sample.uuid ac7ccf8c-ee51-440c-90a7-2756adc187c4
 
 		cell.id ERX945874
 		assay.ena_experiment ERX945874
@@ -1069,11 +1130,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866342/ERR866342_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866342/ERR866342_2.fastq.gz
 
 	sample.ena_sample ERS639397
-	sample.submitted_id ERS639397
+	sample.id ERS639397
 	sample.donor.id POMC_GFP_I_62
 	sample.donor.uuid 0c9e2d43-bc5e-46cc-9835-c0774de5d8c7
 	sample.short_label POMC+ from mouse 62
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 62
+	sample.uuid 31860d59-400e-415b-bcea-e3f410aaba58
 
 		cell.id ERX945875
 		assay.ena_experiment ERX945875
@@ -1086,11 +1148,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866343/ERR866343_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866343/ERR866343_2.fastq.gz
 
 	sample.ena_sample ERS639398
-	sample.submitted_id ERS639398
+	sample.id ERS639398
 	sample.donor.id POMC_GFP_I_63
 	sample.donor.uuid 1815307c-e4e3-4c3b-975a-08a601b27440
 	sample.short_label POMC+ from mouse 63
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 63
+	sample.uuid dfb87407-1e3c-49ff-9a2a-de67afae5f74
 
 		cell.id ERX945876
 		assay.ena_experiment ERX945876
@@ -1103,11 +1166,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866344/ERR866344_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866344/ERR866344_2.fastq.gz
 
 	sample.ena_sample ERS639399
-	sample.submitted_id ERS639399
+	sample.id ERS639399
 	sample.donor.id POMC_GFP_I_64
 	sample.donor.uuid a04702fa-eadd-498b-8e40-9064ceb2fbf8
 	sample.short_label POMC+ from mouse 64
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 64
+	sample.uuid 99b178fe-c377-48d0-a43c-79371c3de747
 
 		cell.id ERX945877
 		assay.ena_experiment ERX945877
@@ -1120,11 +1184,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866345/ERR866345_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866345/ERR866345_2.fastq.gz
 
 	sample.ena_sample ERS639400
-	sample.submitted_id ERS639400
+	sample.id ERS639400
 	sample.donor.id POMC_GFP_I_65
 	sample.donor.uuid 9fe9d72b-229d-460c-aa6c-c233716f2a8f
 	sample.short_label POMC+ from mouse 65
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 65
+	sample.uuid 566db369-5214-4be0-8cba-24240b949ee7
 
 		cell.id ERX945878
 		assay.ena_experiment ERX945878
@@ -1137,11 +1202,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866346/ERR866346_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866346/ERR866346_2.fastq.gz
 
 	sample.ena_sample ERS639401
-	sample.submitted_id ERS639401
+	sample.id ERS639401
 	sample.donor.id POMC_GFP_I_66
 	sample.donor.uuid 0d2a5d22-1120-48cb-b12d-c077c3acccab
 	sample.short_label POMC+ from mouse 66
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 66
+	sample.uuid 02cb6b36-8287-44bb-b538-82595cba2abc
 
 		cell.id ERX945879
 		assay.ena_experiment ERX945879
@@ -1154,11 +1220,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866347/ERR866347_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866347/ERR866347_2.fastq.gz
 
 	sample.ena_sample ERS639402
-	sample.submitted_id ERS639402
+	sample.id ERS639402
 	sample.donor.id POMC_GFP_I_67
 	sample.donor.uuid bfc87b17-f3eb-4f14-bb16-8d1c161a615a
 	sample.short_label POMC+ from mouse 67
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 67
+	sample.uuid 63b06e47-0af6-4e19-bb17-7933f4e13820
 
 		cell.id ERX945880
 		assay.ena_experiment ERX945880
@@ -1171,11 +1238,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866348/ERR866348_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866348/ERR866348_2.fastq.gz
 
 	sample.ena_sample ERS639403
-	sample.submitted_id ERS639403
+	sample.id ERS639403
 	sample.donor.id POMC_GFP_I_68
 	sample.donor.uuid a9b277e7-1140-4fd3-85a9-1663b86b7dcb
 	sample.short_label POMC+ from mouse 68
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 68
+	sample.uuid 3f1366a7-80a0-4fae-b5b4-79f71b7284ed
 
 		cell.id ERX945881
 		assay.ena_experiment ERX945881
@@ -1188,11 +1256,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866349/ERR866349_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866349/ERR866349_2.fastq.gz
 
 	sample.ena_sample ERS639404
-	sample.submitted_id ERS639404
+	sample.id ERS639404
 	sample.donor.id POMC_GFP_I_69
 	sample.donor.uuid bcab0872-3d87-49ed-87b1-882e62664dd3
 	sample.short_label POMC+ from mouse 69
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 69
+	sample.uuid 41077589-e221-4db6-aad0-80a70389cab3
 
 		cell.id ERX945882
 		assay.ena_experiment ERX945882
@@ -1205,11 +1274,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866350/ERR866350_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866350/ERR866350_2.fastq.gz
 
 	sample.ena_sample ERS639405
-	sample.submitted_id ERS639405
+	sample.id ERS639405
 	sample.donor.id POMC_GFP_I_70
 	sample.donor.uuid 2f4cb49b-ed9b-45ae-ab4f-783bc512fc06
 	sample.short_label POMC+ from mouse 70
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 70
+	sample.uuid bcc22937-f1d3-4439-9be5-685627f0d553
 
 		cell.id ERX945883
 		assay.ena_experiment ERX945883
@@ -1222,11 +1292,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866351/ERR866351_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866351/ERR866351_2.fastq.gz
 
 	sample.ena_sample ERS639406
-	sample.submitted_id ERS639406
+	sample.id ERS639406
 	sample.donor.id POMC_GFP_I_71
 	sample.donor.uuid 2f9339a0-7045-48f5-b541-db1cb62c77b1
 	sample.short_label POMC+ from mouse 71
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 71
+	sample.uuid 008f640b-3fb8-44ae-a2fb-19c565fd911a
 
 		cell.id ERX945884
 		assay.ena_experiment ERX945884
@@ -1239,11 +1310,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866352/ERR866352_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866352/ERR866352_2.fastq.gz
 
 	sample.ena_sample ERS639407
-	sample.submitted_id ERS639407
+	sample.id ERS639407
 	sample.donor.id POMC_GFP_I_72
 	sample.donor.uuid 5d362617-556e-49d7-967b-74184924a32d
 	sample.short_label POMC+ from mouse 72
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 72
+	sample.uuid 18bff311-6826-4045-b2e4-552eabd468b7
 
 		cell.id ERX945885
 		assay.ena_experiment ERX945885
@@ -1256,11 +1328,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866353/ERR866353_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866353/ERR866353_2.fastq.gz
 
 	sample.ena_sample ERS639408
-	sample.submitted_id ERS639408
+	sample.id ERS639408
 	sample.donor.id POMC_GFP_I_73
 	sample.donor.uuid d8ec1ccd-52fc-45ff-b0a6-080f5f32c6fd
 	sample.short_label POMC+ from mouse 73
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 73
+	sample.uuid 94c8df2c-e70f-4078-8e5c-baeff6b0dae7
 
 		cell.id ERX945886
 		assay.ena_experiment ERX945886
@@ -1273,11 +1346,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866354/ERR866354_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866354/ERR866354_2.fastq.gz
 
 	sample.ena_sample ERS639409
-	sample.submitted_id ERS639409
+	sample.id ERS639409
 	sample.donor.id POMC_GFP_I_74
 	sample.donor.uuid c2472810-8a8b-4bd7-9368-6f6057d4bb8d
 	sample.short_label POMC+ from mouse 74
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 74
+	sample.uuid 7982dd37-59b3-4539-998a-785d2951a376
 
 		cell.id ERX945887
 		assay.ena_experiment ERX945887
@@ -1290,11 +1364,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866355/ERR866355_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866355/ERR866355_2.fastq.gz
 
 	sample.ena_sample ERS639410
-	sample.submitted_id ERS639410
+	sample.id ERS639410
 	sample.donor.id POMC_GFP_I_75
 	sample.donor.uuid 34ba5c6a-860d-4d2b-9497-97d25fa9ea87
 	sample.short_label POMC+ from mouse 75
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 75
+	sample.uuid 8568ad17-a871-4b86-9dc3-1de996b6e1d2
 
 		cell.id ERX945888
 		assay.ena_experiment ERX945888
@@ -1307,11 +1382,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866356/ERR866356_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866356/ERR866356_2.fastq.gz
 
 	sample.ena_sample ERS639411
-	sample.submitted_id ERS639411
+	sample.id ERS639411
 	sample.donor.id POMC_GFP_I_76
 	sample.donor.uuid 72d7ec61-3433-475c-b0f7-913a380ede6f
 	sample.short_label POMC+ from mouse 76
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 76
+	sample.uuid 65048438-ba21-4aa7-b99f-ebf292e805f9
 
 		cell.id ERX945889
 		assay.ena_experiment ERX945889
@@ -1324,11 +1400,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866357/ERR866357_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866357/ERR866357_2.fastq.gz
 
 	sample.ena_sample ERS639412
-	sample.submitted_id ERS639412
+	sample.id ERS639412
 	sample.donor.id POMC_GFP_I_77
 	sample.donor.uuid be55353a-32e9-468a-8f80-60c82df69afd
 	sample.short_label POMC+ from mouse 77
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 77
+	sample.uuid 5ee94494-8461-48bf-9567-97cf55c58a4c
 
 		cell.id ERX945890
 		assay.ena_experiment ERX945890
@@ -1341,11 +1418,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866358/ERR866358_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866358/ERR866358_2.fastq.gz
 
 	sample.ena_sample ERS639413
-	sample.submitted_id ERS639413
+	sample.id ERS639413
 	sample.donor.id POMC_GFP_I_78
 	sample.donor.uuid 1c7711fa-017e-41e0-a4a8-14b48344f435
 	sample.short_label POMC+ from mouse 78
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 78
+	sample.uuid 55493ebb-29ab-49d9-af73-49204d1d6396
 
 		cell.id ERX945891
 		assay.ena_experiment ERX945891
@@ -1358,11 +1436,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866359/ERR866359_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866359/ERR866359_2.fastq.gz
 
 	sample.ena_sample ERS639414
-	sample.submitted_id ERS639414
+	sample.id ERS639414
 	sample.donor.id POMC_GFP_I_79
 	sample.donor.uuid 8d67ff07-a4f8-4710-840d-16c2c279b916
 	sample.short_label POMC+ from mouse 79
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 79
+	sample.uuid 0b65e78d-52fb-4ff4-b21f-58fd8dc59337
 
 		cell.id ERX945892
 		assay.ena_experiment ERX945892
@@ -1375,11 +1454,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866360/ERR866360_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866360/ERR866360_2.fastq.gz
 
 	sample.ena_sample ERS639415
-	sample.submitted_id ERS639415
+	sample.id ERS639415
 	sample.donor.id POMC_GFP_I_80
 	sample.donor.uuid 7a58ee76-b223-4027-8896-bc5b63bf90a8
 	sample.short_label POMC+ from mouse 80
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 80
+	sample.uuid 2128f6cd-975c-4f1a-ad62-6a33c64518f0
 
 		cell.id ERX945893
 		assay.ena_experiment ERX945893
@@ -1392,11 +1472,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866361/ERR866361_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866361/ERR866361_2.fastq.gz
 
 	sample.ena_sample ERS639416
-	sample.submitted_id ERS639416
+	sample.id ERS639416
 	sample.donor.id POMC_GFP_I_81
 	sample.donor.uuid ef94c036-bd05-482c-8eeb-094511dc5fce
 	sample.short_label POMC+ from mouse 81
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 81
+	sample.uuid f190cd44-028a-4668-8124-fd943d5c9b16
 
 		cell.id ERX945894
 		assay.ena_experiment ERX945894
@@ -1409,11 +1490,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866362/ERR866362_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866362/ERR866362_2.fastq.gz
 
 	sample.ena_sample ERS639417
-	sample.submitted_id ERS639417
+	sample.id ERS639417
 	sample.donor.id POMC_GFP_I_82
 	sample.donor.uuid 5b965acc-35e0-42ee-b693-ce5f195e2418
 	sample.short_label POMC+ from mouse 82
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 82
+	sample.uuid 1ae11f8d-ddd0-46ff-8561-6311c152a28d
 
 		cell.id ERX945895
 		assay.ena_experiment ERX945895
@@ -1426,11 +1508,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866363/ERR866363_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866363/ERR866363_2.fastq.gz
 
 	sample.ena_sample ERS639418
-	sample.submitted_id ERS639418
+	sample.id ERS639418
 	sample.donor.id POMC_GFP_I_83
 	sample.donor.uuid 6ef93b37-59c9-41db-be6a-a7b3356fa405
 	sample.short_label POMC+ from mouse 83
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 83
+	sample.uuid f5c7d811-3be4-4bf7-8e0a-78114b0fb936
 
 		cell.id ERX945896
 		assay.ena_experiment ERX945896
@@ -1443,11 +1526,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866364/ERR866364_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866364/ERR866364_2.fastq.gz
 
 	sample.ena_sample ERS639419
-	sample.submitted_id ERS639419
+	sample.id ERS639419
 	sample.donor.id POMC_GFP_I_84
 	sample.donor.uuid fd3a5f04-d717-46e9-98b8-2d902e7c9007
 	sample.short_label POMC+ from mouse 84
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 84
+	sample.uuid bbce8d28-fcac-4c12-b902-c52354d78228
 
 		cell.id ERX945897
 		assay.ena_experiment ERX945897
@@ -1460,11 +1544,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866365/ERR866365_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866365/ERR866365_2.fastq.gz
 
 	sample.ena_sample ERS639420
-	sample.submitted_id ERS639420
+	sample.id ERS639420
 	sample.donor.id POMC_GFP_I_85
 	sample.donor.uuid 79ef2974-65a9-4c53-9893-4162e30f99ae
 	sample.short_label POMC+ from mouse 85
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 85
+	sample.uuid 42561763-ce2f-4fe5-bde7-f77da481e9f3
 
 		cell.id ERX945898
 		assay.ena_experiment ERX945898
@@ -1477,11 +1562,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866366/ERR866366_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866366/ERR866366_2.fastq.gz
 
 	sample.ena_sample ERS639421
-	sample.submitted_id ERS639421
+	sample.id ERS639421
 	sample.donor.id POMC_GFP_I_86
 	sample.donor.uuid 7956b42f-046b-4871-b5a9-8dd044d69a3b
 	sample.short_label POMC+ from mouse 86
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 86
+	sample.uuid ec511278-9843-47d6-8a7d-e9836c493d95
 
 		cell.id ERX945899
 		assay.ena_experiment ERX945899
@@ -1494,11 +1580,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866367/ERR866367_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866367/ERR866367_2.fastq.gz
 
 	sample.ena_sample ERS639422
-	sample.submitted_id ERS639422
+	sample.id ERS639422
 	sample.donor.id POMC_GFP_I_87
 	sample.donor.uuid ca91430c-ed67-4907-9ec2-526200a43d67
 	sample.short_label POMC+ from mouse 87
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 87
+	sample.uuid c0ffb322-15de-44f9-b3a8-f4ba60550071
 
 		cell.id ERX945900
 		assay.ena_experiment ERX945900
@@ -1511,11 +1598,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866368/ERR866368_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866368/ERR866368_2.fastq.gz
 
 	sample.ena_sample ERS639423
-	sample.submitted_id ERS639423
+	sample.id ERS639423
 	sample.donor.id POMC_GFP_I_88
 	sample.donor.uuid 5f3114f7-4976-4fbc-af26-17a163a219dd
 	sample.short_label POMC+ from mouse 88
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 88
+	sample.uuid 3751c987-d968-476c-afbb-525b9d25dec3
 
 		cell.id ERX945901
 		assay.ena_experiment ERX945901
@@ -1528,11 +1616,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866369/ERR866369_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866369/ERR866369_2.fastq.gz
 
 	sample.ena_sample ERS639424
-	sample.submitted_id ERS639424
+	sample.id ERS639424
 	sample.donor.id POMC_GFP_I_89
 	sample.donor.uuid 2424e369-046c-4ffa-ac8d-c719ad93eef3
 	sample.short_label POMC+ from mouse 89
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 89
+	sample.uuid 958a7646-331f-4b0b-b593-99db02269ba5
 
 		cell.id ERX945902
 		assay.ena_experiment ERX945902
@@ -1545,11 +1634,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866370/ERR866370_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866370/ERR866370_2.fastq.gz
 
 	sample.ena_sample ERS639425
-	sample.submitted_id ERS639425
+	sample.id ERS639425
 	sample.donor.id POMC_GFP_I_90
 	sample.donor.uuid 85b0bb92-4b6a-4357-b64e-58dfd0513d59
 	sample.short_label POMC+ from mouse 90
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 90
+	sample.uuid 8d5d3711-97c0-49fc-bbf4-90bb4e855d5d
 
 		cell.id ERX945903
 		assay.ena_experiment ERX945903
@@ -1562,11 +1652,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866371/ERR866371_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866371/ERR866371_2.fastq.gz
 
 	sample.ena_sample ERS639426
-	sample.submitted_id ERS639426
+	sample.id ERS639426
 	sample.donor.id POMC_GFP_I_91
 	sample.donor.uuid 415ca9da-c458-4a38-b249-333df223b6df
 	sample.short_label POMC+ from mouse 91
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 91
+	sample.uuid 3d883eee-2d90-4b78-a8f8-cfb9455d97a3
 
 		cell.id ERX945904
 		assay.ena_experiment ERX945904
@@ -1579,11 +1670,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866372/ERR866372_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866372/ERR866372_2.fastq.gz
 
 	sample.ena_sample ERS639427
-	sample.submitted_id ERS639427
+	sample.id ERS639427
 	sample.donor.id POMC_GFP_I_92
 	sample.donor.uuid 99d8323b-7710-48a7-b34d-8d7e3760ce35
 	sample.short_label POMC+ from mouse 92
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 92
+	sample.uuid 32610d9c-96fc-4fbe-b8f6-1130a2d7f3b8
 
 		cell.id ERX945905
 		assay.ena_experiment ERX945905
@@ -1596,11 +1688,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866373/ERR866373_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866373/ERR866373_2.fastq.gz
 
 	sample.ena_sample ERS639428
-	sample.submitted_id ERS639428
+	sample.id ERS639428
 	sample.donor.id POMC_GFP_I_93
 	sample.donor.uuid fb8c7b65-e3cb-4327-8634-ad96b6082386
 	sample.short_label POMC+ from mouse 93
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 93
+	sample.uuid a5324879-de67-40fa-86f1-00e236d01e23
 
 		cell.id ERX945906
 		assay.ena_experiment ERX945906
@@ -1613,11 +1706,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866374/ERR866374_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866374/ERR866374_2.fastq.gz
 
 	sample.ena_sample ERS639429
-	sample.submitted_id ERS639429
+	sample.id ERS639429
 	sample.donor.id POMC_GFP_I_94
 	sample.donor.uuid 32a85261-d698-4381-b38a-e61a8a1d7de7
 	sample.short_label POMC+ from mouse 94
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 94
+	sample.uuid 5118c1ca-9d61-4b07-a3dd-4aa179174df4
 
 		cell.id ERX945907
 		assay.ena_experiment ERX945907
@@ -1630,11 +1724,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866375/ERR866375_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866375/ERR866375_2.fastq.gz
 
 	sample.ena_sample ERS639430
-	sample.submitted_id ERS639430
+	sample.id ERS639430
 	sample.donor.id POMC_GFP_I_95
 	sample.donor.uuid fcece85b-50e4-4e28-b8e0-d7937285d744
 	sample.short_label POMC+ from mouse 95
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 95
+	sample.uuid ed217561-e9e2-4857-9671-6faa83f7b0a1
 
 		cell.id ERX945908
 		assay.ena_experiment ERX945908
@@ -1647,11 +1742,12 @@ sample.enrichment POMC+
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866376/ERR866376_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866376/ERR866376_2.fastq.gz
 
 	sample.ena_sample ERS639431
-	sample.submitted_id ERS639431
+	sample.id ERS639431
 	sample.donor.id POMC_GFP_I_96
 	sample.donor.uuid 8d1f5e26-3b2a-4dd7-8a2a-8f4f8380b64a
 	sample.short_label POMC+ from mouse 96
 	sample.long_label POMC+ neurons from arcuate nucleus of hypothalamus of mouse 96
+	sample.uuid 0679ebd4-52af-4468-81bc-2dce725bb2e2
 
 		cell.id ERX945909
 		assay.ena_experiment ERX945909
