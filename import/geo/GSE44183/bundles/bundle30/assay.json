@@ -1,1 +1,0 @@
-{"seq":{"machine":"Illumina HiSeq 2000","molecule":"polyA RNA","paired_ends":"yes"},"single_cell":{"method":"mouth pipette"},"rna":{"primer":"poly-dt"},"sra_experiment":"SRX229784","sra_run":"SRR689233","files":[{"name":"SRR689233_1.fastq.gz","format":".fastq.gz","type":"read1","lane": "1"},{"name":"SRR689233_2.fastq.gz","format":".fastq.gz","type":"read2","lane": "1"}]}

@@ -1,1 +1,0 @@
-{"rna":{"prep":"smart-seq2","primer":"poly-dt"},"seq":{"machine":"Illumina HiSeq 2500","molecule":"polyA RNA","paired_ends":"no","prep":"DNA Library Prep kit (Nextera XT; Illumina)"},"single_cell":{"method":"FACS"},"sra_experiment":"SRX2272395","sra_run":"SRR4456245","files":[{"name":"SRR4456245_1.fastq.gz","format":".fastq.gz","type":"reads","lane": "1"}]}
