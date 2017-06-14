@@ -49,7 +49,7 @@ See https://support.10xgenomics.com/single-cell-gene-expression/datasets/pbmc8k
 ## Import
 
 Larger scale projects imported in full from ArrayExpress, GEO, etc.  The json bundles for these are in import.tgz, and include
-more than 30,000 files.  Do a tar -xf import.tgz to unpack, preferably in a ram-disk.  These are json files are generated from 
+more than 30,000 files.  Do a tar -xf import.tgz to unpack, preferably in a ram-disk.  These are json files are generated from
 the tagStorm format curated.tags file in sub-sub directories of the import subdirectory.  
 
 See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html for a list of the projects involved.
@@ -61,7 +61,9 @@ Jim and Laura are both preparing sample data bundles along with other Green/Blue
 * Google drive with sample data bundles writeup docs from Jim: https://drive.google.com/drive/u/1/folders/0BygSqPRIIdoSMVJVRWEyY0xWeXM
 * Data bundles from Jim, referenced in the previous doc: http://hgwdev-kent.cse.ucsc.edu/~kent/hca/array_express_examples/chosenSets/
 * Metadata fields from Jim: https://docs.google.com/spreadsheets/d/1LXIs2kM2MLTwKSpKo3Pt8-EFsyOEKwZ0QX4PlkbBucw/edit#gid=0
-* from Laura: https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&format=JSON&limit=0&fields=study_accession,sample_accession,experiment_alias,experiment_title,fastq_ftp,fastq_md5,fastq_bytes,last_updated&query=run_accession=ERR1630017## TODO & Questions for the Group
+* from Laura: https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&format=JSON&limit=0&fields=study_accession,sample_accession,experiment_alias,experiment_title,fastq_ftp,fastq_md5,fastq_bytes,last_updated&query=run_accession=ERR1630017
+
+## TODO & Questions for the Group
 
 ### Drop-seq
 1. UMI offset, UMI size,cell barcode size, cell barcode offset should not change for the assay Drop-seq (or the 10X version assay). It is possible to minimize the metadata here given they are all realistically one unit of information. It depends on the purpose of the json file just FYI [from Tim].
