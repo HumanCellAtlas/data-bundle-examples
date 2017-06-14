@@ -43,9 +43,11 @@ See https://support.10xgenomics.com/single-cell-gene-expression/datasets/pbmc8k
 
 ## Import
 
-Larger scale examples imported in full from ArrayExpress, GEO, etc.
+Larger scale projects imported in full from ArrayExpress, GEO, etc.  The json bundles for these are in import.tgz, and include
+more than 30,000 files.  Do a tar -xf import.tgz to unpack, preferably in a ram-disk.  These are json files are generated from 
+the tagStorm format curated.tags file in sub-sub directories of the import subdirectory.  
 
-See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html
+See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html for a list of the projects involved.
 
 ## TODO & Questions for the Group
 
