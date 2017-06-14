@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 6
+
+install:
+  - npm install -g jshint
+
+script:
+  - find -name '*.json' | xargs jshint
