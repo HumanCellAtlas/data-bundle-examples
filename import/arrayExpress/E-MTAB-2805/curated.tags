@@ -18,6 +18,8 @@ project.array_express.term_source_file http://www.ebi.ac.uk/efo,http://www.ebi.a
 project.array_express.term_source_name EFO,ArrayExpress
 project.contact.email kedarnat@ebi.ac.uk
 project.contact.institute EMBL-EBI, Wellcome Trust Genome Campus, Cambridge
+project.contact.city Hinxton
+project.contact.country UK
 project.contact.name "Kedar,N,Natarajan"
 project.contributor "Kedar,N,Natarajan"
 project.ddjb_trace_project ERP006670

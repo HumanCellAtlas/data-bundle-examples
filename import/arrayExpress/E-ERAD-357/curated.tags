@@ -15,6 +15,8 @@ project.array_express.experiment_type RNA-seq of coding RNA
 project.array_express.term_source_file http://www.ncbi.nlm.nih.gov/Taxonomy/,http://www.ebi.ac.uk/efo
 project.array_express.term_source_name NCBI Taxonomy,EFO
 project.contact.address "Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK"
+project.contact.city Hinxton
+project.contact.country UK
 project.contact.email datahose@sanger.ac.uk
 project.contact.institute Wellcome Trust Sanger Institute
 project.contact.name ",,The Wellcome Trust Sanger Institute"

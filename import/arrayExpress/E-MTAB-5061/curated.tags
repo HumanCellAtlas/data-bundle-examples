@@ -21,7 +21,9 @@ project.array_express.experiment_type RNA-seq of coding RNA from single cells
 project.array_express.related_experiment E-MTAB-5060
 project.array_express.term_source_file http://www.ebi.ac.uk/efo/
 project.array_express.term_source_name EFO
-project.contact.address "Nobels väg 3, 171 77, Stockholm,  Swede"
+project.contact.address "Nobels väg 3, 171 77, Stockholm, Sweden"
+project.contact.city Stockholm
+project.contact.country Sweden
 project.contact.email Athanasia.Palasantza@ki.se
 project.contact.institute Department of Cell and Molecular Biology (CMB), Karolinska Institutet, Stockholm, Sweden.
 project.contact.name "Athanasia,,Palasantza"
