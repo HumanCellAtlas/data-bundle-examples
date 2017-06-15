@@ -9,7 +9,7 @@ assay.seq.umi_barcode_offset 8
 assay.seq.umi_barcode_read 2
 assay.single_cell.cell_barcode_size 8
 assay.single_cell.cell_barcode_offset 0
-assay.single_cell.cell_barcode_read 2
+assay.single_cell.cell_barcode_read read2
 assay.single_cell.method mouth pipette
 sample.treatment.enrichment CD117+
 sample.treatment.enrichment_method MACS,FACS
