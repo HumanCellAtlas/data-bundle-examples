@@ -1,9 +1,14 @@
 language: node_js
 node_js:
-  - 6
-
+- 6
 install:
-  - npm install -g jshint
-
+- npm install -g jshint
 script:
-  - find -name '*.json' | xargs jshint
+- git clean -df import
+- tar xfz import/import.tgz
+- time aws s3 sync --delete --only-show-errors import s3://hca-dss-test-src/data-bundle-examples/import
+- find -name '*.json' | xargs jshint
+env:
+  global:
+  - secure: d/sxChAqsEpWE228cg4TwHeS9nmrp6M8sCUQMO+fT2Vswz1jbdjR5YD7TOtMVx00alxP0IUEfOacvG7phzvVV6gOqhiS7gSMfeuo23Ahwjjjf3wdWJyxEI8UXLAOJ3H/OfrzoN5PeamUUOiytasVd5FxZwX4+RQklEjHN0x2+MDjU1iofYTvfB08FbQ+7Sja3eiU5Jwpmge9ndcrUsCOkIkZyk9WK+QJ67n835lQJAIfhbUmdRuMEqJmE1JRejniA4/MOor4O8ypn8Q+ohgMvKExbM3Qlam8fV3gK4cILw1OkrTH6GeSWWyFtVNNxZtZ07kaMFGWIt8SwSq/iqgHR7JROP07sLsBJ73HK0tMA3IvxiReHbcCaYbFMNcOwIBTwOmZmQBKxxZsuNG9fFNO3Wh7iInPdQGbmawlhyllw8aUz8p3/Q81aPgzXub0yu+1VN0ifMFI9fE07z7uUrl3APTQRig2ZK8aqoQlY2z1RIVKvyQCxghM0Fnh4RMD365N4bp8qjcXYeJRA8jSsrTLN9fzz4LSlKemUld5DYWq/TJMPxLeKuuzJzE+qpX830+oICWKxHO7Pi9H2jOm1GfL3JM7QuJ31MD8wY1Y9/Fti2rcSqOWQ8QKG8gJv2B4k7aAb0eGosCif1YSvqEyPeoqx5+dohP0nZu/6XmQXyNG3Gs=
+  - secure: MRqGDq549CP7H75fJWHDIRkab/1EKz4FLPvugmRsBB3rK+gSxVbFO2IT9qOZgWK1LQCaZj+vPNrTd4rrfAP9JYk2vKm3mqFlpG2BWQstjBj3TQI4xeNTr40bRTbtL/4LMJzPYYp9y2JV3+djI0DM2XhaCHJENUKQczvwflan38ItTcnBwaIunwONTz2QHsMlURsuxlItGIPEk6jU1KFu+1GUwBz9WgLGisYThbDVDWWsGGynmjteJExpYeIxHboJ+E3IHQLgtIDvMIyo5OmMNZM49YQGb+0RyWYIv4rmF/neWn9zyZFAAOWsIa18arpnGvKWbxdx0DQcKxjAHTgDXBHKB1l/h3Rvj/KRvY8zyjS8W/nJ/Fy1peXrD+dkazQNNZWI4FQ2GjtPFdr1ebXkgEJYLXat978VP5lllDpJD6mP82+AE/IWP7EnID1uUSbOvUC6sij51l/dwyXITt9rJ734WzUmMau++HXZDsAL4xJSTuR9WOl7DR1zvqXJ+oOhC7scJWPGs4b3+yyJOl/6jGeEIGFRDRqsxyYFa+gr3kS8ueTtQboOMzWUsPcgyHBDb6rdCSM+BFodAKzXYCpyQ9Zx7WX29FpOiaD7dhA6MXuC+rgL3MVBDl5R7r+Jx9a1tv6v+tRlTMUucunLhu/r7ymdA/aRvyuI2e+hVA9so5w=
