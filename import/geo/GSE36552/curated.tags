@@ -1,3 +1,4 @@
+project.title Tracing pluripotency of human early embryos and embryonic stem cells by single cell RNA-seq
 project.id GSE36552
 assay.rna.primer random
 assay.seq.machine Illumina HiSeq 2000
@@ -24,7 +25,6 @@ project.sra_project SRP011546
 project.submission_date 2012-03-16
 project.summary "Find the casual relationship between gene expression network and cellular phenotype at single cell resolution. We collected donated human pre-implatation embryos, and the embryonic stem cells derived from them, isolate individual cells, prepared single cell cDNAs, and sequenced them by HiSeq2000. Then we analyzed the expression of known RefSeq genes."
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP011/SRP011546,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_2-cell.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_2-cell.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_4-cell.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_4-cell.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_8-cell.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_8-cell.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_ESC.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_ESC.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_Morluae.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_Morluae.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_PE.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_PE.sort.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_RAW.tar,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_TE.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_TE.sort.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_epi.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_epi.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_oocyte.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_oocyte.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_zygote.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_zygote.bed.tdf
-project.title Tracing pluripotency of human early embryos and embryonic stem cells by single cell RNA-seq
 project.geo_doc_id 200036552
 project.uuid a732e419-9824-4a1e-a71b-9de5b957f787
 sample.data_processing "Reads mapping: We used Burrows-Wheeler Aligner (BWA, Version 0.5.9-r16) [1] to align the clean reads to the hg19 Refseq, with the options ""aln -o 1 -e 60 -i 15 -q 10 -t 8"".  [1]. Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler Transform. Bioinformatics, 25:1754-60.","Expression level analysis : The gene expression level was calculated by using RPKM method, We used all genes with RPKM ≥ 0.1 as expressed genes in the following analysis.","Use BEDTools(Version-2.16.2) to transform *.bam files into *.bed files.[Ref: Aaron R. Quinlan and Ira M. Hall. (2010) BEDTools: a flexible suite of utilities for comparing genomic features,Bioinformatics (2010), 26: 841-842]",Merge the *.bed files from samples in the same stage [available on Series records],Use IGVtools to transform the merged *.bed files into *.tdf files for visualization [available on Series records],Genome_build: hg19
@@ -41,8 +41,8 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	sample.donor.life_stage embryo
 	sample.submission_date 2012-03-16
 	sample.short_label oocytes
-	sample.long_label unfertilized oocytes
-	sample.development_stage oocyte
+	sample.long_label unfertilized oocytes from Tang single cell method 2013
+	sample.donor.development_stage oocyte
 
 		assay.sra_experiment SRX129997
 		assay.sra_run SRR445718
@@ -81,8 +81,8 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	sample.donor.life_stage embryo
 	sample.submission_date 2012-03-16
 	sample.short_label zygotes
-	sample.long_label zygotes
-	sample.development_stage zygote
+	sample.long_label zygotes from Tang single cell method 2013
+	sample.donor.development_stage zygote
 
 		assay.sra_experiment SRX130000
 		assay.sra_run SRR445721
@@ -121,8 +121,8 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	sample.donor.life_stage embryo
 	sample.submission_date 2012-03-16
 	sample.short_label 2-cell blastomeres
-	sample.long_label disassociated blastomeres from 2-cell stage
-	sample.development_stage 2-cell blastomeres
+	sample.long_label disassociated blastomeres from 2-cell stage Tang method 2013
+	sample.donor.development_stage 2-cell blastomeres
 
 		sample.donor.id 2-cell blastomere #1
 		sample.donor.uuid c2c32742-510b-4189-8eb9-bd13de26fe1a
@@ -188,8 +188,8 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	sample.donor.life_stage embryo
 	sample.submission_date 2012-04-25
 	sample.short_label 4-cell blastomeres
-	sample.long_label disassociated blastomeres from 4-cell stage
-	sample.development_stage 4-cell blastomeres
+	sample.long_label disassociated blastomeres from 4-cell stage Tang method 2013
+	sample.donor.development_stage 4-cell blastomeres
 
 		sample.donor.id 4-cell blastomere #1
 		sample.donor.uuid a27cbc46-585f-48f6-9298-b8a0c209fd06
@@ -303,8 +303,8 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	sample.donor.life_stage embryo
 	sample.submission_date 2012-04-25
 	sample.short_label 8-cell blastomeres
-	sample.long_label disassociated blastomeres from 8-cell stage
-	sample.development_stage 8-cell blastomeres
+	sample.long_label disassociated blastomeres from 8-cell stage Tang method 2013
+	sample.donor.development_stage 8-cell blastomeres
 
 		sample.donor.id 8-cell blastomere #1
 		sample.donor.uuid d26ff9bb-5d5e-4890-a24c-3b71ce9a0c3c
@@ -482,8 +482,8 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	sample.donor.life_stage embryo
 	sample.submission_date 2012-04-25
 	sample.short_label morula blastomeres
-	sample.long_label disassociated blastomeres from morula stage embryo
-	sample.development_stage morula
+	sample.long_label disassociated blastomeres from morula stage embryo Tang method 2013
+	sample.donor.development_stage morula
 
 		sample.donor.id morula #1
 		sample.donor.uuid a1f2353c-3560-41c2-a3df-60eb38ad2543
@@ -625,8 +625,8 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	sample.donor.life_stage embryo
 	sample.submission_date 2012-04-25
 	sample.short_label late blastomeres
-	sample.long_label disassociated blastomeres from late blastocyst stage embryo
-	sample.development_stage late blastocyst
+	sample.long_label disassociated blastomeres from late blastocyst stage embryo Tang method 2013
+	sample.donor.development_stage late blastocyst
 	sample.body_part.name late blastocyst
 
 		sample.donor.id late blastocyst #1
@@ -885,7 +885,7 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 		sample.donor.id hESC passage#0
 		sample.passage_number 0
 		sample.short_label hESC passage 0
-		sample.long_label cultured human embryonic stem cells passage #0
+		sample.long_label cultured human embryonic stem cells passage #0 Tang method 2013
 		sample.donor.uuid e1ad4270-5c24-44a1-bd6e-d7f9b3ef2c9c
 
 			assay.sra_experiment SRX130009
@@ -964,7 +964,7 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 		sample.passage_number 10
 		sample.submission_date 2012-04-25
 		sample.short_label hESC passage 10
-		sample.long_label cultured human embryonic stem cells passage #10
+		sample.long_label cultured human embryonic stem cells passage #10 Tang method 2013
 		sample.donor.uuid 4f4a8d1f-5660-47c5-82d7-fa01e2b24ec3
 
 			assay.sra_experiment SRX144444

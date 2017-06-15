@@ -1,3 +1,4 @@
+project.title A Molecular Census of Arcuate Hypothalamus and Median Eminence Cell Types
 project.id GSE90806
 sample.donor.genotype AAV-GFP+ RIP-Cre+
 assay.single_cell.method mouth pipette
@@ -9,7 +10,6 @@ sample.donor.age 63
 sample.donor.age_unit day
 sample.donor.life_stage adult
 sample.donor.sex male
-assay.rna.prep transcriptomic
 assay.seq.machine Illumina NextSeq 500
 assay.seq.molecule polyA RNA
 project.contact.address "Center for Life Science, room 7-717; Boston, MA 02115 USA"
@@ -35,7 +35,6 @@ project.sra_project SRP094469
 project.submission_date 2016-12-02
 project.summary Drop-seq and single cell sequencing of mouse arcuate nucleus and median eminence
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90806/suppl/GSE90806_RIP-Cre_ARC_GeneCounts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP094/SRP094469
-project.title A Molecular Census of Arcuate Hypothalamus and Median Eminence Cell Types
 project.uuid 24ec624c-fe81-4482-9766-a86d7840140f
 sample.data_processing Base calls performed with bcl2fastq2.15.0.4,"Alignment by TopHat v2.0.14. [Using “-M”, “--no-coverage-search”, “--segment-length 10”]","Removal of duplicates and low quality reads, indexing, and sorting: Picard 2.5.0 and samtools 0.1.19.",Assigned reads to features: featureCounts-1.4.6. [Using recommended setting and a custom meta-annotation that merges overlapping isoforms.],Genome_build: Genome_build: mm10 (GRCm38),Supplementary_files_format_and_content: CSV file containing expression values by sample (columns) and gene ID (rows)
 sample.donor.ncbi_taxon 10090

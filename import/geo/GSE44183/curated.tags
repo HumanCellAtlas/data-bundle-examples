@@ -1,3 +1,4 @@
+project.title Genetic Programs in Human and Mouse Early Embryos Revealed by Single-Cell RNA-Sequencing
 project.id GSE44183
 assay.seq.machine Illumina HiSeq 2000
 assay.seq.molecule polyA RNA
@@ -26,7 +27,6 @@ project.sra_project SRP018525
 project.submission_date 2013-02-08
 project.summary "Mammalian preimplantation development is a complex process involving dramatic changes in the transcriptional architecture. Through single-cell RNA-sequencing (RNA-seq), we report here a comprehensive analysis of transcriptome dynamics from oocyte to morula in both human and mouse embryos. Based on single nucleotide variants (SNVs) in blastomere mRNAs and paternal-specific SNPs, we identify novel stage-specific monoallelic expression patterns for a significant portion of polymorphic gene transcripts (25-53%). By weighted gene co-expression network analysis (WGCNA), we find that each developmental stage can be concisely delineated by a small number of functional modules of co-expressed genes. This result indicates a sequential order of transcriptional changes in pathways of cell cycle, gene regulation, translation, and metabolism in a step-wise fashion from cleavage to morula.  Cross-species comparisons reveal that the majority of human stage-specific modules (7 out of 9) are remarkably preserved, only to diverge in developmental specificity and timing in mice. We further identify conserved key members (or hub genes) of the human and mouse networks. These genes represent novel candidates that are likely key players in driving mammalian preimplantation development. Collectively, we demonstrate that mammalian preimplantation development is orchestrated by evolutionarily conserved genetic programs that diverge in developmental timing.  Our results provide a valuable resource to dissect gene regulatory mechanism underlying progressive development of early mammalian embryos."
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP018/SRP018525,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE44183/GSE44183_RAW.tar,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE44183/GSE44183_human_expression_mat.txt.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE44183/GSE44183_mouse_expression_mat.txt.gz
-project.title Genetic Programs in Human and Mouse Early Embryos Revealed by Single-Cell RNA-Sequencing
 project.uuid d86ed805-7e26-4260-b2bd-9f1917d2617e
 project.geo_doc_id 200044183
 sample.last_update_date 2013-07-29
@@ -46,8 +46,8 @@ sample.donor.life_stage embryo
 		cell.type oocyte
 		sample.body_part.name oocyte
 		sample.short_label unfertilized oocytes
-		sample.long_label unfertilized oocytes
-		sample.development_stage oocyte
+		sample.long_label unfertilized oocytes from Fan lab 2013
+		sample.donor.development_stage oocyte
 
 			assay.sra_experiment SRX300873
 			assay.sra_run SRR893046
@@ -76,8 +76,8 @@ sample.donor.life_stage embryo
 		cell.type fertilized oocyte
 		sample.body_part.name fertilized oocyte
 		sample.short_label fertilized oocyte
-		sample.long_label fertilized oocyte at pronucleus phase
-		sample.development_stage fertilized oocyte
+		sample.long_label fertilized oocyte at pronucleus phase from Fan lab 2013
+		sample.donor.development_stage fertilized oocyte
 
 			assay.sra_experiment SRX300876
 			assay.sra_run SRR893049
@@ -106,8 +106,8 @@ sample.donor.life_stage embryo
 		cell.type zygote
 		sample.body_part.name zygote
 		sample.short_label zygotes
-		sample.long_label zygotes
-		sample.development_stage zygote
+		sample.long_label zygotes from Fan lab 2013
+		sample.donor.development_stage zygote
 
 			assay.sra_experiment SRX300879
 			assay.sra_run SRR893052
@@ -128,8 +128,8 @@ sample.donor.life_stage embryo
 		cell.type 2-cell blastomere
 		sample.body_part.name 2-cell blastomere
 		sample.short_label 2-cell blastomeres
-		sample.long_label disassociated blastomeres from 2-cell stage
-		sample.development_stage 2-cell blastomeres
+		sample.long_label disassociated blastomeres from 2-cell stage from Fan lab 2013
+		sample.donor.development_stage 2-cell blastomeres
 
 			assay.sra_experiment SRX300881
 			assay.sra_run SRR893054
@@ -158,8 +158,8 @@ sample.donor.life_stage embryo
 		cell.type 4-cell blastomere
 		sample.body_part.name 4-cell blastomere
 		sample.short_label 4-cell blastomeres
-		sample.long_label disassociated blastomeres from 4-cell stage
-		sample.development_stage 4-cell blastomeres
+		sample.long_label disassociated blastomeres from 4-cell stage from Fan lab 2013
+		sample.donor.development_stage 4-cell blastomeres
 
 			assay.sra_experiment SRX300884
 			assay.sra_run SRR893057
@@ -196,8 +196,8 @@ sample.donor.life_stage embryo
 		cell.type 8-cell blastomere
 		sample.body_part.name 8-cell blastomere
 		sample.short_label 8-cell blastomeres
-		sample.long_label disassociated blastomeres from 8-cell stage
-		sample.development_stage 8-cell blastomeres
+		sample.long_label disassociated blastomeres from 8-cell stage from Fan lab 2013
+		sample.donor.development_stage 8-cell blastomeres
 
 			assay.sra_experiment SRX300888
 			assay.sra_run SRR893061
@@ -290,8 +290,8 @@ sample.donor.life_stage embryo
 		cell.type morula
 		sample.body_part.name morula stage embryo
 		sample.short_label morula blastomeres
-		sample.long_label disassociated blastomeres from morula stage embryo
-		sample.development_stage morula
+		sample.long_label disassociated blastomeres from morula stage embryo from Fan lab 2013
+		sample.donor.development_stage morula
 
 			assay.sra_experiment SRX300899
 			assay.sra_run SRR893072
@@ -329,8 +329,8 @@ sample.donor.life_stage embryo
 		cell.type oocyte
 		sample.body_part.name oocyte
 		sample.short_label oocytes
-		sample.long_label unfertilized oocytes
-		sample.development_stage oocyte
+		sample.long_label unfertilized oocytes from Fan lab 2013
+		sample.donor.development_stage oocyte
 
 			assay.sra_experiment SRX229784
 			assay.sra_run SRR689233
@@ -351,8 +351,8 @@ sample.donor.life_stage embryo
 		cell.type fertilized oocyte
 		sample.body_part.name fertilized oocyte
 		sample.short_label fertilized oocyte
-		sample.long_label fertilized oocyte at pronucleus phase
-		sample.development_stage fertilized oocyte
+		sample.long_label fertilized oocyte at pronucleus phase from Fan lab 2013
+		sample.donor.development_stage fertilized oocyte
 
 			assay.sra_experiment SRX229786
 			assay.sra_run SRR689235
@@ -381,8 +381,8 @@ sample.donor.life_stage embryo
 		cell.type 2-cell blastomere
 		sample.body_part.name 2-cell blastomere
 		sample.short_label 2-cell blastomeres
-		sample.long_label disassociated blastomeres from 2-cell stage
-		sample.development_stage 2-cell blastomeres
+		sample.long_label disassociated blastomeres from 2-cell stage from Fan lab 2013
+		sample.donor.development_stage 2-cell blastomeres
 
 			assay.sra_experiment SRX229789
 			assay.sra_run SRR689238
@@ -411,8 +411,8 @@ sample.donor.life_stage embryo
 		cell.type 4-cell blastomere
 		sample.body_part.name 4-cell blastomere
 		sample.short_label 4-cell blastomeres
-		sample.long_label disassociated blastomeres from 4-cell stage
-		sample.development_stage 4-cell blastomeres
+		sample.long_label disassociated blastomeres from 4-cell stage from Fan lab 2013
+		sample.donor.development_stage 4-cell blastomeres
 
 			assay.sra_experiment SRX229792
 			assay.sra_run SRR689241
@@ -441,8 +441,8 @@ sample.donor.life_stage embryo
 		cell.type 8-cell blastomere
 		sample.body_part.name 8-cell blastomere
 		sample.short_label 8-cell blastomeres
-		sample.long_label disassociated blastomeres from 8-cell stage
-		sample.development_stage 8-cell blastomeres
+		sample.long_label disassociated blastomeres from 8-cell stage from Fan lab 2013
+		sample.donor.development_stage 8-cell blastomeres
 
 			assay.sra_experiment SRX229795
 			assay.sra_run SRR689244
@@ -471,8 +471,8 @@ sample.donor.life_stage embryo
 		cell.type morula
 		sample.body_part.name morula stage embryo
 		sample.short_label morula blastomeres
-		sample.long_label disassociated blastomeres from morula stage embryo
-		sample.development_stage morula
+		sample.long_label disassociated blastomeres from morula stage embryo from Fan lab 2013
+		sample.donor.development_stage morula
 
 			assay.sra_experiment SRX229798
 			assay.sra_run SRR689247

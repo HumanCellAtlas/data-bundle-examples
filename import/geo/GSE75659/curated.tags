@@ -1,3 +1,4 @@
+project.title Dissecting the clonal nature of allelic expression in somatic cells by single-cell RNA-seq
 project.id GSE75659
 assay.seq.machine Illumina HiSeq 2000
 project.contact.address "Nobels väg 3; Stockholm,  17177 Swedn"
@@ -20,7 +21,6 @@ project.sra_project SRP066963
 project.submission_date 2015-12-03
 project.summary "Cellular heterogeneity can emerge from the expression of only one parental allele, however it has remained unknown to what degree patterns of random monoallelic expression of autosomal genes (aRME) are mitotically inherited (clonal) or stochastic (dynamic) in somatic cells. Here, we resolved this by applying allele-sensitive single-cell RNA-seq on primary mouse fibroblasts and in vivo human T-cells to simultaneously investigate clonal and dynamic aRME. Dynamic aRME affected a considerable portion of the transcriptome, with levels dependent on the cell’s transcriptional activity, but clonal aRME was surprisingly scarce (<1% of genes) and affected mainly lowly expressed genes. Consequently, the overwhelming portion of aRME occurs transiently and is scattered throughout somatic populations rather than, as previously hypothesized, confined to spatially restricted patches of clonally related cells."
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP066/SRP066963,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75659/suppl/GSE75659_RAW.tar
-project.title Dissecting the clonal nature of allelic expression in somatic cells by single-cell RNA-seq
 project.uuid da5be072-23be-44ad-8c20-a32fa492a358
 sample.last_update_date 2016-09-26
 sample.protocol_types nucleic acid library construction protocol
@@ -44,9 +44,10 @@ sample.protocol_types nucleic acid library construction protocol
 			sample.body_part.cell_count 1
 			cell.type CD8+ T cell
 			sample.body_part.name CD8+ T cell
+			sample.body_part.organ blood
 			sample.treatment.culture_type tissue
 			sample.treatment.enrichment CD3+ CD8+
-			sample.long_label in vivo CD3+ CD8+ T cells
+			sample.long_label in vivo CD3+ CD8+ T cells after yellow fever vaccine
 			sample.short_label in vivo CD8+ T cells
 
 				sample.characteristics_clone.info Tcell.in.vivo.cl1
@@ -4477,10 +4478,11 @@ sample.protocol_types nucleic acid library construction protocol
 
 			cell.type CD8+ T cell
 			sample.body_part.name CD8+ T cell
+			sample.body_part.organ blood
 			sample.treatment.enrichment CD3+ CD8+
 			sample.treatment.culture_type primary culture
 			sample.body_part.cell_count 1
-			sample.long_label CD3+ CD8+ T cells from primary culture
+			sample.long_label CD3+ CD8+ T cells from primary culture after yellow fever vaccine
 			sample.short_label cultured CD8+ T cells
 
 				sample.characteristics_clone.info Tcell.ex.vivo.clA
@@ -7293,7 +7295,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.body_part.cell_count 1
 					sample.long_label single.fibroblast
 					sample.short_label cultured fibroblasts
-					sample.long_label fibroblasts from primary culture
+					sample.long_label single fibroblasts from primary culture
 
 						sample.characteristics_clone.info fibroblast.cl1
 						sample.donor.strain CAST/EiJ (mother) x C57BL/6J (father)
@@ -8545,7 +8547,7 @@ sample.protocol_types nucleic acid library construction protocol
 					assay.sra_run SRR2971603
 					cell.type fibroblast
 					sample.body_part.name fibroblast
-					sample.culture_type primary culture
+					sample.treatment.culture_type primary culture
 					sample.body_part.cell_count 15
 					sample.short_label 15 fibroblasts
 					sample.long_label 15 pooled fibroblasts from primary culture
@@ -8560,7 +8562,7 @@ sample.protocol_types nucleic acid library construction protocol
 					cell.type fibroblast
 					sample.body_part.name fibroblast
 					sample.body_part.cell_count 5
-					sample.culture_type primary culture
+					sample.treatment.culture_type primary culture
 					sample.short_label 5 fibroblasts
 					sample.long_label 5 pooled fibroblasts from primary culture
 					sample.donor.strain CAST/EiJ (mother) x C57BL/6J (father)
@@ -8586,7 +8588,7 @@ sample.protocol_types nucleic acid library construction protocol
 					cell.type fibroblast
 					sample.body_part.name fibroblast
 					sample.body_part.cell_count 0.5
-					sample.culture_type primary culture
+					sample.treatment.culture_type primary culture
 					sample.short_label split fibroblast
 					sample.long_label fibroblast from primary culture split in two parts after RNA extraction
 					sample.characteristics_clone.info non.clonal
@@ -8883,7 +8885,7 @@ sample.protocol_types nucleic acid library construction protocol
 
 					cell.type fibroblast
 					sample.body_part.name fibroblast
-					sample.culture_type primary culture
+					sample.treatment.culture_type primary culture
 					sample.body_part.cell_count 1
 					sample.short_label E15 fibroblast
 					sample.long_label E15 fibroblast from primary culture
@@ -9948,7 +9950,7 @@ sample.protocol_types nucleic acid library construction protocol
 						assay.sra_run SRR2971752
 						cell.type fibroblast
 						sample.body_part.name fibroblast
-						sample.culture_type primary culture
+						sample.treatment.culture_type primary culture
 						sample.body_part.cell_count 0.5
 						sample.short_label split fibroblast
 						sample.long_label fibroblast from primary culture split in two parts after RNA extraction

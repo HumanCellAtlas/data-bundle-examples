@@ -1,3 +1,4 @@
+project.title Single-cell RNA-seq reveals heterogeneity within human pre-cDCs
 project.id GSE89232
 assay.rna.prep smart-seq2
 assay.rna.primer poly-dt
@@ -29,7 +30,6 @@ project.sra_project SRP092166
 project.submission_date 2016-10-27
 project.summary "Here, we use a microfluidics-based approach to prepare single-cell RNA-Seq libraries from 164 primary human conventional dendritic cells (cDCs) as well as cord blood (452) and blood (341) pre-cDCs. We examined heterogeneity between individual cells to document potential subpopulations within human cDCs and pre-cDCs."
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE89nnn/GSE89232/suppl/GSE89232_expMatrix.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP092/SRP092166
-project.title Single-cell RNA-seq reveals heterogeneity within human pre-cDCs
 project.uuid 5eb4dab2-118e-438b-9d29-e7ada594ac10
 sample.data_processing "Raw sequencing data were processed as previously described (Shalek et al., 2014). Briefly, short sequencing reads were aligned to the UCSC hg19 transcriptome and were also used as input in RSEM v 1.2.1 to quantify gene expression levels (transcripts per million; TPM) for all UCSC hg19 genes in all samples.","We filtered out cells from our dataset where we detected less than 1,000 unique genes per cell. All genes that were not detected in at least 1% of all our single cells were discarded, leaving 20,869 genes for all further analyses. Data were log transformed (log TPM+1) for all downstream analyses.",Genome_build: hg19,Supplementary_files_format_and_content: matrix of gene expression estimates across good quality samples
 sample.donor.ncbi_taxon 9606
@@ -38,7 +38,6 @@ sample.protocol_types nucleic acid library construction protocol
 sample.protocols "cDNA from each sample was prepared using the SMART-Seq 2 protocol (Picelli et al., 2013)."
 sample.last_update_date 2016-11-15
 sample.submission_date 2016-10-27
-sample.culture_type none
 sample.body_part.organ blood
 
 	sample.body_part.name blood dendritic cells
