@@ -4,20 +4,25 @@
 
 A repository housing metadata and data files (or links to data files) that are being prepared as sample data bundles for various uses.
 
-## Sources of Sample Metadata/Data
+Hand curated examples can be found in the root directory each in their own directory named for the platform.  Bulk imported examples can be found in the `import` directory.
 
-Jim and Laura are both preparing sample data bundles along with other Green/Blue/Purple box team members.  Here are some sources of samples that should be consolidated here:
+Since thousands of JSON files were produced in the import subdirectories, they have been removed from Git and included as a single compressed tarball `import.tgz`.
 
-* Google drive with sample data bundles writeup docs from Jim: https://drive.google.com/drive/u/1/folders/0BygSqPRIIdoSMVJVRWEyY0xWeXM
-* Data bundles from Jim, referenced in the previous doc: http://hgwdev-kent.cse.ucsc.edu/~kent/hca/array_express_examples/chosenSets/
-* Metadata fields from Jim: https://docs.google.com/spreadsheets/d/1LXIs2kM2MLTwKSpKo3Pt8-EFsyOEKwZ0QX4PlkbBucw/edit#gid=0
-* from Laura: https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&format=JSON&limit=0&fields=study_accession,sample_accession,experiment_alias,experiment_title,fastq_ftp,fastq_md5,fastq_bytes,last_updated&query=run_accession=ERR1630017
+## Extract Metadata Files
+
+This command will extract the metadata JSON files associated with the `import` examples.  This will create thousands of files so please **do not** check them into Git:
+
+    tar zxf import.tgz
 
 ## Get Data Files
 
-Downloads the fastq files associated with each example:
+Downloads the fastq files associated with each hand-curated example:
 
     bash bin/get_data.sh
+
+For the import directory structure, first extract the metadata files (see above) and then run:
+
+    python bin/get_import_data.py
 
 ## Smartseq2
 
@@ -44,10 +49,19 @@ See https://support.10xgenomics.com/single-cell-gene-expression/datasets/pbmc8k
 ## Import
 
 Larger scale projects imported in full from ArrayExpress, GEO, etc.  The json bundles for these are in import.tgz, and include
-more than 30,000 files.  Do a tar -xf import.tgz to unpack, preferably in a ram-disk.  These are json files are generated from 
+more than 30,000 files.  Do a tar -xf import.tgz to unpack, preferably in a ram-disk.  These are json files are generated from
 the tagStorm format curated.tags file in sub-sub directories of the import subdirectory.  
 
 See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html for a list of the projects involved.
+
+## Sources of Sample Metadata/Data
+
+Jim and Laura are both preparing sample data bundles along with other Green/Blue/Purple box team members.  Here are some sources of samples that should be consolidated here:
+
+* Google drive with sample data bundles writeup docs from Jim: https://drive.google.com/drive/u/1/folders/0BygSqPRIIdoSMVJVRWEyY0xWeXM
+* Data bundles from Jim, referenced in the previous doc: http://hgwdev-kent.cse.ucsc.edu/~kent/hca/array_express_examples/chosenSets/
+* Metadata fields from Jim: https://docs.google.com/spreadsheets/d/1LXIs2kM2MLTwKSpKo3Pt8-EFsyOEKwZ0QX4PlkbBucw/edit#gid=0
+* from Laura: https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&format=JSON&limit=0&fields=study_accession,sample_accession,experiment_alias,experiment_title,fastq_ftp,fastq_md5,fastq_bytes,last_updated&query=run_accession=ERR1630017
 
 ## TODO & Questions for the Group
 
@@ -91,7 +105,7 @@ See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html for a list of the project
 5. What about samples being run multiple times (multiple lanes)?  Do they get individual data bundles or a single data bundle which has been combined?
     * My current thinking is that I feel this is best served by updating a bundle but not making a new one [Tim].
 6. What will be the input file format expected in the system? Are we going to start with fastq.gz file uploads or something else? [from Tim]
-    * At the moment I'm making them all fastq.gz.  I'm converting the .sra format to this for GEO accessions.  The 10x examples were tar'd 
+    * At the moment I'm making them all fastq.gz.  I'm converting the .sra format to this for GEO accessions.  The 10x examples were tar'd
       fastq.gzs and I untarred them.  For ArrayExpress so far they have had .fastq.gz already available from URL, so no conversion there.
       I hear they are wanting to convert to CRAM.  The one I saw with CRAM for alignments did also have .fastq.gz though. [from Jim]
 7. Do we want to store the expression matrices in a format more usable for sparse data [from Tim]?
