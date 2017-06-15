@@ -6,9 +6,11 @@ assay.seq.paired_ends index1_reads2
 assay.seq.prep modified Nextera XT
 assay.seq.umi_barcode_size 8
 assay.seq.umi_barcode_offset 12
+assay.seq.umi_barcode_read index
 assay.single_cell.method drop-seq
 assay.single_cell.cell_barcode_size 12
 assay.single_cell.cell_barcode_offset 0
+assay.single_cell.cell_barcode_read index
 project.array_express.accession E-MTAB-81904
 project.contact.address "415 Main St.; Cambridge, MA 02142 USA"
 project.contact.city Cambridge

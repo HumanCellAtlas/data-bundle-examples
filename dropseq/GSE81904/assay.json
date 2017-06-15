@@ -22,11 +22,13 @@
         "paired_ends": "index1_reads2", 
         "prep": "modified Nextera XT", 
         "umi_barcode_offset": "12", 
-        "umi_barcode_size": "8"
+        "umi_barcode_size": "8",
+	"umi_barcode_read": "index"
     }, 
     "single_cell": {
         "cell_barcode_offset": "0", 
         "cell_barcode_size": "12", 
+	"cell_barcode_read": "index",
         "method": "drop-seq"
     }, 
     "sra_experiment": "SRX1800075", 

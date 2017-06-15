@@ -11,14 +11,17 @@ assay.seq.machine $ "Illumina HiSeq 2000" "Illumina HiSeq 2500" "Illumina HiSeq 
 !assay.seq.paired_ends $ index1_reads2 no yes
 assay.seq.prep $ "DNA Library Prep kit (Nextera XT; Illumina)" "Nextera XT" TruSeq "modified Nextera XT"
 assay.seq.umi_barcode_offset # 0 50
+assay.seq.umi_barcode_read $ 1 2 index
 assay.seq.umi_barcode_size # 0 50
 assay.single_cell.cell_barcode_offset # 0 50
+assay.single_cell.cell_barcode_read $ 1 2 index
 assay.single_cell.cell_barcode_size # 0 50
 !assay.single_cell.method $ 10x_v2 FACS "Fluidigm C1" drop-seq "mouth pipette"
 assay.sra_experiment $ *
 assay.sra_run $ *
 assay.submitted_file_names $ *
 cell.cell_cycle $ G1 G2/M S
+cell.characteristics_* $ *
 cell.id $ *
 cell.type $ *
 cell.well_quality $ *
@@ -37,7 +40,7 @@ project.contact.laboratory $ *
 !project.contact.name $ *
 project.contact.phone $ *
 project.contact.postal_code $ *
-project.contact.state $ CA FL MA MA NY OR TX WA
+project.contact.state $ AL AZ CA FL IL MA MO NY OR PA TX WA
 project.contact.street_address $ *
 project.contributor $ *
 project.ddjb_trace_project $ ERP*
@@ -62,37 +65,33 @@ project.supplementary_files $ *
 !project.uuid $ ????????-????-????-????-????????????
 sample.biosd_sample $ *
 sample.body_part.cell_count % 0 100
-sample.body_part.cell_type # 1 1
 !sample.body_part.name $ *
 sample.body_part.ontology $ *
-sample.body_part.organ $ blood brain eye liver pancreas
+sample.body_part.organ $ blood bone brain eye liver pancreas
 sample.body_part.source $ "\"Proto or NDRI\"" "Prodo Laboratories Inc."
 sample.cell_line $ AB2.2 H9 "iPSC 409B2"
-sample.characteristics_clone.info $ *
-sample.characteristics_cross $ C57xCAST CASTxC57
-sample.culture_type $ none "primary culture"
+sample.characteristics_* $ *
 sample.data_processing $ *
-sample.development_stage $ "2-cell blastomeres" "4-cell blastomeres" "8-cell blastomeres" "fertilized oocyte" "late blastocyst" morula oocyte zygote
 sample.donor.age $ *
 sample.donor.age_unit $ day week year
 sample.donor.body_mass_index % 1 100
-sample.donor.disease $ normal "type II diabetes mellitus"
+sample.donor.development_stage $ "2-cell blastomeres" "4-cell blastomeres" "8-cell blastomeres" "fertilized oocyte" "late blastocyst" morula oocyte zygote
+sample.donor.disease $ normal "type II diabetes mellitus" "type I diabetes mellitus"
 sample.donor.ethnicity $ *
 sample.donor.genotype $ "AAV-GFP+ RIP-Cre+" Vsx2-GFP
 sample.donor.id $ *
-sample.donor.life_stage $ adult "cell line" embryo organoid postpartum
-sample.donor.live_stage $ *
+sample.donor.life_stage $ adult "cell line" child embryo organoid postpartum
 sample.donor.medication $ *
 sample.donor.ncbi_taxon # 1 100000
-sample.donor.sex $ female male
-sample.donor.species $ "Homo sapiens" "House mouse" "Mus musculus"
+sample.donor.sex $ female male mixed
+sample.donor.species $ "Homo sapiens" "Mus musculus"
 sample.donor.strain $ "(C57BL/6 x DBA)F2" C57BL/6 "C57BL/6J (mother) x CAST/EiJ (father)" "CAST/EiJ (mother) x C57BL/6J (father)" "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ" CAST/EiJ_x_C57BL/6J ICR
 sample.donor.uuid $ ????????-????-????-????-????????????
 sample.ena_sample $ *
 sample.geo_sample $ *
 sample.id $ *
-sample.last_update_date $ 2013-07-29 2013-08-10 2015-12-07 2016-08-25 2016-09-26 2016-11-15 2017-02-06
-sample.long_label $ *
+sample.last_update_date $ 2???-??-??
+!sample.long_label $ *
 sample.ncbi_biosample $ *
 sample.passage_number # 0 10
 sample.protocol_types $ *
@@ -101,7 +100,7 @@ sample.short $ *
 !sample.uuid $ ????????-????-????-????-????????????
 !sample.short_label $ *
 sample.storage $ *
-sample.submission_date $ *
+sample.submission_date $ 2???-??-??
 sample.supplementary_files $ *
 sample.treatment.culture_type $ "cell line" "primary culture" tissue
 sample.treatment.enrichment $ *
