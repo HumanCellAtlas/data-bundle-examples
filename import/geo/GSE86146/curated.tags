@@ -43,6 +43,90 @@ sample.protocols "A modified Smart-seq2 protocol was applied for single-cell RNA
 sample.short_label polyA RNA
 project.uuid 3a0a8f77-b16d-4483-86a6-b10ad9f3c0b8
 
+	sample.donor.age 3
+
+		sample.donor.id F_5W_embryo1+2
+		sample.donor.sex female
+		sample.donor.uuid 0359e219-c6bf-4a4c-85b8-fff898f31200
+
+			sample.id F_5W_embryo1_and_2
+			assay.sra_experiment SRX2148088
+			assay.sra_run SRR4199308
+			sample.geo_sample GSM2306011
+			sample.last_update_date 2017-04-17
+			sample.ncbi_biosample SAMN05751663
+			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148088,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306011/suppl/GSM2306011_F_5W_embryo1_and_2_gene_expression.txt.gz
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid ed8d4b0d-e4d1-4a51-915e-19956ae53fde
+
+	sample.donor.age 4,11
+
+		sample.donor.sex mixed
+
+			sample.id M_4W_embryo1_and_F_11W_embryo1
+			assay.sra_experiment SRX2148100
+			assay.sra_run SRR4199320
+			sample.geo_sample GSM2306023
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751653
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306023/suppl/GSM2306023_M_4W_embryo1_and_F_11W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148100
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid 49eaf4cf-a8c5-49bc-b745-0f3aabd4070b
+
+	sample.donor.age 5
+
+		sample.donor.id F_7W_embryo1
+		sample.donor.sex female
+		sample.donor.uuid fb5e1463-600e-4f87-88b6-a551bd7361ee
+
+			sample.id F_7W_embryo1
+			assay.sra_experiment SRX2148089
+			assay.sra_run SRR4199309
+			sample.geo_sample GSM2306012
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751662
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306012/suppl/GSM2306012_F_7W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148089
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid 7f4afa66-093d-44a3-81ac-5b50fe328ce7
+
+	sample.donor.age 6
+
+		sample.donor.id F_8W_embryo1
+		sample.donor.sex female
+		sample.donor.uuid 80d17da8-3a81-496c-a377-55a82bd72425
+
+			sample.id F_8W_embryo1
+			assay.sra_experiment SRX2148090
+			assay.sra_run SRR4199310
+			sample.geo_sample GSM2306013
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751661
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306013/suppl/GSM2306013_F_8W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148090
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid aa44f073-c74f-4c29-9731-862b2312a989
+
+	sample.donor.age 7
+
+		sample.donor.id M_9W_embryo1
+		sample.donor.sex male
+		sample.donor.uuid 84737680-dff1-4e80-95f2-5bc7b3c9bbee
+
+			sample.id M_9W_embryo1
+			assay.sra_experiment SRX2148101
+			assay.sra_run SRR4199321
+			sample.geo_sample GSM2306024
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751671
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306024/suppl/GSM2306024_M_9W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148101
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid 61f6bd0a-095d-40ee-a2f9-e891aaa14e05
+
+
 	sample.donor.age 8
 
 		sample.donor.id F_10W_embryo1
@@ -89,6 +173,38 @@ project.uuid 3a0a8f77-b16d-4483-86a6-b10ad9f3c0b8
 			sample.submission_date 2016-09-08
 			sample.body_part.name primordial germ cells
 			sample.uuid 370dcdd7-219c-4f41-8d1b-99724632e59a
+
+	sample.donor.age 10
+
+		sample.donor.id F_12W_embryo1
+		sample.donor.sex female
+		sample.donor.uuid c821dd59-1ce6-40fa-89c5-6c80ab5ac9df
+
+			sample.id F_12W_embryo1
+			assay.sra_experiment SRX2148091
+			assay.sra_run SRR4199311
+			sample.geo_sample GSM2306014
+			sample.last_update_date 2017-04-17
+			sample.ncbi_biosample SAMN05751660
+			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148091,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306014/suppl/GSM2306014_F_12W_embryo1_gene_expression.txt.gz
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid b5d4a92f-dd69-46a9-8462-a1e55c0081d8
+
+		sample.donor.id M_12W_embryo1
+		sample.donor.sex male
+		sample.donor.uuid 9fc60a04-63a1-401e-862e-bc21241b57cb
+
+			sample.id M_12W_embryo1
+			assay.sra_experiment SRX2148104
+			assay.sra_run SRR4199324
+			sample.geo_sample GSM2306027
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751650
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306027/suppl/GSM2306027_M_12W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148104
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid 2ae06a17-b76b-4553-bdd0-0b40e20eab14
 
 	sample.donor.age 12
 
@@ -160,249 +276,6 @@ project.uuid 3a0a8f77-b16d-4483-86a6-b10ad9f3c0b8
 			sample.submission_date 2016-09-08
 			sample.body_part.name primordial germ cells
 			sample.uuid b765b9f1-0b36-4c35-86a3-db65934a6088
-
-	sample.donor.age 3
-
-		sample.donor.id F_5W_embryo1+2
-		sample.donor.sex female
-		sample.donor.uuid 0359e219-c6bf-4a4c-85b8-fff898f31200
-
-			sample.id F_5W_embryo1_and_2
-			assay.sra_experiment SRX2148088
-			assay.sra_run SRR4199308
-			sample.geo_sample GSM2306011
-			sample.last_update_date 2017-04-17
-			sample.ncbi_biosample SAMN05751663
-			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148088,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306011/suppl/GSM2306011_F_5W_embryo1_and_2_gene_expression.txt.gz
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid ed8d4b0d-e4d1-4a51-915e-19956ae53fde
-
-	sample.donor.age 5
-
-		sample.donor.id F_7W_embryo1
-		sample.donor.sex female
-		sample.donor.uuid fb5e1463-600e-4f87-88b6-a551bd7361ee
-
-			sample.id F_7W_embryo1
-			assay.sra_experiment SRX2148089
-			assay.sra_run SRR4199309
-			sample.geo_sample GSM2306012
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751662
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306012/suppl/GSM2306012_F_7W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148089
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid 7f4afa66-093d-44a3-81ac-5b50fe328ce7
-
-	sample.donor.age 6
-
-		sample.donor.id F_8W_embryo1
-		sample.donor.sex female
-		sample.donor.uuid 80d17da8-3a81-496c-a377-55a82bd72425
-
-			sample.id F_8W_embryo1
-			assay.sra_experiment SRX2148090
-			assay.sra_run SRR4199310
-			sample.geo_sample GSM2306013
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751661
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306013/suppl/GSM2306013_F_8W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148090
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid aa44f073-c74f-4c29-9731-862b2312a989
-
-	sample.donor.age 10
-
-		sample.donor.id F_12W_embryo1
-		sample.donor.sex female
-		sample.donor.uuid c821dd59-1ce6-40fa-89c5-6c80ab5ac9df
-
-			sample.id F_12W_embryo1
-			assay.sra_experiment SRX2148091
-			assay.sra_run SRR4199311
-			sample.geo_sample GSM2306014
-			sample.last_update_date 2017-04-17
-			sample.ncbi_biosample SAMN05751660
-			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148091,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306014/suppl/GSM2306014_F_12W_embryo1_gene_expression.txt.gz
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid b5d4a92f-dd69-46a9-8462-a1e55c0081d8
-
-		sample.donor.id M_12W_embryo1
-		sample.donor.sex male
-		sample.donor.uuid 9fc60a04-63a1-401e-862e-bc21241b57cb
-
-			sample.id M_12W_embryo1
-			assay.sra_experiment SRX2148104
-			assay.sra_run SRR4199324
-			sample.geo_sample GSM2306027
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751650
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306027/suppl/GSM2306027_M_12W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148104
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid 2ae06a17-b76b-4553-bdd0-0b40e20eab14
-
-	sample.donor.age 18
-
-		sample.donor.id F_20W_embryo1
-		sample.donor.sex female
-		sample.donor.uuid 25fe8c15-72e5-458d-ae06-4e7b2b8b9e98
-
-			sample.id F_20W_embryo1
-			assay.sra_experiment SRX2148093
-			assay.sra_run SRR4199313
-			sample.geo_sample GSM2306016
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751658
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306016/suppl/GSM2306016_F_20W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148093
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid 99d943de-a9d9-4954-9407-2625e57782fe
-
-		sample.donor.id F_20W_embryo2
-		sample.donor.sex female
-		sample.donor.uuid 1d0131e4-abc7-450f-9923-67fb82f0597f
-
-			sample.id F_20W_embryo2
-			assay.sra_experiment SRX2148094
-			assay.sra_run SRR4199314
-			sample.geo_sample GSM2306017
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751657
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306017/suppl/GSM2306017_F_20W_embryo2_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148094
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid 9ae9de5d-81c0-44c3-88c1-9e5ece0143b1
-
-		sample.donor.id M_20W_embryo1
-		sample.donor.sex male
-		sample.donor.uuid 2e232e09-7bd9-4146-9f3e-0ceb1b63ffb3
-
-			sample.id M_20W_embryo1
-			assay.sra_experiment SRX2148111
-			assay.sra_run SRR4199331
-			sample.geo_sample GSM2306034
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751643
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306034/suppl/GSM2306034_M_20W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148111
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid bdc3bf1d-73d0-480d-aff0-6ed67d6cd4c3
-
-	sample.donor.age 21
-
-		sample.donor.id F_23W_embryo1
-		sample.donor.sex female
-		sample.donor.uuid b1f6fd25-8fb2-4ecb-98de-9cac1a373407
-
-			sample.id F_23W_embryo1
-			assay.sra_experiment SRX2148095
-			assay.sra_run SRR4199315
-			sample.geo_sample GSM2306018
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751656
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306018/suppl/GSM2306018_F_23W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148095
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid c55eeaaf-cd90-49e4-8065-1df928caaf39
-
-		sample.donor.id F_23W_embryo2
-		sample.donor.sex female
-		sample.donor.uuid e59a6f06-6261-4a46-bb92-ce2e30475884
-
-			sample.id F_23W_embryo2
-			assay.sra_experiment SRX2148096
-			assay.sra_run SRR4199316
-			sample.geo_sample GSM2306019
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751655
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306019/suppl/GSM2306019_F_23W_embryo2_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148096
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid 2a9c1dfc-ac23-4e14-b67b-79c5ff4a0d54
-
-	sample.donor.age 22
-
-		sample.donor.id F_24W_embryo1
-		sample.donor.sex female
-		sample.donor.uuid 2f9b054d-6ed4-4593-a816-9f15ff52f225
-
-			sample.id F_24W_embryo1
-			assay.sra_experiment SRX2148097
-			assay.sra_run SRR4199317
-			sample.geo_sample GSM2306020
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751654
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306020/suppl/GSM2306020_F_24W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148097
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid 18e09778-9b10-4a4a-bf8a-6fbc417c90ac
-
-		sample.donor.id F_24W_embryo2
-		sample.donor.sex female
-		sample.donor.uuid 4e317b75-2aa4-4e97-af6d-cbb343e5bef0
-
-			sample.id F_24W_embryo2
-			assay.sra_experiment SRX2148098
-			assay.sra_run SRR4199318
-			sample.geo_sample GSM2306021
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751670
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306021/suppl/GSM2306021_F_24W_embryo2_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148098
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid 43c13a2c-0572-4d26-968d-3204e4e2a98f
-
-	sample.donor.age 24
-
-		sample.donor.id F_26W_embryo1
-		sample.donor.sex female
-		sample.donor.uuid f315eb0e-3d3d-4c38-adea-6464d3f94fdf
-
-			sample.id F_26W_embryo1
-			assay.sra_experiment SRX2148099
-			assay.sra_run SRR4199319
-			sample.geo_sample GSM2306022
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751672
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306022/suppl/GSM2306022_F_26W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148099
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid 5075e091-45a6-4eb1-a809-4089710d93ef
-
-	sample.donor.age 4,11
-
-		sample.donor.sex mixed
-
-			sample.id M_4W_embryo1_and_F_11W_embryo1
-			assay.sra_experiment SRX2148100
-			assay.sra_run SRR4199320
-			sample.geo_sample GSM2306023
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751653
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306023/suppl/GSM2306023_M_4W_embryo1_and_F_11W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148100
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid 49eaf4cf-a8c5-49bc-b745-0f3aabd4070b
-
-	sample.donor.age 7
-
-		sample.donor.id M_9W_embryo1
-		sample.donor.sex male
-		sample.donor.uuid 84737680-dff1-4e80-95f2-5bc7b3c9bbee
-
-			sample.id M_9W_embryo1
-			assay.sra_experiment SRX2148101
-			assay.sra_run SRR4199321
-			sample.geo_sample GSM2306024
-			sample.last_update_date 2017-03-31
-			sample.ncbi_biosample SAMN05751671
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306024/suppl/GSM2306024_M_9W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148101
-			sample.submission_date 2016-09-08
-			sample.body_part.name primordial germ cells
-			sample.uuid 61f6bd0a-095d-40ee-a2f9-e891aaa14e05
 
 	sample.donor.age 17
 
@@ -480,6 +353,53 @@ project.uuid 3a0a8f77-b16d-4483-86a6-b10ad9f3c0b8
 			sample.body_part.name primordial germ cells
 			sample.uuid 8e3ae20a-e78e-474a-96c4-78ebb7b9f055
 
+	sample.donor.age 18
+
+		sample.donor.id F_20W_embryo1
+		sample.donor.sex female
+		sample.donor.uuid 25fe8c15-72e5-458d-ae06-4e7b2b8b9e98
+
+			sample.id F_20W_embryo1
+			assay.sra_experiment SRX2148093
+			assay.sra_run SRR4199313
+			sample.geo_sample GSM2306016
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751658
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306016/suppl/GSM2306016_F_20W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148093
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid 99d943de-a9d9-4954-9407-2625e57782fe
+
+		sample.donor.id F_20W_embryo2
+		sample.donor.sex female
+		sample.donor.uuid 1d0131e4-abc7-450f-9923-67fb82f0597f
+
+			sample.id F_20W_embryo2
+			assay.sra_experiment SRX2148094
+			assay.sra_run SRR4199314
+			sample.geo_sample GSM2306017
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751657
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306017/suppl/GSM2306017_F_20W_embryo2_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148094
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid 9ae9de5d-81c0-44c3-88c1-9e5ece0143b1
+
+		sample.donor.id M_20W_embryo1
+		sample.donor.sex male
+		sample.donor.uuid 2e232e09-7bd9-4146-9f3e-0ceb1b63ffb3
+
+			sample.id M_20W_embryo1
+			assay.sra_experiment SRX2148111
+			assay.sra_run SRR4199331
+			sample.geo_sample GSM2306034
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751643
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306034/suppl/GSM2306034_M_20W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148111
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid bdc3bf1d-73d0-480d-aff0-6ed67d6cd4c3
+
 	sample.donor.age 19
 
 		sample.donor.id M_21W_embryo1
@@ -548,6 +468,70 @@ project.uuid 3a0a8f77-b16d-4483-86a6-b10ad9f3c0b8
 			sample.submission_date 2016-09-08
 			sample.body_part.name primordial germ cells
 			sample.uuid de3c186d-9c9a-4408-9b12-d7b48f227ce4
+
+	sample.donor.age 21
+
+		sample.donor.id F_23W_embryo1
+		sample.donor.sex female
+		sample.donor.uuid b1f6fd25-8fb2-4ecb-98de-9cac1a373407
+
+			sample.id F_23W_embryo1
+			assay.sra_experiment SRX2148095
+			assay.sra_run SRR4199315
+			sample.geo_sample GSM2306018
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751656
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306018/suppl/GSM2306018_F_23W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148095
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid c55eeaaf-cd90-49e4-8065-1df928caaf39
+
+		sample.donor.id F_23W_embryo2
+		sample.donor.sex female
+		sample.donor.uuid e59a6f06-6261-4a46-bb92-ce2e30475884
+
+			sample.id F_23W_embryo2
+			assay.sra_experiment SRX2148096
+			assay.sra_run SRR4199316
+			sample.geo_sample GSM2306019
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751655
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306019/suppl/GSM2306019_F_23W_embryo2_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148096
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid 2a9c1dfc-ac23-4e14-b67b-79c5ff4a0d54
+
+	sample.donor.age 22
+
+		sample.donor.id F_24W_embryo1
+		sample.donor.sex female
+		sample.donor.uuid 2f9b054d-6ed4-4593-a816-9f15ff52f225
+
+			sample.id F_24W_embryo1
+			assay.sra_experiment SRX2148097
+			assay.sra_run SRR4199317
+			sample.geo_sample GSM2306020
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751654
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306020/suppl/GSM2306020_F_24W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148097
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid 18e09778-9b10-4a4a-bf8a-6fbc417c90ac
+
+		sample.donor.id F_24W_embryo2
+		sample.donor.sex female
+		sample.donor.uuid 4e317b75-2aa4-4e97-af6d-cbb343e5bef0
+
+			sample.id F_24W_embryo2
+			assay.sra_experiment SRX2148098
+			assay.sra_run SRR4199318
+			sample.geo_sample GSM2306021
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751670
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306021/suppl/GSM2306021_F_24W_embryo2_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148098
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid 43c13a2c-0572-4d26-968d-3204e4e2a98f
 
 	sample.donor.age 23
 
@@ -653,4 +637,21 @@ project.uuid 3a0a8f77-b16d-4483-86a6-b10ad9f3c0b8
 			sample.submission_date 2016-09-08
 			sample.body_part.name primordial germ cells
 			sample.uuid c028659c-91f2-4baa-b140-dc628df57304
+
+	sample.donor.age 24
+
+		sample.donor.id F_26W_embryo1
+		sample.donor.sex female
+		sample.donor.uuid f315eb0e-3d3d-4c38-adea-6464d3f94fdf
+
+			sample.id F_26W_embryo1
+			assay.sra_experiment SRX2148099
+			assay.sra_run SRR4199319
+			sample.geo_sample GSM2306022
+			sample.last_update_date 2017-03-31
+			sample.ncbi_biosample SAMN05751672
+			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306022/suppl/GSM2306022_F_26W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148099
+			sample.submission_date 2016-09-08
+			sample.body_part.name primordial germ cells
+			sample.uuid 5075e091-45a6-4eb1-a809-4089710d93ef
 
