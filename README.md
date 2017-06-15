@@ -46,6 +46,11 @@ This is based on Jim's example, see his google doc [here](https://docs.google.co
 
 See https://support.10xgenomics.com/single-cell-gene-expression/datasets/pbmc8k
 
+## Laura/EBI
+
+Laura and others at EBI are working within the EBI framework, which will produce a JSON file via this link:
+ https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&format=JSON&limit=0&fields=study_accession,sample_accession,experiment_alias,experiment_title,fastq_ftp,fastq_md5,fastq_bytes,last_updated&query=run_accession=ERR1630017
+
 ## Import
 
 Larger scale projects imported in full from ArrayExpress, GEO, etc.  The json bundles for these are in import.tgz, and include
@@ -53,15 +58,6 @@ more than 30,000 files.  Do a tar -xf import.tgz to unpack, preferably in a ram-
 the tagStorm format curated.tags file in sub-sub directories of the import subdirectory.  
 
 See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html for a list of the projects involved.
-
-## Sources of Sample Metadata/Data
-
-Jim and Laura are both preparing sample data bundles along with other Green/Blue/Purple box team members.  Here are some sources of samples that should be consolidated here:
-
-* Google drive with sample data bundles writeup docs from Jim: https://drive.google.com/drive/u/1/folders/0BygSqPRIIdoSMVJVRWEyY0xWeXM
-* Data bundles from Jim, referenced in the previous doc: http://hgwdev-kent.cse.ucsc.edu/~kent/hca/array_express_examples/chosenSets/
-* Metadata fields from Jim: https://docs.google.com/spreadsheets/d/1LXIs2kM2MLTwKSpKo3Pt8-EFsyOEKwZ0QX4PlkbBucw/edit#gid=0
-* from Laura: https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&format=JSON&limit=0&fields=study_accession,sample_accession,experiment_alias,experiment_title,fastq_ftp,fastq_md5,fastq_bytes,last_updated&query=run_accession=ERR1630017
 
 ## TODO & Questions for the Group
 
@@ -78,7 +74,9 @@ Jim and Laura are both preparing sample data bundles along with other Green/Blue
     * I can grab a 10x v1, which I think would be good to have.  The V(D)J is sort of specialized.  I'd like to skip it for now. [from Jim]
 
 2. If you are going to have a type for fastq file to differentiate the file with the transcript then this generalizes to Drop-Seq and you should do that too, you could also do this to Smartseq2 (both transcript) if you want to keep the pattern standard [from Tim].
-    8 I've got it set up for both drop-seq and 10x_v2 to use type=index and type=reads  [from Jim]
+    * I've got it set up for both drop-seq and 10x_v2 to use type=index and type=reads  [from Jim]
+    * There's a new set from Beijing that puts the index on the second rather than the first read.  There's also sample sequenc on the second read now.  I added a new tag assay.seq.umi_barcode_read to help sort this out.  Also assay.single_cell.cell_barcode_read.
+
 3. Need to include the barcodes used for the 10X run (there are different library barcodes one can use) [from Tim].
     * Hmm.  There is and I.fastq.gz file (or is it I3.fastq.gz) file that has the observed sample library barcodes.
       I wonder if that's what you mean.  Otherwise I'm not sure where to find it. I could parse it out of their
@@ -93,8 +91,9 @@ Jim and Laura are both preparing sample data bundles along with other Green/Blue
 	* I've got both single and paired end examples now under smartseq2 [from Jim]
     * Drop-seq I think is missing the fastq1 file since it was converted from BAM, so this is lost?
         * Agreed, this would happen if the bam was post alignment, pre-annotation [from Tim].
-        * I have some files for Smartseq2 and Drop-seq, where can I put them for the get_data.sh to pull. Also have associated output files that were ran on pipelines from the input data. It would be great to wget these files not to the data folder but into thier respective bundles [from Tim].
 	* This is corrected now.  I couldn't find the fastqs in array express, but the experiment is also in GEO. [from Jim].
+        * I have some files for Smartseq2 and Drop-seq, where can I put them for the get_data.sh to pull. Also have associated output files that were ran on pipelines from the input data. It would be great to wget these files not to the data folder but into thier respective bundles [from Tim].
+	* We've moved to a system where there's a manifest.json that has a dir field that points to where the files live (It can include http:// https:// or ftp:// prefixes).  So, you should be able to put the data files anywhere web accessible.
 3. We have a cell.json and sample.json... do we need both? Laura and Tim think it's overlapping for sample and should just use sample.json.
     * Agreed, moved to an attic space for now [from Tim].
     * Cell I kept since it does contain unique info, but stuff unique to cell-at-a-time assays.  I kind of expect it'll get reworked
