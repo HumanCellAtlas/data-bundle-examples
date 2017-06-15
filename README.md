@@ -12,7 +12,7 @@ Since thousands of JSON files were produced in the import subdirectories, they h
 
 This command will extract the metadata JSON files associated with the `import` examples.  This will create thousands of files so please **do not** check them into Git:
 
-    tar zxf import.tgz
+    tar zxf import/import.tgz
 
 ## Get Data Files
 
