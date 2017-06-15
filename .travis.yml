@@ -3,7 +3,7 @@ node_js:
 - 6
 install:
 - npm install -g jshint
-- pip install awscli
+- sudo pip install awscli
 script:
 - git clean -df import
 - tar xfz import/import.tgz
