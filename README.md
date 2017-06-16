@@ -88,7 +88,7 @@ See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html for a list of the project
     * The barcode set is a part of the bcl2fastq command they have wrapped and called mkfastq, check the documentation on that command. [Tim]
 
 ### Smart-seq2
-    * Fluidigm C1 is more of a platform than an assay. Would probably be a good idea to record the protocol + Chip used for fluidigm, for example FluidigmC1(mRNA). [Tim]
+1. Fluidigm C1 is more of a platform than an assay. Would probably be a good idea to record the protocol + Chip used for fluidigm, for example FluidigmC1(mRNA). [Tim]
 
 ### General
 1. The analysis.json files need to be redone to show an upload not an alignment.
@@ -97,7 +97,7 @@ See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html for a list of the project
 2. We need to check the fastq files, I don't think they are correct since we expect multiple fastq files per data bundle.
     * Smartseq2 I think is correct since it's a single-end experiment
         * this is not standard, Smartseq2 is expected to be paired sequencing [from Tim]
-	* I've got both single and paired end examples now under smartseq2 [from Jim]
+        * I've got both single and paired end examples now under smartseq2 [from Jim]
     * Drop-seq I think is missing the fastq1 file since it was converted from BAM, so this is lost?
         * Agreed, this would happen if the bam was post alignment, pre-annotation [from Tim].
 	* This is corrected now.  I couldn't find the fastqs in array express, but the experiment is also in GEO. [from Jim].
