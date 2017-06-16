@@ -1,0 +1,40 @@
+
+sample.donor.species has 20 uses with 2 vals
+   13	Homo sapiens
+   7	Mus musculus
+
+assay.single_cell.method has 19 uses with 5 vals
+   5	FACS
+   5	mouth pipette
+   5	Fluidigm C1
+   2	drop-seq
+   2	10x_v2
+
+assay.seq.umi_barcode_offset has 4 uses with 3 vals
+   2	16
+   1	12
+   1	8
+assay.seq.umi_barcode_read has 1 uses with 1 vals
+   1	2
+assay.seq.umi_barcode_size has 4 uses with 2 vals
+   2	10
+   2	8
+
+assay.single_cell.cell_barcode_offset has 4 uses with 1 vals
+   4	0
+assay.single_cell.cell_barcode_read has 1 uses with 1 vals
+   1	2
+assay.single_cell.cell_barcode_size has 4 uses with 3 vals
+   2	16
+   1	12
+   1	8
+
+assay.seq.paired_ends has 17 uses with 3 vals
+   7	no
+   6	yes
+   4	index1_reads2
+
+assay.seq.paired_ends has 17 uses with 3 vals
+   7	no
+   6	yes
+   4	index1_reads2
