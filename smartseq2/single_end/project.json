@@ -7,16 +7,9 @@
         "term_source_name": "EFO"
     }, 
     "contact": {
-        "address": [
-            "Nobels v\u00e4g 3, 171 77, Stockholm, Sweden."
-        ], 
+        "address": "Nobels v\u00e4g 3, 171 77, Stockholm, Sweden.",
         "email": "Athanasia.Palasantza@ki.se", 
-        "institute": [
-            "Department of Cell and Molecular Biology (CMB)", 
-            "Karolinska Institutet", 
-            "Stockholm", 
-            "Sweden."
-        ], 
+        "institute": "Department of Cell and Molecular Biology (CMB), Karolinska Institutet, Stockholm, Sweden.", 
         "name": "Athanasia,,Palasantza", 
         "phone": "0046 8 5248 3986"
     }, 
