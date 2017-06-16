@@ -11,10 +11,10 @@ assay.seq.machine $ "Illumina HiSeq 2000" "Illumina HiSeq 2500" "Illumina HiSeq 
 !assay.seq.paired_ends $ index1_reads2 no yes
 assay.seq.prep $ "DNA Library Prep kit (Nextera XT; Illumina)" "Nextera XT" TruSeq "modified Nextera XT"
 assay.seq.umi_barcode_offset # 0 50
-assay.seq.umi_barcode_read $ 1 2 index
+assay.seq.umi_barcode_read $ read1 read2 index
 assay.seq.umi_barcode_size # 0 50
 assay.single_cell.cell_barcode_offset # 0 50
-assay.single_cell.cell_barcode_read $ 1 2 index
+assay.single_cell.cell_barcode_read $ read1 read2 index
 assay.single_cell.cell_barcode_size # 0 50
 !assay.single_cell.method $ 10x_v2 FACS "Fluidigm C1" drop-seq "mouth pipette"
 assay.sra_experiment $ *
@@ -67,7 +67,7 @@ sample.biosd_sample $ *
 sample.body_part.cell_count % 0 100
 !sample.body_part.name $ *
 sample.body_part.ontology $ *
-sample.body_part.organ $ blood bone brain eye liver pancreas
+!sample.body_part.organ $ blood bone brain embryo eye liver pancreas skin
 sample.body_part.source $ "\"Proto or NDRI\"" "Prodo Laboratories Inc."
 sample.cell_line $ AB2.2 H9 "iPSC 409B2"
 sample.characteristics_* $ *
@@ -84,7 +84,7 @@ sample.donor.life_stage $ adult "cell line" child embryo organoid postpartum
 sample.donor.medication $ *
 sample.donor.ncbi_taxon # 1 100000
 sample.donor.sex $ female male mixed
-sample.donor.species $ "Homo sapiens" "Mus musculus"
+!sample.donor.species $ "Homo sapiens" "Mus musculus"
 sample.donor.strain $ "(C57BL/6 x DBA)F2" C57BL/6 "C57BL/6J (mother) x CAST/EiJ (father)" "CAST/EiJ (mother) x C57BL/6J (father)" "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ" CAST/EiJ_x_C57BL/6J ICR
 sample.donor.uuid $ ????????-????-????-????-????????????
 sample.ena_sample $ *
