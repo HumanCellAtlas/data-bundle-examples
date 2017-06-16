@@ -8,6 +8,7 @@ sample.body_part.cell_count 1
 sample.cell_line AB2.2
 sample.storage fresh
 sample.body_part.name embryonic stem cell
+sample.body_part.organ embryo
 cell.type embyronic stem cell
 assay.seq.machine Illumina HiSeq 2000
 assay.seq.paired_ends yes

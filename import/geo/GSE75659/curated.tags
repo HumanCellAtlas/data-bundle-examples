@@ -29,7 +29,6 @@ sample.protocol_types nucleic acid library construction protocol
 	assay.rna.prep smart-seq2
 	assay.seq.molecule total RNA
 	assay.seq.paired_ends no
-	assay.single_cell.method FACS
 	sample.protocols "SmartSeq2 (Picelli S, Nat Methods. 2013, PubMed PMID: 24056875)"
 
 		sample.data_processing genome build:  hg19,Aligned reads with rna-star,Calculated expression values with rpkmforgenes.py (available at https://github.com/danielramskold/S3_species-specific_sequencing) with options -readcount -fulltranscript -mRNAnorm -rmnameoverlap -bothendceil and gene annotation for the UCSC genome browser Ensembl track,Supplementary_files_format_and_content: Tab-delimited text files report RPKMs and read counts.
@@ -7291,6 +7290,7 @@ sample.protocol_types nucleic acid library construction protocol
 
 					cell.type fibroblast
 					sample.body_part.name fibroblast
+					sample.body_part.organ skin
 					sample.treatment.culture_type primary culture
 					sample.body_part.cell_count 1
 					sample.long_label single.fibroblast
@@ -8547,6 +8547,7 @@ sample.protocol_types nucleic acid library construction protocol
 					assay.sra_run SRR2971603
 					cell.type fibroblast
 					sample.body_part.name fibroblast
+					sample.body_part.organ skin
 					sample.treatment.culture_type primary culture
 					sample.body_part.cell_count 15
 					sample.short_label 15 fibroblasts
@@ -8561,6 +8562,7 @@ sample.protocol_types nucleic acid library construction protocol
 
 					cell.type fibroblast
 					sample.body_part.name fibroblast
+					sample.body_part.organ skin
 					sample.body_part.cell_count 5
 					sample.treatment.culture_type primary culture
 					sample.short_label 5 fibroblasts
@@ -8587,6 +8589,7 @@ sample.protocol_types nucleic acid library construction protocol
 
 					cell.type fibroblast
 					sample.body_part.name fibroblast
+					sample.body_part.organ skin
 					sample.body_part.cell_count 0.5
 					sample.treatment.culture_type primary culture
 					sample.short_label split fibroblast
@@ -8885,6 +8888,7 @@ sample.protocol_types nucleic acid library construction protocol
 
 					cell.type fibroblast
 					sample.body_part.name fibroblast
+					sample.body_part.organ skin
 					sample.treatment.culture_type primary culture
 					sample.body_part.cell_count 1
 					sample.short_label E15 fibroblast
@@ -9200,10 +9204,11 @@ sample.protocol_types nucleic acid library construction protocol
 						sample.uuid a6ac81db-6924-45ce-8797-f246a15abbc5
 
 					sample.characteristics_clone.info non.clonal
-					sample.donor.age adult
+					sample.donor.life_stage adult
 
 						cell.type fibroblast
 						sample.body_part.name fibroblast
+						sample.body_part.organ skin
 						sample.body_part.cell_count 1
 						sample.short_label fibroblast
 						sample.long_label fibroblast with no clonal expansion
@@ -9950,6 +9955,7 @@ sample.protocol_types nucleic acid library construction protocol
 						assay.sra_run SRR2971752
 						cell.type fibroblast
 						sample.body_part.name fibroblast
+						sample.body_part.organ skin
 						sample.treatment.culture_type primary culture
 						sample.body_part.cell_count 0.5
 						sample.short_label split fibroblast
@@ -10265,6 +10271,7 @@ sample.protocol_types nucleic acid library construction protocol
 
 			cell.type fibroblast
 			sample.body_part.name fibroblast
+			sample.body_part.organ skin
 			sample.body_part.cell_count 1
 			sample.long_label mouse fibroblast
 			sample.short_label fibroblast
@@ -10323,10 +10330,13 @@ sample.protocol_types nucleic acid library construction protocol
 
 		sample.data_processing genome build:  mm9,Aligned reads with rna-star,Calculated expression values with rpkmforgenes.py (available at https://github.com/danielramskold/S3_species-specific_sequencing) with options -readcount -fulltranscript -mRNAnorm -rmnameoverlap -bothendceil and gene annotation for the UCSC genome browser Ensembl track,For the sample Bf37_mRNA_Fibroblast_Total_fraction we also used the  rpkmforgenes.py option -stranded,Genome_build: mm9,Supplementary_files_format_and_content: Tab-delimited text
 		sample.donor.sex female
+		sample.donor.species Mus musculus
 		sample.submission_date 2016-04-19
+		assay.single_cell.method FACS
 
 			cell.type fibroblast
 			sample.body_part.name fibroblast
+			sample.body_part.organ skin
 			sample.body_part.cell_count 1
 			sample.short_label fibroblast
 			sample.long_label mouse fibroblast
@@ -10988,19 +10998,19 @@ sample.protocol_types nucleic acid library construction protocol
 				sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2127nnn/GSM2127553/suppl/GSM2127553_hoechst.fibroblast.dia.82_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX171/SRX1714378
 				sample.uuid 331c43d5-b445-48e1-85f3-57b9505ad872
 
-			assay.sra_experiment SRX1714379
-			assay.sra_run SRR3403644
-			assay.rna.strand first
-			assay.rna.prep Illumina TruSeq
-			cell.type fibroblast
-			sample.body_part.name fibroblast
-			sample.short_label fibroblast
-			sample.long_label Fibroblast culture
-			sample.characteristics_cross C57xCAST
-			sample.geo_sample GSM2127554
-			sample.id Bf37_mRNA_Fibroblast_Total_fraction
-			sample.ncbi_biosample SAMN04870250
-			cell.id Stranded mRNA-sequencing of RNA from primary fibroblast culture
-			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2127nnn/GSM2127554/suppl/GSM2127554_Bf37_mRNA_Fibroblast_Total_fraction_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX171/SRX1714379
-			sample.uuid 284903d0-8412-409d-b549-da31f4bdd0ed
+			#assay.sra_experiment SRX1714379
+			#assay.sra_run SRR3403644
+			#assay.rna.strand first
+			#assay.rna.prep Illumina TruSeq
+			#cell.type fibroblast
+			#sample.body_part.name fibroblast
+			#sample.short_label fibroblast
+			#sample.long_label Fibroblast culture
+			#sample.characteristics_cross C57xCAST
+			#sample.geo_sample GSM2127554
+			#sample.id Bf37_mRNA_Fibroblast_Total_fraction
+			#sample.ncbi_biosample SAMN04870250
+			#cell.id Stranded mRNA-sequencing of RNA from primary fibroblast culture
+			#sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2127nnn/GSM2127554/suppl/GSM2127554_Bf37_mRNA_Fibroblast_Total_fraction_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX171/SRX1714379
+			#sample.uuid 284903d0-8412-409d-b549-da31f4bdd0ed
 

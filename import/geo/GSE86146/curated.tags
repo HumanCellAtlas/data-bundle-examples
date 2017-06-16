@@ -38,6 +38,7 @@ sample.donor.age_unit week
 sample.donor.life_stage embryo
 sample.donor.ncbi_taxon 9606
 sample.donor.species Homo sapiens
+sample.body_part.organ embryo
 sample.protocol_types nucleic acid library construction protocol
 sample.protocols "A modified Smart-seq2 protocol was applied for single-cell RNA-seq. Briefly, after MACS and FACS purification, a single PGC or gonadal somatic cell was picked into the lysis buffer by mouth pippete. The reverse transcription reaction was performed with 24 oligo (dT) primer anchored with the 8 bp cell specific barcode, and also with 8 bp unique molecular identifiers (UMIs)."
 project.uuid 3a0a8f77-b16d-4483-86a6-b10ad9f3c0b8
