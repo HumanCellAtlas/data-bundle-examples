@@ -7,6 +7,7 @@ install:
 script:
 - git clean -df import
 - tar xfz import/import.tgz
+- find import -name "bundle[0-9]*" > import/bundle_list
 - time aws s3 sync --delete --only-show-errors import s3://hca-dss-test-src/data-bundle-examples/import
 - find -name '*.json' | xargs jshint
 env:
