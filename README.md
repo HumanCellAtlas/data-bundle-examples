@@ -1,4 +1,4 @@
-# data-bundle-examples
+# data-bundle-examples [![Build Status](https://travis-ci.org/HumanCellAtlas/data-bundle-examples.svg?branch=master)](https://travis-ci.org/HumanCellAtlas/data-bundle-examples)
 
 ## About
 
