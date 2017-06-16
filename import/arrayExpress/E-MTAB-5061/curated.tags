@@ -9,8 +9,6 @@ assay.rna.prep smart-seq2
 assay.rna.spike_in ERCC
 assay.rna.spike_in_dilution 40000
 assay.single_cell.method FACS
-assay.single_cell.cell_barcode_size 0
-assay.seq.umi_barcode_size 0
 assay.rna.primer random
 assay.rna.strand both
 assay.seq.machine Illumina HiSeq 2000
