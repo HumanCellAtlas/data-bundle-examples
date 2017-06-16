@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "dir" : "http://hgwdev.soe.ucsc.edu/~kent/hca/geo_examples/GSE75140/bundles/bundle509/",
+    "dir" : "http://hgwdev.soe.ucsc.edu/~kent/hca/big_data_files",
     "files": [
         {
             "format": ".fastq.gz", 
