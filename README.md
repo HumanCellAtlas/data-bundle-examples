@@ -68,27 +68,36 @@ See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html for a list of the project
      * I'm not quite sure what you mean by this. [from Jim]
 3. Need to add lane information to this like you have in 10X [from Tim].
      * OK. Everything has lanes now. [from Jim]
+     * Thanks, resolved [Tim]
 
 ### 10X
 1. This is documented as an example of v2 chemistry, do we want v1 and V(D)J? If so are you going to grab the data or do we want to simulate from this data set [from Tim]?
     * I can grab a 10x v1, which I think would be good to have.  The V(D)J is sort of specialized.  I'd like to skip it for now. [from Jim]
+      * Agreed [Tim]
+    * There are files that are R1 that are type index, this may be misleading given there are sample indices in the I file, maybe call it barcodes (applies to other assays as well)? [Tim]
 
 2. If you are going to have a type for fastq file to differentiate the file with the transcript then this generalizes to Drop-Seq and you should do that too, you could also do this to Smartseq2 (both transcript) if you want to keep the pattern standard [from Tim].
     * I've got it set up for both drop-seq and 10x_v2 to use type=index and type=reads  [from Jim]
     * There's a new set from Beijing that puts the index on the second rather than the first read.  There's also sample sequenc on the second read now.  I added a new tag assay.seq.umi_barcode_read to help sort this out.  Also assay.single_cell.cell_barcode_read.
+    * This is not standard and I am not sure can be called Drop-seq (unless thier documentation is some how messed up). We need to understand how much variation we will allow in the assays and still allow the assay to be called a standard assay. [Tim]
 
 3. Need to include the barcodes used for the 10X run (there are different library barcodes one can use) [from Tim].
     * Hmm.  There is and I.fastq.gz file (or is it I3.fastq.gz) file that has the observed sample library barcodes.
       I wonder if that's what you mean.  Otherwise I'm not sure where to find it. I could parse it out of their
       matrix I suppose, but maybe it's somewhere pre-alignment. [from Jim]
+    * The barcode set is a part of the bcl2fastq command they have wrapped and called mkfastq, check the documentation on that command. [Tim]
+
+### Smart-seq2
+1. Fluidigm C1 is more of a platform than an assay. Would probably be a good idea to record the protocol + Chip used for fluidigm, for example FluidigmC1(mRNA). [Tim]
 
 ### General
 1. The analysis.json files need to be redone to show an upload not an alignment.
     * What do you mean by this? Analysis.json (now provenance.json) are generated after a green run not a purple upload [from Tim].
+    * It seems it was changed to manifest.json (which I like as a file). Resolved [Tim]
 2. We need to check the fastq files, I don't think they are correct since we expect multiple fastq files per data bundle.
     * Smartseq2 I think is correct since it's a single-end experiment
         * this is not standard, Smartseq2 is expected to be paired sequencing [from Tim]
-	* I've got both single and paired end examples now under smartseq2 [from Jim]
+        * I've got both single and paired end examples now under smartseq2 [from Jim]
     * Drop-seq I think is missing the fastq1 file since it was converted from BAM, so this is lost?
         * Agreed, this would happen if the bam was post alignment, pre-annotation [from Tim].
 	* This is corrected now.  I couldn't find the fastqs in array express, but the experiment is also in GEO. [from Jim].
@@ -107,6 +116,8 @@ See http://hgwdev.soe.ucsc.edu/~kent/hca/projects.html for a list of the project
     * At the moment I'm making them all fastq.gz.  I'm converting the .sra format to this for GEO accessions.  The 10x examples were tar'd
       fastq.gzs and I untarred them.  For ArrayExpress so far they have had .fastq.gz already available from URL, so no conversion there.
       I hear they are wanting to convert to CRAM.  The one I saw with CRAM for alignments did also have .fastq.gz though. [from Jim]
+      We should talk more about this but I will use the fastq.gz assumption as well. [Tim]
 7. Do we want to store the expression matrices in a format more usable for sparse data [from Tim]?
     * I am inclinded to say yes [Tim].
     * The 10x have a hca5 based format I'd sort of like to stay away from. [form Jim]
+    * What do you not like about the format?
