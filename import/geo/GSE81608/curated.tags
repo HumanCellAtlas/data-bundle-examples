@@ -26,7 +26,7 @@ project.sra_project SRP075377
 project.submission_date 2016-05-18
 project.summary "Pancreatic islet cells are critical for maintaining normal blood glucose levels and their malfunction underlies diabetes development and progression. We used single-cell RNA sequencing to determine the transcriptomes of 1,492 human pancreatic α-, β-, δ- and PP cells from non-diabetic and type 2 diabetes organ donors. We identified cell type specific genes and pathways as well as 245 genes with disturbed expression in type 2 diabetes. Importantly, 92% of the genes have not previously been associated with islet cell function or growth. Comparison of gene profiles in mouse and human α- and β-cells revealed species-specific expression. All data are available for online browsing and download and will hopefully serve as a resource for the islet research community."
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81608/suppl/GSE81608_human_islets_rpkm.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP075/SRP075377
-sample.body_part.name Pancreatic islets
+sample.body_part.name pancreatic islets
 sample.body_part.organ pancreas
 sample.data_processing Illumina Casava 1.8.2 software used for basecalling.,Reads were decoded based on their barcodes. Read quality was evaluated using FastQC.,Reads were mapped to the reference genome (human: GRCh37) using CLC bio Genomics Workbench Version 7.0 (CLC Bio) allowing one mismatch.,Genome_build: hg19,Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each sample
 sample.donor.ncbi_taxon 9606
