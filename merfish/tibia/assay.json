@@ -24,6 +24,8 @@
     "microscope" : "Some info on microscope used",
     "field_resolution" : ["40000", "30000", "100"],
     "fields_counts" : ["30", "40"],
-    "imaging_time" : "3600"
+    "fixation": "MegaClear 6.0",
+    "embedding": "Firmware hydrogel kit EZ-strip",
+    "exposure_time" : "0.001"
   }
 }
