@@ -1,6 +1,6 @@
 {
   "single_cell" : {
-    "method" : "will need to add something to the CV. cells are not separated so FACS, tenX, drop-seq are not relevant"
+    "method" : "mer-fish"
   },
   "files" : [
     {
@@ -20,13 +20,10 @@
       "name" : "codebook.csv"
     }
   ],
-  "seq" : {
-    "molecule" : "RNA",
-    "paired_ends" : "options are yes/no/index1_reads2 (for 10x and drop-seq)",
-    "prep": "?? - DNA sequencing library preparation kit",
-    "machine" : "?? -- should this say something about microscope"
-  },
-  "rna": {
-    "rna_primer": "?? - primer for cDNA synthesis from RNA"
+  "imaging" : {
+    "microscope" : "Some info on microscope used",
+    "field_resolution" : ["40000", "30000", "100"],
+    "fields_counts" : ["30", "40"],
+    "imaging_time" : "3600"
   }
 }
