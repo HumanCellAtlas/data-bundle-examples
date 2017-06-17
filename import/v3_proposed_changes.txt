@@ -1,0 +1,35 @@
+# Proposed changes that overall would
+#   1) Move external database ids all to an xref.json file to declutter things
+#   2) Move the cell.json object to a cell subobject inside of sample.json
+#   3) Consolodate the offset/size/read fields into a single barcode subobject.
+#
+assay.ena_experiment	xref.ena.experiment
+assay.ena_run	xref.ena.run
+assay.sra_experiment	xref.sra.experiment
+assay.sra_run	xref.sra.run
+project.array_express.accession	xref.array_express.accession	
+project.array_express.experiment_type	xref.array_express.experiment_type
+project.array_express.related_experiment	xref.array_express.related_experiment
+project.array_express.term_source_file	xref.array_express.term_source_file
+project.array_express.term_source_name	xref.array_express.term_source_name
+project.ddjb_trace_project	xref.ddjb_trace_project
+project.geo_doc_id	xref.geo.doc_id
+project.geo_parent_series xref.geo.parent
+project.geo_series	xref.geo.series
+project.ncbi_bioproject	xref.ncbi_bioproject
+project.sra_project	xref.sra.project
+sample.biosd_sample	xref.ebi_biosd_sample
+sample.donor.ncbi_taxon xref.ncbi_taxon
+sample.ena_sample	xref.ena.sample
+sample.geo_sample	xref.geo.sample
+sample.ncbi_biosample	xref.ncbi_biosample
+cell.cell_cycle	sample.cell.cell_cycle
+cell.id	sample.cell.id
+cell.type	sample.cell.type
+cell.well_quality	sample.cell.well_quality
+assay.seq.umi_barcode_offset	assay.seq.umi_barcode.offset
+assay.seq.umi_barcode_read	assay.seq.umi_barcode.read
+assay.seq.umi_barcode_size	assay.seq.umi_barcode.size
+assay.single_cell.cell_barcode_offset	assay.single_cell.cell_barcode.offset
+assay.single_cell.cell_barcode_read	assay.single_cell.cell_barcode.read
+assay.single_cell.cell_barcode_size	assay.single_cell.cell_barcode.size
