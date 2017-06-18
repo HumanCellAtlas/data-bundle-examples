@@ -1,4 +1,4 @@
-Downloaded soft file from NCBI web site to GSE44138_family.soft and convert to 
+Downloaded soft file from NCBI web site to GSE44183_family.soft and convert to 
 	geoToTagStorm *_family.soft geo.tags 
 Edit out data's exome
 
