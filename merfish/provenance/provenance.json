@@ -1,0 +1,93 @@
+{
+   "inputs" : [
+      {
+         "image_stack" : {
+            "checksum" : "d0f7d08f1980f7980f",
+            "format" : "tiff",
+            "file_path" : "bluebox://44bd7eb0-23a3-4898-b043-f7e982de2389z/v1/67bd7eb0-23a3-4898-b043-f7e982de281g/v1#fov_001_stack.tiff"
+         }
+      },
+      {
+         "nuclear_stain" : {
+            "file_path" : "bluebox://44bd7eb0-23a3-4898-b043-f7e982de2389z/v1/67bd7eb0-23a3-4898-b043-f7e982de281g/v1#dapi.tiff",
+            "format" : "tiff",
+            "checksum" : "d0f7d08f1980f7980f"
+         }
+      },
+      {
+         "membrane_stain" : {
+            "format" : "tiff",
+            "checksum" : "d0f7d08f1980f7980f",
+            "file_path" : "bluebox://44bd7eb0-23a3-4898-b043-f7e982de2389z/v1/67bd7eb0-23a3-4898-b043-f7e982de281g/v1#general_stain.tiff"
+         }
+      },
+      {
+         "codebook" : {
+            "file_path" : "bluebox://44bd7eb0-23a3-4898-b043-f7e982de2389z/v1/67bd7eb0-23a3-4898-b043-f7e982de281g/v1#codebook.csv",
+            "format" : "csv",
+            "checksum" : "d0f7d08f1980f7980f"
+         }
+      }
+   ],
+   "sample_json" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/06bd7eb0-23a3-4898-b043-f7e982de281g/v1#sample.json",
+   "metadata_schema" : "version_232",
+   "computational_method" : "https://www.dockstore.org:8443/api/ga4gh/v1/tools/quay.io%2Fhca%2Fdockstore-hca-uploader/",
+   "outputs" : [
+      {
+         "proc_stack" : {
+            "checksum" : "d0f7d08f7980f7910f",
+            "format" : "tif",
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/02bd7eb0-23a3-4898-b043-f7e982de281g/v1#proc_stack.tif"
+         }
+      },
+      {
+         "cells_geo" : {
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/03bd7eb0-23a3-4898-b043-f7e982de281g/v1#cells_geo.json",
+            "checksum" : "d0f7d08f7910f7980f",
+            "format" : "spatial_coordinates"
+         }
+      },
+      {
+         "spots_geo" : {
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#spots_geo.json",
+            "format" : "spatial_coordinates",
+            "checksum" : "d0f7d18f7980f7980f"
+         }
+      },
+      {
+         "encoder_table" : {
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#encoder_table",
+            "format" : "spatial_encoding",
+            "checksum" : "d0f7d18f7980f7980f"
+         }
+      },
+      {
+         "decoder_table" : {
+            "format" : "spatial_decoding",
+            "checksum" : "d0f7d18f7980f7980f",
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#decoder_table"
+         }
+      },
+      {
+         "metrics" : {
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#metrics.json",
+            "format" : "qc_metrics",
+            "checksum" : "d0f7d18f7980f7980f"
+         }
+      }
+   ],
+   "timings" : {
+      "step_align" : {
+         "start_utc" : "2017-05-18T08:44:23-5:00",
+         "stop_utc" : "2017-05-18T14:44:23-5:00"
+      },
+      "step_upload" : {
+         "start_utc" : "2017-05-18T03:44:23-5:00",
+         "stop_utc" : "2017-05-18T08:44:23-5:00"
+      }
+   },
+   "timestamp_stop_utc" : "2017-05-18T014:44:23-5:00",
+   "analysis_id" : 4342342,
+   "timestamp_start_utc" : "2017-05-18T03:44:23-5:00",
+   "log" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#fov_001_log.tar.gz"
+}

@@ -1,0 +1,15 @@
+{
+  "short_label" : "U2OS Cells",
+  "long_label" : "Osteosarcoma from the tibia of a 15 year old",
+  "uuid" : "5f16b743defc4b5c8717f023f9921069",
+  "body_part" : {
+    "name" : "tibia"
+  },
+  "donor" : {
+    "id": "U2",
+    "uuid": "a1ef5009045f42e88a0e3db1d1f2b050",
+    "life_stage" : "child",
+    "age": "15",
+    "species": "Homo sapiens"
+  }
+}

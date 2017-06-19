@@ -1,0 +1,72 @@
+This file describes the fields most important for analysis.  Most of them are in the assay
+object, but there is an important one currently in sample.  
+
+I'll describe each field starting with the number of times each value appears in the 17 public
+project collection I've been curating.  Note that some projects will use more than one species or
+method.  In general if a field is not relevant to a project it is omitted.
+
+sample.donor.species has 20 uses with 2 vals
+   13	Homo sapiens
+   7	Mus musculus
+This one I think is straightforward for this project.  The only controversy is whether it 
+should also appear as assay.species.
+
+assay.single_cell.method has 19 uses with 5 vals
+   5	FACS
+   5	mouth pipette
+   5	Fluidigm C1
+   2	drop-seq
+   2	10x_v2
+For drop-seq and 10x_v2, you can deduce most of the rest of the data from this field.
+However there are whole other worlds out there.  Their is large variety of paired end and barcoding
+techniques applied to FACS, Fluidigm C1, and yes, mouth pipette methods of single_cell isolation.
+The "mouth pipette" may seem weird and low tech, but there is one data set in particular
+that has over 2000 cells, and has both cell and UMI barcodes (8 bases each) using this
+technique. This data set came in 2017.
+
+assay.seq.umi_barcode_offset has 5 uses with 3 vals
+   2	16
+   2	12
+   1	8
+assay.seq.umi_barcode_read has 5 uses with 2 vals
+   4	index
+   1	read2
+assay.seq.umi_barcode_size has 5 uses with 2 vals
+   3	8
+   2	10
+You could also represent these as:
+   10x_2  offset=16, size=10, read=index (aka 1)
+   dropseq offset=12, size=8, read=index (aka 1)
+   Chinese offset=8, size=8, read=read2
+But I worry there is a lot more variation in the world than this one example from China
+
+assay.single_cell.cell_barcode_offset has 5 uses with 1 vals
+   5	0
+assay.single_cell.cell_barcode_read has 5 uses with 2 vals
+   4	index
+   1	read2
+assay.single_cell.cell_barcode_size has 5 uses with 3 vals
+   2	16
+   2	12
+   1	8
+You could also represent these as:
+   10x_2  offset=0, size=16, read=index (aka 1)
+   dropseq offset=0, size=12, read=index (aka 1)
+   Chinese offset=0, size=8, read=read2
+
+
+assay.seq.paired_ends has 17 uses with 3 vals
+   7	no
+   6	yes
+   4	index1_reads2
+There's an interdependence between what is in paired ends and assay.files[].type and
+the barcode.read fields.  In particular
+
+paired_ends = no
+   files[].type = reads
+paired_ends = yes
+   files[].type = read1 or read2
+paired_ends = index1_reads2
+   files[].type = index or reads
+
+

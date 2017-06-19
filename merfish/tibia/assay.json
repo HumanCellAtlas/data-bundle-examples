@@ -1,0 +1,32 @@
+{
+  "single_cell" : {
+    "method" : "mer-fish"
+  },
+  "files" : [
+    {
+      "format" : "tiff",
+      "name" : "dapi.tiff"
+    },
+    {
+      "format" : "tiff",
+      "name" : "general_stain.tiff"
+    },
+    {
+      "format" : "tiff",
+      "name" : "fov_001_stack.tiff"
+    },
+    {
+      "format" : "csv",
+      "name" : "codebook.csv"
+    }
+  ],
+  "imaging" : {
+    "microscope" : "Some info on microscope used",
+    "fields_counts" : ["40", "40"],
+    "field_resolution" : ["6000", "6000", "100"],
+    "field_microns" : [60, 60, 10],
+    "fixation": "MegaClear 6.0",
+    "embedding": "Firmware hydrogel kit EZ-strip",
+    "exposure_time" : "0.001"
+  }
+}

@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-MTAB-2805
+MAGE-TAB Version	1.1																																			
+Investigation Title	Gene expression pattern of single mES cells during cell cycle stages																																			
+Comment[Submitted Name]	Gene expression pattern of single mES cells during cell cycle stages
+Experiment Description	In this study, we aimed to study the gene expression patterns at single cell level across the different cell cycle stages in mESC. We performed single cell RNA-Seq experiment on mESC that were stained with Hoechst 33342 and Flow cytometry sorted for G1, S and G2M stages of cell cycle. Single cell RNA-Seq was performed using Fluidigm C1 system and libraries were generated using Nextera XT (Illumina) kit.																																			
+Experimental Design	cell type comparison design	in_vitro_design	co-expression_design																																	
+Comment[AEExperimentType]	RNA-seq of coding RNA from single cells																																			
+Experimental Factor Name	cell cycle stage																																			
+Experimental Factor Type	cell cycle stage																																			
+Quality Control Type	biological replicate																																			
+Quality Control Term Source REF	EFO																																			
+Public Release Date	2014-12-29																																			
+Person Last Name	Natarajan																																			
+Person First Name	Kedar																																			
+Person Mid Initials	N																																			
+Person Email	kedarnat@ebi.ac.uk																																			
+Person Phone																																				
+Person Address																																				
+Person Affiliation	EMBL-EBI, Wellcome Trust Genome Campus, Cambridge																																			
+Person Roles	submitter																																			
+PubMed ID																																				
+Publication Author List	Natarajan, K																																			
+Publication Title																																				
+Publication Status																																				
+Comment[AdditionalFile:txt]	ERCC_Sequences.txt																																			
+Protocol Name	P-MTAB-40666	P-MTAB-40667	P-MTAB-40668	P-MTAB-40669	P-MTAB-40670	P-MTAB-40671	P-MTAB-40672	P-MTAB-42731
+Protocol Type	growth protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid library construction protocol	nucleic acid sequencing protocol	high throughput sequence alignment protocol	normalization data transformation protocol	sample collection protocol																												
+Protocol Description	mESC were grown in standard 2i media. The media composition was N2B27 basal media (NDiff 227, StemCells), 100 U/ml recombinant human leukemia inhibitory factor (Millipore), 1M PD0325901 (Stemgent), 3M CHIR99021 (Stemgent).	For sorting of cell cycle fractions (G1, S and G2M), cells were trypisinized and stained with Hoechst 33342 (5_M) for 30min at 37C. Cells were sorted based on Hoechst staining for G1, S and G2M stages of cell cycle.	For each cell cycle fraction, 3000 cells were loaded onto a 10-17 micron Fluidigm C1 Single-Cell Auto Prep IFC and cell capture was performed as per manufacturers protocol. Single cell capture, lysis, Reverse transcription and cDNA amplification are performed using the SMARTer cDNA synthesis kit (Clonetech) and Advantage2PCR kit (Clonetech) with 1:100 ratio of spike in (Ambion), within the IFC inside the C1-Autoprep system as per manufacturers protocol.	Harvested cDNA from single cells after C1-Autoprep system run were used to make single cell libraries using Nextera XT DNA sample preparation kit (Illumina) utilising 96 dual barcoded indices. Library poolup was performed using AMPure XP beads (Agencourt Biosciences) and single cell libraries were sent for paired end sequencing at the Wellcome Trust Sequencing facility	Single cell libraries were multiplexed and sequenced across 4 lanes of HiSeq 2000 (Illumina) using 100bp paired-end sequencing. 	As per Wellcome Trust Sequencing pipeline guidelines	Mapping for each single cell dataset was done using GSNAP/GMAP (released on 2014-01-21) to a custom mouse genome (mm10; Ensembl GRCm38.p1) including ERCC sequences. Mapped reads were counted using HTSeq (0.6.1)	Sorted cells corresponding to cycle fractions (G1, S and G2M) were collected and loaded on the 10-17 micron Fluidigm C1 Single-Cell Auto Prep IFC.																												
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO		EFO																												
+Protocol Hardware					Illumina HiSeq 2000																															
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo	http://www.ebi.ac.uk/arrayexpress																																		
+Comment[SecondaryAccession]	ERP006670																																			
+Comment[SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR580012-ERR580299																																			
+SDRF File	E-MTAB-2805.sdrf.txt
