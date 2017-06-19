@@ -1,5 +1,5 @@
-assay.ena_experiment $ *
-assay.ena_run $ *
+assay.ena_experiment $ ERX*
+assay.ena_run $ ERR*
 assay.files $ *
 assay.rna.prep $ *
 assay.rna.primer $ poly-dt random
@@ -68,7 +68,7 @@ sample.body_part.cell_count % 0 100
 !sample.body_part.name $ *
 sample.body_part.ontology $ *
 !sample.body_part.organ $ blood bone brain embryo eye liver pancreas skin
-sample.body_part.source $ "\"Proto or NDRI\"" "Prodo Laboratories Inc."
+sample.body_part.source $ "Proto or NDRI" "Prodo Laboratories Inc."
 sample.cell_line $ AB2.2 H9 "iPSC 409B2"
 sample.characteristics_* $ *
 sample.data_processing $ *
@@ -87,8 +87,8 @@ sample.donor.sex $ female male mixed
 !sample.donor.species $ "Homo sapiens" "Mus musculus"
 sample.donor.strain $ "(C57BL/6 x DBA)F2" C57BL/6 "C57BL/6J (mother) x CAST/EiJ (father)" "CAST/EiJ (mother) x C57BL/6J (father)" "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ" CAST/EiJ_x_C57BL/6J ICR
 sample.donor.uuid $ ????????-????-????-????-????????????
-sample.ena_sample $ *
-sample.geo_sample $ *
+sample.ena_sample $ ERS*
+sample.geo_sample $ GSM*
 sample.id $ *
 sample.last_update_date $ 2???-??-??
 !sample.long_label $ *
