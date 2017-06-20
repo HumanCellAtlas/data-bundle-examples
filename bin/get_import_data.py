@@ -33,7 +33,7 @@ class GetImportData:
         parser = argparse.ArgumentParser(description='Downloads data files for the various bundles.')
         parser.add_argument('--input-dir', required=True)
         parser.add_argument('--output-s3-dir', required=True)
-        parser.add_argument('--test', default=True, action='store_true')
+        parser.add_argument('--test', default=True, action='store_true', default=False)
 
         # get args
         args = parser.parse_args()
@@ -41,9 +41,13 @@ class GetImportData:
         self.output_s3_dir = args.output_s3_dir
         self.conn = boto.connect_s3()
         self.test = args.test
+        # tracking the number of files that are missing from S3
+        self.missing_files = 0
 
         # run
         self.run()
+
+
 
     def run(self):
         # walk directory structure, parse JSONs, put in single json, write ES index file
