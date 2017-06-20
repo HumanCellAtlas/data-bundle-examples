@@ -5,7 +5,7 @@
     broconno@ucsc.edu
     This module first crawsl the filesystem looking for manifest.json files, parses
     them, finds data to download, and downloads them.
-    Example: python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples/import
+    Example: python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples --test
     Tested with Python 3.6.0
 """
 
@@ -31,9 +31,9 @@ from subprocess import Popen, PIPE
 class GetImportData:
     def __init__(self):
         parser = argparse.ArgumentParser(description='Downloads data files for the various bundles.')
-        parser.add_argument('--input-dir', default='.', required=True)
-        parser.add_argument('--output-s3-dir', default='s3://hca-dss-test-src/data-bundle-examples/import/', required=True)
-        parser.add_argument('--test', default=True)
+        parser.add_argument('--input-dir', required=True)
+        parser.add_argument('--output-s3-dir', required=True)
+        parser.add_argument('--test', default=True, action='store_true')
 
         # get args
         args = parser.parse_args()
@@ -65,13 +65,14 @@ class GetImportData:
             ctx.check_hostname = False
             ctx.verify_mode = ssl.CERT_NONE
             try:
-                if (self.test):
-                    print("NOT DOWNLOADING DUE TO TEST: "+str(dir+"/"+name)+" TO: "+directory+"/"+name)
-                elif (self.source_newer_or_diff_size(str(dir+"/"+name), self.output_s3_dir+"/"+directory+"/"+name)):
+                if (self.source_newer_or_diff_size(str(dir+"/"+name), self.output_s3_dir+"/"+directory+"/"+name)):
                     print("DOWNLOADING: "+str(dir+"/"+name)+" TO: "+directory+"/"+name)
-                    urlretrieve(str(dir+"/"+name), directory+"/"+name)
-                    self.upload(directory+"/"+name)
-                    os.remove(directory+"/"+name)
+                    if (self.test):
+                        print("TESTING WON'T DOWNLOAD")
+                    else:
+                        urlretrieve(str(dir+"/"+name), directory+"/"+name)
+                        self.upload(directory+"/"+name)
+                        os.remove(directory+"/"+name)
                 else:
                     print("SKIPPING DOWNLOAD: "+str(dir+"/"+name)+" TO: "+directory+"/"+name+" FILE SIZES IDENTICAL")
             except Exception as error:
