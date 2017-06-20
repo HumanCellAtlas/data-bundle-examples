@@ -21,6 +21,7 @@ import ssl
 import dateutil.parser
 import ast
 import sys
+import boto
 from urllib.request import urlopen, urlretrieve
 #from urllib2 import urlopen, Request
 from subprocess import Popen, PIPE
@@ -71,6 +72,27 @@ class GetImportData:
 
     def upload(self, path):
         print("UPLOADING: "+path+" to "+self.output_s3_dir+"/"+path)
+
+    def source_newer_or_diff_size(self, web_source, s3_destination):
+        site = urlopen(web_source)
+        meta = site.info()
+        print (meta)
+        web_size = meta.get("Content-Length")
+        print ("Content-Length:", meta.get("Content-Length"))
+        conn = boto.connect_s3()
+        m = re.search('^s3://([^/]+)/(\S+)$', s3_destination)
+        s3_bucket = m.group(1)
+        s3_key = m.group(2)
+        print ("S3Bucket: "+s3_bucket+" S3Key: "+s3_key)
+        bk = conn.get_bucket(s3_bucket)
+        key = bk.lookup(s3_key)
+        if (key == None):
+            print ("S3 key doesn't exist")
+            return(True)
+        else:
+            print ("S3 Size: "+key.size)
+        s3_size = key.size
+        return(s3_size != web_size)
 
 # run the class
 if __name__ == '__main__':
