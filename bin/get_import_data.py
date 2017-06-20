@@ -5,6 +5,7 @@
     broconno@ucsc.edu
     This module first crawsl the filesystem looking for manifest.json files, parses
     them, finds data to download, and downloads them.
+    Example: python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples/import
     Tested with Python 3.6.0
 """
 
@@ -31,13 +32,15 @@ class GetImportData:
     def __init__(self):
         parser = argparse.ArgumentParser(description='Downloads data files for the various bundles.')
         parser.add_argument('--input-dir', default='.', required=True)
-        parser.add_argument('--output-s3-dir', default='s3://hca-dss-test-src/data-bundle-examples/', required=True)
+        parser.add_argument('--output-s3-dir', default='s3://hca-dss-test-src/data-bundle-examples/import/', required=True)
+        parser.add_argument('--test', default=True)
 
         # get args
         args = parser.parse_args()
         self.input_dir = args.input_dir
         self.output_s3_dir = args.output_s3_dir
         self.conn = boto.connect_s3()
+        self.test = args.test
 
         # run
         self.run()
@@ -62,11 +65,13 @@ class GetImportData:
             ctx.check_hostname = False
             ctx.verify_mode = ssl.CERT_NONE
             try:
-                if (self.source_newer_or_diff_size(str(dir+"/"+name), self.output_s3_dir+"/"+directory+"/"+name)):
+                if (self.test):
+                    print("NOT DOWNLOADING DUE TO TEST: "+str(dir+"/"+name)+" TO: "+directory+"/"+name)
+                elif (self.source_newer_or_diff_size(str(dir+"/"+name), self.output_s3_dir+"/"+directory+"/"+name)):
                     print("DOWNLOADING: "+str(dir+"/"+name)+" TO: "+directory+"/"+name)
                     urlretrieve(str(dir+"/"+name), directory+"/"+name)
                     self.upload(directory+"/"+name)
-                    # TODO: delete file here
+                    os.remove(directory+"/"+name)
                 else:
                     print("SKIPPING DOWNLOAD: "+str(dir+"/"+name)+" TO: "+directory+"/"+name+" FILE SIZES IDENTICAL")
             except Exception as error:
@@ -78,7 +83,9 @@ class GetImportData:
         print("UPLOADING: "+path+" to "+self.output_s3_dir+"/"+path)
         (bucket, key) = self.parse_bucket_key(self.output_s3_dir+"/"+path)
         file = open(self.output_s3_dir+"/"+path, 'r+')
-        if (self.upload_to_s3(file, bucket, key)):
+        if (self.test):
+            print("TESTING WON'T UPLOAD")
+        elif (self.upload_to_s3(file, bucket, key)):
             print("FINISHED!")
         else:
             print("FAILED TO UPLOAD")
