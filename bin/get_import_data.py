@@ -33,7 +33,7 @@ class GetImportData:
         parser = argparse.ArgumentParser(description='Downloads data files for the various bundles.')
         parser.add_argument('--input-dir', required=True)
         parser.add_argument('--output-s3-dir', required=True)
-        parser.add_argument('--test', default=True, action='store_true', default=False)
+        parser.add_argument('--test', action='store_true', default=False)
 
         # get args
         args = parser.parse_args()
