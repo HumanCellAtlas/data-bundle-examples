@@ -4687,7 +4687,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 	sample.short_label pancreas islet diab I
 	sample.donor.uuid b859ce95-dbdd-46b3-81a8-e11510bdcd75
 
-		cell.type ductal
+		cell.type duct cell
 
 			assay.sra_experiment SRX1832584
 			assay.sra_run SRR3650889

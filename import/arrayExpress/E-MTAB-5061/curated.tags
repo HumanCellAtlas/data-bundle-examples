@@ -138,7 +138,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630020
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1630020/ERR1630020.fastq.gz
 		assay.submitted_file_names AZ_A5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437028
 		sample.ena_sample ERS1348477
@@ -399,7 +399,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630042
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1630042/ERR1630042.fastq.gz
 		assay.submitted_file_names AZ_C3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437050
 		sample.ena_sample ERS1348499
@@ -469,7 +469,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630048
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1630048/ERR1630048.fastq.gz
 		assay.submitted_file_names AZ_C9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437056
 		sample.ena_sample ERS1348505
@@ -893,7 +893,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630084
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1630084/ERR1630084.fastq.gz
 		assay.submitted_file_names AZ_F9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437092
 		sample.ena_sample ERS1348541
@@ -1778,7 +1778,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630159
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1630159/ERR1630159.fastq.gz
 		assay.submitted_file_names HP1502401_C12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437167
 		sample.ena_sample ERS1348616
@@ -2115,7 +2115,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630188
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1630188/ERR1630188.fastq.gz
 		assay.submitted_file_names HP1502401_D18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437196
 		sample.ena_sample ERS1348645
@@ -2221,7 +2221,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630197
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1630197/ERR1630197.fastq.gz
 		assay.submitted_file_names HP1502401_D4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437205
 		sample.ena_sample ERS1348654
@@ -3005,7 +3005,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630264
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1630264/ERR1630264.fastq.gz
 		assay.submitted_file_names HP1502401_G23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437272
 		sample.ena_sample ERS1348721
@@ -3266,7 +3266,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630286
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1630286/ERR1630286.fastq.gz
 		assay.submitted_file_names HP1502401_H21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437294
 		sample.ena_sample ERS1348743
@@ -3290,7 +3290,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630288
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1630288/ERR1630288.fastq.gz
 		assay.submitted_file_names HP1502401_H23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437296
 		sample.ena_sample ERS1348745
@@ -3514,7 +3514,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630307
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1630307/ERR1630307.fastq.gz
 		assay.submitted_file_names HP1502401_I2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437315
 		sample.ena_sample ERS1348764
@@ -3537,7 +3537,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630309
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1630309/ERR1630309.fastq.gz
 		assay.submitted_file_names HP1502401_I21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437317
 		sample.ena_sample ERS1348766
@@ -3738,7 +3738,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630326
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1630326/ERR1630326.fastq.gz
 		assay.submitted_file_names HP1502401_J15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437334
 		sample.ena_sample ERS1348783
@@ -3762,7 +3762,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630328
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1630328/ERR1630328.fastq.gz
 		assay.submitted_file_names HP1502401_J17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437336
 		sample.ena_sample ERS1348785
@@ -3786,7 +3786,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630330
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1630330/ERR1630330.fastq.gz
 		assay.submitted_file_names HP1502401_J19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437338
 		sample.ena_sample ERS1348787
@@ -3858,7 +3858,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630336
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1630336/ERR1630336.fastq.gz
 		assay.submitted_file_names HP1502401_J24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437344
 		sample.ena_sample ERS1348793
@@ -4334,7 +4334,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630376
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1630376/ERR1630376.fastq.gz
 		assay.submitted_file_names HP1502401_L18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437384
 		sample.ena_sample ERS1348833
@@ -4452,7 +4452,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630386
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1630386/ERR1630386.fastq.gz
 		assay.submitted_file_names HP1502401_L5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437394
 		sample.ena_sample ERS1348843
@@ -4582,7 +4582,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630397
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1630397/ERR1630397.fastq.gz
 		assay.submitted_file_names HP1502401_M16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437405
 		sample.ena_sample ERS1348854
@@ -4796,7 +4796,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630415
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1630415/ERR1630415.fastq.gz
 		assay.submitted_file_names HP1502401_N10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437423
 		sample.ena_sample ERS1348872
@@ -4866,7 +4866,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630421
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1630421/ERR1630421.fastq.gz
 		assay.submitted_file_names HP1502401_N16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437429
 		sample.ena_sample ERS1348878
@@ -4890,7 +4890,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630423
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1630423/ERR1630423.fastq.gz
 		assay.submitted_file_names HP1502401_N18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437431
 		sample.ena_sample ERS1348880
@@ -5077,7 +5077,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630439
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1630439/ERR1630439.fastq.gz
 		assay.submitted_file_names HP1502401_O10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437447
 		sample.ena_sample ERS1348896
@@ -5880,7 +5880,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630507
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1630507/ERR1630507.fastq.gz
 		assay.submitted_file_names HP1504101T2D_B8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437515
 		sample.ena_sample ERS1348964
@@ -7408,7 +7408,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630638
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1630638/ERR1630638.fastq.gz
 		assay.submitted_file_names HP1504101T2D_H18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437646
 		sample.ena_sample ERS1349095
@@ -9448,7 +9448,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630813
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1630813/ERR1630813.fastq.gz
 		assay.submitted_file_names HP1504101T2D_O24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437821
 		sample.ena_sample ERS1349270
@@ -10151,7 +10151,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630873
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1630873/ERR1630873.fastq.gz
 		assay.submitted_file_names HP1504901_B14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437881
 		sample.ena_sample ERS1349330
@@ -11158,7 +11158,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630960
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1630960/ERR1630960.fastq.gz
 		assay.submitted_file_names HP1504901_E6.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437968
 		sample.ena_sample ERS1349417
@@ -11464,7 +11464,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630986
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1630986/ERR1630986.fastq.gz
 		assay.submitted_file_names HP1504901_F8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437994
 		sample.ena_sample ERS1349443
@@ -11511,7 +11511,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630990
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1630990/ERR1630990.fastq.gz
 		assay.submitted_file_names HP1504901_G11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437998
 		sample.ena_sample ERS1349447
@@ -12058,7 +12058,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631037
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631037/ERR1631037.fastq.gz
 		assay.submitted_file_names HP1504901_I10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438045
 		sample.ena_sample ERS1349494
@@ -12544,7 +12544,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631079
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631079/ERR1631079.fastq.gz
 		assay.submitted_file_names HP1504901_J5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438087
 		sample.ena_sample ERS1349536
@@ -12775,7 +12775,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631099
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631099/ERR1631099.fastq.gz
 		assay.submitted_file_names HP1504901_K23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438107
 		sample.ena_sample ERS1349556
@@ -12957,7 +12957,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631115
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631115/ERR1631115.fastq.gz
 		assay.submitted_file_names HP1504901_L16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438123
 		sample.ena_sample ERS1349572
@@ -13532,7 +13532,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631165
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631165/ERR1631165.fastq.gz
 		assay.submitted_file_names HP1504901_N18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438173
 		sample.ena_sample ERS1349622
@@ -13731,7 +13731,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631182
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631182/ERR1631182.fastq.gz
 		assay.submitted_file_names HP1504901_O11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438190
 		sample.ena_sample ERS1349639
@@ -13765,7 +13765,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631185
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631185/ERR1631185.fastq.gz
 		assay.submitted_file_names HP1504901_O14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438193
 		sample.ena_sample ERS1349642
@@ -13915,7 +13915,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631198
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1631198/ERR1631198.fastq.gz
 		assay.submitted_file_names HP1504901_O4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438206
 		sample.ena_sample ERS1349655
@@ -14010,7 +14010,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631206
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631206/ERR1631206.fastq.gz
 		assay.submitted_file_names HP1504901_P11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438214
 		sample.ena_sample ERS1349663
@@ -14215,7 +14215,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631224
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631224/ERR1631224.fastq.gz
 		assay.submitted_file_names HP1504901_P7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438232
 		sample.ena_sample ERS1349681
@@ -14292,7 +14292,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631230
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1631230/ERR1631230.fastq.gz
 		assay.submitted_file_names HP1506401_A12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438238
 		sample.ena_sample ERS1349687
@@ -14362,7 +14362,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631236
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631236/ERR1631236.fastq.gz
 		assay.submitted_file_names HP1506401_A18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438244
 		sample.ena_sample ERS1349693
@@ -14396,7 +14396,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631239
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631239/ERR1631239.fastq.gz
 		assay.submitted_file_names HP1506401_A20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438247
 		sample.ena_sample ERS1349696
@@ -14465,7 +14465,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631245
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631245/ERR1631245.fastq.gz
 		assay.submitted_file_names HP1506401_A4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438253
 		sample.ena_sample ERS1349702
@@ -14629,7 +14629,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631259
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631259/ERR1631259.fastq.gz
 		assay.submitted_file_names HP1506401_B17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438267
 		sample.ena_sample ERS1349716
@@ -14709,7 +14709,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631266
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631266/ERR1631266.fastq.gz
 		assay.submitted_file_names HP1506401_B23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438274
 		sample.ena_sample ERS1349723
@@ -14721,7 +14721,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631267
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631267/ERR1631267.fastq.gz
 		assay.submitted_file_names HP1506401_B24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438275
 		sample.ena_sample ERS1349724
@@ -14894,7 +14894,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631282
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631282/ERR1631282.fastq.gz
 		assay.submitted_file_names HP1506401_C16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438290
 		sample.ena_sample ERS1349739
@@ -14906,7 +14906,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631283
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1631283/ERR1631283.fastq.gz
 		assay.submitted_file_names HP1506401_C17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438291
 		sample.ena_sample ERS1349740
@@ -15091,7 +15091,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631299
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631299/ERR1631299.fastq.gz
 		assay.submitted_file_names HP1506401_D1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438307
 		sample.ena_sample ERS1349756
@@ -15161,7 +15161,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631305
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631305/ERR1631305.fastq.gz
 		assay.submitted_file_names HP1506401_D15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438313
 		sample.ena_sample ERS1349762
@@ -15184,7 +15184,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631307
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631307/ERR1631307.fastq.gz
 		assay.submitted_file_names HP1506401_D17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438315
 		sample.ena_sample ERS1349764
@@ -15218,7 +15218,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631310
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1631310/ERR1631310.fastq.gz
 		assay.submitted_file_names HP1506401_D2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438318
 		sample.ena_sample ERS1349767
@@ -15331,7 +15331,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631320
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1631320/ERR1631320.fastq.gz
 		assay.submitted_file_names HP1506401_D7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438328
 		sample.ena_sample ERS1349777
@@ -15343,7 +15343,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631321
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1631321/ERR1631321.fastq.gz
 		assay.submitted_file_names HP1506401_D8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438329
 		sample.ena_sample ERS1349778
@@ -15459,7 +15459,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631331
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1631331/ERR1631331.fastq.gz
 		assay.submitted_file_names HP1506401_E17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438339
 		sample.ena_sample ERS1349788
@@ -15597,7 +15597,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631343
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1631343/ERR1631343.fastq.gz
 		assay.submitted_file_names HP1506401_E6.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438351
 		sample.ena_sample ERS1349800
@@ -15654,7 +15654,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631348
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1631348/ERR1631348.fastq.gz
 		assay.submitted_file_names HP1506401_F10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438356
 		sample.ena_sample ERS1349805
@@ -15760,7 +15760,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631357
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631357/ERR1631357.fastq.gz
 		assay.submitted_file_names HP1506401_F19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438365
 		sample.ena_sample ERS1349814
@@ -15795,7 +15795,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631360
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1631360/ERR1631360.fastq.gz
 		assay.submitted_file_names HP1506401_F21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438368
 		sample.ena_sample ERS1349817
@@ -15819,7 +15819,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631362
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631362/ERR1631362.fastq.gz
 		assay.submitted_file_names HP1506401_F23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438370
 		sample.ena_sample ERS1349819
@@ -16029,7 +16029,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631380
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1631380/ERR1631380.fastq.gz
 		assay.submitted_file_names HP1506401_G18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438388
 		sample.ena_sample ERS1349837
@@ -16041,7 +16041,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631381
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1631381/ERR1631381.fastq.gz
 		assay.submitted_file_names HP1506401_G19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438389
 		sample.ena_sample ERS1349838
@@ -16053,7 +16053,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631382
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631382/ERR1631382.fastq.gz
 		assay.submitted_file_names HP1506401_G2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438390
 		sample.ena_sample ERS1349839
@@ -16065,7 +16065,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631383
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1631383/ERR1631383.fastq.gz
 		assay.submitted_file_names HP1506401_G20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438391
 		sample.ena_sample ERS1349840
@@ -16077,7 +16077,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631384
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631384/ERR1631384.fastq.gz
 		assay.submitted_file_names HP1506401_G21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438392
 		sample.ena_sample ERS1349841
@@ -16100,7 +16100,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631386
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631386/ERR1631386.fastq.gz
 		assay.submitted_file_names HP1506401_G23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438394
 		sample.ena_sample ERS1349843
@@ -16335,7 +16335,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631406
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631406/ERR1631406.fastq.gz
 		assay.submitted_file_names HP1506401_H2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438414
 		sample.ena_sample ERS1349863
@@ -16381,7 +16381,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631410
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1631410/ERR1631410.fastq.gz
 		assay.submitted_file_names HP1506401_H23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438418
 		sample.ena_sample ERS1349867
@@ -16416,7 +16416,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631413
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1631413/ERR1631413.fastq.gz
 		assay.submitted_file_names HP1506401_H4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438421
 		sample.ena_sample ERS1349870
@@ -16439,7 +16439,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631415
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631415/ERR1631415.fastq.gz
 		assay.submitted_file_names HP1506401_H6.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438423
 		sample.ena_sample ERS1349872
@@ -16451,7 +16451,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631416
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631416/ERR1631416.fastq.gz
 		assay.submitted_file_names HP1506401_H7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438424
 		sample.ena_sample ERS1349873
@@ -16474,7 +16474,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631418
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1631418/ERR1631418.fastq.gz
 		assay.submitted_file_names HP1506401_H9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438426
 		sample.ena_sample ERS1349875
@@ -16639,7 +16639,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631432
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631432/ERR1631432.fastq.gz
 		assay.submitted_file_names HP1506401_I21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438440
 		sample.ena_sample ERS1349889
@@ -16674,7 +16674,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631435
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631435/ERR1631435.fastq.gz
 		assay.submitted_file_names HP1506401_I24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438443
 		sample.ena_sample ERS1349892
@@ -16697,7 +16697,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631437
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631437/ERR1631437.fastq.gz
 		assay.submitted_file_names HP1506401_I4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438445
 		sample.ena_sample ERS1349894
@@ -16905,7 +16905,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631455
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631455/ERR1631455.fastq.gz
 		assay.submitted_file_names HP1506401_J20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438463
 		sample.ena_sample ERS1349912
@@ -16917,7 +16917,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631456
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631456/ERR1631456.fastq.gz
 		assay.submitted_file_names HP1506401_J21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438464
 		sample.ena_sample ERS1349913
@@ -16929,7 +16929,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631457
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631457/ERR1631457.fastq.gz
 		assay.submitted_file_names HP1506401_J22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438465
 		sample.ena_sample ERS1349914
@@ -16989,7 +16989,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631462
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631462/ERR1631462.fastq.gz
 		assay.submitted_file_names HP1506401_J5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438470
 		sample.ena_sample ERS1349919
@@ -17013,7 +17013,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631464
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631464/ERR1631464.fastq.gz
 		assay.submitted_file_names HP1506401_J7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438472
 		sample.ena_sample ERS1349921
@@ -17025,7 +17025,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631465
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631465/ERR1631465.fastq.gz
 		assay.submitted_file_names HP1506401_J8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438473
 		sample.ena_sample ERS1349922
@@ -17130,7 +17130,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631474
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631474/ERR1631474.fastq.gz
 		assay.submitted_file_names HP1506401_K16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438482
 		sample.ena_sample ERS1349931
@@ -17142,7 +17142,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631475
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631475/ERR1631475.fastq.gz
 		assay.submitted_file_names HP1506401_K17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438483
 		sample.ena_sample ERS1349932
@@ -17166,7 +17166,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631477
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631477/ERR1631477.fastq.gz
 		assay.submitted_file_names HP1506401_K19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438485
 		sample.ena_sample ERS1349934
@@ -17259,7 +17259,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631485
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631485/ERR1631485.fastq.gz
 		assay.submitted_file_names HP1506401_K4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438493
 		sample.ena_sample ERS1349942
@@ -17327,7 +17327,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631491
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1631491/ERR1631491.fastq.gz
 		assay.submitted_file_names HP1506401_L1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438499
 		sample.ena_sample ERS1349948
@@ -17339,7 +17339,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631492
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631492/ERR1631492.fastq.gz
 		assay.submitted_file_names HP1506401_L10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438500
 		sample.ena_sample ERS1349949
@@ -17374,7 +17374,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631495
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631495/ERR1631495.fastq.gz
 		assay.submitted_file_names HP1506401_L13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438503
 		sample.ena_sample ERS1349952
@@ -17468,7 +17468,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631503
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1631503/ERR1631503.fastq.gz
 		assay.submitted_file_names HP1506401_L20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438511
 		sample.ena_sample ERS1349960
@@ -17480,7 +17480,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631504
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631504/ERR1631504.fastq.gz
 		assay.submitted_file_names HP1506401_L21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438512
 		sample.ena_sample ERS1349961
@@ -17539,7 +17539,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631509
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631509/ERR1631509.fastq.gz
 		assay.submitted_file_names HP1506401_L4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438517
 		sample.ena_sample ERS1349966
@@ -17632,7 +17632,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631517
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631517/ERR1631517.fastq.gz
 		assay.submitted_file_names HP1506401_M11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438525
 		sample.ena_sample ERS1349974
@@ -17689,7 +17689,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631522
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631522/ERR1631522.fastq.gz
 		assay.submitted_file_names HP1506401_M16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438530
 		sample.ena_sample ERS1349979
@@ -17759,7 +17759,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631528
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1631528/ERR1631528.fastq.gz
 		assay.submitted_file_names HP1506401_M21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438536
 		sample.ena_sample ERS1349985
@@ -17896,7 +17896,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631540
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1631540/ERR1631540.fastq.gz
 		assay.submitted_file_names HP1506401_N10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438548
 		sample.ena_sample ERS1349997
@@ -17965,7 +17965,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631546
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631546/ERR1631546.fastq.gz
 		assay.submitted_file_names HP1506401_N16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438554
 		sample.ena_sample ERS1350003
@@ -17977,7 +17977,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631547
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631547/ERR1631547.fastq.gz
 		assay.submitted_file_names HP1506401_N17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438555
 		sample.ena_sample ERS1350004
@@ -18288,7 +18288,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631574
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631574/ERR1631574.fastq.gz
 		assay.submitted_file_names HP1506401_O2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438582
 		sample.ena_sample ERS1350031
@@ -18370,7 +18370,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631581
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1631581/ERR1631581.fastq.gz
 		assay.submitted_file_names HP1506401_O4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438589
 		sample.ena_sample ERS1350038
@@ -18416,7 +18416,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631585
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631585/ERR1631585.fastq.gz
 		assay.submitted_file_names HP1506401_O8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438593
 		sample.ena_sample ERS1350042
@@ -18439,7 +18439,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631587
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631587/ERR1631587.fastq.gz
 		assay.submitted_file_names HP1506401_P1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438595
 		sample.ena_sample ERS1350044
@@ -18463,7 +18463,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631589
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631589/ERR1631589.fastq.gz
 		assay.submitted_file_names HP1506401_P11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438597
 		sample.ena_sample ERS1350046
@@ -18579,7 +18579,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631599
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631599/ERR1631599.fastq.gz
 		assay.submitted_file_names HP1506401_P21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438607
 		sample.ena_sample ERS1350056
@@ -18591,7 +18591,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631600
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1631600/ERR1631600.fastq.gz
 		assay.submitted_file_names HP1506401_P22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438608
 		sample.ena_sample ERS1350057
@@ -18638,7 +18638,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631604
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631604/ERR1631604.fastq.gz
 		assay.submitted_file_names HP1506401_P4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438612
 		sample.ena_sample ERS1350061
@@ -18650,7 +18650,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631605
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631605/ERR1631605.fastq.gz
 		assay.submitted_file_names HP1506401_P5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438613
 		sample.ena_sample ERS1350062
@@ -20165,7 +20165,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631736
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631736/ERR1631736.fastq.gz
 		assay.submitted_file_names HP1507101_F15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438744
 		sample.ena_sample ERS1350193
@@ -20387,7 +20387,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631755
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631755/ERR1631755.fastq.gz
 		assay.submitted_file_names HP1507101_G10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438763
 		sample.ena_sample ERS1350212
@@ -20735,7 +20735,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631785
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631785/ERR1631785.fastq.gz
 		assay.submitted_file_names HP1507101_H16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438793
 		sample.ena_sample ERS1350242
@@ -21280,7 +21280,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631832
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631832/ERR1631832.fastq.gz
 		assay.submitted_file_names HP1507101_J15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438840
 		sample.ena_sample ERS1350289
@@ -21571,7 +21571,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631857
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631857/ERR1631857.fastq.gz
 		assay.submitted_file_names HP1507101_K16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438865
 		sample.ena_sample ERS1350314
@@ -22566,7 +22566,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631944
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631944/ERR1631944.fastq.gz
 		assay.submitted_file_names HP1507101_N8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438952
 		sample.ena_sample ERS1350401
@@ -22625,7 +22625,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631949
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631949/ERR1631949.fastq.gz
 		assay.submitted_file_names HP1507101_O12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438957
 		sample.ena_sample ERS1350406
@@ -22867,7 +22867,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631970
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1631970/ERR1631970.fastq.gz
 		assay.submitted_file_names HP1507101_P1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438978
 		sample.ena_sample ERS1350427
@@ -23235,7 +23235,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632001
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632001/ERR1632001.fastq.gz
 		assay.submitted_file_names HP1508501T2D_A17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439009
 		sample.ena_sample ERS1350458
@@ -23383,7 +23383,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632014
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632014/ERR1632014.fastq.gz
 		assay.submitted_file_names HP1508501T2D_A7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439022
 		sample.ena_sample ERS1350471
@@ -23512,7 +23512,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632025
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632025/ERR1632025.fastq.gz
 		assay.submitted_file_names HP1508501T2D_B17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439033
 		sample.ena_sample ERS1350482
@@ -23524,7 +23524,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632026
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632026/ERR1632026.fastq.gz
 		assay.submitted_file_names HP1508501T2D_B18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439034
 		sample.ena_sample ERS1350483
@@ -23536,7 +23536,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632027
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632027/ERR1632027.fastq.gz
 		assay.submitted_file_names HP1508501T2D_B19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439035
 		sample.ena_sample ERS1350484
@@ -23722,7 +23722,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632043
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632043/ERR1632043.fastq.gz
 		assay.submitted_file_names HP1508501T2D_C11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439051
 		sample.ena_sample ERS1350500
@@ -23770,7 +23770,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632047
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632047/ERR1632047.fastq.gz
 		assay.submitted_file_names HP1508501T2D_C15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439055
 		sample.ena_sample ERS1350504
@@ -23806,7 +23806,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632050
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632050/ERR1632050.fastq.gz
 		assay.submitted_file_names HP1508501T2D_C18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439058
 		sample.ena_sample ERS1350507
@@ -23818,7 +23818,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632051
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632051/ERR1632051.fastq.gz
 		assay.submitted_file_names HP1508501T2D_C19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439059
 		sample.ena_sample ERS1350508
@@ -23830,7 +23830,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632052
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632052/ERR1632052.fastq.gz
 		assay.submitted_file_names HP1508501T2D_C2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439060
 		sample.ena_sample ERS1350509
@@ -24145,7 +24145,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632079
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632079/ERR1632079.fastq.gz
 		assay.submitted_file_names HP1508501T2D_D22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439087
 		sample.ena_sample ERS1350536
@@ -24285,7 +24285,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632091
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632091/ERR1632091.fastq.gz
 		assay.submitted_file_names HP1508501T2D_E11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439099
 		sample.ena_sample ERS1350548
@@ -24333,7 +24333,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632095
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632095/ERR1632095.fastq.gz
 		assay.submitted_file_names HP1508501T2D_E15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439103
 		sample.ena_sample ERS1350552
@@ -24345,7 +24345,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632096
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632096/ERR1632096.fastq.gz
 		assay.submitted_file_names HP1508501T2D_E16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439104
 		sample.ena_sample ERS1350553
@@ -24357,7 +24357,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632097
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632097/ERR1632097.fastq.gz
 		assay.submitted_file_names HP1508501T2D_E17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439105
 		sample.ena_sample ERS1350554
@@ -24510,7 +24510,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632110
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632110/ERR1632110.fastq.gz
 		assay.submitted_file_names HP1508501T2D_E7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439118
 		sample.ena_sample ERS1350567
@@ -24534,7 +24534,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632112
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632112/ERR1632112.fastq.gz
 		assay.submitted_file_names HP1508501T2D_E9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439120
 		sample.ena_sample ERS1350569
@@ -24581,7 +24581,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632116
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632116/ERR1632116.fastq.gz
 		assay.submitted_file_names HP1508501T2D_F12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439124
 		sample.ena_sample ERS1350573
@@ -24616,7 +24616,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632119
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632119/ERR1632119.fastq.gz
 		assay.submitted_file_names HP1508501T2D_F15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439127
 		sample.ena_sample ERS1350576
@@ -24758,7 +24758,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632131
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632131/ERR1632131.fastq.gz
 		assay.submitted_file_names HP1508501T2D_F4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439139
 		sample.ena_sample ERS1350588
@@ -24770,7 +24770,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632132
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632132/ERR1632132.fastq.gz
 		assay.submitted_file_names HP1508501T2D_F5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439140
 		sample.ena_sample ERS1350589
@@ -24805,7 +24805,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632135
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632135/ERR1632135.fastq.gz
 		assay.submitted_file_names HP1508501T2D_F8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439143
 		sample.ena_sample ERS1350592
@@ -24829,7 +24829,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632137
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632137/ERR1632137.fastq.gz
 		assay.submitted_file_names HP1508501T2D_G1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439145
 		sample.ena_sample ERS1350594
@@ -24877,7 +24877,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632141
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632141/ERR1632141.fastq.gz
 		assay.submitted_file_names HP1508501T2D_G13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439149
 		sample.ena_sample ERS1350598
@@ -24889,7 +24889,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632142
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632142/ERR1632142.fastq.gz
 		assay.submitted_file_names HP1508501T2D_G14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439150
 		sample.ena_sample ERS1350599
@@ -24961,7 +24961,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632148
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632148/ERR1632148.fastq.gz
 		assay.submitted_file_names HP1508501T2D_G2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439156
 		sample.ena_sample ERS1350605
@@ -25032,7 +25032,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632154
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632154/ERR1632154.fastq.gz
 		assay.submitted_file_names HP1508501T2D_G3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439162
 		sample.ena_sample ERS1350611
@@ -25161,7 +25161,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632165
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632165/ERR1632165.fastq.gz
 		assay.submitted_file_names HP1508501T2D_H13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439173
 		sample.ena_sample ERS1350622
@@ -25173,7 +25173,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632166
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632166/ERR1632166.fastq.gz
 		assay.submitted_file_names HP1508501T2D_H14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439174
 		sample.ena_sample ERS1350623
@@ -25209,7 +25209,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632169
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632169/ERR1632169.fastq.gz
 		assay.submitted_file_names HP1508501T2D_H17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439177
 		sample.ena_sample ERS1350626
@@ -25395,7 +25395,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632185
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632185/ERR1632185.fastq.gz
 		assay.submitted_file_names HP1508501T2D_I1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439193
 		sample.ena_sample ERS1350642
@@ -25419,7 +25419,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632187
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632187/ERR1632187.fastq.gz
 		assay.submitted_file_names HP1508501T2D_I11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439195
 		sample.ena_sample ERS1350644
@@ -25431,7 +25431,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632188
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632188/ERR1632188.fastq.gz
 		assay.submitted_file_names HP1508501T2D_I12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439196
 		sample.ena_sample ERS1350645
@@ -25443,7 +25443,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632189
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632189/ERR1632189.fastq.gz
 		assay.submitted_file_names HP1508501T2D_I13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439197
 		sample.ena_sample ERS1350646
@@ -25491,7 +25491,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632193
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632193/ERR1632193.fastq.gz
 		assay.submitted_file_names HP1508501T2D_I17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439201
 		sample.ena_sample ERS1350650
@@ -25551,7 +25551,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632198
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632198/ERR1632198.fastq.gz
 		assay.submitted_file_names HP1508501T2D_I21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439206
 		sample.ena_sample ERS1350655
@@ -25610,7 +25610,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632203
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632203/ERR1632203.fastq.gz
 		assay.submitted_file_names HP1508501T2D_I4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439211
 		sample.ena_sample ERS1350660
@@ -25702,7 +25702,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632211
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632211/ERR1632211.fastq.gz
 		assay.submitted_file_names HP1508501T2D_J11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439219
 		sample.ena_sample ERS1350668
@@ -25726,7 +25726,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632213
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632213/ERR1632213.fastq.gz
 		assay.submitted_file_names HP1508501T2D_J13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439221
 		sample.ena_sample ERS1350670
@@ -25738,7 +25738,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632214
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632214/ERR1632214.fastq.gz
 		assay.submitted_file_names HP1508501T2D_J14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439222
 		sample.ena_sample ERS1350671
@@ -25750,7 +25750,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632215
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632215/ERR1632215.fastq.gz
 		assay.submitted_file_names HP1508501T2D_J15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439223
 		sample.ena_sample ERS1350672
@@ -25762,7 +25762,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632216
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632216/ERR1632216.fastq.gz
 		assay.submitted_file_names HP1508501T2D_J16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439224
 		sample.ena_sample ERS1350673
@@ -25845,7 +25845,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632223
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632223/ERR1632223.fastq.gz
 		assay.submitted_file_names HP1508501T2D_J22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439231
 		sample.ena_sample ERS1350680
@@ -26032,7 +26032,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632239
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632239/ERR1632239.fastq.gz
 		assay.submitted_file_names HP1508501T2D_K15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439247
 		sample.ena_sample ERS1350696
@@ -26092,7 +26092,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632244
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632244/ERR1632244.fastq.gz
 		assay.submitted_file_names HP1508501T2D_K2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439252
 		sample.ena_sample ERS1350701
@@ -26128,7 +26128,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632247
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632247/ERR1632247.fastq.gz
 		assay.submitted_file_names HP1508501T2D_K22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439255
 		sample.ena_sample ERS1350704
@@ -26140,7 +26140,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632248
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632248/ERR1632248.fastq.gz
 		assay.submitted_file_names HP1508501T2D_K23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439256
 		sample.ena_sample ERS1350705
@@ -26163,7 +26163,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632250
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632250/ERR1632250.fastq.gz
 		assay.submitted_file_names HP1508501T2D_K3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439258
 		sample.ena_sample ERS1350707
@@ -26210,7 +26210,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632254
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632254/ERR1632254.fastq.gz
 		assay.submitted_file_names HP1508501T2D_K7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439262
 		sample.ena_sample ERS1350711
@@ -26268,7 +26268,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632259
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632259/ERR1632259.fastq.gz
 		assay.submitted_file_names HP1508501T2D_L11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439267
 		sample.ena_sample ERS1350716
@@ -26386,7 +26386,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632269
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632269/ERR1632269.fastq.gz
 		assay.submitted_file_names HP1508501T2D_L20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439277
 		sample.ena_sample ERS1350726
@@ -26398,7 +26398,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632270
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632270/ERR1632270.fastq.gz
 		assay.submitted_file_names HP1508501T2D_L21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439278
 		sample.ena_sample ERS1350727
@@ -26421,7 +26421,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632272
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632272/ERR1632272.fastq.gz
 		assay.submitted_file_names HP1508501T2D_L23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439280
 		sample.ena_sample ERS1350729
@@ -26466,7 +26466,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632276
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632276/ERR1632276.fastq.gz
 		assay.submitted_file_names HP1508501T2D_L5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439284
 		sample.ena_sample ERS1350733
@@ -26513,7 +26513,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632280
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632280/ERR1632280.fastq.gz
 		assay.submitted_file_names HP1508501T2D_L9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439288
 		sample.ena_sample ERS1350737
@@ -26596,7 +26596,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632287
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632287/ERR1632287.fastq.gz
 		assay.submitted_file_names HP1508501T2D_M15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439295
 		sample.ena_sample ERS1350744
@@ -26620,7 +26620,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632289
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632289/ERR1632289.fastq.gz
 		assay.submitted_file_names HP1508501T2D_M17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439297
 		sample.ena_sample ERS1350746
@@ -26690,7 +26690,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632295
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632295/ERR1632295.fastq.gz
 		assay.submitted_file_names HP1508501T2D_M22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439303
 		sample.ena_sample ERS1350752
@@ -26702,7 +26702,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632296
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632296/ERR1632296.fastq.gz
 		assay.submitted_file_names HP1508501T2D_M23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439304
 		sample.ena_sample ERS1350753
@@ -26725,7 +26725,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632298
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632298/ERR1632298.fastq.gz
 		assay.submitted_file_names HP1508501T2D_M3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439306
 		sample.ena_sample ERS1350755
@@ -26808,7 +26808,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632305
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632305/ERR1632305.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439313
 		sample.ena_sample ERS1350762
@@ -26820,7 +26820,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632306
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632306/ERR1632306.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439314
 		sample.ena_sample ERS1350763
@@ -26878,7 +26878,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632311
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632311/ERR1632311.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439319
 		sample.ena_sample ERS1350768
@@ -26901,7 +26901,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632313
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632313/ERR1632313.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439321
 		sample.ena_sample ERS1350770
@@ -26925,7 +26925,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632315
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632315/ERR1632315.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439323
 		sample.ena_sample ERS1350772
@@ -26937,7 +26937,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632316
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632316/ERR1632316.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439324
 		sample.ena_sample ERS1350773
@@ -26973,7 +26973,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632319
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632319/ERR1632319.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439327
 		sample.ena_sample ERS1350776
@@ -26985,7 +26985,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632320
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632320/ERR1632320.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439328
 		sample.ena_sample ERS1350777
@@ -27043,7 +27043,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632325
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632325/ERR1632325.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N6.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439333
 		sample.ena_sample ERS1350782
@@ -27055,7 +27055,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632326
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632326/ERR1632326.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439334
 		sample.ena_sample ERS1350783
@@ -27067,7 +27067,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632327
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632327/ERR1632327.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439335
 		sample.ena_sample ERS1350784
@@ -27079,7 +27079,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632328
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632328/ERR1632328.fastq.gz
 		assay.submitted_file_names HP1508501T2D_N9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439336
 		sample.ena_sample ERS1350785
@@ -27126,7 +27126,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632332
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632332/ERR1632332.fastq.gz
 		assay.submitted_file_names HP1508501T2D_O12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439340
 		sample.ena_sample ERS1350789
@@ -27283,7 +27283,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632346
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632346/ERR1632346.fastq.gz
 		assay.submitted_file_names HP1508501T2D_O3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439354
 		sample.ena_sample ERS1350803
@@ -27341,7 +27341,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632351
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632351/ERR1632351.fastq.gz
 		assay.submitted_file_names HP1508501T2D_O8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439359
 		sample.ena_sample ERS1350808
@@ -27353,7 +27353,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632352
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632352/ERR1632352.fastq.gz
 		assay.submitted_file_names HP1508501T2D_O9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439360
 		sample.ena_sample ERS1350809
@@ -27882,7 +27882,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632398
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632398/ERR1632398.fastq.gz
 		assay.submitted_file_names HP1509101_A8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439406
 		sample.ena_sample ERS1350855
@@ -28019,7 +28019,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632410
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632410/ERR1632410.fastq.gz
 		assay.submitted_file_names HP1509101_B19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439418
 		sample.ena_sample ERS1350867
@@ -28076,7 +28076,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632415
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632415/ERR1632415.fastq.gz
 		assay.submitted_file_names HP1509101_B23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439423
 		sample.ena_sample ERS1350872
@@ -28320,7 +28320,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632437
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632437/ERR1632437.fastq.gz
 		assay.submitted_file_names HP1509101_C21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439445
 		sample.ena_sample ERS1350894
@@ -28532,7 +28532,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632456
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632456/ERR1632456.fastq.gz
 		assay.submitted_file_names HP1509101_D17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439464
 		sample.ena_sample ERS1350913
@@ -28613,7 +28613,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632463
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632463/ERR1632463.fastq.gz
 		assay.submitted_file_names HP1509101_D23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439471
 		sample.ena_sample ERS1350920
@@ -28904,7 +28904,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632489
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632489/ERR1632489.fastq.gz
 		assay.submitted_file_names HP1509101_E3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439497
 		sample.ena_sample ERS1350946
@@ -29140,7 +29140,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632510
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632510/ERR1632510.fastq.gz
 		assay.submitted_file_names HP1509101_F22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439518
 		sample.ena_sample ERS1350967
@@ -29220,7 +29220,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632517
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632517/ERR1632517.fastq.gz
 		assay.submitted_file_names HP1509101_F7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439525
 		sample.ena_sample ERS1350974
@@ -29656,7 +29656,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632556
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632556/ERR1632556.fastq.gz
 		assay.submitted_file_names HP1509101_H20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439564
 		sample.ena_sample ERS1351013
@@ -29827,7 +29827,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632571
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632571/ERR1632571.fastq.gz
 		assay.submitted_file_names HP1509101_I12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439579
 		sample.ena_sample ERS1351028
@@ -30222,7 +30222,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632606
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632606/ERR1632606.fastq.gz
 		assay.submitted_file_names HP1509101_J22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439614
 		sample.ena_sample ERS1351063
@@ -30234,7 +30234,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632607
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632607/ERR1632607.fastq.gz
 		assay.submitted_file_names HP1509101_J23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439615
 		sample.ena_sample ERS1351064
@@ -30325,7 +30325,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632615
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632615/ERR1632615.fastq.gz
 		assay.submitted_file_names HP1509101_J9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439623
 		sample.ena_sample ERS1351072
@@ -30348,7 +30348,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632617
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632617/ERR1632617.fastq.gz
 		assay.submitted_file_names HP1509101_K10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439625
 		sample.ena_sample ERS1351074
@@ -30404,7 +30404,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632622
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632622/ERR1632622.fastq.gz
 		assay.submitted_file_names HP1509101_K15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439630
 		sample.ena_sample ERS1351079
@@ -30449,7 +30449,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632626
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632626/ERR1632626.fastq.gz
 		assay.submitted_file_names HP1509101_K19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439634
 		sample.ena_sample ERS1351083
@@ -30651,7 +30651,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632644
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632644/ERR1632644.fastq.gz
 		assay.submitted_file_names HP1509101_L13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439652
 		sample.ena_sample ERS1351101
@@ -30686,7 +30686,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632647
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632647/ERR1632647.fastq.gz
 		assay.submitted_file_names HP1509101_L16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439655
 		sample.ena_sample ERS1351104
@@ -31471,7 +31471,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632717
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632717/ERR1632717.fastq.gz
 		assay.submitted_file_names HP1509101_O14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439725
 		sample.ena_sample ERS1351174
@@ -31765,7 +31765,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632743
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632743/ERR1632743.fastq.gz
 		assay.submitted_file_names HP1509101_P17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439751
 		sample.ena_sample ERS1351200
@@ -31925,7 +31925,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632757
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632757/ERR1632757.fastq.gz
 		assay.submitted_file_names HP1509101_P8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439765
 		sample.ena_sample ERS1351214
@@ -31937,7 +31937,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632758
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632758/ERR1632758.fastq.gz
 		assay.submitted_file_names HP1509101_P9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439766
 		sample.ena_sample ERS1351215
@@ -31958,7 +31958,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632759
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632759/ERR1632759.fastq.gz
 		assay.submitted_file_names HP1525301T2D_A1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439767
 		sample.ena_sample ERS1351216
@@ -31993,7 +31993,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632762
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632762/ERR1632762.fastq.gz
 		assay.submitted_file_names HP1525301T2D_A12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439770
 		sample.ena_sample ERS1351219
@@ -32005,7 +32005,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632763
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632763/ERR1632763.fastq.gz
 		assay.submitted_file_names HP1525301T2D_A13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439771
 		sample.ena_sample ERS1351220
@@ -32017,7 +32017,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632764
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632764/ERR1632764.fastq.gz
 		assay.submitted_file_names HP1525301T2D_A14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439772
 		sample.ena_sample ERS1351221
@@ -32029,7 +32029,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632765
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632765/ERR1632765.fastq.gz
 		assay.submitted_file_names HP1525301T2D_A15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439773
 		sample.ena_sample ERS1351222
@@ -32053,7 +32053,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632767
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632767/ERR1632767.fastq.gz
 		assay.submitted_file_names HP1525301T2D_A17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439775
 		sample.ena_sample ERS1351224
@@ -32076,7 +32076,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632769
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632769/ERR1632769.fastq.gz
 		assay.submitted_file_names HP1525301T2D_A19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439777
 		sample.ena_sample ERS1351226
@@ -32248,7 +32248,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632784
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632784/ERR1632784.fastq.gz
 		assay.submitted_file_names HP1525301T2D_B10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439792
 		sample.ena_sample ERS1351241
@@ -32296,7 +32296,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632788
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632788/ERR1632788.fastq.gz
 		assay.submitted_file_names HP1525301T2D_B14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439796
 		sample.ena_sample ERS1351245
@@ -32387,7 +32387,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632796
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632796/ERR1632796.fastq.gz
 		assay.submitted_file_names HP1525301T2D_B21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439804
 		sample.ena_sample ERS1351253
@@ -32421,7 +32421,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632799
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632799/ERR1632799.fastq.gz
 		assay.submitted_file_names HP1525301T2D_B24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439807
 		sample.ena_sample ERS1351256
@@ -32433,7 +32433,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632800
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632800/ERR1632800.fastq.gz
 		assay.submitted_file_names HP1525301T2D_B3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439808
 		sample.ena_sample ERS1351257
@@ -32540,7 +32540,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632809
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632809/ERR1632809.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439817
 		sample.ena_sample ERS1351266
@@ -32563,7 +32563,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632811
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632811/ERR1632811.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439819
 		sample.ena_sample ERS1351268
@@ -32587,7 +32587,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632813
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632813/ERR1632813.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439821
 		sample.ena_sample ERS1351270
@@ -32611,7 +32611,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632815
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632815/ERR1632815.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439823
 		sample.ena_sample ERS1351272
@@ -32634,7 +32634,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632817
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632817/ERR1632817.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439825
 		sample.ena_sample ERS1351274
@@ -32669,7 +32669,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632820
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632820/ERR1632820.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439828
 		sample.ena_sample ERS1351277
@@ -32681,7 +32681,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632821
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632821/ERR1632821.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439829
 		sample.ena_sample ERS1351278
@@ -32705,7 +32705,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632823
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632823/ERR1632823.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439831
 		sample.ena_sample ERS1351280
@@ -32717,7 +32717,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632824
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632824/ERR1632824.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439832
 		sample.ena_sample ERS1351281
@@ -32729,7 +32729,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632825
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632825/ERR1632825.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439833
 		sample.ena_sample ERS1351282
@@ -32753,7 +32753,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632827
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632827/ERR1632827.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C6.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439835
 		sample.ena_sample ERS1351284
@@ -32789,7 +32789,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632830
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632830/ERR1632830.fastq.gz
 		assay.submitted_file_names HP1525301T2D_C9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439838
 		sample.ena_sample ERS1351287
@@ -32801,7 +32801,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632831
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632831/ERR1632831.fastq.gz
 		assay.submitted_file_names HP1525301T2D_D1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439839
 		sample.ena_sample ERS1351288
@@ -32860,7 +32860,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632836
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632836/ERR1632836.fastq.gz
 		assay.submitted_file_names HP1525301T2D_D14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439844
 		sample.ena_sample ERS1351293
@@ -32872,7 +32872,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632837
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632837/ERR1632837.fastq.gz
 		assay.submitted_file_names HP1525301T2D_D15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439845
 		sample.ena_sample ERS1351294
@@ -32929,7 +32929,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632842
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632842/ERR1632842.fastq.gz
 		assay.submitted_file_names HP1525301T2D_D2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439850
 		sample.ena_sample ERS1351299
@@ -32964,7 +32964,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632845
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632845/ERR1632845.fastq.gz
 		assay.submitted_file_names HP1525301T2D_D22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439853
 		sample.ena_sample ERS1351302
@@ -32999,7 +32999,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632848
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632848/ERR1632848.fastq.gz
 		assay.submitted_file_names HP1525301T2D_D3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439856
 		sample.ena_sample ERS1351305
@@ -33011,7 +33011,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632849
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632849/ERR1632849.fastq.gz
 		assay.submitted_file_names HP1525301T2D_D4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439857
 		sample.ena_sample ERS1351306
@@ -33057,7 +33057,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632853
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632853/ERR1632853.fastq.gz
 		assay.submitted_file_names HP1525301T2D_D8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439861
 		sample.ena_sample ERS1351310
@@ -33104,7 +33104,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632857
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632857/ERR1632857.fastq.gz
 		assay.submitted_file_names HP1525301T2D_E11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439865
 		sample.ena_sample ERS1351314
@@ -33151,7 +33151,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632861
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632861/ERR1632861.fastq.gz
 		assay.submitted_file_names HP1525301T2D_E15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439869
 		sample.ena_sample ERS1351318
@@ -33175,7 +33175,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632863
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632863/ERR1632863.fastq.gz
 		assay.submitted_file_names HP1525301T2D_E17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439871
 		sample.ena_sample ERS1351320
@@ -33395,7 +33395,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632882
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632882/ERR1632882.fastq.gz
 		assay.submitted_file_names HP1525301T2D_F12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439890
 		sample.ena_sample ERS1351339
@@ -33442,7 +33442,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632886
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632886/ERR1632886.fastq.gz
 		assay.submitted_file_names HP1525301T2D_F16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439894
 		sample.ena_sample ERS1351343
@@ -33511,7 +33511,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632892
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632892/ERR1632892.fastq.gz
 		assay.submitted_file_names HP1525301T2D_F21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439900
 		sample.ena_sample ERS1351349
@@ -33617,7 +33617,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632901
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632901/ERR1632901.fastq.gz
 		assay.submitted_file_names HP1525301T2D_F8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439909
 		sample.ena_sample ERS1351358
@@ -33652,7 +33652,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632904
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632904/ERR1632904.fastq.gz
 		assay.submitted_file_names HP1525301T2D_G10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439912
 		sample.ena_sample ERS1351361
@@ -33687,7 +33687,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632907
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632907/ERR1632907.fastq.gz
 		assay.submitted_file_names HP1525301T2D_G13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439915
 		sample.ena_sample ERS1351364
@@ -33699,7 +33699,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632908
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632908/ERR1632908.fastq.gz
 		assay.submitted_file_names HP1525301T2D_G14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439916
 		sample.ena_sample ERS1351365
@@ -33781,7 +33781,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632915
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632915/ERR1632915.fastq.gz
 		assay.submitted_file_names HP1525301T2D_G20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439923
 		sample.ena_sample ERS1351372
@@ -33793,7 +33793,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632916
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632916/ERR1632916.fastq.gz
 		assay.submitted_file_names HP1525301T2D_G21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439924
 		sample.ena_sample ERS1351373
@@ -33840,7 +33840,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632920
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632920/ERR1632920.fastq.gz
 		assay.submitted_file_names HP1525301T2D_G3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439928
 		sample.ena_sample ERS1351377
@@ -33864,7 +33864,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632922
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632922/ERR1632922.fastq.gz
 		assay.submitted_file_names HP1525301T2D_G5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439930
 		sample.ena_sample ERS1351379
@@ -33910,7 +33910,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632926
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632926/ERR1632926.fastq.gz
 		assay.submitted_file_names HP1525301T2D_G9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439934
 		sample.ena_sample ERS1351383
@@ -33922,7 +33922,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632927
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632927/ERR1632927.fastq.gz
 		assay.submitted_file_names HP1525301T2D_H1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439935
 		sample.ena_sample ERS1351384
@@ -33946,7 +33946,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632929
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632929/ERR1632929.fastq.gz
 		assay.submitted_file_names HP1525301T2D_H11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439937
 		sample.ena_sample ERS1351386
@@ -33981,7 +33981,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632932
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632932/ERR1632932.fastq.gz
 		assay.submitted_file_names HP1525301T2D_H14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439940
 		sample.ena_sample ERS1351389
@@ -34004,7 +34004,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632934
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632934/ERR1632934.fastq.gz
 		assay.submitted_file_names HP1525301T2D_H16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439942
 		sample.ena_sample ERS1351391
@@ -34016,7 +34016,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632935
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632935/ERR1632935.fastq.gz
 		assay.submitted_file_names HP1525301T2D_H17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439943
 		sample.ena_sample ERS1351392
@@ -34028,7 +34028,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632936
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632936/ERR1632936.fastq.gz
 		assay.submitted_file_names HP1525301T2D_H18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439944
 		sample.ena_sample ERS1351393
@@ -34052,7 +34052,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632938
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632938/ERR1632938.fastq.gz
 		assay.submitted_file_names HP1525301T2D_H2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439946
 		sample.ena_sample ERS1351395
@@ -34110,7 +34110,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632943
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632943/ERR1632943.fastq.gz
 		assay.submitted_file_names HP1525301T2D_H24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439951
 		sample.ena_sample ERS1351400
@@ -34122,7 +34122,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632944
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632944/ERR1632944.fastq.gz
 		assay.submitted_file_names HP1525301T2D_H3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439952
 		sample.ena_sample ERS1351401
@@ -34204,7 +34204,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632951
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632951/ERR1632951.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439959
 		sample.ena_sample ERS1351408
@@ -34216,7 +34216,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632952
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632952/ERR1632952.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I10.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439960
 		sample.ena_sample ERS1351409
@@ -34274,7 +34274,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632957
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632957/ERR1632957.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439965
 		sample.ena_sample ERS1351414
@@ -34286,7 +34286,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632958
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632958/ERR1632958.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439966
 		sample.ena_sample ERS1351415
@@ -34298,7 +34298,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632959
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632959/ERR1632959.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439967
 		sample.ena_sample ERS1351416
@@ -34310,7 +34310,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632960
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632960/ERR1632960.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439968
 		sample.ena_sample ERS1351417
@@ -34322,7 +34322,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632961
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632961/ERR1632961.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439969
 		sample.ena_sample ERS1351418
@@ -34369,7 +34369,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632965
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632965/ERR1632965.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439973
 		sample.ena_sample ERS1351422
@@ -34381,7 +34381,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632966
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632966/ERR1632966.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439974
 		sample.ena_sample ERS1351423
@@ -34393,7 +34393,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632967
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632967/ERR1632967.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439975
 		sample.ena_sample ERS1351424
@@ -34405,7 +34405,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632968
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632968/ERR1632968.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439976
 		sample.ena_sample ERS1351425
@@ -34465,7 +34465,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632973
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632973/ERR1632973.fastq.gz
 		assay.submitted_file_names HP1525301T2D_I8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439981
 		sample.ena_sample ERS1351430
@@ -34558,7 +34558,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632981
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632981/ERR1632981.fastq.gz
 		assay.submitted_file_names HP1525301T2D_J15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439989
 		sample.ena_sample ERS1351438
@@ -34630,7 +34630,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632987
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1632987/ERR1632987.fastq.gz
 		assay.submitted_file_names HP1525301T2D_J20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439995
 		sample.ena_sample ERS1351444
@@ -34642,7 +34642,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632988
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632988/ERR1632988.fastq.gz
 		assay.submitted_file_names HP1525301T2D_J21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439996
 		sample.ena_sample ERS1351445
@@ -34735,7 +34735,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632996
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1632996/ERR1632996.fastq.gz
 		assay.submitted_file_names HP1525301T2D_J7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440004
 		sample.ena_sample ERS1351453
@@ -34759,7 +34759,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632998
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632998/ERR1632998.fastq.gz
 		assay.submitted_file_names HP1525301T2D_J9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440006
 		sample.ena_sample ERS1351455
@@ -34771,7 +34771,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632999
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632999/ERR1632999.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440007
 		sample.ena_sample ERS1351456
@@ -34795,7 +34795,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633001
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633001/ERR1633001.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440009
 		sample.ena_sample ERS1351458
@@ -34807,7 +34807,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633002
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1633002/ERR1633002.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440010
 		sample.ena_sample ERS1351459
@@ -34830,7 +34830,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633004
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1633004/ERR1633004.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440012
 		sample.ena_sample ERS1351461
@@ -34854,7 +34854,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633006
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633006/ERR1633006.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440014
 		sample.ena_sample ERS1351463
@@ -34866,7 +34866,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633007
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1633007/ERR1633007.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440015
 		sample.ena_sample ERS1351464
@@ -34878,7 +34878,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633008
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633008/ERR1633008.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440016
 		sample.ena_sample ERS1351465
@@ -34902,7 +34902,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633010
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633010/ERR1633010.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440018
 		sample.ena_sample ERS1351467
@@ -34925,7 +34925,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633012
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1633012/ERR1633012.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440020
 		sample.ena_sample ERS1351469
@@ -35007,7 +35007,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633019
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633019/ERR1633019.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K6.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440027
 		sample.ena_sample ERS1351476
@@ -35054,7 +35054,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633023
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633023/ERR1633023.fastq.gz
 		assay.submitted_file_names HP1525301T2D_L1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440031
 		sample.ena_sample ERS1351480
@@ -35099,7 +35099,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633027
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1633027/ERR1633027.fastq.gz
 		assay.submitted_file_names HP1525301T2D_L13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440035
 		sample.ena_sample ERS1351484
@@ -35135,7 +35135,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633030
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633030/ERR1633030.fastq.gz
 		assay.submitted_file_names HP1525301T2D_L16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440038
 		sample.ena_sample ERS1351487
@@ -35182,7 +35182,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633034
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1633034/ERR1633034.fastq.gz
 		assay.submitted_file_names HP1525301T2D_L2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440042
 		sample.ena_sample ERS1351491
@@ -35194,7 +35194,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633035
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1633035/ERR1633035.fastq.gz
 		assay.submitted_file_names HP1525301T2D_L20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440043
 		sample.ena_sample ERS1351492
@@ -35229,7 +35229,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633038
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633038/ERR1633038.fastq.gz
 		assay.submitted_file_names HP1525301T2D_L23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440046
 		sample.ena_sample ERS1351495
@@ -35264,7 +35264,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633041
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633041/ERR1633041.fastq.gz
 		assay.submitted_file_names HP1525301T2D_L4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440049
 		sample.ena_sample ERS1351498
@@ -35288,7 +35288,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633043
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633043/ERR1633043.fastq.gz
 		assay.submitted_file_names HP1525301T2D_L6.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440051
 		sample.ena_sample ERS1351500
@@ -35358,7 +35358,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633049
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633049/ERR1633049.fastq.gz
 		assay.submitted_file_names HP1525301T2D_M11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440057
 		sample.ena_sample ERS1351506
@@ -35370,7 +35370,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633050
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633050/ERR1633050.fastq.gz
 		assay.submitted_file_names HP1525301T2D_M12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440058
 		sample.ena_sample ERS1351507
@@ -35406,7 +35406,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633053
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633053/ERR1633053.fastq.gz
 		assay.submitted_file_names HP1525301T2D_M15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440061
 		sample.ena_sample ERS1351510
@@ -35477,7 +35477,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633059
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633059/ERR1633059.fastq.gz
 		assay.submitted_file_names HP1525301T2D_M20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440067
 		sample.ena_sample ERS1351516
@@ -35500,7 +35500,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633061
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633061/ERR1633061.fastq.gz
 		assay.submitted_file_names HP1525301T2D_M22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440069
 		sample.ena_sample ERS1351518
@@ -35569,7 +35569,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633067
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1633067/ERR1633067.fastq.gz
 		assay.submitted_file_names HP1525301T2D_M6.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440075
 		sample.ena_sample ERS1351524
@@ -35605,7 +35605,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633070
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633070/ERR1633070.fastq.gz
 		assay.submitted_file_names HP1525301T2D_M9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440078
 		sample.ena_sample ERS1351527
@@ -35617,7 +35617,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633071
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633071/ERR1633071.fastq.gz
 		assay.submitted_file_names HP1525301T2D_N1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440079
 		sample.ena_sample ERS1351528
@@ -35641,7 +35641,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633073
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633073/ERR1633073.fastq.gz
 		assay.submitted_file_names HP1525301T2D_N11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440081
 		sample.ena_sample ERS1351530
@@ -35653,7 +35653,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633074
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1633074/ERR1633074.fastq.gz
 		assay.submitted_file_names HP1525301T2D_N12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440082
 		sample.ena_sample ERS1351531
@@ -35677,7 +35677,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633076
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633076/ERR1633076.fastq.gz
 		assay.submitted_file_names HP1525301T2D_N14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440084
 		sample.ena_sample ERS1351533
@@ -35700,7 +35700,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633078
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633078/ERR1633078.fastq.gz
 		assay.submitted_file_names HP1525301T2D_N16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440086
 		sample.ena_sample ERS1351535
@@ -35757,7 +35757,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633083
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633083/ERR1633083.fastq.gz
 		assay.submitted_file_names HP1525301T2D_N20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440091
 		sample.ena_sample ERS1351540
@@ -35829,7 +35829,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633089
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633089/ERR1633089.fastq.gz
 		assay.submitted_file_names HP1525301T2D_N4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440097
 		sample.ena_sample ERS1351546
@@ -35841,7 +35841,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633090
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633090/ERR1633090.fastq.gz
 		assay.submitted_file_names HP1525301T2D_N5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440098
 		sample.ena_sample ERS1351547
@@ -35853,7 +35853,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633091
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633091/ERR1633091.fastq.gz
 		assay.submitted_file_names HP1525301T2D_N6.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440099
 		sample.ena_sample ERS1351548
@@ -35959,7 +35959,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633100
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633100/ERR1633100.fastq.gz
 		assay.submitted_file_names HP1525301T2D_O14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440108
 		sample.ena_sample ERS1351557
@@ -35982,7 +35982,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633102
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1633102/ERR1633102.fastq.gz
 		assay.submitted_file_names HP1525301T2D_O16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440110
 		sample.ena_sample ERS1351559
@@ -35994,7 +35994,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633103
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633103/ERR1633103.fastq.gz
 		assay.submitted_file_names HP1525301T2D_O17.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440111
 		sample.ena_sample ERS1351560
@@ -36041,7 +36041,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633107
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1633107/ERR1633107.fastq.gz
 		assay.submitted_file_names HP1525301T2D_O20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440115
 		sample.ena_sample ERS1351564
@@ -36064,7 +36064,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633109
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633109/ERR1633109.fastq.gz
 		assay.submitted_file_names HP1525301T2D_O22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440117
 		sample.ena_sample ERS1351566
@@ -36076,7 +36076,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633110
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633110/ERR1633110.fastq.gz
 		assay.submitted_file_names HP1525301T2D_O23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440118
 		sample.ena_sample ERS1351567
@@ -36088,7 +36088,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633111
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633111/ERR1633111.fastq.gz
 		assay.submitted_file_names HP1525301T2D_O24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440119
 		sample.ena_sample ERS1351568
@@ -36147,7 +36147,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633116
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633116/ERR1633116.fastq.gz
 		assay.submitted_file_names HP1525301T2D_O7.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440124
 		sample.ena_sample ERS1351573
@@ -36182,7 +36182,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633119
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633119/ERR1633119.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440127
 		sample.ena_sample ERS1351576
@@ -36228,7 +36228,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633123
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633123/ERR1633123.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P13.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440131
 		sample.ena_sample ERS1351580
@@ -36240,7 +36240,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633124
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1633124/ERR1633124.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440132
 		sample.ena_sample ERS1351581
@@ -36300,7 +36300,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633129
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633129/ERR1633129.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440137
 		sample.ena_sample ERS1351586
@@ -36312,7 +36312,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633130
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633130/ERR1633130.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440138
 		sample.ena_sample ERS1351587
@@ -36324,7 +36324,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633131
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633131/ERR1633131.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440139
 		sample.ena_sample ERS1351588
@@ -36336,7 +36336,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633132
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1633132/ERR1633132.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440140
 		sample.ena_sample ERS1351589
@@ -36360,7 +36360,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633134
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1633134/ERR1633134.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440142
 		sample.ena_sample ERS1351591
@@ -36395,7 +36395,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633137
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1633137/ERR1633137.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440145
 		sample.ena_sample ERS1351594
@@ -36407,7 +36407,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633138
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633138/ERR1633138.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440146
 		sample.ena_sample ERS1351595
@@ -36499,7 +36499,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633145
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1633145/ERR1633145.fastq.gz
 		assay.submitted_file_names HP1526901T2D_A11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440153
 		sample.ena_sample ERS1351602
@@ -36630,7 +36630,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633156
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633156/ERR1633156.fastq.gz
 		assay.submitted_file_names HP1526901T2D_A21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440164
 		sample.ena_sample ERS1351613
@@ -36666,7 +36666,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633159
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633159/ERR1633159.fastq.gz
 		assay.submitted_file_names HP1526901T2D_A24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440167
 		sample.ena_sample ERS1351616
@@ -36936,7 +36936,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633182
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1633182/ERR1633182.fastq.gz
 		assay.submitted_file_names HP1526901T2D_B23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440190
 		sample.ena_sample ERS1351639
@@ -36948,7 +36948,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633183
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633183/ERR1633183.fastq.gz
 		assay.submitted_file_names HP1526901T2D_B24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440191
 		sample.ena_sample ERS1351640
@@ -36960,7 +36960,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633184
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1633184/ERR1633184.fastq.gz
 		assay.submitted_file_names HP1526901T2D_B3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440192
 		sample.ena_sample ERS1351641
@@ -36984,7 +36984,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633186
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633186/ERR1633186.fastq.gz
 		assay.submitted_file_names HP1526901T2D_B5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440194
 		sample.ena_sample ERS1351643
@@ -37102,7 +37102,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633196
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633196/ERR1633196.fastq.gz
 		assay.submitted_file_names HP1526901T2D_C14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440204
 		sample.ena_sample ERS1351653
@@ -37185,7 +37185,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633203
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633203/ERR1633203.fastq.gz
 		assay.submitted_file_names HP1526901T2D_C20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440211
 		sample.ena_sample ERS1351660
@@ -37208,7 +37208,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633205
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1633205/ERR1633205.fastq.gz
 		assay.submitted_file_names HP1526901T2D_C22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440213
 		sample.ena_sample ERS1351662
@@ -37220,7 +37220,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633206
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633206/ERR1633206.fastq.gz
 		assay.submitted_file_names HP1526901T2D_C23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440214
 		sample.ena_sample ERS1351663
@@ -37360,7 +37360,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633218
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633218/ERR1633218.fastq.gz
 		assay.submitted_file_names HP1526901T2D_D12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440226
 		sample.ena_sample ERS1351675
@@ -37454,7 +37454,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633226
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633226/ERR1633226.fastq.gz
 		assay.submitted_file_names HP1526901T2D_D2.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440234
 		sample.ena_sample ERS1351683
@@ -37489,7 +37489,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633229
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633229/ERR1633229.fastq.gz
 		assay.submitted_file_names HP1526901T2D_D22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440237
 		sample.ena_sample ERS1351686
@@ -37524,7 +37524,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633232
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1633232/ERR1633232.fastq.gz
 		assay.submitted_file_names HP1526901T2D_D3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440240
 		sample.ena_sample ERS1351689
@@ -37536,7 +37536,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633233
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633233/ERR1633233.fastq.gz
 		assay.submitted_file_names HP1526901T2D_D4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440241
 		sample.ena_sample ERS1351690
@@ -37607,7 +37607,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633239
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633239/ERR1633239.fastq.gz
 		assay.submitted_file_names HP1526901T2D_E1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440247
 		sample.ena_sample ERS1351696
@@ -37665,7 +37665,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633244
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1633244/ERR1633244.fastq.gz
 		assay.submitted_file_names HP1526901T2D_E14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440252
 		sample.ena_sample ERS1351701
@@ -37772,7 +37772,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633253
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633253/ERR1633253.fastq.gz
 		assay.submitted_file_names HP1526901T2D_E22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440261
 		sample.ena_sample ERS1351710
@@ -37784,7 +37784,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633254
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1633254/ERR1633254.fastq.gz
 		assay.submitted_file_names HP1526901T2D_E23.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440262
 		sample.ena_sample ERS1351711
@@ -37878,7 +37878,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633262
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1633262/ERR1633262.fastq.gz
 		assay.submitted_file_names HP1526901T2D_E9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440270
 		sample.ena_sample ERS1351719
@@ -37959,7 +37959,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633269
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633269/ERR1633269.fastq.gz
 		assay.submitted_file_names HP1526901T2D_F15.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440277
 		sample.ena_sample ERS1351726
@@ -37971,7 +37971,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633270
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633270/ERR1633270.fastq.gz
 		assay.submitted_file_names HP1526901T2D_F16.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440278
 		sample.ena_sample ERS1351727
@@ -38055,7 +38055,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633277
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1633277/ERR1633277.fastq.gz
 		assay.submitted_file_names HP1526901T2D_F22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440285
 		sample.ena_sample ERS1351734
@@ -38079,7 +38079,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633279
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1633279/ERR1633279.fastq.gz
 		assay.submitted_file_names HP1526901T2D_F24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440287
 		sample.ena_sample ERS1351736
@@ -38149,7 +38149,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633285
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1633285/ERR1633285.fastq.gz
 		assay.submitted_file_names HP1526901T2D_F8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440293
 		sample.ena_sample ERS1351742
@@ -38338,7 +38338,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633301
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633301/ERR1633301.fastq.gz
 		assay.submitted_file_names HP1526901T2D_G22.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440309
 		sample.ena_sample ERS1351758
@@ -38362,7 +38362,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633303
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633303/ERR1633303.fastq.gz
 		assay.submitted_file_names HP1526901T2D_G24.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440311
 		sample.ena_sample ERS1351760
@@ -38607,7 +38607,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633324
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1633324/ERR1633324.fastq.gz
 		assay.submitted_file_names HP1526901T2D_H21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440332
 		sample.ena_sample ERS1351781
@@ -38679,7 +38679,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633330
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633330/ERR1633330.fastq.gz
 		assay.submitted_file_names HP1526901T2D_H5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440338
 		sample.ena_sample ERS1351787
@@ -38714,7 +38714,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633333
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633333/ERR1633333.fastq.gz
 		assay.submitted_file_names HP1526901T2D_H8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440341
 		sample.ena_sample ERS1351790
@@ -38726,7 +38726,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633334
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1633334/ERR1633334.fastq.gz
 		assay.submitted_file_names HP1526901T2D_H9.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440342
 		sample.ena_sample ERS1351791
@@ -38738,7 +38738,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633335
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1633335/ERR1633335.fastq.gz
 		assay.submitted_file_names HP1526901T2D_I1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440343
 		sample.ena_sample ERS1351792
@@ -39047,7 +39047,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633361
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633361/ERR1633361.fastq.gz
 		assay.submitted_file_names HP1526901T2D_J11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440369
 		sample.ena_sample ERS1351818
@@ -39059,7 +39059,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633362
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1633362/ERR1633362.fastq.gz
 		assay.submitted_file_names HP1526901T2D_J12.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440370
 		sample.ena_sample ERS1351819
@@ -39129,7 +39129,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633368
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633368/ERR1633368.fastq.gz
 		assay.submitted_file_names HP1526901T2D_J18.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440376
 		sample.ena_sample ERS1351825
@@ -39224,7 +39224,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633376
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633376/ERR1633376.fastq.gz
 		assay.submitted_file_names HP1526901T2D_J3.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440384
 		sample.ena_sample ERS1351833
@@ -39306,7 +39306,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633383
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633383/ERR1633383.fastq.gz
 		assay.submitted_file_names HP1526901T2D_K1.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440391
 		sample.ena_sample ERS1351840
@@ -39424,7 +39424,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633393
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633393/ERR1633393.fastq.gz
 		assay.submitted_file_names HP1526901T2D_K19.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440401
 		sample.ena_sample ERS1351850
@@ -39520,7 +39520,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633401
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633401/ERR1633401.fastq.gz
 		assay.submitted_file_names HP1526901T2D_K4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440409
 		sample.ena_sample ERS1351858
@@ -39928,7 +39928,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633436
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633436/ERR1633436.fastq.gz
 		assay.submitted_file_names HP1526901T2D_M14.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440444
 		sample.ena_sample ERS1351893
@@ -40011,7 +40011,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633443
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633443/ERR1633443.fastq.gz
 		assay.submitted_file_names HP1526901T2D_M20.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440451
 		sample.ena_sample ERS1351900
@@ -40129,7 +40129,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633453
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1633453/ERR1633453.fastq.gz
 		assay.submitted_file_names HP1526901T2D_M8.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440461
 		sample.ena_sample ERS1351910
@@ -40176,7 +40176,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633457
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1633457/ERR1633457.fastq.gz
 		assay.submitted_file_names HP1526901T2D_N11.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440465
 		sample.ena_sample ERS1351914
@@ -40307,7 +40307,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633468
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633468/ERR1633468.fastq.gz
 		assay.submitted_file_names HP1526901T2D_N21.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440476
 		sample.ena_sample ERS1351925
@@ -40648,7 +40648,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633497
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1633497/ERR1633497.fastq.gz
 		assay.submitted_file_names HP1526901T2D_O4.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440505
 		sample.ena_sample ERS1351954
@@ -40660,7 +40660,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633498
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633498/ERR1633498.fastq.gz
 		assay.submitted_file_names HP1526901T2D_O5.fastq.gz
-		cell.type ductal cell
+		cell.type duct cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440506
 		sample.ena_sample ERS1351955
