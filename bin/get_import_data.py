@@ -20,6 +20,7 @@ import dateutil
 import ssl
 import dateutil.parser
 import ast
+import sys
 from urllib.request import urlopen, urlretrieve
 #from urllib2 import urlopen, Request
 from subprocess import Popen, PIPE
@@ -29,10 +30,12 @@ class GetImportData:
     def __init__(self):
         parser = argparse.ArgumentParser(description='Downloads data files for the various bundles.')
         parser.add_argument('--input-dir', default='.', required=True)
+        parser.add_argument('--output-s3-dir', default='s3://hca-dss-test-src/data-bundle-examples/', required=True)
 
         # get args
         args = parser.parse_args()
         self.input_dir = args.input_dir
+        self.output_s3_dir = args.output_s3_dir
 
         # run
         self.run()
@@ -52,12 +55,22 @@ class GetImportData:
         dir = struct['dir']
         for file in struct['files']:
             name = file['name']
-            print ("Downloading: "+dir+"/"+name)
+            #print ("Downloading: "+dir+"/"+name)
             ctx = ssl.create_default_context()
             ctx.check_hostname = False
             ctx.verify_mode = ssl.CERT_NONE
-            urlretrieve(str(dir+"/"+name), directory+"/"+name)
+            try:
+                print("DOWNLOADING: "+str(dir+"/"+name)+" TO: "+directory+"/"+name)
+                if (self.source_newer_or_diff_size(str(dir+"/"+name), self.output_s3_dir+"/"+directory+"/"+name)):
+                    #urlretrieve(str(dir+"/"+name), directory+"/"+name)
+                    self.upload(directory+"/"+name)
+            except Exception as error:
+                print ("ERROR: "+error)
+                # just exit with non-zero status
+                sys.exit(1)
 
+    def upload(self, path):
+        print("UPLOADING: "+path+" to "+self.output_s3_dir+"/"+path)
 
 # run the class
 if __name__ == '__main__':
