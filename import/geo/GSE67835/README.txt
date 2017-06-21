@@ -1,5 +1,5 @@
 This is a CIRM dataset.  We have actually a little more info than the GEO record, so it gets
-added in too.
+added in too, using the file cirm_extra.tsv
 
 Downloaded soft file from NCBI web site to GSE67835_family.soft.gz and convert to 
 	gunzip *.soft.gz
@@ -20,8 +20,9 @@ Convert this to a SRX/SRR two column file as so
 
 Convert to tagStorm for curation with
 	geoStormToHcaStorm geo.tags srxToSrr.tab srr.tags
-	tagStormToTab srr.tags srr.tsv
-	tagStormFromTab srr.tsv uncurated.tags -noHoist -div=project.title,sample.donor.age,sample.characteristics_experiment_sample_name,sample.characteristics_c1_chip_id,assay.sra_experiment
+	tagStormJoinTab -append sample.geo_sample cirm_extra.tsv srr.tags joined.tags
+	tagStormToTab joined.tags joined.tsv
+	tagStormFromTab joined.tsv uncurated.tags -noHoist -div=project.title,sample.donor.id,sample.characteristics_c1_chip_id,assay.sra_experiment
 	cp uncurated.tags curated.tags
 
 Edit curated tags.  
