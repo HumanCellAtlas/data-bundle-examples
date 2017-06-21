@@ -1,0 +1,3 @@
+[submodule "bin/checksumming_io"]
+	path = bin/checksumming_io
+	url = git@github.com:HumanCellAtlas/checksumming_io.git
