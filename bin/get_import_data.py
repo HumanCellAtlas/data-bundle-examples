@@ -147,8 +147,8 @@ class GetImportData:
             file.seek(0, os.SEEK_END)
             size = file.tell()
 
-        bucket = self.conn.get_bucket(bucket, validate=True)
-        k = Key(bucket)
+        bucket_obj = self.conn.get_bucket(bucket, validate=True)
+        k = Key(bucket_obj)
         k.key = key
         print ("UPLOADING TO BUCKET: "+bucket+" KEY: "+key)
         if content_type:
