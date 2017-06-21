@@ -35,6 +35,7 @@ class GetImportData:
         parser.add_argument('--input-dir', required=True)
         parser.add_argument('--output-s3-dir', required=True)
         parser.add_argument('--test', action='store_true', default=False)
+        parser.add_argument('--cleanup', action='store_true', default=False)
 
         # get args
         args = parser.parse_args()
@@ -42,6 +43,7 @@ class GetImportData:
         self.output_s3_dir = args.output_s3_dir
         self.conn = boto.connect_s3()
         self.test = args.test
+        self.cleanup = args.cleanup
         # tracking the number of files that are missing from S3
         self.missing_files = 0
 
@@ -75,10 +77,10 @@ class GetImportData:
                     if (self.test):
                         print("TESTING WON'T DOWNLOAD")
                     else:
-                        if (not os.path.exists(directory+"/"+name)):
-                            urlretrieve(str(dir+"/"+name), directory+"/"+name)
+                        urlretrieve(str(dir+"/"+name), directory+"/"+name)
                         self.upload(directory+"/"+name)
-                        #os.remove(directory+"/"+name)
+                        if (self.cleanup):
+                            os.remove(directory+"/"+name)
                 else:
                     print("SKIPPING DOWNLOAD: "+str(dir+"/"+name)+" TO: "+directory+"/"+name+" FILE SIZES IDENTICAL")
             except Exception as error:
