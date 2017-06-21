@@ -78,7 +78,7 @@ class GetImportData:
                         if (not os.path.exists(directory+"/"+name)):
                             urlretrieve(str(dir+"/"+name), directory+"/"+name)
                         self.upload(directory+"/"+name)
-                        os.remove(directory+"/"+name)
+                        #os.remove(directory+"/"+name)
                 else:
                     print("SKIPPING DOWNLOAD: "+str(dir+"/"+name)+" TO: "+directory+"/"+name+" FILE SIZES IDENTICAL")
             except Exception as error:
