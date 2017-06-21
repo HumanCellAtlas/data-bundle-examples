@@ -1,5 +1,6 @@
 project.title Single cell RNA-sequencing of human tonsil Innate lymphoid cells (ILCs)
 project.id GSE70580
+project.geo_doc_id 200070580
 assay.seq.paired_ends no
 assay.rna.primer poly-dt
 assay.rna.prep smart-seq2
@@ -47,7 +48,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating ILC1
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2-
-		sample.long_label innate tonsil innate lymphoid cells ILC1 from donor T74
+		sample.long_label uninfected tonsil innate lymphoid cells ILC1 from donor T74
 		sample.short_label tonsil ILC1 cells
 
 			assay.sra_experiment SRX1082044
@@ -60,7 +61,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating NK
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127- CD56+ NKG2A+
-		sample.long_label innate tonsil natural killer cells from donor T74
+		sample.long_label uninfected tonsil natural killer cells from donor T74
 		sample.short_label tonsil NK cells
 
 			assay.sra_experiment SRX1082045
@@ -265,7 +266,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating ILC2
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2+
-		sample.long_label innate tonsil innate lymphoid cells ILC2 from donor T74
+		sample.long_label uninfected tonsil innate lymphoid cells ILC2 from donor T74
 		sample.short_label tonsil ILC2 cells
 
 			assay.sra_experiment SRX1082046
@@ -358,7 +359,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating ILC3
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ CD161+ CD117+ CRTH2- NKp44+
-		sample.long_label innate tonsil innate lymphoid cells ILC3 from donor T74
+		sample.long_label uninfected tonsil innate lymphoid cells ILC3 from donor T74
 		sample.short_label tonsil ILC3 cells
 
 			assay.sra_experiment SRX1082049
@@ -670,7 +671,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating ILC3
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ CD161+ CD117+ CRTH2- NKp44+
-		sample.long_label innate tonsil innate lymphoid cells ILC3 from donor T75
+		sample.long_label uninfected tonsil innate lymphoid cells ILC3 from donor T75
 		sample.short_label tonsil ILC3 cells
 
 			assay.sra_experiment SRX1082119
@@ -1699,7 +1700,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating NK
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127- CD56+ NKG2A+
-		sample.long_label innate tonsil natural killer cells from donor T75
+		sample.long_label uninfected tonsil natural killer cells from donor T75
 		sample.short_label tonsil NK cells
 
 			assay.sra_experiment SRX1082130
@@ -1888,7 +1889,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating ILC2
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2+
-		sample.long_label innate tonsil innate lymphoid cells ILC2 from donor T75
+		sample.long_label uninfected tonsil innate lymphoid cells ILC2 from donor T75
 		sample.short_label tonsil ILC2 cells
 
 			assay.sra_experiment SRX1082258
@@ -2389,7 +2390,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating ILC1
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2-
-		sample.long_label innate tonsil innate lymphoid cells ILC1 from donor T75
+		sample.long_label uninfected tonsil innate lymphoid cells ILC1 from donor T75
 		sample.short_label tonsil ILC1 cells
 
 			assay.sra_experiment SRX1082325
@@ -2877,7 +2878,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating ILC3
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ CD161+ CD117+ CRTH2- NKp44+
-		sample.long_label innate tonsil innate lymphoid cells ILC3 from donor T86
+		sample.long_label uninfected tonsil innate lymphoid cells ILC3 from donor T86
 		sample.short_label tonsil ILC3 cells
 
 			assay.sra_experiment SRX1082392
@@ -4018,7 +4019,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating NK
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127- CD56+ NKG2A+
-		sample.long_label innate tonsil natural killer cells from donor T86
+		sample.long_label uninfected tonsil natural killer cells from donor T86
 		sample.short_label tonsil NK cells
 
 			assay.sra_experiment SRX1082405
@@ -4231,7 +4232,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating ILC2
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2+
-		sample.long_label innate tonsil innate lymphoid cells ILC2 from donor T86
+		sample.long_label uninfected tonsil innate lymphoid cells ILC2 from donor T86
 		sample.short_label tonsil ILC2 cells
 
 			assay.sra_experiment SRX1082470
@@ -4764,7 +4765,7 @@ project.uuid dc60642c-8848-4758-b4e5-72074e03906b
 
 		sample.characteristics_facs_gating ILC1
 		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2-
-		sample.long_label innate tonsil innate lymphoid cells ILC1 from donor T86
+		sample.long_label uninfected tonsil innate lymphoid cells ILC1 from donor T86
 		sample.short_label tonsil ILC1 cells
 
 			assay.sra_experiment SRX1082541
