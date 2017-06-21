@@ -23,6 +23,7 @@ import dateutil.parser
 import ast
 import sys
 import boto
+from boto.s3.key import Key
 from urllib.request import urlopen, urlretrieve
 #from urllib2 import urlopen, Request
 from subprocess import Popen, PIPE
