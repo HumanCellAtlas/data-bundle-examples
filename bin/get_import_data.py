@@ -87,7 +87,7 @@ class GetImportData:
     def upload(self, path):
         print("UPLOADING: "+path+" to "+self.output_s3_dir+"/"+path)
         (bucket, key) = self.parse_bucket_key(self.output_s3_dir+"/"+path)
-        file = open(self.output_s3_dir+"/"+path, 'r+')
+        file = open(path, 'r+')
         if (self.test):
             print("TESTING WON'T UPLOAD")
         elif (self.upload_to_s3(file, bucket, key)):
