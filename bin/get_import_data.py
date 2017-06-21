@@ -75,7 +75,7 @@ class GetImportData:
                     if (self.test):
                         print("TESTING WON'T DOWNLOAD")
                     else:
-                        if (!os.path.exists(directory+"/"+name)):
+                        if (not os.path.exists(directory+"/"+name)):
                             urlretrieve(str(dir+"/"+name), directory+"/"+name)
                         self.upload(directory+"/"+name)
                         os.remove(directory+"/"+name)
