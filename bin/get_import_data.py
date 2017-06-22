@@ -29,6 +29,9 @@ from boto.s3.key import Key
 from urllib.request import urlopen, urlretrieve
 #from urllib2 import urlopen, Request
 from subprocess import Popen, PIPE
+import mimetypes
+from checksumming_io.checksumming_io import ChecksummingSink
+from s3_examples import S3ExampleBundle, S3ExampleFile
 
 
 class GetImportData:
@@ -90,6 +93,8 @@ class GetImportData:
                 print ("ERROR: "+error)
                 # just exit with non-zero status
                 sys.exit(1)
+        # now try tagging, this needs to be reworked so tagging happens *before* upload to avoid double-download!!
+
 
     def upload(self, path):
         print("UPLOADING: "+path+" to "+self.output_s3_dir+"/"+path)
@@ -164,8 +169,69 @@ class GetImportData:
         file.seek(0)
 
         if sent == size:
+            # can I add the call here?
+            m = re.search('^data-bundles-examples/(\S+)$', key)
+            print ("THE BUNDLE LOCATION: "+m.group(1))
+            for bundle in S3ExampleBundle.some(m.group(1)):
+                print("Bundle: ", bundle.path)
+                print(type(bundle))
+                sys.exit(1)
+                #self.add_tagging_for_bundle(bundle)
             return True
         return False
+
+    def run_some(self, bundle_path):
+        for bundle in S3ExampleBundle.some(bundle_path):
+            print("Bundle: ", bundle.path)
+            print(type(bundle))
+            #sys.exit(1)
+            self.add_tagging_for_bundle(bundle)
+
+    def add_tagging_for_bundle(self, bundle: S3ExampleBundle):
+        for file in bundle.files:
+            print("    File: ", file.path)
+            print(type(file))
+            sys.exit(1)
+            #self.add_tagging_for_file(file)
+
+    def add_tagging_for_file(self, file: S3ExampleFile):
+        current_tags = file.get_tagging()
+        new_tags = {}
+        new_tags.update(self.additional_checksum_tags(file, current_tags))
+        new_tags.update(self.additional_mime_tags(file, current_tags))
+        if new_tags:
+            print("        Adding tags: ", list(new_tags.keys()))
+            all_tags = dict(current_tags, **new_tags)
+            file.add_tagging(all_tags)
+
+    def additional_checksum_tags(self, file: S3ExampleFile, current_tags: dict):
+        if self.checksum_tags_are_all_present(current_tags):
+            return {}
+        else:
+            sums = self.compute_checksums(file)
+            return {
+                'hca-dss-s3_etag': sums['s3_etag'],
+                'hca-dss-sha1':    sums['sha1'],
+                'hca-dss-sha256':  sums['sha256'],
+                'hca-dss-crc32c':  sums['crc32c'],
+            }
+
+    def additional_mime_tags(self, file: S3ExampleFile, current_tags: dict):
+        if 'content-type' in current_tags:
+            return {}
+        else:
+            return {'content-type': mimetypes.guess_type(file.path)[0]}
+
+    def checksum_tags_are_all_present(self, actual_tags: dict) -> bool:
+        # TODO try python has map(), filter(), reduce(), all()
+        tags_present = [tag for tag in self.CHECKSUM_TAGS if tag in actual_tags.keys()]
+        return len(tags_present) == len(self.CHECKSUM_TAGS)
+
+    @staticmethod
+    def compute_checksums(file: S3ExampleFile) -> dict:
+        with ChecksummingSink() as sink:
+            file.s3object().download_fileobj(sink)
+            return sink.get_checksums()
 
 # run the class
 if __name__ == '__main__':

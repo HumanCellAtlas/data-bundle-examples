@@ -16,12 +16,23 @@ class AddS3HcaTags:
     def run(self):
         for bundle in S3ExampleBundle.all():
             print("Bundle: ", bundle.path)
+            print(type(bundle))
+            #sys.exit(1)
+            self.add_tagging_for_bundle(bundle)
+
+    def run_some(self, bundle_path):
+        for bundle in S3ExampleBundle.some(bundle_path):
+            print("Bundle: ", bundle.path)
+            print(type(bundle))
+            #sys.exit(1)
             self.add_tagging_for_bundle(bundle)
 
     def add_tagging_for_bundle(self, bundle: S3ExampleBundle):
         for file in bundle.files:
             print("    File: ", file.path)
-            self.add_tagging_for_file(file)
+            print(type(file))
+            sys.exit(1)
+            #self.add_tagging_for_file(file)
 
     def add_tagging_for_file(self, file: S3ExampleFile):
         current_tags = file.get_tagging()

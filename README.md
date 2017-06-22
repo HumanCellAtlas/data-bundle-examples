@@ -22,10 +22,10 @@ Downloads the fastq files associated with each hand-curated example:
 
 For the import directory structure, first extract the metadata files (see above) and then run:
 
-    brew install python3 # if you're on a mac
-    virtualenv -p python3 env
+    brew install python3 # if you're on a mac, make sure brew upgrade
+    virtualenv -p python3.6 env
     source env/bin/activate
-    pip install boto jsonschema
+    pip install crcmod==1.7 boto jsonschema
     python bin/get_import_data.py
 
 ## Smartseq2

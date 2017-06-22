@@ -6,7 +6,7 @@ from .s3_example_file import S3ExampleFile
 class S3ExampleBundle:
 
     BUNDLE_EXAMPLES_BUCKET = 'hca-dss-test-src'
-    BUNDLE_EXAMPLES_ROOT = 'data-bundle-examples'
+    BUNDLE_EXAMPLES_ROOT = 'data-bundles-examples'
     BUNDLE_EXAMPLES_BUNDLE_LIST_PATH = f"{BUNDLE_EXAMPLES_ROOT}/import/bundle_list"
 
     s3 = boto3.resource('s3')
@@ -17,6 +17,10 @@ class S3ExampleBundle:
         self.path = bundle_path
         self.uuid = str(uuid.uuid4())
         self.files = self._get_s3_files()
+
+    @classmethod
+    def some(cls, bundle_path):
+        yield cls(bundle_path)
 
     @classmethod
     def all(cls):
