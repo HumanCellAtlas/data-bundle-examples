@@ -1,14 +1,16 @@
 project.title "Single Cell RNA-seq Study of Midbrain and Dopaminergic Neuron Development in Mouse, Human, and Stem Cells"
 project.id GSE76381
-assay.rna.prep transcriptomic
-assay.rna.primer cDNA
+project.geo_doc_id 200076381
+assay.single_cell.method Fluidigm C1
+assay.seq.paired_ends no
+assay.rna.primer poly-dt
 assay.seq.machine Illumina HiSeq 2000
 assay.seq.molecule polyA RNA
-assay.seq.prep RNA-Seq
 project.contact.address "Scheeles väg 1; Stockholm,  171 65 Sweden"
 project.contact.city Stockholm
 project.contact.country Sweden
 project.contact.department Medical Biochemistry and Biophysics
+project.contact.email sten.linnarsson@ki.se
 project.contact.institute Karolinska Institutet
 project.contact.laboratory Molecular Neurobiology
 project.contact.name "Sten,,Linnarsson"
@@ -37,13 +39,14 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 	sample.donor.species Homo sapiens
 
 		sample.body_part.name ventral midbrain
+		sample.body_part.organ brain
 		sample.characteristics_cef EmbryoMoleculeCounts.cef
 
 			sample.long_label ventral midbrain from 6 week old embryo
 			sample.short_label 6w emb vent midbrain
 			sample.characteristics_time 6w
 			sample.donor.age 6
-			sample.donor.age_units week
+			sample.donor.age_unit week
 			sample.donor.life_stage embryo
 			sample.donor.sex unknown
 
@@ -1781,7 +1784,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.long_label ventral midbrain from 7 week old embryo
 			sample.short_label 7w emb vent midbrain
 			sample.donor.age 7
-			sample.donor.age_units week
+			sample.donor.age_unit week
 			sample.donor.life_stage embryo
 			sample.donor.sex mixed
 
@@ -2581,7 +2584,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.long_label ventral midbrain from 8 week old embryo
 			sample.short_label 8w emb vent midbrain
 			sample.donor.age 8
-			sample.donor.age_units week
+			sample.donor.age_unit week
 			sample.donor.life_stage embryo
 			sample.donor.sex unknown
 
@@ -4585,7 +4588,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.long_label ventral midbrain from 9 week old embryo
 			sample.short_label 9w emb vent midbrain
 			sample.donor.age 9
-			sample.donor.age_units week
+			sample.donor.age_unit week
 			sample.donor.life_stage embryo
 			sample.donor.sex unknown
 
@@ -6541,7 +6544,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.long_label ventral midbrain from 10 week old embryo
 			sample.short_label 10w emb vent midbrain
 			sample.donor.age 10
-			sample.donor.age_units week
+			sample.donor.age_unit week
 			sample.donor.life_stage embryo
 			sample.donor.sex unknown
 
@@ -9619,7 +9622,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.long_label ventral midbrain from 11 week old embryo
 			sample.short_label 11w emb vent midbrain
 			sample.donor.age 11
-			sample.donor.age_units week
+			sample.donor.age_unit week
 			sample.donor.life_stage embryo
 			sample.donor.sex unknown
 
@@ -12020,8 +12023,9 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 					sample.uuid c1998318-5538-4183-872b-bc6eb7564171
 
 		sample.body_part.name hES DA commercial
+		sample.body_part.organ embryo
 		sample.characteristics_cef iPSMoleculeCounts.cef
-		sample.donor.life_stage cell_line
+		sample.donor.life_stage cell line
 
 			sample.characteristics_time 42d
 			sample.long_label dopaminergic neurons (iCell DopaNeurons) cultured 5 days
@@ -14080,8 +14084,9 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 					sample.uuid df064cdc-ea3e-47a3-919d-26625bf97c0c
 
 		sample.body_part.name embryonic stem cells
+		sample.body_part.organ embryo
 		sample.characteristics_cef ESMoleculeCounts.cef
-		sample.donor.life_stage cell_line
+		sample.donor.life_stage cell line
 
 			sample.characteristics_time 0d
 			sample.long_label human embyonic stem cells undifferentiated
@@ -24446,8 +24451,9 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 	sample.donor.age_unit day
 
 		sample.body_part.name ventral midbrain
+		sample.body_part.organ brain
 		sample.characteristics_cef MouseEmbryoMoleculeCounts.cef
-		sample.life_stage embryo
+		sample.donor.life_stage embryo
 
 			sample.characteristics_time e11.5
 			sample.donor.age 11.5
@@ -26923,7 +26929,6 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 
 				sample.characteristics_plate 1772071049
 				sample.donor.sex unknown
-				sample.donor.strain ?
 
 					sample.characteristics_inferred_cell_type mGaba1b
 					sample.geo_sample GSM2272916
@@ -27149,7 +27154,6 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 
 				sample.characteristics_plate 1772071050
 				sample.donor.sex unknown
-				sample.donor.strain ?
 
 					sample.characteristics_inferred_cell_type mNbML3
 					sample.geo_sample GSM2272953
@@ -31298,7 +31302,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 					sample.uuid 2eaeb8d4-c5e6-42da-8b7f-0c5272f9cf2f
 
 				sample.characteristics_plate 1772066093
-				sample.donor.sex F
+				sample.donor.sex female
 				sample.donor.strain CD1
 
 					sample.characteristics_inferred_cell_type mUnclassified
@@ -36110,6 +36114,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 					sample.uuid 4307c06e-f2e0-4231-9a8f-d3b09990a746
 
 		sample.body_part.name substantia nigra-ventral tegmental area
+		sample.body_part.organ brain
 		sample.characteristics_cef MouseAdultDAMoleculeCounts.cef
 		sample.donor.life_stage postpartum
 
@@ -36117,7 +36122,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.donor.age 19
 			sample.long_label substantia nigra-ventral tegmental area from 19 day old mouse
 			sample.short_label p19 substantia nigra
-			sample.donor.sex F
+			sample.donor.sex female
 			sample.donor.strain CD1
 
 				sample.characteristics_inferred_cell_type DA-VTA3
@@ -36667,7 +36672,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.donor.age 27
 			sample.long_label substantia nigra-ventral tegmental area from 27 day old mouse
 			sample.short_label p27 substantia nigra
-			sample.donor.sex M
+			sample.donor.sex male
 			sample.donor.strain CD1
 
 				sample.characteristics_inferred_cell_type DA-VTA1
@@ -36683,7 +36688,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.donor.age 28
 			sample.long_label substantia nigra-ventral tegmental area from 28 day old mouse
 			sample.short_label p28 substantia nigra
-			sample.donor.sex M
+			sample.donor.sex male
 			sample.donor.strain BL6/Tomato/DAT-Cre
 
 				sample.characteristics_plate 1772072122
@@ -37190,7 +37195,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.donor.age 56
 			sample.long_label substantia nigra-ventral tegmental area from 56 day old mouse
 			sample.short_label p56 substantia nigra
-			sample.donor.sex M
+			sample.donor.sex male
 			sample.donor.strain BL6/Tomato/DAT-Cre
 
 				sample.characteristics_plate 1772082029
