@@ -17,7 +17,11 @@ Convert this to a SRX/SRR two column file as so
 Convert to tagStorm for curation with
 	geoStormToHcaStorm geo.tags srxToSrr.tab srr.tags
 	tagStormToTab srr.tags srr.tsv
-	tagStormFromTab srr.tsv uncurated.tags -noHoist -div=project.title,sample.donor.species,sample.donor.age,sample.body_part.name,sample.geo_sample
+	tagStormFromTab srr.tsv foo1.tags -noHoist -div=project.title,sample.donor.species,sample.short_label,sample.donor.age,sample.geo_sample t
+	tagStormJoinTab sample.geo_sample plate.tsv foo1.tags foo2.tags -append
+	tagStormJoinTab sample.geo_sample sample.geo_sample gsm_srx_srr.tsv foo2.tags foo3.tags -append
+	tagStormToTab foo3.tags foo3.tsv
+	tagStormFromTab foo3.tsv uncurated.tags -noHoist -div=project.title,sample.donor.species,sample.short_label,sample.donor.age,sample.characteristics_plate,sample.geo_sample 
 	cp uncurated.tags curated.tags
 
 Edit curated tags.  
