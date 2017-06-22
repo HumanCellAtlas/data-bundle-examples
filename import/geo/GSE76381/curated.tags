@@ -32,7 +32,6 @@ sample.last_update_date 2017-01-18
 sample.protocol_types growth protocol,nucleic acid library construction protocol
 sample.protocols "Wild-type CD1 mice were mated overnight and noon of the day was considered E0.5. Mothers were killed and embryos were dissected out of the uterine horn between the time points E11.5 and E18.5. Adult CD1 animals were dissected at P19 to P27. Human tissue was collected at Addenbrooke’s Hospital (Cambridge, UK) and dissected in HIBERNATE medium (Gibco). Samples were shipped overnight on ice (in HIBERNATE solution) to Sweden. For the embryonic stem cells (hES DA),  iCell DopaNeurons from Cellular Dynamics International (DNC-301030001, lot #6003358) were differentiated following the manufacturer’s recommendations and harvested at day 5 and 21.","Human embryo ventral midbrain dissection was performed on ice in neuronal N2 culturing media. 10-17  tissue pieces were collected for each experiment. The tissue pieces were dissociated using the Papain dissociation system (Worthington) following manufacturers recommendations, adjusting incubation time based on tissue piece size to 25-45 mins. Using glass pipettes of increasingly smaller tip diameter, the cell suspension was then filtered with 20um filter (Partec) and cells kept in N2 media, and cells loaded into C1 chips for cell capture."
 sample.submission_date 2016-08-11
-sample.supplementary_files NONE
 project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 
 	sample.donor.ncbi_taxon 9606
@@ -48713,7 +48712,8 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.long_label substantia nigra-ventral tegmental area from 28 day old mouse
 			sample.short_label p28 substantia nigra
 			sample.donor.sex male
-			sample.donor.strain BL6/Tomato/DAT-Cre
+			sample.donor.strain C57BL/6
+			sample.donor.genotype Tomato/DAT-Cre+
 
 				sample.characteristics_plate 1772072122
 
@@ -49386,7 +49386,8 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 			sample.long_label substantia nigra-ventral tegmental area from 56 day old mouse
 			sample.short_label p56 substantia nigra
 			sample.donor.sex male
-			sample.donor.strain BL6/Tomato/DAT-Cre
+			sample.donor.strain C57BL/6
+			sample.donor.genotype Tomato/DAT-Cre+
 
 				sample.characteristics_plate 1772082029
 
