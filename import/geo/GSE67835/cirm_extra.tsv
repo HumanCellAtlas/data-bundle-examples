@@ -1,0 +1,467 @@
+#sample.geo_sample	sample.donor.age	sample.donor.age_unit	sample.donor.sex	sample.donor.life_stage	sample.donor.id	assay.single_cell.method	sample.body_part.organ	sample.long_label
+GSM1657871	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657872	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657873	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657874	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657875	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657876	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657877	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657878	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657879	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657880	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657881	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657882	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657883	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657884	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657885	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657886	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657887	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657888	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657889	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657890	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657891	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657892	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657893	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657894	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657895	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657896	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657897	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657898	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657899	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657900	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657901	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657902	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657903	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657904	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657905	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657906	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657907	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657908	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657909	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657910	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657911	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657912	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657913	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657914	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657915	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657916	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657917	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657918	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657919	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657920	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657921	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657922	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657923	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657924	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657925	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657926	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657927	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657928	54	year	female	postpartum	AB_S8	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1657929	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657930	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657931	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657932	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657933	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657934	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657935	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657936	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657937	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657938	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657939	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657940	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657941	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657942	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657943	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657944	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657945	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657946	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657947	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657948	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657949	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657950	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657951	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657952	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657953	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657954	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657955	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657956	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657957	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657958	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657959	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657960	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657961	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657962	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657963	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657964	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657965	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657966	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657967	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657968	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657969	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657970	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657971	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657972	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657973	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657974	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657975	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657976	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657977	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657978	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657979	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657980	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657981	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657982	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657983	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657984	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657985	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657986	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657987	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657988	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657989	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657990	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657991	37	year	female	postpartum	AB_S11	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657992	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657993	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657994	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657995	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657996	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657997	63	year	male	postpartum	AB_S2	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657998	63	year	male	postpartum	AB_S2	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1657999	63	year	male	postpartum	AB_S2	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658000	63	year	male	postpartum	AB_S2	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658001	63	year	male	postpartum	AB_S2	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658002	22	year	male	postpartum	AB_S3	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658003	22	year	male	postpartum	AB_S3	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658004	22	year	male	postpartum	AB_S3	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658005	22	year	male	postpartum	AB_S3	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658006	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658007	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658008	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658009	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658010	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658011	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658012	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658013	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658014	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658015	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658016	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658017	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658018	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658019	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658020	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658021	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658022	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658023	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658024	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658025	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658026	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658027	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658028	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658029	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658030	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658031	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658032	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658033	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658034	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658035	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658036	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658037	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658038	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658039	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658040	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658041	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658042	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658043	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658044	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658045	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658046	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658047	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658048	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658049	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658050	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658051	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658052	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658053	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658054	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658055	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658056	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658057	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658058	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658059	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658060	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658061	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658062	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658063	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658064	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658065	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658066	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658067	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658068	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658069	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658070	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658071	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658072	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658073	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658074	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658075	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658076	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658077	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658078	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658079	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658080	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658081	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658082	50	year	male	postpartum	AB_S4	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658083	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658084	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658085	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658086	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658087	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658088	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658089	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658090	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658091	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658092	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658093	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658094	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658095	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658096	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658097	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658098	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658099	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658100	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658101	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658102	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658103	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658104	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658105	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658106	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658107	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658108	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658109	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658110	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658111	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658112	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658113	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658114	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658115	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658116	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658117	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658118	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658119	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658120	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658121	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658122	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658123	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658124	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658125	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658126	63	year	male	postpartum	AB_S5	Fluidigm C1 IFC	brain	hippocampus - healthy tissue from epileptic patient
+GSM1658127	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658128	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658129	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658130	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658131	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658132	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658133	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658134	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658135	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658136	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658137	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658138	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658139	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658140	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658141	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658142	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658143	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658144	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658145	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658146	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658147	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658148	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658149	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658150	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658151	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658152	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658153	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658154	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658155	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658156	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658157	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658158	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658159	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658160	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658161	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658162	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658163	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658164	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658165	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658166	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658167	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658168	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658169	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658170	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658171	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658172	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658173	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658174	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658175	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658176	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658177	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658178	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658179	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658180	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658181	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658182	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658183	21	year	female	postpartum	AB_S7	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658184	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658185	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658186	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658187	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658188	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658189	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658190	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658191	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658192	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658193	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658194	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658195	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658196	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658197	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658198	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658199	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658200	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658201	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658202	47	year	male	postpartum	AB_S1	Fluidigm C1 IFC	brain	temporal lobe cortex - healthy tissue from epileptic patient
+GSM1658203	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658204	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658205	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658206	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658207	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658208	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658209	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658210	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658211	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658212	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658213	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658214	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658215	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658216	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658217	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658218	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658219	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658220	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658221	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658222	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658223	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658224	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658225	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658226	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658227	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658228	17	week		embryo	FB_S1	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658229	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658230	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658231	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658232	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658233	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658234	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658235	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658236	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658237	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658238	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658239	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658240	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658241	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658242	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658243	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658244	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658245	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658246	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658247	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658248	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658249	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658251	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658253	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658255	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658257	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658259	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658262	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658264	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658266	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658268	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658270	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658272	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658275	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658277	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658279	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658281	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658284	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658286	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658288	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658290	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658292	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658294	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658297	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658299	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658301	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658304	17	week		embryo	FB_S2	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658305	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658306	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658307	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658308	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658309	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658310	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658311	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658312	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658313	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658314	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658315	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658316	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658317	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658318	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658319	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658320	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658321	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658322	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658323	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658324	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658325	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658326	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658327	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658328	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658329	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658330	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658331	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658332	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658333	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658334	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658335	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658336	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658337	17	week		embryo	FB_S3	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658338	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658339	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658340	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658341	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658342	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658343	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658344	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658345	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658346	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658347	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658348	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658349	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658350	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658351	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658352	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658353	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658354	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658355	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658356	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658357	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658358	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658359	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658360	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658361	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658362	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658363	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658364	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658365	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex
+GSM1658366	17	week		embryo	FB_S6	Fluidigm C1 IFC	brain	fetal brain cortex

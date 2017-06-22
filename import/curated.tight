@@ -6,7 +6,7 @@ assay.rna.primer $ poly-dt random
 assay.rna.spike_in $ *
 assay.rna.spike_in_dilution # 1 100000
 assay.rna.strand $ both first
-assay.seq.machine $ "Illumina HiSeq 2000" "Illumina HiSeq 2500" "Illumina HiSeq 4000" "Illumina NextSeq 500"
+assay.seq.machine $ "Illumina HiSeq 2000" "Illumina HiSeq 2500" "Illumina HiSeq 4000" "Illumina NextSeq 500" "Illumina MiSeq"
 !assay.seq.molecule $ RNA "polyA RNA" "total RNA"
 !assay.seq.paired_ends $ index1_reads2 no yes
 assay.seq.prep $ "DNA Library Prep kit (Nextera XT; Illumina)" "Nextera XT" TruSeq "modified Nextera XT"
@@ -67,7 +67,7 @@ sample.biosd_sample $ *
 sample.body_part.cell_count % 0 100
 !sample.body_part.name $ *
 sample.body_part.ontology $ *
-!sample.body_part.organ $ blood bone brain embryo eye liver pancreas skin
+!sample.body_part.organ $ blood bone brain embryo eye liver pancreas skin tonsil
 sample.body_part.source $ "Proto or NDRI" "Prodo Laboratories Inc."
 sample.cell_line $ AB2.2 H9 "iPSC 409B2"
 sample.characteristics_* $ *
@@ -76,16 +76,16 @@ sample.donor.age $ *
 sample.donor.age_unit $ day week year
 sample.donor.body_mass_index % 1 100
 sample.donor.development_stage $ "2-cell blastomeres" "4-cell blastomeres" "8-cell blastomeres" "fertilized oocyte" "late blastocyst" morula oocyte zygote
-sample.donor.disease $ normal "type II diabetes mellitus" "type I diabetes mellitus"
+sample.donor.disease $ normal "type II diabetes mellitus" "type I diabetes mellitus" "epilepsy" "obstructive sleep apnea"
 sample.donor.ethnicity $ *
-sample.donor.genotype $ "AAV-GFP+ RIP-Cre+" Vsx2-GFP
+sample.donor.genotype $ "AAV-GFP+ RIP-Cre+" Vsx2-GFP "Tomato/DAT-Cre+"
 sample.donor.id $ *
 sample.donor.life_stage $ adult "cell line" child embryo organoid postpartum
 sample.donor.medication $ *
 sample.donor.ncbi_taxon # 1 100000
-sample.donor.sex $ female male mixed
+sample.donor.sex $ female male mixed unknown
 !sample.donor.species $ "Homo sapiens" "Mus musculus"
-sample.donor.strain $ "(C57BL/6 x DBA)F2" C57BL/6 "C57BL/6J (mother) x CAST/EiJ (father)" "CAST/EiJ (mother) x C57BL/6J (father)" "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ" CAST/EiJ_x_C57BL/6J ICR
+sample.donor.strain $ "(C57BL/6 x DBA)F2" C57BL/6 "C57BL/6J (mother) x CAST/EiJ (father)" "CAST/EiJ (mother) x C57BL/6J (father)" "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ" CAST/EiJ_x_C57BL/6J ICR CD1 C57BL/6
 sample.donor.uuid $ ????????-????-????-????-????????????
 sample.ena_sample $ ERS*
 sample.geo_sample $ GSM*

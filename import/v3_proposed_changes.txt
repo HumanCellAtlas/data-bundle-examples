@@ -1,28 +1,11 @@
 # Proposed changes that overall would
-#   1) Move external database ids all to an extern.json file to declutter things
-#   2) Move the cell.json object to a cell subobject inside of sample.json
-#   3) Consolodate the offset/size/read fields into a single barcode subobject.
-#   4) Change the "wildcard" field from sample.characteristics_* to x.*
-assay.ena_experiment	extern.ena.experiment
-assay.ena_run	extern.ena.run
-assay.sra_experiment	extern.sra.experiment
-assay.sra_run	extern.sra.run
-project.array_express.accession	extern.array_express.accession	
-project.array_express.experiment_type	extern.array_express.experiment_type
-project.array_express.related_experiment	extern.array_express.related_experiment
-project.array_express.term_source_file	extern.array_express.term_source_file
-project.array_express.term_source_name	extern.array_express.term_source_name
-project.ddjb_trace_project	extern.ddjb_trace_project
-project.geo_doc_id	extern.geo.doc_id
-project.geo_parent_series extern.geo.parent
-project.geo_series	extern.geo.series
-project.ncbi_bioproject	extern.ncbi_bioproject
-project.sra_project	extern.sra.project
-sample.biosd_sample	extern.ebi_biosd_sample
-sample.donor.ncbi_taxon extern.ncbi_taxon
-sample.ena_sample	extern.ena.sample
-sample.geo_sample	extern.geo.sample
-sample.ncbi_biosample	extern.ncbi_biosample
+#   1) Move the cell.json object to a cell subobject inside of sample.json
+#   2) Consolodate the offset/size/read fields into a single barcode subobject.
+#   3) Change the "wildcard" field from sample.characteristics_* to x.*
+#   4) Put three fields that start project.geo_ into project.geo. instead - similar to 
+#      how arrayExpress's five project fields are handled.
+#   5) Add a sample.batch?  sample.plate?
+#
 cell.cell_cycle	sample.cell.cell_cycle
 cell.id	sample.cell.id
 cell.type	sample.cell.type
@@ -33,3 +16,6 @@ assay.seq.umi_barcode_size	assay.seq.umi_barcode.size
 assay.single_cell.cell_barcode_offset	assay.single_cell.cell_barcode.offset
 assay.single_cell.cell_barcode_read	assay.single_cell.cell_barcode.read
 assay.single_cell.cell_barcode_size	assay.single_cell.cell_barcode.size
+project.geo_doc_id	project.geo.doc_id
+project.geo_parent_series	project.geo.parent_series
+project.geo_series	project.geo.series

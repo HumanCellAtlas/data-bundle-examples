@@ -1,5 +1,6 @@
 project.title RNA Sequencing of Single Human Islet Cells Reveals Type 2 Diabetes Genes
 project.id GSE81608
+project.geo_doc_id 200081608
 assay.rna.prep SMARTer Ultra Low RNA Kit
 assay.rna.primer random
 assay.seq.machine Illumina HiSeq 2500
