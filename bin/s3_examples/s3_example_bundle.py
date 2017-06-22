@@ -26,6 +26,6 @@ class S3ExampleBundle:
             yield cls(bundle_path)
 
     def _get_s3_files(self):
-        bundle_folder_path = f"{self.BUNDLE_EXAMPLES_ROOT}/{self.path}"
+        bundle_folder_path = f"{self.BUNDLE_EXAMPLES_ROOT}/{self.path}/"
         object_summaries = self._examples_s3_bucket.objects.filter(Prefix=bundle_folder_path)
         return [S3ExampleFile(objectSummary, self) for objectSummary in object_summaries]
