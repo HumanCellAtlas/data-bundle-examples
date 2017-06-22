@@ -1,5 +1,6 @@
 project.title A survey of human brain transcriptome diversity at the single cell level
 project.id GSE67835
+project.geo_doc_id 200067835
 assay.rna.prep C1 autoprep
 assay.rna.primer poly-dt
 assay.seq.molecule total RNA
