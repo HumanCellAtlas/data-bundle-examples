@@ -1,5 +1,6 @@
 project.title "Single cell RNA-seq of human pancreatic endocrine cells from Juvenile, adult control and type 2 diabetic donors."
 project.id GSE83139
+project.geo_doc_id 200083139
 assay.rna.primer random
 assay.seq.molecule polyA RNA
 assay.seq.paired_ends no
