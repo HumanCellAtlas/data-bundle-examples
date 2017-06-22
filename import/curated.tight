@@ -83,9 +83,9 @@ sample.donor.id $ *
 sample.donor.life_stage $ adult "cell line" child embryo organoid postpartum
 sample.donor.medication $ *
 sample.donor.ncbi_taxon # 1 100000
-sample.donor.sex $ female male mixed
+sample.donor.sex $ female male mixed unknown
 !sample.donor.species $ "Homo sapiens" "Mus musculus"
-sample.donor.strain $ "(C57BL/6 x DBA)F2" C57BL/6 "C57BL/6J (mother) x CAST/EiJ (father)" "CAST/EiJ (mother) x C57BL/6J (father)" "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ" CAST/EiJ_x_C57BL/6J ICR
+sample.donor.strain $ "(C57BL/6 x DBA)F2" C57BL/6 "C57BL/6J (mother) x CAST/EiJ (father)" "CAST/EiJ (mother) x C57BL/6J (father)" "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ" CAST/EiJ_x_C57BL/6J ICR CD1 "BL6/Tomato/DAT-Cre"
 sample.donor.uuid $ ????????-????-????-????-????????????
 sample.ena_sample $ ERS*
 sample.geo_sample $ GSM*
