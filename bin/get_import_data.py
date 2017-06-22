@@ -5,7 +5,9 @@
     broconno@ucsc.edu
     This module first crawsl the filesystem looking for manifest.json files, parses
     them, finds data to download, and downloads them.
-    Example: python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples --test
+    Example: python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples --tmp-dir /tmp --test
+    For where Clay was working (note plural "bundles"):
+    python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundles-examples --tmp-dir /tmp --test
     Tested with Python 3.6.0
 """
 
@@ -36,6 +38,7 @@ class GetImportData:
         parser.add_argument('--output-s3-dir', required=True)
         parser.add_argument('--test', action='store_true', default=False)
         parser.add_argument('--cleanup', action='store_true', default=False)
+        parser.add_argument('--tmp-dir', required=True)
 
         # get args
         args = parser.parse_args()
@@ -44,6 +47,7 @@ class GetImportData:
         self.conn = boto.connect_s3()
         self.test = args.test
         self.cleanup = args.cleanup
+        self.tmp_dir = args.tmp_dir
         # tracking the number of files that are missing from S3
         self.missing_files = 0
 
@@ -51,9 +55,8 @@ class GetImportData:
         self.run()
 
 
-
     def run(self):
-        # walk directory structure, parse JSONs, put in single json, write ES index file
+        # walk directory structure, parse JSONs, download data files, upload to S3 while tagging
         for root, dirs, files in os.walk(self.input_dir):
             for file in files:
                 if file == "manifest.json":
