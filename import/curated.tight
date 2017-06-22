@@ -78,14 +78,14 @@ sample.donor.body_mass_index % 1 100
 sample.donor.development_stage $ "2-cell blastomeres" "4-cell blastomeres" "8-cell blastomeres" "fertilized oocyte" "late blastocyst" morula oocyte zygote
 sample.donor.disease $ normal "type II diabetes mellitus" "type I diabetes mellitus" "epilepsy" "obstructive sleep apnea"
 sample.donor.ethnicity $ *
-sample.donor.genotype $ "AAV-GFP+ RIP-Cre+" Vsx2-GFP
+sample.donor.genotype $ "AAV-GFP+ RIP-Cre+" Vsx2-GFP "Tomato/DAT-Cre+"
 sample.donor.id $ *
 sample.donor.life_stage $ adult "cell line" child embryo organoid postpartum
 sample.donor.medication $ *
 sample.donor.ncbi_taxon # 1 100000
 sample.donor.sex $ female male mixed unknown
 !sample.donor.species $ "Homo sapiens" "Mus musculus"
-sample.donor.strain $ "(C57BL/6 x DBA)F2" C57BL/6 "C57BL/6J (mother) x CAST/EiJ (father)" "CAST/EiJ (mother) x C57BL/6J (father)" "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ" CAST/EiJ_x_C57BL/6J ICR CD1 "BL6/Tomato/DAT-Cre"
+sample.donor.strain $ "(C57BL/6 x DBA)F2" C57BL/6 "C57BL/6J (mother) x CAST/EiJ (father)" "CAST/EiJ (mother) x C57BL/6J (father)" "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ" CAST/EiJ_x_C57BL/6J ICR CD1 C57BL/6
 sample.donor.uuid $ ????????-????-????-????-????????????
 sample.ena_sample $ ERS*
 sample.geo_sample $ GSM*
