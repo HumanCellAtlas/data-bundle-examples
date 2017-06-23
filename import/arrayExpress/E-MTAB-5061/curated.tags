@@ -890,7 +890,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630080
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1630080/ERR1630080.fastq.gz
 		assay.submitted_file_names AZ_F5.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437088
 		sample.ena_sample ERS1348537
@@ -3394,7 +3394,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630282
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1630282/ERR1630282.fastq.gz
 		assay.submitted_file_names HP1502401_H18.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437290
 		sample.ena_sample ERS1348739
@@ -7245,7 +7245,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630590
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1630590/ERR1630590.fastq.gz
 		assay.submitted_file_names HP1504101T2D_F18.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437598
 		sample.ena_sample ERS1349047
@@ -10273,7 +10273,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630837
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1630837/ERR1630837.fastq.gz
 		assay.submitted_file_names HP1504101T2D_P3.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437845
 		sample.ena_sample ERS1349294
@@ -10533,7 +10533,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630858
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1630858/ERR1630858.fastq.gz
 		assay.submitted_file_names HP1504901_A22.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437866
 		sample.ena_sample ERS1349315
@@ -10850,7 +10850,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630884
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1630884/ERR1630884.fastq.gz
 		assay.submitted_file_names HP1504901_B24.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437892
 		sample.ena_sample ERS1349341
@@ -11799,7 +11799,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1630963
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1630963/ERR1630963.fastq.gz
 		assay.submitted_file_names HP1504901_E9.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4437971
 		sample.ena_sample ERS1349420
@@ -12821,7 +12821,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631046
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631046/ERR1631046.fastq.gz
 		assay.submitted_file_names HP1504901_I19.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438054
 		sample.ena_sample ERS1349503
@@ -13094,7 +13094,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631069
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631069/ERR1631069.fastq.gz
 		assay.submitted_file_names HP1504901_J18.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438077
 		sample.ena_sample ERS1349526
@@ -13179,7 +13179,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631076
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631076/ERR1631076.fastq.gz
 		assay.submitted_file_names HP1504901_J24.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438084
 		sample.ena_sample ERS1349533
@@ -13874,7 +13874,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631134
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631134/ERR1631134.fastq.gz
 		assay.submitted_file_names HP1504901_M11.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438142
 		sample.ena_sample ERS1349591
@@ -13968,7 +13968,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631142
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631142/ERR1631142.fastq.gz
 		assay.submitted_file_names HP1504901_M19.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438150
 		sample.ena_sample ERS1349599
@@ -14294,7 +14294,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631169
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631169/ERR1631169.fastq.gz
 		assay.submitted_file_names HP1504901_N21.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438177
 		sample.ena_sample ERS1349626
@@ -14980,7 +14980,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631226
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1631226/ERR1631226.fastq.gz
 		assay.submitted_file_names HP1504901_P9.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438234
 		sample.ena_sample ERS1349683
@@ -15360,7 +15360,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631257
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1631257/ERR1631257.fastq.gz
 		assay.submitted_file_names HP1506401_B15.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438265
 		sample.ena_sample ERS1349714
@@ -15431,7 +15431,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631263
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1631263/ERR1631263.fastq.gz
 		assay.submitted_file_names HP1506401_B20.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438271
 		sample.ena_sample ERS1349720
@@ -20748,7 +20748,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631705
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631705/ERR1631705.fastq.gz
 		assay.submitted_file_names HP1507101_D9.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438713
 		sample.ena_sample ERS1350162
@@ -21482,7 +21482,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631765
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1631765/ERR1631765.fastq.gz
 		assay.submitted_file_names HP1507101_G2.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438773
 		sample.ena_sample ERS1350222
@@ -22257,7 +22257,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631829
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1631829/ERR1631829.fastq.gz
 		assay.submitted_file_names HP1507101_J12.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438837
 		sample.ena_sample ERS1350286
@@ -22561,7 +22561,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631854
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631854/ERR1631854.fastq.gz
 		assay.submitted_file_names HP1507101_K13.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438862
 		sample.ena_sample ERS1350311
@@ -22654,7 +22654,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631862
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1631862/ERR1631862.fastq.gz
 		assay.submitted_file_names HP1507101_K20.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438870
 		sample.ena_sample ERS1350319
@@ -22796,7 +22796,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1631874
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1631874/ERR1631874.fastq.gz
 		assay.submitted_file_names HP1507101_L1.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4438882
 		sample.ena_sample ERS1350331
@@ -24489,7 +24489,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632015
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632015/ERR1632015.fastq.gz
 		assay.submitted_file_names HP1508501T2D_A8.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439023
 		sample.ena_sample ERS1350472
@@ -24842,7 +24842,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632044
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632044/ERR1632044.fastq.gz
 		assay.submitted_file_names HP1508501T2D_C12.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439052
 		sample.ena_sample ERS1350501
@@ -25395,7 +25395,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632089
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632089/ERR1632089.fastq.gz
 		assay.submitted_file_names HP1508501T2D_E1.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439097
 		sample.ena_sample ERS1350546
@@ -25547,7 +25547,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632101
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632101/ERR1632101.fastq.gz
 		assay.submitted_file_names HP1508501T2D_E20.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439109
 		sample.ena_sample ERS1350558
@@ -26526,7 +26526,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632180
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632180/ERR1632180.fastq.gz
 		assay.submitted_file_names HP1508501T2D_H5.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439188
 		sample.ena_sample ERS1350637
@@ -26710,7 +26710,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632195
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632195/ERR1632195.fastq.gz
 		assay.submitted_file_names HP1508501T2D_I19.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439203
 		sample.ena_sample ERS1350652
@@ -26798,7 +26798,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632202
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632202/ERR1632202.fastq.gz
 		assay.submitted_file_names HP1508501T2D_I3.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439210
 		sample.ena_sample ERS1350659
@@ -27016,7 +27016,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632220
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632220/ERR1632220.fastq.gz
 		assay.submitted_file_names HP1508501T2D_J2.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439228
 		sample.ena_sample ERS1350677
@@ -27483,7 +27483,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632258
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632258/ERR1632258.fastq.gz
 		assay.submitted_file_names HP1508501T2D_L10.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439266
 		sample.ena_sample ERS1350715
@@ -27545,7 +27545,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632263
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632263/ERR1632263.fastq.gz
 		assay.submitted_file_names HP1508501T2D_L15.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439271
 		sample.ena_sample ERS1350720
@@ -27775,7 +27775,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632282
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/002/ERR1632282/ERR1632282.fastq.gz
 		assay.submitted_file_names HP1508501T2D_M10.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439290
 		sample.ena_sample ERS1350739
@@ -27850,7 +27850,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632288
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632288/ERR1632288.fastq.gz
 		assay.submitted_file_names HP1508501T2D_M16.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439296
 		sample.ena_sample ERS1350745
@@ -29272,7 +29272,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632408
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632408/ERR1632408.fastq.gz
 		assay.submitted_file_names HP1509101_B17.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439416
 		sample.ena_sample ERS1350865
@@ -32029,7 +32029,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632649
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/009/ERR1632649/ERR1632649.fastq.gz
 		assay.submitted_file_names HP1509101_L18.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439657
 		sample.ena_sample ERS1351106
@@ -33184,7 +33184,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632750
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632750/ERR1632750.fastq.gz
 		assay.submitted_file_names HP1509101_P23.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439758
 		sample.ena_sample ERS1351207
@@ -33824,7 +33824,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632803
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632803/ERR1632803.fastq.gz
 		assay.submitted_file_names HP1525301T2D_B6.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439811
 		sample.ena_sample ERS1351260
@@ -34323,7 +34323,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632844
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632844/ERR1632844.fastq.gz
 		assay.submitted_file_names HP1525301T2D_D21.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439852
 		sample.ena_sample ERS1351301
@@ -34492,7 +34492,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632858
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1632858/ERR1632858.fastq.gz
 		assay.submitted_file_names HP1525301T2D_E12.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439866
 		sample.ena_sample ERS1351315
@@ -34651,7 +34651,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632871
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1632871/ERR1632871.fastq.gz
 		assay.submitted_file_names HP1525301T2D_E24.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439879
 		sample.ena_sample ERS1351328
@@ -34688,7 +34688,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632874
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/004/ERR1632874/ERR1632874.fastq.gz
 		assay.submitted_file_names HP1525301T2D_E5.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439882
 		sample.ena_sample ERS1351331
@@ -34940,7 +34940,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632895
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1632895/ERR1632895.fastq.gz
 		assay.submitted_file_names HP1525301T2D_F24.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439903
 		sample.ena_sample ERS1351352
@@ -35003,7 +35003,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632900
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1632900/ERR1632900.fastq.gz
 		assay.submitted_file_names HP1525301T2D_F7.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439908
 		sample.ena_sample ERS1351357
@@ -36012,7 +36012,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1632983
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1632983/ERR1632983.fastq.gz
 		assay.submitted_file_names HP1525301T2D_J17.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4439991
 		sample.ena_sample ERS1351440
@@ -36222,7 +36222,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633000
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633000/ERR1633000.fastq.gz
 		assay.submitted_file_names HP1525301T2D_K10.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440008
 		sample.ena_sample ERS1351457
@@ -36766,7 +36766,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633045
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1633045/ERR1633045.fastq.gz
 		assay.submitted_file_names HP1525301T2D_L8.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440053
 		sample.ena_sample ERS1351502
@@ -36926,7 +36926,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633058
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633058/ERR1633058.fastq.gz
 		assay.submitted_file_names HP1525301T2D_M2.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440066
 		sample.ena_sample ERS1351515
@@ -37655,7 +37655,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633118
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633118/ERR1633118.fastq.gz
 		assay.submitted_file_names HP1525301T2D_O9.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440126
 		sample.ena_sample ERS1351575
@@ -37752,7 +37752,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633126
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/006/ERR1633126/ERR1633126.fastq.gz
 		assay.submitted_file_names HP1525301T2D_P16.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440134
 		sample.ena_sample ERS1351583
@@ -39231,7 +39231,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633245
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/005/ERR1633245/ERR1633245.fastq.gz
 		assay.submitted_file_names HP1526901T2D_E15.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440253
 		sample.ena_sample ERS1351702
@@ -40638,7 +40638,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633358
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/008/ERR1633358/ERR1633358.fastq.gz
 		assay.submitted_file_names HP1526901T2D_I9.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440366
 		sample.ena_sample ERS1351815
@@ -42276,7 +42276,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633490
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/000/ERR1633490/ERR1633490.fastq.gz
 		assay.submitted_file_names HP1526901T2D_O2.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440498
 		sample.ena_sample ERS1351947
@@ -42493,7 +42493,7 @@ sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/exp
 		assay.ena_run ERR1633507
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1633507/ERR1633507.fastq.gz
 		assay.submitted_file_names HP1526901T2D_P13.fastq.gz
-		cell.type pluripoten stem cell
+		cell.type pluripotent stem cell
 		cell.well_quality OK
 		sample.biosd_sample SAMEA4440515
 		sample.ena_sample ERS1351964
