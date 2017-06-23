@@ -39,7 +39,7 @@ sample.protocol_types treatment protocol,nucleic acid library construction proto
 sample.protocols "Human pancreatic islets were obtained from Prodo or NDRI and recovered in CMRLS at 37°C for 24h-48h hours after receipt. Mouse islets were prepared using gradient centrifugation and islets from the same strain were pooled, then recovered in XX for 24h.","Cells were encapsulated using the inDrop platform, into droplets on ice and lysed  in the 4nL microfluidic droplets using a final concentration of 0.4% NP-40. Single cell lysates were subject to reverse transcription at 50°C without purification of RNA (as previously described in Klein et al., Cell 2015)."
 sample.last_update_date 2016-09-26
 sample.submission_date 2016-07-11
-sample.body_part.name pancreatic islets
+sample.body_part.name islet of Langerhans
 sample.body_part.organ pancreas
 
 	sample.donor.ncbi_taxon 9606

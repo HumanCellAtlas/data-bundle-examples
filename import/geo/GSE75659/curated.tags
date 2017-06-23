@@ -41,7 +41,7 @@ sample.protocol_types nucleic acid library construction protocol
 		assay.single_cell.method FACS
 
 			sample.body_part.cell_count 1
-			cell.type CD8+ T cell
+			cell.type CD8-positive, alpha-beta T cell
 			sample.body_part.name CD8+ T cell
 			sample.body_part.organ blood
 			sample.treatment.culture_type tissue
@@ -4475,7 +4475,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962631/suppl/GSM1962631_Tcell_person1_P1299_2152_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461737
 					sample.uuid 432ea011-747b-42a3-88d8-400a5a74917b
 
-			cell.type CD8+ T cell
+			cell.type CD8-positive, alpha-beta T cell
 			sample.body_part.name CD8+ T cell
 			sample.body_part.organ blood
 			sample.treatment.enrichment CD3+ CD8+
@@ -9975,7 +9975,6 @@ sample.protocol_types nucleic acid library construction protocol
 				sample.body_part.cell_count 1
 
 					sample.body_part.organ brain
-					cell.type brain cell
 					sample.body_part.name brain cell
 					sample.short_label E15 brain cell
 					sample.long_label brain cell from 15 day embryo mouse

@@ -29,7 +29,7 @@ project.submission_date 2016-06-08
 project.summary "We successfully sequenced and annotated more than 400 cells from child, adult control, type 1 diabetes and type 2 diabetes donors. We detect donor-type specific transcript variation. We also report that cells from child donors have less defined gene signature. Cells from type 2 diabetes donors resemble juvenile cells in gene expression."
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE83nnn/GSE83139/suppl/GSE83139_tbx-v-f-norm-ntv-cpms.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP076/SRP076307
 sample.body_part.organ pancreas
-sample.body_part.name pancreatic islets
+sample.body_part.name islet of Langerhans
 sample.data_processing Poor quality sequence was trimmed from FASTQ files.,FASTQ files were aligned to human genome hg19 and transcripts using RUM (Grant et al Bioinformatics 2011),"A best representation of each gene was selected using the highest expressing transcript, converted to RPM, and normalized to the average expression of the 10 most deeply sequenced cells.","Differential expression, where reported was performed using EdgeR or DESeq2 on raw read counts.",Genome_build: hg19,Supplementary_files_format_and_content: Normalized expression values for RefSeq transcripts
 sample.donor.ncbi_taxon 9606
 sample.donor.species Homo sapiens
@@ -706,7 +706,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832257
 				sample.uuid 3e2a09e2-40b8-420a-ba70-a4029d2671ce
 
-			cell.type alpha cell
+			cell.type pancreatic A cell
 
 				assay.seq.machine Illumina HiSeq 2000
 				assay.sra_experiment SRX1832042
@@ -1529,7 +1529,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832259
 				sample.uuid 363d8204-1705-4ab5-88d6-b1edca8a6987
 
-			cell.type delta cell
+			cell.type gamma-delta T cell
 
 				assay.seq.machine Illumina HiSeq 2000
 				assay.sra_experiment SRX1832050
@@ -1567,7 +1567,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832200
 				sample.uuid 78398f1e-507a-4f61-a711-02c15e524434
 
-			cell.type beta cell
+			cell.type insulin secreting cell
 
 				assay.seq.machine Illumina HiSeq 2000
 				assay.sra_experiment SRX1832070
@@ -2066,7 +2066,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 		sample.short_label pancreas islet child
 		sample.donor.uuid 0924389c-6d9c-4207-b25e-de09082279e1
 
-			cell.type alpha cell
+			cell.type pancreatic A cell
 
 				assay.sra_experiment SRX1832464
 				assay.sra_run SRR3650657,SRR3650658
@@ -2148,7 +2148,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832573
 				sample.uuid 7ea14e47-f557-4927-bd88-2480673b1b69
 
-			cell.type beta cell
+			cell.type insulin secreting cell
 
 				assay.sra_experiment SRX1832465
 				assay.sra_run SRR3650659,SRR3650660
@@ -2831,7 +2831,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 
 			assay.sra_experiment SRX1832502
 			assay.sra_run SRR3650733,SRR3650734
-			cell.type delta cell
+			cell.type gamma-delta T cell
 			sample.geo_sample GSM2194652
 			sample.id ICRH76 26131
 			sample.ncbi_biosample SAMN05217403
@@ -2984,7 +2984,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 	sample.short_label pancreas islet diab II
 	sample.donor.uuid f3eb99eb-27b7-4b6f-9c9c-7603412c5c8f
 
-		cell.type delta cell
+		cell.type gamma-delta T cell
 
 			assay.sra_experiment SRX1832262
 			assay.sra_run SRR3650253,SRR3650254
@@ -3018,7 +3018,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832432
 			sample.uuid 60b0d4cc-5fae-4e26-a18f-3007ac572e46
 
-		cell.type beta cell
+		cell.type insulin secreting cell
 
 			assay.sra_experiment SRX1832263
 			assay.sra_run SRR3650255,SRR3650256
@@ -3324,7 +3324,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832511
 			sample.uuid 6c1c4cb7-d280-4528-9a53-9c6c038e4a78
 
-		cell.type alpha cell
+		cell.type pancreatic A cell
 
 			assay.sra_experiment SRX1832264
 			assay.sra_run SRR3650257,SRR3650258
@@ -5220,7 +5220,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 
 		assay.sra_experiment SRX1832586
 		assay.sra_run SRR3650891
-		cell.type alpha cell
+		cell.type pancreatic A cell
 		sample.geo_sample GSM2194736
 		sample.id ACGI428 29412
 		sample.ncbi_biosample SAMN05216998
@@ -5367,7 +5367,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832673
 			sample.uuid 8b0950d2-856a-4870-a805-edb117d4eac0
 
-		cell.type beta cell
+		cell.type insulin secreting cell
 
 			assay.sra_experiment SRX1832604
 			assay.sra_run SRR3650909

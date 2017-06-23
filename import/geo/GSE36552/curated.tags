@@ -75,7 +75,7 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 		sample.donor.uuid e6b07325-44e1-433f-9139-97591ec38958
 		sample.uuid 3c635a99-c8bf-4e79-9024-5bccc4a3439d
 
-	cell.type zygote
+	cell.type animal zygote
 	sample.body_part.name zygote
 	sample.donor.age 0
 	sample.donor.age_unit week

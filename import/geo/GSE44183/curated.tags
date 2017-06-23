@@ -74,7 +74,7 @@ sample.body_part.organ embryo
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300875
 			sample.uuid fce04869-faee-4719-9605-c5d4186741b0
 
-		cell.type fertilized oocyte
+		cell.type Ovum
 		sample.body_part.name fertilized oocyte
 		sample.short_label fertilized oocyte
 		sample.long_label fertilized oocyte at pronucleus phase from Fan lab 2013
@@ -104,7 +104,7 @@ sample.body_part.organ embryo
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300878
 			sample.uuid d80b90b5-a32a-4ea7-a609-e469743aae32
 
-		cell.type zygote
+		cell.type animal zygote
 		sample.body_part.name zygote
 		sample.short_label zygotes
 		sample.long_label zygotes from Fan lab 2013
@@ -349,7 +349,7 @@ sample.body_part.organ embryo
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229785
 			sample.uuid 9f0970a9-4651-446e-af23-4861aa04a178
 
-		cell.type fertilized oocyte
+		cell.type Ovum
 		sample.body_part.name fertilized oocyte
 		sample.short_label fertilized oocyte
 		sample.long_label fertilized oocyte at pronucleus phase from Fan lab 2013

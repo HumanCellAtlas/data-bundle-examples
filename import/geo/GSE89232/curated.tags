@@ -43,7 +43,7 @@ sample.body_part.organ blood
 	sample.body_part.name blood dendritic cells
 	sample.donor.life_stage adult
 
-		cell.type CD1c+ primary human conventional dendritic cells (CD1c+ cDCs)
+		cell.type CD1c-positive myeoloid dendritic cell
 		sample.long_label CD1c+ primary human conventional dendritic cell (CD1c+ cDC)
 		sample.short_label CD1c+ cDC
 
@@ -663,7 +663,7 @@ sample.body_part.organ blood
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271717
 			sample.uuid a19ffde4-7745-4feb-a928-ded8df433d1b
 
-		cell.type CD141+ primary human conventional dendritic cells (CD141+ cDCs)
+		cell.type CD141-positive myeloid dendritic cell
 		sample.long_label CD141+ primary human conventional dendritic cells (CD141+ cDCs)
 		sample.short_label CD141+ cDCs
 
@@ -1363,7 +1363,7 @@ sample.body_part.organ blood
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271804
 			sample.uuid 05a4a9d6-ba16-4d3a-a471-e7e8aabcd054
 
-	cell.type cord blood pre-conventional dendritic cells (CB pre-cDC)
+	cell.type pre-conventional dendritic cell
 	sample.long_label cord blood pre-conventional dendritic cells (CB pre-cDC)
 	sample.short_label cord blood pre-cDC
 	sample.body_part.name cord blood pre-cDCs
@@ -4988,7 +4988,7 @@ sample.body_part.organ blood
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2272256
 		sample.uuid 733090a7-b9be-4d08-92dc-daf36f8761c8
 
-	cell.type blood pre-conventional dendritic cells (blood pre-cDC)
+	cell.type pre-conventional dendritic cell
 	sample.long_label blood pre-conventional dendritic cells (blood pre-cDC)
 	sample.short_label adult blood pre-cDC
 	sample.body_part.name blood pre-cDCs
