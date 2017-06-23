@@ -7,7 +7,7 @@
     them, finds data to download, and downloads them.
     Example: python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples --cleanup --test
     For where Clay was working (note plural "bundles"):
-    python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundles-examples --cleanup --test
+    git pull && python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples --cleanup  > >(tee stdout.txt) 2> >(tee stderr.txt >&2)
     Tested with Python 3.6.0
 """
 
