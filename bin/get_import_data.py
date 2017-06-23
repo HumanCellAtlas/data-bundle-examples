@@ -35,6 +35,10 @@ from s3_examples import S3ExampleBundle, S3ExampleFile
 
 
 class GetImportData:
+
+    CHECKSUM_TAGS = ['hca-dss-sha1', 'hca-dss-sha256', 'hca-dss-crc32c', 'hca-dss-s3_etag']
+    MIME_TAG = 'hca-dss-content-type'
+
     def __init__(self):
         parser = argparse.ArgumentParser(description='Downloads data files for the various bundles.')
         parser.add_argument('--input-dir', required=True)
@@ -184,15 +188,13 @@ class GetImportData:
         for bundle in S3ExampleBundle.some(bundle_path):
             print("Bundle: ", bundle.path)
             print(type(bundle))
-            #sys.exit(1)
             self.add_tagging_for_bundle(bundle)
 
     def add_tagging_for_bundle(self, bundle: S3ExampleBundle):
         for file in bundle.files:
             print("    File: ", file.path)
             print(type(file))
-            sys.exit(1)
-            #self.add_tagging_for_file(file)
+            self.add_tagging_for_file(file)
 
     def add_tagging_for_file(self, file: S3ExampleFile):
         current_tags = file.get_tagging()
