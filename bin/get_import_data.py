@@ -84,7 +84,7 @@ class GetImportData:
         # this won't cost much extra time since it only tags those files missing tags
         for bundle in S3ExampleBundle.all(self.bucket, self.root):
             print("Tagging Bundle: ", bundle.path)
-            print(type(bundle))
+            #print(type(bundle))
             self.add_tagging_for_bundle(bundle)
 
     def download(self, struct, directory):
@@ -196,7 +196,7 @@ class GetImportData:
             print ("THE BUNDLE LOCATION: "+m.group(1))
             for bundle in S3ExampleBundle.some(self.bucket, self.root, m.group(1)):
                 print("Bundle: ", bundle.path)
-                print(type(bundle))
+                #print(type(bundle))
                 self.add_tagging_for_bundle(bundle)
             return True
         return False
@@ -204,7 +204,7 @@ class GetImportData:
     def add_tagging_for_bundle(self, bundle: S3ExampleBundle):
         for file in bundle.files:
             print("    File: ", file.path)
-            print(type(file))
+            #print(type(file))
             self.add_tagging_for_file(file)
 
     def add_tagging_for_file(self, file: S3ExampleFile):

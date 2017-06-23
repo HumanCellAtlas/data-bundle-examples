@@ -28,7 +28,7 @@ class S3ExampleFile:
         s3client.put_object_tagging(Bucket=self.s3_object_summary.bucket_name,
                                     Key=self.s3_object_summary.key,
                                     Tagging=tagging)
-        print(str(s3client.get_object_tagging(Bucket=self.s3_object_summary.bucket_name, Key=self.s3_object_summary.key)))
+        #print(str(s3client.get_object_tagging(Bucket=self.s3_object_summary.bucket_name, Key=self.s3_object_summary.key)))
 
     # tags = [{'Key': 'a', 'Value': '1'}, {'Key': 'b', 'Value': '2'}]
     # simplified_dicts = [{'a': '1'}, {'b': '2'}]
