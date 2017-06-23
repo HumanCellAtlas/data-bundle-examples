@@ -121,7 +121,7 @@ class GetImportData:
             print ("S3 key doesn't exist")
             return(True)
         else:
-            print ("S3 Size: "+key.size)
+            print ("S3 Size: "+str(key.size))
         s3_size = key.size
         return(s3_size != web_size)
 
