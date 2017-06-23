@@ -108,7 +108,7 @@ class GetImportData:
         file = open(path, 'rb')
         if (self.test):
             print("TESTING WON'T UPLOAD")
-        elif (self.upload_to_s3(file, bucket, key)):
+        elif (self.upload_to_s3(file, path, bucket, key)):
             print("FINISHED!")
         else:
             print("FAILED TO UPLOAD")
@@ -137,7 +137,7 @@ class GetImportData:
         s3_key = m.group(2)
         return(s3_bucket, s3_key)
 
-    def upload_to_s3(self, file, bucket, key, callback=None, md5=None, reduced_redundancy=False, content_type=None):
+    def upload_to_s3(self, file, file_path, bucket, key, callback=None, md5=None, reduced_redundancy=False, content_type=None):
         """
         see http://stackabuse.com/example-upload-a-file-to-aws-s3/
         Uploads the given file to the AWS S3
@@ -169,7 +169,7 @@ class GetImportData:
         print ("UPLOADING TO BUCKET: "+bucket+" KEY: "+key)
         #if content_type:
         #    k.set_metadata('Content-Type', content_type)
-        k.set_metadata('Content-Type', mimetypes.guess_type(file.path)[0])
+        k.set_metadata('Content-Type', mimetypes.guess_type(file_path)[0])
         sent = k.set_contents_from_file(file, cb=callback, md5=md5, reduced_redundancy=reduced_redundancy, rewind=True)
 
         # Rewind for later use
