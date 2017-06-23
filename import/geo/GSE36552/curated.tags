@@ -44,6 +44,7 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	sample.short_label oocytes
 	sample.long_label unfertilized oocytes from Tang single cell method 2013
 	sample.donor.development_stage oocyte
+	cell.ontology CL_0000023
 
 		assay.sra_experiment SRX129997
 		assay.sra_run SRR445718
@@ -84,6 +85,7 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	sample.short_label zygotes
 	sample.long_label zygotes from Tang single cell method 2013
 	sample.donor.development_stage zygote
+	cell.ontology CL_0000365
 
 		assay.sra_experiment SRX130000
 		assay.sra_run SRR445721
@@ -476,7 +478,7 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 			cell.id 8-cell blasto 3 cell#8
 			sample.uuid 3f2956d3-e05e-44b2-b062-f93b23f4a91b
 
-	cell.type morula
+	cell.type morula cell
 	sample.body_part.name morula stage embryo
 	sample.donor.age 0
 	sample.donor.age_unit week
@@ -485,6 +487,7 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	sample.short_label morula blastomeres
 	sample.long_label disassociated blastomeres from morula stage embryo Tang method 2013
 	sample.donor.development_stage morula
+	cell.ontology CL_0000360
 
 		sample.donor.id morula #1
 		sample.donor.uuid a1f2353c-3560-41c2-a3df-60eb38ad2543
@@ -882,6 +885,7 @@ sample.protocols Donated human preplantation embryos were dissociated into indiv
 	cell.type embryonic stem cell
 	sample.body_part.name embryonic stem cell
 	sample.donor.life_stage cell line
+	cell.ontology CL_0002322
 
 		sample.donor.id hESC passage#0
 		sample.passage_number 0

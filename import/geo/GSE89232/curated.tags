@@ -46,6 +46,7 @@ sample.body_part.organ blood
 		cell.type CD1c-positive myeoloid dendritic cell
 		sample.long_label CD1c+ primary human conventional dendritic cell (CD1c+ cDC)
 		sample.short_label CD1c+ cDC
+		cell.ontology CL_0002399
 
 			assay.sra_experiment SRX2271641
 			assay.sra_run SRR4455090,SRR4455091
@@ -666,6 +667,7 @@ sample.body_part.organ blood
 		cell.type CD141-positive myeloid dendritic cell
 		sample.long_label CD141+ primary human conventional dendritic cells (CD141+ cDCs)
 		sample.short_label CD141+ cDCs
+		cell.ontology CL_0002394
 
 			assay.sra_experiment SRX2271718
 			assay.sra_run SRR4455244
@@ -1371,6 +1373,7 @@ sample.body_part.organ blood
 	sample.donor.age 0
 	sample.donor.age_unit day
 	sample.body_part.name umbilical cord blood
+	cell.ontology CL_0002010
 
 		assay.sra_experiment SRX2271805
 		assay.sra_run SRR4455331
@@ -4993,6 +4996,7 @@ sample.body_part.organ blood
 	sample.short_label adult blood pre-cDC
 	sample.body_part.name blood pre-cDCs
 	sample.donor.life_stage adult
+	cell.ontology CL_0002010
 
 		assay.sra_experiment SRX2272257
 		assay.sra_run SRR4456107

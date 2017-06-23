@@ -10,7 +10,7 @@ assay.seq.prep Nextera XT
 assay.single_cell.method FACS
 sample.treatment.enrichment_method MACS,FACS
 sample.body_part.organ tonsil
-sample.donor.disease obstructive sleep apnea 
+sample.donor.disease obstructive sleep apnea
 sample.donor.life_stage adult
 cell.type tonsil Innate lymphoid cells
 project.contact.address "Box 596; Uppsala,  75124 Sweden"

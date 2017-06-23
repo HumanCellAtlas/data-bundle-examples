@@ -707,6 +707,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 				sample.uuid 3e2a09e2-40b8-420a-ba70-a4029d2671ce
 
 			cell.type pancreatic A cell
+			cell.ontology CL_0000171
 
 				assay.seq.machine Illumina HiSeq 2000
 				assay.sra_experiment SRX1832042
@@ -1530,6 +1531,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 				sample.uuid 363d8204-1705-4ab5-88d6-b1edca8a6987
 
 			cell.type gamma-delta T cell
+			cell.ontology CL_0000798
 
 				assay.seq.machine Illumina HiSeq 2000
 				assay.sra_experiment SRX1832050
@@ -1568,6 +1570,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 				sample.uuid 78398f1e-507a-4f61-a711-02c15e524434
 
 			cell.type insulin secreting cell
+			cell.ontology CL_0000168
 
 				assay.seq.machine Illumina HiSeq 2000
 				assay.sra_experiment SRX1832070
@@ -2048,6 +2051,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 			sample.ncbi_biosample SAMN05217340
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832199
 			sample.uuid e6c68fe9-8c11-4369-9b50-3f86cc07064b
+			cell.ontology CL_0000622
 
 			assay.seq.machine Illumina HiSeq 2500
 			assay.sra_experiment SRX1832258
@@ -2067,6 +2071,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 		sample.donor.uuid 0924389c-6d9c-4207-b25e-de09082279e1
 
 			cell.type pancreatic A cell
+			cell.ontology CL_0000171
 
 				assay.sra_experiment SRX1832464
 				assay.sra_run SRR3650657,SRR3650658
@@ -2149,6 +2154,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 				sample.uuid 7ea14e47-f557-4927-bd88-2480673b1b69
 
 			cell.type insulin secreting cell
+			cell.ontology CL_0000168
 
 				assay.sra_experiment SRX1832465
 				assay.sra_run SRR3650659,SRR3650660
@@ -2828,6 +2834,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 			sample.ncbi_biosample SAMN05217400
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832499
 			sample.uuid c3ecfa5e-53d1-4613-9524-84532d761975
+			cell.ontology CL_0000622
 
 			assay.sra_experiment SRX1832502
 			assay.sra_run SRR3650733,SRR3650734
@@ -2837,6 +2844,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 			sample.ncbi_biosample SAMN05217403
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832502
 			sample.uuid 25c566bd-24b5-4991-91a0-2a08a54934f3
+			cell.ontology CL_0000798
 
 			cell.type mesenchyme cell
 
@@ -2985,6 +2993,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 	sample.donor.uuid f3eb99eb-27b7-4b6f-9c9c-7603412c5c8f
 
 		cell.type gamma-delta T cell
+		cell.ontology CL_0000798
 
 			assay.sra_experiment SRX1832262
 			assay.sra_run SRR3650253,SRR3650254
@@ -3019,6 +3028,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 			sample.uuid 60b0d4cc-5fae-4e26-a18f-3007ac572e46
 
 		cell.type insulin secreting cell
+		cell.ontology CL_0000168
 
 			assay.sra_experiment SRX1832263
 			assay.sra_run SRR3650255,SRR3650256
@@ -3325,6 +3335,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 			sample.uuid 6c1c4cb7-d280-4528-9a53-9c6c038e4a78
 
 		cell.type pancreatic A cell
+		cell.ontology CL_0000171
 
 			assay.sra_experiment SRX1832264
 			assay.sra_run SRR3650257,SRR3650258
@@ -4127,6 +4138,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 			sample.uuid 9b1174e0-d5cf-415b-ad13-23db5cc46795
 
 		cell.type acinar cell
+		cell.ontology CL_0000622
 
 			assay.sra_experiment SRX1832265
 			assay.sra_run SRR3650259,SRR3650260
@@ -5226,6 +5238,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 		sample.ncbi_biosample SAMN05216998
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832586
 		sample.uuid 0c59c5eb-2d5d-4d45-bd22-9eb7740269cd
+		cell.ontology CL_0000171
 
 		cell.type mesenchyme cell
 
@@ -5368,6 +5381,7 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 			sample.uuid 8b0950d2-856a-4870-a805-edb117d4eac0
 
 		cell.type insulin secreting cell
+		cell.ontology CL_0000168
 
 			assay.sra_experiment SRX1832604
 			assay.sra_run SRR3650909
@@ -5425,4 +5439,5 @@ project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 		sample.ncbi_biosample SAMN05217138
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832636
 		sample.uuid 1f139c8b-4207-4f86-8e39-4c2511c93059
+		cell.ontology CL_0000622
 

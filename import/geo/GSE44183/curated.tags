@@ -49,6 +49,7 @@ sample.body_part.organ embryo
 		sample.short_label unfertilized oocytes
 		sample.long_label unfertilized oocytes from Fan lab 2013
 		sample.donor.development_stage oocyte
+		cell.ontology CL_0000023
 
 			assay.sra_experiment SRX300873
 			assay.sra_run SRR893046
@@ -79,6 +80,7 @@ sample.body_part.organ embryo
 		sample.short_label fertilized oocyte
 		sample.long_label fertilized oocyte at pronucleus phase from Fan lab 2013
 		sample.donor.development_stage fertilized oocyte
+		cell.ontology FMA_67343
 
 			assay.sra_experiment SRX300876
 			assay.sra_run SRR893049
@@ -109,6 +111,7 @@ sample.body_part.organ embryo
 		sample.short_label zygotes
 		sample.long_label zygotes from Fan lab 2013
 		sample.donor.development_stage zygote
+		cell.ontology CL_0000365
 
 			assay.sra_experiment SRX300879
 			assay.sra_run SRR893052
@@ -288,11 +291,12 @@ sample.body_part.organ embryo
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300898
 			sample.uuid b68aa770-7b4b-441b-911a-19bbbb4b17f1
 
-		cell.type morula
+		cell.type morula cell
 		sample.body_part.name morula stage embryo
 		sample.short_label morula blastomeres
 		sample.long_label disassociated blastomeres from morula stage embryo from Fan lab 2013
 		sample.donor.development_stage morula
+		cell.ontology CL_0000360
 
 			assay.sra_experiment SRX300899
 			assay.sra_run SRR893072
@@ -332,6 +336,7 @@ sample.body_part.organ embryo
 		sample.short_label oocytes
 		sample.long_label unfertilized oocytes from Fan lab 2013
 		sample.donor.development_stage oocyte
+		cell.ontology CL_0000023
 
 			assay.sra_experiment SRX229784
 			assay.sra_run SRR689233
@@ -354,6 +359,7 @@ sample.body_part.organ embryo
 		sample.short_label fertilized oocyte
 		sample.long_label fertilized oocyte at pronucleus phase from Fan lab 2013
 		sample.donor.development_stage fertilized oocyte
+		cell.ontology FMA_67343
 
 			assay.sra_experiment SRX229786
 			assay.sra_run SRR689235
@@ -469,11 +475,12 @@ sample.body_part.organ embryo
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229797
 			sample.uuid 8439b4f1-2b0d-4f8f-b0f1-3d59c055357d
 
-		cell.type morula
+		cell.type morula cell
 		sample.body_part.name morula stage embryo
 		sample.short_label morula blastomeres
 		sample.long_label disassociated blastomeres from morula stage embryo from Fan lab 2013
 		sample.donor.development_stage morula
+		cell.ontology CL_0000360
 
 			assay.sra_experiment SRX229798
 			assay.sra_run SRR689247

@@ -48,6 +48,7 @@ sample.protocol_types nucleic acid library construction protocol
 			sample.treatment.enrichment CD3+ CD8+
 			sample.long_label in vivo CD3+ CD8+ T cells after yellow fever vaccine
 			sample.short_label in vivo CD8+ T cells
+			cell.ontology CL_0000625
 
 				sample.characteristics_clone.info Tcell.in.vivo.cl1
 
@@ -4483,6 +4484,7 @@ sample.protocol_types nucleic acid library construction protocol
 			sample.body_part.cell_count 1
 			sample.long_label CD3+ CD8+ T cells from primary culture after yellow fever vaccine
 			sample.short_label cultured CD8+ T cells
+			cell.ontology CL_0000625
 
 				sample.characteristics_clone.info Tcell.ex.vivo.clA
 
@@ -7296,6 +7298,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.long_label single.fibroblast
 					sample.short_label cultured fibroblasts
 					sample.long_label single fibroblasts from primary culture
+					cell.ontology CL_0000057
 
 						sample.characteristics_clone.info fibroblast.cl1
 						sample.donor.strain CAST/EiJ (mother) x C57BL/6J (father)
@@ -8559,6 +8562,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.ncbi_biosample SAMN04312300
 					sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961870/suppl/GSM1961870_fibroblast.120.cl7_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460976
 					sample.uuid 12b38a59-2281-47f3-a80a-707d83cbe43d
+					cell.ontology CL_0000057
 
 					cell.type fibroblast
 					sample.body_part.name fibroblast
@@ -8568,6 +8572,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.short_label 5 fibroblasts
 					sample.long_label 5 pooled fibroblasts from primary culture
 					sample.donor.strain CAST/EiJ (mother) x C57BL/6J (father)
+					cell.ontology CL_0000057
 
 						assay.sra_experiment SRX1460977
 						assay.sra_run SRR2971604
@@ -8595,6 +8600,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.short_label split fibroblast
 					sample.long_label fibroblast from primary culture split in two parts after RNA extraction
 					sample.characteristics_clone.info non.clonal
+					cell.ontology CL_0000057
 
 						assay.sra_experiment SRX1461126
 						assay.sra_run SRR2971753
@@ -8898,6 +8904,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.donor.age_unit day
 					sample.donor.life_stage embryo
 					sample.donor.strain C57BL/6J (mother) x CAST/EiJ (father)
+					cell.ontology CL_0000057
 
 						assay.sra_experiment SRX1460879
 						assay.sra_run SRR2971505
@@ -9212,6 +9219,7 @@ sample.protocol_types nucleic acid library construction protocol
 						sample.body_part.cell_count 1
 						sample.short_label fibroblast
 						sample.long_label fibroblast with no clonal expansion
+						cell.ontology CL_0000057
 
 							assay.sra_experiment SRX1460980
 							assay.sra_run SRR2971607
@@ -9966,6 +9974,7 @@ sample.protocol_types nucleic acid library construction protocol
 						sample.ncbi_biosample SAMN04312475
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962019/suppl/GSM1962019_fibroblast.269_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461125
 						sample.uuid 778fb6e6-fe5e-418e-a448-40bb80f06a54
+						cell.ontology CL_0000057
 
 				sample.characteristics_clone.info non.clonal
 				sample.donor.age 15
@@ -10019,6 +10028,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.donor.life_stage embryo
 					sample.short_label E15 liver cell
 					sample.long_label liver cell from 15 day embryo mouse
+					cell.ontology CL_0000182
 
 						assay.sra_experiment SRX1461162
 						assay.sra_run SRR2971790
@@ -10278,6 +10288,7 @@ sample.protocol_types nucleic acid library construction protocol
 			sample.donor.sex female
 			sample.donor.strain CAST/EiJ_x_C57BL/6J
 			sample.submission_date 2016-07-06
+			cell.ontology CL_0000057
 
 				assay.sra_experiment SRX1899688
 				assay.sra_run SRR3745799
@@ -10340,6 +10351,7 @@ sample.protocol_types nucleic acid library construction protocol
 			sample.short_label fibroblast
 			sample.long_label mouse fibroblast
 			sample.characteristics_cross CASTxC57
+			cell.ontology CL_0000057
 
 				assay.sra_experiment SRX1714297
 				assay.sra_run SRR3403561
@@ -10996,20 +11008,4 @@ sample.protocol_types nucleic acid library construction protocol
 				sample.ncbi_biosample SAMN04870249
 				sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2127nnn/GSM2127553/suppl/GSM2127553_hoechst.fibroblast.dia.82_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX171/SRX1714378
 				sample.uuid 331c43d5-b445-48e1-85f3-57b9505ad872
-
-			#assay.sra_experiment SRX1714379
-			#assay.sra_run SRR3403644
-			#assay.rna.strand first
-			#assay.rna.prep Illumina TruSeq
-			#cell.type fibroblast
-			#sample.body_part.name fibroblast
-			#sample.short_label fibroblast
-			#sample.long_label Fibroblast culture
-			#sample.characteristics_cross C57xCAST
-			#sample.geo_sample GSM2127554
-			#sample.id Bf37_mRNA_Fibroblast_Total_fraction
-			#sample.ncbi_biosample SAMN04870250
-			#cell.id Stranded mRNA-sequencing of RNA from primary fibroblast culture
-			#sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2127nnn/GSM2127554/suppl/GSM2127554_Bf37_mRNA_Fibroblast_Total_fraction_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX171/SRX1714379
-			#sample.uuid 284903d0-8412-409d-b549-da31f4bdd0ed
 
