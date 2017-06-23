@@ -9,10 +9,10 @@ class S3ExampleBundle:
     #BUNDLE_EXAMPLES_ROOT = 'data-bundles-examples'
     BUNDLE_EXAMPLES_BUNDLE_LIST_PATH = "import/bundle_list"
 
-    s3 = boto3.resource('s3')
+    self.s3 = boto3.resource('s3')
 
     def __init__(self, bucket, root, bundle_path):
-        self.bucket = s3.Bucket(bucket)
+        self.bucket = self.s3.Bucket(bucket)
         self.root = root
         self.path = bundle_path
         self.uuid = str(uuid.uuid4())
