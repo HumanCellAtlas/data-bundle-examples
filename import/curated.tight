@@ -24,6 +24,7 @@ cell.cell_cycle $ G1 G2/M S
 cell.characteristics_* $ *
 cell.id $ *
 cell.type $ *
+cell.ontology $ *_0??????
 cell.well_quality $ *
 project.array_express.accession $ E-????-*
 project.array_express.experiment_type $ *
@@ -66,8 +67,9 @@ project.supplementary_files $ *
 sample.biosd_sample $ *
 sample.body_part.cell_count % 0 100
 !sample.body_part.name $ *
-sample.body_part.ontology $ *
+sample.body_part.ontology $ *_0??????
 !sample.body_part.organ $ blood bone brain embryo eye liver pancreas skin tonsil
+sample.body_part.organ_ontology $ *_0??????
 sample.body_part.source $ "Proto or NDRI" "Prodo Laboratories Inc."
 sample.cell_line $ AB2.2 H9 "iPSC 409B2"
 sample.characteristics_* $ *
