@@ -78,9 +78,8 @@ class GetImportData:
                     manifest_file.close()
                 # any regular json files that are not manifests should just be uploaded
                 elif m != None and m.group(1) != None:
-                    print ("WOULD UPLOAD: "+root+"/"+file)
-                    # TODO: need to upload and tag here
-                    # self.upload(root+"/"+file)
+                    print ("UPLOAD JSON FILE: "+root+"/"+file)
+                    self.upload(root+"/"+file)
         # now that the transfers are done, do one more series of tagging to fill in any missing tags
         # this won't cost much extra time since it only tags those files missing tags
         for bundle in S3ExampleBundle.all(self.bucket, self.root):
@@ -101,9 +100,9 @@ class GetImportData:
                     if (self.test):
                         print("TESTING WON'T DOWNLOAD")
                     else:
-                        # HACK!!!!!!!!!
-                        #urlretrieve(str(dir+"/"+name), directory+"/"+name)
-                        urlretrieve("https://raw.githubusercontent.com/HumanCellAtlas/data-bundle-examples/develop/README.md", directory+"/"+name)
+                        urlretrieve(str(dir+"/"+name), directory+"/"+name)
+                        # for testing
+                        #urlretrieve("https://raw.githubusercontent.com/HumanCellAtlas/data-bundle-examples/develop/README.md", directory+"/"+name)
                         self.upload(directory+"/"+name)
                         if (self.cleanup):
                             os.remove(directory+"/"+name)
@@ -199,8 +198,6 @@ class GetImportData:
                 print("Bundle: ", bundle.path)
                 print(type(bundle))
                 self.add_tagging_for_bundle(bundle)
-                # HACK
-                sys.exit(1)
             return True
         return False
 
