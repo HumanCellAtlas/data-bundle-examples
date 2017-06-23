@@ -80,6 +80,7 @@ class GetImportData:
                 elif m != None and m.group(1) != None:
                     print ("UPLOAD JSON FILE: "+root+"/"+file)
                     self.upload(root+"/"+file)
+                sys.stdout.flush()
         # now that the transfers are done, do one more series of tagging to fill in any missing tags
         # this won't cost much extra time since it only tags those files missing tags
         for bundle in S3ExampleBundle.all(self.bucket, self.root):
