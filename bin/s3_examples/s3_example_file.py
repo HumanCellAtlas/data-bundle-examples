@@ -24,6 +24,7 @@ class S3ExampleFile:
     def add_tagging(self, tags: dict):
         s3client = self.bundle.s3.meta.client
         tagging = dict(TagSet=self._encode_tags(tags))
+        print("TAGS: "+str(tagging))
         s3client.put_object_tagging(Bucket=self.s3_object_summary.bucket_name,
                                     Key=self.s3_object_summary.key,
                                     Tagging=tagging)
