@@ -170,13 +170,13 @@ class GetImportData:
 
         if sent == size:
             # can I add the call here?
-            m = re.search('^data-bundles-examples/(\S+)/[^\/+]$', key)
+            m = re.search('^data-bundles-examples/(\S+)/([^\/+])$', key)
             print ("THE BUNDLE LOCATION: "+m.group(1))
             for bundle in S3ExampleBundle.some(m.group(1)):
                 print("Bundle: ", bundle.path)
                 print(type(bundle))
+                self.add_tagging_for_bundle(bundle)
                 sys.exit(1)
-                #self.add_tagging_for_bundle(bundle)
             return True
         return False
 
