@@ -87,7 +87,9 @@ class GetImportData:
                     if (self.test):
                         print("TESTING WON'T DOWNLOAD")
                     else:
-                        urlretrieve(str(dir+"/"+name), directory+"/"+name)
+                        # HACK
+                        #urlretrieve(str(dir+"/"+name), directory+"/"+name)
+                        urlretrieve("https://raw.githubusercontent.com/HumanCellAtlas/data-bundle-examples/develop/README.md", directory+"/"+name)
                         self.upload(directory+"/"+name)
                         if (self.cleanup):
                             os.remove(directory+"/"+name)
