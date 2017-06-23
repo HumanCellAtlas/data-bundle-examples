@@ -5,9 +5,9 @@
     broconno@ucsc.edu
     This module first crawsl the filesystem looking for manifest.json files, parses
     them, finds data to download, and downloads them.
-    Example: python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples --tmp-dir /tmp --test
+    Example: python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples --cleanup --test
     For where Clay was working (note plural "bundles"):
-    python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundles-examples --tmp-dir /tmp --test
+    python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundles-examples --cleanup --test
     Tested with Python 3.6.0
 """
 
@@ -45,7 +45,6 @@ class GetImportData:
         parser.add_argument('--output-s3-dir', required=True)
         parser.add_argument('--test', action='store_true', default=False)
         parser.add_argument('--cleanup', action='store_true', default=False)
-        parser.add_argument('--tmp-dir', required=True)
 
         # get args
         args = parser.parse_args()
@@ -54,10 +53,13 @@ class GetImportData:
         self.conn = boto.connect_s3()
         self.test = args.test
         self.cleanup = args.cleanup
-        self.tmp_dir = args.tmp_dir
         # tracking the number of files that are missing from S3
         self.missing_files = 0
-
+        # breakdown bucket and root
+        m = re.search('^s3://([^/]+)/([^/]+)/*$', self.output_s3_dir)
+        self.bucket = m.group(1)
+        self.root = m.group(2)
+        print ("BUCKET: "+self.bucket+" ROOT: "+self.root)
         # run
         self.run()
 
@@ -66,40 +68,51 @@ class GetImportData:
         # walk directory structure, parse JSONs, download data files, upload to S3 while tagging
         for root, dirs, files in os.walk(self.input_dir):
             for file in files:
+                m = re.search('^(\w+.json)$', file)
+                # specially process manifest.json, these include external files to download and upload to S3
                 if file == "manifest.json":
                     print(root+"/manifest.json")
                     manifest_file = open(root+"/manifest.json", "r")
                     manifest_struct = json.loads(manifest_file.read())
                     self.download(manifest_struct, root)
                     manifest_file.close()
+                # any regular json files that are not manifests should just be uploaded
+                elif m.group(1) != None:
+                    print ("WOULD UPLOAD: "+root+"/"+file)
+                    # TODO: need to upload and tag here
+                    # self.upload(root+"/"+file)
+        # now that the transfers are done, do one more series of tagging to fill in any missing tags
+        # this won't cost much extra time since it only tags those files missing tags
+        for bundle in S3ExampleBundle.all(self.bucket, self.root):
+            print("Tagging Bundle: ", bundle.path)
+            print(type(bundle))
+            self.add_tagging_for_bundle(bundle)
 
     def download(self, struct, directory):
         dir = struct['dir']
         for file in struct['files']:
             name = file['name']
-            #print ("Downloading: "+dir+"/"+name)
             ctx = ssl.create_default_context()
             ctx.check_hostname = False
             ctx.verify_mode = ssl.CERT_NONE
             try:
-                if (self.source_newer_or_diff_size(str(dir+"/"+name), self.output_s3_dir+"/"+directory+"/"+name)):
+                if (self.source_diff_size(str(dir+"/"+name), self.output_s3_dir+"/"+directory+"/"+name)):
                     print("DOWNLOADING: "+str(dir+"/"+name)+" TO: "+directory+"/"+name)
                     if (self.test):
                         print("TESTING WON'T DOWNLOAD")
                     else:
-                        # HACK
+                        # HACK!!!!!!!!!
                         #urlretrieve(str(dir+"/"+name), directory+"/"+name)
                         urlretrieve("https://raw.githubusercontent.com/HumanCellAtlas/data-bundle-examples/develop/README.md", directory+"/"+name)
                         self.upload(directory+"/"+name)
                         if (self.cleanup):
                             os.remove(directory+"/"+name)
                 else:
-                    print("SKIPPING DOWNLOAD: "+str(dir+"/"+name)+" TO: "+directory+"/"+name+" FILE SIZES IDENTICAL")
+                    print("SKIPPING DOWNLOAD: "+str(dir+"/"+name)+" TO: "+directory+"/"+name+" - FILE SIZES IDENTICAL")
             except Exception as error:
                 print ("ERROR: "+error)
                 # just exit with non-zero status
                 sys.exit(1)
-        # now try tagging, this needs to be reworked so tagging happens *before* upload to avoid double-download!!
 
 
     def upload(self, path):
@@ -112,8 +125,9 @@ class GetImportData:
             print("FINISHED!")
         else:
             print("FAILED TO UPLOAD")
+            sys.exit(1)
 
-    def source_newer_or_diff_size(self, web_source, s3_destination):
+    def source_diff_size(self, web_source, s3_destination):
         site = urlopen(web_source)
         meta = site.info()
         #print (meta)
@@ -176,22 +190,19 @@ class GetImportData:
         file.seek(0)
 
         if sent == size:
-            # can I add the call here?
-            m = re.search('^data-bundles-examples/(\S+)/[^/]+$', key)
+            # now try tagging the bundle referenced above, will not recalculate those files already tagged properly
+            # TODO: this needs to be reworked so tagging happens *before* upload to avoid double-download!!
+            #m = re.search('^data-bundles-examples/(\S+)/[^/]+$', key)
+            m = re.search('^'+self.root+'/(\S+)/[^/]+$', key)
             print ("THE BUNDLE LOCATION: "+m.group(1))
-            for bundle in S3ExampleBundle.some(m.group(1)):
+            for bundle in S3ExampleBundle.some(self.bucket, self.root, m.group(1)):
                 print("Bundle: ", bundle.path)
                 print(type(bundle))
                 self.add_tagging_for_bundle(bundle)
+                # HACK
                 sys.exit(1)
             return True
         return False
-
-    def run_some(self, bundle_path):
-        for bundle in S3ExampleBundle.some(bundle_path):
-            print("Bundle: ", bundle.path)
-            print(type(bundle))
-            self.add_tagging_for_bundle(bundle)
 
     def add_tagging_for_bundle(self, bundle: S3ExampleBundle):
         for file in bundle.files:
