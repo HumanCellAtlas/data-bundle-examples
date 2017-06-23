@@ -77,7 +77,7 @@ class GetImportData:
                     self.download(manifest_struct, root)
                     manifest_file.close()
                 # any regular json files that are not manifests should just be uploaded
-                elif m.group(1) != None:
+                elif m != None and m.group(1) != None:
                     print ("WOULD UPLOAD: "+root+"/"+file)
                     # TODO: need to upload and tag here
                     # self.upload(root+"/"+file)
