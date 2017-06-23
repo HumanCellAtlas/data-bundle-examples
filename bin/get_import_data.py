@@ -222,7 +222,7 @@ class GetImportData:
             }
 
     def additional_mime_tags(self, file: S3ExampleFile, current_tags: dict):
-        if 'content-type' in current_tags and current_tags['content-type'] not None:
+        if 'content-type' in current_tags and current_tags['content-type'] != None:
             return {}
         else:
             mime_type = mimetypes.guess_type(file.path)[0]
