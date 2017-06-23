@@ -41,6 +41,7 @@ sample.last_update_date 2016-09-26
 sample.submission_date 2016-07-11
 sample.body_part.name islet of Langerhans
 sample.body_part.organ pancreas
+sample.body_part.ontology UBERON_0000006
 
 	sample.donor.ncbi_taxon 9606
 	sample.donor.species Homo sapiens

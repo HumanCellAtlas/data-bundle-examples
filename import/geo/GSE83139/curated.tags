@@ -38,6 +38,7 @@ sample.protocol_types growth protocol,nucleic acid library construction protocol
 sample.protocols "islets were cultured in the standand prodo islet media (PIM-S001GMP, PIM-ABS001GMP, PIM-G001GMP) at 37oc with 5% CO2.","Islets were dissociated to single cell by 0.05% Trypsin, 9 mins at 37oC. Cells (250-500 cells/μl) were subsequently loaded on Fluidigm C1 IFC with either 5-10 μM or 10-17 μM capture size."
 sample.submission_date 2016-06-08
 project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
+sample.body_part.ontology UBERON_0000006
 
 	sample.donor.disease normal
 

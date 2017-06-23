@@ -33,6 +33,7 @@ sample.protocol_types nucleic acid library construction protocol,nucleic acid se
 sample.protocols qPCR only,Illumina HiSeq 2500
 sample.treatment.enrichment POMC+
 cell.ontology CL_0000540
+sample.body_part.ontology UBERON_0001932
 
 	sample.ena_sample ERS639336
 	sample.id ERS639336

@@ -38,7 +38,7 @@ project.title "Drop-Seq analysis of  P17 FACS sorted retinal cells from the Tg(C
 project.uuid f35c2bce-a4a7-4e1e-a8a6-8637e65d19a7
 sample.body_part.name retina
 sample.body_part.organ eye
-sample.body_part.ontology UBERON:0000966
+sample.body_part.ontology UBERON_0000966
 sample.data_processing Base calls performed with bcl2fastq2.15,Read 2 was aligned with Star v2.4.0,Each aligned read was tagged with its mate-pair UMI and cell barcode,Each aligned exonic read was tagged with a gene name,"A digital expression matrix was built by counting the number of unique UMIs per gene within each cell; columns are cells, and rows are genes.",The first inflection point was estimated on a cumulative sum plot of the digital expression matrix to determine the number of cells in the sample,Samples Bipolar1-6 -- prepared from P17 Vsx2-GFP mouse retinas on two separate days (Bipolar1-4 and Bipolar5-6)--were merged together into a single matrix.,Genome_build: mm10,"Supplementary_files_format_and_content: compressed, flat text file with tab delimiters"
 sample.donor.age 17
 sample.donor.age_unit day

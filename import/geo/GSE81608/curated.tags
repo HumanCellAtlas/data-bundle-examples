@@ -38,6 +38,7 @@ sample.protocol_types nucleic acid library construction protocol
 sample.protocols "Single islet cells were captured with C1 Integrated Fluidic Circuit. Cell lysing, reverse transcription and cDNA amplification were performed on the C1 Single-Cell Auto Prep IFC, as specified by the manufacturer (Protocol #100-7168 E1). The SMARTer Ultra Low RNA Kit (Clontech) was used for cDNA synthesis from the single cells."
 sample.submission_date 2016-05-18
 project.uuid 8d1ebea8-b50b-4f06-afa9-872b999b8113
+sample.body_part.ontology UBERON_0000006
 
 	sample.donor.disease normal
 	sample.long_label adult pancreatic islets from normal 23 year old male
