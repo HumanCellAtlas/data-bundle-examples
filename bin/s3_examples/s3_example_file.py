@@ -8,7 +8,7 @@ class S3ExampleFile:
         self.s3_object_summary = object_summary
         self.bundle = bundle
         self.path = object_summary.key
-        self.url = f"s3://{bundle.BUNDLE_EXAMPLES_BUCKET}/{self.path}"
+        self.url = f"s3://{bundle.bucket_str}/{self.path}"
         self.timestamp = object_summary.last_modified
         self.uuid = str(uuid.uuid4())
 
