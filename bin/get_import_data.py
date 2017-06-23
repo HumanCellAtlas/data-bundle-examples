@@ -167,8 +167,9 @@ class GetImportData:
         k = Key(bucket_obj)
         k.key = key
         print ("UPLOADING TO BUCKET: "+bucket+" KEY: "+key)
-        if content_type:
-            k.set_metadata('Content-Type', content_type)
+        #if content_type:
+        #    k.set_metadata('Content-Type', content_type)
+        k.set_metadata('Content-Type', mimetypes.guess_type(file.path)[0])
         sent = k.set_contents_from_file(file, cb=callback, md5=md5, reduced_redundancy=reduced_redundancy, rewind=True)
 
         # Rewind for later use
