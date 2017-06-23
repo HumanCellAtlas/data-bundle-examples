@@ -111,7 +111,7 @@ class GetImportData:
         site = urlopen(web_source)
         meta = site.info()
         #print (meta)
-        web_size = meta.get("Content-Length")
+        web_size = int(meta.get("Content-Length"))
         print ("Content-Length:", meta.get("Content-Length"))
         (s3_bucket, s3_key) = self.parse_bucket_key(s3_destination)
         print ("S3Bucket: "+s3_bucket+" S3Key: "+s3_key)
@@ -122,7 +122,7 @@ class GetImportData:
             return(True)
         else:
             print ("S3 Size: "+str(key.size))
-        s3_size = key.size
+        s3_size = int(key.size)
         return(s3_size != web_size)
 
     def parse_bucket_key(self, s3_path):
