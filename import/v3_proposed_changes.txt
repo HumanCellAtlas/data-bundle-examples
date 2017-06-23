@@ -5,6 +5,21 @@
 #   4) Put three fields that start project.geo_ into project.geo. instead - similar to 
 #      how arrayExpress's five project fields are handled.
 #   5) Add a sample.batch?  sample.plate?
+#   6) Reformat files array to lanes array as so:
+#     "lanes": [
+#       {
+#           "lane": 1,
+#           "left_fastq" : "file_id_1_1",
+#           "right_fastq : "file_id_1_2"
+#       },
+#       {
+#           "lane": 2,
+#           "left_fastq" : "file_id_2_1",
+#           "right_fastq : "file_id_2_2"
+#       }
+#     ]
+#   7) Make single_cell.method into single_cell.machine and add a separate
+#      analysis_method tag or some such that would simplify logic for pipeline group.
 #
 cell.cell_cycle	sample.cell.cell_cycle
 cell.id	sample.cell.id
