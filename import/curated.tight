@@ -20,11 +20,11 @@ assay.single_cell.cell_barcode_size # 0 50
 assay.sra_experiment $ *
 assay.sra_run $ *
 assay.submitted_file_names $ *
-cell.cell_cycle $ G1 G2/M S
+cell.cell_cycle $ "G1 phase" "G2/M phase" "M phase" "G2 phase" "S phase"
 cell.characteristics_* $ *
 cell.id $ *
 cell.type $ *
-cell.ontology $ *_0??????
+cell.ontology $ *_0?????? FMA_*
 cell.well_quality $ *
 project.array_express.accession $ E-????-*
 project.array_express.experiment_type $ *
