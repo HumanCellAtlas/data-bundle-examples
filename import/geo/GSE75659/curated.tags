@@ -49,6 +49,7 @@ sample.protocol_types nucleic acid library construction protocol
 			sample.long_label in vivo CD3+ CD8+ T cells after yellow fever vaccine
 			sample.short_label in vivo CD8+ T cells
 			cell.ontology CL_0000625
+			sample.body_part.organ_ontology UBERON_0000178
 
 				sample.characteristics_clone.info Tcell.in.vivo.cl1
 
@@ -4485,6 +4486,7 @@ sample.protocol_types nucleic acid library construction protocol
 			sample.long_label CD3+ CD8+ T cells from primary culture after yellow fever vaccine
 			sample.short_label cultured CD8+ T cells
 			cell.ontology CL_0000625
+			sample.body_part.organ_ontology UBERON_0000178
 
 				sample.characteristics_clone.info Tcell.ex.vivo.clA
 
@@ -9987,6 +9989,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.body_part.name brain cell
 					sample.short_label E15 brain cell
 					sample.long_label brain cell from 15 day embryo mouse
+					sample.body_part.organ_ontology UBERON_0000955
 
 						assay.sra_experiment SRX1461158
 						assay.sra_run SRR2971786
@@ -10029,6 +10032,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.short_label E15 liver cell
 					sample.long_label liver cell from 15 day embryo mouse
 					cell.ontology CL_0000182
+					sample.body_part.organ_ontology UBERON_0002107
 
 						assay.sra_experiment SRX1461162
 						assay.sra_run SRR2971790

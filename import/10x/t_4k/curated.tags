@@ -34,4 +34,5 @@ assay.single_cell.cell_barcode_offset 0
 assay.single_cell.cell_barcode_read index
 assay.single_cell.method 10x_v2
 assay.files t_4k_S1_L001_R1_001.fastq.gz, t_4k_S1_L001_R2_001.fastq.gz, t_4k_S1_L002_R1_001.fastq.gz, t_4k_S1_L002_R2_001.fastq.gz, t_4k_S1_L003_R1_001.fastq.gz, t_4k_S1_L003_R2_001.fastq.gz, t_4k_S1_L004_R1_001.fastq.gz, t_4k_S1_L004_R2_001.fastq.gz, t_4k_S1_L005_R1_001.fastq.gz, t_4k_S1_L005_R2_001.fastq.gz, t_4k_S1_L006_R1_001.fastq.gz, t_4k_S1_L006_R2_001.fastq.gz, t_4k_S1_L007_R1_001.fastq.gz, t_4k_S1_L007_R2_001.fastq.gz, t_4k_S1_L008_R1_001.fastq.gz, t_4k_S1_L008_R2_001.fastq.gz
+sample.body_part.organ_ontology UBERON_0000178
 

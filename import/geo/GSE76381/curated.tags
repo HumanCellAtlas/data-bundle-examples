@@ -40,6 +40,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 		sample.body_part.name ventral midbrain
 		sample.body_part.organ brain
 		sample.characteristics_cef EmbryoMoleculeCounts.cef
+		sample.body_part.organ_ontology UBERON_0000955
 
 			sample.long_label ventral midbrain from 6 week old embryo
 			sample.short_label 6w emb vent midbrain
@@ -15979,6 +15980,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 		sample.body_part.organ embryo
 		sample.characteristics_cef iPSMoleculeCounts.cef
 		sample.donor.life_stage cell line
+		sample.body_part.organ_ontology UBERON_0000922
 
 			sample.characteristics_time 42d
 			sample.long_label dopaminergic neurons (iCell DopaNeurons) cultured 5 days
@@ -18714,6 +18716,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 		sample.body_part.organ embryo
 		sample.characteristics_cef ESMoleculeCounts.cef
 		sample.donor.life_stage cell line
+		sample.body_part.organ_ontology UBERON_0000922
 
 			sample.characteristics_time 0d
 			sample.long_label human embyonic stem cells undifferentiated
@@ -32511,6 +32514,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 		sample.body_part.organ brain
 		sample.characteristics_cef MouseEmbryoMoleculeCounts.cef
 		sample.donor.life_stage embryo
+		sample.body_part.organ_ontology UBERON_0000955
 
 			sample.characteristics_time e11.5
 			sample.donor.age 11.5
@@ -47988,6 +47992,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 		sample.body_part.organ brain
 		sample.characteristics_cef MouseAdultDAMoleculeCounts.cef
 		sample.donor.life_stage postpartum
+		sample.body_part.organ_ontology UBERON_0000955
 
 			sample.characteristics_time p19
 			sample.donor.age 19

@@ -37,6 +37,7 @@ sample.protocols C1 autoprep standard protocol
 sample.short_label Single cell from healthy human cortex
 sample.submission_date 2015-04-15
 project.uuid 9a7df456-806d-4386-b630-d8382ad8d7ad
+sample.body_part.organ_ontology UBERON_0000955
 
 	assay.seq.machine Illumina MiSeq
 	sample.characteristics_experiment_sample_name AB_S1

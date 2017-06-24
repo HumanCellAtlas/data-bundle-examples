@@ -46,6 +46,7 @@ sample.protocols GFP+ cells were manually isolated from a cell suspension prepar
 sample.submission_date 2016-12-02
 sample.short_label brain: Arc-ME
 sample.long_label arcuate hypothalamus/median eminence cells from RIP-Cre::AAV-loxSTOPlox-GFP+ mouse
+sample.body_part.organ_ontology UBERON_0000955
 
 	assay.sra_experiment SRX2390154
 	assay.sra_run SRR5070307

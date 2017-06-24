@@ -39,6 +39,7 @@ sample.protocols "cDNA from each sample was prepared using the SMART-Seq 2 proto
 sample.last_update_date 2016-11-15
 sample.submission_date 2016-10-27
 sample.body_part.organ blood
+sample.body_part.organ_ontology UBERON_0000178
 
 	sample.body_part.name blood dendritic cells
 	sample.donor.life_stage adult
@@ -1368,12 +1369,12 @@ sample.body_part.organ blood
 	cell.type pre-conventional dendritic cell
 	sample.long_label cord blood pre-conventional dendritic cells (CB pre-cDC)
 	sample.short_label cord blood pre-cDC
-	sample.body_part.name cord blood pre-cDCs
 	sample.donor.life_stage postpartum
 	sample.donor.age 0
 	sample.donor.age_unit day
 	sample.body_part.name umbilical cord blood
 	cell.ontology CL_0002010
+	sample.body_part.ontology UBERON_0012168
 
 		assay.sra_experiment SRX2271805
 		assay.sra_run SRR4455331

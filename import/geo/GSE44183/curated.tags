@@ -34,6 +34,7 @@ sample.protocol_types growth protocol,treatment protocol,nucleic acid library co
 sample.protocols "Single blastomeres were isolated by removing the zona pellucida using acidic tyrode solution (Sigma, cat. no. T1788), then separated by gentle mouth pipetting in a calcium-free medium.",Single cells were washed twice with 1x PBS containing 0.1% BSA before placing in lysis buffer.,"RNA was isolated from single cells or single morula embryos and amplified as previously described (Tang et al., 2010, Nat Protoc)"
 sample.donor.life_stage embryo
 sample.body_part.organ embryo
+sample.body_part.organ_ontology UBERON_0000922
 
 	assay.rna.primer random
 	sample.data_processing Raw reads from the Illumina HiSeq2000 were mapped to the hg19 genome using default parameters in BWA,Mapped transcripts reads were transformed using the reads per kilobase per million (RPKM) metric,"Genes with low expression in all stages (average RPKM<0.5) were filtered out, followed by quantile normalization.",Genome_build: hg19,Supplementary_files_format_and_content: human_expression_mat.txt: matrix listing normalized RPKM

@@ -34,6 +34,7 @@ sample.body_part.organ embryo
 sample.last_update_date 2013-08-10
 sample.protocol_types growth protocol,nucleic acid library construction protocol
 sample.protocols Donated human preplantation embryos were dissociated into individual blastmeres and were separately amplied to set up single cell cDNA libraries.,"Amplied single cell cDNAs were further amplied for another ten cycles of PCR. Then it was sonicated into 200~500bp fragments ,then the standard TruSeq DNA library preparation kit was used following the manufacturer suggestion protocol"
+sample.body_part.organ_ontology UBERON_0000922
 
 	cell.type oocyte
 	sample.body_part.name oocyte

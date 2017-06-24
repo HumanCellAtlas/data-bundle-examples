@@ -50,6 +50,7 @@ sample.protocol_types nucleic acid library construction protocol
 sample.protocols "suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads. Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol."
 sample.last_update_date 2016-08-25
 sample.submission_date 2016-05-25
+sample.body_part.organ_ontology UBERON_0000970
 
 	assay.sra_experiment SRX1800075
 	assay.sra_run SRR3587500

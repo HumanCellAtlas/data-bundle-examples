@@ -39,6 +39,7 @@ sample.protocols "Single islet cells were captured with C1 Integrated Fluidic Ci
 sample.submission_date 2016-05-18
 project.uuid 8d1ebea8-b50b-4f06-afa9-872b999b8113
 sample.body_part.ontology UBERON_0000006
+sample.body_part.organ_ontology UBERON_0001264
 
 	sample.donor.disease normal
 	sample.long_label adult pancreatic islets from normal 23 year old male

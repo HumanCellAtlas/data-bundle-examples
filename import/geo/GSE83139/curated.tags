@@ -39,6 +39,7 @@ sample.protocols "islets were cultured in the standand prodo islet media (PIM-S0
 sample.submission_date 2016-06-08
 project.uuid b6a77e39-3bf9-47e5-b3b4-e43543d67fed
 sample.body_part.ontology UBERON_0000006
+sample.body_part.organ_ontology UBERON_0001264
 
 	sample.donor.disease normal
 

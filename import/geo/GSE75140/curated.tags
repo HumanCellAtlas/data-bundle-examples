@@ -39,6 +39,7 @@ sample.submission_date 2015-11-30
 	sample.body_part.organ embryo
 	sample.donor.age_unit day
 	sample.protocols "Cerebral organoids were generated using the same protocol as described Lancaster et al. Nature Protocols 2014, with the exception that mTESR1 (Stem Cell Technologies) was used during embryoid body formation.","Whole cerebral organoids and microdisseccted ventricles were dissociated in 2 ml of Accutase (StemPro) containing 0.2 U/µl Dnase I (Roche) for approximately 45 minutes. Dissociated cells were filtered through 40, 30, and 20 μm diameter strainers to create a single cell suspension.","Cells were loaded into the Fluidigm C1 microfluidic platform, where single cells were captured. Lysis of single cells, reverse-transcription of mRNA into cDNA as well as preamplification of cDNA occured within the microfluidic device using reagents provided by Fluidigm as well as the SMARTer Ultra Low RNA kit for Illumina (Clontech). External RNA spike-in transcripts (ERCC spike-in Mix, Ambion) were added to all single cell lysis reactions at a dilution of 1:40,000."
+	sample.body_part.organ_ontology UBERON_0000922
 
 		sample.cell_line iPSC 409B2
 		sample.donor.age 33
@@ -4145,6 +4146,7 @@ sample.submission_date 2015-11-30
 	sample.body_part.organ brain
 	sample.protocols Fetuses were 12 to 13 wpc as assessed by ultrasound measurements of crown-rump length and other standard criteria of developmental stage determination.,"Fetal cortices were digested with papain (Miltenyi Biotec, 1ml) for 15 min at 37°C on a rotating wheel, followed by addition of a papain inhibitor. Dissociated cells were filtered through 40, 30, and 20 μm diameter strainers to create a single cell suspension.","Cells were loaded into the Fluidigm C1 microfluidic platform, where single cells were captured. Lysis of single cells, reverse-transcription of mRNA into cDNA as well as preamplification of cDNA occured within the microfluidic device using reagents provided by Fluidigm as well as the SMARTer Ultra Low RNA kit for Illumina (Clontech). External RNA spike-in transcripts (ERCC spike-in Mix, Ambion) were added to all single cell lysis reactions at a dilution of 1:40,000."
 	sample.body_part.ontology UBERON_0001950
+	sample.body_part.organ_ontology UBERON_0000955
 
 		sample.donor.age 12
 		sample.donor.id fetus 1

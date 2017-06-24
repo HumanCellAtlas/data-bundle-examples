@@ -34,6 +34,7 @@ sample.protocols qPCR only,Illumina HiSeq 2500
 sample.treatment.enrichment POMC+
 cell.ontology CL_0000540
 sample.body_part.ontology UBERON_0001932
+sample.body_part.organ_ontology UBERON_0000955
 
 	sample.ena_sample ERS639336
 	sample.id ERS639336
