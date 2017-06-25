@@ -4,7 +4,7 @@ assay.files $ *
 assay.rna.prep $ *
 assay.rna.primer $ poly-dt random
 assay.rna.spike_in $ *
-assay.rna.spike_in_dilution # 1 100000
+assay.rna.spike_in_dilution # 1 1000000
 assay.rna.strand $ both first
 assay.seq.machine $ "Illumina HiSeq 2000" "Illumina HiSeq 2500" "Illumina HiSeq 4000" "Illumina NextSeq 500" "Illumina MiSeq"
 !assay.seq.molecule $ RNA "polyA RNA" "total RNA"
@@ -16,7 +16,7 @@ assay.seq.umi_barcode_size # 0 50
 assay.single_cell.cell_barcode_offset # 0 50
 assay.single_cell.cell_barcode_read $ read1 read2 index
 assay.single_cell.cell_barcode_size # 0 50
-!assay.single_cell.method $ 10x_v2 FACS "Fluidigm C1" drop-seq "mouth pipette"
+!assay.single_cell.method $ 10x_v2 FACS "Fluidigm C1" drop-seq "mouth pipette" bulk
 assay.sra_experiment $ *
 assay.sra_run $ *
 assay.submitted_file_names $ *
@@ -65,7 +65,7 @@ project.supplementary_files $ *
 !project.title $ *
 !project.uuid $ ????????-????-????-????-????????????
 sample.biosd_sample $ *
-sample.body_part.cell_count % 0 100
+sample.body_part.cell_count % 0 10000
 !sample.body_part.name $ *
 sample.body_part.ontology $ *_0??????
 !sample.body_part.organ $ blood bone brain embryo eye liver pancreas skin tonsil
