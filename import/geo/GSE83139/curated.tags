@@ -49,7 +49,7 @@ sample.body_part.organ_ontology UBERON_0001264
 		sample.short_label pancreas islet normal
 		sample.donor.uuid 88274e69-9151-42a3-b919-1528abbf1a0d
 
-			cell.type dropped cell
+			cell.well_quality low quality cell
 
 				assay.seq.machine Illumina HiSeq 2000
 				assay.sra_experiment SRX1832040
@@ -708,6 +708,7 @@ sample.body_part.organ_ontology UBERON_0001264
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832257
 				sample.uuid 3e2a09e2-40b8-420a-ba70-a4029d2671ce
 
+			cell.well_quality OK
 			cell.type pancreatic A cell
 			cell.ontology CL_0000171
 
@@ -1422,7 +1423,9 @@ sample.body_part.organ_ontology UBERON_0001264
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832261
 				sample.uuid eb40ed6e-77a5-4ed5-97ca-af4d0b147972
 
-			cell.type duct cell
+			cell.well_quality OK
+			cell.type pancreatic ductal cell
+			cell.ontology CL_0002079
 
 				assay.seq.machine Illumina HiSeq 2000
 				assay.sra_experiment SRX1832046
@@ -1532,8 +1535,9 @@ sample.body_part.organ_ontology UBERON_0001264
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832259
 				sample.uuid 363d8204-1705-4ab5-88d6-b1edca8a6987
 
-			cell.type gamma-delta T cell
-			cell.ontology CL_0000798
+			cell.well_quality OK
+			cell.type pancreatic D cell
+			cell.ontology CL_0000173
 
 				assay.seq.machine Illumina HiSeq 2000
 				assay.sra_experiment SRX1832050
@@ -1571,6 +1575,7 @@ sample.body_part.organ_ontology UBERON_0001264
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832200
 				sample.uuid 78398f1e-507a-4f61-a711-02c15e524434
 
+			cell.well_quality OK
 			cell.type insulin secreting cell
 			cell.ontology CL_0000168
 
@@ -2006,7 +2011,9 @@ sample.body_part.organ_ontology UBERON_0001264
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832252
 				sample.uuid aca041a8-f470-4a45-a7c1-41bec24a5f8f
 
-			cell.type pp cell
+			cell.well_quality OK
+			cell.type pancreatic PP cell
+			cell.ontology CL_0002275
 
 				assay.seq.machine Illumina HiSeq 2000
 				assay.sra_experiment SRX1832081
@@ -2047,18 +2054,21 @@ sample.body_part.organ_ontology UBERON_0001264
 			assay.seq.machine Illumina HiSeq 2500
 			assay.sra_experiment SRX1832199
 			assay.sra_run SRR3650127,SRR3650128
-			cell.type acinar cell
+			cell.well_quality OK
+			cell.type pancreatic acinar cell
 			sample.geo_sample GSM2194349
 			sample.id ACAP236 22238
 			sample.ncbi_biosample SAMN05217340
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832199
 			sample.uuid e6c68fe9-8c11-4369-9b50-3f86cc07064b
-			cell.ontology CL_0000622
+			cell.ontology CL_0002064
 
 			assay.seq.machine Illumina HiSeq 2500
 			assay.sra_experiment SRX1832258
 			assay.sra_run SRR3650245,SRR3650246
+			cell.well_quality OK
 			cell.type mesenchyme cell
+			cell.ontology CL_0008019
 			sample.geo_sample GSM2194408
 			sample.id ACAP236 22301
 			sample.ncbi_biosample SAMN05217369
@@ -2072,6 +2082,7 @@ sample.body_part.organ_ontology UBERON_0001264
 		sample.short_label pancreas islet child
 		sample.donor.uuid 0924389c-6d9c-4207-b25e-de09082279e1
 
+			cell.well_quality OK
 			cell.type pancreatic A cell
 			cell.ontology CL_0000171
 
@@ -2155,6 +2166,7 @@ sample.body_part.organ_ontology UBERON_0001264
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832573
 				sample.uuid 7ea14e47-f557-4927-bd88-2480673b1b69
 
+			cell.well_quality OK
 			cell.type insulin secreting cell
 			cell.ontology CL_0000168
 
@@ -2310,7 +2322,7 @@ sample.body_part.organ_ontology UBERON_0001264
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832581
 				sample.uuid 396b2578-7305-4396-82bb-8b992dfca228
 
-			cell.type dropped cell
+			cell.well_quality low quality cell
 
 				assay.sra_experiment SRX1832466
 				assay.sra_run SRR3650661,SRR3650662
@@ -2752,7 +2764,9 @@ sample.body_part.organ_ontology UBERON_0001264
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832583
 				sample.uuid 120c85b0-53be-4f13-81c3-312d33c40ace
 
-			cell.type pp cell
+			cell.well_quality OK
+			cell.type pancreatic PP cell
+			cell.ontology CL_0002275
 
 				assay.sra_experiment SRX1832481
 				assay.sra_run SRR3650691,SRR3650692
@@ -2770,7 +2784,9 @@ sample.body_part.organ_ontology UBERON_0001264
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832501
 				sample.uuid 2dee30ee-733f-4d20-b117-6a6c84c60790
 
-			cell.type duct cell
+			cell.well_quality OK
+			cell.type pancreatic ductal cell
+			cell.ontology CL_0002079
 
 				assay.sra_experiment SRX1832482
 				assay.sra_run SRR3650693,SRR3650694
@@ -2830,25 +2846,29 @@ sample.body_part.organ_ontology UBERON_0001264
 
 			assay.sra_experiment SRX1832499
 			assay.sra_run SRR3650727,SRR3650728
-			cell.type acinar cell
+			cell.well_quality OK
+			cell.type pancreatic acinar cell
 			sample.geo_sample GSM2194649
 			sample.id ICRH76 26127
 			sample.ncbi_biosample SAMN05217400
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832499
 			sample.uuid c3ecfa5e-53d1-4613-9524-84532d761975
-			cell.ontology CL_0000622
+			cell.ontology CL_0002064
 
 			assay.sra_experiment SRX1832502
 			assay.sra_run SRR3650733,SRR3650734
-			cell.type gamma-delta T cell
+			cell.well_quality OK
+			cell.type pancreatic D cell
 			sample.geo_sample GSM2194652
 			sample.id ICRH76 26131
 			sample.ncbi_biosample SAMN05217403
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832502
 			sample.uuid 25c566bd-24b5-4991-91a0-2a08a54934f3
-			cell.ontology CL_0000798
+			cell.ontology CL_0000173
 
+			cell.well_quality OK
 			cell.type mesenchyme cell
+			cell.ontology CL_0008019
 
 				assay.sra_experiment SRX1832522
 				assay.sra_run SRR3650765,SRR3650766
@@ -2994,8 +3014,9 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.short_label pancreas islet diab II
 	sample.donor.uuid f3eb99eb-27b7-4b6f-9c9c-7603412c5c8f
 
-		cell.type gamma-delta T cell
-		cell.ontology CL_0000798
+		cell.well_quality OK
+		cell.type pancreatic D cell
+		cell.ontology CL_0000173
 
 			assay.sra_experiment SRX1832262
 			assay.sra_run SRR3650253,SRR3650254
@@ -3029,6 +3050,7 @@ sample.body_part.organ_ontology UBERON_0001264
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832432
 			sample.uuid 60b0d4cc-5fae-4e26-a18f-3007ac572e46
 
+		cell.well_quality OK
 		cell.type insulin secreting cell
 		cell.ontology CL_0000168
 
@@ -3336,6 +3358,7 @@ sample.body_part.organ_ontology UBERON_0001264
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832511
 			sample.uuid 6c1c4cb7-d280-4528-9a53-9c6c038e4a78
 
+		cell.well_quality OK
 		cell.type pancreatic A cell
 		cell.ontology CL_0000171
 
@@ -4139,8 +4162,9 @@ sample.body_part.organ_ontology UBERON_0001264
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832510
 			sample.uuid 9b1174e0-d5cf-415b-ad13-23db5cc46795
 
-		cell.type acinar cell
-		cell.ontology CL_0000622
+		cell.well_quality OK
+		cell.type pancreatic acinar cell
+		cell.ontology CL_0002064
 
 			assay.sra_experiment SRX1832265
 			assay.sra_run SRR3650259,SRR3650260
@@ -4166,7 +4190,9 @@ sample.body_part.organ_ontology UBERON_0001264
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832508
 			sample.uuid a080ea2c-9aed-4cdf-9db0-140794345aa1
 
-		cell.type pp cell
+		cell.well_quality OK
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 
 			assay.sra_experiment SRX1832268
 			assay.sra_run SRR3650265,SRR3650266
@@ -4264,7 +4290,7 @@ sample.body_part.organ_ontology UBERON_0001264
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832506
 			sample.uuid 5d00d257-76e0-4a9a-8337-4d8a0535f30b
 
-		cell.type dropped cell
+		cell.well_quality low quality cell
 
 			assay.sra_experiment SRX1832291
 			assay.sra_run SRR3650311,SRR3650312
@@ -4562,7 +4588,9 @@ sample.body_part.organ_ontology UBERON_0001264
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832507
 			sample.uuid e4ac07ed-99f0-4122-ac0c-3d35b52c93da
 
+		cell.well_quality OK
 		cell.type mesenchyme cell
+		cell.ontology CL_0008019
 
 			assay.sra_experiment SRX1832299
 			assay.sra_run SRR3650327,SRR3650328
@@ -4604,7 +4632,9 @@ sample.body_part.organ_ontology UBERON_0001264
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832392
 			sample.uuid 3901c64b-cb13-41e2-93e4-01b7830d1737
 
-		cell.type duct cell
+		cell.well_quality OK
+		cell.type pancreatic ductal cell
+		cell.ontology CL_0002079
 
 			assay.sra_experiment SRX1832376
 			assay.sra_run SRR3650481,SRR3650482
@@ -4702,7 +4732,9 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.short_label pancreas islet diab I
 	sample.donor.uuid b859ce95-dbdd-46b3-81a8-e11510bdcd75
 
-		cell.type duct cell
+		cell.well_quality OK
+		cell.type pancreatic ductal cell
+		cell.ontology CL_0002079
 
 			assay.sra_experiment SRX1832584
 			assay.sra_run SRR3650889
@@ -5234,6 +5266,7 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1832586
 		assay.sra_run SRR3650891
+		cell.well_quality OK
 		cell.type pancreatic A cell
 		sample.geo_sample GSM2194736
 		sample.id ACGI428 29412
@@ -5242,7 +5275,9 @@ sample.body_part.organ_ontology UBERON_0001264
 		sample.uuid 0c59c5eb-2d5d-4d45-bd22-9eb7740269cd
 		cell.ontology CL_0000171
 
+		cell.well_quality OK
 		cell.type mesenchyme cell
+		cell.ontology CL_0008019
 
 			assay.sra_experiment SRX1832590
 			assay.sra_run SRR3650895
@@ -5276,7 +5311,7 @@ sample.body_part.organ_ontology UBERON_0001264
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832666
 			sample.uuid 8311429b-e928-40de-b05b-dc814f9c6997
 
-		cell.type dropped cell
+		cell.well_quality low quality cell
 
 			assay.sra_experiment SRX1832593
 			assay.sra_run SRR3650898
@@ -5382,6 +5417,7 @@ sample.body_part.organ_ontology UBERON_0001264
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832673
 			sample.uuid 8b0950d2-856a-4870-a805-edb117d4eac0
 
+		cell.well_quality OK
 		cell.type insulin secreting cell
 		cell.ontology CL_0000168
 
@@ -5435,11 +5471,12 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1832636
 		assay.sra_run SRR3650941
-		cell.type acinar cell
+		cell.well_quality OK
+		cell.type pancreatic acinar cell
 		sample.geo_sample GSM2194786
 		sample.id ACGI428 29463
 		sample.ncbi_biosample SAMN05217138
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832636
 		sample.uuid 1f139c8b-4207-4f86-8e39-4c2511c93059
-		cell.ontology CL_0000622
+		cell.ontology CL_0002064
 

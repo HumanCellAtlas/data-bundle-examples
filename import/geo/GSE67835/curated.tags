@@ -56,15 +56,17 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995982
 			assay.sra_run SRR1974664
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1657992
 			sample.ncbi_biosample SAMN03486263
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657992/suppl/GSM1657992_nochipID12.C05.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995982
 			sample.uuid 3d8fc69e-db45-4d54-9f48-69e0600c8b57
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995983
 			assay.sra_run SRR1974665
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1657993
 			sample.ncbi_biosample SAMN03486264
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657993/suppl/GSM1657993_nochipID12.C23.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995983
@@ -73,6 +75,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995984
 			assay.sra_run SRR1974666
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657994
 			sample.ncbi_biosample SAMN03486265
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657994/suppl/GSM1657994_nochipID12.C73.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995984
@@ -81,6 +84,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995985
 			assay.sra_run SRR1974667
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1657995
 			sample.ncbi_biosample SAMN03486206
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657995/suppl/GSM1657995_nochipID12.C84.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995985
@@ -89,6 +93,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995986
 			assay.sra_run SRR1974668
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657996
 			sample.ncbi_biosample SAMN03486207
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657996/suppl/GSM1657996_nochipID12.C87.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995986
@@ -101,39 +106,44 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996174
 			assay.sra_run SRR1974856
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658184
 			sample.ncbi_biosample SAMN03486035
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658184/suppl/GSM1658184_nochipID9.C01.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996174
 			sample.uuid 4acb2db7-8087-41d1-86cd-d0225e226f15
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996175
 			assay.sra_run SRR1974857
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658185
 			sample.ncbi_biosample SAMN03486036
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658185/suppl/GSM1658185_nochipID9.C02.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996175
 			sample.uuid e5e85fc8-07a5-4c44-b8a9-083bb106c2d5
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996176
 			assay.sra_run SRR1974858
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658186
 			sample.ncbi_biosample SAMN03486037
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658186/suppl/GSM1658186_nochipID9.C04.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996176
 			sample.uuid f6625bfc-6acf-48dd-9403-f332557e7860
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996177
 			assay.sra_run SRR1974859
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658187
 			sample.ncbi_biosample SAMN03486038
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658187/suppl/GSM1658187_nochipID9.C09.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996177
 			sample.uuid 94ba9c85-b0e8-4e72-a864-7e5e3e1e4ea2
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996178
 			assay.sra_run SRR1974860
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1658188
 			sample.ncbi_biosample SAMN03486039
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658188/suppl/GSM1658188_nochipID9.C14.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996178
@@ -142,6 +152,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX996179
 			assay.sra_run SRR1974861
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1658189
 			sample.ncbi_biosample SAMN03486040
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658189/suppl/GSM1658189_nochipID9.C18.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996179
@@ -149,55 +160,62 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996180
 			assay.sra_run SRR1974862
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658190
 			sample.ncbi_biosample SAMN03486041
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658190/suppl/GSM1658190_nochipID9.C26.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996180
 			sample.uuid ad71cfe9-170e-4abd-9fd3-238edf886919
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996181
 			assay.sra_run SRR1974863
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658191
 			sample.ncbi_biosample SAMN03486042
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658191/suppl/GSM1658191_nochipID9.C37.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996181
 			sample.uuid 0e8d6863-2755-47e7-b95d-4b02da4cd2e1
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996182
 			assay.sra_run SRR1974864
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658192
 			sample.ncbi_biosample SAMN03486043
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658192/suppl/GSM1658192_nochipID9.C42.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996182
 			sample.uuid b54cdf30-795f-490e-be8a-3cd3ece0f291
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996183
 			assay.sra_run SRR1974865
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658193
 			sample.ncbi_biosample SAMN03486045
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658193/suppl/GSM1658193_nochipID9.C57.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996183
 			sample.uuid 5890dfb3-6bf3-48df-86a9-5ff62a006039
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996184
 			assay.sra_run SRR1974866
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658194
 			sample.ncbi_biosample SAMN03486046
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658194/suppl/GSM1658194_nochipID9.C59.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996184
 			sample.uuid 707b1bae-3376-4278-81ba-81593734499c
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996185
 			assay.sra_run SRR1974867
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658195
 			sample.ncbi_biosample SAMN03486047
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658195/suppl/GSM1658195_nochipID9.C62.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996185
 			sample.uuid a5b944b5-a3ff-4880-ab74-5a0ea490d159
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996186
 			assay.sra_run SRR1974868
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1658196
 			sample.ncbi_biosample SAMN03486048
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658196/suppl/GSM1658196_nochipID9.C65.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996186
@@ -205,51 +223,57 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996187
 			assay.sra_run SRR1974869
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658197
 			sample.ncbi_biosample SAMN03486049
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658197/suppl/GSM1658197_nochipID9.C74.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996187
 			sample.uuid ebe0b437-5356-492a-be3c-89620c4c3bde
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996188
 			assay.sra_run SRR1974870
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658198
 			sample.ncbi_biosample SAMN03486050
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658198/suppl/GSM1658198_nochipID9.C75.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996188
 			sample.uuid 4fb25538-1921-4291-b6b7-c053fd578f0f
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996189
 			assay.sra_run SRR1974871
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658199
 			sample.ncbi_biosample SAMN03486051
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658199/suppl/GSM1658199_nochipID9.C84.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996189
 			sample.uuid f76f2526-67f3-4c76-9ea2-29c98be8b4c1
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996190
 			assay.sra_run SRR1974872
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658200
 			sample.ncbi_biosample SAMN03486052
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658200/suppl/GSM1658200_nochipID9.C85.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996190
 			sample.uuid 392bb274-d324-49ae-ba19-27d824a43316
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996191
 			assay.sra_run SRR1974873
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658201
 			sample.ncbi_biosample SAMN03486044
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658201/suppl/GSM1658201_nochipID9.C87.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996191
 			sample.uuid b2cfa45c-013d-4b59-8631-2cfea2cc1fe0
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996192
 			assay.sra_run SRR1974874
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658202
 			sample.ncbi_biosample SAMN03486053
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658202/suppl/GSM1658202_nochipID9.C92.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996192
 			sample.uuid c77e1ca9-24aa-42af-963d-07443b49a81c
+			cell.ontology CL_0000127
 
 	assay.seq.machine Illumina MiSeq
 	sample.characteristics_experiment_sample_name AB_S2
@@ -269,6 +293,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995987
 			assay.sra_run SRR1974669
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657997
 			sample.ncbi_biosample SAMN03486208
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657997/suppl/GSM1657997_nochipID14.C08.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995987
@@ -276,15 +301,17 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995988
 			assay.sra_run SRR1974670
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1657998
 			sample.ncbi_biosample SAMN03486209
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657998/suppl/GSM1657998_nochipID14.C13.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995988
 			sample.uuid e33de516-d575-4e5c-9ff8-fdfccc4aad91
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995989
 			assay.sra_run SRR1974671
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657999
 			sample.ncbi_biosample SAMN03486210
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657999/suppl/GSM1657999_nochipID14.C29.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995989
@@ -292,19 +319,21 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995990
 			assay.sra_run SRR1974672
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658000
 			sample.ncbi_biosample SAMN03486211
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658000/suppl/GSM1658000_nochipID14.C45.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995990
 			sample.uuid 29acb494-1d40-42fc-80cc-9068130db4a6
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995991
 			assay.sra_run SRR1974673
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658001
 			sample.ncbi_biosample SAMN03486212
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658001/suppl/GSM1658001_nochipID14.C89.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995991
 			sample.uuid e877c6e6-2776-4963-90c3-80d54c3d5f44
+			cell.ontology CL_0000540
 
 	assay.seq.machine Illumina MiSeq
 	sample.characteristics_experiment_sample_name AB_S3
@@ -323,15 +352,15 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995992
 			assay.sra_run SRR1974674
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658002
 			sample.ncbi_biosample SAMN03486213
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658002/suppl/GSM1658002_nochipID15.C20.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995992
 			sample.uuid 2da7242c-3932-405b-aa31-de4c90d55904
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995993
 			assay.sra_run SRR1974675
-			cell.type fetal_quiescent
 			sample.geo_sample GSM1658003
 			sample.ncbi_biosample SAMN03486214
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658003/suppl/GSM1658003_nochipID15.C54.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995993
@@ -340,6 +369,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995994
 			assay.sra_run SRR1974676
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658004
 			sample.ncbi_biosample SAMN03486215
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658004/suppl/GSM1658004_nochipID15.C69.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995994
@@ -347,11 +377,12 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995995
 			assay.sra_run SRR1974677
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658005
 			sample.ncbi_biosample SAMN03486216
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658005/suppl/GSM1658005_nochipID15.C86.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995995
 			sample.uuid 2cc59995-25c3-46b0-ada5-a4970f55639e
+			cell.ontology CL_0000540
 
 	assay.seq.machine Illumina MiSeq
 	sample.characteristics_experiment_sample_name FB_S1
@@ -1217,11 +1248,12 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995861
 			assay.sra_run SRR1974543
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657871
 			sample.ncbi_biosample SAMN03486326
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657871/suppl/GSM1657871_1772078217.C03.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995861
 			sample.uuid 382e0e1c-d144-4d53-b226-b6f973ff8e0b
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995862
 			assay.sra_run SRR1974544
@@ -1233,11 +1265,12 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995863
 			assay.sra_run SRR1974545
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657873
 			sample.ncbi_biosample SAMN03486328
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657873/suppl/GSM1657873_1772078217.C06.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995863
 			sample.uuid 461769bc-c296-4b7a-afaf-f9cef7612c06
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995864
 			assay.sra_run SRR1974546
@@ -1257,19 +1290,21 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995866
 			assay.sra_run SRR1974548
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657876
 			sample.ncbi_biosample SAMN03486331
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657876/suppl/GSM1657876_1772078217.C09.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995866
 			sample.uuid ac0ac698-c9e3-4596-8e6f-bc54c2479abd
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995867
 			assay.sra_run SRR1974549
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657877
 			sample.ncbi_biosample SAMN03486332
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657877/suppl/GSM1657877_1772078217.C14.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995867
 			sample.uuid f383e532-1dad-4904-b2d7-2c99c408560c
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995868
 			assay.sra_run SRR1974550
@@ -1297,11 +1332,12 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995871
 			assay.sra_run SRR1974553
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657881
 			sample.ncbi_biosample SAMN03486336
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657881/suppl/GSM1657881_1772078217.C20.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995871
 			sample.uuid 0af7d3cf-675e-48bf-b2ab-15cc72fab179
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995872
 			assay.sra_run SRR1974554
@@ -1329,11 +1365,12 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995875
 			assay.sra_run SRR1974557
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1657885
 			sample.ncbi_biosample SAMN03486340
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657885/suppl/GSM1657885_1772078217.C32.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995875
 			sample.uuid ad209c57-3faf-4461-945f-95558576775a
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995876
 			assay.sra_run SRR1974558
@@ -1361,39 +1398,44 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995879
 			assay.sra_run SRR1974561
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657889
 			sample.ncbi_biosample SAMN03486344
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657889/suppl/GSM1657889_1772078217.C47.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995879
 			sample.uuid d3c7b7e5-d98f-4e17-9626-9c634fd26249
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995880
 			assay.sra_run SRR1974562
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657890
 			sample.ncbi_biosample SAMN03486358
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657890/suppl/GSM1657890_1772078217.C52.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995880
 			sample.uuid 6a818242-f3f7-4d0d-a4d1-d93587140043
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995881
 			assay.sra_run SRR1974563
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657891
 			sample.ncbi_biosample SAMN03486355
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657891/suppl/GSM1657891_1772078217.C56.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995881
 			sample.uuid 37ea9d1a-fe33-465a-bfb4-a6482f47563f
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995882
 			assay.sra_run SRR1974564
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657892
 			sample.ncbi_biosample SAMN03486356
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657892/suppl/GSM1657892_1772078217.C58.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995882
 			sample.uuid 1de735ef-53fc-4550-a3a3-fb9a175b1612
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995883
 			assay.sra_run SRR1974565
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657893
 			sample.ncbi_biosample SAMN03486357
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657893/suppl/GSM1657893_1772078217.C59.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995883
@@ -1401,11 +1443,12 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995884
 			assay.sra_run SRR1974566
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657894
 			sample.ncbi_biosample SAMN03486345
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657894/suppl/GSM1657894_1772078217.C60.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995884
 			sample.uuid 7920d946-b991-4f5f-a304-f90bc17f169f
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995885
 			assay.sra_run SRR1974567
@@ -1433,47 +1476,53 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995888
 			assay.sra_run SRR1974570
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657898
 			sample.ncbi_biosample SAMN03486349
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657898/suppl/GSM1657898_1772078217.C80.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995888
 			sample.uuid f31efab6-f2df-4656-b540-a66a0b7f41a3
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995889
 			assay.sra_run SRR1974571
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657899
 			sample.ncbi_biosample SAMN03486350
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657899/suppl/GSM1657899_1772078217.C87.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995889
 			sample.uuid e2ef6957-54de-45be-b322-994a8f990bed
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995890
 			assay.sra_run SRR1974572
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657900
 			sample.ncbi_biosample SAMN03486351
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657900/suppl/GSM1657900_1772078217.C89.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995890
 			sample.uuid cf82d5b8-273d-4f3d-801c-6f2909d8eb64
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995891
 			assay.sra_run SRR1974573
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657901
 			sample.ncbi_biosample SAMN03486352
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657901/suppl/GSM1657901_1772078217.C91.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995891
 			sample.uuid 1d1c38f2-b7cd-4178-ab2e-bd8ebc4215b5
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995892
 			assay.sra_run SRR1974574
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657902
 			sample.ncbi_biosample SAMN03486353
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657902/suppl/GSM1657902_1772078217.C94.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995892
 			sample.uuid 6d3a8226-96b4-4760-8dee-3a99afa33728
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995893
 			assay.sra_run SRR1974575
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657903
 			sample.ncbi_biosample SAMN03486296
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657903/suppl/GSM1657903_1772078217.C96.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995893
@@ -1486,7 +1535,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995894
 			assay.sra_run SRR1974576
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657904
 			sample.ncbi_biosample SAMN03486297
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657904/suppl/GSM1657904_1772078218.C05.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995894
@@ -1502,7 +1552,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995896
 			assay.sra_run SRR1974578
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657906
 			sample.ncbi_biosample SAMN03486299
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657906/suppl/GSM1657906_1772078218.C09.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995896
@@ -1510,7 +1561,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995897
 			assay.sra_run SRR1974579
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657907
 			sample.ncbi_biosample SAMN03486300
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657907/suppl/GSM1657907_1772078218.C13.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995897
@@ -1518,7 +1570,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995898
 			assay.sra_run SRR1974580
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657908
 			sample.ncbi_biosample SAMN03486301
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657908/suppl/GSM1657908_1772078218.C18.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995898
@@ -1526,7 +1579,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995899
 			assay.sra_run SRR1974581
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657909
 			sample.ncbi_biosample SAMN03486302
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657909/suppl/GSM1657909_1772078218.C23.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995899
@@ -1535,6 +1589,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995900
 			assay.sra_run SRR1974582
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657910
 			sample.ncbi_biosample SAMN03486303
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657910/suppl/GSM1657910_1772078218.C27.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995900
@@ -1542,7 +1597,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995901
 			assay.sra_run SRR1974583
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657911
 			sample.ncbi_biosample SAMN03486304
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657911/suppl/GSM1657911_1772078218.C29.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995901
@@ -1558,7 +1614,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995903
 			assay.sra_run SRR1974585
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657913
 			sample.ncbi_biosample SAMN03486306
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657913/suppl/GSM1657913_1772078218.C34.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995903
@@ -1566,7 +1623,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995904
 			assay.sra_run SRR1974586
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657914
 			sample.ncbi_biosample SAMN03486307
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657914/suppl/GSM1657914_1772078218.C43.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995904
@@ -1574,7 +1632,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995905
 			assay.sra_run SRR1974587
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657915
 			sample.ncbi_biosample SAMN03486308
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657915/suppl/GSM1657915_1772078218.C44.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995905
@@ -1582,7 +1641,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995906
 			assay.sra_run SRR1974588
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657916
 			sample.ncbi_biosample SAMN03486309
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657916/suppl/GSM1657916_1772078218.C47.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995906
@@ -1590,7 +1650,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995907
 			assay.sra_run SRR1974589
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657917
 			sample.ncbi_biosample SAMN03486310
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657917/suppl/GSM1657917_1772078218.C48.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995907
@@ -1599,6 +1660,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995908
 			assay.sra_run SRR1974590
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657918
 			sample.ncbi_biosample SAMN03486311
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657918/suppl/GSM1657918_1772078218.C53.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995908
@@ -1607,6 +1669,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995909
 			assay.sra_run SRR1974591
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657919
 			sample.ncbi_biosample SAMN03486312
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657919/suppl/GSM1657919_1772078218.C55.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995909
@@ -1614,7 +1677,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995910
 			assay.sra_run SRR1974592
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657920
 			sample.ncbi_biosample SAMN03486313
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657920/suppl/GSM1657920_1772078218.C56.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995910
@@ -1622,7 +1686,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995911
 			assay.sra_run SRR1974593
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657921
 			sample.ncbi_biosample SAMN03486314
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657921/suppl/GSM1657921_1772078218.C58.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995911
@@ -1630,7 +1695,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995912
 			assay.sra_run SRR1974594
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657922
 			sample.ncbi_biosample SAMN03486315
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657922/suppl/GSM1657922_1772078218.C61.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995912
@@ -1639,6 +1705,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995913
 			assay.sra_run SRR1974595
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657923
 			sample.ncbi_biosample SAMN03486316
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657923/suppl/GSM1657923_1772078218.C71.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995913
@@ -1646,7 +1713,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995914
 			assay.sra_run SRR1974596
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657924
 			sample.ncbi_biosample SAMN03486317
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657924/suppl/GSM1657924_1772078218.C85.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995914
@@ -1655,6 +1723,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995915
 			assay.sra_run SRR1974597
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657925
 			sample.ncbi_biosample SAMN03486318
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657925/suppl/GSM1657925_1772078218.C88.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995915
@@ -1663,6 +1732,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995916
 			assay.sra_run SRR1974598
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657926
 			sample.ncbi_biosample SAMN03486319
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657926/suppl/GSM1657926_1772078218.C89.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995916
@@ -1671,6 +1741,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX995917
 			assay.sra_run SRR1974599
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657927
 			sample.ncbi_biosample SAMN03486320
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657927/suppl/GSM1657927_1772078218.C93.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995917
@@ -1678,7 +1749,8 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995918
 			assay.sra_run SRR1974600
-			cell.type OPC
+			cell.type oligodendrocyte precursor cell
+			cell.ontology CL_0002453
 			sample.geo_sample GSM1657928
 			sample.ncbi_biosample SAMN03486321
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657928/suppl/GSM1657928_1772078218.C95.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995918
@@ -1709,39 +1781,44 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995920
 			assay.sra_run SRR1974602
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657930
 			sample.ncbi_biosample SAMN03486323
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657930/suppl/GSM1657930_1772078236.C12.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995920
 			sample.uuid 962e0c39-2d44-484f-aec7-34cdae1a924e
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995921
 			assay.sra_run SRR1974603
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657931
 			sample.ncbi_biosample SAMN03486324
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657931/suppl/GSM1657931_1772078236.C16.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995921
 			sample.uuid 7c7a81d8-a816-4240-9d06-d805293be74a
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995922
 			assay.sra_run SRR1974604
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1657932
 			sample.ncbi_biosample SAMN03486325
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657932/suppl/GSM1657932_1772078236.C17.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995922
 			sample.uuid 5d865a25-06ac-49ab-b4f6-6790fac8bc2d
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995923
 			assay.sra_run SRR1974605
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657933
 			sample.ncbi_biosample SAMN03486359
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657933/suppl/GSM1657933_1772078236.C19.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995923
 			sample.uuid 561daebd-71b8-447f-878c-e9242e3bb3ce
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995924
 			assay.sra_run SRR1974606
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1657934
 			sample.ncbi_biosample SAMN03486354
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657934/suppl/GSM1657934_1772078236.C25.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995924
@@ -1749,11 +1826,12 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995925
 			assay.sra_run SRR1974607
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657935
 			sample.ncbi_biosample SAMN03486266
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657935/suppl/GSM1657935_1772078236.C26.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995925
 			sample.uuid 290ad3fb-f5b7-411a-a987-234523039964
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995926
 			assay.sra_run SRR1974608
@@ -1765,83 +1843,93 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995927
 			assay.sra_run SRR1974609
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657937
 			sample.ncbi_biosample SAMN03486268
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657937/suppl/GSM1657937_1772078236.C28.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995927
 			sample.uuid c9d52400-4517-437f-8019-9ee99fb397e1
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995928
 			assay.sra_run SRR1974610
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1657938
 			sample.ncbi_biosample SAMN03486269
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657938/suppl/GSM1657938_1772078236.C30.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995928
 			sample.uuid 1aa8f1c3-6a9c-4759-8db9-36bbd26685e1
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995929
 			assay.sra_run SRR1974611
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657939
 			sample.ncbi_biosample SAMN03486270
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657939/suppl/GSM1657939_1772078236.C31.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995929
 			sample.uuid 5013a9d2-79b5-4ad9-b68d-946fb1d52d6d
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995930
 			assay.sra_run SRR1974612
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657940
 			sample.ncbi_biosample SAMN03486271
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657940/suppl/GSM1657940_1772078236.C32.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995930
 			sample.uuid b65477c9-8e58-4e86-83d3-db5614ae8ce4
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995931
 			assay.sra_run SRR1974613
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657941
 			sample.ncbi_biosample SAMN03486272
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657941/suppl/GSM1657941_1772078236.C33.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995931
 			sample.uuid 32d6b48d-4655-458d-80de-cd0af2d8a43d
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995932
 			assay.sra_run SRR1974614
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657942
 			sample.ncbi_biosample SAMN03486273
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657942/suppl/GSM1657942_1772078236.C34.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995932
 			sample.uuid 2d8fb046-7cd0-4dda-8712-a3aa6bd107fe
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995933
 			assay.sra_run SRR1974615
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657943
 			sample.ncbi_biosample SAMN03486274
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657943/suppl/GSM1657943_1772078236.C36.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995933
 			sample.uuid 019ee76e-b31b-4d3c-bd1b-b1ab5df85f32
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995934
 			assay.sra_run SRR1974616
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1657944
 			sample.ncbi_biosample SAMN03486275
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657944/suppl/GSM1657944_1772078236.C38.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995934
 			sample.uuid a9406ea1-98bd-4a9a-be61-062f327d3908
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX995935
 			assay.sra_run SRR1974617
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657945
 			sample.ncbi_biosample SAMN03486276
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657945/suppl/GSM1657945_1772078236.C40.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995935
 			sample.uuid 957c2741-2c7a-4620-8200-9b4a347eb5de
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995936
 			assay.sra_run SRR1974618
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657946
 			sample.ncbi_biosample SAMN03486277
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657946/suppl/GSM1657946_1772078236.C41.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995936
 			sample.uuid b3ded1a2-4628-4110-a511-4a85dadf0b50
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995937
 			assay.sra_run SRR1974619
@@ -1853,123 +1941,138 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995938
 			assay.sra_run SRR1974620
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657948
 			sample.ncbi_biosample SAMN03486279
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657948/suppl/GSM1657948_1772078236.C46.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995938
 			sample.uuid f1148061-edbc-44ba-a4c4-e36f1786fbd3
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995939
 			assay.sra_run SRR1974621
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657949
 			sample.ncbi_biosample SAMN03486280
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657949/suppl/GSM1657949_1772078236.C47.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995939
 			sample.uuid bf15e6a4-fd6f-47f0-95c4-6dc216582526
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995940
 			assay.sra_run SRR1974622
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657950
 			sample.ncbi_biosample SAMN03486281
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657950/suppl/GSM1657950_1772078236.C49.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995940
 			sample.uuid 2b912943-60ce-419d-a695-2838d24ae476
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995941
 			assay.sra_run SRR1974623
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657951
 			sample.ncbi_biosample SAMN03486282
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657951/suppl/GSM1657951_1772078236.C54.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995941
 			sample.uuid be306d95-f32f-43ec-a223-2c44ecc1f092
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995942
 			assay.sra_run SRR1974624
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657952
 			sample.ncbi_biosample SAMN03486283
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657952/suppl/GSM1657952_1772078236.C56.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995942
 			sample.uuid 236497b4-81c2-43ed-9862-a3addf2d53fb
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995943
 			assay.sra_run SRR1974625
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657953
 			sample.ncbi_biosample SAMN03486284
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657953/suppl/GSM1657953_1772078236.C57.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995943
 			sample.uuid 24dc3dc9-d114-4abe-8a30-85065773340d
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995944
 			assay.sra_run SRR1974626
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657954
 			sample.ncbi_biosample SAMN03486285
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657954/suppl/GSM1657954_1772078236.C61.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995944
 			sample.uuid 99402f6c-9e20-4ad1-8a86-9ab1847cca21
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995945
 			assay.sra_run SRR1974627
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657955
 			sample.ncbi_biosample SAMN03486286
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657955/suppl/GSM1657955_1772078236.C65.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995945
 			sample.uuid 375be8c0-e838-4090-8672-2b23dacbe183
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995946
 			assay.sra_run SRR1974628
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657956
 			sample.ncbi_biosample SAMN03486287
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657956/suppl/GSM1657956_1772078236.C66.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995946
 			sample.uuid f260dc66-b92d-4137-a802-32dd188962b8
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995947
 			assay.sra_run SRR1974629
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657957
 			sample.ncbi_biosample SAMN03486288
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657957/suppl/GSM1657957_1772078236.C70.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995947
 			sample.uuid 98986818-9d17-4f5b-bb15-d53b8ccd0dc4
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995948
 			assay.sra_run SRR1974630
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657958
 			sample.ncbi_biosample SAMN03486289
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657958/suppl/GSM1657958_1772078236.C74.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995948
 			sample.uuid 85d6774a-ffd2-453d-bb81-3edf40357963
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995949
 			assay.sra_run SRR1974631
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657959
 			sample.ncbi_biosample SAMN03486290
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657959/suppl/GSM1657959_1772078236.C77.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995949
 			sample.uuid 49f9a247-37d3-4925-b42c-932c0b2ab5fc
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995950
 			assay.sra_run SRR1974632
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657960
 			sample.ncbi_biosample SAMN03486291
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657960/suppl/GSM1657960_1772078236.C89.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995950
 			sample.uuid 70f78904-f0e1-49c2-9e8e-bfec5a594e57
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995951
 			assay.sra_run SRR1974633
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657961
 			sample.ncbi_biosample SAMN03486292
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657961/suppl/GSM1657961_1772078236.C90.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995951
 			sample.uuid 5c485ab2-caab-4d7a-ba84-f6f05b4c8732
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995952
 			assay.sra_run SRR1974634
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657962
 			sample.ncbi_biosample SAMN03486293
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657962/suppl/GSM1657962_1772078236.C93.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995952
 			sample.uuid 43fa1231-e97e-40e9-a45b-946464b1cf10
+			cell.ontology CL_0000540
 
 		sample.characteristics_c1_chip_id 1772078237
 		sample.long_label temporal lobe cortex - healthy tissue from 37 year old female epileptic patient
@@ -1978,79 +2081,89 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995953
 			assay.sra_run SRR1974635
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657963
 			sample.ncbi_biosample SAMN03486294
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657963/suppl/GSM1657963_1772078237.C06.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995953
 			sample.uuid 5658e3b9-5c13-48ba-bac2-410de2f59343
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995954
 			assay.sra_run SRR1974636
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657964
 			sample.ncbi_biosample SAMN03486295
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657964/suppl/GSM1657964_1772078237.C08.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995954
 			sample.uuid 9fe79f12-0ad4-4bfe-ba02-0de498a3d17c
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995955
 			assay.sra_run SRR1974637
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1657965
 			sample.ncbi_biosample SAMN03486236
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657965/suppl/GSM1657965_1772078237.C11.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995955
 			sample.uuid 85a85ef6-d4a6-459c-aac0-d62f31379fed
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995956
 			assay.sra_run SRR1974638
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657966
 			sample.ncbi_biosample SAMN03486237
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657966/suppl/GSM1657966_1772078237.C13.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995956
 			sample.uuid 649b6af8-b264-4eaa-8662-8b14753c2f11
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995957
 			assay.sra_run SRR1974639
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657967
 			sample.ncbi_biosample SAMN03486238
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657967/suppl/GSM1657967_1772078237.C14.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995957
 			sample.uuid df38811e-dde2-41bb-8bf4-8b3ea86c4c8b
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995958
 			assay.sra_run SRR1974640
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657968
 			sample.ncbi_biosample SAMN03486239
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657968/suppl/GSM1657968_1772078237.C15.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995958
 			sample.uuid d9168cf9-bcc7-4627-9197-9e1fd1dacffe
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995959
 			assay.sra_run SRR1974641
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1657969
 			sample.ncbi_biosample SAMN03486240
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657969/suppl/GSM1657969_1772078237.C19.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995959
 			sample.uuid e69e557f-6016-4bf4-b282-93cc87c4ef73
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995960
 			assay.sra_run SRR1974642
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657970
 			sample.ncbi_biosample SAMN03486241
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657970/suppl/GSM1657970_1772078237.C21.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995960
 			sample.uuid f5f55938-9687-47c2-9ba7-7d20446bb10f
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995961
 			assay.sra_run SRR1974643
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657971
 			sample.ncbi_biosample SAMN03486242
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657971/suppl/GSM1657971_1772078237.C26.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995961
 			sample.uuid 47f57716-b402-49ce-9484-f05823e56241
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995962
 			assay.sra_run SRR1974644
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1657972
 			sample.ncbi_biosample SAMN03486243
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657972/suppl/GSM1657972_1772078237.C28.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995962
@@ -2058,155 +2171,174 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995963
 			assay.sra_run SRR1974645
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657973
 			sample.ncbi_biosample SAMN03486244
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657973/suppl/GSM1657973_1772078237.C29.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995963
 			sample.uuid e4d1924a-14ec-44a4-b4fc-e86ab8bc12ab
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995964
 			assay.sra_run SRR1974646
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657974
 			sample.ncbi_biosample SAMN03486245
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657974/suppl/GSM1657974_1772078237.C31.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995964
 			sample.uuid cecc6438-8be0-4ead-89bf-7929d07a9405
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995965
 			assay.sra_run SRR1974647
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1657975
 			sample.ncbi_biosample SAMN03486246
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657975/suppl/GSM1657975_1772078237.C40.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995965
 			sample.uuid 103adc99-f1a3-4c84-935f-746df7751ef4
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995966
 			assay.sra_run SRR1974648
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657976
 			sample.ncbi_biosample SAMN03486247
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657976/suppl/GSM1657976_1772078237.C42.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995966
 			sample.uuid 560b1d19-7ab0-4cf1-a1d6-5417e01f678c
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995967
 			assay.sra_run SRR1974649
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657977
 			sample.ncbi_biosample SAMN03486248
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657977/suppl/GSM1657977_1772078237.C44.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995967
 			sample.uuid 5e850410-2762-4c43-bad0-ce12d36fe35e
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995968
 			assay.sra_run SRR1974650
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657978
 			sample.ncbi_biosample SAMN03486249
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657978/suppl/GSM1657978_1772078237.C47.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995968
 			sample.uuid a1db5ce2-1d09-482b-bdc4-779d41d1d1b4
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995969
 			assay.sra_run SRR1974651
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1657979
 			sample.ncbi_biosample SAMN03486250
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657979/suppl/GSM1657979_1772078237.C49.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995969
 			sample.uuid 07160ce5-c1cd-40b8-abe7-93f6047f66ad
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995970
 			assay.sra_run SRR1974652
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657980
 			sample.ncbi_biosample SAMN03486251
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657980/suppl/GSM1657980_1772078237.C52.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995970
 			sample.uuid 5a8ce100-0e10-4a28-aff1-a7c8258439e6
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995971
 			assay.sra_run SRR1974653
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1657981
 			sample.ncbi_biosample SAMN03486252
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657981/suppl/GSM1657981_1772078237.C55.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995971
 			sample.uuid 6d973237-497b-4413-9395-083579fa46d5
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995972
 			assay.sra_run SRR1974654
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657982
 			sample.ncbi_biosample SAMN03486253
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657982/suppl/GSM1657982_1772078237.C56.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995972
 			sample.uuid abce5722-eb9a-488c-a939-3f6603f3efc7
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995973
 			assay.sra_run SRR1974655
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657983
 			sample.ncbi_biosample SAMN03486254
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657983/suppl/GSM1657983_1772078237.C58.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995973
 			sample.uuid 2d188127-e23a-417d-b53e-8b3df90bc0ba
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995974
 			assay.sra_run SRR1974656
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657984
 			sample.ncbi_biosample SAMN03486255
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657984/suppl/GSM1657984_1772078237.C60.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995974
 			sample.uuid fbac7318-2eb2-4adf-bf34-d1ef68bf490d
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995975
 			assay.sra_run SRR1974657
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657985
 			sample.ncbi_biosample SAMN03486256
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657985/suppl/GSM1657985_1772078237.C61.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995975
 			sample.uuid be40a305-b879-4429-9bf9-9399382787fa
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995976
 			assay.sra_run SRR1974658
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657986
 			sample.ncbi_biosample SAMN03486257
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657986/suppl/GSM1657986_1772078237.C62.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995976
 			sample.uuid 2acff591-6e49-4732-a9a9-4aef8d9df2f4
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995977
 			assay.sra_run SRR1974659
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657987
 			sample.ncbi_biosample SAMN03486258
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657987/suppl/GSM1657987_1772078237.C74.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995977
 			sample.uuid 159cb400-db47-4206-bde8-981d147689e2
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995978
 			assay.sra_run SRR1974660
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657988
 			sample.ncbi_biosample SAMN03486259
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657988/suppl/GSM1657988_1772078237.C79.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995978
 			sample.uuid d67a70cb-e79b-4134-abe8-3815fbc8ad1c
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995979
 			assay.sra_run SRR1974661
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657989
 			sample.ncbi_biosample SAMN03486260
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657989/suppl/GSM1657989_1772078237.C83.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995979
 			sample.uuid 5563707e-deac-413c-8736-48cc5329bed1
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995980
 			assay.sra_run SRR1974662
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657990
 			sample.ncbi_biosample SAMN03486261
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657990/suppl/GSM1657990_1772078237.C84.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995980
 			sample.uuid 4d5c2dc8-a4ff-45af-a30f-335bf2847f51
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX995981
 			assay.sra_run SRR1974663
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1657991
 			sample.ncbi_biosample SAMN03486262
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1657nnn/GSM1657991/suppl/GSM1657991_1772078237.C92.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995981
 			sample.uuid ea7832a0-0c7a-43b5-893f-d12da3752a9c
+			cell.ontology CL_0000540
 
 	assay.seq.machine Illumina NextSeq 500
 	sample.characteristics_experiment_sample_name AB_S4
@@ -2225,19 +2357,21 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995996
 			assay.sra_run SRR1974678
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658006
 			sample.ncbi_biosample SAMN03486217
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658006/suppl/GSM1658006_nochipID2.C01.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995996
 			sample.uuid 423b10ef-7e28-4737-ae79-22b97adec7ea
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995997
 			assay.sra_run SRR1974679
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658007
 			sample.ncbi_biosample SAMN03486218
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658007/suppl/GSM1658007_nochipID2.C02.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995997
 			sample.uuid 7c62284a-6bbc-4260-9d84-0f28c4619f30
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX995998
 			assay.sra_run SRR1974680
@@ -2249,19 +2383,21 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX995999
 			assay.sra_run SRR1974681
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658009
 			sample.ncbi_biosample SAMN03486220
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658009/suppl/GSM1658009_nochipID2.C07.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX995/SRX995999
 			sample.uuid e22d62e6-284e-4c0e-8183-09dc11fba2b4
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996000
 			assay.sra_run SRR1974682
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658010
 			sample.ncbi_biosample SAMN03486221
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658010/suppl/GSM1658010_nochipID2.C08.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996000
 			sample.uuid 4e9bf07b-1bc6-4fc6-b9c0-43b8ab6cc9f7
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996001
 			assay.sra_run SRR1974683
@@ -2273,11 +2409,12 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996002
 			assay.sra_run SRR1974684
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658012
 			sample.ncbi_biosample SAMN03486223
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658012/suppl/GSM1658012_nochipID2.C10.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996002
 			sample.uuid 34be014c-c457-4cb4-9335-0f510f806c1c
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996003
 			assay.sra_run SRR1974685
@@ -2289,11 +2426,12 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996004
 			assay.sra_run SRR1974686
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658014
 			sample.ncbi_biosample SAMN03486225
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658014/suppl/GSM1658014_nochipID2.C12.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996004
 			sample.uuid ea5dbbbe-b003-4bcf-9ca2-d048ff5ae253
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996005
 			assay.sra_run SRR1974687
@@ -2305,27 +2443,30 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996006
 			assay.sra_run SRR1974688
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658016
 			sample.ncbi_biosample SAMN03486227
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658016/suppl/GSM1658016_nochipID2.C14.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996006
 			sample.uuid 92d59647-266b-49be-a927-fa20320a3aed
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996007
 			assay.sra_run SRR1974689
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658017
 			sample.ncbi_biosample SAMN03486228
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658017/suppl/GSM1658017_nochipID2.C15.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996007
 			sample.uuid d8b68e73-4f37-40ae-931b-a6bff33209b2
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996008
 			assay.sra_run SRR1974690
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658018
 			sample.ncbi_biosample SAMN03486229
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658018/suppl/GSM1658018_nochipID2.C16.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996008
 			sample.uuid 6df3a9da-1a46-43d0-98ac-046cc5a14d03
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996009
 			assay.sra_run SRR1974691
@@ -2337,19 +2478,21 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996010
 			assay.sra_run SRR1974692
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658020
 			sample.ncbi_biosample SAMN03486231
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658020/suppl/GSM1658020_nochipID2.C18.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996010
 			sample.uuid e17e0a55-3c7e-4dd8-8c6e-10bddc8a88b9
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996011
 			assay.sra_run SRR1974693
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658021
 			sample.ncbi_biosample SAMN03486232
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658021/suppl/GSM1658021_nochipID2.C19.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996011
 			sample.uuid f6fbfb50-52d3-48ee-975f-2f750d7606df
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996012
 			assay.sra_run SRR1974694
@@ -2377,27 +2520,30 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996015
 			assay.sra_run SRR1974697
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658025
 			sample.ncbi_biosample SAMN03486176
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658025/suppl/GSM1658025_nochipID2.C26.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996015
 			sample.uuid 1299a638-89f2-48ba-8310-96efffa150cd
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996016
 			assay.sra_run SRR1974698
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658026
 			sample.ncbi_biosample SAMN03486177
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658026/suppl/GSM1658026_nochipID2.C27.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996016
 			sample.uuid 35cfeccb-7076-4290-8d2d-946242609a19
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996017
 			assay.sra_run SRR1974699
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658027
 			sample.ncbi_biosample SAMN03486178
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658027/suppl/GSM1658027_nochipID2.C28.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996017
 			sample.uuid 6f033255-e7a2-4b1f-9d45-945ca8bb186e
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996018
 			assay.sra_run SRR1974700
@@ -2409,11 +2555,12 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996019
 			assay.sra_run SRR1974701
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658029
 			sample.ncbi_biosample SAMN03486180
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658029/suppl/GSM1658029_nochipID2.C30.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996019
 			sample.uuid b579afcf-16f6-4108-8a12-59ab928ae49a
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996020
 			assay.sra_run SRR1974702
@@ -2425,43 +2572,48 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996021
 			assay.sra_run SRR1974703
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658031
 			sample.ncbi_biosample SAMN03486182
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658031/suppl/GSM1658031_nochipID2.C32.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996021
 			sample.uuid 3e82a1f2-d1ee-4c21-9c75-82bb037fe237
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996022
 			assay.sra_run SRR1974704
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658032
 			sample.ncbi_biosample SAMN03486183
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658032/suppl/GSM1658032_nochipID2.C33.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996022
 			sample.uuid 3218c419-c727-4718-a55d-b3d810bfd05a
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996023
 			assay.sra_run SRR1974705
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658033
 			sample.ncbi_biosample SAMN03486184
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658033/suppl/GSM1658033_nochipID2.C34.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996023
 			sample.uuid 8731cb0c-d263-4944-9c76-cd3ca2e9762a
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996024
 			assay.sra_run SRR1974706
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658034
 			sample.ncbi_biosample SAMN03486185
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658034/suppl/GSM1658034_nochipID2.C36.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996024
 			sample.uuid 040bf900-3b43-466c-b819-d3c1de2b4b21
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996025
 			assay.sra_run SRR1974707
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658035
 			sample.ncbi_biosample SAMN03486186
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658035/suppl/GSM1658035_nochipID2.C38.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996025
 			sample.uuid 71cd2e04-8364-4159-bef6-5940308234a7
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996026
 			assay.sra_run SRR1974708
@@ -2473,59 +2625,66 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996027
 			assay.sra_run SRR1974709
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658037
 			sample.ncbi_biosample SAMN03486188
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658037/suppl/GSM1658037_nochipID2.C40.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996027
 			sample.uuid 000c758d-3286-44d1-8e4c-c317b39dd0ed
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996028
 			assay.sra_run SRR1974710
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658038
 			sample.ncbi_biosample SAMN03486189
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658038/suppl/GSM1658038_nochipID2.C41.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996028
 			sample.uuid 8e39af22-965f-4385-9535-ecdb6d805b2f
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996029
 			assay.sra_run SRR1974711
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658039
 			sample.ncbi_biosample SAMN03486190
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658039/suppl/GSM1658039_nochipID2.C42.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996029
 			sample.uuid 5cf13bda-2ec0-4be2-a109-792744c90f37
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996030
 			assay.sra_run SRR1974712
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658040
 			sample.ncbi_biosample SAMN03486191
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658040/suppl/GSM1658040_nochipID2.C43.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996030
 			sample.uuid 31897487-b16b-46f1-8718-97fa6416a543
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996031
 			assay.sra_run SRR1974713
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658041
 			sample.ncbi_biosample SAMN03486192
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658041/suppl/GSM1658041_nochipID2.C44.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996031
 			sample.uuid 294c51c9-1b43-433c-8278-d02cb234ee21
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996032
 			assay.sra_run SRR1974714
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658042
 			sample.ncbi_biosample SAMN03486193
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658042/suppl/GSM1658042_nochipID2.C45.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996032
 			sample.uuid babc81ff-96b8-4e0d-a0d9-a46e19241a63
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996033
 			assay.sra_run SRR1974715
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658043
 			sample.ncbi_biosample SAMN03486194
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658043/suppl/GSM1658043_nochipID2.C46.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996033
 			sample.uuid 19424ebe-2f82-4252-9608-d68fbd4ee217
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996034
 			assay.sra_run SRR1974716
@@ -2537,19 +2696,21 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996035
 			assay.sra_run SRR1974717
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658045
 			sample.ncbi_biosample SAMN03486196
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658045/suppl/GSM1658045_nochipID2.C48.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996035
 			sample.uuid 4d3b8c36-f86f-482d-aafc-d908b9acf388
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996036
 			assay.sra_run SRR1974718
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658046
 			sample.ncbi_biosample SAMN03486197
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658046/suppl/GSM1658046_nochipID2.C49.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996036
 			sample.uuid da3e742f-5406-47b9-a990-debbd95b429f
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996037
 			assay.sra_run SRR1974719
@@ -2561,75 +2722,84 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996038
 			assay.sra_run SRR1974720
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658048
 			sample.ncbi_biosample SAMN03486199
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658048/suppl/GSM1658048_nochipID2.C51.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996038
 			sample.uuid 4b6977c6-1d07-4e07-970d-20d5c2d7844f
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996039
 			assay.sra_run SRR1974721
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658049
 			sample.ncbi_biosample SAMN03486200
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658049/suppl/GSM1658049_nochipID2.C52.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996039
 			sample.uuid e9bd2ae7-957a-4af6-ab35-ebe290c8d4e9
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996040
 			assay.sra_run SRR1974722
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658050
 			sample.ncbi_biosample SAMN03486201
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658050/suppl/GSM1658050_nochipID2.C56.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996040
 			sample.uuid 4a606273-0469-4af1-9d9c-e86b144009e6
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996041
 			assay.sra_run SRR1974723
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658051
 			sample.ncbi_biosample SAMN03486202
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658051/suppl/GSM1658051_nochipID2.C57.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996041
 			sample.uuid bf86ec61-3555-4ea8-a5b1-43a5601dcc40
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996042
 			assay.sra_run SRR1974724
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658052
 			sample.ncbi_biosample SAMN03486203
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658052/suppl/GSM1658052_nochipID2.C58.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996042
 			sample.uuid 9a3288c6-613c-4c32-a0a5-fa916f62195e
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996043
 			assay.sra_run SRR1974725
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658053
 			sample.ncbi_biosample SAMN03486204
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658053/suppl/GSM1658053_nochipID2.C59.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996043
 			sample.uuid 160cada2-a472-4de3-98b8-48ec47f11315
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996044
 			assay.sra_run SRR1974726
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658054
 			sample.ncbi_biosample SAMN03486205
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658054/suppl/GSM1658054_nochipID2.C60.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996044
 			sample.uuid fd0d04b3-ebb3-420f-876d-7569ed4a8406
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996045
 			assay.sra_run SRR1974727
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658055
 			sample.ncbi_biosample SAMN03486146
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658055/suppl/GSM1658055_nochipID2.C61.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996045
 			sample.uuid b0e3fa01-eb11-443d-8035-7b2de38ee100
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996046
 			assay.sra_run SRR1974728
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658056
 			sample.ncbi_biosample SAMN03486147
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658056/suppl/GSM1658056_nochipID2.C62.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996046
 			sample.uuid 51958f69-b75d-492e-a71d-0e6146a6f893
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996047
 			assay.sra_run SRR1974729
@@ -2641,99 +2811,111 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996048
 			assay.sra_run SRR1974730
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658058
 			sample.ncbi_biosample SAMN03486149
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658058/suppl/GSM1658058_nochipID2.C64.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996048
 			sample.uuid b02e2d68-f345-477a-8898-d197193b4a41
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996049
 			assay.sra_run SRR1974731
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658059
 			sample.ncbi_biosample SAMN03486150
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658059/suppl/GSM1658059_nochipID2.C65.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996049
 			sample.uuid 7a86988b-6910-468f-84ae-ab06c08ed384
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996050
 			assay.sra_run SRR1974732
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658060
 			sample.ncbi_biosample SAMN03486151
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658060/suppl/GSM1658060_nochipID2.C66.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996050
 			sample.uuid 31531d47-6241-41a0-b19b-fab6d73ea2bb
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996051
 			assay.sra_run SRR1974733
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658061
 			sample.ncbi_biosample SAMN03486152
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658061/suppl/GSM1658061_nochipID2.C67.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996051
 			sample.uuid edb395d2-b8d8-4f85-a2f4-fdfc007dfdc3
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996052
 			assay.sra_run SRR1974734
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658062
 			sample.ncbi_biosample SAMN03486153
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658062/suppl/GSM1658062_nochipID2.C68.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996052
 			sample.uuid fbfb8449-66c3-4526-9efc-f5d6349b7fe6
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996053
 			assay.sra_run SRR1974735
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658063
 			sample.ncbi_biosample SAMN03486154
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658063/suppl/GSM1658063_nochipID2.C69.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996053
 			sample.uuid 2cc8c147-e219-4a89-a360-0c7be2837a7a
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996054
 			assay.sra_run SRR1974736
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658064
 			sample.ncbi_biosample SAMN03486155
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658064/suppl/GSM1658064_nochipID2.C71.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996054
 			sample.uuid 020c3666-c878-41bc-9f9e-27284bb04ab8
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996055
 			assay.sra_run SRR1974737
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658065
 			sample.ncbi_biosample SAMN03486156
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658065/suppl/GSM1658065_nochipID2.C73.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996055
 			sample.uuid b306538c-4fd4-44c7-84ec-e115ec5643ed
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996056
 			assay.sra_run SRR1974738
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658066
 			sample.ncbi_biosample SAMN03486157
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658066/suppl/GSM1658066_nochipID2.C75.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996056
 			sample.uuid abaef7a8-9442-4b4d-831e-38d46545a2e9
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996057
 			assay.sra_run SRR1974739
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658067
 			sample.ncbi_biosample SAMN03486158
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658067/suppl/GSM1658067_nochipID2.C76.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996057
 			sample.uuid e15db1d1-c0c0-4820-8598-105e35d50a3a
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996058
 			assay.sra_run SRR1974740
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658068
 			sample.ncbi_biosample SAMN03486159
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658068/suppl/GSM1658068_nochipID2.C77.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996058
 			sample.uuid 7b26a218-5298-4fdd-9d78-cf0ea53e62c5
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996059
 			assay.sra_run SRR1974741
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658069
 			sample.ncbi_biosample SAMN03486160
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658069/suppl/GSM1658069_nochipID2.C78.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996059
 			sample.uuid ed3ccc8d-43c6-4fb3-9a5e-3c42bce40c5c
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996060
 			assay.sra_run SRR1974742
@@ -2745,27 +2927,30 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996061
 			assay.sra_run SRR1974743
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658071
 			sample.ncbi_biosample SAMN03486162
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658071/suppl/GSM1658071_nochipID2.C80.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996061
 			sample.uuid 1e8efad1-3178-4233-9dc1-e5add197d854
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996062
 			assay.sra_run SRR1974744
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658072
 			sample.ncbi_biosample SAMN03486163
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658072/suppl/GSM1658072_nochipID2.C81.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996062
 			sample.uuid 23a1c440-bbdd-42e2-9020-9001f2b892e0
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996063
 			assay.sra_run SRR1974745
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658073
 			sample.ncbi_biosample SAMN03486164
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658073/suppl/GSM1658073_nochipID2.C82.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996063
 			sample.uuid a489a53a-1caa-4b68-95c4-a2a117c2fcaa
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996064
 			assay.sra_run SRR1974746
@@ -2801,43 +2986,48 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996068
 			assay.sra_run SRR1974750
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658078
 			sample.ncbi_biosample SAMN03486171
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658078/suppl/GSM1658078_nochipID2.C87.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996068
 			sample.uuid 336dda4f-e90c-4f90-a8a7-c327a1f0b6aa
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996069
 			assay.sra_run SRR1974751
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658079
 			sample.ncbi_biosample SAMN03486172
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658079/suppl/GSM1658079_nochipID2.C89.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996069
 			sample.uuid d1b12e0a-a6c2-4d61-8f71-98798a5fdffe
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996070
 			assay.sra_run SRR1974752
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658080
 			sample.ncbi_biosample SAMN03486173
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658080/suppl/GSM1658080_nochipID2.C90.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996070
 			sample.uuid 6be485e3-d3ec-4b4f-a983-2fbc3a0dfb4c
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996071
 			assay.sra_run SRR1974753
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658081
 			sample.ncbi_biosample SAMN03486166
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658081/suppl/GSM1658081_nochipID2.C92.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996071
 			sample.uuid c4337143-c86b-4c58-8fcd-2993e5304399
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996072
 			assay.sra_run SRR1974754
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658082
 			sample.ncbi_biosample SAMN03486167
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658082/suppl/GSM1658082_nochipID2.C93.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996072
 			sample.uuid eb936a62-dd01-41b3-9f94-147ea2fa20bb
+			cell.ontology CL_0000127
 
 	assay.seq.machine Illumina NextSeq 500
 	sample.characteristics_experiment_sample_name AB_S5
@@ -2857,6 +3047,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX996073
 			assay.sra_run SRR1974755
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658083
 			sample.ncbi_biosample SAMN03486174
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658083/suppl/GSM1658083_nochipID3.C01.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996073
@@ -2864,15 +3055,17 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996074
 			assay.sra_run SRR1974756
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658084
 			sample.ncbi_biosample SAMN03486175
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658084/suppl/GSM1658084_nochipID3.C05.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996074
 			sample.uuid bf85c233-2eb8-49f2-9dd7-c3494507a3ae
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996075
 			assay.sra_run SRR1974757
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658085
 			sample.ncbi_biosample SAMN03486116
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658085/suppl/GSM1658085_nochipID3.C06.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996075
@@ -2881,6 +3074,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX996076
 			assay.sra_run SRR1974758
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658086
 			sample.ncbi_biosample SAMN03486117
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658086/suppl/GSM1658086_nochipID3.C07.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996076
@@ -2888,23 +3082,26 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996077
 			assay.sra_run SRR1974759
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658087
 			sample.ncbi_biosample SAMN03486118
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658087/suppl/GSM1658087_nochipID3.C09.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996077
 			sample.uuid fe9c9b2a-85b9-4d93-9115-13074802696d
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996078
 			assay.sra_run SRR1974760
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658088
 			sample.ncbi_biosample SAMN03486119
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658088/suppl/GSM1658088_nochipID3.C11.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996078
 			sample.uuid 31c1baee-e733-4cc5-8812-dcd12709057a
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996079
 			assay.sra_run SRR1974761
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658089
 			sample.ncbi_biosample SAMN03486120
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658089/suppl/GSM1658089_nochipID3.C12.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996079
@@ -2912,23 +3109,26 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996080
 			assay.sra_run SRR1974762
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658090
 			sample.ncbi_biosample SAMN03486121
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658090/suppl/GSM1658090_nochipID3.C14.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996080
 			sample.uuid e63780cd-14cd-48b8-a28c-410d51b1ca27
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996081
 			assay.sra_run SRR1974763
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658091
 			sample.ncbi_biosample SAMN03486122
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658091/suppl/GSM1658091_nochipID3.C23.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996081
 			sample.uuid ad9efa48-c50f-45d3-90c8-c21906713b43
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996082
 			assay.sra_run SRR1974764
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658092
 			sample.ncbi_biosample SAMN03486123
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658092/suppl/GSM1658092_nochipID3.C25.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996082
@@ -2936,15 +3136,17 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996083
 			assay.sra_run SRR1974765
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658093
 			sample.ncbi_biosample SAMN03486124
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658093/suppl/GSM1658093_nochipID3.C32.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996083
 			sample.uuid 7a044ffa-b5ae-4c98-b602-1ae5f60e5977
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996084
 			assay.sra_run SRR1974766
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658094
 			sample.ncbi_biosample SAMN03486125
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658094/suppl/GSM1658094_nochipID3.C37.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996084
@@ -2952,15 +3154,17 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996085
 			assay.sra_run SRR1974767
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658095
 			sample.ncbi_biosample SAMN03486126
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658095/suppl/GSM1658095_nochipID3.C38.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996085
 			sample.uuid 5fc5e847-7fdc-4523-93e6-ed5c119be97a
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996086
 			assay.sra_run SRR1974768
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658096
 			sample.ncbi_biosample SAMN03486127
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658096/suppl/GSM1658096_nochipID3.C51.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996086
@@ -2968,15 +3172,17 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996087
 			assay.sra_run SRR1974769
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658097
 			sample.ncbi_biosample SAMN03486128
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658097/suppl/GSM1658097_nochipID3.C52.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996087
 			sample.uuid 1505f0df-56f9-421d-9251-cdb10d075e41
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996088
 			assay.sra_run SRR1974770
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658098
 			sample.ncbi_biosample SAMN03486129
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658098/suppl/GSM1658098_nochipID3.C53.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996088
@@ -2985,6 +3191,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX996089
 			assay.sra_run SRR1974771
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658099
 			sample.ncbi_biosample SAMN03486130
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658099/suppl/GSM1658099_nochipID3.C54.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996089
@@ -2993,6 +3200,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX996090
 			assay.sra_run SRR1974772
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658100
 			sample.ncbi_biosample SAMN03486131
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658100/suppl/GSM1658100_nochipID3.C56.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996090
@@ -3000,15 +3208,17 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996091
 			assay.sra_run SRR1974773
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658101
 			sample.ncbi_biosample SAMN03486132
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658101/suppl/GSM1658101_nochipID3.C61.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996091
 			sample.uuid 038f3f94-5ef1-44ed-97b2-edb9cc59ecad
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996092
 			assay.sra_run SRR1974774
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658102
 			sample.ncbi_biosample SAMN03486133
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658102/suppl/GSM1658102_nochipID3.C62.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996092
@@ -3016,55 +3226,62 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996093
 			assay.sra_run SRR1974775
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658103
 			sample.ncbi_biosample SAMN03486134
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658103/suppl/GSM1658103_nochipID3.C65.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996093
 			sample.uuid eb67d100-cbb4-4b74-8ecc-68d6462f6f5e
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996094
 			assay.sra_run SRR1974776
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658104
 			sample.ncbi_biosample SAMN03486135
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658104/suppl/GSM1658104_nochipID3.C69.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996094
 			sample.uuid 1348916c-6839-4a29-8532-a98c88281586
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996095
 			assay.sra_run SRR1974777
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658105
 			sample.ncbi_biosample SAMN03486136
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658105/suppl/GSM1658105_nochipID3.C71.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996095
 			sample.uuid 79ea8f61-a64b-4a9f-ac5a-62b3e9e16dec
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996096
 			assay.sra_run SRR1974778
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658106
 			sample.ncbi_biosample SAMN03486137
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658106/suppl/GSM1658106_nochipID3.C72.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996096
 			sample.uuid 02fa6821-c0c3-49b8-9af7-8ec6c5117ca0
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996097
 			assay.sra_run SRR1974779
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658107
 			sample.ncbi_biosample SAMN03486138
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658107/suppl/GSM1658107_nochipID3.C74.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996097
 			sample.uuid e54d23eb-28c9-429d-bd16-5078da73b373
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996098
 			assay.sra_run SRR1974780
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658108
 			sample.ncbi_biosample SAMN03486139
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658108/suppl/GSM1658108_nochipID3.C75.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996098
 			sample.uuid f2eb2772-1c49-4b93-a222-6135c383d60f
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996099
 			assay.sra_run SRR1974781
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658109
 			sample.ncbi_biosample SAMN03486140
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658109/suppl/GSM1658109_nochipID3.C76.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996099
@@ -3072,23 +3289,26 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996100
 			assay.sra_run SRR1974782
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658110
 			sample.ncbi_biosample SAMN03486141
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658110/suppl/GSM1658110_nochipID3.C80.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996100
 			sample.uuid 093c7b49-13f2-4bcf-a60e-fb9d73d2e1ef
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996101
 			assay.sra_run SRR1974783
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658111
 			sample.ncbi_biosample SAMN03486142
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658111/suppl/GSM1658111_nochipID3.C81.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996101
 			sample.uuid fd742e05-9be4-4061-a797-2e6fc2a70267
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996102
 			assay.sra_run SRR1974784
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658112
 			sample.ncbi_biosample SAMN03486143
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658112/suppl/GSM1658112_nochipID3.C84.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996102
@@ -3096,27 +3316,30 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996103
 			assay.sra_run SRR1974785
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658113
 			sample.ncbi_biosample SAMN03486144
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658113/suppl/GSM1658113_nochipID3.C85.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996103
 			sample.uuid 084b5646-4b68-4d15-ab0c-74a226c75354
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996104
 			assay.sra_run SRR1974786
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658114
 			sample.ncbi_biosample SAMN03486145
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658114/suppl/GSM1658114_nochipID3.C86.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996104
 			sample.uuid 3d88514e-5ab4-4ad2-b09f-09013c17cd9b
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996105
 			assay.sra_run SRR1974787
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658115
 			sample.ncbi_biosample SAMN03486086
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658115/suppl/GSM1658115_nochipID3.C91.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996105
 			sample.uuid 35b2cc5a-22fe-4cf3-9f6f-387f8b19e1bf
+			cell.ontology CL_0000540
 
 		sample.characteristics_c1_chip_id nochipID5
 		sample.long_label hippocampus - healthy tissue from 53 year old male epileptic patient
@@ -3126,6 +3349,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX996106
 			assay.sra_run SRR1974788
 			cell.type microglia
+			cell.ontology CL_0000129
 			sample.geo_sample GSM1658116
 			sample.ncbi_biosample SAMN03486087
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658116/suppl/GSM1658116_nochipID5.C04.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996106
@@ -3134,6 +3358,7 @@ sample.body_part.organ_ontology UBERON_0000955
 			assay.sra_experiment SRX996107
 			assay.sra_run SRR1974789
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658117
 			sample.ncbi_biosample SAMN03486088
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658117/suppl/GSM1658117_nochipID5.C05.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996107
@@ -3141,39 +3366,44 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996108
 			assay.sra_run SRR1974790
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658118
 			sample.ncbi_biosample SAMN03486089
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658118/suppl/GSM1658118_nochipID5.C18.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996108
 			sample.uuid e1957b87-3843-4257-b342-b76da3edb528
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996109
 			assay.sra_run SRR1974791
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658119
 			sample.ncbi_biosample SAMN03486090
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658119/suppl/GSM1658119_nochipID5.C19.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996109
 			sample.uuid 499e56e1-213d-4262-b21c-79ad1bf12db6
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996110
 			assay.sra_run SRR1974792
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658120
 			sample.ncbi_biosample SAMN03486091
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658120/suppl/GSM1658120_nochipID5.C42.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996110
 			sample.uuid 94a90d52-ac9c-408f-a298-85c45d78f295
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996111
 			assay.sra_run SRR1974793
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658121
 			sample.ncbi_biosample SAMN03486092
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658121/suppl/GSM1658121_nochipID5.C44.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996111
 			sample.uuid 503ea2cd-2ccc-441f-8cc4-787e115a1e0b
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996112
 			assay.sra_run SRR1974794
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658122
 			sample.ncbi_biosample SAMN03486093
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658122/suppl/GSM1658122_nochipID5.C45.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996112
@@ -3181,31 +3411,35 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996113
 			assay.sra_run SRR1974795
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658123
 			sample.ncbi_biosample SAMN03486094
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658123/suppl/GSM1658123_nochipID5.C54.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996113
 			sample.uuid f4d0d111-b6e7-4b5c-89a5-e95c867023a9
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996114
 			assay.sra_run SRR1974796
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658124
 			sample.ncbi_biosample SAMN03486095
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658124/suppl/GSM1658124_nochipID5.C65.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996114
 			sample.uuid 10d540fe-d265-4898-bbd0-7fbc977d74e9
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996115
 			assay.sra_run SRR1974797
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658125
 			sample.ncbi_biosample SAMN03486096
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658125/suppl/GSM1658125_nochipID5.C72.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996115
 			sample.uuid 8d29095b-cd7b-44c8-9d2f-d58247a96ed5
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996116
 			assay.sra_run SRR1974798
 			cell.type endothelial
+			cell.ontology CL_0000115
 			sample.geo_sample GSM1658126
 			sample.ncbi_biosample SAMN03486097
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658126/suppl/GSM1658126_nochipID5.C91.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996116
@@ -3228,43 +3462,48 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996117
 			assay.sra_run SRR1974799
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658127
 			sample.ncbi_biosample SAMN03486098
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658127/suppl/GSM1658127_nochipID8.C01.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996117
 			sample.uuid 3e8a89a7-530d-43bc-bc09-c0fd93d23a26
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996118
 			assay.sra_run SRR1974800
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658128
 			sample.ncbi_biosample SAMN03486099
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658128/suppl/GSM1658128_nochipID8.C02.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996118
 			sample.uuid a83ba644-8874-4a08-ab23-7e6ae2c4edbb
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996119
 			assay.sra_run SRR1974801
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658129
 			sample.ncbi_biosample SAMN03486100
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658129/suppl/GSM1658129_nochipID8.C05.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996119
 			sample.uuid 348a7ed3-bd39-433a-b272-019611e86597
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996120
 			assay.sra_run SRR1974802
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658130
 			sample.ncbi_biosample SAMN03486101
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658130/suppl/GSM1658130_nochipID8.C06.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996120
 			sample.uuid 2ed98dd1-9851-4adb-b242-3f2ab4ce50cd
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996121
 			assay.sra_run SRR1974803
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658131
 			sample.ncbi_biosample SAMN03486102
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658131/suppl/GSM1658131_nochipID8.C08.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996121
 			sample.uuid b5c2894c-4c29-4566-811e-090f0c1a4343
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996122
 			assay.sra_run SRR1974804
@@ -3276,91 +3515,102 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996123
 			assay.sra_run SRR1974805
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658133
 			sample.ncbi_biosample SAMN03486104
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658133/suppl/GSM1658133_nochipID8.C12.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996123
 			sample.uuid 12f543a7-229e-4908-b7ae-7762046293bd
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996124
 			assay.sra_run SRR1974806
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658134
 			sample.ncbi_biosample SAMN03486105
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658134/suppl/GSM1658134_nochipID8.C13.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996124
 			sample.uuid 0e5a4bd3-92e7-4046-aa8c-4d195d85bebb
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996125
 			assay.sra_run SRR1974807
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658135
 			sample.ncbi_biosample SAMN03486106
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658135/suppl/GSM1658135_nochipID8.C14.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996125
 			sample.uuid 0f709c0d-a0f5-432e-bbf2-66a8ff358a3f
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996126
 			assay.sra_run SRR1974808
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658136
 			sample.ncbi_biosample SAMN03486107
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658136/suppl/GSM1658136_nochipID8.C17.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996126
 			sample.uuid f55ba001-ce6a-49f9-8a3e-c8f8319dcdd9
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996127
 			assay.sra_run SRR1974809
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658137
 			sample.ncbi_biosample SAMN03486108
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658137/suppl/GSM1658137_nochipID8.C19.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996127
 			sample.uuid 5a1020eb-d6ac-4ce9-93d7-7e6f8428fcd1
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996128
 			assay.sra_run SRR1974810
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658138
 			sample.ncbi_biosample SAMN03486109
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658138/suppl/GSM1658138_nochipID8.C20.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996128
 			sample.uuid 73f40209-4f97-4e97-a8d8-2c7cfd8cc6fc
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996129
 			assay.sra_run SRR1974811
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658139
 			sample.ncbi_biosample SAMN03486110
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658139/suppl/GSM1658139_nochipID8.C22.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996129
 			sample.uuid e3c14ece-9dbb-41b3-8ff1-1dfe56918f6d
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996130
 			assay.sra_run SRR1974812
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658140
 			sample.ncbi_biosample SAMN03486111
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658140/suppl/GSM1658140_nochipID8.C23.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996130
 			sample.uuid 66de06db-0724-46ae-96c6-405092a1f973
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996131
 			assay.sra_run SRR1974813
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658141
 			sample.ncbi_biosample SAMN03486112
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658141/suppl/GSM1658141_nochipID8.C25.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996131
 			sample.uuid 30ea807c-ed35-475d-ae79-bdf421ca6867
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996132
 			assay.sra_run SRR1974814
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658142
 			sample.ncbi_biosample SAMN03486113
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658142/suppl/GSM1658142_nochipID8.C28.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996132
 			sample.uuid 9f09d311-3096-42a2-9a30-c5bda6dfab3e
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996133
 			assay.sra_run SRR1974815
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658143
 			sample.ncbi_biosample SAMN03486114
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658143/suppl/GSM1658143_nochipID8.C29.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996133
 			sample.uuid de7c04f2-60ad-4301-845f-f83db179f08b
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996134
 			assay.sra_run SRR1974816
@@ -3372,75 +3622,84 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996135
 			assay.sra_run SRR1974817
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658145
 			sample.ncbi_biosample SAMN03486056
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658145/suppl/GSM1658145_nochipID8.C32.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996135
 			sample.uuid f0e89f42-0321-446f-8ed1-a598c1ef1652
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996136
 			assay.sra_run SRR1974818
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658146
 			sample.ncbi_biosample SAMN03486057
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658146/suppl/GSM1658146_nochipID8.C36.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996136
 			sample.uuid 1e15fdd6-5615-4ae9-b4e9-0facb420cfb1
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996137
 			assay.sra_run SRR1974819
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658147
 			sample.ncbi_biosample SAMN03486058
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658147/suppl/GSM1658147_nochipID8.C37.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996137
 			sample.uuid a5640965-ac21-4900-920d-78a00e370758
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996138
 			assay.sra_run SRR1974820
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658148
 			sample.ncbi_biosample SAMN03486059
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658148/suppl/GSM1658148_nochipID8.C39.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996138
 			sample.uuid d3ce16af-f96b-4bd3-a506-b258f44b86fc
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996139
 			assay.sra_run SRR1974821
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658149
 			sample.ncbi_biosample SAMN03486060
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658149/suppl/GSM1658149_nochipID8.C40.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996139
 			sample.uuid 20815562-38ef-415b-b401-340752280ab2
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996140
 			assay.sra_run SRR1974822
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658150
 			sample.ncbi_biosample SAMN03486061
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658150/suppl/GSM1658150_nochipID8.C41.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996140
 			sample.uuid 8630c8e5-a3aa-48bb-89e6-9fca995efd6b
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996141
 			assay.sra_run SRR1974823
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658151
 			sample.ncbi_biosample SAMN03486062
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658151/suppl/GSM1658151_nochipID8.C42.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996141
 			sample.uuid 6b2e23f1-28ec-42b6-875e-9eddab0b48e3
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996142
 			assay.sra_run SRR1974824
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658152
 			sample.ncbi_biosample SAMN03486063
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658152/suppl/GSM1658152_nochipID8.C43.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996142
 			sample.uuid 7a592993-8b9a-40df-8358-8d3e243f4aa9
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996143
 			assay.sra_run SRR1974825
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658153
 			sample.ncbi_biosample SAMN03486064
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658153/suppl/GSM1658153_nochipID8.C45.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996143
 			sample.uuid 4383c204-f2f5-4800-86a4-ee5ee663584b
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996144
 			assay.sra_run SRR1974826
@@ -3452,51 +3711,57 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996145
 			assay.sra_run SRR1974827
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658155
 			sample.ncbi_biosample SAMN03486066
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658155/suppl/GSM1658155_nochipID8.C49.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996145
 			sample.uuid 46887e54-e0ee-4f25-9d46-9136546bbe14
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996146
 			assay.sra_run SRR1974828
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658156
 			sample.ncbi_biosample SAMN03486067
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658156/suppl/GSM1658156_nochipID8.C50.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996146
 			sample.uuid 4fd4e62f-b512-4cb6-9646-5637d907a1d3
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996147
 			assay.sra_run SRR1974829
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658157
 			sample.ncbi_biosample SAMN03486068
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658157/suppl/GSM1658157_nochipID8.C52.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996147
 			sample.uuid 246a5ac6-d7e2-4a66-bd55-8629ba065f68
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996148
 			assay.sra_run SRR1974830
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658158
 			sample.ncbi_biosample SAMN03486069
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658158/suppl/GSM1658158_nochipID8.C53.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996148
 			sample.uuid ea3f66a4-c37e-47b2-9414-91297e87a1bd
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996149
 			assay.sra_run SRR1974831
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658159
 			sample.ncbi_biosample SAMN03486070
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658159/suppl/GSM1658159_nochipID8.C54.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996149
 			sample.uuid c2be5def-29c2-4df6-833c-20ebca7bad0a
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996150
 			assay.sra_run SRR1974832
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658160
 			sample.ncbi_biosample SAMN03486071
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658160/suppl/GSM1658160_nochipID8.C55.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996150
 			sample.uuid 3a103302-f790-4e9e-9b3d-a71dfd490690
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996151
 			assay.sra_run SRR1974833
@@ -3508,27 +3773,30 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996152
 			assay.sra_run SRR1974834
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658162
 			sample.ncbi_biosample SAMN03486073
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658162/suppl/GSM1658162_nochipID8.C57.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996152
 			sample.uuid 49582326-c780-442a-95a8-35d4a0a242d0
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996153
 			assay.sra_run SRR1974835
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658163
 			sample.ncbi_biosample SAMN03486074
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658163/suppl/GSM1658163_nochipID8.C60.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996153
 			sample.uuid c4d580a1-3b1a-4a6a-894d-6a7fe52f943b
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996154
 			assay.sra_run SRR1974836
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658164
 			sample.ncbi_biosample SAMN03486075
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658164/suppl/GSM1658164_nochipID8.C61.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996154
 			sample.uuid ed5e5cf8-6927-4496-bbe4-6ad2d2ae87db
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996155
 			assay.sra_run SRR1974837
@@ -3540,99 +3808,111 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996156
 			assay.sra_run SRR1974838
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658166
 			sample.ncbi_biosample SAMN03486077
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658166/suppl/GSM1658166_nochipID8.C65.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996156
 			sample.uuid 26a13caf-d51b-4e73-8db1-f89f3095c27e
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996157
 			assay.sra_run SRR1974839
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658167
 			sample.ncbi_biosample SAMN03486078
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658167/suppl/GSM1658167_nochipID8.C66.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996157
 			sample.uuid a4f32c01-4279-424d-a964-aec813041c39
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996158
 			assay.sra_run SRR1974840
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658168
 			sample.ncbi_biosample SAMN03486085
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658168/suppl/GSM1658168_nochipID8.C67.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996158
 			sample.uuid adcc7e76-578c-449c-8ca9-38285f67fd4c
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996159
 			assay.sra_run SRR1974841
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658169
 			sample.ncbi_biosample SAMN03486026
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658169/suppl/GSM1658169_nochipID8.C70.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996159
 			sample.uuid 96e71897-7288-4cf7-ba4f-f62a0d49e0c9
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996160
 			assay.sra_run SRR1974842
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658170
 			sample.ncbi_biosample SAMN03486027
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658170/suppl/GSM1658170_nochipID8.C75.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996160
 			sample.uuid 2f346b4c-2c6e-4586-b615-496603f23ac9
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996161
 			assay.sra_run SRR1974843
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658171
 			sample.ncbi_biosample SAMN03486079
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658171/suppl/GSM1658171_nochipID8.C77.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996161
 			sample.uuid f5685775-1249-4e73-ab9d-0eeaad2d9419
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996162
 			assay.sra_run SRR1974844
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658172
 			sample.ncbi_biosample SAMN03486080
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658172/suppl/GSM1658172_nochipID8.C78.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996162
 			sample.uuid b85500c8-7cc5-4514-b940-0b5bf6cdff46
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996163
 			assay.sra_run SRR1974845
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658173
 			sample.ncbi_biosample SAMN03486081
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658173/suppl/GSM1658173_nochipID8.C79.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996163
 			sample.uuid 1f551cc9-cc01-46cd-9465-121af900c2fd
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996164
 			assay.sra_run SRR1974846
-			cell.type astrocytes
+			cell.type astrocyte
 			sample.geo_sample GSM1658174
 			sample.ncbi_biosample SAMN03486082
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658174/suppl/GSM1658174_nochipID8.C81.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996164
 			sample.uuid 0553f3f2-0c6f-47ed-a626-a27b9ef0db3c
+			cell.ontology CL_0000127
 
 			assay.sra_experiment SRX996165
 			assay.sra_run SRR1974847
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658175
 			sample.ncbi_biosample SAMN03486083
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658175/suppl/GSM1658175_nochipID8.C82.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996165
 			sample.uuid e861ea6f-3f3c-40c0-bd4b-5e5ecc2049b2
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996166
 			assay.sra_run SRR1974848
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658176
 			sample.ncbi_biosample SAMN03486084
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658176/suppl/GSM1658176_nochipID8.C84.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996166
 			sample.uuid ab997430-6197-4042-b7ed-196c682a115e
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996167
 			assay.sra_run SRR1974849
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658177
 			sample.ncbi_biosample SAMN03486028
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658177/suppl/GSM1658177_nochipID8.C85.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996167
 			sample.uuid afbbd390-6eac-495f-87b6-a257f116d6f9
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996168
 			assay.sra_run SRR1974850
@@ -3644,35 +3924,39 @@ sample.body_part.organ_ontology UBERON_0000955
 
 			assay.sra_experiment SRX996169
 			assay.sra_run SRR1974851
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658179
 			sample.ncbi_biosample SAMN03486030
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658179/suppl/GSM1658179_nochipID8.C88.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996169
 			sample.uuid b6b44863-518e-43cd-9d63-38322022eeb7
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996170
 			assay.sra_run SRR1974852
-			cell.type oligodendrocytes
+			cell.type oligodendrocyte
 			sample.geo_sample GSM1658180
 			sample.ncbi_biosample SAMN03486031
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658180/suppl/GSM1658180_nochipID8.C90.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996170
 			sample.uuid 0df5fad5-1085-4388-a4fb-8eae8322de6b
+			cell.ontology CL_0000128
 
 			assay.sra_experiment SRX996171
 			assay.sra_run SRR1974853
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658181
 			sample.ncbi_biosample SAMN03486032
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658181/suppl/GSM1658181_nochipID8.C92.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996171
 			sample.uuid 9d9aed95-2ad5-428e-a70d-6469ec247636
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996172
 			assay.sra_run SRR1974854
-			cell.type neurons
+			cell.type neuron
 			sample.geo_sample GSM1658182
 			sample.ncbi_biosample SAMN03486033
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1658nnn/GSM1658182/suppl/GSM1658182_nochipID8.C95.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX996/SRX996172
 			sample.uuid 0f8f9664-d597-42c5-b997-fa2e88859496
+			cell.ontology CL_0000540
 
 			assay.sra_experiment SRX996173
 			assay.sra_run SRR1974855

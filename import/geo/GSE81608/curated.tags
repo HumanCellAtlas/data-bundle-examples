@@ -742,57 +742,58 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773188
 		assay.sra_run SRR3541887
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158483
 		cell.id Pancreatic islet cell sample 585
 		sample.ncbi_biosample SAMN05012153
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773188
 		sample.uuid 11f9b4fd-6509-4e20-9394-f87cabe32fa6
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773189
 		assay.sra_run SRR3541888
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158484
 		cell.id Pancreatic islet cell sample 586
 		sample.ncbi_biosample SAMN05012154
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773189
 		sample.uuid 13800090-3171-471c-8d0d-d0b958de978e
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773190
 		assay.sra_run SRR3541889
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158485
 		cell.id Pancreatic islet cell sample 587
 		sample.ncbi_biosample SAMN05012155
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773190
 		sample.uuid 90e1da87-4772-41a1-8366-e7eb4996ecc6
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773191
 		assay.sra_run SRR3541890
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158486
 		cell.id Pancreatic islet cell sample 588
 		sample.ncbi_biosample SAMN05012156
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773191
 		sample.uuid a5503821-5d97-455f-880e-b3f1a3c131b6
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773192
 		assay.sra_run SRR3541891
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158487
 		cell.id Pancreatic islet cell sample 589
 		sample.ncbi_biosample SAMN05012157
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773192
 		sample.uuid b9d04ab1-4b3d-4c87-bed3-632772da199e
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773216
 		assay.sra_run SRR3541915
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158511
 		cell.id Pancreatic islet cell sample 613
 		sample.ncbi_biosample SAMN05012121
@@ -801,7 +802,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773217
 		assay.sra_run SRR3541916
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158512
 		cell.id Pancreatic islet cell sample 614
 		sample.ncbi_biosample SAMN05012122
@@ -810,7 +812,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773218
 		assay.sra_run SRR3541917
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158513
 		cell.id Pancreatic islet cell sample 615
 		sample.ncbi_biosample SAMN05012123
@@ -998,27 +1001,28 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773193
 		assay.sra_run SRR3541892
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158488
 		cell.id Pancreatic islet cell sample 590
 		sample.ncbi_biosample SAMN05012158
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773193
 		sample.uuid 6a8de4e7-9683-4f06-bdb8-9df473eadeda
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773194
 		assay.sra_run SRR3541893
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158489
 		cell.id Pancreatic islet cell sample 591
 		sample.ncbi_biosample SAMN05012099
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773194
 		sample.uuid 627989d3-c28b-4ba2-ad38-a208cd3ea2ae
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773219
 		assay.sra_run SRR3541918
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158514
 		cell.id Pancreatic islet cell sample 616
 		sample.ncbi_biosample SAMN05012124
@@ -1027,7 +1031,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773220
 		assay.sra_run SRR3541919
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158515
 		cell.id Pancreatic islet cell sample 617
 		sample.ncbi_biosample SAMN05012125
@@ -1036,7 +1041,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773221
 		assay.sra_run SRR3541920
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158516
 		cell.id Pancreatic islet cell sample 618
 		sample.ncbi_biosample SAMN05012126
@@ -1045,7 +1051,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773222
 		assay.sra_run SRR3541921
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158517
 		cell.id Pancreatic islet cell sample 619
 		sample.ncbi_biosample SAMN05012127
@@ -1054,7 +1061,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773223
 		assay.sra_run SRR3541922
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158518
 		cell.id Pancreatic islet cell sample 620
 		sample.ncbi_biosample SAMN05012128
@@ -1462,37 +1470,38 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773195
 		assay.sra_run SRR3541894
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158490
 		cell.id Pancreatic islet cell sample 592
 		sample.ncbi_biosample SAMN05012100
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773195
 		sample.uuid 64c93d6f-0b75-488a-9865-0034147ac945
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773206
 		assay.sra_run SRR3541905
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158501
 		cell.id Pancreatic islet cell sample 603
 		sample.ncbi_biosample SAMN05012111
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773206
 		sample.uuid cd903074-d9d0-4d0f-93b5-5a694a16a66e
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773207
 		assay.sra_run SRR3541906
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158502
 		cell.id Pancreatic islet cell sample 604
 		sample.ncbi_biosample SAMN05012112
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773207
 		sample.uuid ed357fb1-afbb-4460-9a41-ad8b92bbae33
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773224
 		assay.sra_run SRR3541923
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158519
 		cell.id Pancreatic islet cell sample 621
 		sample.ncbi_biosample SAMN05012754
@@ -1501,7 +1510,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773239
 		assay.sra_run SRR3541938
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158534
 		cell.id Pancreatic islet cell sample 636
 		sample.ncbi_biosample SAMN05012769
@@ -2019,57 +2029,58 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773196
 		assay.sra_run SRR3541895
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158491
 		cell.id Pancreatic islet cell sample 593
 		sample.ncbi_biosample SAMN05012101
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773196
 		sample.uuid c1625d08-22ec-4a95-b6b3-2f18c2fe0666
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773197
 		assay.sra_run SRR3541896
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158492
 		cell.id Pancreatic islet cell sample 594
 		sample.ncbi_biosample SAMN05012102
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773197
 		sample.uuid 3a03956c-3ce3-4dcb-919a-797e382e41b3
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773198
 		assay.sra_run SRR3541897
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158493
 		cell.id Pancreatic islet cell sample 595
 		sample.ncbi_biosample SAMN05012103
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773198
 		sample.uuid 89892d3f-5086-4716-a66b-64d7e2612d43
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773199
 		assay.sra_run SRR3541898
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158494
 		cell.id Pancreatic islet cell sample 596
 		sample.ncbi_biosample SAMN05012104
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773199
 		sample.uuid d9bcb715-3480-4614-95a3-8f8bb893ae59
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773200
 		assay.sra_run SRR3541899
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158495
 		cell.id Pancreatic islet cell sample 597
 		sample.ncbi_biosample SAMN05012105
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773200
 		sample.uuid 33b86eb7-b0e6-4f3d-8c70-4ebbb809a6be
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773225
 		assay.sra_run SRR3541924
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158520
 		cell.id Pancreatic islet cell sample 622
 		sample.ncbi_biosample SAMN05012755
@@ -2078,7 +2089,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773226
 		assay.sra_run SRR3541925
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158521
 		cell.id Pancreatic islet cell sample 623
 		sample.ncbi_biosample SAMN05012756
@@ -2546,47 +2558,48 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773201
 		assay.sra_run SRR3541900
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158496
 		cell.id Pancreatic islet cell sample 598
 		sample.ncbi_biosample SAMN05012106
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773201
 		sample.uuid c2bc7a14-e62f-4dff-84c4-04d7bce8a38d
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773202
 		assay.sra_run SRR3541901
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158497
 		cell.id Pancreatic islet cell sample 599
 		sample.ncbi_biosample SAMN05012107
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773202
 		sample.uuid 0b242c55-54ce-4671-b65f-5242d9aa46b4
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773203
 		assay.sra_run SRR3541902
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158498
 		cell.id Pancreatic islet cell sample 600
 		sample.ncbi_biosample SAMN05012108
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773203
 		sample.uuid f6f41b6c-bcf7-468d-89da-2c662c9d7032
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773204
 		assay.sra_run SRR3541903
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158499
 		cell.id Pancreatic islet cell sample 601
 		sample.ncbi_biosample SAMN05012109
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773204
 		sample.uuid da5c3c4a-b44d-4d66-990c-e8ad76d4568a
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773227
 		assay.sra_run SRR3541926
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158522
 		cell.id Pancreatic islet cell sample 624
 		sample.ncbi_biosample SAMN05012762
@@ -2854,7 +2867,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773228
 		assay.sra_run SRR3541927
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158523
 		cell.id Pancreatic islet cell sample 625
 		sample.ncbi_biosample SAMN05012757
@@ -2863,7 +2877,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773229
 		assay.sra_run SRR3541928
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158524
 		cell.id Pancreatic islet cell sample 626
 		sample.ncbi_biosample SAMN05012758
@@ -2872,7 +2887,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773230
 		assay.sra_run SRR3541929
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158525
 		cell.id Pancreatic islet cell sample 627
 		sample.ncbi_biosample SAMN05012759
@@ -2881,7 +2897,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773231
 		assay.sra_run SRR3541930
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158526
 		cell.id Pancreatic islet cell sample 628
 		sample.ncbi_biosample SAMN05012760
@@ -3209,37 +3226,38 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773205
 		assay.sra_run SRR3541904
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158500
 		cell.id Pancreatic islet cell sample 602
 		sample.ncbi_biosample SAMN05012110
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773205
 		sample.uuid bf3b6679-ca5b-449b-b901-691adf5af443
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773208
 		assay.sra_run SRR3541907
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158503
 		cell.id Pancreatic islet cell sample 605
 		sample.ncbi_biosample SAMN05012113
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773208
 		sample.uuid d65c0110-0445-4207-9776-4d98fbb5861c
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773209
 		assay.sra_run SRR3541908
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158504
 		cell.id Pancreatic islet cell sample 606
 		sample.ncbi_biosample SAMN05012114
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773209
 		sample.uuid 790314ef-026e-47de-ad75-0c6473fa2d06
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773232
 		assay.sra_run SRR3541931
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158527
 		cell.id Pancreatic islet cell sample 629
 		sample.ncbi_biosample SAMN05012761
@@ -3248,7 +3266,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773233
 		assay.sra_run SRR3541932
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158528
 		cell.id Pancreatic islet cell sample 630
 		sample.ncbi_biosample SAMN05012763
@@ -3257,7 +3276,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773234
 		assay.sra_run SRR3541933
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158529
 		cell.id Pancreatic islet cell sample 631
 		sample.ncbi_biosample SAMN05012764
@@ -3266,7 +3286,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773235
 		assay.sra_run SRR3541934
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158530
 		cell.id Pancreatic islet cell sample 632
 		sample.ncbi_biosample SAMN05012765
@@ -3275,7 +3296,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773236
 		assay.sra_run SRR3541935
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158531
 		cell.id Pancreatic islet cell sample 633
 		sample.ncbi_biosample SAMN05012766
@@ -3284,7 +3306,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773237
 		assay.sra_run SRR3541936
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158532
 		cell.id Pancreatic islet cell sample 634
 		sample.ncbi_biosample SAMN05012767
@@ -3293,7 +3316,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773238
 		assay.sra_run SRR3541937
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158533
 		cell.id Pancreatic islet cell sample 635
 		sample.ncbi_biosample SAMN05012768
@@ -3302,7 +3326,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773240
 		assay.sra_run SRR3541939
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158535
 		cell.id Pancreatic islet cell sample 637
 		sample.ncbi_biosample SAMN05012770
@@ -3311,7 +3336,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773241
 		assay.sra_run SRR3541940
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158536
 		cell.id Pancreatic islet cell sample 638
 		sample.ncbi_biosample SAMN05012771
@@ -3320,7 +3346,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773242
 		assay.sra_run SRR3541941
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158537
 		cell.id Pancreatic islet cell sample 639
 		sample.ncbi_biosample SAMN05012772
@@ -3329,7 +3356,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773243
 		assay.sra_run SRR3541942
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158538
 		cell.id Pancreatic islet cell sample 640
 		sample.ncbi_biosample SAMN05012773
@@ -3677,17 +3705,18 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773210
 		assay.sra_run SRR3541909
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158505
 		cell.id Pancreatic islet cell sample 607
 		sample.ncbi_biosample SAMN05012115
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773210
 		sample.uuid 9ecb05f9-f56a-49e1-92c3-c83bcf6c0117
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773244
 		assay.sra_run SRR3541943
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158539
 		cell.id Pancreatic islet cell sample 641
 		sample.ncbi_biosample SAMN05012774
@@ -3696,7 +3725,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773245
 		assay.sra_run SRR3541944
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158540
 		cell.id Pancreatic islet cell sample 642
 		sample.ncbi_biosample SAMN05012775
@@ -3705,7 +3735,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773246
 		assay.sra_run SRR3541945
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158541
 		cell.id Pancreatic islet cell sample 643
 		sample.ncbi_biosample SAMN05012776
@@ -3714,7 +3745,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773247
 		assay.sra_run SRR3541946
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158542
 		cell.id Pancreatic islet cell sample 644
 		sample.ncbi_biosample SAMN05012777
@@ -4192,27 +4224,28 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773211
 		assay.sra_run SRR3541910
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158506
 		cell.id Pancreatic islet cell sample 608
 		sample.ncbi_biosample SAMN05012116
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773211
 		sample.uuid 7b785752-beb7-4b1c-84df-a9002bf77abe
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773212
 		assay.sra_run SRR3541911
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158507
 		cell.id Pancreatic islet cell sample 609
 		sample.ncbi_biosample SAMN05012117
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773212
 		sample.uuid dea84ea4-b2f5-47fb-9fd7-c97fbfa1fd17
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773248
 		assay.sra_run SRR3541947
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158543
 		cell.id Pancreatic islet cell sample 645
 		sample.ncbi_biosample SAMN05012778
@@ -4840,17 +4873,18 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773213
 		assay.sra_run SRR3541912
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158508
 		cell.id Pancreatic islet cell sample 610
 		sample.ncbi_biosample SAMN05012118
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773213
 		sample.uuid 4219ed67-d968-4c3d-ab24-3e79c67fb5ec
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773249
 		assay.sra_run SRR3541948
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158544
 		cell.id Pancreatic islet cell sample 646
 		sample.ncbi_biosample SAMN05012779
@@ -6288,23 +6322,23 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773214
 		assay.sra_run SRR3541913
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158509
 		cell.id Pancreatic islet cell sample 611
 		sample.ncbi_biosample SAMN05012119
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773214
 		sample.uuid 9db5a853-6a16-4c7b-98da-1dccfe4700a0
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1773215
 		assay.sra_run SRR3541914
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2158510
 		cell.id Pancreatic islet cell sample 612
 		sample.ncbi_biosample SAMN05012120
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1773215
 		sample.uuid e6268ed7-8a40-42c5-a2c1-b1bb9f3ca1ea
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 	sample.donor.disease normal
 	sample.donor.id Non T2D 4
@@ -6577,7 +6611,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773250
 		assay.sra_run SRR3541949
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158545
 		cell.id Pancreatic islet cell sample 647
 		sample.ncbi_biosample SAMN05012780
@@ -6586,7 +6621,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773251
 		assay.sra_run SRR3541950
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158546
 		cell.id Pancreatic islet cell sample 648
 		sample.ncbi_biosample SAMN05012781
@@ -6595,7 +6631,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773252
 		assay.sra_run SRR3541951
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158547
 		cell.id Pancreatic islet cell sample 649
 		sample.ncbi_biosample SAMN05012782
@@ -6604,7 +6641,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773253
 		assay.sra_run SRR3541952
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158548
 		cell.id Pancreatic islet cell sample 650
 		sample.ncbi_biosample SAMN05012783
@@ -6613,7 +6651,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1773254
 		assay.sra_run SRR3541953
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2158549
 		cell.id Pancreatic islet cell sample 651
 		sample.ncbi_biosample SAMN05012340
@@ -7311,57 +7350,58 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774120
 		assay.sra_run SRR3542820
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159475
 		cell.id Pancreatic islet cell sample 1517
 		sample.ncbi_biosample SAMN05013464
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774120
 		sample.uuid d14357cf-e4c1-457f-85f3-d6f27275108e
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774121
 		assay.sra_run SRR3542821
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159476
 		cell.id Pancreatic islet cell sample 1518
 		sample.ncbi_biosample SAMN05013465
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774121
 		sample.uuid 74747603-5876-41d0-a4dd-061ba53f9c51
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774122
 		assay.sra_run SRR3542822
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159477
 		cell.id Pancreatic islet cell sample 1519
 		sample.ncbi_biosample SAMN05013466
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774122
 		sample.uuid 1e6ab08b-f8fc-44ee-bbc2-21fa3c669c7c
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774139
 		assay.sra_run SRR3542839
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159494
 		cell.id Pancreatic islet cell sample 1536
 		sample.ncbi_biosample SAMN05013483
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774139
 		sample.uuid 3cabb069-f043-4e54-a86a-135b8d0239ea
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774140
 		assay.sra_run SRR3542840
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159495
 		cell.id Pancreatic islet cell sample 1537
 		sample.ncbi_biosample SAMN05013484
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774140
 		sample.uuid d0e9df59-0336-42e8-9c58-6c1bfbb2908f
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774150
 		assay.sra_run SRR3542850
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159505
 		cell.id Pancreatic islet cell sample 1547
 		sample.ncbi_biosample SAMN05013553
@@ -7370,7 +7410,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774151
 		assay.sra_run SRR3542851
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159506
 		cell.id Pancreatic islet cell sample 1548
 		sample.ncbi_biosample SAMN05013554
@@ -7379,7 +7420,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774152
 		assay.sra_run SRR3542852
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159507
 		cell.id Pancreatic islet cell sample 1549
 		sample.ncbi_biosample SAMN05013555
@@ -7388,7 +7430,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774153
 		assay.sra_run SRR3542853
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159508
 		cell.id Pancreatic islet cell sample 1550
 		sample.ncbi_biosample SAMN05013556
@@ -7397,7 +7440,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774154
 		assay.sra_run SRR3542854
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159509
 		cell.id Pancreatic islet cell sample 1551
 		sample.ncbi_biosample SAMN05013557
@@ -7406,7 +7450,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774155
 		assay.sra_run SRR3542855
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159510
 		cell.id Pancreatic islet cell sample 1552
 		sample.ncbi_biosample SAMN05013558
@@ -7415,7 +7460,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774156
 		assay.sra_run SRR3542856
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159511
 		cell.id Pancreatic islet cell sample 1553
 		sample.ncbi_biosample SAMN05013559
@@ -7424,7 +7470,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774157
 		assay.sra_run SRR3542857
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159512
 		cell.id Pancreatic islet cell sample 1554
 		sample.ncbi_biosample SAMN05013560
@@ -7433,7 +7480,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774158
 		assay.sra_run SRR3542858
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159513
 		cell.id Pancreatic islet cell sample 1555
 		sample.ncbi_biosample SAMN05013561
@@ -7442,7 +7490,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774200
 		assay.sra_run SRR3542900
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159555
 		cell.id Pancreatic islet cell sample 1597
 		sample.ncbi_biosample SAMN05013544
@@ -8080,47 +8129,48 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774123
 		assay.sra_run SRR3542823
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159478
 		cell.id Pancreatic islet cell sample 1520
 		sample.ncbi_biosample SAMN05013467
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774123
 		sample.uuid 84c9a57f-d751-4213-a8e1-8ee79adfdc95
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774124
 		assay.sra_run SRR3542824
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159479
 		cell.id Pancreatic islet cell sample 1521
 		sample.ncbi_biosample SAMN05013468
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774124
 		sample.uuid 30f56bc7-564e-4b9b-b4cd-3fe315966a08
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774128
 		assay.sra_run SRR3542828
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159483
 		cell.id Pancreatic islet cell sample 1525
 		sample.ncbi_biosample SAMN05013472
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774128
 		sample.uuid 885040ab-f506-48ac-901b-d036a57c4e70
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774129
 		assay.sra_run SRR3542829
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159484
 		cell.id Pancreatic islet cell sample 1526
 		sample.ncbi_biosample SAMN05013473
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774129
 		sample.uuid a1bde2b8-b254-4dae-963a-e1a739d394c9
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774159
 		assay.sra_run SRR3542859
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159514
 		cell.id Pancreatic islet cell sample 1556
 		sample.ncbi_biosample SAMN05013562
@@ -8129,7 +8179,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774165
 		assay.sra_run SRR3542865
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159520
 		cell.id Pancreatic islet cell sample 1562
 		sample.ncbi_biosample SAMN05013568
@@ -8138,7 +8189,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774166
 		assay.sra_run SRR3542866
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159521
 		cell.id Pancreatic islet cell sample 1563
 		sample.ncbi_biosample SAMN05013569
@@ -8666,47 +8718,48 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774125
 		assay.sra_run SRR3542825
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159480
 		cell.id Pancreatic islet cell sample 1522
 		sample.ncbi_biosample SAMN05013469
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774125
 		sample.uuid 59ecc725-4ccc-4d46-9743-33b96daacc37
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774126
 		assay.sra_run SRR3542826
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159481
 		cell.id Pancreatic islet cell sample 1523
 		sample.ncbi_biosample SAMN05013470
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774126
 		sample.uuid 8737a2fa-859d-4fd2-99d7-df2571e4fc4c
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774127
 		assay.sra_run SRR3542827
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159482
 		cell.id Pancreatic islet cell sample 1524
 		sample.ncbi_biosample SAMN05013471
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774127
 		sample.uuid cdc3cec9-32c6-46d9-803a-7d546825d7f5
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774138
 		assay.sra_run SRR3542838
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159493
 		cell.id Pancreatic islet cell sample 1535
 		sample.ncbi_biosample SAMN05013482
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774138
 		sample.uuid 1876c533-4242-49fd-b503-324f26e93430
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774160
 		assay.sra_run SRR3542860
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159515
 		cell.id Pancreatic islet cell sample 1557
 		sample.ncbi_biosample SAMN05013563
@@ -8715,7 +8768,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774161
 		assay.sra_run SRR3542861
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159516
 		cell.id Pancreatic islet cell sample 1558
 		sample.ncbi_biosample SAMN05013564
@@ -8724,7 +8778,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774162
 		assay.sra_run SRR3542862
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159517
 		cell.id Pancreatic islet cell sample 1559
 		sample.ncbi_biosample SAMN05013565
@@ -8733,7 +8788,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774163
 		assay.sra_run SRR3542863
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159518
 		cell.id Pancreatic islet cell sample 1560
 		sample.ncbi_biosample SAMN05013566
@@ -8742,7 +8798,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774164
 		assay.sra_run SRR3542864
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159519
 		cell.id Pancreatic islet cell sample 1561
 		sample.ncbi_biosample SAMN05013567
@@ -8751,7 +8808,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774167
 		assay.sra_run SRR3542867
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159522
 		cell.id Pancreatic islet cell sample 1564
 		sample.ncbi_biosample SAMN05013570
@@ -8760,7 +8818,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774168
 		assay.sra_run SRR3542868
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159523
 		cell.id Pancreatic islet cell sample 1565
 		sample.ncbi_biosample SAMN05013571
@@ -8769,7 +8828,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774169
 		assay.sra_run SRR3542869
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159524
 		cell.id Pancreatic islet cell sample 1566
 		sample.ncbi_biosample SAMN05013572
@@ -8778,7 +8838,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774170
 		assay.sra_run SRR3542870
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159525
 		cell.id Pancreatic islet cell sample 1567
 		sample.ncbi_biosample SAMN05013573
@@ -8787,7 +8848,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774171
 		assay.sra_run SRR3542871
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159526
 		cell.id Pancreatic islet cell sample 1568
 		sample.ncbi_biosample SAMN05013574
@@ -8796,7 +8858,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774174
 		assay.sra_run SRR3542874
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159529
 		cell.id Pancreatic islet cell sample 1571
 		sample.ncbi_biosample SAMN05013577
@@ -8805,7 +8868,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774175
 		assay.sra_run SRR3542875
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159530
 		cell.id Pancreatic islet cell sample 1572
 		sample.ncbi_biosample SAMN05013519
@@ -8814,7 +8878,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774176
 		assay.sra_run SRR3542876
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159531
 		cell.id Pancreatic islet cell sample 1573
 		sample.ncbi_biosample SAMN05013520
@@ -8823,7 +8888,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774177
 		assay.sra_run SRR3542877
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159532
 		cell.id Pancreatic islet cell sample 1574
 		sample.ncbi_biosample SAMN05013521
@@ -8832,7 +8898,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774178
 		assay.sra_run SRR3542878
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159533
 		cell.id Pancreatic islet cell sample 1575
 		sample.ncbi_biosample SAMN05013522
@@ -8841,7 +8908,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774179
 		assay.sra_run SRR3542879
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159534
 		cell.id Pancreatic islet cell sample 1576
 		sample.ncbi_biosample SAMN05013523
@@ -8850,7 +8918,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774180
 		assay.sra_run SRR3542880
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159535
 		cell.id Pancreatic islet cell sample 1577
 		sample.ncbi_biosample SAMN05013524
@@ -8859,7 +8928,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774181
 		assay.sra_run SRR3542881
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159536
 		cell.id Pancreatic islet cell sample 1578
 		sample.ncbi_biosample SAMN05013525
@@ -8868,7 +8938,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774182
 		assay.sra_run SRR3542882
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159537
 		cell.id Pancreatic islet cell sample 1579
 		sample.ncbi_biosample SAMN05013526
@@ -8877,7 +8948,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774183
 		assay.sra_run SRR3542883
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159538
 		cell.id Pancreatic islet cell sample 1580
 		sample.ncbi_biosample SAMN05013527
@@ -8886,7 +8958,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774184
 		assay.sra_run SRR3542884
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159539
 		cell.id Pancreatic islet cell sample 1581
 		sample.ncbi_biosample SAMN05013528
@@ -8895,7 +8968,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774185
 		assay.sra_run SRR3542885
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159540
 		cell.id Pancreatic islet cell sample 1582
 		sample.ncbi_biosample SAMN05013532
@@ -8904,7 +8978,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774186
 		assay.sra_run SRR3542886
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159541
 		cell.id Pancreatic islet cell sample 1583
 		sample.ncbi_biosample SAMN05013533
@@ -8913,7 +8988,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774187
 		assay.sra_run SRR3542887
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159542
 		cell.id Pancreatic islet cell sample 1584
 		sample.ncbi_biosample SAMN05013529
@@ -8922,7 +8998,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774188
 		assay.sra_run SRR3542888
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159543
 		cell.id Pancreatic islet cell sample 1585
 		sample.ncbi_biosample SAMN05013530
@@ -8931,7 +9008,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774189
 		assay.sra_run SRR3542889
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159544
 		cell.id Pancreatic islet cell sample 1586
 		sample.ncbi_biosample SAMN05013531
@@ -8940,7 +9018,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774190
 		assay.sra_run SRR3542890
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159545
 		cell.id Pancreatic islet cell sample 1587
 		sample.ncbi_biosample SAMN05013534
@@ -8949,7 +9028,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774191
 		assay.sra_run SRR3542891
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159546
 		cell.id Pancreatic islet cell sample 1588
 		sample.ncbi_biosample SAMN05013535
@@ -8958,7 +9038,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774192
 		assay.sra_run SRR3542892
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159547
 		cell.id Pancreatic islet cell sample 1589
 		sample.ncbi_biosample SAMN05013536
@@ -8967,7 +9048,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774193
 		assay.sra_run SRR3542893
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159548
 		cell.id Pancreatic islet cell sample 1590
 		sample.ncbi_biosample SAMN05013537
@@ -8976,7 +9058,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774194
 		assay.sra_run SRR3542894
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159549
 		cell.id Pancreatic islet cell sample 1591
 		sample.ncbi_biosample SAMN05013538
@@ -8985,7 +9068,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774195
 		assay.sra_run SRR3542895
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159550
 		cell.id Pancreatic islet cell sample 1592
 		sample.ncbi_biosample SAMN05013539
@@ -8994,7 +9078,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774196
 		assay.sra_run SRR3542896
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159551
 		cell.id Pancreatic islet cell sample 1593
 		sample.ncbi_biosample SAMN05013540
@@ -9003,7 +9088,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774197
 		assay.sra_run SRR3542897
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159552
 		cell.id Pancreatic islet cell sample 1594
 		sample.ncbi_biosample SAMN05013541
@@ -9012,7 +9098,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774198
 		assay.sra_run SRR3542898
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159553
 		cell.id Pancreatic islet cell sample 1595
 		sample.ncbi_biosample SAMN05013542
@@ -9021,7 +9108,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774199
 		assay.sra_run SRR3542899
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159554
 		cell.id Pancreatic islet cell sample 1596
 		sample.ncbi_biosample SAMN05013543
@@ -11999,87 +12087,88 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774130
 		assay.sra_run SRR3542830
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159485
 		cell.id Pancreatic islet cell sample 1527
 		sample.ncbi_biosample SAMN05013477
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774130
 		sample.uuid cc8d4c32-c35a-42f8-b174-c87d4e591bfd
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774131
 		assay.sra_run SRR3542831
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159486
 		cell.id Pancreatic islet cell sample 1528
 		sample.ncbi_biosample SAMN05013478
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774131
 		sample.uuid ec71cde0-b6e8-424f-8c60-aad6afaeda4f
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774132
 		assay.sra_run SRR3542832
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159487
 		cell.id Pancreatic islet cell sample 1529
 		sample.ncbi_biosample SAMN05013479
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774132
 		sample.uuid 4a6251f5-14ee-4f42-bec9-088505b9c9f5
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774133
 		assay.sra_run SRR3542833
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159488
 		cell.id Pancreatic islet cell sample 1530
 		sample.ncbi_biosample SAMN05013474
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774133
 		sample.uuid 030b8c2d-6a6a-42bd-93db-b113185f2f10
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774134
 		assay.sra_run SRR3542834
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159489
 		cell.id Pancreatic islet cell sample 1531
 		sample.ncbi_biosample SAMN05013475
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774134
 		sample.uuid 82efc645-35f8-4f9c-b0d6-e60ba412822f
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774135
 		assay.sra_run SRR3542835
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159490
 		cell.id Pancreatic islet cell sample 1532
 		sample.ncbi_biosample SAMN05013476
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774135
 		sample.uuid 624f34b3-1587-4fb7-b912-bb469d214282
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774136
 		assay.sra_run SRR3542836
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159491
 		cell.id Pancreatic islet cell sample 1533
 		sample.ncbi_biosample SAMN05013480
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774136
 		sample.uuid 5b4cfff5-8dd6-4157-a784-a2b05e4c3d43
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774137
 		assay.sra_run SRR3542837
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159492
 		cell.id Pancreatic islet cell sample 1534
 		sample.ncbi_biosample SAMN05013481
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774137
 		sample.uuid 0e9b6f1a-e05f-4fa3-995e-76ac5ccbc81d
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774172
 		assay.sra_run SRR3542872
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159527
 		cell.id Pancreatic islet cell sample 1569
 		sample.ncbi_biosample SAMN05013575
@@ -12088,7 +12177,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774173
 		assay.sra_run SRR3542873
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159528
 		cell.id Pancreatic islet cell sample 1570
 		sample.ncbi_biosample SAMN05013576
@@ -13836,17 +13926,18 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774141
 		assay.sra_run SRR3542841
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159496
 		cell.id Pancreatic islet cell sample 1538
 		sample.ncbi_biosample SAMN05013485
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774141
 		sample.uuid 919998e9-157e-4804-ba39-a30fe197fdc8
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774201
 		assay.sra_run SRR3542901
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159556
 		cell.id Pancreatic islet cell sample 1598
 		sample.ncbi_biosample SAMN05013545
@@ -13855,7 +13946,8 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774202
 		assay.sra_run SRR3542902
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159557
 		cell.id Pancreatic islet cell sample 1599
 		sample.ncbi_biosample SAMN05013546
@@ -16023,87 +16115,88 @@ sample.body_part.organ_ontology UBERON_0001264
 
 		assay.sra_experiment SRX1774142
 		assay.sra_run SRR3542842
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159497
 		cell.id Pancreatic islet cell sample 1539
 		sample.ncbi_biosample SAMN05013486
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774142
 		sample.uuid b2c41014-3162-4b2c-b822-326fff42c3b2
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774143
 		assay.sra_run SRR3542843
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159498
 		cell.id Pancreatic islet cell sample 1540
 		sample.ncbi_biosample SAMN05013487
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774143
 		sample.uuid 6a81d13d-78fc-43f6-8a28-f6aa76068a5e
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774144
 		assay.sra_run SRR3542844
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159499
 		cell.id Pancreatic islet cell sample 1541
 		sample.ncbi_biosample SAMN05013488
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774144
 		sample.uuid 3f880fe2-e2f0-41f5-a303-ba1e592a8dfd
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774145
 		assay.sra_run SRR3542845
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159500
 		cell.id Pancreatic islet cell sample 1542
 		sample.ncbi_biosample SAMN05013548
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774145
 		sample.uuid 36b52bcd-3177-49ff-b0d7-ef5d3e3c7d57
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774146
 		assay.sra_run SRR3542846
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159501
 		cell.id Pancreatic islet cell sample 1543
 		sample.ncbi_biosample SAMN05013549
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774146
 		sample.uuid a9f435a7-1a7a-4061-8f1e-f748f967e91a
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774147
 		assay.sra_run SRR3542847
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159502
 		cell.id Pancreatic islet cell sample 1544
 		sample.ncbi_biosample SAMN05013550
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774147
 		sample.uuid 2b71bf81-2974-4d6c-b308-1039a59ea724
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774148
 		assay.sra_run SRR3542848
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159503
 		cell.id Pancreatic islet cell sample 1545
 		sample.ncbi_biosample SAMN05013551
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774148
 		sample.uuid 598e9ca1-5d1a-4acc-b1ef-39e38f146f4b
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774149
 		assay.sra_run SRR3542849
-		cell.type gamma-delta T cell
+		cell.type pancreatic D cell
 		sample.geo_sample GSM2159504
 		cell.id Pancreatic islet cell sample 1546
 		sample.ncbi_biosample SAMN05013552
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX177/SRX1774149
 		sample.uuid 839e0bdd-8de1-41d4-b606-1f931771699b
-		cell.ontology CL_0000798
+		cell.ontology CL_0000173
 
 		assay.sra_experiment SRX1774203
 		assay.sra_run SRR3542903
-		cell.type PP cell
+		cell.type pancreatic PP cell
+		cell.ontology CL_0002275
 		sample.geo_sample GSM2159558
 		cell.id Pancreatic islet cell sample 1600
 		sample.ncbi_biosample SAMN05013547

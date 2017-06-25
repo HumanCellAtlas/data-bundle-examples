@@ -1,4 +1,4 @@
-project.title Single cell RNA-sequencing of human tonsil Innate lymphoid cells (ILCs)
+project.title Single cell RNA-sequencing of human tonsil innate lymphoid cells (ILCs)
 project.id GSE70580
 project.geo_doc_id 200070580
 assay.seq.paired_ends no
@@ -10,9 +10,10 @@ assay.seq.prep Nextera XT
 assay.single_cell.method FACS
 sample.treatment.enrichment_method MACS,FACS
 sample.body_part.organ tonsil
+sample.body_part.name tonsil
 sample.donor.disease obstructive sleep apnea
 sample.donor.life_stage adult
-cell.type tonsil Innate lymphoid cells
+cell.type tonsil innate lymphoid cells
 project.contact.address "Box 596; Uppsala,  75124 Sweden"
 project.contact.city Uppsala
 project.contact.country Sweden
@@ -31,9 +32,8 @@ project.pmid 26878113
 project.release_status 2016-01-27
 project.sra_project SRP060416
 project.submission_date 2015-07-07
-project.summary Single cell RNA-sequencing of human tonsil Innate lymphoid cells (ILCs) from three independent tonsil donors.
+project.summary Single cell RNA-sequencing of human tonsil innate lymphoid cells (ILCs) from three independent tonsil donors.
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP060/SRP060416,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE70nnn/GSE70580/suppl/GSE70580_RAW.tar
-sample.body_part.name cDNA
 sample.data_processing All reads were aligned to the human (hg19) genomes using STAR (Dobin et al. 2013),Non-uniquely mapped reads were removed,"Rpkmforgenes (available at http://sandberg.cmb.ki.se/rnaseq/), options -readcount -fulltranscript -mRNAnorm -rmnameoverlap -u, was used to generate RPKM values and read counts. We used a file with unique positions from Storvall et al. 2013 PLOS ONE. Gene annotations used were transcripts in RefSeq and Ensembl  (Feb 2013) and ERCC-spike in annotations.",Genome_build: hg19,Supplementary_files_format_and_content: gene expression values (tab-delimited text)
 sample.donor.ncbi_taxon 9606
 sample.donor.species Homo sapiens
@@ -42,6 +42,7 @@ sample.protocol_types nucleic acid library construction protocol
 sample.protocols cDNA was generated from FACS sorted cells using to Smart-seq2 (Picelli et al. Nature Methods 2013)
 sample.submission_date 2015-07-07
 project.uuid dc60642c-8848-4758-b4e5-72074e03906b
+sample.body_part.organ_ontology UBERON_0002372
 
 	sample.donor.id Donor T74
 	sample.donor.uuid 64154fb0-f8e7-44dc-9e08-e228e8704352

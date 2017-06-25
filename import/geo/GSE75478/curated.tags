@@ -35,6 +35,7 @@ sample.body_part.name bone marrow
 sample.body_part.organ bone
 sample.treatment.enrichment_method FACS
 project.uuid 1af5a9b9-4528-494d-9bf9-ee6138aa51c5
+sample.body_part.organ_ontology UBERON_0001474
 
 	sample.donor.id I2
 	sample.submission_date 2015-11-30

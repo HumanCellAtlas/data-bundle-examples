@@ -7301,6 +7301,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.short_label cultured fibroblasts
 					sample.long_label single fibroblasts from primary culture
 					cell.ontology CL_0000057
+					sample.body_part.organ_ontology UBERON_0002097
 
 						sample.characteristics_clone.info fibroblast.cl1
 						sample.donor.strain CAST/EiJ (mother) x C57BL/6J (father)
@@ -8565,6 +8566,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961870/suppl/GSM1961870_fibroblast.120.cl7_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460976
 					sample.uuid 12b38a59-2281-47f3-a80a-707d83cbe43d
 					cell.ontology CL_0000057
+					sample.body_part.organ_ontology UBERON_0002097
 
 					cell.type fibroblast
 					sample.body_part.name fibroblast
@@ -8575,6 +8577,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.long_label 5 pooled fibroblasts from primary culture
 					sample.donor.strain CAST/EiJ (mother) x C57BL/6J (father)
 					cell.ontology CL_0000057
+					sample.body_part.organ_ontology UBERON_0002097
 
 						assay.sra_experiment SRX1460977
 						assay.sra_run SRR2971604
@@ -8603,6 +8606,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.long_label fibroblast from primary culture split in two parts after RNA extraction
 					sample.characteristics_clone.info non.clonal
 					cell.ontology CL_0000057
+					sample.body_part.organ_ontology UBERON_0002097
 
 						assay.sra_experiment SRX1461126
 						assay.sra_run SRR2971753
@@ -8907,6 +8911,7 @@ sample.protocol_types nucleic acid library construction protocol
 					sample.donor.life_stage embryo
 					sample.donor.strain C57BL/6J (mother) x CAST/EiJ (father)
 					cell.ontology CL_0000057
+					sample.body_part.organ_ontology UBERON_0002097
 
 						assay.sra_experiment SRX1460879
 						assay.sra_run SRR2971505
@@ -9222,6 +9227,7 @@ sample.protocol_types nucleic acid library construction protocol
 						sample.short_label fibroblast
 						sample.long_label fibroblast with no clonal expansion
 						cell.ontology CL_0000057
+						sample.body_part.organ_ontology UBERON_0002097
 
 							assay.sra_experiment SRX1460980
 							assay.sra_run SRR2971607
@@ -9977,6 +9983,7 @@ sample.protocol_types nucleic acid library construction protocol
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962019/suppl/GSM1962019_fibroblast.269_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461125
 						sample.uuid 778fb6e6-fe5e-418e-a448-40bb80f06a54
 						cell.ontology CL_0000057
+						sample.body_part.organ_ontology UBERON_0002097
 
 				sample.characteristics_clone.info non.clonal
 				sample.donor.age 15
@@ -10293,6 +10300,7 @@ sample.protocol_types nucleic acid library construction protocol
 			sample.donor.strain CAST/EiJ_x_C57BL/6J
 			sample.submission_date 2016-07-06
 			cell.ontology CL_0000057
+			sample.body_part.organ_ontology UBERON_0002097
 
 				assay.sra_experiment SRX1899688
 				assay.sra_run SRR3745799
@@ -10356,6 +10364,7 @@ sample.protocol_types nucleic acid library construction protocol
 			sample.long_label mouse fibroblast
 			sample.characteristics_cross CASTxC57
 			cell.ontology CL_0000057
+			sample.body_part.organ_ontology UBERON_0002097
 
 				assay.sra_experiment SRX1714297
 				assay.sra_run SRR3403561
