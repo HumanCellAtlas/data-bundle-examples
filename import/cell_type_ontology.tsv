@@ -1,0 +1,28 @@
+#cell.type	cell.ontology
+CD141-positive myeloid dendritic cell	CL_0002394
+CD1c-positive myeoloid dendritic cell	CL_0002399
+dendritic cell	CL_0000451
+embryonic stem cell	CL_0002322
+endocrine cell	CL_0000163
+pancreatic ductal cell	CL_0002079
+pluripoten stem cell	CL_0002248
+pre-conventional dendritic cell	CL_0002010
+pre-conventional dendritic cell	CL_0002010
+pancreatic A cell	CL_0000171
+gamma cell	XAO_0005168
+epsilon cell	XAO_0005167
+insulin secreting cell	CL_0000168
+endothelial cell	CL_0000115
+fibroblast	CL_0000057
+mast cell	CL_0000097
+oocyte	CL_0000023
+animal zygote	CL_0000365
+CD8-positive, alpha-beta T cell	CL_0000625
+neuron	CL_0000540
+oligodendrocyte	CL_0000128
+oligodendrocyte precursor cell	CL_0002453
+astrocyte	CL_0000127
+hepatocyte	CL_0000182
+embryonic stem cell	CL_0002322
+morula cell	CL_0000360
+T cell	CL_0000084

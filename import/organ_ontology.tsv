@@ -1,0 +1,10 @@
+#sample.body_part.organ	sample.body_part.organ_ontology
+blood	UBERON_0000178
+bone	UBERON_0001474
+brain	UBERON_0000955
+embryo	UBERON_0000922
+eye	UBERON_0000970
+liver	UBERON_0002107
+pancreas	UBERON_0001264
+skin	UBERON_0002097
+tonsil	UBERON_0002372
