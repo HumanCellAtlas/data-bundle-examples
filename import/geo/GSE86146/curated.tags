@@ -61,7 +61,7 @@ sample.body_part.organ_ontology UBERON_0000922
 			sample.submission_date 2016-09-08
 			sample.uuid ed8d4b0d-e4d1-4a51-915e-19956ae53fde
 
-	sample.donor.age 2,9
+	sample.characteristics_donor_age "2,9"
 	sample.body_part.name primordial germ cells
 
 		sample.donor.sex mixed
