@@ -13,12 +13,12 @@
         "Supplementary_files_format_and_content: Master data frame including sample name, gene ID, and FPKM values for each single cell."
     ], 
     "donor": {
-        "age": "12", 
+        "age": 12, 
         "age_unit": "week", 
         "id": "fetus 1", 
         "uuid": "6860fb7c-6167-4b6c-9bae-58098f35cc05",
         "life_stage": "embryo", 
-        "ncbi_taxon": "9606", 
+        "ncbi_taxon": 9606, 
         "species": "Homo sapiens"
     }, 
     "geo_sample": "GSM1957573", 

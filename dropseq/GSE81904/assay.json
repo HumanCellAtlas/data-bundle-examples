@@ -3,13 +3,13 @@
         {
             "format": ".fastq.gz", 
             "name": "SRR3587500_1.fastq.gz", 
-	    "lane": "1",
+	    "lane": 1,
             "type": "index"
         }, 
         {
             "format": ".fastq.gz", 
             "name": "SRR3587500_2.fastq.gz", 
-	    "lane": "1",
+	    "lane": 1,
             "type": "reads"
         }
     ], 
@@ -21,13 +21,13 @@
         "molecule": "total RNA", 
         "paired_ends": "index1_reads2", 
         "prep": "modified Nextera XT", 
-        "umi_barcode_offset": "12", 
-        "umi_barcode_size": "8",
+        "umi_barcode_offset": 12, 
+        "umi_barcode_size": 8,
 	"umi_barcode_read": "index"
     }, 
     "single_cell": {
-        "cell_barcode_offset": "0", 
-        "cell_barcode_size": "12", 
+        "cell_barcode_offset": 0, 
+        "cell_barcode_size": 12, 
 	"cell_barcode_read": "index",
         "method": "drop-seq"
     }, 

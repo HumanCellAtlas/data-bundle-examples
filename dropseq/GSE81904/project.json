@@ -20,7 +20,7 @@
     "last_update_date": "2017-05-26", 
     "ncbi_bioproject": "PRJNA323370", 
     "overall_design": "Drop-Seq was performed on two different batches. Bipolar1-Bipolar4 are replicates from batch 1 and Bipolar5-6 are replicates from Batch 2", 
-    "pmid": "27565351", 
+    "pmid": 27565351, 
     "release_status": "Public on Aug 25 2016", 
     "sra_project": "SRP075719", 
     "submission_date": "2016-05-25", 

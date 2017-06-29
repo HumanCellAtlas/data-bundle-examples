@@ -6,13 +6,13 @@
         "source": "Prodo Laboratories Inc."
     }, 
     "donor": {
-        "age": "43", 
+        "age": 43, 
         "age_unit": "year", 
         "body_mass_index": "30.8", 
         "disease": "normal", 
         "id": "AZ", 
         "life_stage": "adult", 
-        "ncbi_taxon": "9606", 
+        "ncbi_taxon": 9606, 
         "sex": "male", 
         "species": "Homo sapiens", 
         "uuid": "e833be89-d54e-468b-a079-39be1d331f48"

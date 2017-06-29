@@ -9,7 +9,7 @@
     "id": "U2",
     "uuid": "a1ef5009045f42e88a0e3db1d1f2b050",
     "life_stage" : "child",
-    "age": "15",
+    "age": 15,
     "species": "Homo sapiens"
   }
 }
