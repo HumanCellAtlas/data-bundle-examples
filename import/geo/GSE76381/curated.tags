@@ -18712,7 +18712,7 @@ project.uuid 24a7f656-0232-4243-b647-2b7b0f225249
 					assay.sra_experiment SRX2045296
 					assay.sra_run SRR4055927
 
-		sample.body_part.name embryonic stem cells
+		sample.body_part.name embryonic stem cell
 		sample.body_part.organ embryo
 		sample.characteristics_cef ESMoleculeCounts.cef
 		sample.donor.life_stage cell line
