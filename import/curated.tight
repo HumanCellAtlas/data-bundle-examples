@@ -1,6 +1,6 @@
 assay.ena_experiment $ ERX*
 assay.ena_run $ ERR*
-assay.files $ *
+assay.files [$] *
 assay.rna.prep $ *
 assay.rna.primer $ poly-dt random
 assay.rna.spike_in $ *
@@ -43,7 +43,7 @@ project.contact.phone $ *
 project.contact.postal_code $ *
 project.contact.state $ AL AZ CA FL IL MA MO NY OR PA TX WA
 project.contact.street_address $ *
-project.contributor $ *
+project.contributor [$] *
 project.ddjb_trace_project $ ERP*
 project.experimental_factor_name $ *
 project.geo_doc_id # 1 1000000000
@@ -61,7 +61,7 @@ project.release_status $ *2???-??-??
 project.sra_project $ SRP*
 project.submission_date $ 2???-??-??
 !project.summary $ *
-project.supplementary_files $ *
+project.supplementary_files [$] *
 !project.title $ *
 !project.uuid $ ????????-????-????-????-????????????
 sample.biosd_sample $ *
@@ -73,11 +73,11 @@ sample.body_part.organ_ontology $ *_0??????
 sample.body_part.source $ "Proto or NDRI" "Prodo Laboratories Inc."
 sample.cell_line $ AB2.2 H9 "iPSC 409B2"
 sample.characteristics_* $ *
-sample.data_processing $ *
-sample.donor.age $ *
+sample.data_processing [$] *
+sample.donor.age % *
 sample.donor.age_unit $ day week year
 sample.donor.body_mass_index % 1 100
-sample.donor.development_stage $ "2-cell blastomeres" "4-cell blastomeres" "8-cell blastomeres" "fertilized oocyte" "late blastocyst" morula oocyte zygote
+sample.donor.development_stage $ "2-cell blastomeres" "4-cell blastomeres" "8-cell blastomeres" "fertilized oocyte" "late blastocyst" morula oocyte zygote "pronucleus phase zygote"
 sample.donor.disease $ normal "type II diabetes mellitus" "type I diabetes mellitus" "epilepsy" "obstructive sleep apnea"
 sample.donor.ethnicity $ *
 sample.donor.genotype $ "AAV-GFP+ RIP-Cre+" Vsx2-GFP "Tomato/DAT-Cre+"
@@ -98,12 +98,11 @@ sample.ncbi_biosample $ *
 sample.passage_number # 0 10
 sample.protocol_types $ *
 sample.protocols $ *
-sample.short $ *
 !sample.uuid $ ????????-????-????-????-????????????
 !sample.short_label $ *
 sample.storage $ *
 sample.submission_date $ 2???-??-??
-sample.supplementary_files $ *
+sample.supplementary_files [$] *
 sample.treatment.culture_type $ "cell line" "primary culture" tissue
 sample.treatment.enrichment $ *
 sample.treatment.enrichment_method $ *
