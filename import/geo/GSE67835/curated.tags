@@ -1530,7 +1530,7 @@ sample.body_part.organ_ontology UBERON_0000955
 
 		sample.characteristics_c1_chip_id 1772078218
 		sample.long_label hippocampus - healthy tissue from 54 year old female epileptic patient
-		sample.body_part.name hippocamppus
+		sample.body_part.name hippocampus
 		sample.short_label hippocampus
 
 			assay.sra_experiment SRX995894
