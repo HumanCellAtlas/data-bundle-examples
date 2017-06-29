@@ -18,8 +18,8 @@ assay.single_cell.cell_barcode_read $ read1 read2 index
 assay.single_cell.cell_barcode_size # 0 50
 !assay.single_cell.method $ 10x_v2 FACS "Fluidigm C1" drop-seq "mouth pipette" bulk
 assay.sra_experiment $ *
-assay.sra_run $ *
-assay.submitted_file_names $ *
+assay.sra_run [$] SRR*
+assay.submitted_file_names [$] *
 cell.cell_cycle $ "G1 phase" "G2/M phase" "M phase" "G2 phase" "S phase"
 cell.characteristics_* $ *
 cell.id $ *
@@ -29,8 +29,8 @@ cell.well_quality $ *
 project.array_express.accession $ E-????-*
 project.array_express.experiment_type $ *
 project.array_express.related_experiment $ *
-project.array_express.term_source_file $ *
-project.array_express.term_source_name $ *
+project.array_express.term_source_file [$] *
+project.array_express.term_source_name [$] *
 project.contact.address $ *
 project.contact.city $ *
 project.contact.country $ *
@@ -45,7 +45,7 @@ project.contact.state $ AL AZ CA FL IL MA MO NY OR PA TX WA
 project.contact.street_address $ *
 project.contributor [$] *
 project.ddjb_trace_project $ ERP*
-project.experimental_factor_name $ *
+project.experimental_factor_name [$] *
 project.geo_doc_id # 1 1000000000
 project.geo_parent_series $ *
 project.geo_series $ GSE*
@@ -53,10 +53,9 @@ project.geo_series $ GSE*
 project.last_update_date $ 2???-??-??
 project.mage_tab_version % 1 10
 project.ncbi_bioproject $ PRJNA*
-project.overall_design $ *
-project.overall_design_accession $ *
-project.pmid # 1 100000000
-project.publication_author_list $ *
+project.overall_design [$] *
+project.pmid [#] 1 100000000
+project.publication_author_list [$] *
 project.release_status $ *2???-??-??
 project.sra_project $ SRP*
 project.submission_date $ 2???-??-??
@@ -105,4 +104,4 @@ sample.submission_date $ 2???-??-??
 sample.supplementary_files [$] *
 sample.treatment.culture_type $ "cell line" "primary culture" tissue
 sample.treatment.enrichment $ *
-sample.treatment.enrichment_method $ *
+sample.treatment.enrichment_method [$] *
