@@ -38,10 +38,13 @@ project.uuid 1af5a9b9-4528-494d-9bf9-ee6138aa51c5
 sample.body_part.organ_ontology UBERON_0001474
 
 	sample.donor.id I2
+	sample.donor.age 29
+	sample.donor.age_unit year
+	sample.donor.sex female
 	sample.submission_date 2015-11-30
 	sample.donor.uuid 85e95c40-1ddb-43e7-af8e-21f4729afbb6
 
-		sample.treatment.enrichment Lin- CD34+ CD38-
+		sample.treatment.enrichment CD4- CD8- CD11b- CD14- CD19- CD20- CD56- CD235a- CD34+ CD38-
 		sample.short_label Lin-CD34+CD38- marrow
 		sample.last_update_date 2017-01-19
 
@@ -16194,7 +16197,7 @@ sample.body_part.organ_ontology UBERON_0001474
 				sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1956nnn/GSM1956852/suppl/GSM1956852_counts_plate15_H_12.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX145/SRX1455060
 				sample.uuid b903c2c2-c558-4cd5-bc25-b83f1429b3ed
 
-		sample.treatment.enrichment Lin- CD34+ CD38+
+		sample.treatment.enrichment CD4- CD8- CD11b- CD14- CD19- CD20- CD56- CD235a- CD34+ CD38+
 		sample.short_label Lin-CD34+CD38+ marrow
 		sample.last_update_date 2017-01-19
 
@@ -25426,7 +25429,7 @@ sample.body_part.organ_ontology UBERON_0001474
 				sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1956nnn/GSM1956564/suppl/GSM1956564_counts_plate11_H_12.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX145/SRX1454772
 				sample.uuid 96dd0a54-c066-40ec-aff3-7c139a84c1ee
 
-		sample.treatment.enrichment Lin- CD34+ CD38+ CD45RA- CD90+
+		sample.treatment.enrichment CD4- CD8- CD11b- CD14- CD19- CD20- CD56- CD235a- CD34+ CD38+ CD45RA- CD90+
 		sample.short_label Lin-CD34+CD38+CD45RA-CD90+
 		sample.last_update_date 2017-01-19
 
@@ -27738,10 +27741,13 @@ sample.body_part.organ_ontology UBERON_0001474
 				sample.uuid 090a1c14-0b73-4841-9759-5c930495e669
 
 	sample.donor.id I1
+	sample.donor.age 25
+	sample.donor.age_unit year
+	sample.donor.sex male
 	sample.submission_date 2016-08-23
 	sample.donor.uuid f2fca97b-98bf-48be-90f4-7c48eecd60ef
 
-		sample.treatment.enrichment Lin- CD34+ CD38+
+		sample.treatment.enrichment CD4- CD8- CD11b- CD14- CD19- CD20- CD56- CD235a- CD34+ CD38+
 		sample.short_label Lin-CD34+CD38+ marrow
 
 			sample.characteristics_plate plate10
@@ -43959,7 +43965,7 @@ sample.body_part.organ_ontology UBERON_0001474
 				sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2289nnn/GSM2289985/suppl/GSM2289985_counts_I1_plate9_H_12.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX204/SRX2042774
 				sample.uuid dda6d504-0af8-4cb2-8a72-640ff88dde76
 
-		sample.treatment.enrichment Lin- CD34+ CD38-
+		sample.treatment.enrichment CD4- CD8- CD11b- CD14- CD19- CD20- CD56- CD235a- CD34+ CD38-
 		sample.short_label Lin-CD34+CD38- marrow
 
 			sample.characteristics_plate plate11
