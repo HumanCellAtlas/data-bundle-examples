@@ -9,7 +9,7 @@
         "age_unit": "day", 
         "genotype": "Vsx2-GFP", 
         "life_stage": "postpartum", 
-        "ncbi_taxon": "10090", 
+        "ncbi_taxon": 10090, 
         "species": "Mus musculus"
     }, 
     "geo_sample": "GSM2177570", 
