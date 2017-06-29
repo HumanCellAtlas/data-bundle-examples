@@ -5,7 +5,7 @@
     }, 
     "donor": {
         "life_stage": "adult", 
-        "ncbi_taxon": "9606", 
+        "ncbi_taxon": 9606, 
         "species": "Homo sapiens"
     }, 
     "long_label": "peripheral blood mononuclear cells (PBMCs)", 
