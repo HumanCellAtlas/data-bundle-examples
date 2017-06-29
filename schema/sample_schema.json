@@ -193,7 +193,10 @@
                 }, 
                 "enrichment_method": {
                     "description": "Method for enriching cells.  Typically \"pan\" or \"FACS\" or \"MACS\"", 
-                    "type": "string"
+                    "items": {
+                        "type": "string"
+                    }, 
+                    "type": "array"
                 }
             }, 
             "type": "object"
@@ -224,10 +227,10 @@
         }, 
         "data_processing": {
             "description": "Data processing that describes how supplementary files other than fastqs were generated. Captured from ArrayExpress and GEO", 
-	    "type": "array",
-	    "items": {
-	        "type": "string"
-	    }
+            "items": {
+                "type": "string"
+            }, 
+            "type": "array"
         }, 
         "donor": {
             "$ref": "#/definitions/donor"
@@ -247,7 +250,7 @@
             "type": "string"
         }, 
         "last_update_date": {
-            "description": "describe_me_please", 
+            "description": "When sample was last updated", 
             "pattern": "^2...-..-..$", 
             "type": "string"
         }, 

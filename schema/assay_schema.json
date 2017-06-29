@@ -81,7 +81,7 @@
                     "type": "integer"
                 }, 
                 "umi_barcode_read": {
-                    "description": "describe_me_please", 
+                    "description": "Read file type", 
                     "enum": [
                         "read1", 
                         "read2", 
@@ -111,7 +111,7 @@
                     "type": "integer"
                 }, 
                 "cell_barcode_read": {
-                    "description": "describe_me_please", 
+                    "description": "Read file type", 
                     "enum": [
                         "read1", 
                         "read2", 
@@ -183,7 +183,11 @@
         }, 
         "sra_run": {
             "description": "NCBI Short Read Archive run accession (SRR)", 
-            "type": "string"
+            "items": {
+                "pattern": "^SRR.*$", 
+                "type": "string"
+            }, 
+            "type": "array"
         }, 
         "submitted_file_names": {
             "description": "Names of files as submitted to database, which were renamed by database in files array", 

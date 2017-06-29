@@ -4,7 +4,7 @@
     "description": "cell schema generate by tagSchemaToJson from curated.tight", 
     "patternProperties": {
         "^characteristics_.*$": {
-            "description": "describe_me_please", 
+            "description": "Fields that begin with sample.characteristics_ can contain any value, and the field name can be anything after the prefix", 
             "type": "string"
         }
     }, 

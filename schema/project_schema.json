@@ -20,11 +20,17 @@
                 }, 
                 "term_source_file": {
                     "description": "Names of files (or usually URLs) associated with ArrayExpress term ontology management", 
-                    "type": "string"
+                    "items": {
+                        "type": "string"
+                    }, 
+                    "type": "array"
                 }, 
                 "term_source_name": {
                     "description": "List of groups at EBI responsible for term ontologies", 
-                    "type": "string"
+                    "items": {
+                        "type": "string"
+                    }, 
+                    "type": "array"
                 }
             }, 
             "type": "object"
@@ -163,21 +169,26 @@
         }, 
         "overall_design": {
             "description": "A sentence to a paragraph describing major steps of the experiment", 
-            "type": "string"
-        }, 
-        "overall_design_accession": {
-            "description": "describe_me_please", 
-            "type": "string"
+            "items": {
+                "type": "string"
+            }, 
+            "type": "array"
         }, 
         "pmid": {
             "description": "PubMed ID of associated paper(s)", 
-            "maximum": 100000000, 
-            "minimum": 1, 
-            "type": "integer"
+            "items": {
+                "maximum": 100000000, 
+                "minimum": 1, 
+                "type": "integer"
+            }, 
+            "type": "array"
         }, 
         "publication_author_list": {
             "description": "Comma separated list of authors associated with papers.  Example: \"Tran NM, Macosko EZ, Kowalczyk M\"", 
-            "type": "string"
+            "items": {
+                "type": "string"
+            }, 
+            "type": "array"
         }, 
         "release_status": {
             "description": "Date when project was released publicly, or plans for release", 
