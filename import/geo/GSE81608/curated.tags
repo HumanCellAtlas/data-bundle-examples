@@ -45,7 +45,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.long_label adult pancreatic islets from normal 23 year old male
 	sample.short_label pancreas islet normal
 	sample.donor.id Non T2D 1
-	sample.characteristics_gender M
+	sample.donor.sex male
 	sample.donor.age 23
 	sample.donor.ethnicity AA
 	sample.donor.uuid 5efd4395-c4d6-45eb-a93f-be125831fd6c
@@ -824,7 +824,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 2
 	sample.long_label adult pancreatic islets from normal 32 year old female
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender F
+	sample.donor.sex female
 	sample.donor.age 32
 	sample.donor.ethnicity C
 	sample.donor.uuid 350b521d-f509-4a33-87de-b6e54b014d05
@@ -1073,7 +1073,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 3
 	sample.long_label adult pancreatic islets from normal 23 year old female
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender F
+	sample.donor.sex female
 	sample.donor.age 23
 	sample.donor.ethnicity C
 	sample.donor.uuid 6cbb2237-53d3-4207-a031-08969f34cc44
@@ -1522,7 +1522,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 5
 	sample.long_label adult pancreatic islets from normal 27 year old male
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender M
+	sample.donor.sex male
 	sample.donor.age 27
 	sample.donor.ethnicity AA
 	sample.donor.uuid eb65b9bb-dfc7-4e32-af03-ec27a1a75f89
@@ -2101,7 +2101,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 6
 	sample.long_label adult pancreatic islets from normal 68 year old male
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender M
+	sample.donor.sex male
 	sample.donor.age 68
 	sample.donor.ethnicity C
 	sample.donor.uuid d58bd61a-0617-4b76-895d-a6790b268b6f
@@ -2610,7 +2610,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 7
 	sample.long_label adult pancreatic islets from normal 29 year old male
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender M
+	sample.donor.sex male
 	sample.donor.age 29
 	sample.donor.ethnicity C
 	sample.donor.uuid fcfeae01-1d0b-4ee1-a2de-069ef346ace3
@@ -2909,7 +2909,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 8
 	sample.long_label adult pancreatic islets from normal 60 year old male
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender M
+	sample.donor.sex male
 	sample.donor.age 60
 	sample.donor.ethnicity AI
 	sample.donor.uuid 998afa55-b6d6-4e25-8a99-7c3b064f1a11
@@ -3368,7 +3368,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 9
 	sample.long_label adult pancreatic islets from normal 24 year old female
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender F
+	sample.donor.sex female
 	sample.donor.age 24
 	sample.donor.ethnicity C
 	sample.donor.uuid bf8f58f6-f9d4-454c-aebb-0f0377c4ae24
@@ -3757,7 +3757,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 10
 	sample.long_label adult pancreatic islets from normal 43 year old male
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender M
+	sample.donor.sex male
 	sample.donor.age 43
 	sample.donor.ethnicity C
 	sample.donor.uuid 7c9d0f96-c035-477c-afa2-e1d39240954a
@@ -4256,7 +4256,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 11
 	sample.long_label adult pancreatic islets from normal 31 year old female
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender F
+	sample.donor.sex female
 	sample.donor.age 31
 	sample.donor.ethnicity H
 	sample.donor.uuid a63892a9-071f-45e1-92ef-b14db9cc19e3
@@ -4895,7 +4895,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 12
 	sample.long_label adult pancreatic islets from normal 56 year old male
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender M
+	sample.donor.sex male
 	sample.donor.age 56
 	sample.donor.ethnicity AA
 	sample.donor.uuid 0b778390-c03e-404f-af76-ccecc1044a0e
@@ -6344,7 +6344,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.donor.id Non T2D 4
 	sample.long_label adult pancreatic islets from normal 56 year old female
 	sample.short_label pancreas islet normal
-	sample.characteristics_gender F
+	sample.donor.sex female
 	sample.donor.age 56
 	sample.donor.ethnicity C
 	sample.donor.uuid 38dc44ca-e8ca-45fe-a4a0-2bbf43c56845
@@ -6663,7 +6663,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.long_label adult pancreatic islets from 56 year old female diabetes type II
 	sample.short_label pancreas islet diab II
 	sample.donor.id T2D 2
-	sample.characteristics_gender F
+	sample.donor.sex female
 	sample.donor.age 37
 	sample.donor.ethnicity C
 	sample.donor.uuid cb65ebaa-898b-49ba-93b9-ba92cdc1f246
@@ -7502,7 +7502,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.long_label adult pancreatic islets from 55 year old female diabetes type II
 	sample.short_label pancreas islet diab II
 	sample.donor.id T2D 3
-	sample.characteristics_gender F
+	sample.donor.sex female
 	sample.donor.age 55
 	sample.donor.ethnicity C
 	sample.donor.uuid d0002850-8a24-4eef-b294-454e38e81cb8
@@ -8201,7 +8201,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.long_label adult pancreatic islets from 57 year old male diabetes type II
 	sample.short_label pancreas islet diab II
 	sample.donor.id T2D 1
-	sample.characteristics_gender M
+	sample.donor.sex male
 	sample.donor.age 57
 	sample.donor.ethnicity AA
 	sample.donor.uuid 0637eb8a-17ac-4a23-af5e-14adaedbb3c3
@@ -9120,7 +9120,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.long_label adult pancreatic islets from 41 year old female diabetes type II
 	sample.short_label pancreas islet diab II
 	sample.donor.id T2D 4
-	sample.characteristics_gender F
+	sample.donor.sex female
 	sample.donor.age 41
 	sample.donor.ethnicity H
 	sample.donor.uuid a43734b2-cb0f-488c-9764-abee50ffc439
@@ -12189,7 +12189,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.long_label adult pancreatic islets from 42 year old male diabetes type II
 	sample.short_label pancreas islet diab II
 	sample.donor.id T2D 5
-	sample.characteristics_gender M
+	sample.donor.sex male
 	sample.donor.age 42
 	sample.donor.ethnicity C
 	sample.donor.uuid 588e3a8c-e7bf-486e-9902-9f01b413f811
@@ -13958,7 +13958,7 @@ sample.body_part.organ_ontology UBERON_0001264
 	sample.long_label adult pancreatic islets from 51 year old male diabetes type II
 	sample.short_label pancreas islet diab II
 	sample.donor.id T2D 6
-	sample.characteristics_gender M
+	sample.donor.sex male
 	sample.donor.age 51
 	sample.donor.ethnicity H
 	sample.donor.uuid b73c1c32-3668-4c3d-9876-a8831401aff5
