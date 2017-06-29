@@ -64,35 +64,38 @@ assay.files has 3996 uses with 3996 vals
    1	ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/007/ERR1630327/ERR1630327.fastq.gz
    1	ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/001/ERR1633431/ERR1633431.fastq.gz
    3976	(in 3976 others)
-assay.rna.prep has 6 uses with 4 vals
-   3	smart-seq2
+assay.rna.prep has 9 uses with 5 vals
+   5	smart-seq2
    1	CEL-seq
    1	SMARTer Ultra Low RNA Kit
    1	modified smart-seq2
-assay.rna.primer has 18 uses with 2 vals
+   1	C1 autoprep
+assay.rna.primer has 22 uses with 2 vals
+   12	poly-dt
    10	random
-   8	poly-dt
-assay.rna.spike_in has 3 uses with 1 vals
-   3	ERCC
-assay.rna.spike_in_dilution has 1 uses with 1 vals
+assay.rna.spike_in has 4 uses with 1 vals
+   4	ERCC
+assay.rna.spike_in_dilution has 2 uses with 2 vals
    1	40000
+   1	1000000
 assay.rna.strand has 1 uses with 1 vals
    1	both
-assay.seq.machine has 241 uses with 4 vals
-   123	Illumina HiSeq 2000
+assay.seq.machine has 256 uses with 5 vals
+   126	Illumina HiSeq 2000
    114	Illumina HiSeq 2500
+   8	Illumina NextSeq 500
+   6	Illumina MiSeq
    2	Illumina HiSeq 4000
-   2	Illumina NextSeq 500
-assay.seq.molecule has 17 uses with 3 vals
-   6	polyA RNA
-   6	total RNA
+assay.seq.molecule has 21 uses with 3 vals
+   9	polyA RNA
+   7	total RNA
    5	RNA
-assay.seq.paired_ends has 17 uses with 3 vals
-   7	no
-   6	yes
+assay.seq.paired_ends has 21 uses with 3 vals
+   10	no
+   7	yes
    4	index1_reads2
-assay.seq.prep has 4 uses with 3 vals
-   2	Nextera XT
+assay.seq.prep has 7 uses with 3 vals
+   5	Nextera XT
    1	modified Nextera XT
    1	TruSeq
 assay.seq.umi_barcode_offset has 5 uses with 3 vals
@@ -114,56 +117,57 @@ assay.single_cell.cell_barcode_size has 5 uses with 3 vals
    2	16
    2	12
    1	8
-assay.single_cell.method has 19 uses with 5 vals
-   5	FACS
+assay.single_cell.method has 24 uses with 6 vals
+   7	FACS
+   7	Fluidigm C1
    5	mouth pipette
-   5	Fluidigm C1
    2	drop-seq
    2	10x_v2
-assay.sra_experiment has 7906 uses with 7906 vals
-   1	SRX1461999
-   1	SRX1461998
-   1	SRX1461997
-   1	SRX1461996
-   1	SRX1461995
-   1	SRX1461994
-   1	SRX1461993
-   1	SRX1461992
-   1	SRX1461991
-   1	SRX1461989
-   1	SRX1461990
-   1	SRX1461988
-   1	SRX1461987
-   1	SRX1461986
-   1	SRX1461985
-   1	SRX1461984
-   1	SRX1462084
-   1	SRX1461983
-   1	SRX1462083
-   1	SRX1461982
-   7886	(in 7886 others)
-assay.sra_run has 7906 uses with 7906 vals
+   1	bulk
+assay.sra_experiment has 15271 uses with 15271 vals
+   1	SRX1304214
+   1	SRX1304213
+   1	SRX1304212
+   1	SRX1304211
+   1	SRX1304210
+   1	SRX1304199
+   1	SRX1304209
+   1	SRX1304198
+   1	SRX1304208
+   1	SRX1304197
+   1	SRX1304207
+   1	SRX1304196
+   1	SRX1304206
+   1	SRX1304195
+   1	SRX1304205
+   1	SRX1304204
+   1	SRX1304194
+   1	SRX1304193
+   1	SRX1304203
+   1	SRX1304192
+   15251	(in 15251 others)
+assay.sra_run has 15271 uses with 15271 vals
+   1	SRR4055873
    1	SRR3541766
+   1	SRR4055872
    1	SRR3541765
+   1	SRR4055871
    1	SRR3541764
+   1	SRR4055869
+   1	SRR4055870
    1	SRR3541763
+   1	SRR4055868
    1	SRR3541762
+   1	SRR4055867
    1	SRR3541761
    1	SRR2963920,SRR2963921
    1	SRR2964020,SRR2964021
+   1	SRR4055866
    1	SRR3541759
    1	SRR3541760
+   1	SRR4055865
    1	SRR3541758
-   1	SRR2963042,SRR2963043
-   1	SRR3541757
-   1	SRR3541756
-   1	SRR3541755
-   1	SRR3541754
-   1	SRR3541753
-   1	SRR3541752
-   1	SRR3541751
-   1	SRR3650643,SRR3650644
-   7886	(in 7886 others)
+   15251	(in 15251 others)
 assay.submitted_file_names has 3802 uses with 3802 vals
    1	HP1504101T2D_P24.fastq.gz
    1	HP1526901T2D_K16.fastq.gz
@@ -187,9 +191,9 @@ assay.submitted_file_names has 3802 uses with 3802 vals
    1	HP1525301T2D_F3.fastq.gz
    3782	(in 3782 others)
 cell.cell_cycle has 3 uses with 3 vals
-   1	G2/M
-   1	G1
-   1	S
+   1	G2/M phase
+   1	G1 phase
+   1	S phase
 cell.characteristics_cd10 has 2414 uses with 1052 vals
    14	81
    14	74
@@ -542,7 +546,7 @@ cell.characteristics_ssc_h has 2414 uses with 2327 vals
    2	64040
    2	63940
    2369	(in 2307 others)
-cell.id has 11210 uses with 11210 vals
+cell.id has 11280 uses with 11280 vals
    1	Tcell_person1_P1299_1097
    1	Tcell_person1_P1299_1107
    1	Tcell_person1_P1299_1104
@@ -563,32 +567,54 @@ cell.id has 11210 uses with 11210 vals
    1	HP1525301T2D_P14
    1	G2M_cell9
    1	HP1525301T2D_P13
-   11190	(in 11190 others)
-cell.type has 3879 uses with 37 vals
-   1836	alpha cell
-   777	beta cell
-   390	duct cell
+   11260	(in 11260 others)
+cell.ontology has 4106 uses with 28 vals
+   1837	CL_0000171
+   778	CL_0000168
+   391	CL_0002079
+   197	XAO_0005168
+   190	CL_0002064
+   176	CL_0000173
+   132	CL_0000540
+   97	CL_0002275
+   62	CL_0000127
+   54	CL_0002410
+   41	CL_0008024
+   38	CL_0000128
+   36	CL_0000115
+   18	CL_0002453
+   16	CL_0000129
+   9	CL_0000057
+   7	XAO_0005167
+   7	CL_0000097
+   4	CL_0008019
+   3	CL_0000360
+   13	(in 8 others)
+cell.type has 4275 uses with 41 vals
+   1837	pancreatic A cell
+   778	insulin secreting cell
+   391	pancreatic ductal cell
    197	gamma cell
-   189	acinar cell
-   175	delta cell
-   93	PP cell
-   54	PSC cell
-   41	unclassified endocrine cell
-   39	co-expression cell
+   190	pancreatic acinar cell
+   176	pancreatic D cell
+   132	neuron
+   97	pancreatic PP cell
+   77	fetal_quiescent
+   62	astrocyte
+   54	pancreatic stellate cell
+   46	hybrid
+   41	pancreatic endocrine cell
+   38	oligodendrocyte
+   25	fetal_replicating
+   20	endothelial
+   18	oligodendrocyte precursor cell
+   16	microglia
    16	endothelial cell
    9	fibroblast
-   7	mast cell
-   7	epsilon cell
-   5	MHC class II cell
-   4	mesenchyme cell
-   4	dropped cell
-   3	2-cell blastomere
-   3	4-cell blastomere
-   3	8-cell blastomere
-   27	(in 17 others)
-cell.well_quality has 3514 uses with 4 vals
-   2209	OK
-   1177	low quality cell
+   55	(in 21 others)
+cell.well_quality has 3551 uses with 4 vals
+   2241	OK
+   1182	low quality cell
    96	"control, empty well"
    32	"control, 2-cell well"
 project.array_express.accession has 4 uses with 4 vals
@@ -609,11 +635,12 @@ project.array_express.term_source_name has 3 uses with 3 vals
    1	EFO,ArrayExpress
    1	EFO
    1	NCBI Taxonomy,EFO
-project.contact.address has 16 uses with 15 vals
+project.contact.address has 20 uses with 19 vals
    2	"7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA"
    1	"12-155 Smilow Ctr Trans Research; Philadelphia, Pennsylvania 19104-5160 USA"
    1	"Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK"
    1	"Deutscher Pl. 6; Leipzig,  04103 Germany"
+   1	"CCK, Z4; Stockholm,  S-171 76 Sweden"
    1	"415 Main St.; Cambridge, MA 02142 USA"
    1	"Meyerhofstr. 1; Heidelberg,  69117 Germany"
    1	"7 Divinity Ave; Cambridge, MA 02138 USA"
@@ -621,44 +648,57 @@ project.contact.address has 16 uses with 15 vals
    1	"Center for Life Science, room 7-717; Boston, MA 02115 USA"
    1	"777 Old Saw Mill River Road; Tarrytown, NY 10598 USA"
    1	"Nobels väg 3, 171 77, Stockholm, Sweden"
+   1	"Box 596; Uppsala,  75124 Sweden"
    1	"1230 York Ave.; New York, NY 10065 USA"
+   1	"Lazarettgasse 14; Vienna,  1090 Austria"
    1	"Nobels väg 3; Stockholm,  17177 Swedn"
    1	"Gonda BLDG Rm. 6554, P.O.Box 957088; Los Angeles, CA 90095-7088 USA"
    1	"5 Yiheyuan Road; Beijing, 100871 China"
-project.contact.city has 17 uses with 12 vals
+   1	"Scheeles väg 1; Stockholm,  171 65 Sweden"
+project.contact.city has 21 uses with 14 vals
+   4	Stockholm
    2	Beijing
    2	Cambridge
    2	Pleasanton
    2	Hinxton
-   2	Stockholm
    1	Los Angeles
    1	Leipzig
    1	Philadelphia
    1	New York
+   1	Vienna
    1	Boston
    1	Heidelberg
    1	Tarrytown
-project.contact.country has 17 uses with 5 vals
+   1	Uppsala
+project.contact.country has 21 uses with 6 vals
    9	USA
-   2	Sweden
+   5	Sweden
    2	Germany
    2	UK
    2	China
-project.contact.department has 6 uses with 6 vals
+   1	Austria
+project.contact.department has 9 uses with 9 vals
    1	Human Genetics
    1	Evolutionary Genetics
    1	School of Medicine
    1	"Immunology, Virology and Microbiology"
+   1	Dep of Oncology-Pathology
    1	Genome Biology
+   1	Cell and Molecular Biology
    1	Medicine
-project.contact.email has 17 uses with 16 vals
+   1	Medical Biochemistry and Biophysics
+project.contact.email has 21 uses with 20 vals
    2	info@10xgenomics.com
    1	yangmingyucherry@gmail.com
    1	lars.velten@embl.de
    1	yurong.xin@regeneron.com
    1	jncampbe@caregroup.org
+   1	sten.linnarsson@ki.se
    1	adrian.veres@gmail.com
+   1	asa.bjorklund@scilifelab.se
    1	daniel.ramskold@ki.se
+   1	cbock@cemm.oeaw.ac.at
+   1	martin.enge@ki.se
    1	dongji5211314@126.com
    1	toliveira@rockefeller.edu
    1	kedarnat@ebi.ac.uk
@@ -668,40 +708,48 @@ project.contact.email has 17 uses with 16 vals
    1	jschug@upenn.edu
    1	kevinhuang@ucla.edu
    1	karthik@broadinstitute.org
-project.contact.institute has 17 uses with 15 vals
+project.contact.institute has 21 uses with 18 vals
    2	Peking University
+   2	Karolinska Institutet
    2	10X Genomics Inc.
    1	EMBL
    1	Wellcome Trust Sanger Institute
+   1	CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences
    1	Max Planck Institute for Evolutionary Anthropology
+   1	Karolinska Institute
    1	UCLA
    1	Department of Cell and Molecular Biology (CMB), Karolinska Institutet, Stockholm, Sweden.
    1	Harvard University
    1	"Regeneron Pharmaceuticals, Inc."
    1	EMBL-EBI, Wellcome Trust Genome Campus, Cambridge
-   1	Karolinska Institutet
+   1	Uppsala University
    1	The Rockefeller University
    1	Beth Israel Deaconess Medical Center
    1	Broad Institute
    1	University of Pennsylvania
-project.contact.laboratory has 6 uses with 6 vals
+project.contact.laboratory has 7 uses with 7 vals
+   1	Molecular Neurobiology
    1	Guoping Fan
    1	Steinmetz Lab
    1	IDOM
    1	Lowell Lab
    1	Laboratory of Molecular Immunology
    1	Rickard Sandberg's group (rickard.sandberg@ki.se)  (2008-2014); Rheumatology unit (2014-)
-project.contact.name has 17 uses with 16 vals
+project.contact.name has 21 uses with 20 vals
    2	10X Genomics Inc.
+   1	"Sten,,Linnarsson"
    1	"Jonathan,,Schug"
+   1	"Christoph,,Bock"
    1	"Daniel,,Ramsköld"
    1	"Ji,,Dong"
    1	"Karthik,,Shekhar"
    1	"Mingyu,,Yang"
+   1	"Asa,Kristina,Bjorklund"
    1	"Kevin,,Huang"
    1	"Gray,,Camp"
    1	"Yurong,,Xin"
    1	"John,N,Campbell"
+   1	"Martin,,Enge"
    1	"Lars,,Velten"
    1	",,The Wellcome Trust Sanger Institute"
    1	"Kedar,N,Natarajan"
@@ -715,43 +763,54 @@ project.contact.phone has 7 uses with 6 vals
    1	215 898 0773
    1	310-267-0438
    1	0046 8 5248 3986
-project.contact.postal_code has 12 uses with 11 vals
+project.contact.postal_code has 16 uses with 15 vals
    2	100871
    1	19104-5160
+   1	171 65
    1	02142
    1	02138
    1	02115
+   1	1090
    1	69117
+   1	75124
    1	17177
    1	90095-7088
    1	04103
    1	10598
    1	10065
+   1	S-171 76
 project.contact.state has 9 uses with 4 vals
    3	MA
    3	CA
    2	NY
    1	PA
-project.contact.street_address has 14 uses with 13 vals
+project.contact.street_address has 18 uses with 17 vals
    2	7068 Koll Center Parkway Suite 401
    1	Nobels väg 3
    1	Meyerhofstr. 1
    1	12-155 Smilow Ctr Trans Research
+   1	"CCK, Z4"
    1	415 Main St.
+   1	Box 596
    1	1230 York Ave
    1	"Gonda BLDG Rm. 6554, P.O.Box 957088"
    1	7 Divinity Ave
    1	777 Old Saw Mill River Road
+   1	Lazarettgasse 14
    1	"Center for Life Science, room 7-717"
    1	5 Yiheyuan Road
    1	Yiheyuan 5#
+   1	Scheeles väg 1
    1	Deutscher Pl. 6
-project.contributor has 15 uses with 15 vals
+project.contributor has 19 uses with 19 vals
    1	"Fuchou,,Tang","Jie,,Qiao","Ruiqiang,,Li"
+   1	"Gioele,,LaManno","Daniel,,Gyllborg","Ernest,,Arenas","Sten,,Linnarsson"
    1	"Gray,,Camp","Barbara,,Treutlein"
    1	"Karthik,,Shekhar"
    1	"Linus,T,Tsai","John,N,Campbell"
+   1	"Asa,K,Bjorklund","Simone,,Picelli","Marianne,,Forkel","Jenny,,Mjosberg","Rickard,,Sandberg"
    1	"Yue,J,Wang","Jonathan,,Schug","Maria,L,Golson","Kyoung-Jae,,Won","Chengyang,,Liu","Ali,,Naji","Dana,,Avrahami","Klaus,H,Kaestner"
+   1	"Spyros,,Darmanis","Martin,,Enge","Stephen,R,Quake","Steven,A,Sloan","Ben,A,Barres","Ye,,Zhang","Christine,,Caneda","Melanie,G,Hayden Gephart","Lawrence,M,Shuer"
    1	"Björn,,Reinius","Jeff,,Mold","Daniel,,Ramsköld","Rickard,,Sandberg"
    1	"Kevin,,Huang","Xue,,Zhigang","Guoping,,Fan"
    1	"Thiago,,Oliveira","Rahul,,Satija"
@@ -762,6 +821,7 @@ project.contributor has 15 uses with 15 vals
    1	"Yurong,,Xin","Jesper,,Gromada"
    1	",,The Wellcome Trust Sanger Institute"
    1	"Kedar,N,Natarajan"
+   1	"Jin,,Li","Johanna,,Klughammer","Matthias,,Farlik","Thomas,,Penz","Andreas,,Spittler","Charlotte,,Barbieux","Ekaterine,,Berishvili","Christoph,,Bock","Stefan,,Kubicek"
 project.ddjb_trace_project has 3 uses with 3 vals
    1	ERP009255
    1	ERP006670
@@ -770,28 +830,38 @@ project.experimental_factor_name has 3 uses with 3 vals
    1	cell type,disease
    1	cell cycle stage
    1	individual
-project.geo_doc_id has 4 uses with 4 vals
+project.geo_doc_id has 9 uses with 9 vals
    1	200084133
    1	200089232
+   1	200083139
+   1	200076381
+   1	200070580
    1	200044183
+   1	200081608
+   1	200067835
    1	200036552
 project.geo_parent_series has 1 uses with 1 vals
    1	GSE81905
-project.geo_series has 12 uses with 12 vals
+project.geo_series has 16 uses with 16 vals
    1	GSE86146
+   1	GSE73727
    1	GSE90806
    1	GSE84133
    1	GSE89232
    1	GSE83139
+   1	GSE76381
+   1	GSE70580
    1	GSE75659
    1	GSE75478
    1	GSE81904
    1	GSE44183
    1	GSE75140
    1	GSE81608
+   1	GSE67835
    1	GSE36552
-project.id has 17 uses with 17 vals
+project.id has 21 uses with 21 vals
    1	GSE86146
+   1	GSE73727
    1	E-MTAB-2805
    1	10x_pbmc8k
    1	10x_t_4k
@@ -800,6 +870,8 @@ project.id has 17 uses with 17 vals
    1	GSE84133
    1	GSE89232
    1	GSE83139
+   1	GSE76381
+   1	GSE70580
    1	GSE75659
    1	GSE75478
    1	GSE81904
@@ -807,65 +879,80 @@ project.id has 17 uses with 17 vals
    1	E-MTAB-5061
    1	GSE75140
    1	GSE81608
-   1	GSE36552
-project.last_update_date has 12 uses with 7 vals
+   1	GSE67835
+   1	(in 1 others)
+project.last_update_date has 16 uses with 8 vals
    4	2017-06-02
+   3	2017-06-19
+   2	2017-06-14
    2	2017-06-13
    2	2017-05-26
-   1	2017-06-14
    1	2017-06-12
    1	2017-06-05
    1	2017-05-22
 project.mage_tab_version has 3 uses with 1 vals
    3	1.1
-project.ncbi_bioproject has 12 uses with 12 vals
+project.ncbi_bioproject has 16 uses with 16 vals
    1	PRJNA323370
    1	PRJNA304502
    1	PRJNA153427
    1	PRJNA304408
    1	PRJNA328774
    1	PRJNA189204
+   1	PRJNA281204
    1	PRJNA322072
    1	PRJNA340388
+   1	PRJNA297774
+   1	PRJNA307121
    1	PRJNA350790
    1	PRJNA355987
    1	PRJNA325005
+   1	PRJNA289086
    1	PRJNA304993
-project.overall_design has 14 uses with 14 vals
+project.overall_design has 18 uses with 18 vals
+   1	Sequencing libraries were prepared from FACS sorted individual ILCs with the Smart-Seq2 protocol  (Picelli et al. Nature Methods 2013)
    1	single-cell RNA-seq of human and mouse blastomeres
    1	"Cells were collected from in vitro clonal expansions, or from tissue or blood, to study the effect of relatedness and cell size on allele-specific expression"
    1	"RNA seq libraries from 957 single cells were prepared using the SMART-Seq 2 protocol (Picelli et al., 2013)",341 Blood pre-cDC (Blood pre-cDC_S* data columns in the expMatrix.txt),452 CB pre-cDC (CB pre-cDC_S* data columns in the expMatrix.txt),87 CD141+ cDC (blood_bdca3_S* data columns in the expMatrix.txt),77 CD1c+ cDC (blood_bdca1_S* data columns in the expMatrix.txt)
    1	"Cells from three adult controls (56, 74, 92), one donor with type 1 diabetes (91), two donors with type 2 diabetes (75, 143), and two child donors (40, 72) were sequenced. Numbers in parathesis indicates number of cells sequenced."
+   1	Examination of cell types in healthy human brain samples.
    1	"Here we performed single cell RNA-seq analysis for 2,167 individual PGCs as well as their gonadal niche cells, covering the developmental stages from 4 to 26 weeks after gestation in both female and male human embryos"
    1	"734 single-cell transcriptomes from human fetal neocortex or human cerebral organoids from multiple time points were analyzed in this study. All single cell samples were processed on the microfluidic Fluidigm C1 platform and contain 92 external RNA spike-ins. Fetal neocortex data were generated at 12 weeks post conception (chip 1: 81 cells; chip 2: 83 cells) and 13 weeks post conception (62 cells). Cerebral organoid data were generated from dissociated whole organoids derived from induced pluripotent stem cell line 409B2 (iPSC 409B2) at 33 days (40 cells), 35 days (68 cells), 37 days (71 cells), 41 days (74 cells), and 65 days (80 cells) after the start of embryoid body culture. Cerebral organoid data were also generated from microdissected cortical-like regions from H9 embryonic stem cell derived organoids at 53 days (region 1, 48 cells; region 2, 48 cells) or from iPSC 409B2 organoids at 58 days (region 3, 43 cells; region 4, 36 cells)."
    1	cell type comparison design,in_vitro_design,co-expression_design
    1	"For transcriptomics, human bone marrow was stained with antibodies against Lineage markers (CD4, CD8, CD11b, CD14, CD19, CD20, CD56 and CD235a), CD7, CD10, CD34, CD38, CD45RA, CD49f, CD90 and CD135. For individual 1, 8 96-well plates of Lin-cd34+cd38+ and 6 96 well plates of Lin-cd34+cd38- cells were sorted into lysis buffer and subjected to a modified smart-seq2 protocol. For individual 2, 4 96-well plates of Lin-cd34+cd38+, 7 plates of Lin-cd34+cd38- and 1 plate of Lin-cd34+cd38-cd45RA-cd90+ were sorted into lysis buffer and subjected to QUARTZ Seq (Sasagawa et al 2013). For single-cell culture, human bone marrow from a third individual was stained with antibodies against CD2, CD34, CD38, CD45RA, CD71, CD90, CD130, CD135, FCER1A, KEL and a Lineage cocktail as above, plus CD10. Lineage output was then determined by automated FACS following prolonged ex-vivo cultivation. The files transcriptomics_raw_filtered_I1.csv and transcriptomics_raw_filtered_I2.csv contain the raw read counts for the cells that passed quality control. transcriptomics_normalized_filtered_I1.csv and transcriptomics_raw_filtered_I2.csv contain the readcounts normalized by posterior odds ratio (POR) as described in our manuscript. The files transcriptomics_facs_indeces_filtered_I1.csv and transcriptomics_facs_indeces_filtered_I2.csv contain the FACS surface marker expression for the cells that passed filter. Additionally, FACS surface marker expression is given as a characteristic of each sample. The file culture_data.csv contains the FACS surface marker expression, quantification of cell types in the mature colony, and scoring of colony type of the cells that were subjected to ex-vivo culture."
    1	Single-cell RNA-seq was performed on Cre-dependent AAV-GFP+ cells that were manually isolated from dissociated Arc-ME of two adult male RIP-Cre mice
    1	Single-cell RNA sequencing of human non-diabetic and type 2 diabetic pancreatic islet cells
+   1	Transcriptional dissection of human pancreatic islets of one donor using single-cell RNA-seq
    1	cell type comparison design,disease state design
    1	We get transcriptome of 124 individual cells from human pre-implantation embryos and human embryonic stem cells by applying single cell RNA-seq technique we recently developed[1][2][3][4]. We did in-depth bioinformatic analysis to these data and found very dynamic expression of protein-coding genes.,"[1] Tang, F. et al. (2010a) Tracing the Derivation of Embryonic Stem Cells from the Inner Cell Mass by Single-Cell RNA-Seq Analysis. Cell Stem Cell 6, 468-478.","[2] Tang, F. et al. (2010b) RNA-Seq analysis to capture the transcriptome landscape of a single cell. Nat Protocols 5, 516-535.","[3] Tang, F. et al. (2009) mRNA-Seq whole-transcriptome analysis of a single cell. Nat Meth 6, 377-382.","[4] Tang, F. et al. (2011) Development and applications of single-cell transcriptome analysis. Nat Meth 8, S6-S11."
+   1	"Single cells according to Samples list consisting of: Human embryo ventral midbrain cells between 6 and 11 weeks of gestation, mouse ventral midbrain cells at six developmental stages between E11.5 to E18.5, Th+ neurons at P19-P27, and putative dopaminergic neurons at P28-P56 FACS-sorted from Slc6a3-Cre/tdTomato mice. Stem cells (iPSCs and ESCs) preparation at different stages of differentiation towards Th+ neurons."
    1	Single-cell RNA sequencing of pancreatic islets from 4 human donors and 2 mice strains.
    1	Drop-Seq was performed on two different batches. Bipolar1-Bipolar4 are replicates from batch 1 and Bipolar5-6 are replicates from Batch 2
 project.overall_design_accession has 1 uses with 1 vals
    1	EFO_0001745,EFO_0001756
-project.pmid has 12 uses with 12 vals
+project.pmid has 16 uses with 16 vals
    1	27667665
    1	27667365
    1	23934149
    1	23892778
+   1	26878113
    1	28319093
+   1	26691212,27916275
    1	26644564
+   1	26060301
    1	28166221
    1	28457750
    1	27864467
    1	27364731
+   1	27716510
    1	27668657
    1	27565351
 project.publication_author_list has 1 uses with 1 vals
    1	Natarajan, K
-project.release_status has 15 uses with 14 vals
+project.release_status has 19 uses with 18 vals
    2	2016-09-26
    1	2016-09-22
+   1	2016-10-06
    1	2014-12-29
    1	2016-08-31
    1	2016-08-25
@@ -873,58 +960,74 @@ project.release_status has 15 uses with 14 vals
    1	2016-07-05
    1	2015-12-07
    1	2013-08-10
+   1	2016-01-27
+   1	2016-01-05
+   1	2015-05-20
    1	2017-02-06
    1	2013-07-29
    1	2015-04-28
    1	2017-01-19
    1	2016-11-15
-project.sra_project has 12 uses with 12 vals
+project.sra_project has 16 uses with 16 vals
    1	SRP083134
    1	SRP076307
+   1	SRP057196
    1	SRP075719
    1	SRP094469
    1	SRP075377
    1	SRP018525
+   1	SRP067844
    1	SRP011546
    1	SRP066963
    1	SRP066834
    1	SRP066781
    1	SRP092166
    1	SRP078321
-project.submission_date has 12 uses with 12 vals
+   1	SRP060416
+   1	SRP064464
+project.submission_date has 16 uses with 16 vals
    1	2016-10-27
    1	2012-03-16
+   1	2015-07-07
    1	2016-08-28
    1	2016-07-07
+   1	2015-12-28
    1	2015-12-03
    1	2013-02-08
    1	2016-06-08
    1	2015-11-30
    1	2015-11-18
+   1	2015-04-14
    1	2016-12-02
    1	2016-05-25
    1	2016-05-18
-project.summary has 17 uses with 17 vals
+   1	2015-10-05
+project.summary has 21 uses with 21 vals
    1	"We used single-cell RNA-sequencing to generate transcriptional profiles of endocrine and exocrine cell types of the human pancreas. Pancreatic tissue and islets were obtained from six healthy and four T2D cadaveric donors. Islets were cultured and dissociated into single-cell suspension. Viable individual cells were distributed via fluorescence-activated cell sorted (FACS) into 384-well plates containing lysis buffer. Single-cell cDNA libraries were generated using the Smart-seq2 protocol. Gene expression was quantified as reads per kilobase transcript and per million mapped reads (RPKM) using rpkmforgenes. Bioinformatics analysis was used to classify cells into cell types without knowledge of cell types or prior purification of cell populations. We revealed subpopulations in endocrine and exocrine cell types, identified genes with interesting correlations to body mass index (BMI) in specific cell types and found transcriptional alterations in T2D.  Complementary whole-islet RNA-seq data have also been deposited at ArrayExpress under accession number E-MTAB-5060 (http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-5060)."
    1	Drop-seq and single cell sequencing of mouse arcuate nucleus and median eminence
+   1	"In order to get a better molecular understanding of human midbrain development, this study defines cell types of the ventral midbrain in both human and mouse as well as stem cell-derived dopaminergic neuron preparations, and reveals the temporal dynamics of key lineages across development and the adult."
    1	"While the function of the mammalian pancreas hinges on complex interactions of distinct cell types, gene expression profiles have primarily been described with bulk mixtures of cells. Here, we invoked inDrop, a droplet-based single-cell RNA-Seq method, to determine the transcriptomes of over 12,000 individual pancreatic cells from four human donors and two strains of mice. Cells could be divided into 15 clusters that matched previously characterized cell types: all endocrine cell types, including rare ghrelin-expressing epsilon-cells, exocrine cell types, vascular cells, Schwann cells, quiescent and activated pancreatic stellate cells, and four types of immune cells. We detected subpopulations of ductal cells with distinct expression profiles, and validated their existence with immuno-histochemistry stains. Moreover, among human beta-cells, we detected heterogeneity in the regulation of genes relating to functional maturation and levels of ER-stress. Finally, we deconvolve bulk gene expression samples using single-cell RNA-Seq to detect disease associated differential expression. Thus, our cross-species dataset provides a resource for the discovery of novel cell type-specific and cell type-restricted transcription factors, signaling receptors, and medically-relevant genes."
    1	"Pancreatic islet cells are critical for maintaining normal blood glucose levels and their malfunction underlies diabetes development and progression. We used single-cell RNA sequencing to determine the transcriptomes of 1,492 human pancreatic α-, β-, δ- and PP cells from non-diabetic and type 2 diabetes organ donors. We identified cell type specific genes and pathways as well as 245 genes with disturbed expression in type 2 diabetes. Importantly, 92% of the genes have not previously been associated with islet cell function or growth. Comparison of gene profiles in mouse and human α- and β-cells revealed species-specific expression. All data are available for online browsing and download and will hopefully serve as a resource for the islet research community."
    1	"Human fetal germ cells (FGCs) are precursors to sperm and eggs and are crucial for maintenance of the species. However, the developmental trajectories and heterogeneity of human FGCs remain largely unknown. Here, we performed single-cell RNA-seq analysis of over 2000 FGCs and their gonadal niche cells in female and male human embryos spanning several developmental stages. We found that the female FGCs undergo four distinct sequential phases characterized by mitosis, retinoic acid signaling, meiotic prophase, and oogenesis. Male FGCs develop through stages of migration, mitosis and cell cycle arrest. Individual embryos of both sexes simultaneously contain several subpopulations, highlighting the asynchronous and heterogeneous nature of FGC development. Moreover, we observed reciprocal signaling interactions between FGCs and their gonadal niche cells, including activation of BMP and Notch signaling pathways. Our work provides key insights into crucial features of human FGCs during their highly ordered mitotic, meiotic, and gametogenetic processes in vivo."
    1	"Peripheral blood mononuclear cells (PBMCs) from a healthy donor (same donor as pbmc4k). PBMCs are primary cells with relatively small amounts of RNA (~1pg RNA/cell). Used Chromium v2 chemistry and Cell Ranger 1.3.0 software.  8403 cells were detected."
    1	"To characterize early human hematopoiesis on a single-cell level we developed an approach termed index-omics, which combines flow-cytometric, single-cell transcriptomic and single-cell lineage fate data. Healthy human bone marrow was labeled with a panel of up to 11 FACS surface markers commonly used to identify human hematopoietic stem and progenitor cells (HSPCs). Lin-CD34+38+ progenitors and Lin-CD34+CD38- stem cell enriched HSPCs were individually sorted, their surface marker fluorescence intensities recorded, and subjected to single-cell RNAseq or single-cell ex vivo cultures."
    1	"In this study, we aimed to study the gene expression patterns at single cell level across the different cell cycle stages in mESC. We performed single cell RNA-Seq experiment on mESC that were stained with Hoechst 33342 and Flow cytometry sorted for G1, S and G2M stages of cell cycle. Single cell RNA-Seq was performed using Fluidigm C1 system and libraries were generated using Nextera XT (Illumina) kit."
+   1	"We used single cell RNA sequencing on 466 cells to capture the cellular complexity of the adult and fetal human brain at a whole transcriptome level. Healthy adult temporal lobe tissue was obtained from epileptic patients during temporal lobectomy for medically refractory seizures. We were able to classify individual cells into all of the major neuronal, glial, and vascular cell types in the brain."
    1	"Pan T cells isolated from mononuclear cells of a healthy donor (same donor as t_3k). T cells are primary cells with relatively small amounts of RNA (~1pg RNA/cell).   Used Chromium v2 chemistry and Cell Ranger 1.3.0 software. 4,518 cells detected. Sequenced on Illumina Hiseq4000 with approximately 73,000 reads per cell"
    1	"Mammalian preimplantation development is a complex process involving dramatic changes in the transcriptional architecture. Through single-cell RNA-sequencing (RNA-seq), we report here a comprehensive analysis of transcriptome dynamics from oocyte to morula in both human and mouse embryos. Based on single nucleotide variants (SNVs) in blastomere mRNAs and paternal-specific SNPs, we identify novel stage-specific monoallelic expression patterns for a significant portion of polymorphic gene transcripts (25-53%). By weighted gene co-expression network analysis (WGCNA), we find that each developmental stage can be concisely delineated by a small number of functional modules of co-expressed genes. This result indicates a sequential order of transcriptional changes in pathways of cell cycle, gene regulation, translation, and metabolism in a step-wise fashion from cleavage to morula.  Cross-species comparisons reveal that the majority of human stage-specific modules (7 out of 9) are remarkably preserved, only to diverge in developmental specificity and timing in mice. We further identify conserved key members (or hub genes) of the human and mouse networks. These genes represent novel candidates that are likely key players in driving mammalian preimplantation development. Collectively, we demonstrate that mammalian preimplantation development is orchestrated by evolutionarily conserved genetic programs that diverge in developmental timing.  Our results provide a valuable resource to dissect gene regulatory mechanism underlying progressive development of early mammalian embryos."
+   1	"We report the single-cell RNA-seq based identification of 6 known human islet cell types (alpha cells, beta cells, delta cells, pp cells, acinar cells and duct cells) based on the expression of known marker genes. We further assess cell type specific gene expression and suggest novel marker genes for several cell types."
    1	"Find the casual relationship between gene expression network and cellular phenotype at single cell resolution. We collected donated human pre-implatation embryos, and the embryonic stem cells derived from them, isolate individual cells, prepared single cell cDNAs, and sequenced them by HiSeq2000. Then we analyzed the expression of known RefSeq genes."
    1	"From the arcuate nucleus of mice, we have dissociated neurons that express Proopiomelanocortin(POMC) and captured them on the Fluidigm C1 platform. These neurons play important roles in the regulation of appetite and sexual behavior. Here we propose to sequence RNA from 96 single POMC-expressing neurons to understand the variance in their transcriptomes. This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/"
    1	"Here, we use a microfluidics-based approach to prepare single-cell RNA-Seq libraries from 164 primary human conventional dendritic cells (cDCs) as well as cord blood (452) and blood (341) pre-cDCs. We examined heterogeneity between individual cells to document potential subpopulations within human cDCs and pre-cDCs."
+   1	Single cell RNA-sequencing of human tonsil innate lymphoid cells (ILCs) from three independent tonsil donors.
    1	"Vsx2-GFP mouse retinas were dissected, FACS sorted for GFP+ cells and single-cell mRNAseq libraries generated with Drop-Seq"
    1	"We successfully sequenced and annotated more than 400 cells from child, adult control, type 1 diabetes and type 2 diabetes donors. We detect donor-type specific transcript variation. We also report that cells from child donors have less defined gene signature. Cells from type 2 diabetes donors resemble juvenile cells in gene expression."
    1	"Cellular heterogeneity can emerge from the expression of only one parental allele, however it has remained unknown to what degree patterns of random monoallelic expression of autosomal genes (aRME) are mitotically inherited (clonal) or stochastic (dynamic) in somatic cells. Here, we resolved this by applying allele-sensitive single-cell RNA-seq on primary mouse fibroblasts and in vivo human T-cells to simultaneously investigate clonal and dynamic aRME. Dynamic aRME affected a considerable portion of the transcriptome, with levels dependent on the cell’s transcriptional activity, but clonal aRME was surprisingly scarce (<1% of genes) and affected mainly lowly expressed genes. Consequently, the overwhelming portion of aRME occurs transiently and is scattered throughout somatic populations rather than, as previously hypothesized, confined to spatially restricted patches of clonally related cells."
-   1	"Cerebral organoids – three-dimensional cultures of human cerebral tissue derived from pluripotent stem cells – have emerged as models of human cortical development. However, the extent to which in vitro organoid systems recapitulate neural progenitor cell proliferation and neuronal differentiation programs observed in vivo remains unclear. Here we use single-cell RNA sequencing (scRNA-seq) to dissect and compare cell composition and progenitor-to-neuron lineage relationships in human cerebral organoids and fetal neocortex. Covariation network analysis using the fetal neocortex data reveals known and novel interactions among genes central to neural progenitor proliferation and neuronal differentiation. In the organoid, we detect diverse progenitors and differentiated cell types of neuronal and mesenchymal lineages, and identify cells that derived from regions resembling the fetal neocortex. We find that these organoid cortical cells use gene expression programs remarkably similar to those of the fetal tissue in order to organize into cerebral cortex-like regions. Our comparison of in vivo and in vitro cortical single cell transcriptomes illuminates the genetic features underlying human cortical development that can be studied in organoid cultures."
-project.supplementary_files has 14 uses with 14 vals
+   1	(in 1 others)
+project.supplementary_files has 18 uses with 18 vals
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP078/SRP078321,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84133/suppl/GSE84133_RAW.tar
    1	ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE89nnn/GSE89232/suppl/GSE89232_expMatrix.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP092/SRP092166
+   1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP064/SRP064464,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE73nnn/GSE73727/suppl/GSE73727_RAW.tar
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP018/SRP018525,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE44183/GSE44183_RAW.tar,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE44183/GSE44183_human_expression_mat.txt.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE44183/GSE44183_mouse_expression_mat.txt.gz
    1	ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75140/suppl/GSE75140_hOrg.fetal.master.data.frame.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP066/SRP066834
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP066/SRP066963,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75659/suppl/GSE75659_RAW.tar
@@ -934,10 +1037,13 @@ project.supplementary_files has 14 uses with 14 vals
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP066/SRP066781,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_RAW.tar,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_culture_data.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_facs_indeces_filtered_I1.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_facs_indeces_filtered_I2.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_normalized_filtered_I1.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_normalized_filtered_I2.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_raw_filtered_I1.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_raw_filtered_I2.csv.gz
    1	ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81608/suppl/GSE81608_human_islets_rpkm.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP075/SRP075377
    1	ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90806/suppl/GSE90806_RIP-Cre_ARC_GeneCounts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP094/SRP094469
+   1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP060/SRP060416,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE70nnn/GSE70580/suppl/GSE70580_RAW.tar
+   1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP067/SRP067844,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE76nnn/GSE76381/suppl/GSE76381_ESMoleculeCounts.cef.txt.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE76nnn/GSE76381/suppl/GSE76381_EmbryoMoleculeCounts.cef.txt.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE76nnn/GSE76381/suppl/GSE76381_MouseAdultDAMoleculeCounts.cef.txt.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE76nnn/GSE76381/suppl/GSE76381_MouseEmbryoMoleculeCounts.cef.txt.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE76nnn/GSE76381/suppl/GSE76381_iPSMoleculeCounts.cef.txt.gz
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP083/SRP083134,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE86nnn/GSE86146/suppl/GSE86146_RAW.tar
    1	ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE83nnn/GSE83139/suppl/GSE83139_tbx-v-f-norm-ntv-cpms.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP076/SRP076307
+   1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP057/SRP057196,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE67nnn/GSE67835/suppl/GSE67835_RAW.tar
    1	ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE81904/GSE81904_BipolarUMICounts_Cell2016.txt.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE81904/GSE81904_RAW.tar,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE81904/GSE81904_bipolar_data_Cell2016.Rdata.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE81904/GSE81904_class.R.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP075/SRP075719
-project.title has 17 uses with 17 vals
+project.title has 21 uses with 21 vals
    1	Single-Cell RNA-Seq Analysis Maps Development of Human Germline Cells and Gonadal- Niche Interactions
    1	RNAseq of mouse POMC neurons
    1	Dissecting the clonal nature of allelic expression in somatic cells by single-cell RNA-seq
@@ -945,34 +1051,42 @@ project.title has 17 uses with 17 vals
    1	RNA Sequencing of Single Human Islet Cells Reveals Type 2 Diabetes Genes
    1	Gene expression pattern of single mES cells during cell cycle stages
    1	Single-cell RNA-seq analysis of human pancreas from healthy individuals and type 2 diabetes patients
+   1	A survey of human brain transcriptome diversity at the single cell level
+   1	Single cell RNA-sequencing of human tonsil innate lymphoid cells (ILCs)
    1	Tracing pluripotency of human early embryos and embryonic stem cells by single cell RNA-seq
    1	Genetic Programs in Human and Mouse Early Embryos Revealed by Single-Cell RNA-Sequencing
    1	"Drop-Seq analysis of  P17 FACS sorted retinal cells from the Tg(Chx10-EGFP/cre,-ALPP)2Clc or Vsx2-GFP transgenic line"
+   1	Single-cell transcriptomics reveals unique features of human pancreatic islet cell subtypes
    1	Single-cell RNA-seq reveals heterogeneity within human pre-cDCs
    1	A single-cell transcriptomic map of the human and mouse pancreas reveals inter- and intra-cell population structure
    1	Human cerebral organoids recapitulate gene expression programs of fetal neocortex development.
    1	Pan T Cells isolated from mononuclear cells of a healthy donor
    1	"Single cell RNA-seq of human pancreatic endocrine cells from Juvenile, adult control and type 2 diabetic donors."
    1	A Molecular Census of Arcuate Hypothalamus and Median Eminence Cell Types
-   1	Peripheral blood mononuclear cells (PBMCs) from a healthy donor
-project.uuid has 17 uses with 17 vals
+   1	"Single Cell RNA-seq Study of Midbrain and Dopaminergic Neuron Development in Mouse, Human, and Stem Cells"
+   1	(in 1 others)
+project.uuid has 21 uses with 21 vals
    1	1af5a9b9-4528-494d-9bf9-ee6138aa51c5
+   1	9a7df456-806d-4386-b630-d8382ad8d7ad
    1	041ad913-666a-400f-9baf-b1b4cda59c16
    1	d879cec8-3880-4406-bc56-087a66db14e6
    1	3a0a8f77-b16d-4483-86a6-b10ad9f3c0b8
+   1	dae2d523-dfb4-4af2-8c0a-db99bb7c5773
    1	ee7350e8-6318-450f-afd4-3a661956a1a5
    1	24ec624c-fe81-4482-9766-a86d7840140f
    1	5eb4dab2-118e-438b-9d29-e7ada594ac10
+   1	24a7f656-0232-4243-b647-2b7b0f225249
    1	32985886-022b-4cde-b128-e732a22ab6df
    1	b6a77e39-3bf9-47e5-b3b4-e43543d67fed
    1	15fe881c-f4b8-4d15-a270-092b8e5d850a
    1	7068d6f8-31aa-405f-b02d-51ce7361b686
    1	a732e419-9824-4a1e-a71b-9de5b957f787
    1	8d1ebea8-b50b-4f06-afa9-872b999b8113
+   1	dc60642c-8848-4758-b4e5-72074e03906b
    1	f35c2bce-a4a7-4e1e-a8a6-8637e65d19a7
    1	d86ed805-7e26-4260-b2bd-9f1917d2617e
    1	8573819D-DDDE-4472-BADE-D3871027CB4D
-   1	da5be072-23be-44ad-8c20-a32fa492a358
+   1	(in 1 others)
 sample.biosd_sample has 3514 uses with 3514 vals
    1	SAMEA4439999
    1	SAMEA4439998
@@ -995,22 +1109,26 @@ sample.biosd_sample has 3514 uses with 3514 vals
    1	SAMEA4439981
    1	SAMEA4439979
    3494	(in 3494 others)
-sample.body_part.cell_count has 15 uses with 4 vals
-   10	1
+sample.body_part.cell_count has 17 uses with 5 vals
+   11	1
    2	0.5
    2	5
+   1	500
    1	15
-sample.body_part.name has 71 uses with 29 vals
+sample.body_part.name has 93 uses with 37 vals
    16	primordial germ cells
+   10	temporal lobe cortex
    9	fibroblast
-   4	pancreatic islets
+   5	islet of Langerhans
+   4	fetal brain cortex
    3	2-cell blastomere
    3	4-cell blastomere
    3	8-cell blastomere
    3	morula stage embryo
    3	oocyte
    3	embryonic gonad
-   2	fertilized oocyte
+   2	pronucleus phase zygote
+   2	ventral midbrain
    2	zygote
    2	CD8+ T cell
    2	embryonic stem cell
@@ -1018,21 +1136,33 @@ sample.body_part.name has 71 uses with 29 vals
    1	neocortex
    1	peripheral blood mononuclear cells (PBMCs)
    1	arcuate nucleus and median eminence of hypothalamus
-   1	arcuate nucleus of hypothalamus
-   1	cerebral organoid
-   1	blood dendritic cells
-   9	(in 9 others)
-sample.body_part.ontology has 1 uses with 1 vals
-   1	UBERON:0000966
-sample.body_part.organ has 30 uses with 8 vals
+   17	(in 17 others)
+sample.body_part.ontology has 9 uses with 5 vals
+   5	UBERON_0000006
+   1	UBERON_0001950
+   1	UBERON_0001932
+   1	UBERON_0000966
+   1	UBERON_0012168
+sample.body_part.organ has 38 uses with 9 vals
    9	skin
+   8	brain
+   7	embryo
    5	blood
-   5	embryo
-   4	pancreas
-   4	brain
+   5	pancreas
    1	bone
    1	eye
    1	liver
+   1	tonsil
+sample.body_part.organ_ontology has 38 uses with 9 vals
+   9	UBERON_0002097
+   8	UBERON_0000955
+   7	UBERON_0000922
+   5	UBERON_0001264
+   5	UBERON_0000178
+   1	UBERON_0002372
+   1	UBERON_0002107
+   1	UBERON_0001474
+   1	UBERON_0000970
 sample.body_part.source has 2 uses with 2 vals
    1	Prodo Laboratories Inc.
    1	"Proto or NDRI"
@@ -1040,6 +1170,29 @@ sample.cell_line has 8 uses with 3 vals
    6	iPSC 409B2
    1	AB2.2
    1	H9
+sample.characteristics_c1_chip_id has 16 uses with 16 vals
+   1	1772078237
+   1	1772078236
+   1	1772078218
+   1	1772078217
+   1	nochipID9
+   1	nochipID8
+   1	nochipID5
+   1	nochipID4
+   1	nochipID3
+   1	nochipID2
+   1	nochipID15
+   1	nochipID14
+   1	nochipID13
+   1	nochipID12
+   1	nochipID11
+   1	nochipID10
+sample.characteristics_cef has 5 uses with 5 vals
+   1	EmbryoMoleculeCounts.cef
+   1	iPSMoleculeCounts.cef
+   1	MouseAdultDAMoleculeCounts.cef
+   1	ESMoleculeCounts.cef
+   1	MouseEmbryoMoleculeCounts.cef
 sample.characteristics_clone.info has 57 uses with 51 vals
    5	non.clonal
    2	fibroblast.cl7
@@ -1064,10 +1217,50 @@ sample.characteristics_clone.info has 57 uses with 51 vals
    31	(in 31 others)
 sample.characteristics_cross has 1 uses with 1 vals
    1	CASTxC57
+sample.characteristics_experiment_sample_name has 12 uses with 12 vals
+   1	FB_S6
+   1	FB_S3
+   1	FB_S2
+   1	FB_S1
+   1	AB_S8
+   1	AB_S7
+   1	AB_S5
+   1	AB_S4
+   1	AB_S3
+   1	AB_S2
+   1	AB_S1
+   1	AB_S11
+sample.characteristics_facs_gating has 12 uses with 4 vals
+   3	ILC3
+   3	ILC2
+   3	ILC1
+   3	NK
 sample.characteristics_gender has 18 uses with 2 vals
    10	M
    8	F
-sample.characteristics_plate has 26 uses with 16 vals
+sample.characteristics_inferred_cell_type has 6179 uses with 88 vals
+   389	mUnclassified
+   282	Unk
+   263	eProg1b
+   244	eProg1a
+   210	hRgl2a
+   191	hPeric
+   149	mNProg
+   126	eSCa
+   126	eProg2a
+   121	eNb1
+   120	mGaba2
+   120	hProgBP
+   120	mEndo
+   118	eProg2b
+   117	eSCb
+   108	mNbML2
+   106	hOMTN
+   100	hNProg
+   91	hNbM
+   84	eNb2
+   2994	(in 68 others)
+sample.characteristics_plate has 170 uses with 160 vals
    2	plate15
    2	plate11
    2	plate10
@@ -1078,56 +1271,87 @@ sample.characteristics_plate has 26 uses with 16 vals
    2	plate5
    2	plate4
    2	plate3
-   1	plate19
-   1	plate18
-   1	plate17
-   1	plate16
-   1	plate14
-   1	plate12
-sample.data_processing has 16 uses with 16 vals
+   1	1772067089
+   1	1772121293
+   1	1772121291
+   1	1772121288
+   1	1772121283
+   1	1772121282
+   1	1772092277
+   1	1772092007
+   1	1772092006
+   1	1772092002
+   140	(in 140 others)
+sample.characteristics_time has 29 uses with 29 vals
+   1	e18.5
+   1	e15.5
+   1	e14.5
+   1	e13.5
+   1	e12.5
+   1	e11.5
+   1	p56
+   1	p28
+   1	p27
+   1	p26
+   1	p25
+   1	p24
+   1	p23
+   1	p21
+   1	p19
+   1	p20
+   1	63d
+   1	42d
+   1	9w
+   1	8w
+   9	(in 9 others)
+sample.data_processing has 20 uses with 20 vals
    1	genome build:  hg19,Aligned reads with rna-star,Calculated expression values with rpkmforgenes.py (available at https://github.com/danielramskold/S3_species-specific_sequencing) with options -readcount -fulltranscript -mRNAnorm -rmnameoverlap -bothendceil and gene annotation for the UCSC genome browser Ensembl track,Supplementary_files_format_and_content: Tab-delimited text files report RPKMs and read counts.
    1	Aligned reads with rna-star,Calculated expression values with rpkmforgenes.py (available at https://github.com/danielramskold/S3_species-specific_sequencing) with options -readcount -fulltranscript -mRNAnorm -rmnameoverlap -bothendceil and gene annotation for the UCSC genome browser Ensembl track,Genome_build: mm9,Supplementary_files_format_and_content: Tab-delimited text
    1	Demultiplexing. Perl 5.10.1,"Trim off remaining poly-A tails, if applicable. Perl 5.10.1","Align reads to the human genome using GSNAP with default settings, expected paired-end length=400bp and allowable deviation from expected paired-end length=100bp. GSNAP version 2012-01-11",Count reads overlapping uniquely with mRNA genes. Python2.7/HTSeq,Remove cells with less than 750 genes at a minimum of 10 reads per gene. R-3.1.2,Remove genes with less than 10 reads in at least 5 cells. R-3.1.2,Fit error models to the readcount data for normalization. R-3.1.2 / scde,Remove cells with large overdispersion of the correlated component (theta_Corr < 0.45). R-3.1.2,"Normalize data using posterior odds ratio, see manuscript. R-3.1.2","Genome_build: Homo Sapiens 37.68, with ERCC spike in sequences appended",Supplementary_files_format_and_content: Comma separated text file. First column: ENSEMBL Gene id. Second column: Raw read count.
    1	"Reads mapping: We used Burrows-Wheeler Aligner (BWA, Version 0.5.9-r16) [1] to align the clean reads to the hg19 Refseq, with the options ""aln -o 1 -e 60 -i 15 -q 10 -t 8"".  [1]. Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler Transform. Bioinformatics, 25:1754-60.","Expression level analysis : The gene expression level was calculated by using RPKM method, We used all genes with RPKM ≥ 0.1 as expressed genes in the following analysis.","Use BEDTools(Version-2.16.2) to transform *.bam files into *.bed files.[Ref: Aaron R. Quinlan and Ira M. Hall. (2010) BEDTools: a flexible suite of utilities for comparing genomic features,Bioinformatics (2010), 26: 841-842]",Merge the *.bed files from samples in the same stage [available on Series records],Use IGVtools to transform the merged *.bed files into *.tdf files for visualization [available on Series records],Genome_build: hg19
    1	Illumina Casava 1.8.2 software used for basecalling.,Reads were decoded based on their barcodes. Read quality was evaluated using FastQC.,Reads were mapped to the reference genome (human: GRCh37) using CLC bio Genomics Workbench Version 7.0 (CLC Bio) allowing one mismatch.,Genome_build: hg19,Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each sample
    1	Illumina CASAVA version 1.8 were used to the basecalling.,"Raw reads were first organized by specific cell barcode information attached in the read 2 of pair-ended reads. Second, unique molecular identifier (UMI) information were added into the corresponding read 1 which were then trimmed to remove template switch oligo (TSO) sequence and polyA tails. Subsequently, we also removed reads with adapter contaminants and low-quality bases (N>10%).","Third, the cleaned reads were aligned to the hg19 human transcriptome (UCSC) using Tophat (version 2.0.12) (Trapnell et al., 2009). Fourth, uniquely mapped reads were counted using htseq-count of the HTSeq package and grouped by cell-specific barcode (Anders et al., 2014). Based on UMI information, duplicated transcripts of each gene were removed. Finally, within a given cell, distinct UMIs of each gene were counted as the transcript number of that gene.","The expression levels TPM, where TPM (transcript-per-million) was calculated by the number of UMIs of each gene divided by all the number of UMIs of a given cell, then multiplying by 1,000,000.",Genome_build: hg19,Supplementary_files_format_and_content: txt files which include theTPM values of RefSeq genes.
+   1	Trimming of adapter sequences was performed with trimmomatic (v 0.32) minimum read length after trimming: 25,Alignment of the trimmed reads to the human transcriptome (hg19 GRCh37 ftp://ftp.ensembl.org/pub/release-74/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh37.74.cdna.all.fa.gz) was performed with bowtie1 (v 1.1),Calculation of normalized transcript-wise expression estimates (RPKM values) was performed based on the transcriptome alignments using the R (v 3.1.2) package BitSeq (v 1.10.0). Function: getExpression() with uniform=FALSE,Genome_build: hg19,Supplementary_files_format_and_content: Tab-delimited text files include transcript-wise RPKM values or read counts for each sample
    1	"""freeIbis"" was used as an efficient basecaller with calibrated quality scores for Illumina sequencers. (Bioinformatics. 2013 May 1;29(9):1208-9. doi: 10.1093/bioinformatics/btt117. Epub 2013 Mar 6.)","""leeHom"" was used to trim adapters and merge Illumina sequencing reads. (Nucleic Acids Res. 2014 Oct;42(18):e141. doi: 10.1093/nar/gku699. Epub 2014 Aug 6.)","""deML"" was used for robust demultiplexing of Illumina sequences using a likelihood-based approach. (Bioinformatics. 2015 Mar 1;31(5):770-2. doi: 10.1093/bioinformatics/btu719. Epub 2014 Oct 30.)","Reads were aligned against the human genome (build GRCh38.77 from ENSEMBLE) using TopHat v2.0.14. The genome was indexed using Bowtie v2.2.6","Fragments Per Kilobase of transcript Per Million mapped reads (FPKM) values were computed using cufflinks v2.2.1","Genome_build: GRCh38","Supplementary_files_format_and_content: Master data frame including sample name, gene ID, and FPKM values for each single cell."
    1	"Raw sequencing data were processed as previously described (Shalek et al., 2014). Briefly, short sequencing reads were aligned to the UCSC hg19 transcriptome and were also used as input in RSEM v 1.2.1 to quantify gene expression levels (transcripts per million; TPM) for all UCSC hg19 genes in all samples.","We filtered out cells from our dataset where we detected less than 1,000 unique genes per cell. All genes that were not detected in at least 1% of all our single cells were discarded, leaving 20,869 genes for all further analyses. Data were log transformed (log TPM+1) for all downstream analyses.",Genome_build: hg19,Supplementary_files_format_and_content: matrix of gene expression estimates across good quality samples
    1	Raw reads from the Illumina HiSeq2000 were mapped to the hg19 genome using default parameters in BWA,Mapped transcripts reads were transformed using the reads per kilobase per million (RPKM) metric,"Genes with low expression in all stages (average RPKM<0.5) were filtered out, followed by quantile normalization.",Genome_build: hg19,Supplementary_files_format_and_content: human_expression_mat.txt: matrix listing normalized RPKM
    1	genome build:  mm9,Aligned reads with rna-star,Calculated expression values with rpkmforgenes.py (available at https://github.com/danielramskold/S3_species-specific_sequencing) with options -readcount -fulltranscript -mRNAnorm -rmnameoverlap -bothendceil and gene annotation for the UCSC genome browser Ensembl track,For the sample Bf37_mRNA_Fibroblast_Total_fraction we also used the  rpkmforgenes.py option -stranded,Genome_build: mm9,Supplementary_files_format_and_content: Tab-delimited text
    1	genome build:  mm9,Aligned reads with rna-star,Calculated expression values with rpkmforgenes.py (available at https://github.com/danielramskold/S3_species-specific_sequencing) with options -readcount -fulltranscript -mRNAnorm -rmnameoverlap -bothendceil and gene annotation for the UCSC genome browser Ensembl track,Supplementary_files_format_and_content: Tab-delimited text files report RPKMs and read counts.
    1	Poor quality sequence was trimmed from FASTQ files.,FASTQ files were aligned to human genome hg19 and transcripts using RUM (Grant et al Bioinformatics 2011),"A best representation of each gene was selected using the highest expressing transcript, converted to RPM, and normalized to the average expression of the 10 most deeply sequenced cells.","Differential expression, where reported was performed using EdgeR or DESeq2 on raw read counts.",Genome_build: hg19,Supplementary_files_format_and_content: Normalized expression values for RefSeq transcripts
+   1	"Read processing was performed as described (Islam et al., Nat Methods. 2014 Feb;11(2):163-6), except that we removed any RNA molecule (i.e. Unique Molecular Identifier) supported only by a single read (""singleton molecules""). This removed a large number of false positive molecules, artefacts that can arise by sequencing error, PCR-induced mutations or translocations and cross-contamination.","The first 6 bases of each read represent the random Unique Molecular Identifier used for molecule counting. After follows three or more Gs, stemming from the template switching at the mRNA 5' end during first strand cDNA synthesis. In some reads, one of the three Gs has been replaced by an A by the Illumina HiSeq software, representing failed base calling at that position. We rejected cells that had less than 2000 mRNA molecules, more than 26,000 mRNA molecules (putative doublets) as well as cells that formed a separate cluster with no specific gene expression (putative damaged or dead cells). Genes that were detected at less than 4 molecules in the whole datasets were eliminated.",Genome_build: UCSC mm10 and UCSC hg19,Supplementary_files_format_and_content: Tab-delimited table of total number of detected mRNA molecules from each gene in each cell identified by the "Title" field in Samples list. Mitochondrial genes and genes with less than 4 molecules have been omitted. The first two lines of each file are table metadata (see https://github.com/linnarsson-lab/ceftools)
+   1	All reads were aligned to the human (hg19) genomes using STAR (Dobin et al. 2013),Non-uniquely mapped reads were removed,"Rpkmforgenes (available at http://sandberg.cmb.ki.se/rnaseq/), options -readcount -fulltranscript -mRNAnorm -rmnameoverlap -u, was used to generate RPKM values and read counts. We used a file with unique positions from Storvall et al. 2013 PLOS ONE. Gene annotations used were transcripts in RefSeq and Ensembl  (Feb 2013) and ERCC-spike in annotations.",Genome_build: hg19,Supplementary_files_format_and_content: gene expression values (tab-delimited text)
+   1	"Short read trimming: Prinseq to remove short reads (-min_len 30) trim the first 10 bp on the 5’-end (-trim_left 10), trim reads with low quality on the 3’-end (-trim_qual_right 25) and filter low complexity reads (-lc_method entropy \-lc_threshold 65).  We used FASTQC to determine overrepresented sequences and removed those using cutadapt (-e 0.15 –m 30). We then used Prinseq to remove orphan pairs less than 30bp in length followed by removal of nextera adapters using Trim Galore  (--stringency 1).",Read alignment: reads were aligned to the hg19 genome with STAR using the following options (-outFilterType BySJout \--outFilterMultimapNmax 20 \--alignSJoverhangMin 8 \--alignSJDBoverhangMin 1 \--outFilterMismatchNmax 999 \--outFilterMismatchNoverLmax 0.04 \--alignIntronMin 20 \--alignIntronMax 1000000 \--alignMatesGapMax 1000000 \--outSAMstrandField intronMotif ).,Per-gene read assignement: aligned reads were converted to counts for every gene using HTSeq (-m intersection-nonempty \-s no).,Genome_build: hg19,Supplementary_files_format_and_content: tab-delimited text files with raw read values for each sample
    1	Base calls performed with bcl2fastq2.15.0.4,"Alignment by TopHat v2.0.14. [Using “-M”, “--no-coverage-search”, “--segment-length 10”]","Removal of duplicates and low quality reads, indexing, and sorting: Picard 2.5.0 and samtools 0.1.19.",Assigned reads to features: featureCounts-1.4.6. [Using recommended setting and a custom meta-annotation that merges overlapping isoforms.],Genome_build: Genome_build: mm10 (GRCm38),Supplementary_files_format_and_content: CSV file containing expression values by sample (columns) and gene ID (rows)
    1	Raw reads from the Illumina HiSeq2000 were mapped to the mm9 genome using default parameters in BWA,Mapped transcripts reads were transformed using the reads per kilobase per million (RPKM) metric,"Genes with low expression in all stages (average RPKM<0.1) were filtered out, followed by quantile normalization.",mm9,mouse_expression_mat.txt: matrix listing normalized RPKM
    1	"Reads were first filtered based on presence in read 1 of two sample barcode components separated by the W1 adaptor sequence (GAGTGATTGCTTGTGACGCCTT), as previously described (Klein et al., Cell 2015)",Read 2 was then trimmed using Trimomatic (5) (version 0.32; parameters: LEADING:28 SLIDINGWINDOW:4:20  MINLEN:30).,"Barcodes for each read were matched against a list of the pre-determined barcodes, and errors of up to two nucleotides mismatch were corrected. Reads with a barcode separated by more than two nucleotides from the reference list were discarded. The reads were then split into barcode-specific files for mapping and UMI filtering.","The trimmed reads were aligned using Bowtie (version 1.1.1, parameters: -n 1 -l 15 -e 80 -m 200 -best -strata -a) to the human or mouse transcriptome. The reference transcriptome was built using annotations from ENSEMBL (Homo sapiens: GRCh38.82,  Mus musculus: GRCm38.84) including all annotations with ""Transcript Support Levels"" of 1, 2, or NA (only accepted for protein coding genes).","A custom Python and PySAM script to process mapped reads into counts of UMI-filtered transcripts per gene, as previously described (Klein et al., Cell 2015)","Genome_build: GRCh38 (human sample), GRCm38 (mouse samples)",Supplementary_files_format_and_content: Columns = gene; rows = cells. Column 1 contains cell identifier. Column 2 contains matching cell barcode. Column 3 contains cell-type assignment for analysis. Columns 4+ contain counts for each gene. Values show unique molecular identifier (UMI)-filtered counts per cell detected in the raw data. No normalization is performed.
    1	Base calls performed with bcl2fastq2.15,Read 2 was aligned with Star v2.4.0,Each aligned read was tagged with its mate-pair UMI and cell barcode,Each aligned exonic read was tagged with a gene name,"A digital expression matrix was built by counting the number of unique UMIs per gene within each cell; columns are cells, and rows are genes.",The first inflection point was estimated on a cumulative sum plot of the digital expression matrix to determine the number of cells in the sample,Samples Bipolar1-6 -- prepared from P17 Vsx2-GFP mouse retinas on two separate days (Bipolar1-4 and Bipolar5-6)--were merged together into a single matrix.,Genome_build: mm10,"Supplementary_files_format_and_content: compressed, flat text file with tab delimiters"
-sample.donor.age has 72 uses with 44 vals
+sample.donor.age has 107 uses with 58 vals
    10	0
-   4	23
-   3	37
-   3	17
+   7	17
+   5	37
+   5	23
+   3	63
+   3	56
+   3	27
+   3	24
+   3	22
+   3	21
    3	15
    2	57
-   2	56
    2	55
    2	51
    2	43
    2	41
-   2	27
-   2	24
-   2	22
+   2	25
+   2	19
    2	12
-   1	68
-   1	65
-   1	63
-   1	60
-   1	59
-   24	(in 24 others)
-sample.donor.age_unit has 19 uses with 3 vals
-   10	week
-   8	day
-   1	year
-sample.donor.body_mass_index has 14 uses with 13 vals
+   2	10
+   41	(in 38 others)
+sample.donor.age_unit has 39 uses with 3 vals
+   20	week
+   10	year
+   9	day
+sample.donor.body_mass_index has 15 uses with 14 vals
    2	21.5
    1	34.36
    1	21.1
@@ -1139,6 +1363,7 @@ sample.donor.body_mass_index has 14 uses with 13 vals
    1	30.8
    1	35
    1	24
+   1	22
    1	27.5
    1	24.7
 sample.donor.development_stage has 20 uses with 8 vals
@@ -1147,23 +1372,37 @@ sample.donor.development_stage has 20 uses with 8 vals
    3	oocyte
    3	4-cell blastomeres
    3	morula
-   2	fertilized oocyte
+   2	pronucleus phase zygote
    2	zygote
    1	late blastocyst
-sample.donor.disease has 32 uses with 3 vals
+sample.donor.disease has 41 uses with 5 vals
    19	normal
    12	type II diabetes mellitus
+   8	epilepsy
    1	type I diabetes mellitus
+   1	obstructive sleep apnea
 sample.donor.ethnicity has 19 uses with 5 vals
    10	C
    4	AA
    3	H
    1	Han Chinese
    1	AI
-sample.donor.genotype has 2 uses with 2 vals
+sample.donor.genotype has 4 uses with 3 vals
+   2	Tomato/DAT-Cre+
    1	AAV-GFP+ RIP-Cre+
    1	Vsx2-GFP
-sample.donor.id has 179 uses with 179 vals
+sample.donor.id has 194 uses with 194 vals
+   1	FB_S6
+   1	FB_S3
+   1	FB_S2
+   1	FB_S1
+   1	AB_S8
+   1	AB_S7
+   1	AB_S5
+   1	AB_S4
+   1	AB_S3
+   1	AB_S2
+   1	AB_S1
    1	HP1508501T2D
    1	T2D 6
    1	T2D 5
@@ -1173,46 +1412,37 @@ sample.donor.id has 179 uses with 179 vals
    1	T2D 1
    1	hESC passage#10
    1	F_8W_embryo1
-   1	morula #2
-   1	morula #1
-   1	HP1509101
-   1	F_14W_embryo1
-   1	F_7W_embryo1
-   1	normal adult
-   1	oocyte #3
-   1	oocyte #2
-   1	oocyte #1
-   1	zygote #3
-   1	zygote #2
-   159	(in 159 others)
-sample.donor.life_stage has 31 uses with 6 vals
-   13	adult
-   13	embryo
-   2	postpartum
+   174	(in 174 others)
+sample.donor.life_stage has 54 uses with 6 vals
+   24	embryo
+   14	adult
+   11	postpartum
+   3	cell line
    1	organoid
-   1	cell line
    1	child
 sample.donor.medication has 1 uses with 1 vals
    1	Immunization with yellow fever vaccine YFV 17D
-sample.donor.ncbi_taxon has 19 uses with 2 vals
-   13	9606
-   6	10090
-sample.donor.sex has 48 uses with 3 vals
-   24	male
-   23	female
-   1	mixed
-sample.donor.species has 21 uses with 2 vals
-   13	Homo sapiens
-   8	Mus musculus
-sample.donor.strain has 194 uses with 7 vals
+sample.donor.ncbi_taxon has 24 uses with 2 vals
+   17	9606
+   7	10090
+sample.donor.sex has 125 uses with 4 vals
+   49	mixed
+   33	male
+   28	female
+   15	unknown
+sample.donor.species has 26 uses with 2 vals
+   17	Homo sapiens
+   9	Mus musculus
+sample.donor.strain has 248 uses with 8 vals
    91	C57BL/6J (mother) x CAST/EiJ (father)
    70	CAST/EiJ (mother) x C57BL/6J (father)
+   52	CD1
    28	CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
-   2	C57BL/6
+   4	C57BL/6
    1	ICR
    1	(C57BL/6 x DBA)F2
    1	CAST/EiJ_x_C57BL/6J
-sample.donor.uuid has 180 uses with 180 vals
+sample.donor.uuid has 195 uses with 195 vals
    1	756f001e-2228-489c-ab63-77170d82b768
    1	a88c518c-70e8-476d-85d5-b18b2c6d5d7a
    1	f79e89a8-f17a-4f0a-8884-660824544318
@@ -1230,10 +1460,10 @@ sample.donor.uuid has 180 uses with 180 vals
    1	344e3ae8-c3eb-4348-8fa0-f019131daa9d
    1	a75942ef-934b-46d3-9622-303608326bd5
    1	d8ec1ccd-52fc-45ff-b0a6-080f5f32c6fd
+   1	96af6206-dbcc-4ff4-81a8-2ba8eedb8a76
    1	7956b42f-046b-4871-b5a9-8dd044d69a3b
    1	95f98d5f-6172-4ad7-b504-b32a963a8283
-   1	6a01b213-bfb4-47d9-933f-7f1427eeec09
-   160	(in 160 others)
+   175	(in 175 others)
 sample.ena_sample has 3898 uses with 3898 vals
    1	ERS1351983
    1	ERS1351982
@@ -1256,29 +1486,29 @@ sample.ena_sample has 3898 uses with 3898 vals
    1	ERS1351965
    1	ERS1351964
    3878	(in 3878 others)
-sample.geo_sample has 7906 uses with 7906 vals
-   1	GSM922227
-   1	GSM922226
-   1	GSM922225
-   1	GSM922224
-   1	GSM922223
-   1	GSM922222
-   1	GSM922221
-   1	GSM922219
-   1	GSM922220
-   1	GSM922218
-   1	GSM922217
-   1	GSM922216
-   1	GSM922215
-   1	GSM922214
-   1	GSM922213
-   1	GSM922212
-   1	GSM922211
-   1	GSM922199
-   1	GSM922209
-   1	GSM922210
-   7886	(in 7886 others)
-sample.id has 4582 uses with 4582 vals
+sample.geo_sample has 15271 uses with 15271 vals
+   1	GSM1160139
+   1	GSM1160140
+   1	GSM1160138
+   1	GSM1160137
+   1	GSM1160136
+   1	GSM1160135
+   1	GSM1160134
+   1	GSM1160133
+   1	GSM1160132
+   1	GSM1160131
+   1	GSM1160129
+   1	GSM1160130
+   1	GSM1160128
+   1	GSM1160127
+   1	GSM1160126
+   1	GSM1160125
+   1	GSM1160124
+   1	GSM1160123
+   1	GSM1160122
+   1	GSM1160121
+   15251	(in 15251 others)
+sample.id has 11409 uses with 11409 vals
    1	HP1525301T2D_P24
    1	HP1525301T2D_P23
    1	HP1525301T2D_P22
@@ -1292,15 +1522,15 @@ sample.id has 4582 uses with 4582 vals
    1	HP1525301T2D_P14
    1	G2M_cell9
    1	HP1525301T2D_P13
+   1	1772094158_H12
    1	G2M_cell8
    1	HP1525301T2D_P12
+   1	1772094158_H11
    1	G2M_cell7
    1	HP1525301T2D_P11
-   1	G2M_cell6
-   1	HP1525301T2D_P10
-   1	G2M_cell5
-   4562	(in 4562 others)
-sample.last_update_date has 798 uses with 13 vals
+   1	1772096091_A02
+   11389	(in 11389 others)
+sample.last_update_date has 802 uses with 17 vals
    520	2017-03-27
    225	2017-01-19
    39	2017-03-31
@@ -1311,14 +1541,21 @@ sample.last_update_date has 798 uses with 13 vals
    1	2016-07-05
    1	2015-12-07
    1	2013-08-10
+   1	2016-01-28
+   1	2016-01-05
    1	2017-02-06
+   1	2015-11-06
    1	2013-07-29
+   1	2017-01-18
    1	2016-11-15
-sample.long_label has 248 uses with 232 vals
+sample.long_label has 314 uses with 293 vals
+   4	19 GW fetal brain cortex
    3	primordial germ cells (CD117+) from 21 GW male embryo
    2	mouse fibroblast
    2	primordial germ cells (CD117+) from 19 GW male embryo
    2	primordial germ cells (CD117+) from 24 GW female embryo
+   2	temporal lobe cortex - healthy tissue from 47 year old male epileptic patient
+   2	temporal lobe cortex - healthy tissue from 37 year old female epileptic patient
    2	disassociated blastomeres from 2-cell stage from Fan lab 2013
    2	primordial germ cells (CD117+) from 23 GW female embryo
    2	disassociated blastomeres from 8-cell stage from Fan lab 2013
@@ -1331,47 +1568,45 @@ sample.long_label has 248 uses with 232 vals
    2	fibroblast from primary culture split in two parts after RNA extraction
    2	primordial germ cells (CD117+) from 10 GW male embryo
    1	Lin- CD34+ CD38+ CD45RA- CD90+ bone marrow donor 2 plate 12
-   1	embryonic gonad from 18 GW female embryo
-   1	P17 Vsx2-GFP sorted mouse bipolar retina cells 3 (Batch 1)
-   1	adult pancreatic islets from normal 43 year old male
-   1	"Pancreatic islets from male donor, age 27, BMI 31.8, no diabetes"
-   212	(in 212 others)
-sample.ncbi_biosample has 7906 uses with 7906 vals
-   1	SAMN05177289
-   1	SAMN05177290
-   1	SAMN05177288
-   1	SAMN05177287
-   1	SAMN05177286
-   1	SAMN05177285
-   1	SAMN04870279
-   1	SAMN04870280
-   1	SAMN04870278
-   1	SAMN04870277
-   1	SAMN04870276
-   1	SAMN04870275
-   1	SAMN04870274
-   1	SAMN04870273
-   1	SAMN04870272
-   1	SAMN04870271
-   1	SAMN04870269
-   1	SAMN04870270
-   1	SAMN04870268
-   1	SAMN04870267
-   7886	(in 7886 others)
+   1	ventral midbrain from 11 week old embryo
+   273	(in 273 others)
+sample.ncbi_biosample has 15271 uses with 15271 vals
+   1	SAMN05567246
+   1	SAMN05567245
+   1	SAMN05567244
+   1	SAMN05567243
+   1	SAMN05567242
+   1	SAMN05567241
+   1	SAMN05567239
+   1	SAMN05567240
+   1	SAMN05567238
+   1	SAMN05567237
+   1	SAMN05567236
+   1	SAMN05567235
+   1	SAMN05567234
+   1	SAMN05567233
+   1	SAMN05567232
+   1	SAMN05567231
+   1	SAMN05567230
+   1	SAMN05567229
+   1	SAMN05567228
+   1	SAMN05567227
+   15251	(in 15251 others)
 sample.passage_number has 2 uses with 2 vals
    1	10
    1	0
-sample.protocol_types has 15 uses with 7 vals
-   7	nucleic acid library construction protocol
-   2	growth protocol,nucleic acid library construction protocol
+sample.protocol_types has 19 uses with 7 vals
+   9	nucleic acid library construction protocol
+   3	growth protocol,nucleic acid library construction protocol
    2	growth protocol,treatment protocol,nucleic acid library construction protocol
+   2	treatment protocol,nucleic acid library construction protocol
    1	sample collection protocol,nucleic acid library construction protocol,nucleic acid sequencing protocol,normalization data transformation protocol
    1	nucleic acid library construction protocol,nucleic acid sequencing protocol
-   1	treatment protocol,nucleic acid library construction protocol
    1	growth protocol,sample collection protocol,treatment protocol,nucleic acid extraction protocol,nucleic acid library construction protocol,nucleic acid sequencing protocol,high throughput sequence alignment protocol,normalization data transformation protocol
-sample.protocols has 16 uses with 16 vals
+sample.protocols has 20 uses with 20 vals
    1	"Fresh bone marrow mononuclear cells were stained with fluorescence labeled antibodies against CD34, CD38, CD45RA, CD90, CD49f, CD135, CD10, CD7 and a lineage cocktail consisting of CD4, CD8, CD11b, CD14, CD19, CD20, CD56 and CD235a. Single Lin-CD34+CD38- and LinCD34+CD38+ HSPCs were sorted into lysis buffer."
    1	GFP+ cells were manually isolated from a cell suspension prepared by triturating and washing papain-digested Arc-ME
+   1	cDNA was generated from FACS sorted cells using to Smart-seq2 (Picelli et al. Nature Methods 2013)
    1	Donated human preplantation embryos were dissociated into individual blastmeres and were separately amplied to set up single cell cDNA libraries.,"Amplied single cell cDNAs were further amplied for another ten cycles of PCR. Then it was sonicated into 200~500bp fragments ,then the standard TruSeq DNA library preparation kit was used following the manufacturer suggestion protocol"
    1	"Cerebral organoids were generated using the same protocol as described Lancaster et al. Nature Protocols 2014, with the exception that mTESR1 (Stem Cell Technologies) was used during embryoid body formation.","Whole cerebral organoids and microdisseccted ventricles were dissociated in 2 ml of Accutase (StemPro) containing 0.2 U/µl Dnase I (Roche) for approximately 45 minutes. Dissociated cells were filtered through 40, 30, and 20 μm diameter strainers to create a single cell suspension.","Cells were loaded into the Fluidigm C1 microfluidic platform, where single cells were captured. Lysis of single cells, reverse-transcription of mRNA into cDNA as well as preamplification of cDNA occured within the microfluidic device using reagents provided by Fluidigm as well as the SMARTer Ultra Low RNA kit for Illumina (Clontech). External RNA spike-in transcripts (ERCC spike-in Mix, Ambion) were added to all single cell lysis reactions at a dilution of 1:40,000."
    1	qPCR only,Illumina HiSeq 2500
@@ -1380,37 +1615,40 @@ sample.protocols has 16 uses with 16 vals
    1	"mESC were grown in standard 2i media. The media composition was N2B27 basal media (NDiff 227, StemCells), 100 U/ml recombinant human leukemia inhibitory factor (Millipore), 1M PD0325901 (Stemgent), 3M CHIR99021 (Stemgent).","Sorted cells corresponding to cycle fractions (G1, S and G2M) were collected and loaded on the 10-17 micron Fluidigm C1 Single-Cell Auto Prep IFC.","For sorting of cell cycle fractions (G1, S and G2M), cells were trypisinized and stained with Hoechst 33342 (5_M) for 30min at 37C. Cells were sorted based on Hoechst staining for G1, S and G2M stages of cell cycle.","For each cell cycle fraction, 3000 cells were loaded onto a 10-17 micron Fluidigm C1 Single-Cell Auto Prep IFC and cell capture was performed as per manufacturers protocol. Single cell capture, lysis, Reverse transcription and cDNA amplification are performed using the SMARTer cDNA synthesis kit (Clonetech) and Advantage2PCR kit (Clonetech) with 1:100 ratio of spike in (Ambion), within the IFC inside the C1-Autoprep system as per manufacturers protocol.",Harvested cDNA from single cells after C1-Autoprep system run were used to make single cell libraries using Nextera XT DNA sample preparation kit (Illumina) utilising 96 dual barcoded indices. Library poolup was performed using AMPure XP beads (Agencourt Biosciences) and single cell libraries were sent for paired end sequencing at the Wellcome Trust Sequencing facility,Single cell libraries were multiplexed and sequenced across 4 lanes of HiSeq 2000 (Illumina) using 100bp paired-end sequencing.,As per Wellcome Trust Sequencing pipeline guidelines,Mapping for each single cell dataset was done using GSNAP/GMAP (released on 2014-01-21) to a custom mouse genome (mm10; Ensembl GRCm38.p1) including ERCC sequences. Mapped reads were counted using HTSeq (0.6.1)
    1	"Single islet cells were captured with C1 Integrated Fluidic Circuit. Cell lysing, reverse transcription and cDNA amplification were performed on the C1 Single-Cell Auto Prep IFC, as specified by the manufacturer (Protocol #100-7168 E1). The SMARTer Ultra Low RNA Kit (Clontech) was used for cDNA synthesis from the single cells."
    1	"A modified Smart-seq2 protocol was applied for single-cell RNA-seq. Briefly, after MACS and FACS purification, a single PGC or gonadal somatic cell was picked into the lysis buffer by mouth pippete. The reverse transcription reaction was performed with 24 oligo (dT) primer anchored with the 8 bp cell specific barcode, and also with 8 bp unique molecular identifiers (UMIs)."
+   1	"Wild-type CD1 mice were mated overnight and noon of the day was considered E0.5. Mothers were killed and embryos were dissected out of the uterine horn between the time points E11.5 and E18.5. Adult CD1 animals were dissected at P19 to P27. Human tissue was collected at Addenbrooke’s Hospital (Cambridge, UK) and dissected in HIBERNATE medium (Gibco). Samples were shipped overnight on ice (in HIBERNATE solution) to Sweden. For the embryonic stem cells (hES DA),  iCell DopaNeurons from Cellular Dynamics International (DNC-301030001, lot #6003358) were differentiated following the manufacturer’s recommendations and harvested at day 5 and 21.","Human embryo ventral midbrain dissection was performed on ice in neuronal N2 culturing media. 10-17  tissue pieces were collected for each experiment. The tissue pieces were dissociated using the Papain dissociation system (Worthington) following manufacturers recommendations, adjusting incubation time based on tissue piece size to 25-45 mins. Using glass pipettes of increasingly smaller tip diameter, the cell suspension was then filtered with 20um filter (Partec) and cells kept in N2 media, and cells loaded into C1 chips for cell capture."
+   1	"Islets were cultured in CMRL medium (Life technology) supplemented with 10% FBS, 2 mM glutamine, 100 U/mL penicillin, and 100 µg/mL streptomycin.","To disassociate islets into single cells, islets were incubated in Accutase (Life technology) in 37 °C for 20 min, neutralized by CMRL medium. Purification of single cells was performed by flow cytometry cell sorting on a Moflo AstriosEQ (Beckman Coulter, Miami)"
    1	"Human primary islets (85-95% pure) were purchased from Prodo Laboratories Inc (Irvine, CA, USA) and cultured for 4 days in Prodo Islet Media Standard PIM(S) to recover after arrival. Islets were dissociated into single-cell suspension and viable individual cells were distributed by FACS into 384-well plates containing lysis buffer. Spike-in RNA from the External RNA Controls Consortium (ERCC) (Ambion, Life Technologies) was added to each well in 1:40 000 dilution. ","Single-cell RNA-seq libraries were generated as described in Picelli et al., 2014, Full-length RNA-seq from single cells using Smart-seq2, Nature Protocols. ","Libraries were sequenced on an Illumina HiSeq 2000, generating 43 bp single-end reads.","Expression values for RefSeq genes and values for ERCC transcripts were quantified as RPKMs using rpkmforgenes (Ramsköld et al., 2009). Format of the datafile ‘pancreas_refseq_rpkms_counts_3514sc.txt’: The file contains both the normalized rpkm values and the raw read counts for each sample. Columns correspond to samples and rows to genes. The first line of the file (starting with: #samples) contains the sample IDs to be used as column labels for both the rpkm and counts. The columns of the rpkm and the counts have the same order with the sample IDs. Columns 1:3514 correspond to rpkm values, Columns 3515:7028 correspond to read counts. Rows 1:26179 correspond to data for RefSeq genes, Rows 26180:26271 correspond to data for the 92 external RNA spike-in controls (ERCCs), Row 26272 (last) contains data for ‘eGFP’."
    1	"Single blastomeres were isolated by removing the zona pellucida using acidic tyrode solution (Sigma, cat. no. T1788), then separated by gentle mouth pipetting in a calcium-free medium.",Single cells were washed twice with 1x PBS containing 0.1% BSA before placing in lysis buffer.,"RNA was isolated from single cells or single morula embryos and amplified as previously described (Tang et al., 2010, Nat Protoc)"
+   1	C1 autoprep standard protocol
    1	"Human pancreatic islets were obtained from Prodo or NDRI and recovered in CMRLS at 37°C for 24h-48h hours after receipt. Mouse islets were prepared using gradient centrifugation and islets from the same strain were pooled, then recovered in XX for 24h.","Cells were encapsulated using the inDrop platform, into droplets on ice and lysed  in the 4nL microfluidic droplets using a final concentration of 0.4% NP-40. Single cell lysates were subject to reverse transcription at 50°C without purification of RNA (as previously described in Klein et al., Cell 2015)."
    1	"SmartSeq2 (Picelli S, Nat Methods. 2013, PubMed PMID: 24056875)"
    1	Fetuses were 12 to 13 wpc as assessed by ultrasound measurements of crown-rump length and other standard criteria of developmental stage determination.,"Fetal cortices were digested with papain (Miltenyi Biotec, 1ml) for 15 min at 37°C on a rotating wheel, followed by addition of a papain inhibitor. Dissociated cells were filtered through 40, 30, and 20 μm diameter strainers to create a single cell suspension.","Cells were loaded into the Fluidigm C1 microfluidic platform, where single cells were captured. Lysis of single cells, reverse-transcription of mRNA into cDNA as well as preamplification of cDNA occured within the microfluidic device using reagents provided by Fluidigm as well as the SMARTer Ultra Low RNA kit for Illumina (Clontech). External RNA spike-in transcripts (ERCC spike-in Mix, Ambion) were added to all single cell lysis reactions at a dilution of 1:40,000."
    1	"suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads. Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol."
-sample.short_label has 226 uses with 174 vals
+sample.short_label has 287 uses with 213 vals
    19	pancreas islet normal
    12	pancreas islet diab II
+   10	temporal cortex
+   4	fetal brain cortex
    3	2-cell blastomeres
    3	8-cell blastomeres
    3	fibroblast
+   3	tonsil ILC1 cells
+   3	tonsil ILC2 cells
    3	M 21GW germ cells
    3	morula blastomeres
    3	4-cell blastomeres
+   3	tonsil ILC3 cells
+   3	tonsil NK cells
+   2	pancreas islet BMI22
    2	Lin-CD34+CD38+ marrow
+   2	pronucleus phase zygote
    2	oocytes
    2	zygotes
    2	M 10GW germ cells
-   2	M 19GW germ cells
-   2	fertilized oocyte
-   2	split fibroblast
-   2	Lin-CD34+CD38- marrow
-   2	F 20GW germ cells
-   2	F 23GW germ cells
-   2	F 24GW germ cells
-   1	G2/M phase mESCs
-   154	(in 154 others)
+   200	(in 193 others)
 sample.storage has 1 uses with 1 vals
    1	fresh
-sample.submission_date has 74 uses with 17 vals
+sample.submission_date has 78 uses with 21 vals
    38	2016-09-08
    11	2012-04-25
    5	2012-03-16
@@ -1418,43 +1656,51 @@ sample.submission_date has 74 uses with 17 vals
    2	2015-12-03
    2	2015-11-30
    1	2016-10-27
+   1	2015-07-07
    1	2016-08-23
+   1	2016-08-11
    1	2016-07-11
    1	2016-07-06
    1	2013-02-08
    1	2016-06-08
+   1	2015-04-15
    1	2016-12-02
    1	2016-05-25
    1	2016-05-18
+   1	2015-10-05
    1	2013-06-11
-   1	2016-04-19
-sample.supplementary_files has 7908 uses with 7908 vals
+   1	(in 1 others)
+sample.supplementary_files has 9094 uses with 9094 vals
    1	ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1955nnn/GSM1955898/suppl/GSM1955898_counts_plate5_A_6.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX145/SRX1454106
-   1	ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2289nnn/GSM2289185/suppl/GSM2289185_counts_I1_plate17_H_2.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX204/SRX2040421
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271866
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271865
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271864
-   1	ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2289nnn/GSM2289112/suppl/GSM2289112_counts_I1_plate17_B_1.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX204/SRX2040348
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271863
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271862
-   1	ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1956nnn/GSM1956712/suppl/GSM1956712_counts_plate14_E_4.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX145/SRX1454920
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271861
-   1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144381,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922187/GSM922187_Sample_F2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922187/GSM922187_Sample_F2.expression.txt.gz
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271859
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271860
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271858
    1	ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961924/suppl/GSM1961924_fibroblast.174_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461030
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271857
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271856
+   1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX108/SRX1082394,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1810nnn/GSM1810860/suppl/GSM1810860_T86_P1_A1_ILC3_expression.txt.gz
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271855
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271854
    1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271853
-   7888	(in 7888 others)
+   1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271852
+   1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271851
+   1	ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX227/SRX2271849
+   9074	(in 9074 others)
 sample.treatment.culture_type has 9 uses with 3 vals
    7	primary culture
    1	cell line
    1	tissue
-sample.treatment.enrichment has 10 uses with 7 vals
+sample.treatment.enrichment has 22 uses with 11 vals
+   3	CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2-
+   3	CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2+
+   3	CD3- CD14- CD19- CD45+ Lin- CD127+ CD161+ CD117+ CRTH2- NKp44+
+   3	CD3- CD14- CD19- CD45+ Lin- CD127- CD56+ NKG2A+
    2	Lin- CD34+ CD38-
    2	Lin- CD34+ CD38+
    2	CD3+ CD8+
@@ -1462,29 +1708,29 @@ sample.treatment.enrichment has 10 uses with 7 vals
    1	CD117+
    1	CD3+
    1	Lin- CD34+ CD38+ CD45RA- CD90+
-sample.treatment.enrichment_method has 3 uses with 3 vals
+sample.treatment.enrichment_method has 4 uses with 3 vals
+   2	MACS,FACS
    1	FACS
-   1	MACS,FACS
    1	pan
-sample.uuid has 11806 uses with 11806 vals
-   1	c83b6b4c-fe6e-4344-b600-19d783cc0e75
+sample.uuid has 19175 uses with 19175 vals
+   1	1bd141af-6c69-4666-ae05-515d3ce97822
+   1	603e07b5-a95d-4f7c-98e9-d7098b580770
    1	31371a97-5f5a-4a6f-ac69-add12bef2945
+   1	f5daedb4-64f5-4490-9d30-eadd4ef2bc53
    1	c028659c-91f2-4baa-b140-dc628df57304
-   1	3e663793-5ff1-40ce-9422-51b23e4c1732
    1	2ea2dfd1-04f7-4678-b48a-08800f5d0b09
-   1	5bf9017d-cdce-47e2-970a-61faf3627a3d
+   1	8ffa50e9-13ea-4e1e-ac78-cc0dc6798f24
    1	6f9dcb18-c735-47fb-af82-91adfdb41885
    1	08180cf9-3063-433b-9424-0c37f58fe95d
    1	3815d6c6-a5fe-4d16-933b-1ac1757ac735
+   1	70bfdd68-cf73-4553-8143-f03a242a83a7
    1	cc3be049-42f1-4a68-8e00-d95e81085790
    1	4b79f85e-be1e-4d20-8e84-4e97aa2b8e0e
-   1	04888f8b-331e-4ceb-a872-436e943bdd6c
-   1	c6616303-f954-40df-8a16-b2c76dcdfb89
+   1	0f378a5c-66a4-47f8-8a32-aeec0b44ea34
+   1	008e4b25-88c1-40ed-bd97-7859f14d606d
    1	a3879424-510f-4158-b50b-b7b2de8ea4ff
-   1	99738c85-6ec7-41fc-ac7e-e0a55ec80818
    1	a4792168-4490-435c-84dd-d31861c669a4
-   1	c5392b9d-df95-4586-81dc-0e851cfc5c5d
-   1	f99c5067-1519-4355-a4c5-1ffd87abc366
+   1	a795ad7f-3d2e-4ae1-aae3-d21a5dfd4bff
+   1	cd1372e8-727b-4b89-99bc-ce5800c5d464
    1	02b19f32-aaf6-4ed2-a835-1613588df8bd
-   1	c79ea325-5401-4a26-b8e0-ea565821e636
-   11786	(in 11786 others)
+   19155	(in 19155 others)
