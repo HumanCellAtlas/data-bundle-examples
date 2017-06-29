@@ -23,7 +23,7 @@ project.contact.address "Nobels väg 3, 171 77, Stockholm, Sweden"
 project.contact.city Stockholm
 project.contact.country Sweden
 project.contact.email Athanasia.Palasantza@ki.se
-project.contact.institute Department of Cell and Molecular Biology (CMB), Karolinska Institutet, Stockholm, Sweden.
+project.contact.institute "Department of Cell and Molecular Biology (CMB), Karolinska Institutet, Stockholm, Sweden."
 project.contact.name "Athanasia,,Palasantza"
 project.contact.phone 0046 8 5248 3986
 project.contributor "Athanasia,,Palasantza","Rickard,,Sandberg","Åsa,,Segerstolpe"
@@ -31,7 +31,6 @@ project.ddjb_trace_project ERP017126
 project.experimental_factor_name cell type,disease
 project.mage_tab_version 1.1
 project.overall_design cell type comparison design,disease state design
-project.overall_design_accession EFO_0001745,EFO_0001756
 project.release_status 2016-09-22
 project.summary "We used single-cell RNA-sequencing to generate transcriptional profiles of endocrine and exocrine cell types of the human pancreas. Pancreatic tissue and islets were obtained from six healthy and four T2D cadaveric donors. Islets were cultured and dissociated into single-cell suspension. Viable individual cells were distributed via fluorescence-activated cell sorted (FACS) into 384-well plates containing lysis buffer. Single-cell cDNA libraries were generated using the Smart-seq2 protocol. Gene expression was quantified as reads per kilobase transcript and per million mapped reads (RPKM) using rpkmforgenes. Bioinformatics analysis was used to classify cells into cell types without knowledge of cell types or prior purification of cell populations. We revealed subpopulations in endocrine and exocrine cell types, identified genes with interesting correlations to body mass index (BMI) in specific cell types and found transcriptional alterations in T2D.  Complementary whole-islet RNA-seq data have also been deposited at ArrayExpress under accession number E-MTAB-5060 (http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-5060)."
 project.supplementary_files E-MTAB-5061.README.txt
