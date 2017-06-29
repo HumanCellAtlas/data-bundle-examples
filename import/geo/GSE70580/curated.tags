@@ -48,7 +48,7 @@ sample.body_part.organ_ontology UBERON_0002372
 	sample.donor.uuid 64154fb0-f8e7-44dc-9e08-e228e8704352
 
 		sample.characteristics_facs_gating ILC1
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2-
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2-
 		sample.long_label uninfected tonsil innate lymphoid cells ILC1 from donor T74
 		sample.short_label tonsil ILC1 cells
 
@@ -61,7 +61,7 @@ sample.body_part.organ_ontology UBERON_0002372
 			sample.uuid 83e47174-d8b4-4c6a-9bcd-0b7c98ef37ab
 
 		sample.characteristics_facs_gating NK
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127- CD56+ NKG2A+
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127- CD56+ NKG2A+
 		sample.long_label uninfected tonsil natural killer cells from donor T74
 		sample.short_label tonsil NK cells
 
@@ -266,7 +266,7 @@ sample.body_part.organ_ontology UBERON_0002372
 			sample.uuid 321bb6d3-d405-4315-9148-1da14e7e3288
 
 		sample.characteristics_facs_gating ILC2
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2+
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2+
 		sample.long_label uninfected tonsil innate lymphoid cells ILC2 from donor T74
 		sample.short_label tonsil ILC2 cells
 
@@ -359,7 +359,7 @@ sample.body_part.organ_ontology UBERON_0002372
 			sample.uuid 6dc4cab3-97ec-495c-a418-ea2cab04670d
 
 		sample.characteristics_facs_gating ILC3
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ CD161+ CD117+ CRTH2- NKp44+
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+
 		sample.long_label uninfected tonsil innate lymphoid cells ILC3 from donor T74
 		sample.short_label tonsil ILC3 cells
 
@@ -671,7 +671,7 @@ sample.body_part.organ_ontology UBERON_0002372
 	sample.donor.uuid bbb0d3cc-8a5a-494a-8210-31e8944dacdd
 
 		sample.characteristics_facs_gating ILC3
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ CD161+ CD117+ CRTH2- NKp44+
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+
 		sample.long_label uninfected tonsil innate lymphoid cells ILC3 from donor T75
 		sample.short_label tonsil ILC3 cells
 
@@ -1700,7 +1700,7 @@ sample.body_part.organ_ontology UBERON_0002372
 			sample.uuid d1bf5b57-b355-48d1-86c5-c9e44335d00b
 
 		sample.characteristics_facs_gating NK
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127- CD56+ NKG2A+
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127- CD56+ NKG2A+
 		sample.long_label uninfected tonsil natural killer cells from donor T75
 		sample.short_label tonsil NK cells
 
@@ -1889,7 +1889,7 @@ sample.body_part.organ_ontology UBERON_0002372
 			sample.uuid 3cea5393-0299-4b56-b497-ab94a28977c0
 
 		sample.characteristics_facs_gating ILC2
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2+
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2+
 		sample.long_label uninfected tonsil innate lymphoid cells ILC2 from donor T75
 		sample.short_label tonsil ILC2 cells
 
@@ -2390,7 +2390,7 @@ sample.body_part.organ_ontology UBERON_0002372
 			sample.uuid 8c9d4cf3-3e9f-43b5-92a6-baa761f71408
 
 		sample.characteristics_facs_gating ILC1
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2-
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2-
 		sample.long_label uninfected tonsil innate lymphoid cells ILC1 from donor T75
 		sample.short_label tonsil ILC1 cells
 
@@ -2878,7 +2878,7 @@ sample.body_part.organ_ontology UBERON_0002372
 	sample.donor.uuid e65ba87a-d2e8-44ce-a506-79b146b6ff5e
 
 		sample.characteristics_facs_gating ILC3
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ CD161+ CD117+ CRTH2- NKp44+
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+
 		sample.long_label uninfected tonsil innate lymphoid cells ILC3 from donor T86
 		sample.short_label tonsil ILC3 cells
 
@@ -4019,7 +4019,7 @@ sample.body_part.organ_ontology UBERON_0002372
 			sample.uuid 1d14fb9b-b494-44e0-b164-95292a05b1d5
 
 		sample.characteristics_facs_gating NK
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127- CD56+ NKG2A+
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127- CD56+ NKG2A+
 		sample.long_label uninfected tonsil natural killer cells from donor T86
 		sample.short_label tonsil NK cells
 
@@ -4232,7 +4232,7 @@ sample.body_part.organ_ontology UBERON_0002372
 			sample.uuid f611c1db-2370-40e5-b1d6-29882a06d048
 
 		sample.characteristics_facs_gating ILC2
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2+
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2+
 		sample.long_label uninfected tonsil innate lymphoid cells ILC2 from donor T86
 		sample.short_label tonsil ILC2 cells
 
@@ -4765,7 +4765,7 @@ sample.body_part.organ_ontology UBERON_0002372
 			sample.uuid 99dfc753-b73e-4d16-aeae-a6f6a7cf5cef
 
 		sample.characteristics_facs_gating ILC1
-		sample.treatment.enrichment CD3- CD14- CD19- CD45+ Lin- CD127+ NKG2A- CD16- CD117- CRTH2-
+		sample.treatment.enrichment CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2-
 		sample.long_label uninfected tonsil innate lymphoid cells ILC1 from donor T86
 		sample.short_label tonsil ILC1 cells
 
