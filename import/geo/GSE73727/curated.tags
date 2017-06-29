@@ -1,5 +1,6 @@
 project.title Single-cell transcriptomics reveals unique features of human pancreatic islet cell subtypes
 project.id GSE73727
+project.geo_doc_id 200073727
 sample.body_part.name islet of Langerhans
 sample.body_part.ontology UBERON_0000006
 sample.body_part.organ pancreas
