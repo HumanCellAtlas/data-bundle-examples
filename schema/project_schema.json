@@ -75,8 +75,20 @@
                 }, 
                 "state": {
                     "description": "State in the USA, provence, canton, or other subdivisions for other countries", 
-                    "pattern": "^AL$|^AZ$|^CA$|^FL$|^IL$|^MA$|^MO$|^NY$|^OR$|^PA$|^TX$|^WA$", 
-                    "type": "string"
+                    "enum": [
+                        "AL", 
+                        "AZ", 
+                        "CA", 
+                        "FL", 
+                        "IL", 
+                        "MA", 
+                        "MO", 
+                        "NY", 
+                        "OR", 
+                        "PA", 
+                        "TX", 
+                        "WA"
+                    ]
                 }, 
                 "street_address": {
                     "description": "Part of address excluding city, state, postal code, country. See also address", 
@@ -100,11 +112,10 @@
         }, 
         "contributor": {
             "description": "List of contributors. For individuals use first name, middle, last in that order separated by commas. Middle may be initial", 
-            "type": "array",
-	    "items": {
-	        "type": "string"
-	    }
-
+            "items": {
+                "type": "string"
+            }, 
+            "type": "array"
         }, 
         "ddjb_trace_project": {
             "description": "Japanese trace archive project accession.", 
@@ -189,10 +200,10 @@
         }, 
         "supplementary_files": {
             "description": "Project level supplementary files", 
-            "type": "array",
-	    "items": {
-	        "type": "string"
-	    }
+            "items": {
+                "type": "string"
+            }, 
+            "type": "array"
         }, 
         "title": {
             "description": "A sentence long or so description of the project", 
@@ -205,7 +216,6 @@
         }
     }, 
     "required": [
-	"contact",
         "id", 
         "summary", 
         "title", 

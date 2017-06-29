@@ -22,8 +22,17 @@
                 }, 
                 "organ": {
                     "description": "Organ - heart, lung, brain etc.", 
-                    "pattern": "^blood$|^bone$|^brain$|^embryo$|^eye$|^liver$|^pancreas$|^skin$|^tonsil$", 
-                    "type": "string"
+                    "enum": [
+                        "blood", 
+                        "bone", 
+                        "brain", 
+                        "embryo", 
+                        "eye", 
+                        "liver", 
+                        "pancreas", 
+                        "skin", 
+                        "tonsil"
+                    ]
                 }, 
                 "organ_ontology": {
                     "description": "An organ ontoogy erm in format ontology_id.  Example UBERON_0001264", 
@@ -32,8 +41,10 @@
                 }, 
                 "source": {
                     "description": "Commercial vendor, hospital, or lab body part was obtained from", 
-                    "pattern": "^Proto or NDRI$|^Prodo Laboratories Inc.$", 
-                    "type": "string"
+                    "enum": [
+                        "Proto or NDRI", 
+                        "Prodo Laboratories Inc."
+                    ]
                 }
             }, 
             "required": [
@@ -51,8 +62,11 @@
                 }, 
                 "age_unit": {
                     "description": "Unit age is expressed, typically day, week, month, or year", 
-                    "pattern": "^day$|^week$|^year$", 
-                    "type": "string"
+                    "enum": [
+                        "day", 
+                        "week", 
+                        "year"
+                    ]
                 }, 
                 "body_mass_index": {
                     "description": "Body mass index of donor", 
@@ -62,13 +76,27 @@
                 }, 
                 "development_stage": {
                     "description": "More detailed life stage.  Might be \"E9\" or \"P17\" for a mouse.", 
-                    "pattern": "^2-cell blastomeres$|^4-cell blastomeres$|^8-cell blastomeres$|^fertilized oocyte$|^late blastocyst$|^morula$|^oocyte$|^zygote$|^pronucleus phase zygote$", 
-                    "type": "string"
+                    "enum": [
+                        "2-cell blastomeres", 
+                        "4-cell blastomeres", 
+                        "8-cell blastomeres", 
+                        "fertilized oocyte", 
+                        "late blastocyst", 
+                        "morula", 
+                        "oocyte", 
+                        "zygote", 
+                        "pronucleus phase zygote"
+                    ]
                 }, 
                 "disease": {
                     "description": "Short description of disease status of individual.", 
-                    "pattern": "^normal$|^type II diabetes mellitus$|^type I diabetes mellitus$|^epilepsy$|^obstructive sleep apnea$", 
-                    "type": "string"
+                    "enum": [
+                        "normal", 
+                        "type II diabetes mellitus", 
+                        "type I diabetes mellitus", 
+                        "epilepsy", 
+                        "obstructive sleep apnea"
+                    ]
                 }, 
                 "ethnicity": {
                     "description": "For human donors, and optional free text ethnicity field.", 
@@ -76,8 +104,11 @@
                 }, 
                 "genotype": {
                     "description": "Mostly used for non-human donors.  Does not include strain. Often supplied by vender. Examples: \"Vsx2-GFP\" \"Crl:SHO-Prkdcscid Hrhr\"", 
-                    "pattern": "^AAV-GFP+ RIP-Cre+$|^Vsx2-GFP$|^Tomato/DAT-Cre+$", 
-                    "type": "string"
+                    "enum": [
+                        "AAV-GFP+ RIP-Cre+", 
+                        "Vsx2-GFP", 
+                        "Tomato/DAT-Cre+"
+                    ]
                 }, 
                 "id": {
                     "description": "Donor id as described by data submitters.  Unique to project.", 
@@ -85,8 +116,14 @@
                 }, 
                 "life_stage": {
                     "description": "Donor life stage, usually \"embryo\" \"postpartum\" or \"adult\"", 
-                    "pattern": "^adult$|^cell line$|^child$|^embryo$|^organoid$|^postpartum$", 
-                    "type": "string"
+                    "enum": [
+                        "adult", 
+                        "cell line", 
+                        "child", 
+                        "embryo", 
+                        "organoid", 
+                        "postpartum"
+                    ]
                 }, 
                 "medication": {
                     "description": "List of medications donor is on", 
@@ -100,18 +137,33 @@
                 }, 
                 "sex": {
                     "description": "Sex of donor.  Either 'male' 'female' 'mixed' or 'unknown'", 
-                    "pattern": "^female$|^male$|^mixed$|^unknown$", 
-                    "type": "string"
+                    "enum": [
+                        "female", 
+                        "male", 
+                        "mixed", 
+                        "unknown"
+                    ]
                 }, 
                 "species": {
                     "description": "Scientific binomial name of donor.  Examples \"Homo sapiens\" or \"Mus musculus\"", 
-                    "pattern": "^Homo sapiens$|^Mus musculus$", 
-                    "type": "string"
+                    "enum": [
+                        "Homo sapiens", 
+                        "Mus musculus"
+                    ]
                 }, 
                 "strain": {
                     "description": "Mouse inbred strain.  Example C57BL/6", 
-                    "pattern": "^(C57BL/6 x DBA)F2$|^C57BL/6$|^C57BL/6J (mother) x CAST/EiJ (father)$|^CAST/EiJ (mother) x C57BL/6J (father)$|^CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ$|^CAST/EiJ_x_C57BL/6J$|^ICR$|^CD1$|^C57BL/6$", 
-                    "type": "string"
+                    "enum": [
+                        "(C57BL/6 x DBA)F2", 
+                        "C57BL/6", 
+                        "C57BL/6J (mother) x CAST/EiJ (father)", 
+                        "CAST/EiJ (mother) x C57BL/6J (father)", 
+                        "CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ", 
+                        "CAST/EiJ_x_C57BL/6J", 
+                        "ICR", 
+                        "CD1", 
+                        "C57BL/6"
+                    ]
                 }, 
                 "uuid": {
                     "description": "Unique id for donor. Generated by HCA", 
@@ -129,8 +181,11 @@
             "properties": {
                 "culture_type": {
                     "description": "\"primary\" \"cell line\"  \"organoid\" or \"none\"", 
-                    "pattern": "^cell line$|^primary culture$|^tissue$", 
-                    "type": "string"
+                    "enum": [
+                        "cell line", 
+                        "primary culture", 
+                        "tissue"
+                    ]
                 }, 
                 "enrichment": {
                     "description": "Markers by which cells were enriched by sorting or panning.  Something like \"CD3+ CD8+\" or \"CD4+ CD8-\"", 
@@ -161,10 +216,14 @@
         }, 
         "cell_line": {
             "description": "If sample is from a cell line, the name of cell line", 
-            "pattern": "^AB2.2$|^H9$|^iPSC 409B2$", 
-            "type": "string"
+            "enum": [
+                "AB2.2", 
+                "H9", 
+                "iPSC 409B2"
+            ]
         }, 
         "data_processing": {
+            "description": "Data processing that describes how supplementary files other than fastqs were generated. Captured from ArrayExpress and GEO", 
 	    "type": "array",
 	    "items": {
 	        "type": "string"
@@ -216,10 +275,6 @@
 		}
 	    }
         }, 
-        "short": {
-            "description": "describe_me_please", 
-            "type": "string"
-        }, 
         "short_label": {
             "description": "A label ideally less than 20 characters long", 
             "type": "string"
@@ -235,7 +290,10 @@
         }, 
         "supplementary_files": {
             "description": "Sample level supplementary files", 
-            "type": "string"
+            "items": {
+                "type": "string"
+            }, 
+            "type": "array"
         }, 
         "treatment": {
             "$ref": "#/definitions/treatment"
