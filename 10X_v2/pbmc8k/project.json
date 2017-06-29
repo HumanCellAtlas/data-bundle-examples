@@ -1,5 +1,6 @@
 {
     "id": "10x_pbmc8k", 
     "title": "Peripheral blood mononuclear cells (PBMCs) from a healthy donor", 
-    "uuid": "7068d6f8-31aa-405f-b02d-51ce7361b686"
+    "uuid": "7068d6f8-31aa-405f-b02d-51ce7361b686",
+    "summary": "The RNA sequence of 8,403 peripheral blood mononuclear cells (PBMCs) from a healthy donor.  This is a demonstration set created using of the 10x Genomics Chromium platform with v2 Chemistry processed by Cell Ranger 1.3.0. The library was sequenced to a depth of approximatedly 92,000 reads per cell."
 }
