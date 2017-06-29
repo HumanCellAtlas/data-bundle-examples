@@ -1,0 +1,256 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#", 
+    "additionalProperties": false, 
+    "definitions": {
+        "body_part": {
+            "additionalProperties": false, 
+            "properties": {
+                "cell_count": {
+                    "description": "The number of cells supposed to be in sample", 
+                    "maximum": 10000.0, 
+                    "minimum": 0.0, 
+                    "type": "number"
+                }, 
+                "name": {
+                    "description": "Short descriptive name of body part. Typically contains more detail than organ", 
+                    "type": "string"
+                }, 
+                "ontology": {
+                    "description": "An anotomy or cell ontology term ID in format ontology_id.  Example UBERON_0000966", 
+                    "pattern": "^.*_0......$", 
+                    "type": "string"
+                }, 
+                "organ": {
+                    "description": "Organ - heart, lung, brain etc.", 
+                    "pattern": "^blood$|^bone$|^brain$|^embryo$|^eye$|^liver$|^pancreas$|^skin$|^tonsil$", 
+                    "type": "string"
+                }, 
+                "organ_ontology": {
+                    "description": "An organ ontoogy erm in format ontology_id.  Example UBERON_0001264", 
+                    "pattern": "^.*_0......$", 
+                    "type": "string"
+                }, 
+                "source": {
+                    "description": "Commercial vendor, hospital, or lab body part was obtained from", 
+                    "pattern": "^Proto or NDRI$|^Prodo Laboratories Inc.$", 
+                    "type": "string"
+                }
+            }, 
+            "required": [
+                "name", 
+                "organ"
+            ], 
+            "type": "object"
+        }, 
+        "donor": {
+            "additionalProperties": false, 
+            "properties": {
+                "age": {
+                    "description": "Age in age_units.  Expressed since birth.  For embyos measured since fertilization.", 
+                    "type": "number"
+                }, 
+                "age_unit": {
+                    "description": "Unit age is expressed, typically day, week, month, or year", 
+                    "pattern": "^day$|^week$|^year$", 
+                    "type": "string"
+                }, 
+                "body_mass_index": {
+                    "description": "Body mass index of donor", 
+                    "maximum": 100.0, 
+                    "minimum": 1.0, 
+                    "type": "number"
+                }, 
+                "development_stage": {
+                    "description": "More detailed life stage.  Might be \"E9\" or \"P17\" for a mouse.", 
+                    "pattern": "^2-cell blastomeres$|^4-cell blastomeres$|^8-cell blastomeres$|^fertilized oocyte$|^late blastocyst$|^morula$|^oocyte$|^zygote$|^pronucleus phase zygote$", 
+                    "type": "string"
+                }, 
+                "disease": {
+                    "description": "Short description of disease status of individual.", 
+                    "pattern": "^normal$|^type II diabetes mellitus$|^type I diabetes mellitus$|^epilepsy$|^obstructive sleep apnea$", 
+                    "type": "string"
+                }, 
+                "ethnicity": {
+                    "description": "For human donors, and optional free text ethnicity field.", 
+                    "type": "string"
+                }, 
+                "genotype": {
+                    "description": "Mostly used for non-human donors.  Does not include strain. Often supplied by vender. Examples: \"Vsx2-GFP\" \"Crl:SHO-Prkdcscid Hrhr\"", 
+                    "pattern": "^AAV-GFP+ RIP-Cre+$|^Vsx2-GFP$|^Tomato/DAT-Cre+$", 
+                    "type": "string"
+                }, 
+                "id": {
+                    "description": "Donor id as described by data submitters.  Unique to project.", 
+                    "type": "string"
+                }, 
+                "life_stage": {
+                    "description": "Donor life stage, usually \"embryo\" \"postpartum\" or \"adult\"", 
+                    "pattern": "^adult$|^cell line$|^child$|^embryo$|^organoid$|^postpartum$", 
+                    "type": "string"
+                }, 
+                "medication": {
+                    "description": "List of medications donor is on", 
+                    "type": "string"
+                }, 
+                "ncbi_taxon": {
+                    "description": "NCBI's taxon ID.  10090 for mice,  9606 for humans", 
+                    "maximum": 100000, 
+                    "minimum": 1, 
+                    "type": "integer"
+                }, 
+                "sex": {
+                    "description": "Sex of donor.  Either 'male' 'female' 'mixed' or 'unknown'", 
+                    "pattern": "^female$|^male$|^mixed$|^unknown$", 
+                    "type": "string"
+                }, 
+                "species": {
+                    "description": "Scientific binomial name of donor.  Examples \"Homo sapiens\" or \"Mus musculus\"", 
+                    "pattern": "^Homo sapiens$|^Mus musculus$", 
+                    "type": "string"
+                }, 
+                "strain": {
+                    "description": "Mouse inbred strain.  Example C57BL/6", 
+                    "pattern": "^(C57BL/6 x DBA)F2$|^C57BL/6$|^C57BL/6J (mother) x CAST/EiJ (father)$|^CAST/EiJ (mother) x C57BL/6J (father)$|^CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ$|^CAST/EiJ_x_C57BL/6J$|^ICR$|^CD1$|^C57BL/6$", 
+                    "type": "string"
+                }, 
+                "uuid": {
+                    "description": "Unique id for donor. Generated by HCA", 
+                    "pattern": "^........-....-....-....-............$", 
+                    "type": "string"
+                }
+            }, 
+            "required": [
+                "species"
+            ], 
+            "type": "object"
+        }, 
+        "treatment": {
+            "additionalProperties": false, 
+            "properties": {
+                "culture_type": {
+                    "description": "\"primary\" \"cell line\"  \"organoid\" or \"none\"", 
+                    "pattern": "^cell line$|^primary culture$|^tissue$", 
+                    "type": "string"
+                }, 
+                "enrichment": {
+                    "description": "Markers by which cells were enriched by sorting or panning.  Something like \"CD3+ CD8+\" or \"CD4+ CD8-\"", 
+                    "type": "string"
+                }, 
+                "enrichment_method": {
+                    "description": "Method for enriching cells.  Typically \"pan\" or \"FACS\" or \"MACS\"", 
+                    "type": "string"
+                }
+            }, 
+            "type": "object"
+        }
+    }, 
+    "description": "sample schema generate by tagSchemaToJson from curated.tight", 
+    "patternProperties": {
+        "^characteristics_.*$": {
+            "description": "FIelds that begin with sample.characteristics_ can contain any value, and the field name can be anything after the prefix", 
+            "type": "string"
+        }
+    }, 
+    "properties": {
+        "biosd_sample": {
+            "description": "EBI biosample ID", 
+            "type": "string"
+        }, 
+        "body_part": {
+            "$ref": "#/definitions/body_part"
+        }, 
+        "cell_line": {
+            "description": "If sample is from a cell line, the name of cell line", 
+            "pattern": "^AB2.2$|^H9$|^iPSC 409B2$", 
+            "type": "string"
+        }, 
+        "data_processing": {
+	    "type": "array",
+	    "items": {
+	        "type": "string"
+	    }
+        }, 
+        "donor": {
+            "$ref": "#/definitions/donor"
+        }, 
+        "ena_sample": {
+            "description": "European nucleotide archive sample ID", 
+            "pattern": "^ERS.*$", 
+            "type": "string"
+        }, 
+        "geo_sample": {
+            "description": "NCBI GEO sample accession", 
+            "pattern": "^GSM.*$", 
+            "type": "string"
+        }, 
+        "id": {
+            "description": "Sample ID provided by data submitter. Unique within project.", 
+            "type": "string"
+        }, 
+        "last_update_date": {
+            "description": "describe_me_please", 
+            "pattern": "^2...-..-..$", 
+            "type": "string"
+        }, 
+        "long_label": {
+            "description": "A label ideally between 20 and 100 characters long.", 
+            "type": "string"
+        }, 
+        "ncbi_biosample": {
+            "description": "NCBI biosample ID", 
+            "type": "string"
+        }, 
+        "passage_number": {
+            "description": "Number of times cell line passaged during culture if a cell line", 
+            "maximum": 10, 
+            "minimum": 0, 
+            "type": "integer"
+        }, 
+        "protocols": {
+	    "type": "array",
+	    "items": {
+	        "type": "object",
+		"properties": {
+		    "description": { "type": "string"},
+		    "type": {"type": "string"}
+		}
+	    }
+        }, 
+        "short": {
+            "description": "describe_me_please", 
+            "type": "string"
+        }, 
+        "short_label": {
+            "description": "A label ideally less than 20 characters long", 
+            "type": "string"
+        }, 
+        "storage": {
+            "description": "How sample was stored.  Might be \"frozen\" or \"fresh\" or a longer description.", 
+            "type": "string"
+        }, 
+        "submission_date": {
+            "description": "When sample was submitted to database. If missing assumed same as project.submission_date", 
+            "pattern": "^2...-..-..$", 
+            "type": "string"
+        }, 
+        "supplementary_files": {
+            "description": "Sample level supplementary files", 
+            "type": "string"
+        }, 
+        "treatment": {
+            "$ref": "#/definitions/treatment"
+        }, 
+        "uuid": {
+            "description": "Unique id for sample.  Generated by HCA", 
+            "pattern": "^........-....-....-....-............$", 
+            "type": "string"
+        }
+    }, 
+    "required": [
+        "long_label", 
+        "uuid", 
+        "short_label"
+    ], 
+    "title": "sample", 
+    "type": "object"
+}
