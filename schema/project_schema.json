@@ -130,7 +130,10 @@
         }, 
         "experimental_factor_name": {
             "description": "Name of experimental factors (generally each with an EFO ontology) that vary in projects experiment.  Examples \"cell_line\"  \"disease\"", 
-            "type": "string"
+            "items": {
+                "type": "string"
+            }, 
+            "type": "array"
         }, 
         "geo_doc_id": {
             "description": "Most people use geo_series instead of this numerical GEO id that is equivalent", 

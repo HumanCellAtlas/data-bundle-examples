@@ -191,7 +191,10 @@
         }, 
         "submitted_file_names": {
             "description": "Names of files as submitted to database, which were renamed by database in files array", 
-            "type": "string"
+            "items": {
+                "type": "string"
+            }, 
+            "type": "array"
         }
     }, 
     "title": "assay", 
