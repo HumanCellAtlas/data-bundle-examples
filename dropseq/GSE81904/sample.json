@@ -1,11 +1,11 @@
 {
     "body_part": {
         "name": "retina", 
-        "ontology": "UBERON:0000966", 
+        "ontology": "UBERON_0000966", 
         "organ": "eye"
     }, 
     "donor": {
-        "age": "17", 
+        "age": 17, 
         "age_unit": "day", 
         "genotype": "Vsx2-GFP", 
         "life_stage": "postpartum", 
