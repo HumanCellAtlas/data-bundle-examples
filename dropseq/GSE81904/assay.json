@@ -32,5 +32,5 @@
         "method": "drop-seq"
     }, 
     "sra_experiment": "SRX1800075", 
-    "sra_run": "SRR3587500"
+    "sra_run": ["SRR3587500"]
 }
