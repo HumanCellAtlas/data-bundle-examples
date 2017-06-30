@@ -41,6 +41,6 @@
     ], 
     "short_label": "12w fetal neocortex", 
     "submission_date": "2015-11-30", 
-    "supplementary_files": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX145/SRX1457054", 
+    "supplementary_files": ["ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX145/SRX1457054"], 
     "uuid": "c440e605-51fe-4420-ad32-eed24e88fe9d"
 }

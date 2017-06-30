@@ -26,5 +26,5 @@
         "method": "Fluidigm C1"
     }, 
     "sra_experiment": "SRX1457054", 
-    "sra_run": "SRR2967608"
+    "sra_run": ["SRR2967608"]
 }
