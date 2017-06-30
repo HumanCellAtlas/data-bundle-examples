@@ -5,7 +5,7 @@
         {
             "format": ".fastq.gz", 
             "name": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1630013/ERR1630013.fastq.gz", 
-	    "lane": "1",
+	    "lane": 1,
             "type": "reads"
         }
     ], 
@@ -13,7 +13,7 @@
         "prep": "smart-seq2", 
         "primer": "random", 
         "spike_in": "ERCC", 
-        "spike_in_dilution": "40000", 
+        "spike_in_dilution": 40000, 
         "strand": "both"
     }, 
     "seq": {
@@ -26,5 +26,5 @@
         "cell_barcode_size": 0, 
         "method": "FACS"
     }, 
-    "submitted_file_names": "AZ_A1.fastq.gz"
+    "submitted_file_names": ["AZ_A1.fastq.gz"]
 }

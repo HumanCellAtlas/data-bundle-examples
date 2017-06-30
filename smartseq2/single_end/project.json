@@ -3,8 +3,8 @@
         "accession": "E-MTAB-5061", 
         "experiment_type": "RNA-seq of coding RNA from single cells", 
         "related_experiment": "E-MTAB-5060", 
-        "term_source_file": "http://www.ebi.ac.uk/efo/", 
-        "term_source_name": "EFO"
+        "term_source_file": ["http://www.ebi.ac.uk/efo/"], 
+        "term_source_name": ["EFO"]
     }, 
     "contact": {
         "address": "Nobels v\u00e4g 3, 171 77, Stockholm, Sweden.",
@@ -24,18 +24,14 @@
         "disease"
     ], 
     "id": "E-MTAB-5061", 
-    "mage_tab_version": "1.1", 
+    "mage_tab_version": 1.1, 
     "overall_design": [
         "cell type comparison design", 
         "disease state design"
     ], 
-    "overall_design_accession": [
-        "EFO_0001745", 
-        "EFO_0001756"
-    ], 
     "release_status": "2016-09-22", 
     "summary": "We used single-cell RNA-sequencing to generate transcriptional profiles of endocrine and exocrine cell types of the human pancreas. Pancreatic tissue and islets were obtained from six healthy and four T2D cadaveric donors. Islets were cultured and dissociated into single-cell suspension. Viable individual cells were distributed via fluorescence-activated cell sorted (FACS) into 384-well plates containing lysis buffer. Single-cell cDNA libraries were generated using the Smart-seq2 protocol. Gene expression was quantified as reads per kilobase transcript and per million mapped reads (RPKM) using rpkmforgenes. Bioinformatics analysis was used to classify cells into cell types without knowledge of cell types or prior purification of cell populations. We revealed subpopulations in endocrine and exocrine cell types, identified genes with interesting correlations to body mass index (BMI) in specific cell types and found transcriptional alterations in T2D.  Complementary whole-islet RNA-seq data have also been deposited at ArrayExpress under accession number E-MTAB-5060 (http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-5060).", 
-    "supplementary_files": "E-MTAB-5061.README.txt", 
+    "supplementary_files": ["E-MTAB-5061.README.txt"], 
     "title": "Single-cell RNA-seq analysis of human pancreas from healthy individuals and type 2 diabetes patients", 
     "uuid": "ee7350e8-6318-450f-afd4-3a661956a1a5"
 }
