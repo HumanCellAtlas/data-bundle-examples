@@ -231,13 +231,13 @@ class GetImportData:
             }
 
     def additional_mime_tags(self, file: S3ExampleFile, current_tags: dict):
-        if 'content-type' in current_tags and current_tags['content-type'] != None:
+        if 'hca-dss-content-type' in current_tags and current_tags['hca-dss-content-type'] != None:
             return {}
         else:
             mime_type = mimetypes.guess_type(file.path)[0]
             if (mime_type == None):
                 mime_type = "application/octet-stream"
-            return {'content-type': mime_type}
+            return {'hca-dss-content-type': mime_type}
 
     def checksum_tags_are_all_present(self, actual_tags: dict) -> bool:
         # TODO try python has map(), filter(), reduce(), all()
