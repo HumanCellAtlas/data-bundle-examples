@@ -47,6 +47,7 @@ class GetImportData:
         parser.add_argument('--cleanup', action='store_true', default=False)
 
         # get args
+        self.error_count = 0
         args = parser.parse_args()
         self.input_dir = args.input_dir
         self.output_s3_dir = args.output_s3_dir
@@ -62,6 +63,7 @@ class GetImportData:
         print ("BUCKET: "+self.bucket+" ROOT: "+self.root)
         # run
         self.run()
+        print ("ERRORS COUNT: "+str(self.error_count))
 
 
     def run(self):
@@ -110,9 +112,10 @@ class GetImportData:
                 else:
                     print("SKIPPING DOWNLOAD: "+str(dir+"/"+name)+" TO: "+directory+"/"+name+" - FILE SIZES IDENTICAL")
             except Exception as error:
-                print ("ERROR: "+error)
-                # just exit with non-zero status
-                sys.exit(1)
+                self.error_count += 1
+                print ("AN EXCEPTION OCCURRED PROCESSING: "+directory+"/"+name)
+                print ("SKIPPING FOR NOW, RERUN TO RETRY!")
+                print ("ERROR: "+str(error))
 
 
     def upload(self, path):
