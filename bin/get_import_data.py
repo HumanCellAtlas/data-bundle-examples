@@ -46,6 +46,8 @@ class GetImportData:
         parser.add_argument('--test', action='store_true', default=False)
         parser.add_argument('--cleanup', action='store_true', default=False)
 
+        # an array of bucket paths
+        self.bucket_paths = []
         # get args
         self.error_count = 0
         args = parser.parse_args()
@@ -201,11 +203,13 @@ class GetImportData:
             for bundle in S3ExampleBundle.some(self.bucket, self.root, m.group(1)):
                 print("Bundle: ", bundle.path)
                 #print(type(bundle))
+                self.bucket_paths.append(bundle)
                 self.add_tagging_for_bundle(bundle)
             return True
         return False
 
     def add_tagging_for_bundle(self, bundle: S3ExampleBundle):
+        print("TESTING IDENTIFYING A BUNDLE: s3://"+bundle.bucket_str+"/"+bundle.root+"/"+bundle.path)
         for file in bundle.files:
             print("    File: ", file.path)
             #print(type(file))
