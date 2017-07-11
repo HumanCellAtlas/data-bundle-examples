@@ -8,6 +8,7 @@
     Example: python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples --cleanup --test
     For where Clay was working (note plural "bundles"):
     git pull && python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundles-examples --cleanup > >(tee stdout.txt) 2> >(tee stderr.txt >&2)
+     git pull && time python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundles-examples --cleanup --make-bundles > >(tee stdout.4.txt) 2> >(tee stderr.4.txt >&2)
     Tested with Python 3.6.0
 """
 
@@ -45,9 +46,10 @@ class GetImportData:
         parser.add_argument('--output-s3-dir', required=True)
         parser.add_argument('--test', action='store_true', default=False)
         parser.add_argument('--cleanup', action='store_true', default=False)
+        parser.add_argument('--make-bundles', action='store_true', default=False)
 
         # an array of bucket paths
-        self.bucket_paths = []
+        #self.bucket_paths = {}
         # get args
         self.error_count = 0
         args = parser.parse_args()
@@ -56,6 +58,7 @@ class GetImportData:
         self.conn = boto.connect_s3()
         self.test = args.test
         self.cleanup = args.cleanup
+        self.make_bundles = args.make_bundles
         # tracking the number of files that are missing from S3
         self.missing_files = 0
         # breakdown bucket and root
@@ -85,12 +88,21 @@ class GetImportData:
                     print ("UPLOAD JSON FILE: "+root+"/"+file)
                     self.upload(root+"/"+file)
                 sys.stdout.flush()
-        # now that the transfers are done, do one more series of tagging to fill in any missing tags
-        # this won't cost much extra time since it only tags those files missing tags
+        # Now that the transfers are done, do one more series of tagging to fill in any missing tags.
+        # This won't cost much extra time since it only tags those files missing tags.
+        # Also, since we're walking the bundles, go ahead and create new bundles in the
+        # blue box if the user has requested.
+        # TODO: the hca upload client should offer the ability to create new versions of
+        # existing bundles rather than upload new ones each time. The below will create duplicates.
         for bundle in S3ExampleBundle.all(self.bucket, self.root):
             print("Tagging Bundle: ", bundle.path)
             #print(type(bundle))
             self.add_tagging_for_bundle(bundle)
+            if (self.make_bundles):
+                print("Registering bundle")
+                print("  Bundle S3 location: s3://"+bundle.bucket_str+"/"+bundle.root+"/"+bundle.path)
+                # now register the bundle if we're doing that!
+                self.register_bundle(bundle)
 
     def download(self, struct, directory):
         dir = struct['dir']
@@ -203,13 +215,19 @@ class GetImportData:
             for bundle in S3ExampleBundle.some(self.bucket, self.root, m.group(1)):
                 print("Bundle: ", bundle.path)
                 #print(type(bundle))
-                self.bucket_paths.append(bundle)
+                # saving the bundle object for use later when registering
+                #print("Bundle S3 location: s3://"+bundle.bucket_str+"/"+bundle.root+"/"+bundle.path)
+                #self.bucket_paths[bundle.path] = bundle
                 self.add_tagging_for_bundle(bundle)
             return True
         return False
 
+    def register_bundle(self, bundle: S3ExampleBundle):
+        # TODO: need to really execute this once the hca command line supports it
+        print("hca upload --replica aws s3://"+bundle.bucket_str+"/"+bundle.root+"/"+bundle.path)
+
     def add_tagging_for_bundle(self, bundle: S3ExampleBundle):
-        print("TESTING IDENTIFYING A BUNDLE: s3://"+bundle.bucket_str+"/"+bundle.root+"/"+bundle.path)
+
         for file in bundle.files:
             print("    File: ", file.path)
             #print(type(file))
