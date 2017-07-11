@@ -8,6 +8,7 @@
     Example: python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundle-examples --cleanup --test
     For where Clay was working (note plural "bundles"):
     git pull && python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundles-examples --cleanup > >(tee stdout.txt) 2> >(tee stderr.txt >&2)
+    # an example that makes bundles in the blue box in addition to staging data 
      git pull && time python bin/get_import_data.py --input-dir import --output-s3-dir s3://hca-dss-test-src/data-bundles-examples --cleanup --make-bundles > >(tee stdout.4.txt) 2> >(tee stderr.4.txt >&2)
     Tested with Python 3.6.0
 """
