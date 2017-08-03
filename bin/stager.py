@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.6
 
-import argparse, glob, json, mimetypes, os, re, signal, sys
+import argparse, glob, json, io, mimetypes, os, re, signal, sys
 from functools import reduce
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
@@ -27,30 +27,42 @@ class S3Location(DotMap):
         return f"s3://{self.Bucket}/{self.Key}"
 
 
-quiet = False
-terse = False
-progress_string = ""
+class MyLogger:
+    def __init__(self):
+        self.destination = sys.stdout
+        self.progress_string = ""
+        self.terse = False
+        self.quiet = False
+        self.logfile = None
 
+    def configure(self, logfile=None, terse=False, quiet=False):
+        self.terse = terse
+        self.quiet = quiet
+        if logfile:
+            self.logfile = io.TextIOWrapper(open(logfile, 'wb'))
 
-def output(msg, progress_char=None):
-    global quiet, terse, progress_string
-    if not quiet and not terse:
-        sys.stdout.write(msg)
-    if progress_char:
-        progress(progress_char)
+    def output(self, msg, progress_char=None):
+        if not self.quiet:
+            sys.stdout.write(msg)
+        if self.logfile:
+            self.logfile.write(msg)
+        if progress_char:
+            self.progress(progress_char)
 
+    def progress(self, char):
+        self.progress_string += char
 
-def progress(char):
-    global progress_string
-    progress_string += char
-
-
-def report_progress():
-    global terse, progress_string
-    if terse:
-        sys.stdout.write(progress_string)
+    def flush(self):
+        if self.terse:
+            sys.stdout.write(self.progress_string)
+        self.progress_string = ""
         sys.stdout.flush()
-    progress_string = ""
+        if self.logfile:
+            self.logfile.flush()
+
+
+logger = MyLogger()
+
 
 # Executor complains if it is an object attribute, so we make it global.
 executor = None
@@ -77,11 +89,17 @@ class Main:
                             help="Stage bundles under this path (must not include 'bundles')")
         parser.add_argument('-q', '--quiet', action='store_true', default=False, help="Silence is golden")
         parser.add_argument('-t', '--terse', action='store_true', default=False, help="Terse output, one dot per bundle")
+        parser.add_argument('-l', '--log', default=None, help="Log verbose output to this file")
         parser.add_argument('-j', '--jobs', type=int, default=1, help="Parallelize with this many jobs")
         self.args = parser.parse_args()
-        global quiet, terse
-        quiet = self.args.quiet
-        terse = self.args.terse if self.args.jobs == 1 else True
+        if self.args.jobs > 1:
+            quiet = True
+            terse = True
+        else:
+            quiet = self.args.quiet
+            terse = self.args.terse
+
+        logger.configure(self.args.log, quiet=quiet, terse=terse)
 
     def stage_bundles(self, bundles):
         global executor
@@ -109,32 +127,29 @@ class BundleStager:
         self.target_bucket = target_bucket
 
     def stage(self, bundle):
-        output(f"\nBundle: {bundle.path}", "B")
+        logger.output(f"\nBundle: {bundle.path}", "B")
         try:
             self._stage_data_files(bundle)
             self._stage_metadata(bundle)
         except BundleMissingDataFile as e:
-            output(f" -> {str(e)}\n", "!")
-        report_progress()
+            logger.output(f" -> {str(e)}\n", "!")
+        logger.flush()
 
     def _stage_data_files(self, bundle):
         if bundle.manifest is None:
             return
-        output(f"\n  Data files ({len(bundle.manifest['files'])}):")
+        logger.output(f"\n  Data files ({len(bundle.manifest['files'])}):")
         for fileinfo in bundle.manifest['files']:
             file = fileinfo['name']
-            output(f"\n    {file} ")
+            logger.output(f"\n    {file} ")
             DataFileStager(bundle, file).stage_file(self.target_bucket)
             # TODO update assay.json with data file locations?
 
     def _stage_metadata(self, bundle):
-        output("\n  Metadata:")
+        logger.output("\n  Metadata:")
         for metadata_file in bundle.metadata_files:
-            output(f"\n    {metadata_file}: ")
+            logger.output(f"\n    {metadata_file}: ")
             MetadataFileStager(bundle, metadata_file).stage(self.target_bucket)
-
-    def _bundle_is_already_in_s3(self):
-        S3Agent()
 
 
 class LocalBundle:
@@ -185,29 +200,30 @@ class DataFileStager:
         self.target = S3Location(bucket=target_bucket, key=f"{self.bundle.path}/{self.file}")
 
         if self._obj_is_at_target_location():
-            progress(",")
+            logger.progress(",")
         else:
             s3loc = self._locate_data_file_in_old_locations(self.bundle, self.file)
             if s3loc:
                 self._copy_from_cloud_to_target_location(s3loc)
-                progress('C')
-                output(f"\n      Deleting {s3loc}")
+                logger.progress('C')
+                logger.output(f"\n      Deleting {s3loc}")
                 self.s3.delete_object(s3loc)
             else:
                 raise BundleMissingDataFile(f"Cannot find source for {self.file}")
                 # TODO download it and upload it
                 return
         if self._ensure_checksum_tags():
-            progress("+")
+            logger.progress("+")
 
     def _obj_is_at_target_location(self):
         if self.s3.object_exists(self.target):
-            output("=present ")
+            # TODO also check size or checksum
+            logger.output("=present ")
             return True
 
     def _copy_from_cloud_to_target_location(self, cloud_location):
-        output(f"\n      found at {cloud_location.uri()}")
-        output(f"\n      copy to {self.target}")
+        logger.output(f"\n      found at {cloud_location.uri()}")
+        logger.output(f"\n      copy to {self.target}")
         self.s3.copy_between_buckets(cloud_location, self.target)
         S3ObjectTagger(self.target).copy_tags_from_object(cloud_location)
 
@@ -255,10 +271,11 @@ class MetadataFileStager:
     def stage(self, bucket) -> bool:
         target_location = S3Location(bucket, self.file_path)
         if self.s3.object_exists(target_location):
-            output("=present ", progress_char=".")
+            # TODO also check size or checksum
+            logger.output("=present ", progress_char=".")
             S3ObjectTagger(target_location).complete_tags()
         else:
-            output("+uploading ", progress_char="u")
+            logger.output("+uploading ", progress_char="u")
             self.s3.upload_with_checksum_tags(self.file_path, target_location)
 
 
@@ -282,25 +299,25 @@ class S3ObjectTagger:
     def tag_using_these_checksums(self, raw_sums: dict):
         tags = self._hca_checksum_tags(raw_sums)
         tags.update(self._generate_mime_tags())
-        output("+tagging ")
+        logger.output("+tagging ")
         self.s3.add_tagging(self.target, tags)
 
     def complete_tags(self):
         current_tags = self.s3.get_tagging(self.target)
         missing_tags = self._missing_tags(current_tags, self.ALL_TAGS)
         if missing_tags:
-            output(f"\n      missing tags: {missing_tags}")
+            logger.output(f"\n      missing tags: {missing_tags}")
             if self._missing_tags(current_tags, self.CHECKSUM_TAGS):
                 current_tags.update(self._generate_checksum_tags())
             if self.MIME_TAG not in current_tags:
                 current_tags.update(self._generate_mime_tags())
-            output(f"\n      Tagging with: {list(current_tags.keys())}")
+            logger.output(f"\n      Tagging with: {list(current_tags.keys())}")
             self.s3.add_tagging(self.target, current_tags)
             return True
         return False
 
     def _generate_checksum_tags(self) -> dict:
-        output("\n      generating checksums")
+        logger.output("\n      generating checksums")
         sums = self._compute_checksums_from_s3(self.target)
         return self._hca_checksum_tags(sums)
 
