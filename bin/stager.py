@@ -1,7 +1,8 @@
 #!/usr/bin/env python3.6
 
-import os, sys, argparse, glob, re, json, mimetypes
+import argparse, glob, json, mimetypes, os, re, signal, sys
 from functools import reduce
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 import boto3
 from botocore.exceptions import ClientError
@@ -27,11 +28,32 @@ class S3Location(DotMap):
 
 
 quiet = False
+terse = False
+progress_string = ""
 
 
-def output(string):
-    if not quiet:
-        sys.stdout.write(string)
+def output(msg, progress_char=None):
+    global quiet, terse, progress_string
+    if not quiet and not terse:
+        sys.stdout.write(msg)
+    if progress_char:
+        progress(progress_char)
+
+
+def progress(char):
+    global progress_string
+    progress_string += char
+
+
+def report_progress():
+    global terse, progress_string
+    if terse:
+        sys.stdout.write(progress_string)
+        sys.stdout.flush()
+    progress_string = ""
+
+# Executor complains if it is an object attribute, so we make it global.
+executor = None
 
 
 class Main:
@@ -40,24 +62,45 @@ class Main:
 
     def __init__(self):
         self._parse_args()
-        if self.bundle_path:
-            BundleStager(self.target_bucket).stage_bundle(LocalBundle(self.bundle_path))
+        if self.args.bundle:
+            self.stage_bundle(LocalBundle(self.args.bundle))
         else:
-            BundleStager(self.target_bucket).stage_all()
-        output("\n")
+            self.stage_bundles(LocalBundle.bundles_under(self.args.bundles))
+        print("")
 
     def _parse_args(self):
         parser = argparse.ArgumentParser(description="Stage example bundles in S3",
                                          usage='%(prog)s [options]')
         parser.add_argument('--target-bucket', default=self.DEFAULT_BUCKET, help="Stage files in this bucket")
         parser.add_argument('--bundle', default=None, help="Stage single bundle at this path")
+        parser.add_argument('--bundles', default='import',
+                            help="Stage bundles under this path (must not include 'bundles')")
         parser.add_argument('-q', '--quiet', action='store_true', default=False, help="Silence is golden")
-        parser.add_argument('-j', '--jobs', type=int, help="Parallelize with this many jobs")
-        args = parser.parse_args()
-        self.target_bucket = args.target_bucket
-        self.bundle_path = args.bundle
-        global quiet
-        quiet = args.quiet
+        parser.add_argument('-t', '--terse', action='store_true', default=False, help="Terse output, one dot per bundle")
+        parser.add_argument('-j', '--jobs', type=int, default=1, help="Parallelize with this many jobs")
+        self.args = parser.parse_args()
+        global quiet, terse
+        quiet = self.args.quiet
+        terse = self.args.terse if self.args.jobs == 1 else True
+
+    def stage_bundles(self, bundles):
+        global executor
+        signal.signal(signal.SIGINT, self.signal_handler)
+        executor = ProcessPoolExecutor(max_workers=self.args.jobs)
+        for bundle in bundles:
+            executor.submit(self.stage_bundle, bundle)
+        executor.shutdown()
+
+    def stage_bundle(self, bundle):
+        signal.signal(signal.SIGINT, signal.SIG_DFL)
+        BundleStager(self.args.target_bucket).stage(bundle)
+
+    @staticmethod
+    def signal_handler(signal, frame):
+        global executor
+        print('Shutting down...')
+        executor.shutdown()
+        sys.exit(0)
 
 
 class BundleStager:
@@ -65,17 +108,14 @@ class BundleStager:
     def __init__(self, target_bucket):
         self.target_bucket = target_bucket
 
-    def stage_all(self):
-        for bundle in LocalBundle.all():
-            BundleStager(self.target_bucket).stage_bundle(bundle)
-
-    def stage_bundle(self, bundle):
-        output(f"\nBundle: {bundle.path}")
+    def stage(self, bundle):
+        output(f"\nBundle: {bundle.path}", "B")
         try:
             self._stage_data_files(bundle)
             self._stage_metadata(bundle)
         except BundleMissingDataFile as e:
-            output(f" -> {e.message}")
+            output(f" -> {str(e)}\n", "!")
+        report_progress()
 
     def _stage_data_files(self, bundle):
         if bundle.manifest is None:
@@ -93,6 +133,9 @@ class BundleStager:
             output(f"\n    {metadata_file}: ")
             MetadataFileStager(bundle, metadata_file).stage(self.target_bucket)
 
+    def _bundle_is_already_in_s3(self):
+        S3Agent()
+
 
 class LocalBundle:
 
@@ -101,8 +144,8 @@ class LocalBundle:
     MANIFEST_FILENAME = 'manifest.json'
 
     @classmethod
-    def all(cls):
-        for bundle_home in cls._find_bundle_homes():
+    def bundles_under(cls, folder):
+        for bundle_home in cls._find_bundle_homes_under(folder):
             bundle_dirs = os.listdir(bundle_home)
             for bundle_dir in bundle_dirs:
                 bundle_path = os.path.join(bundle_home, bundle_dir)
@@ -114,8 +157,8 @@ class LocalBundle:
         self.metadata_files = self._find_metadata_files()
 
     @classmethod
-    def _find_bundle_homes(cls):
-        for bundle_home in glob.glob(f"import/**/{cls.BUNDLE_HOME_DIRNAME}", recursive=True):
+    def _find_bundle_homes_under(cls, folder):
+        for bundle_home in glob.glob(f"{folder}/**/{cls.BUNDLE_HOME_DIRNAME}", recursive=True):
             yield bundle_home
 
     def _find_metadata_files(self) -> list:
@@ -141,17 +184,21 @@ class DataFileStager:
     def stage_file(self, target_bucket):
         self.target = S3Location(bucket=target_bucket, key=f"{self.bundle.path}/{self.file}")
 
-        if not self._obj_is_at_target_location():
+        if self._obj_is_at_target_location():
+            progress(",")
+        else:
             s3loc = self._locate_data_file_in_old_locations(self.bundle, self.file)
             if s3loc:
                 self._copy_from_cloud_to_target_location(s3loc)
+                progress('C')
                 output(f"\n      Deleting {s3loc}")
                 self.s3.delete_object(s3loc)
             else:
                 raise BundleMissingDataFile(f"Cannot find source for {self.file}")
                 # TODO download it and upload it
                 return
-        self._ensure_checksum_tags()
+        if self._ensure_checksum_tags():
+            progress("+")
 
     def _obj_is_at_target_location(self):
         if self.s3.object_exists(self.target):
@@ -165,7 +212,7 @@ class DataFileStager:
         S3ObjectTagger(self.target).copy_tags_from_object(cloud_location)
 
     def _ensure_checksum_tags(self):
-        S3ObjectTagger(self.target).complete_tags()
+        return S3ObjectTagger(self.target).complete_tags()
 
     def _locate_data_file_in_old_locations(self, bundle, file):
         """
@@ -205,13 +252,13 @@ class MetadataFileStager:
         self.file_path = f"{self.bundle.path}/{self.filename}"
         self.s3 = S3Agent()
 
-    def stage(self, bucket):
+    def stage(self, bucket) -> bool:
         target_location = S3Location(bucket, self.file_path)
         if self.s3.object_exists(target_location):
-            output("=present ")
+            output("=present ", progress_char=".")
             S3ObjectTagger(target_location).complete_tags()
         else:
-            output("+uploading ")
+            output("+uploading ", progress_char="u")
             self.s3.upload_with_checksum_tags(self.file_path, target_location)
 
 
@@ -249,6 +296,8 @@ class S3ObjectTagger:
                 current_tags.update(self._generate_mime_tags())
             output(f"\n      Tagging with: {list(current_tags.keys())}")
             self.s3.add_tagging(self.target, current_tags)
+            return True
+        return False
 
     def _generate_checksum_tags(self) -> dict:
         output("\n      generating checksums")
