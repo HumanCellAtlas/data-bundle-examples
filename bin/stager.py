@@ -6,6 +6,7 @@ from shutil import copyfileobj
 from concurrent.futures import ProcessPoolExecutor
 # import utils
 from utils import logger, sizeof_fmt, measure_duration_and_rate, S3Location, S3Agent, S3ObjectTagger
+from checksumming_io.checksumming_io import ChecksummingSink
 
 
 class BundleMissingDataFile(Exception):
@@ -262,16 +263,31 @@ class MetadataFileStager:
         self.s3 = S3Agent()
 
     def stage(self, bucket) -> bool:
-        target_location = S3Location(bucket, self.file_path)
-        if self.s3.get_object(target_location):
-            # TODO also check size or checksum
+        self.target = S3Location(bucket, self.file_path)
+        if self._obj_is_at_target_location():
             logger.output("=present ", progress_char=".")
-            S3ObjectTagger(target_location).complete_tags()
+            S3ObjectTagger(self.target).complete_tags()
         else:
             logger.output("+uploading ", progress_char="u")
-            checksums = self.s3.upload_and_checksum(self.file_path, target_location)
-            S3ObjectTagger(target_location).tag_using_these_checksums(checksums)
+            checksums = self.s3.upload_and_checksum(self.file_path, self.target)
+            S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
             logger.output("+tagging ")
+
+    def _obj_is_at_target_location(self):
+        obj = self.s3.get_object(self.target)
+        if obj:
+            local_checksums = self._checksum_local_file()
+            if local_checksums['s3_etag'] == obj.e_tag.strip('"'):
+                return True
+            else:
+                logger.output(f"\n      exists at target but has a different ETAG ")
+        return False
+
+    def _checksum_local_file(self):
+        with ChecksummingSink() as sink:
+            with open(self.file_path, 'rb') as fh:
+                copyfileobj(fh, sink)
+            return sink.get_checksums()
 
 
 # run the class

@@ -2,8 +2,9 @@ import mimetypes
 from functools import reduce
 from dotmap import DotMap
 import boto3
+from boto3.s3.transfer import TransferConfig
 from botocore.exceptions import ClientError
-from checksumming_io.checksumming_io import ChecksummingBufferedReader, ChecksummingSink
+from checksumming_io.checksumming_io import ChecksummingBufferedReader, ChecksummingSink, S3Etag
 from .parallel_logger import logger
 
 
@@ -19,19 +20,21 @@ class S3Location(DotMap):
 class S3Agent:
 
     def __init__(self):
+        self.tx_cfg = TransferConfig(multipart_threshold=S3Etag.etag_stride,
+                                     multipart_chunksize=S3Etag.etag_stride)
         self.s3 = boto3.resource('s3')
         self.s3client = self.s3.meta.client
 
     def copy_between_buckets(self, src: S3Location, dest: S3Location):
         obj = self.s3.Bucket(dest.Bucket).Object(dest.Key)
-        obj.copy(src.toDict(), ExtraArgs={'ACL': 'bucket-owner-full-control'})
+        obj.copy(src.toDict(), Config=self.tx_cfg, ExtraArgs={'ACL': 'bucket-owner-full-control'})
 
     def upload_and_checksum(self, local_path: str, target: S3Location) -> dict:
         bucket = self.s3.Bucket(target.Bucket)
         with open(local_path, 'rb') as fh:
             reader = ChecksummingBufferedReader(fh)
             obj = bucket.Object(target.Key)
-            obj.upload_fileobj(reader, ExtraArgs={'ACL': 'bucket-owner-full-control'})
+            obj.upload_fileobj(reader, Config=self.tx_cfg, ExtraArgs={'ACL': 'bucket-owner-full-control'})
         return reader.get_checksums()
 
     def copy_object_tagging(self, src: S3Location, dest: S3Location):
