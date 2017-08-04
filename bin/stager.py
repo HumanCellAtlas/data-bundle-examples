@@ -1,6 +1,8 @@
 #!/usr/bin/env python3.6
 
-import argparse, glob, json, io, mimetypes, os, re, signal, sys
+import argparse, glob, json, io, mimetypes, os, re, signal, ssl, sys
+from urllib.request import urlopen, Request
+from shutil import copyfileobj
 from functools import reduce
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
@@ -21,9 +23,6 @@ class S3Location(DotMap):
         super().__init__(Bucket=bucket, Key=key)
 
     def __str__(self):
-        return f"{self.Bucket}/{self.Key}"
-
-    def uri(self):
         return f"s3://{self.Bucket}/{self.Key}"
 
 
@@ -190,74 +189,106 @@ class DataFileStager:
 
     OLD_BUCKET = 'hca-dss-test-src'
 
-    def __init__(self, bundle, file):
+    def __init__(self, bundle, filename):
         self.bundle = bundle
-        self.file = file
+        self.filename = filename
         self.target = None
         self.s3 = S3Agent()
 
     def stage_file(self, target_bucket):
-        self.target = S3Location(bucket=target_bucket, key=f"{self.bundle.path}/{self.file}")
-
+        self.target = S3Location(bucket=target_bucket, key=f"{self.bundle.path}/{self.filename}")
         if self._obj_is_at_target_location():
             logger.progress(",")
         else:
-            s3loc = self._locate_data_file_in_old_locations(self.bundle, self.file)
-            if s3loc:
-                self._copy_from_cloud_to_target_location(s3loc)
-                logger.progress('C')
-                logger.output(f"\n      Deleting {s3loc}")
-                self.s3.delete_object(s3loc)
-            else:
-                raise BundleMissingDataFile(f"Cannot find source for {self.file}")
-                # TODO download it and upload it
-                return
-        if self._ensure_checksum_tags():
-            logger.progress("+")
+            location = self.source_data_file()
+            self.copy_file_to_target_location(location)
+
+        self._ensure_checksum_tags()
 
     def _obj_is_at_target_location(self):
-        if self.s3.object_exists(self.target):
+        if self.s3.get_object(self.target):
             # TODO also check size or checksum
             logger.output("=present ")
             return True
 
-    def _copy_from_cloud_to_target_location(self, cloud_location):
-        logger.output(f"\n      found at {cloud_location.uri()}")
-        logger.output(f"\n      copy to {self.target}")
-        self.s3.copy_between_buckets(cloud_location, self.target)
-        S3ObjectTagger(self.target).copy_tags_from_object(cloud_location)
+    def source_data_file(self):
+        location = self._find_in_s3() or self._find_locally() or self._download_from_source()
+        if location:
+            logger.output(f"\n      found at {location}")
+            return location
+        raise BundleMissingDataFile(f"Cannot find source for {self.filename}")
 
-    def _ensure_checksum_tags(self):
-        return S3ObjectTagger(self.target).complete_tags()
+    def copy_file_to_target_location(self, source_location):
+        if type(source_location) is S3Location:
+            logger.output(f"\n      copy to {self.target}", "C")
+            self.s3.copy_between_buckets(source_location, self.target)
+            S3ObjectTagger(self.target).copy_tags_from_object(source_location)
+        else:
+            logger.output(f"\n      upload to {self.target}", "^")
+            self.s3.upload_with_checksum_tags(source_location, self.target)
 
-    def _locate_data_file_in_old_locations(self, bundle, file):
+    def _find_in_s3(self):
         """
         Try
             s3://hca-dss-test-src/data-bundles-examples/import/xx/yy/bundles/bundleX/file
             s3://hca-dss-test-src/data-bundles-examples/import/xx/yy/fastqs/file
         and s3://hca-dss-test-src/data-bundles-examples/import/geo/GSExxxxx/sra/SRRxxxxx/file if it is a geo
         """
-        s3loc = S3Location(bucket=self.OLD_BUCKET, key=f"data-bundles-examples/{bundle.path}/{file}")
-        if self.s3.object_exists(s3loc):
-            return s3loc
-        trim_from_bundles = re.search('(.*)/bundles/.*$', bundle.path)[1]
-        s3loc = S3Location(bucket=self.OLD_BUCKET, key=f"data-bundles-examples/{trim_from_bundles}/fastqs/{file}")
-        if self.s3.object_exists(s3loc):
-            return s3loc
-        if re.search("/geo/", bundle.path):
-            srr_id = re.search("(SRR\d+)_.*", file)[1]
-            s3loc = S3Location(self.OLD_BUCKET, f"data-bundles-examples/{trim_from_bundles}/sra/{srr_id}/{file}")
-        if self.s3.object_exists(s3loc):
-            return s3loc
+        trim_from_bundles = re.search('(.*)/bundles/.*$', self.bundle.path)[1]
+        potential_locations = [
+            S3Location(bucket=self.OLD_BUCKET, key=f"data-bundles-examples/{self.bundle.path}/{self.filename}"),
+            S3Location(bucket=self.OLD_BUCKET, key=f"data-bundles-examples/{trim_from_bundles}/fastqs/{self.filename}")
+        ]
+        if re.search("/geo/", self.bundle.path):
+            srr_id = re.search("(SRR\d+)_.*", self.filename)[1]
+            potential_locations.append(
+                S3Location(bucket=self.OLD_BUCKET, key=f"data-bundles-examples/{trim_from_bundles}/sra/{srr_id}/{self.filename}")
+            )
+        for loc in potential_locations:
+            if self.s3.get_object(loc):
+                return loc
         return None
 
-    def _download_from_wherever(self):
-        # TODO
-        pass
+    def _find_locally(self):
+        local_path = os.path.join(self.bundle.path, self.filename)
+        if os.path.isfile(local_path):
+            return local_path
+        return None
 
-    def upload(self):
-        # TODO
-        pass
+    def _download_from_source(self):
+        src_url = f"{self.bundle.manifest['dir']}/{self.filename}"
+        size = self._internet_file_size(src_url)
+        logger.output(f"\n      downloading {src_url} [{size}]", "v")
+        dest_path = os.path.join(self.bundle.path, self.filename)
+        ssl_context = ssl.create_default_context()
+        ssl_context.check_hostname = False
+        ssl_context.verify_mode = ssl.CERT_NONE
+        try:
+            with urlopen(src_url) as in_stream, open(dest_path, 'wb') as out_file:
+                copyfileobj(in_stream, out_file)
+            return dest_path
+        # except urllib.error.HTTPError:
+        except Exception as e:
+            logger.output(f"      error downloading ({str(e)})", "!")
+            os.remove(dest_path)
+            return None
+
+    def _ensure_checksum_tags(self):
+        if S3ObjectTagger(self.target).complete_tags():
+            logger.progress("+")
+
+    def _delete_file(self, location):
+        if type(location) == S3Location:
+            logger.output(f"\n      Deleting {location}")
+            self.s3.delete_object(location)
+        else:
+            os.remove(location)
+
+    @staticmethod
+    def _internet_file_size(url):
+            request = Request(url, method='HEAD')
+            response = urlopen(request)
+            return response.headers['Content-Length']
 
 
 class MetadataFileStager:
@@ -270,7 +301,7 @@ class MetadataFileStager:
 
     def stage(self, bucket) -> bool:
         target_location = S3Location(bucket, self.file_path)
-        if self.s3.object_exists(target_location):
+        if self.s3.get_object(target_location):
             # TODO also check size or checksum
             logger.output("=present ", progress_char=".")
             S3ObjectTagger(target_location).complete_tags()
@@ -377,12 +408,13 @@ class S3Agent:
         tagging = dict(TagSet=self._encode_tags(tags))
         self.s3client.put_object_tagging(Bucket=s3loc.Bucket, Key=s3loc.Key, Tagging=tagging)
 
-    def object_exists(self, s3loc: S3Location) -> bool:
+    def get_object(self, s3loc: S3Location):
         try:
-            self.s3.Object(s3loc.Bucket, s3loc.Key).load()
-            return True
+            obj = self.s3.Object(s3loc.Bucket, s3loc.Key)
+            obj.load()
+            return obj
         except ClientError:
-            return False
+            return None
 
     def delete_object(self, s3loc: S3Location):
         self.s3.Bucket(s3loc.Bucket).Object(s3loc.Key).delete()
