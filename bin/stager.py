@@ -13,6 +13,17 @@ from dotmap import DotMap
 from checksumming_io.checksumming_io import ChecksummingBufferedReader, ChecksummingSink
 
 
+def sizeof_fmt(num, suffix='B'):
+    """
+    From https://stackoverflow.com/a/1094933
+    """
+    for unit in ['', 'Ki', 'Mi', 'Gi', 'Ti', 'Pi', 'Ei', 'Zi']:
+        if abs(num) < 1024.0:
+            return "%3.1f %s%s" % (num, unit, suffix)
+        num /= 1024.0
+    return "%.1f %s%s" % (num, 'Yi', suffix)
+
+
 class BundleMissingDataFile(Exception):
     pass
 
@@ -76,7 +87,9 @@ class Main:
         if self.args.bundle:
             self.stage_bundle(LocalBundle(self.args.bundle))
         else:
-            self.stage_bundles(LocalBundle.bundles_under(self.args.bundles))
+            bundles = list(LocalBundle.bundles_under(self.args.bundles))
+            bundles.sort()
+            self.stage_bundles(bundles)
         print("")
 
     def _parse_args(self):
@@ -104,13 +117,17 @@ class Main:
         global executor
         signal.signal(signal.SIGINT, self.signal_handler)
         executor = ProcessPoolExecutor(max_workers=self.args.jobs)
+        self.total_bundles = len(bundles)
+        bundle_number = 0
         for bundle in bundles:
-            executor.submit(self.stage_bundle, bundle)
+            bundle_number += 1
+            executor.submit(self.stage_bundle, bundle, bundle_number)
         executor.shutdown()
 
-    def stage_bundle(self, bundle):
+    def stage_bundle(self, bundle, bundle_number=None):
+        comment = f"({bundle_number}/{self.total_bundles})" if bundle_number else None
         signal.signal(signal.SIGINT, signal.SIG_DFL)
-        BundleStager(self.args.target_bucket).stage(bundle)
+        BundleStager(self.args.target_bucket).stage(bundle, comment)
 
     @staticmethod
     def signal_handler(signal, frame):
@@ -125,8 +142,8 @@ class BundleStager:
     def __init__(self, target_bucket):
         self.target_bucket = target_bucket
 
-    def stage(self, bundle):
-        logger.output(f"\nBundle: {bundle.path}", "B")
+    def stage(self, bundle, comment=""):
+        logger.output(f"\nBundle: {bundle.path} {comment}", "B")
         try:
             self._stage_data_files(bundle)
             self._stage_metadata(bundle)
@@ -170,6 +187,9 @@ class LocalBundle:
         self.manifest = None
         self.metadata_files = self._find_metadata_files()
 
+    def __lt__(self, other):
+        return self.path < other.path
+
     @classmethod
     def _find_bundle_homes_under(cls, folder):
         for bundle_home in glob.glob(f"{folder}/**/{cls.BUNDLE_HOME_DIRNAME}", recursive=True):
@@ -202,7 +222,7 @@ class DataFileStager:
         else:
             location = self.source_data_file()
             self.copy_file_to_target_location(location)
-
+            self._delete_file(location)
         self._ensure_checksum_tags()
 
     def _obj_is_at_target_location(self):
@@ -258,7 +278,7 @@ class DataFileStager:
     def _download_from_source(self):
         src_url = f"{self.bundle.manifest['dir']}/{self.filename}"
         size = self._internet_file_size(src_url)
-        logger.output(f"\n      downloading {src_url} [{size}]", "v")
+        logger.output(f"\n      downloading {src_url} [{sizeof_fmt(int(size))}]", "v")
         dest_path = os.path.join(self.bundle.path, self.filename)
         ssl_context = ssl.create_default_context()
         ssl_context.check_hostname = False
