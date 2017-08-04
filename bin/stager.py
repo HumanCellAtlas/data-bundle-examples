@@ -1,12 +1,11 @@
 #!/usr/bin/env python3.6
 
-import argparse, glob, json, io, os, re, signal, ssl, sys, time
-from urllib.request import urlopen, Request
+import argparse, glob, json, os, signal, ssl, sys
+from urllib.request import urlopen, Request, urlparse
 from shutil import copyfileobj
 from concurrent.futures import ProcessPoolExecutor
-# import utils
-from utils import logger, sizeof_fmt, measure_duration_and_rate, S3Location, S3Agent, S3ObjectTagger
 from checksumming_io.checksumming_io import ChecksummingSink
+from utils import logger, sizeof_fmt, measure_duration_and_rate, S3Agent, S3ObjectTagger
 
 
 class BundleMissingDataFile(Exception):
@@ -170,7 +169,7 @@ class DataFileStager:
         self.s3 = S3Agent()
 
     def stage_file(self, target_bucket):
-        self.target = S3Location(bucket=target_bucket, key=f"{self.bundle.path}/{self.filename}")
+        self.target = f"s3://{target_bucket}/{self.bundle.path}/{self.filename}"
         if self._obj_is_at_target_location():
             logger.progress(",")
         else:
@@ -197,26 +196,29 @@ class DataFileStager:
         raise BundleMissingDataFile(f"Cannot find source for {self.filename}")
 
     def copy_file_to_target_location(self, source_location):
-        if type(source_location) is S3Location:
+        if urlparse(source_location).scheme == 's3':
             logger.output(f"\n      copy to {self.target} ", "C")
             report_duration_and_rate(self.s3.copy_between_buckets,
                                      source_location,
                                      self.target,
                                      size=self.file_size)
             S3ObjectTagger(self.target).copy_tags_from_object(source_location)
-        else:
+        elif urlparse(source_location).scheme == 'file':
+            local_path = urlparse(source_location).path.lstrip('/')
             logger.output(f"\n      upload to {self.target} ", "^")
             checksums = report_duration_and_rate(self.s3.upload_and_checksum,
-                                                 source_location,
+                                                 local_path,
                                                  self.target,
                                                  size=self.file_size)
             S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
             logger.output("+tagging ")
+        else:
+            raise RuntimeError(f"Unrecognized scheme: {source_location}")
 
     def _find_locally(self):
         local_path = os.path.join(self.bundle.path, self.filename)
         if os.path.isfile(local_path):
-            return local_path
+            return f"file:///{local_path}"
         return None
 
     def _download_from_source(self):
@@ -224,7 +226,7 @@ class DataFileStager:
         dest_path = os.path.join(self.bundle.path, self.filename)
         try:
             report_duration_and_rate(self._download, self.original_location_url, dest_path, size=self.file_size)
-            return dest_path
+            return f"file:///{dest_path}"
         # except urllib.error.HTTPError:
         except Exception as e:
             logger.output(f"      error downloading ({str(e)})", "!")
@@ -236,11 +238,14 @@ class DataFileStager:
             logger.progress("+")
 
     def _delete_file(self, location):
-        if type(location) == S3Location:
-            logger.output(f"\n      Deleting {location}")
+        logger.output(f"\n      Deleting {location}")
+        urlbits = urlparse(location)
+        if urlbits.scheme == 's3':
             self.s3.delete_object(location)
+        elif urlbits.scheme == 'file':
+            os.remove(urlbits.path.lstrip('/'))
         else:
-            os.remove(location)
+            raise RuntimeError(f"Unrecognized scheme: {location}")
 
     @staticmethod
     def _download(src_url: str, dest_path: str):
@@ -263,7 +268,7 @@ class MetadataFileStager:
         self.s3 = S3Agent()
 
     def stage(self, bucket) -> bool:
-        self.target = S3Location(bucket, self.file_path)
+        self.target = f"s3://{bucket}/{self.file_path}"
         if self._obj_is_at_target_location():
             logger.output("=present ", progress_char=".")
             S3ObjectTagger(self.target).complete_tags()

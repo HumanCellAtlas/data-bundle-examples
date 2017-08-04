@@ -1,6 +1,7 @@
 import mimetypes
 from functools import reduce
 from dotmap import DotMap
+from urllib.parse import urlparse
 import boto3
 from boto3.s3.transfer import TransferConfig
 from botocore.exceptions import ClientError
@@ -10,8 +11,11 @@ from .parallel_logger import logger
 
 class S3Location(DotMap):
 
-    def __init__(self, bucket: str, key: str):
-        super().__init__(Bucket=bucket, Key=key)
+    def __init__(self, url):
+        urlbits = urlparse(url)
+        if urlbits.scheme != 's3':
+            raise RuntimeError("Not an S3 URL!")
+        super().__init__(Bucket=urlbits.netloc, Key=urlbits.path.lstrip('/'))
 
     def __str__(self):
         return f"s3://{self.Bucket}/{self.Key}"
@@ -25,11 +29,14 @@ class S3Agent:
         self.s3 = boto3.resource('s3')
         self.s3client = self.s3.meta.client
 
-    def copy_between_buckets(self, src: S3Location, dest: S3Location):
+    def copy_between_buckets(self, src_url: str, dest_url: str):
+        src = S3Location(src_url)
+        dest = S3Location(dest_url)
         obj = self.s3.Bucket(dest.Bucket).Object(dest.Key)
         obj.copy(src.toDict(), Config=self.tx_cfg, ExtraArgs={'ACL': 'bucket-owner-full-control'})
 
-    def upload_and_checksum(self, local_path: str, target: S3Location) -> dict:
+    def upload_and_checksum(self, local_path: str, target_url: str) -> dict:
+        target = S3Location(target_url)
         bucket = self.s3.Bucket(target.Bucket)
         with open(local_path, 'rb') as fh:
             reader = ChecksummingBufferedReader(fh)
@@ -37,19 +44,22 @@ class S3Agent:
             obj.upload_fileobj(reader, Config=self.tx_cfg, ExtraArgs={'ACL': 'bucket-owner-full-control'})
         return reader.get_checksums()
 
-    def copy_object_tagging(self, src: S3Location, dest: S3Location):
-        tags = self.get_tagging(src)
-        self.add_tagging(dest, tags)
+    def copy_object_tagging(self, src_url: str, dest_url: str):
+        tags = self.get_tagging(src_url)
+        self.add_tagging(dest_url, tags)
 
-    def get_tagging(self, s3loc: S3Location) -> dict:
+    def get_tagging(self, s3url: str) -> dict:
+        s3loc = S3Location(s3url)
         response = self.s3client.get_object_tagging(Bucket=s3loc.Bucket, Key=s3loc.Key)
         return self._decode_tags(response['TagSet'])
 
-    def add_tagging(self, s3loc: S3Location, tags: dict):
+    def add_tagging(self, s3url: str, tags: dict):
+        s3loc = S3Location(s3url)
         tagging = dict(TagSet=self._encode_tags(tags))
         self.s3client.put_object_tagging(Bucket=s3loc.Bucket, Key=s3loc.Key, Tagging=tagging)
 
-    def get_object(self, s3loc: S3Location):
+    def get_object(self, s3url: str):
+        s3loc = S3Location(s3url)
         try:
             obj = self.s3.Object(s3loc.Bucket, s3loc.Key)
             obj.load()
@@ -57,7 +67,8 @@ class S3Agent:
         except ClientError:
             return None
 
-    def delete_object(self, s3loc: S3Location):
+    def delete_object(self, s3url: str):
+        s3loc = S3Location(s3url)
         self.s3.Bucket(s3loc.Bucket).Object(s3loc.Key).delete()
 
     @staticmethod
@@ -81,12 +92,12 @@ class S3ObjectTagger:
     MIME_TAG = 'hca-dss-content-type'
     ALL_TAGS = CHECKSUM_TAGS + (MIME_TAG,)
 
-    def __init__(self, target: S3Location):
+    def __init__(self, target: str):
         self.target = target
         self.s3 = S3Agent()
 
-    def copy_tags_from_object(self, src: S3Location):
-        self.s3.copy_object_tagging(src, self.target)
+    def copy_tags_from_object(self, s3url: str):
+        self.s3.copy_object_tagging(s3url, self.target)
         self.complete_tags()
 
     def tag_using_these_checksums(self, raw_sums: dict):
@@ -110,16 +121,17 @@ class S3ObjectTagger:
 
     def _generate_checksum_tags(self) -> dict:
         logger.output("\n      generating checksums")
-        sums = self._compute_checksums_from_s3(self.target)
+        sums = self._compute_checksums_from_s3(str(self.target))
         return self._hca_checksum_tags(sums)
 
     def _generate_mime_tags(self) -> dict:
-        mime_type = mimetypes.guess_type(self.target.Key)[0]
+        mime_type = mimetypes.guess_type(S3Location(self.target).Key)[0]
         if mime_type is None:
             mime_type = "application/octet-stream"
         return {self.MIME_TAG: mime_type}
 
-    def _compute_checksums_from_s3(self, s3loc: S3Location) -> dict:
+    def _compute_checksums_from_s3(self, s3url: str) -> dict:
+        s3loc = S3Location(s3url)
         with ChecksummingSink() as sink:
             self.s3.s3client.download_fileobj(s3loc.Bucket, s3loc.Key, sink)
             return sink.get_checksums()
