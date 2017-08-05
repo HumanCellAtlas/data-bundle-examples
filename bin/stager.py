@@ -217,7 +217,7 @@ class DataFileStager:
 
     def _find_locally(self):
         local_path = os.path.join(self.bundle.path, self.filename)
-        if os.path.isfile(local_path):
+        if os.path.isfile(local_path) and os.stat(local_path).st_size == self.file_size:
             return f"file:///{local_path}"
         return None
 
