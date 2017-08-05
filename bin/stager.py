@@ -32,22 +32,30 @@ class Main:
         if self.args.bundle:
             self.stage_bundle(LocalBundle(self.args.bundle))
         else:
+            logger.output(f"\nStaging bundles under \"{self.args.bundles}\":\n")
             bundles = list(LocalBundle.bundles_under(self.args.bundles))
             bundles.sort()
             self.stage_bundles(bundles)
         print("")
 
     def _parse_args(self):
-        parser = argparse.ArgumentParser(description="Stage example bundles in S3",
-                                         usage='%(prog)s [options]')
-        parser.add_argument('--target-bucket', default=self.DEFAULT_BUCKET, help="Stage files in this bucket")
-        parser.add_argument('--bundle', default=None, help="Stage single bundle at this path")
-        parser.add_argument('--bundles', default='import',
-                            help="Stage bundles under this path (must not include 'bundles')")
-        parser.add_argument('-q', '--quiet', action='store_true', default=False, help="Silence is golden")
-        parser.add_argument('-t', '--terse', action='store_true', default=False, help="Terse output, one dot per bundle")
-        parser.add_argument('-l', '--log', default=None, help="Log verbose output to this file")
-        parser.add_argument('-j', '--jobs', type=int, default=1, help="Parallelize with this many jobs")
+        parser = argparse.ArgumentParser(description="Stage example bundles in S3.",
+                                         usage='%(prog)s [options]',
+                                         epilog="Default action is to stage all bundles under ./import/")
+        parser.add_argument('--target-bucket', metavar="<s3-bucket-name>", default=self.DEFAULT_BUCKET,
+                            help="stage files in this bucket")
+        parser.add_argument('--bundle', default=None, metavar="path/to/bundle",
+                            help="stage single bundle at this path")
+        parser.add_argument('--bundles', default='import', metavar="path",
+                            help="stage bundles under this path (must not include 'bundles')")
+        parser.add_argument('-q', '--quiet', action='store_true', default=False,
+                            help="silence is golden")
+        parser.add_argument('-t', '--terse', action='store_true', default=False,
+                            help="terse output, one character per file")
+        parser.add_argument('-l', '--log', default=None,
+                            help="log verbose output to this file")
+        parser.add_argument('-j', '--jobs', type=int, default=1,
+                            help="parallelize with this many jobs")
         self.args = parser.parse_args()
         if self.args.jobs > 1:
             quiet = True
@@ -110,7 +118,6 @@ class BundleStager:
             file = fileinfo['name']
             logger.output(f"\n    {file} ")
             DataFileStager(bundle, file).stage_file(self.target_bucket)
-            # TODO update assay.json with data file locations?
 
     def _stage_metadata(self, bundle):
         logger.output("\n  Metadata:")
