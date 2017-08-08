@@ -7,6 +7,45 @@ from concurrent.futures import ProcessPoolExecutor
 from checksumming_io.checksumming_io import ChecksummingSink
 from utils import logger, sizeof_fmt, measure_duration_and_rate, S3Agent, S3ObjectTagger
 
+"""
+    stager.py - Stage Example Data Bundles in S3 Bucket org-humancellatlas-data-bundle-examples
+    
+    Un-tar metadata files before running: tar xf import/import.tgz
+    
+    Default action is to traverse the import/ folder finding bundles, then for each bundle:
+        For each data file:
+            - Find the original (using manifest.json) and note its size.
+            - If this version is not at the desired location, download it, then upload it to S3.
+        For each metadata file:
+            - Checksum it.
+            - Upload to S3 unless a files already exists there with this checksum.
+            
+    Checking 100,000 files can be a slow process, so you can parallelize with the -j option.
+    Try running on an m4.2xlarge with -j16.  This will take under an hour and works well in
+    the case where there are no new data-files to be uploaded.  Note however that if there
+    are new data-files to be uploaded, you will want to use minimal or no concurrency for
+    those bundles to avoid overloading the web server from which they are being downloaded.
+    
+    When running parallelized, terse output will be produced.
+    
+    Terse output key:
+    
+        B - a new bundle is being examined
+        , - a data file has been checked and is already in place
+        ! - a data file could not be found
+        C - a data file was copied from another S3 bucket to the target location
+        v - a data file was downloaded from the internet
+        ^ - a data file was upload to the target bucket
+        + - missing checksums where added to an already uploaded file 
+        . - a metadata file has been checked and is already in place
+        u - a metadata file was uploaded to the target location
+        
+        e.g. this bundle is already done: B,.....
+             this bundle was new:         Bv^uuuuu
+    
+    When running parallelized you can still generate verbose output with the --log option. 
+"""
+
 
 class BundleMissingDataFile(Exception):
     pass
@@ -180,9 +219,9 @@ class DataFileStager:
         if self._obj_is_at_target_location():
             logger.progress(",")
         else:
-            location = self.source_data_file()
-            self.copy_file_to_target_location(location)
-            self._delete_file(location)
+            src_location = self.source_data_file()
+            self.copy_file_to_target_location(src_location)
+            self._delete_downloaded_file(src_location)
         self._ensure_checksum_tags()
 
     def _obj_is_at_target_location(self):
@@ -244,15 +283,12 @@ class DataFileStager:
         if S3ObjectTagger(self.target).complete_tags():
             logger.progress("+")
 
-    def _delete_file(self, location):
-        logger.output(f"\n      Deleting {location}")
+    @staticmethod
+    def _delete_downloaded_file(location):
         urlbits = urlparse(location)
-        if urlbits.scheme == 's3':
-            self.s3.delete_object(location)
-        elif urlbits.scheme == 'file':
+        if urlbits.scheme == 'file':
+            logger.output(f"\n      Deleting {location}")
             os.remove(urlbits.path.lstrip('/'))
-        else:
-            raise RuntimeError(f"Unrecognized scheme: {location}")
 
     @staticmethod
     def _download(src_url: str, dest_path: str):
