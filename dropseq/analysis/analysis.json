@@ -25,7 +25,7 @@
       {
          "aligned_bam" : {
             "checksum" : "d0f7d08f7980f7910f",
-            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/02bd7eb0-23a3-4898-b043-f7e982de281g/v1#smartseq2.bam",
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/02bd7eb0-23a3-4898-b043-f7e982de281g/v1#sample.bam",
             "format" : "bam"
          }
       },
@@ -33,13 +33,13 @@
          "counts_matrix" : {
             "checksum" : "d0f7d08f7910f7980f",
             "format" : "counts_matrix",
-            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/03bd7eb0-23a3-4898-b043-f7e982de281g/v1#smartseq2_counts.txt"
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/03bd7eb0-23a3-4898-b043-f7e982de281g/v1#sample_counts.txt"
          }
       },
       {
          "report_qc" : {
             "format" : "qc_matrix",
-            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#smartseq2_qc.txt",
+            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#sample_qc.txt",
             "checksum" : "d0f7d18f7980f7980f"
          }
       }
@@ -50,8 +50,8 @@
        "stop_time" : "2017-05-18T08:44:23-5:00",
        "start_time" : "2017-05-18T03:44:23-5:00",
        "name" : "step_one",
-       "log_err" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#smartseq2_step_one.err",
-       "log_out" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#smartseq2_step_one.out",
+       "log_err" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_step_one.err",
+       "log_out" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_step_one.out",
        "disk_size" : "500GB",
        "docker_image" : "https://uri-to-docker-image",
        "cpus" : 8,
@@ -62,8 +62,8 @@
        "start_utc" : "2017-05-18T08:44:23-5:00",
        "stop_utc" : "2017-05-18T14:44:23-5:00",
        "name" : "step_two",
-       "log_err" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#smartseq2_step_two.err",
-       "log_out" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#smartseq2_step_two.out",
+       "log_err" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_step_two.err",
+       "log_out" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_step_two.out",
        "disk_size" : "500GB",
        "docker_image" : "https://uri-to-docker-image",
        "cpus" : 8,
