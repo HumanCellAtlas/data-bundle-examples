@@ -9,6 +9,10 @@ from checksumming_io.checksumming_io import ChecksummingBufferedReader, Checksum
 from .parallel_logger import logger
 
 
+KB = 1024
+MB = KB * KB
+
+
 class S3Location(DotMap):
 
     def __init__(self, url):
@@ -24,24 +28,26 @@ class S3Location(DotMap):
 class S3Agent:
 
     def __init__(self):
-        self.tx_cfg = TransferConfig(multipart_threshold=S3Etag.etag_stride,
-                                     multipart_chunksize=S3Etag.etag_stride)
         self.s3 = boto3.resource('s3')
         self.s3client = self.s3.meta.client
 
-    def copy_between_buckets(self, src_url: str, dest_url: str):
+    def copy_between_buckets(self, src_url: str, dest_url: str, file_size: int):
         src = S3Location(src_url)
         dest = S3Location(dest_url)
         obj = self.s3.Bucket(dest.Bucket).Object(dest.Key)
-        obj.copy(src.toDict(), Config=self.tx_cfg, ExtraArgs={'ACL': 'bucket-owner-full-control'})
+        obj.copy(src.toDict(),
+                 Config=self._transfer_config(file_size),
+                 ExtraArgs={'ACL': 'bucket-owner-full-control'})
 
-    def upload_and_checksum(self, local_path: str, target_url: str) -> dict:
+    def upload_and_checksum(self, local_path: str, target_url: str, file_size: int) -> dict:
         target = S3Location(target_url)
         bucket = self.s3.Bucket(target.Bucket)
         with open(local_path, 'rb') as fh:
             reader = ChecksummingBufferedReader(fh)
             obj = bucket.Object(target.Key)
-            obj.upload_fileobj(reader, Config=self.tx_cfg, ExtraArgs={'ACL': 'bucket-owner-full-control'})
+            obj.upload_fileobj(reader,
+                               Config=self._transfer_config(file_size),
+                               ExtraArgs={'ACL': 'bucket-owner-full-control'})
         return reader.get_checksums()
 
     def copy_object_tagging(self, src_url: str, dest_url: str):
@@ -81,6 +87,22 @@ class S3Agent:
     @staticmethod
     def _encode_tags(tags: dict) -> list:
         return [dict(Key=k, Value=v) for k, v in tags.items()]
+
+    @classmethod
+    def _transfer_config(cls, file_size: int) -> TransferConfig:
+        etag_stride = cls._s3_chunk_size(file_size)
+        return TransferConfig(multipart_threshold=etag_stride,
+                              multipart_chunksize=etag_stride)
+
+    @staticmethod
+    def _s3_chunk_size(file_size: int) -> int:
+        if file_size <= 10000 * 64 * MB:
+            return 64 * MB
+        else:
+            div = file_size // 10000
+            if div * 10000 < file_size:
+                div += 1
+            return ((div + (MB-1)) // MB) * MB
 
 
 class S3ObjectTagger:

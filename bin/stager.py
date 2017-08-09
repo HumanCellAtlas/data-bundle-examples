@@ -247,6 +247,7 @@ class DataFileStager:
             report_duration_and_rate(self.s3.copy_between_buckets,
                                      source_location,
                                      self.target,
+                                     self.file_size,
                                      size=self.file_size)
             S3ObjectTagger(self.target).copy_tags_from_object(source_location)
         elif urlparse(source_location).scheme == 'file':
@@ -255,6 +256,7 @@ class DataFileStager:
             checksums = report_duration_and_rate(self.s3.upload_and_checksum,
                                                  local_path,
                                                  self.target,
+                                                 self.file_size,
                                                  size=self.file_size)
             S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
             logger.output("+tagging ")
@@ -308,6 +310,7 @@ class MetadataFileStager:
         self.bundle = bundle
         self.filename = metadata_filename
         self.file_path = f"{self.bundle.path}/{self.filename}"
+        self.file_size = os.stat(self.file_path).st_size
         self.s3 = S3Agent()
 
     def stage(self, bucket) -> bool:
@@ -317,7 +320,7 @@ class MetadataFileStager:
             S3ObjectTagger(self.target).complete_tags()
         else:
             logger.output("+uploading ", progress_char="u")
-            checksums = self.s3.upload_and_checksum(self.file_path, self.target)
+            checksums = self.s3.upload_and_checksum(self.file_path, self.target, self.file_size)
             S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
             logger.output("+tagging ")
 
