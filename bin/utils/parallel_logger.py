@@ -11,7 +11,7 @@ class ParallelLogger:
     """
     def __init__(self):
         self.destination = sys.stdout
-        self.progress_string = ""
+        self.progress_string = list()
         self.terse = False
         self.quiet = False
         self.logfile = None
@@ -31,11 +31,11 @@ class ParallelLogger:
             self.progress(progress_char)
 
     def progress(self, char):
-        self.progress_string += char
+        self.progress_string.append(char)
 
     def flush(self):
         if self.terse:
-            sys.stdout.write(self.progress_string)
+            sys.stdout.write("".join(self.progress_string))
         self.progress_string = ""
         sys.stdout.flush()
         if self.logfile:
