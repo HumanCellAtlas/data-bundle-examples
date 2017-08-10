@@ -66,8 +66,8 @@ class Main:
     DEFAULT_BUCKET = 'org-humancellatlas-data-bundle-examples'
 
     def __init__(self):
-        self._setup_ssl_context()
         self._parse_args()
+        self._setup_ssl_context(self.args.skip_ssl_cert_verification)
         if self.args.bundle:
             self.stage_bundle(LocalBundle(self.args.bundle))
         else:
@@ -95,6 +95,8 @@ class Main:
                             help="log verbose output to this file")
         parser.add_argument('-j', '--jobs', type=int, default=1,
                             help="parallelize with this many jobs")
+        parser.add_argument('--skip-ssl-cert-verification', default=False, action='store_true',
+                            help="don't attempt to verify SSL certificates")
         self.args = parser.parse_args()
         if self.args.jobs > 1:
             quiet = True
@@ -129,10 +131,10 @@ class Main:
         sys.exit(0)
 
     @staticmethod
-    def _setup_ssl_context():
+    def _setup_ssl_context(skip_ssl_cert_verification):
         ssl_context = ssl.create_default_context()
         ssl_context.check_hostname = False
-        ssl_context.verify_mode = ssl.CERT_REQUIRED
+        ssl_context.verify_mode = ssl.CERT_NONE if skip_ssl_cert_verification else ssl.CERT_REQUIRED
 
 
 class BundleStager:
