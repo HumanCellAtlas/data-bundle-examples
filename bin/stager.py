@@ -132,7 +132,7 @@ class Main:
     def _setup_ssl_context():
         ssl_context = ssl.create_default_context()
         ssl_context.check_hostname = False
-        ssl_context.verify_mode = ssl.CERT_NONE
+        ssl_context.verify_mode = ssl.CERT_REQUIRED
 
 
 class BundleStager:
@@ -299,9 +299,9 @@ class DataFileStager:
 
     @staticmethod
     def _internet_file_size(url: str) -> int:
-            request = Request(url, method='HEAD')
-            response = urlopen(request)
-            return int(response.headers['Content-Length'])
+        request = Request(url, method='HEAD')
+        response = urlopen(request)
+        return int(response.headers['Content-Length'])
 
 
 class MetadataFileStager:
