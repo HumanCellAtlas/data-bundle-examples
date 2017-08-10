@@ -1,7 +1,8 @@
 #!/usr/bin/env python3.6
 
 import argparse, glob, json, os, signal, ssl, sys
-from urllib.request import urlopen, Request, urlparse
+import urllib3
+from urllib3.util import parse_url
 from shutil import copyfileobj
 from concurrent.futures import ProcessPoolExecutor
 from checksumming_io.checksumming_io import ChecksummingSink
@@ -59,6 +60,7 @@ def report_duration_and_rate(func,  *args, size):
 
 # Executor complains if it is an object attribute, so we make it global.
 executor = None
+http = urllib3.PoolManager()
 
 
 class Main:
@@ -244,7 +246,7 @@ class DataFileStager:
         raise BundleMissingDataFile(f"Cannot find source for {self.filename}")
 
     def copy_file_to_target_location(self, source_location):
-        if urlparse(source_location).scheme == 's3':
+        if parse_url(source_location).scheme == 's3':
             logger.output(f"\n      copy to {self.target} ", "C")
             report_duration_and_rate(self.s3.copy_between_buckets,
                                      source_location,
@@ -252,8 +254,8 @@ class DataFileStager:
                                      self.file_size,
                                      size=self.file_size)
             S3ObjectTagger(self.target).copy_tags_from_object(source_location)
-        elif urlparse(source_location).scheme == 'file':
-            local_path = urlparse(source_location).path.lstrip('/')
+        elif parse_url(source_location).scheme == 'file':
+            local_path = parse_url(source_location).path.lstrip('/')
             logger.output(f"\n      upload to {self.target} ", "^")
             checksums = report_duration_and_rate(self.s3.upload_and_checksum,
                                                  local_path,
@@ -289,21 +291,20 @@ class DataFileStager:
 
     @staticmethod
     def _delete_downloaded_file(location):
-        urlbits = urlparse(location)
+        urlbits = parse_url(location)
         if urlbits.scheme == 'file':
             logger.output(f"\n      Deleting {location}")
             os.remove(urlbits.path.lstrip('/'))
 
     @staticmethod
     def _download(src_url: str, dest_path: str):
-        with urlopen(src_url) as in_stream, open(dest_path, 'wb') as out_file:
-            copyfileobj(in_stream, out_file)
+        with open(dest_path, 'wb') as out_file:
+            with http.request('GET', src_url, preload_content=False) as in_stream:
+                copyfileobj(in_stream, out_file)
 
     @staticmethod
     def _internet_file_size(url: str) -> int:
-        request = Request(url, method='HEAD')
-        response = urlopen(request)
-        return int(response.headers['Content-Length'])
+        return int(http.request('HEAD', url).headers['Content-Length'])
 
 
 class MetadataFileStager:
