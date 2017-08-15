@@ -18,7 +18,7 @@
                "staging_area_id" : "abcd1234"
             }
          },
-         "file_id" : "8c68afd2-3988-46a2-8412-3b409fb91deb"
+         "file_uuid" : "8c68afd2-3988-46a2-8412-3b409fb91deb"
       },
       {
          "name" : "SRR3587500_2.fastq.gz",
@@ -38,10 +38,10 @@
                "staged_from" : "http://someserver.com/somepath/SRR3587500_2.fastq.gz"
             }
          },
-         "file_id" : "9fb7d4af-7d33-4e76-a210-290d8bdd40f1"
+         "file_uuid" : "9fb7d4af-7d33-4e76-a210-290d8bdd40f1"
       }
    ],
-   "data_bundle_id" : "875e404f-a7b2-4cdc-af27-d20be2143b09",
+   "data_bundle_uuid" : "875e404f-a7b2-4cdc-af27-d20be2143b09",
    "info" : {
       "ingest_service" : {
          "version" : "1.0.1"
