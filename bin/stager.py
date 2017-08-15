@@ -2,6 +2,7 @@
 
 import argparse, glob, json, os, signal, ssl, sys
 import urllib3
+import uuid
 from urllib3.util import parse_url
 from shutil import copyfileobj
 from concurrent.futures import ProcessPoolExecutor
@@ -10,9 +11,9 @@ from utils import logger, sizeof_fmt, measure_duration_and_rate, S3Agent, S3Obje
 
 """
     stager.py - Stage Example Data Bundles in S3 Bucket org-humancellatlas-data-bundle-examples
-    
+
     Un-tar metadata files before running: tar xf import/import.tgz
-    
+
     Default action is to traverse the import/ folder finding bundles, then for each bundle:
         For each data file:
             - Find the original (using manifest.json) and note its size.
@@ -20,31 +21,31 @@ from utils import logger, sizeof_fmt, measure_duration_and_rate, S3Agent, S3Obje
         For each metadata file:
             - Checksum it.
             - Upload to S3 unless a files already exists there with this checksum.
-            
+
     Checking 100,000 files can be a slow process, so you can parallelize with the -j option.
     Try running on an m4.2xlarge with -j16.  This will take under an hour and works well in
     the case where there are no new data-files to be uploaded.  Note however that if there
     are new data-files to be uploaded, you will want to use minimal or no concurrency for
     those bundles to avoid overloading the web server from which they are being downloaded.
-    
+
     When running parallelized, terse output will be produced.
-    
+
     Terse output key:
-    
+
         B - a new bundle is being examined
         , - a data file has been checked and is already in place
         ! - a data file could not be found
         C - a data file was copied from another S3 bucket to the target location
         v - a data file was downloaded from the internet
         ^ - a data file was upload to the target bucket
-        + - missing checksums where added to an already uploaded file 
+        + - missing checksums where added to an already uploaded file
         . - a metadata file has been checked and is already in place
         u - a metadata file was uploaded to the target location
-        
+
         e.g. this bundle is already done: B,.....
              this bundle was new:         Bv^uuuuu
-    
-    When running parallelized you can still generate verbose output with the --log option. 
+
+    When running parallelized you can still generate verbose output with the --log option.
 """
 
 
@@ -122,8 +123,8 @@ class Main:
 
     def stage_bundle(self, bundle, bundle_number=None):
         comment = f"({bundle_number}/{self.total_bundles})" if bundle_number else ""
-        signal.signal(signal.SIGINT, signal.SIG_DFL)
-        BundleStager(self.args.target_bucket).stage(bundle, comment)
+        ############signal.signal(signal.SIGINT, signal.SIG_DFL)
+        ############BundleStager(self.args.target_bucket).stage(bundle, comment)
 
     @staticmethod
     def signal_handler(signal, frame):
@@ -174,6 +175,7 @@ class LocalBundle:
     EXAMPLES_ROOT = 'import'
     BUNDLE_HOME_DIRNAME = 'bundles'  # Folders containing bundles
     MANIFEST_FILENAME = 'manifest.json'
+    SUBMISSION_FILENAME = 'submission.json'
 
     @classmethod
     def bundles_under(cls, folder):
@@ -186,7 +188,9 @@ class LocalBundle:
     def __init__(self, bundle_path):
         self.path = bundle_path
         self.manifest = None
+        self.submission = None
         self.metadata_files = self._find_metadata_files()
+        self.submission = self._generate_submission(self.manifest, self.submission)
 
     def __lt__(self, other):
         return self.path < other.path
@@ -203,7 +207,42 @@ class LocalBundle:
             manifest_path = f"{self.path}/{self.MANIFEST_FILENAME}"
             with open(manifest_path, 'r') as data:
                 self.manifest = json.load(data)
+        if self.SUBMISSION_FILENAME in filenames:
+            submission_path = f"{self.path}/{self.SUBMISSION_FILENAME}"
+            with open(submission_path, 'r') as data:
+                self.submission = json.load(data)
         return filenames
+
+    def _generate_submission(self, manifest, submission):
+        if manifest is not None and submission is None:
+            sub = {}
+            sub['data_bundle_uuid'] = str(uuid.uuid4())
+            sub['submitted_files'] = []
+            for fileinfo in manifest['files']:
+                info = {}
+                info['name'] = fileinfo['name']
+                # TODO: are there official, HCA-specific content types?
+                if fileinfo['name'].endswith('.json'):
+                    info['content_type'] = 'application/json'
+                else:
+                    info['content_type'] = 'application/octet-stream'
+                info['size'] = 0 # os.stat(self.path+'/'+fileinfo['name']).st_size
+                info['file_info'] = {}
+                info['file_info']['ingest_service'] = {}
+                info['file_info']['broker_service'] = {}
+                info['file_info']['staging_service'] = {}
+                info['file_uuid'] = str(uuid.uuid4())
+                sub['submitted_files'].append(info)
+            sub['info'] = {}
+            sub['info']['ingest_service'] = {}
+            sub['info']['staging_service'] = {}
+            sub['info']['broker_service'] = {}
+            sub['info']['ingest_service']['version'] = "1.0.0"
+            sub['info']['staging_service']['version'] = "1.0.0"
+            sub['info']['broker_service']['version'] = "1.0.0"
+            logger.output(json.dumps(sub))
+        else:
+            return None
 
 
 class DataFileStager:

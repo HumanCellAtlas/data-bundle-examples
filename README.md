@@ -20,11 +20,14 @@ Downloads the fastq files associated with each hand-curated example:
 
     bash bin/get_data.sh
 
-For the import directory structure, first extract the metadata files (see above) and then run:
+Check out the sub-module:
 
     # submodule
     git submodule update --init --recursive
     git pull --recurse-submodules
+
+For the import directory structure, first extract the metadata files (see above) and then run:
+
     # mac
     brew install python3 # if you're on a mac, make sure brew upgrade
     # or ubuntu
@@ -33,6 +36,17 @@ For the import directory structure, first extract the metadata files (see above)
     source env/bin/activate
     pip install python-dateutil crcmod==1.7 boto boto3 jsonschema
     python bin/get_import_data.py
+
+Sam has developed a better stager/loader:
+
+    # on my mac
+    conda create --name data-bundle-examples
+    source activate data-bundle-examples
+    pip install -r requirements.txt
+    # make sure it's 3.6
+    python --version
+    # now run the tool on a single bundle
+    python bin/stager.py --bundle
 
 ## Smartseq2
 
