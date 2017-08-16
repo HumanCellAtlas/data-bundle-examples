@@ -154,26 +154,60 @@ class BundleStager:
         logger.flush()
 
     def _stage_data_files(self, bundle):
-        if bundle.manifest is None:
-            return
-        logger.output(f"\n  Data files ({len(bundle.manifest['files'])}):")
-        for fileinfo in bundle.manifest['files']:
-            file = fileinfo['name']
-            logger.output(f"\n    {file} ")
-            DataFileStager(bundle, file).stage_file(self.target_bucket)
+        logger.output(f"\n  Data files ({len(bundle.data_files)}):")
+        for name, datafile in bundle.data_files.items():
+            logger.output(f"\n    {name} ")
+            DataFileStager(datafile).stage_file(self.target_bucket)
 
     def _stage_metadata(self, bundle):
         logger.output("\n  Metadata:")
-        for metadata_file in bundle.metadata_files:
-            logger.output(f"\n    {metadata_file}: ")
-            MetadataFileStager(bundle, metadata_file).stage(self.target_bucket)
+        for name, metadata_file in bundle.metadata_files.items():
+            logger.output(f"\n    {name}: ")
+            MetadataFileStager(metadata_file).stage(self.target_bucket)
 
 
-class LocalBundle:
+class File:
+    def __init__(self, name, bundle, uuid=None, size=None, content_type=None, origin_url=None):
+        self.bundle = bundle
+        self.name = name
+        self.content_type = content_type
+        self.size = size
+        self.uuid = uuid
+        self.origin_url = origin_url
+        self.staged_url = None
+        self.checksums = {}
 
-    EXAMPLES_ROOT = 'import'
-    BUNDLE_HOME_DIRNAME = 'bundles'  # Folders containing bundles
+    def path(self):
+        return f"{self.bundle.path}/{self.name}"
+
+
+class Bundle:
+    SUBMISSION_FILENAME = "submission.json"
+
+    def __init__(self, uuid=None, path=None, metadata_files=None, data_files=None):
+        self.uuid = uuid
+        self.path = path
+        self.origin_url = None
+        self.staged_url = None
+        self.metadata_files = metadata_files if metadata_files else dict()  # dict of { filename: File }
+        self.data_files = data_files if data_files else dict()              # dict of { filename: File }
+
+    def __lt__(self, other):
+        return self.path < other.path
+
+    def add_metadata_file(self, file: File):
+        file.bundle = self
+        self.metadata_files[file.name] = file
+
+    def add_data_file(self, file: File):
+        file.bundle = self
+        self.data_files[file.name] = file
+
+
+class LocalBundle(Bundle):
+
     MANIFEST_FILENAME = 'manifest.json'
+    BUNDLE_HOME_DIRNAME = 'bundles'  # Folders containing bundles
 
     @classmethod
     def bundles_under(cls, folder):
@@ -183,43 +217,52 @@ class LocalBundle:
                 bundle_path = os.path.join(bundle_home, bundle_dir)
                 yield cls(bundle_path)
 
-    def __init__(self, bundle_path):
-        self.path = bundle_path
-        self.manifest = None
-        self.metadata_files = self._find_metadata_files()
-
-    def __lt__(self, other):
-        return self.path < other.path
-
     @classmethod
     def _find_bundle_homes_under(cls, folder):
         for bundle_home in glob.glob(f"{folder}/**/{cls.BUNDLE_HOME_DIRNAME}", recursive=True):
             yield bundle_home
 
-    def _find_metadata_files(self) -> list:
-        paths = glob.glob(f"{self.path}/*.json")
-        filenames = [os.path.basename(path) for path in paths]
-        if self.MANIFEST_FILENAME in filenames:
-            manifest_path = f"{self.path}/{self.MANIFEST_FILENAME}"
-            with open(manifest_path, 'r') as data:
-                self.manifest = json.load(data)
-        return filenames
+    def __init__(self, local_path):
+        super().__init__(path=local_path)
+        self.manifest_path = None
+        self._load_metadata_files()
+        if self.manifest_path is None:
+            raise RuntimeError(f"Bundle {local_path} has no {self.MANIFEST_FILENAME}")
+        self._load_data_files()
+
+    def _load_metadata_files(self):
+        for path in glob.glob(f"{self.path}/*.json"):
+            name = os.path.basename(path)
+            if name == self.MANIFEST_FILENAME:
+                self.manifest_path = path
+            else:
+                file = File(name=name, bundle=self, size=os.stat(path).st_size)
+                self.add_metadata_file(file)
+
+    def _load_data_files(self):
+        with open(self.manifest_path, 'r') as data:
+            manifest = json.load(data)
+            for fileinfo in manifest['files']:
+                origin_url = f"{manifest['dir']}/{fileinfo['name']}"
+                size = self._internet_file_size(origin_url)
+                file = File(name=fileinfo['name'], bundle=self, size=size, origin_url=origin_url)
+                self.add_data_file(file)
+
+    @staticmethod
+    def _internet_file_size(url: str) -> int:
+        return int(http.request('HEAD', url).headers['Content-Length'])
 
 
 class DataFileStager:
 
-    OLD_BUCKET = 'hca-dss-test-src'
-
-    def __init__(self, bundle, filename):
-        self.bundle = bundle
-        self.filename = filename
-        self.original_location_url = f"{bundle.manifest['dir']}/{filename}"
-        self.file_size = self._internet_file_size(self.original_location_url)
+    def __init__(self, file):
+        self.file = file
+        self.bundle = file.bundle
         self.target = None
         self.s3 = S3Agent()
 
     def stage_file(self, target_bucket):
-        self.target = f"s3://{target_bucket}/{self.bundle.path}/{self.filename}"
+        self.target = f"s3://{target_bucket}/{self.file.path()}"
         if self._obj_is_at_target_location():
             logger.progress(",")
         else:
@@ -231,11 +274,11 @@ class DataFileStager:
     def _obj_is_at_target_location(self):
         obj = self.s3.get_object(self.target)
         if obj:
-            if obj.content_length == self.file_size:
+            if obj.content_length == self.file.size:
                 logger.output("=present ")
                 return True
             else:
-                logger.output(f"\n      exists at target but has different size: {self.file_size} / {obj.content_length}")
+                logger.output(f"\n      exists at target but has different size: {self.file.size} / {obj.content_length}")
         return False
 
     def source_data_file(self):
@@ -243,7 +286,7 @@ class DataFileStager:
         if location:
             logger.output(f"\n      found at {location}")
             return location
-        raise BundleMissingDataFile(f"Cannot find source for {self.filename}")
+        raise BundleMissingDataFile(f"Cannot find source for {self.file.name}")
 
     def copy_file_to_target_location(self, source_location):
         if parse_url(source_location).scheme == 's3':
@@ -251,8 +294,8 @@ class DataFileStager:
             report_duration_and_rate(self.s3.copy_between_buckets,
                                      source_location,
                                      self.target,
-                                     self.file_size,
-                                     size=self.file_size)
+                                     self.file.size,
+                                     size=self.file.size)
             S3ObjectTagger(self.target).copy_tags_from_object(source_location)
         elif parse_url(source_location).scheme == 'file':
             local_path = parse_url(source_location).path.lstrip('/')
@@ -260,24 +303,24 @@ class DataFileStager:
             checksums = report_duration_and_rate(self.s3.upload_and_checksum,
                                                  local_path,
                                                  self.target,
-                                                 self.file_size,
-                                                 size=self.file_size)
+                                                 self.file.size,
+                                                 size=self.file.size)
             S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
             logger.output("+tagging ")
         else:
             raise RuntimeError(f"Unrecognized scheme: {source_location}")
 
     def _find_locally(self):
-        local_path = os.path.join(self.bundle.path, self.filename)
-        if os.path.isfile(local_path) and os.stat(local_path).st_size == self.file_size:
+        local_path = self.file.path()
+        if os.path.isfile(local_path) and os.stat(local_path).st_size == self.file.size:
             return f"file:///{local_path}"
         return None
 
     def _download_from_source(self):
-        logger.output(f"\n      downloading {self.original_location_url} [{sizeof_fmt(self.file_size)}]", "v")
-        dest_path = os.path.join(self.bundle.path, self.filename)
+        logger.output(f"\n      downloading {self.file.origin_url} [{sizeof_fmt(self.file.size)}]", "v")
+        dest_path = self.file.path()
         try:
-            report_duration_and_rate(self._download, self.original_location_url, dest_path, size=self.file_size)
+            report_duration_and_rate(self._download, self.file.origin_url, dest_path, size=self.file.size)
             return f"file:///{dest_path}"
         # except urllib.error.HTTPError:
         except Exception as e:
@@ -302,28 +345,22 @@ class DataFileStager:
             with http.request('GET', src_url, preload_content=False) as in_stream:
                 copyfileobj(in_stream, out_file)
 
-    @staticmethod
-    def _internet_file_size(url: str) -> int:
-        return int(http.request('HEAD', url).headers['Content-Length'])
-
 
 class MetadataFileStager:
 
-    def __init__(self, bundle: LocalBundle, metadata_filename: str):
-        self.bundle = bundle
-        self.filename = metadata_filename
-        self.file_path = f"{self.bundle.path}/{self.filename}"
-        self.file_size = os.stat(self.file_path).st_size
+    def __init__(self, file: File):
+        self.file = file
+        self.bundle = file.bundle
         self.s3 = S3Agent()
 
-    def stage(self, bucket) -> bool:
-        self.target = f"s3://{bucket}/{self.file_path}"
+    def stage(self, bucket):
+        self.target = f"s3://{bucket}/{self.file.path()}"
         if self._obj_is_at_target_location():
             logger.output("=present ", progress_char=".")
             S3ObjectTagger(self.target).complete_tags()
         else:
             logger.output("+uploading ", progress_char="u")
-            checksums = self.s3.upload_and_checksum(self.file_path, self.target, self.file_size)
+            checksums = self.s3.upload_and_checksum(self.file.path(), self.target, self.file.size)
             S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
             logger.output("+tagging ")
 
@@ -339,7 +376,7 @@ class MetadataFileStager:
 
     def _checksum_local_file(self):
         with ChecksummingSink() as sink:
-            with open(self.file_path, 'rb') as fh:
+            with open(self.file.path(), 'rb') as fh:
                 copyfileobj(fh, sink)
             return sink.get_checksums()
 
