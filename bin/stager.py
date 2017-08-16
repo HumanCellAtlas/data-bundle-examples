@@ -167,14 +167,14 @@ class BundleStager:
 
 
 class File:
-    def __init__(self, name, bundle, uuid=None, size=None, content_type=None, origin_url=None):
+    def __init__(self, name, bundle, uuid=None, size=None, content_type=None, origin_url=None, staged_url=None):
         self.bundle = bundle
         self.name = name
         self.content_type = content_type
         self.size = size
         self.uuid = uuid
         self.origin_url = origin_url
-        self.staged_url = None
+        self.staged_url = staged_url
         self.checksums = {}
 
     def path(self):
@@ -184,11 +184,11 @@ class File:
 class Bundle:
     SUBMISSION_FILENAME = "submission.json"
 
-    def __init__(self, uuid=None, path=None, metadata_files=None, data_files=None):
+    def __init__(self, uuid=None, path=None, origin_url=None, staged_url=None, metadata_files=None, data_files=None):
         self.uuid = uuid
         self.path = path
-        self.origin_url = None
-        self.staged_url = None
+        self.origin_url = origin_url
+        self.staged_url = staged_url
         self.metadata_files = metadata_files if metadata_files else dict()  # dict of { filename: File }
         self.data_files = data_files if data_files else dict()              # dict of { filename: File }
 
@@ -242,6 +242,7 @@ class LocalBundle(Bundle):
     def _load_data_files(self):
         with open(self.manifest_path, 'r') as data:
             manifest = json.load(data)
+            self.origin_url = manifest['dir']
             for fileinfo in manifest['files']:
                 origin_url = f"{manifest['dir']}/{fileinfo['name']}"
                 size = self._internet_file_size(origin_url)
@@ -269,6 +270,7 @@ class DataFileStager:
             src_location = self.source_data_file()
             self.copy_file_to_target_location(src_location)
             self._delete_downloaded_file(src_location)
+        self.file.staged_url = self.target
         self._ensure_checksum_tags()
 
     def _obj_is_at_target_location(self):
@@ -363,6 +365,7 @@ class MetadataFileStager:
             checksums = self.s3.upload_and_checksum(self.file.path(), self.target, self.file.size)
             S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
             logger.output("+tagging ")
+        self.file.staged_url = self.target
 
     def _obj_is_at_target_location(self):
         obj = self.s3.get_object(self.target)
