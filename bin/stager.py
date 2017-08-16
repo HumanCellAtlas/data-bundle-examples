@@ -110,10 +110,23 @@ class Main:
         logger.configure(self.args.log, quiet=quiet, terse=terse)
 
     def stage_bundles(self, bundles):
+        self.total_bundles = len(bundles)
+        if self.args.jobs > 1:
+            self.stage_bundles_in_parallel(bundles)
+        else:
+            self.stage_bundles_serially(bundles)
+
+    def stage_bundles_serially(self, bundles):
+        """ This produces much better error messages that operating under ProcessPoolExecutor """
+        bundle_number = 0
+        for bundle in bundles:
+            bundle_number += 1
+            self.stage_bundle(bundle, bundle_number)
+
+    def stage_bundles_in_parallel(self, bundles):
         global executor
         signal.signal(signal.SIGINT, self.signal_handler)
         executor = ProcessPoolExecutor(max_workers=self.args.jobs)
-        self.total_bundles = len(bundles)
         bundle_number = 0
         for bundle in bundles:
             bundle_number += 1
@@ -292,25 +305,31 @@ class DataFileStager:
 
     def copy_file_to_target_location(self, source_location):
         if parse_url(source_location).scheme == 's3':
-            logger.output(f"\n      copy to {self.target} ", "C")
-            report_duration_and_rate(self.s3.copy_between_buckets,
-                                     source_location,
-                                     self.target,
-                                     self.file.size,
-                                     size=self.file.size)
-            S3ObjectTagger(self.target).copy_tags_from_object(source_location)
+            self.copy_s3_file_to_target_location(source_location)
         elif parse_url(source_location).scheme == 'file':
-            local_path = parse_url(source_location).path.lstrip('/')
-            logger.output(f"\n      upload to {self.target} ", "^")
-            checksums = report_duration_and_rate(self.s3.upload_and_checksum,
-                                                 local_path,
-                                                 self.target,
-                                                 self.file.size,
-                                                 size=self.file.size)
-            S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
-            logger.output("+tagging ")
+            self.copy_local_file_to_target_location(source_location)
         else:
             raise RuntimeError(f"Unrecognized scheme: {source_location}")
+
+    def copy_s3_file_to_target_location(self, source_location):
+        logger.output(f"\n      copy to {self.target} ", "C")
+        report_duration_and_rate(self.s3.copy_between_buckets,
+                                 source_location,
+                                 self.target,
+                                 self.file.size,
+                                 size=self.file.size)
+        S3ObjectTagger(self.target).copy_tags_from_object(source_location)
+
+    def copy_local_file_to_target_location(self, source_location):
+        local_path = parse_url(source_location).path.lstrip('/')
+        logger.output(f"\n      upload to {self.target} ", "^")
+        checksums = report_duration_and_rate(self.s3.upload_and_checksum,
+                                             local_path,
+                                             self.target,
+                                             self.file.size,
+                                             size=self.file.size)
+        S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
+        logger.output("+tagging ")
 
     def _find_locally(self):
         local_path = self.file.path()
