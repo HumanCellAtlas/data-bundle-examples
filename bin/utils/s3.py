@@ -65,13 +65,16 @@ class S3Agent:
         self.s3client.put_object_tagging(Bucket=s3loc.Bucket, Key=s3loc.Key, Tagging=tagging)
 
     def get_object(self, s3url: str):
-        s3loc = S3Location(s3url)
         try:
-            obj = self.s3.Object(s3loc.Bucket, s3loc.Key)
+            obj = self.object(s3url)
             obj.load()
             return obj
         except ClientError:
             return None
+
+    def object(self, s3url: str):
+        s3loc = S3Location(s3url)
+        return self.s3.Object(s3loc.Bucket, s3loc.Key)
 
     def delete_object(self, s3url: str):
         s3loc = S3Location(s3url)

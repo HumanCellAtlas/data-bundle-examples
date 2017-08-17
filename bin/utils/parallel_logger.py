@@ -36,7 +36,7 @@ class ParallelLogger:
     def flush(self):
         if self.terse:
             sys.stdout.write("".join(self.progress_string))
-        self.progress_string = ""
+        self.progress_string = list()
         sys.stdout.flush()
         if self.logfile:
             self.logfile.flush()

@@ -1,12 +1,14 @@
 #!/usr/bin/env python3.6
 
-import argparse, glob, json, os, signal, ssl, sys
+import argparse, copy, glob, json, os, re, signal, ssl, sys
 import urllib3
 from urllib3.util import parse_url
 from shutil import copyfileobj
 from concurrent.futures import ProcessPoolExecutor
 from checksumming_io.checksumming_io import ChecksummingSink
 from utils import logger, sizeof_fmt, measure_duration_and_rate, S3Agent, S3ObjectTagger
+from botocore.exceptions import ClientError
+from ftplib import FTP
 
 """
     stager.py - Stage Example Data Bundles in S3 Bucket org-humancellatlas-data-bundle-examples
@@ -61,6 +63,7 @@ def report_duration_and_rate(func,  *args, size):
 # Executor complains if it is an object attribute, so we make it global.
 executor = None
 http = urllib3.PoolManager()
+s3 = S3Agent()
 
 
 class Main:
@@ -78,6 +81,35 @@ class Main:
             bundles.sort()
             self.stage_bundles(bundles)
         print("")
+
+    def stage_bundles(self, bundles):
+        self.total_bundles = len(bundles)
+        if self.args.jobs > 1:
+            self.stage_bundles_in_parallel(bundles)
+        else:
+            self.stage_bundles_serially(bundles)
+
+    def stage_bundles_serially(self, bundles):
+        """ This produces much better error messages that operating under ProcessPoolExecutor """
+        bundle_number = 0
+        for bundle in bundles:
+            bundle_number += 1
+            self.stage_bundle(bundle, bundle_number)
+
+    def stage_bundles_in_parallel(self, bundles):
+        global executor
+        signal.signal(signal.SIGINT, self.signal_handler)
+        executor = ProcessPoolExecutor(max_workers=self.args.jobs)
+        bundle_number = 0
+        for bundle in bundles:
+            bundle_number += 1
+            executor.submit(self.stage_bundle, bundle, bundle_number)
+        executor.shutdown()
+
+    def stage_bundle(self, bundle, bundle_number=None):
+        comment = f"({bundle_number}/{self.total_bundles})" if bundle_number else ""
+        signal.signal(signal.SIGINT, signal.SIG_DFL)
+        BundleStager(bundle, self.args.target_bucket).stage(comment)
 
     def _parse_args(self):
         parser = argparse.ArgumentParser(description="Stage example bundles in S3.",
@@ -109,35 +141,6 @@ class Main:
 
         logger.configure(self.args.log, quiet=quiet, terse=terse)
 
-    def stage_bundles(self, bundles):
-        self.total_bundles = len(bundles)
-        if self.args.jobs > 1:
-            self.stage_bundles_in_parallel(bundles)
-        else:
-            self.stage_bundles_serially(bundles)
-
-    def stage_bundles_serially(self, bundles):
-        """ This produces much better error messages that operating under ProcessPoolExecutor """
-        bundle_number = 0
-        for bundle in bundles:
-            bundle_number += 1
-            self.stage_bundle(bundle, bundle_number)
-
-    def stage_bundles_in_parallel(self, bundles):
-        global executor
-        signal.signal(signal.SIGINT, self.signal_handler)
-        executor = ProcessPoolExecutor(max_workers=self.args.jobs)
-        bundle_number = 0
-        for bundle in bundles:
-            bundle_number += 1
-            executor.submit(self.stage_bundle, bundle, bundle_number)
-        executor.shutdown()
-
-    def stage_bundle(self, bundle, bundle_number=None):
-        comment = f"({bundle_number}/{self.total_bundles})" if bundle_number else ""
-        signal.signal(signal.SIGINT, signal.SIG_DFL)
-        BundleStager(self.args.target_bucket).stage(bundle, comment)
-
     @staticmethod
     def signal_handler(signal, frame):
         global executor
@@ -152,69 +155,106 @@ class Main:
         ssl_context.verify_mode = ssl.CERT_NONE if skip_ssl_cert_verification else ssl.CERT_REQUIRED
 
 
-class BundleStager:
-
-    def __init__(self, target_bucket):
-        self.target_bucket = target_bucket
-
-    def stage(self, bundle, comment=""):
-        logger.output(f"\nBundle: {bundle.path} {comment}", "B")
-        try:
-            self._stage_data_files(bundle)
-            self._stage_metadata(bundle)
-        except BundleMissingDataFile as e:
-            logger.output(f" -> {str(e)}\n", "!")
-        logger.flush()
-
-    def _stage_data_files(self, bundle):
-        logger.output(f"\n  Data files ({len(bundle.data_files)}):")
-        for name, datafile in bundle.data_files.items():
-            logger.output(f"\n    {name} ")
-            DataFileStager(datafile).stage_file(self.target_bucket)
-
-    def _stage_metadata(self, bundle):
-        logger.output("\n  Metadata:")
-        for name, metadata_file in bundle.metadata_files.items():
-            logger.output(f"\n    {name}: ")
-            MetadataFileStager(metadata_file).stage(self.target_bucket)
-
-
 class File:
-    def __init__(self, name, bundle, uuid=None, size=None, content_type=None, origin_url=None, staged_url=None):
-        self.bundle = bundle
+    def __init__(self, name=None, bundle=None, uuid=None, size=None, content_type=None, origin_url=None, staged_url=None):
         self.name = name
-        self.content_type = content_type
-        self.size = size
+        self.bundle = bundle
         self.uuid = uuid
+        self.size = size
+        self.content_type = content_type
         self.origin_url = origin_url
         self.staged_url = staged_url
         self.checksums = {}
+
+    def __eq__(self, other) -> bool:
+        return self.bundle == other.bundle and self.name == other.name
 
     def path(self):
         return f"{self.bundle.path}/{self.name}"
 
 
-class Bundle:
+class MetadataFile(File):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.content_type = self.content_type or 'application/json'
+
+
+class DataFile(File):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.content_type = self.content_type or 'application/octet-stream'
+
+
+class SubmissionInfo:
+
     SUBMISSION_FILENAME = "submission.json"
 
-    def __init__(self, uuid=None, path=None, origin_url=None, staged_url=None, metadata_files=None, data_files=None):
-        self.uuid = uuid
+    def __init__(self, bucket_name, bundle):
+        self.bucket_name = bucket_name
+        self.bundle = bundle
+        self.info = None
+        self.orig_info = None
+        self.s3_obj = s3.object(f"s3://{self.bucket_name}/{self.bundle.path}/{self.SUBMISSION_FILENAME}")
+        pass
+
+    def load(self):
+        try:
+            submission_json = self.s3_obj.get()['Body'].read()
+            self.info = json.loads(submission_json)
+            self.orig_info = copy.deepcopy(self.info)
+            for file in self.export_files():
+                self.bundle.add_file(file)
+        except ClientError:
+            self.info = {}
+
+    def save(self):
+        self.extract_bundle_info()
+        if self.info != self.orig_info:
+            logger.output("\n  Writing submission.json", progress_char='*')
+            self.s3_obj.put(Body=json.dumps(self.info))
+
+    def export_files(self):
+        return map(self._convert_file_entry_to_file, self.info['files'])
+
+    def extract_bundle_info(self):
+        file_entries = self.info.setdefault('files', [])
+        for file in self.bundle.files.values():
+            try:
+                file_entry = next((item for item in file_entries if item["name"] == file.name))
+            except StopIteration:
+                file_entry = dict()
+                file_entries.append(file_entry)
+            self.update_file_entry(file, file_entry)
+
+    def update_file_entry(self, file: File, entry: dict):
+        entry['name'] = file.name
+        entry['content_type'] = file.content_type
+        entry['size'] = file.size
+        entry['staged_url'] = file.staged_url
+        if file.origin_url:
+            entry['origin_url'] = file.origin_url
+
+    def _convert_file_entry_to_file(self, file_entry):
+        if re.match(".*\.json", file_entry['name']):
+            return MetadataFile(**file_entry)
+        else:
+            return DataFile(**file_entry)
+
+
+class Bundle:
+
+    def __init__(self, path=None, staged_url=None):
         self.path = path
-        self.origin_url = origin_url
         self.staged_url = staged_url
-        self.metadata_files = metadata_files if metadata_files else dict()  # dict of { filename: File }
-        self.data_files = data_files if data_files else dict()              # dict of { filename: File }
+        self.files = dict()
+        self.submission_info = None
 
     def __lt__(self, other):
         return self.path < other.path
 
-    def add_metadata_file(self, file: File):
+    def add_file(self, file: File):
         file.bundle = self
-        self.metadata_files[file.name] = file
-
-    def add_data_file(self, file: File):
-        file.bundle = self
-        self.data_files[file.name] = file
+        self.files[file.name] = file
 
 
 class LocalBundle(Bundle):
@@ -237,34 +277,76 @@ class LocalBundle(Bundle):
 
     def __init__(self, local_path):
         super().__init__(path=local_path)
-        self.manifest_path = None
-        self._load_metadata_files()
-        if self.manifest_path is None:
-            raise RuntimeError(f"Bundle {local_path} has no {self.MANIFEST_FILENAME}")
-        self._load_data_files()
+        self.manifest = None
 
-    def _load_metadata_files(self):
+    def enumerate_local_metadata_files(self):
         for path in glob.glob(f"{self.path}/*.json"):
             name = os.path.basename(path)
             if name == self.MANIFEST_FILENAME:
-                self.manifest_path = path
+                self.manifest = path
             else:
-                file = File(name=name, bundle=self, size=os.stat(path).st_size)
-                self.add_metadata_file(file)
+                if name not in self.files:
+                    self.add_file(MetadataFile(name=name, size=os.stat(path).st_size))
 
-    def _load_data_files(self):
-        with open(self.manifest_path, 'r') as data:
+    def enumerate_data_files_using_manifest(self):
+        if self.manifest is None:
+            raise RuntimeError(f"Bundle {self.path} has no {self.MANIFEST_FILENAME}")
+        with open(self.manifest, 'r') as data:
             manifest = json.load(data)
-            self.origin_url = manifest['dir']
             for fileinfo in manifest['files']:
                 origin_url = f"{manifest['dir']}/{fileinfo['name']}"
                 size = self._internet_file_size(origin_url)
-                file = File(name=fileinfo['name'], bundle=self, size=size, origin_url=origin_url)
-                self.add_data_file(file)
+                if fileinfo['name'] not in self.files:
+                    self.add_file(DataFile(name=fileinfo['name'], size=size, origin_url=origin_url))
 
     @staticmethod
     def _internet_file_size(url: str) -> int:
-        return int(http.request('HEAD', url).headers['Content-Length'])
+        urlbits = parse_url(url)
+        if urlbits.scheme == 'http':
+            return int(http.request('HEAD', url).headers['Content-Length'])
+        elif urlbits.scheme == 'ftp':
+            return LocalBundle._ftp_file_size(urlbits)
+        else:
+            raise RuntimeError(f"Odd scheme: {urlbits.scheme} for original file: {url}")
+
+    @staticmethod
+    def _ftp_file_size(ftp_url):
+        ftp = FTP(ftp_url.netloc)
+        ftp.login()
+        size = ftp.size(ftp_url.path)
+        ftp.quit()
+        return size
+
+
+class BundleStager:
+
+    def __init__(self, bundle: LocalBundle, target_bucket: str):
+        self.bundle = bundle
+        self.target_bucket = target_bucket
+
+    def stage(self, comment=""):
+        logger.output(f"\nBundle: {self.bundle.path} {comment}", "B")
+        try:
+            self.bundle.submission_info = SubmissionInfo(self.target_bucket, self.bundle)
+            self.bundle.submission_info.load()
+            self.bundle.enumerate_local_metadata_files()
+            self.bundle.enumerate_data_files_using_manifest()
+            self._stage_files_of_type(DataFile)
+            self._stage_files_of_type(MetadataFile)
+            self.bundle.submission_info.save()
+        except BundleMissingDataFile as e:
+            logger.output(f" -> {str(e)}\n", "!")
+        logger.flush()
+
+    def _stage_files_of_type(self, file_class):
+        files = [file for file in self.bundle.files.values() if type(file) == file_class]
+        logger.output(f"\n  {file_class.__name__}s ({len(files)}):")
+        for file in files:
+            logger.output(f"\n    {file.name} ")
+            if type(file) == DataFile:
+                DataFileStager(file).stage_file(self.target_bucket)
+            else:
+                MetadataFileStager(file).stage(self.target_bucket)
 
 
 class DataFileStager:
@@ -273,7 +355,6 @@ class DataFileStager:
         self.file = file
         self.bundle = file.bundle
         self.target = None
-        self.s3 = S3Agent()
 
     def stage_file(self, target_bucket):
         self.target = f"s3://{target_bucket}/{self.file.path()}"
@@ -287,7 +368,7 @@ class DataFileStager:
         self._ensure_checksum_tags()
 
     def _obj_is_at_target_location(self):
-        obj = self.s3.get_object(self.target)
+        obj = s3.get_object(self.target)
         if obj:
             if obj.content_length == self.file.size:
                 logger.output("=present ")
@@ -313,7 +394,7 @@ class DataFileStager:
 
     def copy_s3_file_to_target_location(self, source_location):
         logger.output(f"\n      copy to {self.target} ", "C")
-        report_duration_and_rate(self.s3.copy_between_buckets,
+        report_duration_and_rate(s3.copy_between_buckets,
                                  source_location,
                                  self.target,
                                  self.file.size,
@@ -323,12 +404,12 @@ class DataFileStager:
     def copy_local_file_to_target_location(self, source_location):
         local_path = parse_url(source_location).path.lstrip('/')
         logger.output(f"\n      upload to {self.target} ", "^")
-        checksums = report_duration_and_rate(self.s3.upload_and_checksum,
-                                             local_path,
-                                             self.target,
-                                             self.file.size,
-                                             size=self.file.size)
-        S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
+        self.file.checksums = report_duration_and_rate(s3.upload_and_checksum,
+                                                       local_path,
+                                                       self.target,
+                                                       self.file.size,
+                                                       size=self.file.size)
+        S3ObjectTagger(self.target).tag_using_these_checksums(self.file.checksums)
         logger.output("+tagging ")
 
     def _find_locally(self):
@@ -363,6 +444,7 @@ class DataFileStager:
     @staticmethod
     def _download(src_url: str, dest_path: str):
         with open(dest_path, 'wb') as out_file:
+            # TODO now that we switched from urlopen(), this will fail with FTP files
             with http.request('GET', src_url, preload_content=False) as in_stream:
                 copyfileobj(in_stream, out_file)
 
@@ -372,7 +454,6 @@ class MetadataFileStager:
     def __init__(self, file: File):
         self.file = file
         self.bundle = file.bundle
-        self.s3 = S3Agent()
 
     def stage(self, bucket):
         self.target = f"s3://{bucket}/{self.file.path()}"
@@ -381,13 +462,13 @@ class MetadataFileStager:
             S3ObjectTagger(self.target).complete_tags()
         else:
             logger.output("+uploading ", progress_char="u")
-            checksums = self.s3.upload_and_checksum(self.file.path(), self.target, self.file.size)
+            checksums = s3.upload_and_checksum(self.file.path(), self.target, self.file.size)
             S3ObjectTagger(self.target).tag_using_these_checksums(checksums)
             logger.output("+tagging ")
         self.file.staged_url = self.target
 
     def _obj_is_at_target_location(self):
-        obj = self.s3.get_object(self.target)
+        obj = s3.get_object(self.target)
         if obj:
             local_checksums = self._checksum_local_file()
             if local_checksums['s3_etag'] == obj.e_tag.strip('"'):
