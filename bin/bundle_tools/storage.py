@@ -15,12 +15,16 @@ class BundleStorer:
         self.api = DataStoreAPI(dss_url)
 
     def store_bundle(self):
-        logger.output(f"\n{self.bundle.path}:", progress_char="B")
-        self._assign_uuids()
-        self.bundle.submission_info.save()
-        self._store_files()
-        self._register_bundle()
-        logger.flush()
+        try:
+            logger.output(f"\n{self.bundle.path}:", progress_char="B")
+            self._assign_uuids()
+            self.bundle.submission_info.save()
+            self._store_files()
+            self._register_bundle()
+            logger.flush()
+        except DSSAPIError as e:
+            logger.output(f"\n\nERROR attempting to store bundle {self.bundle.path}: {str(e)}\n",
+                          progress_char="!", flush=True)
 
     def _store_files(self):
         for file in self.bundle.files.values():
@@ -80,6 +84,10 @@ class StagedBundleFinder:
         return os.path.basename(path.rstrip('/')) == 'bundles'
 
 
+class DSSAPIError(RuntimeError):
+    pass
+
+
 class DataStoreAPI:
 
     DEFAULT_DSS_URL = "https://hca-dss.czi.technology/v1"
@@ -103,8 +111,7 @@ class DataStoreAPI:
         params = {'version': datetime.now().isoformat(), 'replica': 'aws'}
         response = requests.put(url, params=params, json=payload)
         if response.status_code != 201:
-            print(f"ERROR: put_files() returned {response.status_code}: {response.text}")
-            exit(1)
+            raise DSSAPIError(f"put({url}, {params}, {payload}) returned status {response.status_code}: {response.text}")
         return response.json()['version']
 
     def _put_file_via_rest(self, bundle_uuid: str, file_uuid: str, file_location: str):
@@ -119,8 +126,7 @@ class DataStoreAPI:
         params = {'version': datetime.now().isoformat()}
         response = requests.put(url, params=params, json=payload)
         if response.status_code != 201:
-            print(f"ERROR: put_files() returned {response.status_code}: {response.text}")
-            exit(1)
+            raise DSSAPIError(f"put({url}, {params}, {payload}) returned status {response.status_code}: {response.text}")
         return response.json()['version']
 
     def _put_file_via_python_bindings(self, bundle_uuid: str, file_uuid: str, file_location: str):
