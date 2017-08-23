@@ -5,6 +5,7 @@ import requests
 from urllib3.util import Url
 # from hca import api as hca_api
 from .parallel_logger import logger
+from .utils import sizeof_fmt
 
 
 class BundleStorer:
@@ -28,7 +29,8 @@ class BundleStorer:
 
     def _store_files(self):
         for file in self.bundle.files.values():
-            logger.output(f"\n  storing file {file.name} as {file.uuid}...")
+            size_message = f" ({sizeof_fmt(file.size)})" if not file.is_metadata() else ""
+            logger.output(f"\n  storing file {file.name}{size_message} as {file.uuid}...")
             version = self.api.put_file(self.bundle.uuid, file.uuid, file.staged_url, method='rest')
             self.file_info.append({
                 'name': file.name,
