@@ -3,7 +3,9 @@ import urllib3
 from urllib3.util import parse_url
 from shutil import copyfileobj
 from checksumming_io.checksumming_io import ChecksummingSink
-from utils import logger, sizeof_fmt, measure_duration_and_rate, S3Agent, S3ObjectTagger
+from .parallel_logger import logger
+from .utils import sizeof_fmt, measure_duration_and_rate
+from .s3 import S3Agent, S3ObjectTagger
 from bundle_tools import LocalBundle, File, DataFile, MetadataFile, SubmissionInfo
 
 

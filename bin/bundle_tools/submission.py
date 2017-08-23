@@ -1,6 +1,6 @@
 import copy, json, re
-from utils import S3Agent
 from botocore.exceptions import ClientError
+from .s3 import S3Agent
 import bundle_tools
 
 

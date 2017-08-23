@@ -3,11 +3,17 @@
 import argparse, signal, sys
 from concurrent.futures import ProcessPoolExecutor
 from urllib3.util import parse_url, Url
-from bundle_tools import StagedBundle, StagedBundleFinder, BundleStorer, DataStoreAPI
-from utils import logger
+from bundle_tools import logger, StagedBundle, StagedBundleFinder, BundleStorer, DataStoreAPI
 
 """
     Store staged bundles in the HCA DSS Data Store
+    
+    Bundle must have been previously staged.
+    s3 URL of a bundle or bundle hierarchy (which has at least one 'bundles' subfolder) must be supplied, e.g.
+    
+    bin/storer.py --bundles s3://org-humancellatlas-data-bundle-examples/import/10x
+    
+    bin/storer.py --bundle s3://org-humancellatlas-data-bundle-examples/import/geo/GSE75478/bundles/bundle145
 """
 
 

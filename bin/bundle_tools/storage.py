@@ -4,7 +4,7 @@ import boto3
 import requests
 from urllib3.util import Url
 # from hca import api as hca_api
-from utils import logger
+from .parallel_logger import logger
 
 
 class BundleStorer:

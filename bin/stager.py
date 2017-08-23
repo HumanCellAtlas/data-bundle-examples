@@ -3,7 +3,7 @@
 import argparse, signal, ssl, sys
 from concurrent.futures import ProcessPoolExecutor
 from bundle_tools import LocalBundle, BundleStager
-from utils import logger
+from bundle_tools import logger
 
 """
     stager.py - Stage Example Data Bundles in S3 Bucket org-humancellatlas-data-bundle-examples
