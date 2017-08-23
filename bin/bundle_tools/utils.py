@@ -3,6 +3,11 @@ import urllib3
 from urllib3.util import parse_url
 from ftplib import FTP
 
+KB = 1024
+MB = KB * KB
+GB = KB * MB
+TB = KB * GB
+
 http = urllib3.PoolManager()
 
 

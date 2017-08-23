@@ -1,5 +1,6 @@
 import glob, json, os
-from .utils import file_size
+from urllib3.util import Url
+from .utils import file_size, MB
 import bundle_tools.submission
 
 
@@ -16,6 +17,9 @@ class File:
 
     def __eq__(self, other) -> bool:
         return self.bundle == other.bundle and self.name == other.name
+
+    def is_metadata(self) -> bool:
+        return self.content_type == 'application/json'
 
     def path(self):
         return f"{self.bundle.path}/{self.name}"
@@ -90,12 +94,14 @@ class LocalBundle(Bundle):
 
 class StagedBundle(Bundle):
 
-    def __init__(self, bucket: str, path: str):
-        self.bucket = bucket
+    def __init__(self, location: Url):
+        self.bucket = location.netloc
         self.uuid = None
-        super().__init__(path)
+        super().__init__(location.path.rstrip('/'))
         self.submission_info = bundle_tools.submission.SubmissionInfo(self.bucket, self)
         self.submission_info.load()
 
-    def file_url(self, filename: str) -> str:
-        return f"s3://{self.bucket}/{self.path}/{filename}"
+    def all_files_are_smaller_than(self, this_many_mb):
+        f = filter(lambda file: file.size > (this_many_mb * MB), self.files.values())
+        files_that_are_too_large = list(f)
+        return len(files_that_are_too_large) == 0
