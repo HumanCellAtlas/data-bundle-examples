@@ -22,7 +22,7 @@ python extract_ontology_values.py -p ~/hca/data-bundle-examples/import/import/ar
 
 Output
 
-Output will be written to output.txt containig the metadata field and value (tab separated)
+Output will be written to output.txt containing the metadata field and value (tab separated)
 
 ```
 E-MTAB-5061.sample.donor.sex	male
