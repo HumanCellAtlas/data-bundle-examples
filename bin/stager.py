@@ -29,17 +29,18 @@ from bundle_tools import logger
     Terse output key:
     
         B - a new bundle is being examined
-        , - a data file has been checked and is already in place
+        ✔ - a data file has been checked and is already in place
         ! - a data file could not be found
         C - a data file was copied from another S3 bucket to the target location
-        v - a data file was downloaded from the internet
-        ^ - a data file was upload to the target bucket
+        ⬇ - a data file was downloaded from S3 (so checksum could be recomputed)
+        ↓ - a data file was downloaded from the internet
+        ⬆ - a data file was upload to the target bucket
         + - missing checksums where added to an already uploaded file 
-        . - a metadata file has been checked and is already in place
-        u - a metadata file was uploaded to the target location
+        ✓ - a metadata file has been checked and is already in place
+        ↑ - a metadata file was uploaded to the target location
         
-        e.g. this bundle is already done: B,.....
-             this bundle was new:         Bv^uuuuu
+        e.g. this bundle is already done: B✔✓✓✓✓
+             this bundle was new:         B↓⬆↑↑↑↑
     
     When running parallelized you can still generate verbose output with the --log option. 
 """

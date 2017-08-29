@@ -137,6 +137,7 @@ class S3ObjectTagger:
             logger.output(f"\n      missing tags: {missing_tags}")
             if self._missing_tags(current_tags, self.CHECKSUM_TAGS):
                 current_tags.update(self._generate_checksum_tags())
+                # TODO?: put a sanity check here: does computed etag matches S3 etag
             if self.MIME_TAG not in current_tags:
                 current_tags.update(self._generate_mime_tags())
             logger.output(f"\n      Tagging with: {list(current_tags.keys())}")
