@@ -1,0 +1,9 @@
+GSE89232.sample.donor.life_stage	postpartum
+GSE89232.sample.donor.species	Homo sapiens
+GSE89232.sample.body_part.name	umbilical cord blood
+GSE89232.sample.body_part.name	blood dendritic cells
+GSE89232.sample.body_part.organ	blood
+GSE89232.sample.donor.age_unit	day
+GSE89232.sample.donor.life_stage	adult
+GSE89232.sample.body_part.name	blood pre-cDCs
+GSE89232.assay.single_cell.method	FACS

@@ -1,0 +1,5 @@
+GSE70580.sample.body_part.organ	tonsil
+GSE70580.sample.body_part.name	tonsil
+GSE70580.sample.donor.species	Homo sapiens
+GSE70580.sample.donor.life_stage	adult
+GSE70580.assay.single_cell.method	FACS

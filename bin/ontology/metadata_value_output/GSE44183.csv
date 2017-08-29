@@ -1,0 +1,21 @@
+GSE44183.sample.body_part.organ	embryo
+GSE44183.sample.donor.life_stage	embryo
+GSE44183.sample.donor.age_unit	day
+GSE44183.sample.body_part.name	8-cell blastomere
+GSE44183.sample.body_part.name	pronucleus phase zygote
+GSE44183.sample.donor.species	Mus musculus
+GSE44183.sample.body_part.name	2-cell blastomere
+GSE44183.sample.donor.development_stage	8-cell blastomeres
+GSE44183.sample.body_part.name	4-cell blastomere
+GSE44183.sample.donor.development_stage	oocyte
+GSE44183.sample.donor.species	Homo sapiens
+GSE44183.sample.donor.development_stage	4-cell blastomeres
+GSE44183.sample.donor.development_stage	zygote
+GSE44183.assay.single_cell.method	mouth pipette
+GSE44183.sample.body_part.name	morula stage embryo
+GSE44183.sample.donor.age_unit	week
+GSE44183.sample.body_part.name	zygote
+GSE44183.sample.donor.development_stage	pronucleus phase zygote
+GSE44183.sample.donor.development_stage	morula
+GSE44183.sample.body_part.name	oocyte
+GSE44183.sample.donor.development_stage	2-cell blastomeres

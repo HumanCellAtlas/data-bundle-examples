@@ -1,0 +1,5 @@
+10x_pbmc8k.assay.single_cell.method	10x_v2
+10x_pbmc8k.sample.body_part.name	peripheral blood mononuclear cells (PBMCs)
+10x_pbmc8k.sample.donor.life_stage	adult
+10x_pbmc8k.sample.body_part.organ	blood
+10x_pbmc8k.sample.donor.species	Homo sapiens

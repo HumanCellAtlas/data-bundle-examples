@@ -1,0 +1,6 @@
+GSE81904.sample.donor.age_unit	day
+GSE81904.sample.body_part.name	retina
+GSE81904.sample.body_part.organ	eye
+GSE81904.sample.donor.life_stage	postpartum
+GSE81904.assay.single_cell.method	drop-seq
+GSE81904.sample.donor.species	Mus musculus

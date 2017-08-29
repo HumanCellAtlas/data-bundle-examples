@@ -1,0 +1,7 @@
+GSE73727.sample.donor.sex	male
+GSE73727.sample.donor.age_unit	year
+GSE73727.assay.single_cell.method	bulk
+GSE73727.assay.single_cell.method	FACS
+GSE73727.sample.donor.species	Homo sapiens
+GSE73727.sample.body_part.organ	pancreas
+GSE73727.sample.body_part.name	islet of Langerhans
