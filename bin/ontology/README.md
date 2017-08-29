@@ -22,7 +22,8 @@ python extract_ontology_values.py -p ~/hca/data-bundle-examples/import/import/ar
 
 Output
 
-Tab seperated output 
+Output will be written to output.txt containig the etadata field and value (tab separated)
+
 
 * todo - this should read bundles from the datastore
 * todo - at the moment fields are hard coded into the script, it may be useful to read these in from the json schema

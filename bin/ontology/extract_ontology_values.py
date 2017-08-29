@@ -15,8 +15,6 @@ if not path:
     print "You must supply path to the HCA bundles directory"
     exit(2)
 
-
-
 ontoValues = {}
 
 def getKey(projectId, object,objectType, level1):
@@ -103,3 +101,5 @@ file  = open("output.tab", "w")
 for key in ontoValues:
     subKey =  key[:key.rindex('.')]
     file.write(subKey + "\t" + ontoValues[key] + "\n")
+
+file.close()
