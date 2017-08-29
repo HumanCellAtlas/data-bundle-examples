@@ -22,8 +22,18 @@ python extract_ontology_values.py -p ~/hca/data-bundle-examples/import/import/ar
 
 Output
 
-Output will be written to output.txt containig the etadata field and value (tab separated)
+Output will be written to output.txt containig the metadata field and value (tab separated)
 
+```
+E-MTAB-5061.sample.donor.sex	male
+E-MTAB-5061.sample.donor.age_unit	year
+E-MTAB-5061.sample.donor.species	Homo sapiens
+E-MTAB-5061.assay.single_cell.method	FACS
+E-MTAB-5061.sample.body_part.name	islet of Langerhans
+E-MTAB-5061.sample.donor.sex	female
+E-MTAB-5061.sample.donor.life_stage	adult
+E-MTAB-5061.sample.body_part.organ	pancreas
+```
 
 * todo - this should read bundles from the datastore
 * todo - at the moment fields are hard coded into the script, it may be useful to read these in from the json schema
