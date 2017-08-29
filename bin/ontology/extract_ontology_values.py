@@ -38,7 +38,7 @@ for dir in glob.glob(path+"/bundles/bundle*"):
     assayRaw = json.load(open (dir+"/assay.json"))
     manifestRaw = json.load(open (dir+"/manifest.json"))
     sampleRaw = json.load(open (dir+"/sample.json"))
-    cellRaw = json.load(open (dir+"/cell.json"))
+   # cellRaw = json.load(open (dir+"/cell.json"))
 
     projectId = projectRaw["id"]
 
