@@ -30,6 +30,8 @@ def getNestedKey(projectId, object,objectType, level1, level2):
             return [key, object[level1][level2]]
     return []
 
+projectId = "noid"
+
 for dir in glob.glob(path+"/bundles/bundle*"):
 
     projectRaw = json.load(open (dir+"/project.json"))
@@ -96,7 +98,7 @@ for dir in glob.glob(path+"/bundles/bundle*"):
     if list:
         ontoValues[list[0]]= list[1]
 
-file  = open("output.tab", "w")
+file  = open(projectId+".csv", "w")
 
 for key in ontoValues:
     subKey =  key[:key.rindex('.')]
