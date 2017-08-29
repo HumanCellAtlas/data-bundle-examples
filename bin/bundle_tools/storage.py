@@ -1,19 +1,20 @@
-import os, uuid
+import os, uuid, time
 from datetime import datetime
 import boto3
 import requests
 from urllib3.util import Url
-# from hca import api as hca_api
+from hca import api as hca_api
 from .parallel_logger import logger
-from .utils import sizeof_fmt
+from .utils import sizeof_fmt, measure_duration
 
 
 class BundleStorer:
 
-    def __init__(self, bundle, dss_url):
+    def __init__(self, bundle, dss_url, use_rest_api=False, report_task_ids=False):
         self.bundle = bundle
         self.file_info = []
-        self.api = DataStoreAPI(dss_url)
+        driver = 'rest' if use_rest_api else 'python'
+        self.api = DataStoreAPI(driver=driver, endpoint_url=dss_url, report_task_ids=report_task_ids)
 
     def store_bundle(self):
         try:
@@ -31,14 +32,14 @@ class BundleStorer:
         for file in self.bundle.files.values():
             size_message = f" ({sizeof_fmt(file.size)})" if not file.is_metadata() else ""
             logger.output(f"\n  storing file {file.name}{size_message} as {file.uuid}...")
-            version = self.api.put_file(self.bundle.uuid, file.uuid, file.staged_url, method='rest')
+            version, duration = self.api.put_file(self.bundle.uuid, file.uuid, file.staged_url)
             self.file_info.append({
                 'name': file.name,
                 'uuid': file.uuid,
                 'version': version,
                 'indexed': file.is_metadata()
             })
-            logger.output(f" {version}", progress_char="s")
+            logger.output(" %s (%.1fs)" % (version, duration), progress_char="s")
 
     def _assign_uuids(self):
         if not self.bundle.uuid:
@@ -76,7 +77,6 @@ class StagedBundleFinder:
     def _subfolders_in_folder(self, bucket: str, folder_path: str):
         paginator = self.s3.get_paginator('list_objects')
         for page in paginator.paginate(Bucket=bucket, Prefix=folder_path, Delimiter='/'):
-            logger.progress(".", flush=True)
             if 'CommonPrefixes' in page:
                 for obj in page['CommonPrefixes']:
                     yield obj['Prefix']
@@ -90,21 +90,82 @@ class DSSAPIError(RuntimeError):
     pass
 
 
-class DataStoreAPI:
+class DSSDriver:
 
-    DEFAULT_DSS_URL = "https://hca-dss.czi.technology/v1"
     FAKE_CREATOR_UID = 104
+    DEFAULT_DSS_REPLICA = 'aws'
+    BACKOFF_FACTOR = 1.618
 
-    def __init__(self, endpoint_url=DEFAULT_DSS_URL):
+    def __init__(self, endpoint_url, report_task_ids=False):
         self.dss_url = endpoint_url
+        self.report_task_ids = report_task_ids
 
-    def put_file(self, bundle_uuid: str, file_uuid: str, file_location: str, method='rest'):
-        if method == 'rest':
-            return self._put_file_via_rest(bundle_uuid, file_uuid, file_location)
+    def put_file(self, bundle_uuid: str, file_uuid: str, file_location: str):
+        raise NotImplemented
+
+    def put_bundle(self, bundle_uuid: str, file_info: list):
+        raise NotImplemented
+
+
+class DSSpythonDriver(DSSDriver):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def put_file(self, bundle_uuid: str, file_uuid: str, file_location: str):
+        response = hca_api.put_files(uuid=file_uuid,
+                                     source_url=file_location,
+                                     creator_uid=104,
+                                     bundle_uuid=bundle_uuid,
+                                     api_url=self.dss_url
+                                     )
+        if response.status_code != 201:
+            print(f"ERROR: put_files() returned {response.status_code}: {response.text}")
+            exit(1)
+        return response.json()['version']
+
+    def put_bundle(self, bundle_uuid: str, file_info: list):
+        response = hca_api.put_bundles(bundle_uuid, self.DEFAULT_DSS_REPLICA, self.FAKE_CREATOR_UID, file_info)
+        if response.status_code != 201:
+            print(f"ERROR: put_files() returned {response.status_code}: {response.text}")
+            exit(1)
+        return response.json()['version']
+
+
+class DSSrestDriver(DSSDriver):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def put_file(self, bundle_uuid: str, file_uuid: str, file_location: str):
+        payload = {
+            'bundle_uuid': bundle_uuid,
+            'creator_uid': 104,
+            'source_url': file_location,
+        }
+        url = f"{self.dss_url}/files/{file_uuid}"
+        params = {'version': datetime.now().isoformat()}
+        response = requests.put(url, params=params, json=payload)
+        if response.status_code == 201:
+            return response.json()['version']
+        elif response.status_code == 202:
+            if self.report_task_ids:
+                logger.output(f"\n    ACCEPTED: task_id={response.json()['task_id']}, waiting.")
+            response = self._wait_for_file_to_exist(file_uuid)
+            return response.headers['X-DSS-VERSION']
         else:
-            return self._put_file_via_python_bindings(bundle_uuid, file_uuid, file_location)
+            raise DSSAPIError(f"put({url}, {params}, {payload}) returned status {response.status_code}: {response.text}")
 
-    def put_bundle(self, bundle_uuid, file_info):
+    def head_file(self, file_uuid: str, version: str=None):
+        if version:
+            url = f"{self.dss_url}/files/{file_uuid}?version={version}"
+        else:
+            url = f"{self.dss_url}/files/{file_uuid}"
+        params = {'replica': self.DEFAULT_DSS_REPLICA}
+        response = requests.head(url, params=params)
+        return response
+
+    def put_bundle(self, bundle_uuid: str, file_info: list):
         payload = {
             'creator_uid': self.FAKE_CREATOR_UID,
             'files': file_info
@@ -116,30 +177,33 @@ class DataStoreAPI:
             raise DSSAPIError(f"put({url}, {params}, {payload}) returned status {response.status_code}: {response.text}")
         return response.json()['version']
 
-    def _put_file_via_rest(self, bundle_uuid: str, file_uuid: str, file_location: str):
-        # The HCA Python API does not currently respect api_url so we use Requests.
-        # It is also very noisy and turns on boto3 debugging output, which results in a poor UX.
-        payload = {
-            'bundle_uuid': bundle_uuid,
-            'creator_uid': 104,
-            'source_url': file_location,
-        }
-        url = f"{self.dss_url}/files/{file_uuid}"
-        params = {'version': datetime.now().isoformat()}
-        response = requests.put(url, params=params, json=payload)
-        if response.status_code != 201:
-            raise DSSAPIError(f"put({url}, {params}, {payload}) returned status {response.status_code}: {response.text}")
-        return response.json()['version']
+    def _wait_for_file_to_exist(self, file_uuid, timeout_seconds=30*60):
+        timeout = time.time() + timeout_seconds
+        wait = 1.0
+        while time.time() < timeout:
+            response = self.head_file(file_uuid)
+            if response.status_code == 200:
+                return response
+            elif response.status_code == 404:
+                time.sleep(wait)
+                logger.output(".", flush=True)
+                wait = min(60.0, wait * self.BACKOFF_FACTOR)
+            else:
+                raise RuntimeError(response)
+        else:
+          raise RuntimeError(f"File {file_uuid} did not appear within {timeout_seconds} seconds")
 
-    def _put_file_via_python_bindings(self, bundle_uuid: str, file_uuid: str, file_location: str):
-        response = hca_api.put_files(uuid=file_uuid,
-                                     source_url=file_location,
-                                     creator_uid=104,
-                                     bundle_uuid=bundle_uuid,
-                                     api_url=self.dss_url
-                                     )
-        if response.status_code != 201:
-            print(f"ERROR: put_files() returned {response.status_code}: {response.text}")
-            exit(1)
-        return response
 
+class DataStoreAPI:
+
+    DEFAULT_DSS_URL = "https://hca-dss.czi.technology/v1"
+
+    def __init__(self, driver='rest', endpoint_url=DEFAULT_DSS_URL, report_task_ids: bool=False):
+        driver_name = f"DSS{driver}Driver"
+        self.driver = eval(driver_name)(endpoint_url=endpoint_url, report_task_ids=report_task_ids)
+
+    def put_file(self, *args):
+        return measure_duration(self.driver.put_file, *args)
+
+    def put_bundle(self, *args, **kwargs):
+        return self.driver.put_bundle(*args, **kwargs)

@@ -35,12 +35,16 @@ class Main:
                             help="only store bundles with data files smaller than this many MB")
         parser.add_argument('--dss-endpoint', default=DataStoreAPI.DEFAULT_DSS_URL,
                             help="URL of DSS API endpoint")
+        parser.add_argument('-r', '--use-rest-api', action='store_true', default=False,
+                            help="use REST API directly, instead of python bindings")
         parser.add_argument('-j', '--jobs', type=int, default=1,
                             help="parallelize with this many jobs (implies --terse)")
         parser.add_argument('-q', '--quiet', action='store_true', default=False,
                             help="silence is golden")
         parser.add_argument('-t', '--terse', action='store_true', default=False,
                             help="terse output, one character per file")
+        parser.add_argument('-i', '--report-task-ids', action='store_true', default=False,
+                            help="when ")
         parser.add_argument('-l', '--log', default=None,
                             help="log verbose output to this file")
         self.args = parser.parse_args()
@@ -51,8 +55,11 @@ class Main:
             quiet = self.args.quiet
             terse = self.args.terse
         logger.configure(self.args.log, quiet=quiet, terse=terse)
+        self.storer_options = {'use_rest_api': self.args.use_rest_api, 'report_task_ids': self.args.report_task_ids}
+
         if self.args.bundle:
             self._store_bundle(parse_url(self.args.bundle))
+            print("\n")
         else:
             self._store_bundles(parse_url(self.args.bundles))
 
@@ -79,7 +86,7 @@ class Main:
         signal.signal(signal.SIGINT, signal.SIG_DFL)
         bundle = StagedBundle(bundle_url)
         if bundle.all_files_are_smaller_than(self.args.smaller):
-            BundleStorer(bundle, self.args.dss_endpoint).store_bundle()
+            BundleStorer(bundle, self.args.dss_endpoint, **self.storer_options).store_bundle()
         else:
             logger.output(f"\nSkipping {bundle.path} - exceeds sized requirement", progress_char='-', flush=True)
 
