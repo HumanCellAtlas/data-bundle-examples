@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 import boto3
 from boto3.s3.transfer import TransferConfig
 from botocore.exceptions import ClientError
-from checksumming_io.checksumming_io import ChecksummingBufferedReader, ChecksummingSink, S3Etag
+from checksumming_io.checksumming_io import ChecksummingBufferedReader, ChecksummingSink
 from .parallel_logger import logger
 
 
@@ -36,7 +36,7 @@ class S3Agent:
         dest = S3Location(dest_url)
         obj = self.s3.Bucket(dest.Bucket).Object(dest.Key)
         obj.copy(src.toDict(),
-                 Config=self._transfer_config(file_size),
+                 Config=self.transfer_config(file_size),
                  ExtraArgs={'ACL': 'bucket-owner-full-control'})
 
     def upload_and_checksum(self, local_path: str, target_url: str, file_size: int) -> dict:
@@ -46,7 +46,7 @@ class S3Agent:
             reader = ChecksummingBufferedReader(fh)
             obj = bucket.Object(target.Key)
             obj.upload_fileobj(reader,
-                               Config=self._transfer_config(file_size),
+                               Config=self.transfer_config(file_size),
                                ExtraArgs={'ACL': 'bucket-owner-full-control'})
         return reader.get_checksums()
 
@@ -92,7 +92,7 @@ class S3Agent:
         return [dict(Key=k, Value=v) for k, v in tags.items()]
 
     @classmethod
-    def _transfer_config(cls, file_size: int) -> TransferConfig:
+    def transfer_config(cls, file_size: int) -> TransferConfig:
         etag_stride = cls._s3_chunk_size(file_size)
         return TransferConfig(multipart_threshold=etag_stride,
                               multipart_chunksize=etag_stride)
@@ -156,9 +156,10 @@ class S3ObjectTagger:
         return {self.MIME_TAG: mime_type}
 
     def _compute_checksums_from_s3(self, s3url: str) -> dict:
+        file_size = self.s3.get_object(s3url).content_length
         s3loc = S3Location(s3url)
         with ChecksummingSink() as sink:
-            self.s3.s3client.download_fileobj(s3loc.Bucket, s3loc.Key, sink)
+            self.s3.s3client.download_fileobj(s3loc.Bucket, s3loc.Key, sink, Config=S3Agent.transfer_config(file_size))
             return sink.get_checksums()
 
     @staticmethod
