@@ -1,7 +1,7 @@
 
 # Scripts
 
-Scripts for working with ontology aspect of metadata
+Scripts for working with ontology aspects of metadata
 
 ## Extract ontology values
 
