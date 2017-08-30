@@ -189,7 +189,7 @@ class DSSrestDriver(DSSDriver):
             response = self.head_file(file_uuid)
             if response.status_code == 200:
                 return response
-            elif response.status_code == 404:
+            elif response.status_code in (404, 504):
                 time.sleep(wait)
                 logger.output(".", flush=True)
                 wait = min(60.0, wait * self.BACKOFF_FACTOR)
