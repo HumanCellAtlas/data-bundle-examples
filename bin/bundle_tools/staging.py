@@ -51,7 +51,7 @@ class BundleStager:
         files = [file for file in self.bundle.files.values() if type(file) == file_class]
         logger.output(f"\n  {file_class.__name__}s ({len(files)}):")
         for file in files:
-            logger.output(f"\n    {file.name} ")
+            logger.output(f"\n    {file.name} ({sizeof_fmt(file.size)}) ")
             if type(file) == DataFile:
                 DataFileStager(file).stage_file(self.target_bucket)
             else:
@@ -89,7 +89,7 @@ class DataFileStager:
     def etag_matches_or_not_present(self, obj):
         s3_etag = obj.e_tag.strip('"')
         tags = s3.get_tagging(self.target_url)
-        if tags['hca-dss-s3_etag']:
+        if tags.get('hca-dss-s3_etag'):
             if s3_etag == tags['hca-dss-s3_etag']:
                 return True
             else:
@@ -146,7 +146,7 @@ class DataFileStager:
         return None
 
     def _download_from_origin(self):
-        logger.output(f"\n      downloading {self.file.origin_url} [{sizeof_fmt(self.file.size)}]", "↓")
+        logger.output(f"\n      downloading {self.file.origin_url}", "↓")
         dest_path = self.file.path()
         try:
             report_duration_and_rate(self._download, self.file.origin_url, dest_path, size=self.file.size)
