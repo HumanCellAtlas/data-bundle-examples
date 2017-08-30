@@ -6,7 +6,7 @@ import requests
 from urllib3.util import Url
 
 from .parallel_logger import logger
-from .utils import sizeof_fmt, measure_duration
+from .utils import sizeof_fmt, measure_duration_and_rate
 
 
 class BundleStorer:
@@ -33,14 +33,16 @@ class BundleStorer:
         for file in self.bundle.files.values():
             size_message = f" ({sizeof_fmt(file.size)})" if not file.is_metadata() else ""
             logger.output(f"\n  storing file {file.name}{size_message} as {file.uuid}...")
-            version, duration = self.api.put_file(self.bundle.uuid, file.uuid, file.staged_url)
+            version, duration, rate = measure_duration_and_rate(self.api.put_file,
+                                                                self.bundle.uuid, file.uuid, file.staged_url,
+                                                                size=file.size)
             self.file_info.append({
                 'name': file.name,
                 'uuid': file.uuid,
                 'version': version,
                 'indexed': file.is_metadata()
             })
-            logger.output(" %s (%.1fs)" % (version, duration), progress_char="s")
+            logger.output(" %s (%.1f sec, %.1f MiB/sec)" % (version, duration, rate), progress_char="s")
 
     def _assign_uuids(self):
         if not self.bundle.uuid:
@@ -187,7 +189,7 @@ class DSSrestDriver(DSSDriver):
             response = self.head_file(file_uuid)
             if response.status_code == 200:
                 return response
-            elif response.status_code == 404:
+            elif response.status_code in (404, 504):
                 time.sleep(wait)
                 logger.output(".", flush=True)
                 wait = min(60.0, wait * self.BACKOFF_FACTOR)
@@ -205,8 +207,8 @@ class DataStoreAPI:
         driver_name = f"DSS{driver}Driver"
         self.driver = eval(driver_name)(endpoint_url=endpoint_url, report_task_ids=report_task_ids)
 
-    def put_file(self, *args):
-        return measure_duration(self.driver.put_file, *args)
+    def put_file(self, *args, **kwargs):
+        return self.driver.put_file(*args, **kwargs)
 
     def put_bundle(self, *args, **kwargs):
         return self.driver.put_bundle(*args, **kwargs)

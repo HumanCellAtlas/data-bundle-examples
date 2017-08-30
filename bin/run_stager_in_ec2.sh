@@ -6,6 +6,7 @@
 
 EC2_AMI_ID=ami-cd0f5cb6                                     # Ubuntu Server 16.04 LTS (HVM), SSD Volume Type
 INSTANCE_TYPE=m4.2xlarge                                    # VCPUs=8, Network performance=High
+DCKR_IMAGE_NAME=hca-dbe
 
 grab_aws_creds(){
     echo -n "Ok to use your AWS credentials in ~/.aws/credentials [y/n] ? "
@@ -22,14 +23,14 @@ grab_keypair_name(){
 
 boot_ec2_instance(){
     echo -e "\n########## Requesting EC2 instance ##########\n"
-    block_device_mappings='[ { "DeviceName": "/dev/sda1", "Ebs": { "VolumeSize": 50, "DeleteOnTermination": true } } ]'
+    block_device_mappings='[ { "DeviceName": "/dev/sda1", "Ebs": { "VolumeSize": 500, "DeleteOnTermination": true } } ]'
     run_instances_response_json=`aws ec2 run-instances --count 1 \
                                                        --block-device-mappings "${block_device_mappings}" \
                                                        --image-id ${EC2_AMI_ID} \
                                                        --instance-type ${INSTANCE_TYPE} \
                                                        --security-groups default inbound-ssh-from-anywhere \
                                                        --key-name ${ec2_keypair} \
-                                                       --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=bundle-examples-stager-tmp}]"`
+                                                       --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=bundle-examples-tmp}]"`
     instance_id=`echo ${run_instances_response_json} | jq -r .Instances[0].InstanceId`
     echo "Instance ID is ${instance_id}"
 }
@@ -76,7 +77,7 @@ setup_git_repo(){
         grep -q github.com ~/.ssh/config || echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 		[ -d data-bundle-examples ] || git clone --recursive git@github.com:humancellatlas/data-bundle-examples.git
 		cd data-bundle-examples
-		git checkout spierson-stager
+		git checkout spierson-storer
 	EOF
 }
 
@@ -96,7 +97,7 @@ ENV AWS_ACCESS_KEY_ID=${aws_access_key_id}
 ENV AWS_SECRET_ACCESS_KEY=${aws_secret_access_key}
 CMD /code/data-bundle-examples/bin/stager.py -j10 --log /code/data-bundle-examples/stager.log
 EODOCKERFILE
-	docker build . --tag hca-stager
+	docker build . --tag ${DCKR_IMAGE_NAME}
 	EOF
 }
 
@@ -106,8 +107,7 @@ run_stager(){
         set -x
         cd data-bundle-examples
         [ -f import/10x/t_4k/bundles/bundle1/assay.json ] || tar xf import/import.tgz
-        # docker run --rm --name hca-stager -v \${HOME}/data-bundle-examples:/code/data-bundle-examples hca-stager
-        docker run --name hca-stager -v \${HOME}/data-bundle-examples:/code/data-bundle-examples hca-stager
+        docker run --name ${DCKR_IMAGE_NAME} -v \${HOME}/data-bundle-examples:/code/data-bundle-examples ${DCKR_IMAGE_NAME}
 	EOF
 }
 
@@ -129,7 +129,7 @@ wait_for_ec2_boot_to_complete
 install_and_setup_docker_on_ec2_instance
 setup_git_repo
 build_docker_image
-run_stager
+#run_stager
 terminate_ec2_instance
 echo -e "Finished at `date`"
 exit 0
