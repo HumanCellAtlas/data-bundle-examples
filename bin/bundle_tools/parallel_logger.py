@@ -22,21 +22,25 @@ class ParallelLogger:
         if logfile:
             self.logfile = io.TextIOWrapper(open(logfile, 'wb'))
 
-    def output(self, msg, progress_char=None):
+    def output(self, msg, progress_char=None, flush=False):
         if not self.quiet:
             sys.stdout.write(msg)
         if self.logfile:
             self.logfile.write(msg)
         if progress_char:
             self.progress(progress_char)
+        if flush:
+            self.flush()
 
-    def progress(self, char):
+    def progress(self, char, flush=False):
         self.progress_string.append(char)
+        if flush:
+            self.flush()
 
     def flush(self):
         if self.terse:
             sys.stdout.write("".join(self.progress_string))
-        self.progress_string = ""
+        self.progress_string = list()
         sys.stdout.flush()
         if self.logfile:
             self.logfile.flush()
