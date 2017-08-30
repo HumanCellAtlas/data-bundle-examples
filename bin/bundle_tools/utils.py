@@ -1,8 +1,9 @@
-import time
 from os import stat
+import time
+from ftplib import FTP
+
 import urllib3
 from urllib3.util import parse_url
-from ftplib import FTP
 
 KB = 1024
 MB = KB * KB

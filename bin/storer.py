@@ -14,7 +14,9 @@ bin/storer.py --bundle s3://org-humancellatlas-data-bundle-examples/import/geo/G
 
 import argparse, signal, sys
 from concurrent.futures import ProcessPoolExecutor
+
 from urllib3.util import parse_url, Url
+
 from bundle_tools import logger, StagedBundle, StagedBundleFinder, BundleStorer, DataStoreAPI
 
 # Executor complains if it is an object attribute, so we make it global.

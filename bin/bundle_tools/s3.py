@@ -1,10 +1,12 @@
 import mimetypes
 from functools import reduce
+
 from dotmap import DotMap
-from urllib.parse import urlparse
+from urllib3.util import parse_url
 import boto3
 from boto3.s3.transfer import TransferConfig
 from botocore.exceptions import ClientError
+
 from checksumming_io.checksumming_io import ChecksummingBufferedReader, ChecksummingSink
 from .parallel_logger import logger
 
@@ -16,7 +18,7 @@ MB = KB * KB
 class S3Location(DotMap):
 
     def __init__(self, url):
-        urlbits = urlparse(url)
+        urlbits = parse_url(url)
         if urlbits.scheme != 's3':
             raise RuntimeError("Not an S3 URL!")
         super().__init__(Bucket=urlbits.netloc, Key=urlbits.path.lstrip('/'))

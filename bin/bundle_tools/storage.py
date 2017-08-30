@@ -1,9 +1,10 @@
 import os, uuid, time
 from datetime import datetime
+
 import boto3
 import requests
 from urllib3.util import Url
-from hca import api as hca_api
+
 from .parallel_logger import logger
 from .utils import sizeof_fmt, measure_duration
 

@@ -1,8 +1,10 @@
 import os
+from shutil import copyfileobj
+
 import urllib3
 from urllib3.util import parse_url
-from shutil import copyfileobj
 from checksumming_io.checksumming_io import ChecksummingSink
+
 from .parallel_logger import logger
 from .utils import sizeof_fmt, measure_duration_and_rate
 from .s3 import S3Location, S3Agent, S3ObjectTagger
