@@ -102,10 +102,10 @@ class DSSDriver:
         self.report_task_ids = report_task_ids
 
     def put_file(self, bundle_uuid: str, file_uuid: str, file_location: str):
-        raise NotImplemented
+        raise NotImplementedError()
 
     def put_bundle(self, bundle_uuid: str, file_info: list):
-        raise NotImplemented
+        raise NotImplementedError()
 
 
 class DSSpythonDriver(DSSDriver):
