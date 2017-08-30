@@ -1,21 +1,21 @@
 #!/usr/bin/env python3.6
 
+"""
+Store staged bundles in the HCA DCP Data Store.
+
+Bundles must have been previously staged.  You must prvide the S3 URL of a
+bundle or bundle hierarchy (hierarchies must have at least one folder named
+'bundles' within them) , e.g.
+
+bin/storer.py --bundles s3://org-humancellatlas-data-bundle-examples/import/10x
+
+bin/storer.py --bundle s3://org-humancellatlas-data-bundle-examples/import/geo/GSE75478/bundles/bundle145
+"""
+
 import argparse, signal, sys
 from concurrent.futures import ProcessPoolExecutor
 from urllib3.util import parse_url, Url
 from bundle_tools import logger, StagedBundle, StagedBundleFinder, BundleStorer, DataStoreAPI
-
-"""
-    Store staged bundles in the HCA DSS Data Store
-    
-    Bundle must have been previously staged.
-    s3 URL of a bundle or bundle hierarchy (which has at least one 'bundles' subfolder) must be supplied, e.g.
-    
-    bin/storer.py --bundles s3://org-humancellatlas-data-bundle-examples/import/10x
-    
-    bin/storer.py --bundle s3://org-humancellatlas-data-bundle-examples/import/geo/GSE75478/bundles/bundle145
-"""
-
 
 # Executor complains if it is an object attribute, so we make it global.
 executor = None
@@ -26,7 +26,7 @@ class Main:
     DEFAULT_STAGED_BUNDLES_URL = "s3://org-humancellatlas-data-bundle-examples/import"
 
     def __init__(self):
-        parser = argparse.ArgumentParser(description="Store staged bundles in HCA Data Store")
+        parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
         parser.add_argument('--bundles', default=self.DEFAULT_STAGED_BUNDLES_URL,
                             help="S3 URL of staged bundles")
         parser.add_argument('--bundle',
@@ -40,21 +40,18 @@ class Main:
         parser.add_argument('-j', '--jobs', type=int, default=1,
                             help="parallelize with this many jobs (implies --terse)")
         parser.add_argument('-q', '--quiet', action='store_true', default=False,
-                            help="silence is golden")
+                            help="don't produce verbose output on STDOUT")
         parser.add_argument('-t', '--terse', action='store_true', default=False,
                             help="terse output, one character per file")
         parser.add_argument('-i', '--report-task-ids', action='store_true', default=False,
-                            help="when ")
+                            help="when a 202 (ACCEPTED) response is received, print task ID")
         parser.add_argument('-l', '--log', default=None,
                             help="log verbose output to this file")
         self.args = parser.parse_args()
         if self.args.jobs > 1:
-            quiet = True
-            terse = True
-        else:
-            quiet = self.args.quiet
-            terse = self.args.terse
-        logger.configure(self.args.log, quiet=quiet, terse=terse)
+            self.args.quiet = True
+            self.args.terse = True
+        logger.configure(self.args.log, quiet=self.args.quiet, terse=self.args.terse)
         self.storer_options = {'use_rest_api': self.args.use_rest_api, 'report_task_ids': self.args.report_task_ids}
 
         if self.args.bundle:

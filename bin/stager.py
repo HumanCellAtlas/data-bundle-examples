@@ -1,49 +1,51 @@
 #!/usr/bin/env python3.6
 
+"""
+stager.py - Stage Example Data Bundles in an S3 Bucket
+
+Un-tar metadata files before running stager.py: tar xf import/import.tgz
+
+Default bucket to upload to is org-humancellatlas-data-bundle-examples.
+
+Default action is to traverse the import/ folder finding bundles, then for each bundle:
+    For each data file:
+        - Find the original (using manifest.json) and note its size.
+        - If this version is not at the desired location, download it, then upload it to S3.
+    For each metadata file:
+        - Checksum it.
+        - Upload to S3 unless a files already exists there with this checksum.
+
+Checking 100,000 files can be a slow process, so you can parallelize with the -j option.
+Try running on an m4.2xlarge with -j16.  This will take under an hour and works well in
+the case where there are no new data-files to be uploaded.  Note however that if there
+are new data-files to be uploaded, you will want to use minimal or no concurrency for
+those bundles to avoid overloading the web server from which they are being downloaded.
+
+When running parallelized, terse output will be produced.
+
+Terse output key:
+
+    B - a new bundle is being examined
+    ✔ - a data file has been checked and is already in place
+    ! - a data file could not be found
+    C - a data file was copied from another S3 bucket to the target location
+    ⬇ - a data file was downloaded from S3 (so checksum could be recomputed)
+    ↓ - a data file was downloaded from the internet
+    ⬆ - a data file was upload to the target bucket
+    + - missing checksums where added to an already uploaded file
+    ✓ - a metadata file has been checked and is already in place
+    ↑ - a metadata file was uploaded to the target location
+
+    e.g. this bundle is already done: B✔✓✓✓✓
+         this bundle was new:         B↓⬆↑↑↑↑
+
+When running parallelized you can still generate verbose output with the --log option.
+"""
+
 import argparse, signal, ssl, sys
 from concurrent.futures import ProcessPoolExecutor
 from bundle_tools import LocalBundle, BundleStager
 from bundle_tools import logger
-
-"""
-    stager.py - Stage Example Data Bundles in S3 Bucket org-humancellatlas-data-bundle-examples
-    
-    Un-tar metadata files before running: tar xf import/import.tgz
-    
-    Default action is to traverse the import/ folder finding bundles, then for each bundle:
-        For each data file:
-            - Find the original (using manifest.json) and note its size.
-            - If this version is not at the desired location, download it, then upload it to S3.
-        For each metadata file:
-            - Checksum it.
-            - Upload to S3 unless a files already exists there with this checksum.
-            
-    Checking 100,000 files can be a slow process, so you can parallelize with the -j option.
-    Try running on an m4.2xlarge with -j16.  This will take under an hour and works well in
-    the case where there are no new data-files to be uploaded.  Note however that if there
-    are new data-files to be uploaded, you will want to use minimal or no concurrency for
-    those bundles to avoid overloading the web server from which they are being downloaded.
-    
-    When running parallelized, terse output will be produced.
-    
-    Terse output key:
-    
-        B - a new bundle is being examined
-        ✔ - a data file has been checked and is already in place
-        ! - a data file could not be found
-        C - a data file was copied from another S3 bucket to the target location
-        ⬇ - a data file was downloaded from S3 (so checksum could be recomputed)
-        ↓ - a data file was downloaded from the internet
-        ⬆ - a data file was upload to the target bucket
-        + - missing checksums where added to an already uploaded file 
-        ✓ - a metadata file has been checked and is already in place
-        ↑ - a metadata file was uploaded to the target location
-        
-        e.g. this bundle is already done: B✔✓✓✓✓
-             this bundle was new:         B↓⬆↑↑↑↑
-    
-    When running parallelized you can still generate verbose output with the --log option. 
-"""
 
 # Executor complains if it is an object attribute, so we make it global.
 executor = None
@@ -73,7 +75,7 @@ class Main:
             self.stage_bundles_serially(bundles)
 
     def stage_bundles_serially(self, bundles):
-        """ This produces much better error messages that operating under ProcessPoolExecutor """
+        """ This produces much better error messages than operating under ProcessPoolExecutor """
         bundle_number = 0
         for bundle in bundles:
             bundle_number += 1
@@ -95,7 +97,8 @@ class Main:
         BundleStager(bundle, self.args.target_bucket).stage(comment)
 
     def _parse_args(self):
-        parser = argparse.ArgumentParser(description="Stage example bundles in S3.",
+        parser = argparse.ArgumentParser(description=__doc__,
+                                         formatter_class=argparse.RawDescriptionHelpFormatter,
                                          usage='%(prog)s [options]',
                                          epilog="Default action is to stage all bundles under ./import/")
         parser.add_argument('--target-bucket', metavar="<s3-bucket-name>", default=self.DEFAULT_BUCKET,
