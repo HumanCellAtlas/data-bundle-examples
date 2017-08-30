@@ -114,6 +114,7 @@ class DSSpythonDriver(DSSDriver):
         super().__init__(*args, **kwargs)
 
     def put_file(self, bundle_uuid: str, file_uuid: str, file_location: str):
+        from hca import api as hca_api
         response = hca_api.put_files(uuid=file_uuid,
                                      source_url=file_location,
                                      creator_uid=104,
@@ -126,6 +127,7 @@ class DSSpythonDriver(DSSDriver):
         return response.json()['version']
 
     def put_bundle(self, bundle_uuid: str, file_info: list):
+        from hca import api as hca_api
         response = hca_api.put_bundles(bundle_uuid, self.DEFAULT_DSS_REPLICA, self.FAKE_CREATOR_UID, file_info)
         if response.status_code != 201:
             print(f"ERROR: put_files() returned {response.status_code}: {response.text}")
