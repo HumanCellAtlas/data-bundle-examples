@@ -98,6 +98,7 @@ class DSSDriver:
     FAKE_CREATOR_UID = 104
     DEFAULT_DSS_REPLICA = 'aws'
     BACKOFF_FACTOR = 1.618
+    RESPONSE_FIELDS_TO_DUMP = ('status_code', 'reason', 'content', 'headers', 'url', 'history', 'encoding', 'elapsed')
 
     def __init__(self, endpoint_url, report_task_ids=False):
         self.dss_url = endpoint_url
@@ -108,6 +109,9 @@ class DSSDriver:
 
     def put_bundle(self, bundle_uuid: str, file_info: list):
         raise NotImplementedError()
+
+    def _dump_response(self, response):
+        return "\n".join([f"\t{attr}={getattr(response, attr)}" for attr in self.RESPONSE_FIELDS_TO_DUMP])
 
 
 class DSSpythonDriver(DSSDriver):
@@ -159,7 +163,7 @@ class DSSrestDriver(DSSDriver):
             response = self._wait_for_file_to_exist(file_uuid)
             return response.headers['X-DSS-VERSION']
         else:
-            raise DSSAPIError(f"put({url}, {params}, {payload}) returned status {response.status_code}: {response.text}")
+            raise DSSAPIError(f"put({url}, {params}, {payload}) returned:\n{self._dump_response(response)}")
 
     def head_file(self, file_uuid: str, version: str=None):
         if version:
@@ -179,7 +183,7 @@ class DSSrestDriver(DSSDriver):
         params = {'version': datetime.now().isoformat(), 'replica': 'aws'}
         response = requests.put(url, params=params, json=payload)
         if response.status_code != 201:
-            raise DSSAPIError(f"put({url}, {params}, {payload}) returned status {response.status_code}: {response.text}")
+            raise DSSAPIError(f"put({url}, {params}, {payload}) returned:\n{self._dump_response(response)}")
         return response.json()['version']
 
     def _wait_for_file_to_exist(self, file_uuid, timeout_seconds=30*60):
