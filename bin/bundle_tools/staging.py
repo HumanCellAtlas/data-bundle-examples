@@ -17,7 +17,7 @@ class BundleMissingDataFile(Exception):
 
 def report_duration_and_rate(func,  *args, size):
     retval, duration, rate = measure_duration_and_rate(func, *args, size=size)
-    logger.output(" (%.1f sec, %.1f MiB/sec)" % (duration, rate))
+    logger.output(" (%.1f sec, %.1f MiB/sec) " % (duration, rate))
     return retval
 
 
@@ -95,10 +95,11 @@ class DataFileStager:
             else:
                 logger.output("\n      exists at target but has wrong etag: %s / %s" %
                               (s3_etag, tags['hca-dss-s3_etag']))
-                logger.output("\n      downloading it so we may re-upload with correct chunk size.", progress_char='⬇︎')
-                s3loc = S3Location(self.target_url)
-                s3.s3client.download_file(s3loc.Bucket, s3loc.Key, self.file.path())
-                return False
+                logger.output("\n      copy to itself to correct etag... ", progress_char='↻︎')
+                report_duration_and_rate(s3.copy_between_buckets,
+                                         self.target_url, self.target_url, self.file.size,
+                                         size=self.file.size)
+                return True
         else:
             # File size matches but file has no checksum tag.
             # Assume file is good and proceed so we compute new checksums.
@@ -126,7 +127,7 @@ class DataFileStager:
                                  self.target_url,
                                  self.file.size,
                                  size=self.file.size)
-        S3ObjectTagger(self.target_url).copy_tags_from_object(source_location)
+        S3ObjectTagger(self.target_url).complete_tags()
 
     def copy_local_file_to_target_location(self, source_location):
         local_path = parse_url(source_location).path.lstrip('/')

@@ -29,7 +29,7 @@ Terse output key:
     ✔ - a data file has been checked and is already in place
     ! - a data file could not be found
     C - a data file was copied from another S3 bucket to the target location
-    ⬇ - a data file was downloaded from S3 (so checksum could be recomputed)
+    ↻︎ - a data file was copied over itself in S3 (to correct ETAG)
     ↓ - a data file was downloaded from the internet
     ⬆ - a data file was upload to the target bucket
     + - missing checksums where added to an already uploaded file

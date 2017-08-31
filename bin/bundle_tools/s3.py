@@ -36,10 +36,12 @@ class S3Agent:
     def copy_between_buckets(self, src_url: str, dest_url: str, file_size: int):
         src = S3Location(src_url)
         dest = S3Location(dest_url)
-        obj = self.s3.Bucket(dest.Bucket).Object(dest.Key)
-        obj.copy(src.toDict(),
-                 Config=self.transfer_config(file_size),
-                 ExtraArgs={'ACL': 'bucket-owner-full-control'})
+        src_tags = self.get_tagging(src_url)
+        dest_obj = self.s3.Bucket(dest.Bucket).Object(dest.Key)
+        dest_obj.copy(src.toDict(),
+                      Config=self.transfer_config(file_size),
+                      ExtraArgs={'ACL': 'bucket-owner-full-control'})
+        self.add_tagging(dest_url, src_tags)
 
     def upload_and_checksum(self, local_path: str, target_url: str, file_size: int) -> dict:
         target = S3Location(target_url)
@@ -119,21 +121,21 @@ class S3ObjectTagger:
     MIME_TAG = 'hca-dss-content-type'
     ALL_TAGS = CHECKSUM_TAGS + (MIME_TAG,)
 
-    def __init__(self, target: str):
-        self.target = target
+    def __init__(self, target_url: str):
+        self.target_url = target_url
         self.s3 = S3Agent()
 
     def copy_tags_from_object(self, s3url: str):
-        self.s3.copy_object_tagging(s3url, self.target)
+        self.s3.copy_object_tagging(s3url, self.target_url)
         self.complete_tags()
 
     def tag_using_these_checksums(self, raw_sums: dict):
         tags = self._hca_checksum_tags(raw_sums)
         tags.update(self._generate_mime_tags())
-        self.s3.add_tagging(self.target, tags)
+        self.s3.add_tagging(self.target_url, tags)
 
     def complete_tags(self):
-        current_tags = self.s3.get_tagging(self.target)
+        current_tags = self.s3.get_tagging(self.target_url)
         missing_tags = self._missing_tags(current_tags, self.ALL_TAGS)
         if missing_tags:
             logger.output(f"\n      missing tags: {missing_tags}")
@@ -143,17 +145,17 @@ class S3ObjectTagger:
             if self.MIME_TAG not in current_tags:
                 current_tags.update(self._generate_mime_tags())
             logger.output(f"\n      Tagging with: {list(current_tags.keys())}")
-            self.s3.add_tagging(self.target, current_tags)
+            self.s3.add_tagging(self.target_url, current_tags)
             return True
         return False
 
     def _generate_checksum_tags(self) -> dict:
         logger.output("\n      generating checksums")
-        sums = self._compute_checksums_from_s3(str(self.target))
+        sums = self._compute_checksums_from_s3(str(self.target_url))
         return self._hca_checksum_tags(sums)
 
     def _generate_mime_tags(self) -> dict:
-        mime_type = mimetypes.guess_type(S3Location(self.target).Key)[0]
+        mime_type = mimetypes.guess_type(S3Location(self.target_url).Key)[0]
         if mime_type is None:
             mime_type = "application/octet-stream"
         return {self.MIME_TAG: mime_type}
