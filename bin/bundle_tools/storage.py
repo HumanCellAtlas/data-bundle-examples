@@ -65,7 +65,7 @@ class StagedBundleFinder:
 
     def paths_of_bundles_under(self, s3url: Url) -> list:
         # Assumption: bundles are stored at **/bundles/bundleX/
-        logger.output(f"\nFinding bundles under {str(s3url)}...")
+        logger.output(f"\nFinding bundles under {str(s3url)}...", flush=True)
         self._search_for_bundles_in_folder(bucket=s3url.host, root_path=s3url.path.lstrip('/'))
         logger.output("\n")
         return self.bundle_paths
