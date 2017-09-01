@@ -12,9 +12,9 @@
       },
       "analysis_id" : {
          "description" : "ID give to the analysis run which refers back to the analysis instance in the green box.",
-         "type" : "number"
+         "type" : "string"
       },
-      "computational_method" : {
+      "pipeline" : {
          "description" : "A URI to a versioned workflow and versioned execution environment in a GA4GH compliant repository.",
          "type" : "uri"
       },
@@ -73,14 +73,14 @@
       "file" : {
          "additionalProperties" : false,
          "required" : [
-            "checksum",
+            "md5",
             "file_path",
             "format"
          ],
          "properties" : {
             "format" : "string",
             "file_path" : "uri",
-            "checksum" : "string"
+            "md5" : "string"
          },
          "type" : "object"
       },
@@ -118,7 +118,7 @@
             "value"
          ],
          "properties" : {
-            "checksum" : "string",
+            "md5" : "string",
             "value" : "string",
             "name" : "string"
          },

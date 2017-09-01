@@ -1,73 +1,73 @@
 {
-   "input_bundles" : [ "bluebox://23bd7eb0-23a3-4898-b043-f7e982de281f/v1" ],
+   "input_bundles" : [ "staging://23bd7eb0-23a3-4898-b043-f7e982de281f/v1" ],
    "inputs" : [
       {
         "name": "image_stack",
-        "checksum" : "d0f7d08f1980f7980f",
-        "value" : "bluebox://23bd7eb0-23a3-4898-b043-f7e982de281f/v1/12bd7eb0-23a3-4898-b043-f7e982de281g/v1#fov_001_stack.tiff"
+        "md5" : "d0f7d08f1980f7980f",
+        "value" : "staging://23bd7eb0-23a3-4898-b043-f7e982de281f/v1/12bd7eb0-23a3-4898-b043-f7e982de281g/v1#fov_001_stack.tiff"
       },
       {
          "name" : "nucler_stain",
-         "checksum" : "d0f7d18f7980f7980f",
-         "value" : "bluebox://23bd7eb0-23a3-4898-b043-f7e982de281f/v1/01bd7eb0-23a3-4898-b043-f7e982de281g/v1#dapi.tiff"
+         "md5" : "d0f7d18f7980f7980f",
+         "value" : "staging://23bd7eb0-23a3-4898-b043-f7e982de281f/v1/01bd7eb0-23a3-4898-b043-f7e982de281g/v1#dapi.tiff"
       },
       {
          "name" : "membrane_stain",
-         "checksum" : "d0f7d18f7980f7980f",
-         "value" : "bluebox://23bd7eb0-23a3-4898-b043-f7e982de281f/v1/01bd7eb0-23a3-4898-b043-f7e982de281g/v1#general_stain.tiff"
+         "md5" : "d0f7d18f7980f7980f",
+         "value" : "staging://23bd7eb0-23a3-4898-b043-f7e982de281f/v1/01bd7eb0-23a3-4898-b043-f7e982de281g/v1#general_stain.tiff"
       },
       {
          "name" : "codebook",
-         "checksum" : "d0f7d18f7980f7980f",
-         "value" : "bluebox://23bd7eb0-23a3-4898-b043-f7e982de281f/v1/01bd7eb0-23a3-4898-b043-f7e982de281g/v1#codebook.csv"
+         "md5" : "d0f7d18f7980f7980f",
+         "value" : "staging://23bd7eb0-23a3-4898-b043-f7e982de281f/v1/01bd7eb0-23a3-4898-b043-f7e982de281g/v1#codebook.csv"
       }
    ],
    "timestamp_start_utc" : "2017-05-18T03:44:23-5:00",
    "timestamp_stop_utc" : "2017-05-18T014:44:23-5:00",
-   "computational_method" : "https://www.dockstore.org:8443/api/ga4gh/v1/tools/quay.io%2Fhca%2Fdockstore-hca-uploader/",
-   "analysis_id" : 4342342,
+   "pipeline" : "https://www.dockstore.org:8443/api/ga4gh/v1/tools/quay.io%2Fhca%2Fdockstore-hca-uploader/",
+   "analysis_id" : "4342342",
    "analysis_run_type" : "run",
    "outputs" : [
       {
          "proc_stack" : {
-            "checksum" : "d0f7d08f7980f7910f",
+            "md5" : "d0f7d08f7980f7910f",
             "format" : "tif",
-            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/02bd7eb0-23a3-4898-b043-f7e982de281g/v1#proc_stack.tif"
+            "file_path" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/02bd7eb0-23a3-4898-b043-f7e982de281g/v1#proc_stack.tif"
          }
       },
       {
          "cells_geo" : {
-            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/03bd7eb0-23a3-4898-b043-f7e982de281g/v1#cells_geo.json",
-            "checksum" : "d0f7d08f7910f7980f",
+            "file_path" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/03bd7eb0-23a3-4898-b043-f7e982de281g/v1#cells_geo.json",
+            "md5" : "d0f7d08f7910f7980f",
             "format" : "spatial_coordinates"
          }
       },
       {
          "spots_geo" : {
-            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#spots_geo.json",
+            "file_path" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#spots_geo.json",
             "format" : "spatial_coordinates",
-            "checksum" : "d0f7d18f7980f7980f"
+            "md5" : "d0f7d18f7980f7980f"
          }
       },
       {
          "encoder_table" : {
-            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#encoder_table",
+            "file_path" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#encoder_table",
             "format" : "spatial_encoding",
-            "checksum" : "d0f7d18f7980f7980f"
+            "md5" : "d0f7d18f7980f7980f"
          }
       },
       {
          "decoder_table" : {
             "format" : "spatial_decoding",
-            "checksum" : "d0f7d18f7980f7980f",
-            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#decoder_table"
+            "md5" : "d0f7d18f7980f7980f",
+            "file_path" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#decoder_table"
          }
       },
       {
          "metrics" : {
-            "file_path" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#metrics.json",
+            "file_path" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/04bd7eb0-23a3-4898-b043-f7e982de281g/v1#metrics.json",
             "format" : "qc_metrics",
-            "checksum" : "d0f7d18f7980f7980f"
+            "md5" : "d0f7d18f7980f7980f"
          }
       }
    ],
@@ -77,8 +77,8 @@
        "stop_time" : "2017-05-18T08:44:23-5:00",
        "start_time" : "2017-05-18T03:44:23-5:00",
        "name" : "step_one",
-       "log_err" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#merfish_step_one.err",
-       "log_out" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#merfish_step_one.out",
+       "log_err" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#merfish_step_one.err",
+       "log_out" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#merfish_step_one.out",
        "disk_size" : "500GB",
        "docker_image" : "https://uri-to-docker-image",
        "cpus" : 8,
@@ -89,8 +89,8 @@
        "start_utc" : "2017-05-18T08:44:23-5:00",
        "stop_utc" : "2017-05-18T14:44:23-5:00",
        "name" : "step_two",
-       "log_err" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#merfish_step_two.err",
-       "log_out" : "bluebox://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#merfish_step_two.out",
+       "log_err" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#merfish_step_two.err",
+       "log_out" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#merfish_step_two.out",
        "disk_size" : "500GB",
        "docker_image" : "https://uri-to-docker-image",
        "cpus" : 8,
@@ -98,5 +98,5 @@
        "zone" : "us-east4-a"
       }
    ],
-   "reference_bundle" : "bluebox://03gh7eb0-23a3-4898-b043-f7e982de281b/v1"
+   "reference_bundle" : "staging://03gh7eb0-23a3-4898-b043-f7e982de281b/v1"
 }
