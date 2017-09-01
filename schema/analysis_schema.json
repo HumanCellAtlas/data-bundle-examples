@@ -38,10 +38,6 @@
          "type" : "date-time",
          "description" : "Terminal stop time of the full pipeline."
       },
-      "metadata_schema" : {
-         "description" : "The version of the metadata schemas used for the json files.",
-         "type" : "string"
-      },
       "timestamp_start_utc" : {
          "description" : "Initial start time of the full pipeline.",
          "type" : "date-time"
@@ -70,6 +66,20 @@
    },
    "type" : "object",
    "definitions" : {
+      "core" : {
+         "additionalProperties" : false,
+         "required" : [
+            "type",
+            "schema_url",
+            "schema_version"
+          ],
+          "properties" : {
+            "type" : "string",
+            "schema_version" : "string",
+            "schema_url" : "uri"
+          },
+          "type" : "object"
+      },
       "file" : {
          "additionalProperties" : false,
          "required" : [
@@ -127,6 +137,7 @@
    },
    "$schema" : "https://json-schema.org/draft-04/schema#",
    "required" : [
+     "core",
      "timestamp_start_utc",
      "timestamp_stop_utc",
      "computational_method",

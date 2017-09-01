@@ -1,4 +1,10 @@
 {
+   "core" : { 
+       "type" : "analysis",
+       "schema_version" : "1.0.0",
+       "schema_url" : "https://github.com/HumanCellAtlas/metadata-standards"
+    },  
+
    "input_bundles" : [ "staging://23bd7eb0-23a3-4898-b043-f7e982de281f/v1" ],
    "inputs" : [
       {
@@ -35,7 +41,6 @@
          }
       }
    ],
-   "metadata_schema" : "version_232",
    "tasks" : [
       {
        "stop_time" : "2017-05-18T08:44:23-5:00",
