@@ -1,1183 +1,1179 @@
 project.title Tracing pluripotency of human early embryos and embryonic stem cells by single cell RNA-seq
-project.id GSE36552
+project.core.id GSE36552
 assay.rna.primer random
-assay.seq.machine Illumina HiSeq 2000
+assay.rna.end_bias none
+assay.seq.instrument_platform Illumina
+assay.seq.instrument_model Illumina HiSeq 2000
 assay.seq.molecule total RNA
 assay.seq.paired_ends no
-assay.seq.prep TruSeq
-assay.single_cell.method mouth pipette
-project.contact.address "5 Yiheyuan Road; Beijing, 100871 China"
-project.contact.city Beijing
-project.contact.country China
-project.contact.email yangmingyucherry@gmail.com
-project.contact.institute Peking University
-project.contact.name "Mingyu,,Yang"
-project.contact.postal_code 100871
-project.contact.street_address 5 Yiheyuan Road
+assay.seq.library_construction TruSeq
+assay.single_cell.cell_handling mouth pipette
+project.submitter.address "5 Yiheyuan Road; Beijing, 100871 China"
+project.submitter.city Beijing
+project.submitter.country China
+project.submitter.email yangmingyucherry@gmail.com
+project.submitter.institution Peking University
+project.submitter.name "Mingyu,,Yang"
 project.contributor "Fuchou,,Tang","Jie,,Qiao","Ruiqiang,,Li"
 project.geo_series GSE36552
-project.last_update_date 2017-05-22
+project.update_date 2017-05-22
 project.ncbi_bioproject PRJNA153427
-project.overall_design We get transcriptome of 124 individual cells from human pre-implantation embryos and human embryonic stem cells by applying single cell RNA-seq technique we recently developed[1][2][3][4]. We did in-depth bioinformatic analysis to these data and found very dynamic expression of protein-coding genes.,"[1] Tang, F. et al. (2010a) Tracing the Derivation of Embryonic Stem Cells from the Inner Cell Mass by Single-Cell RNA-Seq Analysis. Cell Stem Cell 6, 468-478.","[2] Tang, F. et al. (2010b) RNA-Seq analysis to capture the transcriptome landscape of a single cell. Nat Protocols 5, 516-535.","[3] Tang, F. et al. (2009) mRNA-Seq whole-transcriptome analysis of a single cell. Nat Meth 6, 377-382.","[4] Tang, F. et al. (2011) Development and applications of single-cell transcriptome analysis. Nat Meth 8, S6-S11."
-project.pmid 23934149
-project.release_status 2013-08-10
+project.experimental_design.1.text We get transcriptome of 124 individual cells from human pre-implantation embryos and human embryonic stem cells by applying single cell RNA-seq technique we recently developed[1][2][3][4]. We did in-depth bioinformatic analysis to these data and found very dynamic expression of protein-coding genes.,"[1] Tang, F. et al. (2010a) Tracing the Derivation of Embryonic Stem Cells from the Inner Cell Mass by Single-Cell RNA-Seq Analysis. Cell Stem Cell 6, 468-478.","[2] Tang, F. et al. (2010b) RNA-Seq analysis to capture the transcriptome landscape of a single cell. Nat Protocols 5, 516-535.","[3] Tang, F. et al. (2009) mRNA-Seq whole-transcriptome analysis of a single cell. Nat Meth 6, 377-382.","[4] Tang, F. et al. (2011) Development and applications of single-cell transcriptome analysis. Nat Meth 8, S6-S11."
+project.publications.1.pmid 23934149
 project.sra_project SRP011546
-project.submission_date 2012-03-16
-project.summary "Find the casual relationship between gene expression network and cellular phenotype at single cell resolution. We collected donated human pre-implatation embryos, and the embryonic stem cells derived from them, isolate individual cells, prepared single cell cDNAs, and sequenced them by HiSeq2000. Then we analyzed the expression of known RefSeq genes."
+project.submit_date 2012-03-16
+project.description "Find the casual relationship between gene expression network and cellular phenotype at single cell resolution. We collected donated human pre-implatation embryos, and the embryonic stem cells derived from them, isolate individual cells, prepared single cell cDNAs, and sequenced them by HiSeq2000. Then we analyzed the expression of known RefSeq genes."
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP011/SRP011546,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_2-cell.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_2-cell.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_4-cell.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_4-cell.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_8-cell.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_8-cell.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_ESC.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_ESC.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_Morluae.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_Morluae.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_PE.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_PE.sort.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_RAW.tar,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_TE.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_TE.sort.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_epi.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_epi.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_oocyte.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_oocyte.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_zygote.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_zygote.bed.tdf
-project.geo_doc_id 200036552
-project.uuid a732e419-9824-4a1e-a71b-9de5b957f787
-sample.data_processing "Reads mapping: We used Burrows-Wheeler Aligner (BWA, Version 0.5.9-r16) [1] to align the clean reads to the hg19 Refseq, with the options ""aln -o 1 -e 60 -i 15 -q 10 -t 8"".  [1]. Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler Transform. Bioinformatics, 25:1754-60.","Expression level analysis : The gene expression level was calculated by using RPKM method, We used all genes with RPKM ≥ 0.1 as expressed genes in the following analysis.","Use BEDTools(Version-2.16.2) to transform *.bam files into *.bed files.[Ref: Aaron R. Quinlan and Ira M. Hall. (2010) BEDTools: a flexible suite of utilities for comparing genomic features,Bioinformatics (2010), 26: 841-842]",Merge the *.bed files from samples in the same stage [available on Series records],Use IGVtools to transform the merged *.bed files into *.tdf files for visualization [available on Series records],Genome_build: hg19
-sample.donor.ncbi_taxon 9606
+sample.donor.species.ontology 9606
 sample.donor.species Homo sapiens
-sample.body_part.organ embryo
-sample.last_update_date 2013-08-10
-sample.protocol_types growth protocol,nucleic acid library construction protocol
-sample.protocols Donated human preplantation embryos were dissociated into individual blastmeres and were separately amplied to set up single cell cDNA libraries.,"Amplied single cell cDNAs were further amplied for another ten cycles of PCR. Then it was sonicated into 200~500bp fragments ,then the standard TruSeq DNA library preparation kit was used following the manufacturer suggestion protocol"
-sample.body_part.organ_ontology UBERON_0000922
+sample.organ.text embryo
+sample.update_date 2013-08-10
+sample.supplementary_protocols.1.type growth protocol,nucleic acid library construction protocol
+sample.supplementary_protocols.1.description Donated human preplantation embryos were dissociated into individual blastmeres and were separately amplied to set up single cell cDNA libraries.,"Amplied single cell cDNAs were further amplied for another ten cycles of PCR. Then it was sonicated into 200~500bp fragments ,then the standard TruSeq DNA library preparation kit was used following the manufacturer suggestion protocol"
+sample.organ.ontology UBERON_0000922
 
-	cell.type oocyte
-	sample.body_part.name oocyte
+	sample.well.cell_type.text oocyte
+	sample.body_part.text oocyte
 	sample.donor.age 0
 	sample.donor.age_unit week
 	sample.donor.life_stage embryo
-	sample.submission_date 2012-03-16
-	sample.short_label oocytes
-	sample.long_label unfertilized oocytes from Tang single cell method 2013
-	sample.donor.development_stage oocyte
-	cell.ontology CL_0000023
+	sample.submit_date 2012-03-16
+	sample.name oocytes
+	sample.title unfertilized oocytes from Tang single cell method 2013
+	sample.donor.development_stage.text oocyte
+	sample.well.cell_type.ontology CL_0000023
 
-		assay.sra_experiment SRX129997
-		assay.sra_run SRR445718
-		sample.donor.id oocyte #1
+		assay.seq.sra_experiment SRX129997
+		assay.seq.sra_run SRR445718
+		sample.donor.submitted_id oocyte #1
 		sample.geo_sample GSM896803
 		sample.ncbi_biosample SAMN00828830
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX129/SRX129997,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896803/GSM896803_Sample_M21.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896803/GSM896803_Sample_M21.expression.txt.gz
-		cell.id oocyte #1
-		sample.donor.uuid 8373486d-3134-47e4-9b81-9d381886af36
-		sample.uuid 4365266e-fe81-4b2b-822d-a0a51973ceba
+		sample.well.core.id oocyte #1
+		sample.donor.core.id 8373486d-3134-47e4-9b81-9d381886af36
+		sample.core.id 4365266e-fe81-4b2b-822d-a0a51973ceba
 
-		assay.sra_experiment SRX129998
-		assay.sra_run SRR445719
-		sample.donor.id oocyte #2
+		assay.seq.sra_experiment SRX129998
+		assay.seq.sra_run SRR445719
+		sample.donor.submitted_id oocyte #2
 		sample.geo_sample GSM896804
 		sample.ncbi_biosample SAMN00828831
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX129/SRX129998,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896804/GSM896804_Sample_M22.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896804/GSM896804_Sample_M22.expression.txt.gz
-		cell.id oocyte #2
-		sample.donor.uuid 6787a3a4-63b2-42b4-a55e-a518f328e77a
-		sample.uuid 2d475ae3-70fb-4e18-b6e3-bb993db5f3b6
+		sample.well.core.id oocyte #2
+		sample.donor.core.id 6787a3a4-63b2-42b4-a55e-a518f328e77a
+		sample.core.id 2d475ae3-70fb-4e18-b6e3-bb993db5f3b6
 
-		assay.sra_experiment SRX129999
-		assay.sra_run SRR445720
-		sample.donor.id oocyte #3
+		assay.seq.sra_experiment SRX129999
+		assay.seq.sra_run SRR445720
+		sample.donor.submitted_id oocyte #3
 		sample.geo_sample GSM896805
 		sample.ncbi_biosample SAMN00828832
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX129/SRX129999,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896805/GSM896805_Sample_M23.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896805/GSM896805_Sample_M23.expression.txt.gz
-		cell.id oocyte #3
-		sample.donor.uuid e6b07325-44e1-433f-9139-97591ec38958
-		sample.uuid 3c635a99-c8bf-4e79-9024-5bccc4a3439d
+		sample.well.core.id oocyte #3
+		sample.donor.core.id e6b07325-44e1-433f-9139-97591ec38958
+		sample.core.id 3c635a99-c8bf-4e79-9024-5bccc4a3439d
 
-	cell.type animal zygote
-	sample.body_part.name zygote
+	sample.well.cell_type.text animal zygote
+	sample.body_part.text zygote
 	sample.donor.age 0
 	sample.donor.age_unit week
 	sample.donor.life_stage embryo
-	sample.submission_date 2012-03-16
-	sample.short_label zygotes
-	sample.long_label zygotes from Tang single cell method 2013
-	sample.donor.development_stage zygote
-	cell.ontology CL_0000365
+	sample.submit_date 2012-03-16
+	sample.name zygotes
+	sample.title zygotes from Tang single cell method 2013
+	sample.donor.development_stage.text zygote
+	sample.well.cell_type.ontology CL_0000365
 
-		assay.sra_experiment SRX130000
-		assay.sra_run SRR445721
-		sample.donor.id zygote #1
+		assay.seq.sra_experiment SRX130000
+		assay.seq.sra_run SRR445721
+		sample.donor.submitted_id zygote #1
 		sample.geo_sample GSM896806
 		sample.ncbi_biosample SAMN00828833
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130000,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896806/GSM896806_Sample_C1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896806/GSM896806_Sample_C1.expression.txt.gz
-		cell.id zygote #1
-		sample.donor.uuid d9d415ec-c895-407b-b901-72442b1f5bec
-		sample.uuid 7a1e3d6e-3430-456d-b19c-5c5d812a5a62
+		sample.well.core.id zygote #1
+		sample.donor.core.id d9d415ec-c895-407b-b901-72442b1f5bec
+		sample.core.id 7a1e3d6e-3430-456d-b19c-5c5d812a5a62
 
-		assay.sra_experiment SRX130001
-		assay.sra_run SRR445722
-		sample.donor.id zygote #2
+		assay.seq.sra_experiment SRX130001
+		assay.seq.sra_run SRR445722
+		sample.donor.submitted_id zygote #2
 		sample.geo_sample GSM896807
 		sample.ncbi_biosample SAMN00828834
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130001,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896807/GSM896807_Sample_C2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896807/GSM896807_Sample_C2.expression.txt.gz
-		cell.id zygote #2
-		sample.donor.uuid 8bbf7cbf-d35a-4648-8f8a-18364d34b009
-		sample.uuid 1f7f298e-f7ed-4d01-8db0-6539d070af1b
+		sample.well.core.id zygote #2
+		sample.donor.core.id 8bbf7cbf-d35a-4648-8f8a-18364d34b009
+		sample.core.id 1f7f298e-f7ed-4d01-8db0-6539d070af1b
 
-		assay.sra_experiment SRX130002
-		assay.sra_run SRR445723
-		sample.donor.id zygote #3
+		assay.seq.sra_experiment SRX130002
+		assay.seq.sra_run SRR445723
+		sample.donor.submitted_id zygote #3
 		sample.geo_sample GSM896808
 		sample.ncbi_biosample SAMN00828835
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130002,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896808/GSM896808_Sample_C3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896808/GSM896808_Sample_C3.expression.txt.gz
-		cell.id zygote #3
-		sample.donor.uuid 0b7b0b6c-db73-442c-9d9e-8609269f3de2
-		sample.uuid 6f7ade8e-65c9-4979-9f3f-a77410c131c0
+		sample.well.core.id zygote #3
+		sample.donor.core.id 0b7b0b6c-db73-442c-9d9e-8609269f3de2
+		sample.core.id 6f7ade8e-65c9-4979-9f3f-a77410c131c0
 
-	cell.type 2-cell blastomere
-	sample.body_part.name 2-cell blastomere
+	sample.well.cell_type.text 2-cell blastomere
+	sample.body_part.text 2-cell blastomere
 	sample.donor.age 0
 	sample.donor.age_unit week
 	sample.donor.life_stage embryo
-	sample.submission_date 2012-03-16
-	sample.short_label 2-cell blastomeres
-	sample.long_label disassociated blastomeres from 2-cell stage Tang method 2013
-	sample.donor.development_stage 2-cell blastomeres
+	sample.submit_date 2012-03-16
+	sample.name 2-cell blastomeres
+	sample.title disassociated blastomeres from 2-cell stage Tang method 2013
+	sample.donor.development_stage.text 2-cell blastomeres
 
-		sample.donor.id 2-cell blastomere #1
-		sample.donor.uuid c2c32742-510b-4189-8eb9-bd13de26fe1a
+		sample.donor.submitted_id 2-cell blastomere #1
+		sample.donor.core.id c2c32742-510b-4189-8eb9-bd13de26fe1a
 
-			assay.sra_experiment SRX130003
-			assay.sra_run SRR445724
+			assay.seq.sra_experiment SRX130003
+			assay.seq.sra_run SRR445724
 			sample.geo_sample GSM896809
 			sample.ncbi_biosample SAMN00828836
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130003,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896809/GSM896809_Sample_B1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896809/GSM896809_Sample_B1.expression.txt.gz
-			cell.id 2-cell blasto 1 cell#1
-			sample.uuid 8769ea2d-30ad-4d31-a3a5-6cf0cbd4e7a7
+			sample.well.core.id 2-cell blasto 1 cell#1
+			sample.core.id 8769ea2d-30ad-4d31-a3a5-6cf0cbd4e7a7
 
-			assay.sra_experiment SRX130004
-			assay.sra_run SRR445725
+			assay.seq.sra_experiment SRX130004
+			assay.seq.sra_run SRR445725
 			sample.geo_sample GSM896810
 			sample.ncbi_biosample SAMN00828837
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130004,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896810/GSM896810_Sample_B2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896810/GSM896810_Sample_B2.expression.txt.gz
-			cell.id 2-cell blasto 1 cell#2
-			sample.uuid d06039be-080f-4194-948c-e8d71e57fe53
+			sample.well.core.id 2-cell blasto 1 cell#2
+			sample.core.id d06039be-080f-4194-948c-e8d71e57fe53
 
-		sample.donor.id 2-cell blastomere #2
-		sample.donor.uuid 9b71c5e9-43da-4f9b-afff-be09fcf24ff6
+		sample.donor.submitted_id 2-cell blastomere #2
+		sample.donor.core.id 9b71c5e9-43da-4f9b-afff-be09fcf24ff6
 
-			assay.sra_experiment SRX130005
-			assay.sra_run SRR445726
+			assay.seq.sra_experiment SRX130005
+			assay.seq.sra_run SRR445726
 			sample.geo_sample GSM896811
 			sample.ncbi_biosample SAMN00828838
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130005,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896811/GSM896811_Sample_B3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896811/GSM896811_Sample_B3.expression.txt.gz
-			cell.id 2-cell blasto 2 cell#1
-			sample.uuid 2f4c0277-1bee-4b44-a307-137a35386295
+			sample.well.core.id 2-cell blasto 2 cell#1
+			sample.core.id 2f4c0277-1bee-4b44-a307-137a35386295
 
-			assay.sra_experiment SRX130006
-			assay.sra_run SRR445727
+			assay.seq.sra_experiment SRX130006
+			assay.seq.sra_run SRR445727
 			sample.geo_sample GSM896812
 			sample.ncbi_biosample SAMN00828839
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130006,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896812/GSM896812_Sample_B4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896812/GSM896812_Sample_B4.expression.txt.gz
-			cell.id 2-cell blasto 2 cell#2
-			sample.uuid 377f6255-01ec-44ca-a945-ac81389ed681
+			sample.well.core.id 2-cell blasto 2 cell#2
+			sample.core.id 377f6255-01ec-44ca-a945-ac81389ed681
 
-		sample.donor.id 2-cell blastomere #3
-		sample.donor.uuid 2fa70358-d99b-4dd6-b4c9-fd75c0f67a1a
+		sample.donor.submitted_id 2-cell blastomere #3
+		sample.donor.core.id 2fa70358-d99b-4dd6-b4c9-fd75c0f67a1a
 
-			assay.sra_experiment SRX130007
-			assay.sra_run SRR445728
+			assay.seq.sra_experiment SRX130007
+			assay.seq.sra_run SRR445728
 			sample.geo_sample GSM896813
 			sample.ncbi_biosample SAMN00828840
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130007,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896813/GSM896813_Sample_B5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896813/GSM896813_Sample_B5.expression.txt.gz
-			cell.id 2-cell blasto 3 cell#1
-			sample.uuid c68bb7ce-4acb-48b5-8a77-704213452b8e
+			sample.well.core.id 2-cell blasto 3 cell#1
+			sample.core.id c68bb7ce-4acb-48b5-8a77-704213452b8e
 
-			assay.sra_experiment SRX130008
-			assay.sra_run SRR445729
+			assay.seq.sra_experiment SRX130008
+			assay.seq.sra_run SRR445729
 			sample.geo_sample GSM896814
 			sample.ncbi_biosample SAMN00828841
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130008,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896814/GSM896814_Sample_B6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896814/GSM896814_Sample_B6.expression.txt.gz
-			cell.id 2-cell blasto 3 cell#2
-			sample.uuid 019de242-4ee8-4b9f-8e7c-493d01987dc7
+			sample.well.core.id 2-cell blasto 3 cell#2
+			sample.core.id 019de242-4ee8-4b9f-8e7c-493d01987dc7
 
-	cell.type 4-cell blastomere
-	sample.body_part.name 4-cell blastomere
+	sample.well.cell_type.text 4-cell blastomere
+	sample.body_part.text 4-cell blastomere
 	sample.donor.age 0
 	sample.donor.age_unit week
 	sample.donor.life_stage embryo
-	sample.submission_date 2012-04-25
-	sample.short_label 4-cell blastomeres
-	sample.long_label disassociated blastomeres from 4-cell stage Tang method 2013
-	sample.donor.development_stage 4-cell blastomeres
+	sample.submit_date 2012-04-25
+	sample.name 4-cell blastomeres
+	sample.title disassociated blastomeres from 4-cell stage Tang method 2013
+	sample.donor.development_stage.text 4-cell blastomeres
 
-		sample.donor.id 4-cell blastomere #1
-		sample.donor.uuid a27cbc46-585f-48f6-9298-b8a0c209fd06
+		sample.donor.submitted_id 4-cell blastomere #1
+		sample.donor.core.id a27cbc46-585f-48f6-9298-b8a0c209fd06
 
-			assay.sra_experiment SRX144340
-			assay.sra_run SRR490961
+			assay.seq.sra_experiment SRX144340
+			assay.seq.sra_run SRR490961
 			sample.geo_sample GSM922146
 			sample.ncbi_biosample SAMN00989115
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144340,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922146/GSM922146_Sample_C4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922146/GSM922146_Sample_C4.expression.txt.gz
-			cell.id 4-cell blasto 1 cell#1
-			sample.uuid 219575b3-fdd5-4b08-bdd3-0b5c8be5b216
+			sample.well.core.id 4-cell blasto 1 cell#1
+			sample.core.id 219575b3-fdd5-4b08-bdd3-0b5c8be5b216
 
-			assay.sra_experiment SRX144341
-			assay.sra_run SRR490962
+			assay.seq.sra_experiment SRX144341
+			assay.seq.sra_run SRR490962
 			sample.geo_sample GSM922147
 			sample.ncbi_biosample SAMN00989116
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144341,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922147/GSM922147_Sample_C5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922147/GSM922147_Sample_C5.expression.txt.gz
-			cell.id 4-cell blasto 1 cell#2
-			sample.uuid 70fe0ea7-a9c2-45fc-84f9-bbc6a7fb46aa
+			sample.well.core.id 4-cell blasto 1 cell#2
+			sample.core.id 70fe0ea7-a9c2-45fc-84f9-bbc6a7fb46aa
 
-			assay.sra_experiment SRX144342
-			assay.sra_run SRR490963
+			assay.seq.sra_experiment SRX144342
+			assay.seq.sra_run SRR490963
 			sample.geo_sample GSM922148
 			sample.ncbi_biosample SAMN00989117
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144342,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922148/GSM922148_Sample_C6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922148/GSM922148_Sample_C6.expression.txt.gz
-			cell.id 4-cell blasto 1 cell#3
-			sample.uuid ec61e5fa-3a7c-47e9-adef-1d0b23417f30
+			sample.well.core.id 4-cell blasto 1 cell#3
+			sample.core.id ec61e5fa-3a7c-47e9-adef-1d0b23417f30
 
-			assay.sra_experiment SRX144343
-			assay.sra_run SRR490964
+			assay.seq.sra_experiment SRX144343
+			assay.seq.sra_run SRR490964
 			sample.geo_sample GSM922149
 			sample.ncbi_biosample SAMN00989118
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144343,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922149/GSM922149_Sample_C7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922149/GSM922149_Sample_C7.expression.txt.gz
-			cell.id 4-cell blasto 1 cell#4
-			sample.uuid 96765478-fe43-4bfb-9cbe-7d9962e3f864
+			sample.well.core.id 4-cell blasto 1 cell#4
+			sample.core.id 96765478-fe43-4bfb-9cbe-7d9962e3f864
 
-		sample.donor.id 4-cell blastomere #2
-		sample.donor.uuid e8a3409c-6b53-4f78-8aab-00012b2c9aae
+		sample.donor.submitted_id 4-cell blastomere #2
+		sample.donor.core.id e8a3409c-6b53-4f78-8aab-00012b2c9aae
 
-			assay.sra_experiment SRX144344
-			assay.sra_run SRR490965
+			assay.seq.sra_experiment SRX144344
+			assay.seq.sra_run SRR490965
 			sample.geo_sample GSM922150
 			sample.ncbi_biosample SAMN00989119
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144344,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922150/GSM922150_Sample_L1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922150/GSM922150_Sample_L1.expression.txt.gz
-			cell.id 4-cell blasto 2 cell#1
-			sample.uuid 3fc2a1a9-fd7d-4c92-82e1-8e0ae4229863
+			sample.well.core.id 4-cell blasto 2 cell#1
+			sample.core.id 3fc2a1a9-fd7d-4c92-82e1-8e0ae4229863
 
-			assay.sra_experiment SRX144345
-			assay.sra_run SRR490966
+			assay.seq.sra_experiment SRX144345
+			assay.seq.sra_run SRR490966
 			sample.geo_sample GSM922151
 			sample.ncbi_biosample SAMN00989120
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144345,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922151/GSM922151_Sample_L2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922151/GSM922151_Sample_L2.expression.txt.gz
-			cell.id 4-cell blasto 2 cell#2
-			sample.uuid 738df571-8b58-4f3f-843b-7385ceb28d6f
+			sample.well.core.id 4-cell blasto 2 cell#2
+			sample.core.id 738df571-8b58-4f3f-843b-7385ceb28d6f
 
-			assay.sra_experiment SRX144346
-			assay.sra_run SRR490967
+			assay.seq.sra_experiment SRX144346
+			assay.seq.sra_run SRR490967
 			sample.geo_sample GSM922152
 			sample.ncbi_biosample SAMN00989121
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144346,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922152/GSM922152_Sample_L3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922152/GSM922152_Sample_L3.expression.txt.gz
-			cell.id 4-cell blasto 2 cell#3
-			sample.uuid faf118b5-93d3-40ff-931d-ab849b6b2b84
+			sample.well.core.id 4-cell blasto 2 cell#3
+			sample.core.id faf118b5-93d3-40ff-931d-ab849b6b2b84
 
-			assay.sra_experiment SRX144347
-			assay.sra_run SRR490968
+			assay.seq.sra_experiment SRX144347
+			assay.seq.sra_run SRR490968
 			sample.geo_sample GSM922153
 			sample.ncbi_biosample SAMN00989122
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144347,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922153/GSM922153_Sample_L4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922153/GSM922153_Sample_L4.expression.txt.gz
-			cell.id 4-cell blasto 2 cell#4
-			sample.uuid 89617ac4-cd51-42b7-b14b-e7f330b0788f
+			sample.well.core.id 4-cell blasto 2 cell#4
+			sample.core.id 89617ac4-cd51-42b7-b14b-e7f330b0788f
 
-		sample.donor.id 4-cell blastomere #3
-		sample.donor.uuid 3bfbfc40-9cd7-4ec7-a35c-ce174bc8e624
+		sample.donor.submitted_id 4-cell blastomere #3
+		sample.donor.core.id 3bfbfc40-9cd7-4ec7-a35c-ce174bc8e624
 
-			assay.sra_experiment SRX144348
-			assay.sra_run SRR490969
+			assay.seq.sra_experiment SRX144348
+			assay.seq.sra_run SRR490969
 			sample.geo_sample GSM922154
 			sample.ncbi_biosample SAMN00989123
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144348,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922154/GSM922154_Sample_L5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922154/GSM922154_Sample_L5.expression.txt.gz
-			cell.id 4-cell blasto 3 cell#1
-			sample.uuid 73ad85fc-7f43-4287-9118-911c8a37fe4b
+			sample.well.core.id 4-cell blasto 3 cell#1
+			sample.core.id 73ad85fc-7f43-4287-9118-911c8a37fe4b
 
-			assay.sra_experiment SRX144349
-			assay.sra_run SRR490970
+			assay.seq.sra_experiment SRX144349
+			assay.seq.sra_run SRR490970
 			sample.geo_sample GSM922155
 			sample.ncbi_biosample SAMN00989124
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144349,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922155/GSM922155_Sample_L6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922155/GSM922155_Sample_L6.expression.txt.gz
-			cell.id 4-cell blasto 3 cell#2
-			sample.uuid 02bc0d6d-98fb-4669-ad1c-0695d6f06465
+			sample.well.core.id 4-cell blasto 3 cell#2
+			sample.core.id 02bc0d6d-98fb-4669-ad1c-0695d6f06465
 
-			assay.sra_experiment SRX144350
-			assay.sra_run SRR490971
+			assay.seq.sra_experiment SRX144350
+			assay.seq.sra_run SRR490971
 			sample.geo_sample GSM922156
 			sample.ncbi_biosample SAMN00989125
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144350,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922156/GSM922156_Sample_L7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922156/GSM922156_Sample_L7.expression.txt.gz
-			cell.id 4-cell blasto 3 cell#3
-			sample.uuid 8bf125a7-463f-4294-b154-c5e5a3bbda2b
+			sample.well.core.id 4-cell blasto 3 cell#3
+			sample.core.id 8bf125a7-463f-4294-b154-c5e5a3bbda2b
 
-			assay.sra_experiment SRX144351
-			assay.sra_run SRR490972
+			assay.seq.sra_experiment SRX144351
+			assay.seq.sra_run SRR490972
 			sample.geo_sample GSM922157
 			sample.ncbi_biosample SAMN00989126
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144351,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922157/GSM922157_Sample_L8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922157/GSM922157_Sample_L8.expression.txt.gz
-			cell.id 4-cell blasto 3 cell#4
-			sample.uuid 1620e754-6e3d-4375-8dc8-23e07303633f
+			sample.well.core.id 4-cell blasto 3 cell#4
+			sample.core.id 1620e754-6e3d-4375-8dc8-23e07303633f
 
-	cell.type 8-cell blastomere
-	sample.body_part.name 8-cell blastomere
+	sample.well.cell_type.text 8-cell blastomere
+	sample.body_part.text 8-cell blastomere
 	sample.donor.age 0
 	sample.donor.age_unit week
 	sample.donor.life_stage embryo
-	sample.submission_date 2012-04-25
-	sample.short_label 8-cell blastomeres
-	sample.long_label disassociated blastomeres from 8-cell stage Tang method 2013
-	sample.donor.development_stage 8-cell blastomeres
+	sample.submit_date 2012-04-25
+	sample.name 8-cell blastomeres
+	sample.title disassociated blastomeres from 8-cell stage Tang method 2013
+	sample.donor.development_stage.text 8-cell blastomeres
 
-		sample.donor.id 8-cell blastomere #1
-		sample.donor.uuid d26ff9bb-5d5e-4890-a24c-3b71ce9a0c3c
+		sample.donor.submitted_id 8-cell blastomere #1
+		sample.donor.core.id d26ff9bb-5d5e-4890-a24c-3b71ce9a0c3c
 
-			assay.sra_experiment SRX144352
-			assay.sra_run SRR490973
+			assay.seq.sra_experiment SRX144352
+			assay.seq.sra_run SRR490973
 			sample.geo_sample GSM922158
 			sample.ncbi_biosample SAMN00989127
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144352,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922158/GSM922158_Sample_A1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922158/GSM922158_Sample_A1.expression.txt.gz
-			cell.id 8-cell blasto 1 cell#1
-			sample.uuid b8ab32e2-3805-4b90-8d89-181db10d8928
+			sample.well.core.id 8-cell blasto 1 cell#1
+			sample.core.id b8ab32e2-3805-4b90-8d89-181db10d8928
 
-			assay.sra_experiment SRX144353
-			assay.sra_run SRR490974
+			assay.seq.sra_experiment SRX144353
+			assay.seq.sra_run SRR490974
 			sample.geo_sample GSM922159
 			sample.ncbi_biosample SAMN00989128
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144353,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922159/GSM922159_Sample_A2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922159/GSM922159_Sample_A2.expression.txt.gz
-			cell.id 8-cell blasto 1 cell#2
-			sample.uuid 6a877997-5ae7-4f32-9e13-3fb79e16d064
+			sample.well.core.id 8-cell blasto 1 cell#2
+			sample.core.id 6a877997-5ae7-4f32-9e13-3fb79e16d064
 
-			assay.sra_experiment SRX144354
-			assay.sra_run SRR490975
+			assay.seq.sra_experiment SRX144354
+			assay.seq.sra_run SRR490975
 			sample.geo_sample GSM922160
 			sample.ncbi_biosample SAMN00989129
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144354,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922160/GSM922160_Sample_A3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922160/GSM922160_Sample_A3.expression.txt.gz
-			cell.id 8-cell blasto 1 cell#3
-			sample.uuid d5c677a2-c532-4f94-86ae-a84387973d42
+			sample.well.core.id 8-cell blasto 1 cell#3
+			sample.core.id d5c677a2-c532-4f94-86ae-a84387973d42
 
-			assay.sra_experiment SRX144355
-			assay.sra_run SRR490976
+			assay.seq.sra_experiment SRX144355
+			assay.seq.sra_run SRR490976
 			sample.geo_sample GSM922161
 			sample.ncbi_biosample SAMN00989130
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144355,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922161/GSM922161_Sample_A4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922161/GSM922161_Sample_A4.expression.txt.gz
-			cell.id 8-cell blasto 1 cell#4
-			sample.uuid 73a51abf-0f16-4eec-9b6b-57a7b3fe29c9
+			sample.well.core.id 8-cell blasto 1 cell#4
+			sample.core.id 73a51abf-0f16-4eec-9b6b-57a7b3fe29c9
 
-		sample.donor.id 8-cell blastomere #2
-		sample.donor.uuid 6b501b7d-53a0-4e0e-8df2-59b6c883da4e
+		sample.donor.submitted_id 8-cell blastomere #2
+		sample.donor.core.id 6b501b7d-53a0-4e0e-8df2-59b6c883da4e
 
-			assay.sra_experiment SRX144356
-			assay.sra_run SRR490977
+			assay.seq.sra_experiment SRX144356
+			assay.seq.sra_run SRR490977
 			sample.geo_sample GSM922162
 			sample.ncbi_biosample SAMN00989131
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144356,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922162/GSM922162_Sample_A5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922162/GSM922162_Sample_A5.expression.txt.gz
-			cell.id 8-cell blasto 2 cell#1
-			sample.uuid 0c749859-6f0c-4df2-b5e3-3dc923011143
+			sample.well.core.id 8-cell blasto 2 cell#1
+			sample.core.id 0c749859-6f0c-4df2-b5e3-3dc923011143
 
-			assay.sra_experiment SRX144357
-			assay.sra_run SRR490978
+			assay.seq.sra_experiment SRX144357
+			assay.seq.sra_run SRR490978
 			sample.geo_sample GSM922163
 			sample.ncbi_biosample SAMN00989132
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144357,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922163/GSM922163_Sample_A6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922163/GSM922163_Sample_A6.expression.txt.gz
-			cell.id 8-cell blasto 2 cell#2
-			sample.uuid fd7dd1e0-ad5f-403c-8399-35edcbcfd036
+			sample.well.core.id 8-cell blasto 2 cell#2
+			sample.core.id fd7dd1e0-ad5f-403c-8399-35edcbcfd036
 
-			assay.sra_experiment SRX144358
-			assay.sra_run SRR490979
+			assay.seq.sra_experiment SRX144358
+			assay.seq.sra_run SRR490979
 			sample.geo_sample GSM922164
 			sample.ncbi_biosample SAMN00989133
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144358,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922164/GSM922164_Sample_A7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922164/GSM922164_Sample_A7.expression.txt.gz
-			cell.id 8-cell blasto 2 cell#3
-			sample.uuid 8cd2126c-64a7-4492-a4ec-69e9be8b7418
+			sample.well.core.id 8-cell blasto 2 cell#3
+			sample.core.id 8cd2126c-64a7-4492-a4ec-69e9be8b7418
 
-			assay.sra_experiment SRX144359
-			assay.sra_run SRR490980
+			assay.seq.sra_experiment SRX144359
+			assay.seq.sra_run SRR490980
 			sample.geo_sample GSM922165
 			sample.ncbi_biosample SAMN00989134
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144359,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922165/GSM922165_Sample_A8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922165/GSM922165_Sample_A8.expression.txt.gz
-			cell.id 8-cell blasto 2 cell#4
-			sample.uuid e202b603-9a13-477e-8119-468673ff0133
+			sample.well.core.id 8-cell blasto 2 cell#4
+			sample.core.id e202b603-9a13-477e-8119-468673ff0133
 
-			assay.sra_experiment SRX144360
-			assay.sra_run SRR490981
+			assay.seq.sra_experiment SRX144360
+			assay.seq.sra_run SRR490981
 			sample.geo_sample GSM922166
 			sample.ncbi_biosample SAMN00989135
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144360,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922166/GSM922166_Sample_E1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922166/GSM922166_Sample_E1.expression.txt.gz
-			cell.id 8-cell blasto 2 cell#5
-			sample.uuid 4116bea1-e24a-459b-9ac5-928cb3354a26
+			sample.well.core.id 8-cell blasto 2 cell#5
+			sample.core.id 4116bea1-e24a-459b-9ac5-928cb3354a26
 
-			assay.sra_experiment SRX144361
-			assay.sra_run SRR490982
+			assay.seq.sra_experiment SRX144361
+			assay.seq.sra_run SRR490982
 			sample.geo_sample GSM922167
 			sample.ncbi_biosample SAMN00989136
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144361,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922167/GSM922167_Sample_E2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922167/GSM922167_Sample_E2.expression.txt.gz
-			cell.id 8-cell blasto 2 cell#6
-			sample.uuid d8259945-e6ef-4e09-9842-fb28c00dce1c
+			sample.well.core.id 8-cell blasto 2 cell#6
+			sample.core.id d8259945-e6ef-4e09-9842-fb28c00dce1c
 
-			assay.sra_experiment SRX144362
-			assay.sra_run SRR490983
+			assay.seq.sra_experiment SRX144362
+			assay.seq.sra_run SRR490983
 			sample.geo_sample GSM922168
 			sample.ncbi_biosample SAMN00989137
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144362,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922168/GSM922168_Sample_E3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922168/GSM922168_Sample_E3.expression.txt.gz
-			cell.id 8-cell blasto 2 cell#7
-			sample.uuid f51fc0a4-0d25-449d-89c2-14223faaeb98
+			sample.well.core.id 8-cell blasto 2 cell#7
+			sample.core.id f51fc0a4-0d25-449d-89c2-14223faaeb98
 
-			assay.sra_experiment SRX144363
-			assay.sra_run SRR490984
+			assay.seq.sra_experiment SRX144363
+			assay.seq.sra_run SRR490984
 			sample.geo_sample GSM922169
 			sample.ncbi_biosample SAMN00989138
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144363,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922169/GSM922169_Sample_E4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922169/GSM922169_Sample_E4.expression.txt.gz
-			cell.id 8-cell blasto 2 cell#8
-			sample.uuid 803b0de1-97b7-48e0-bac4-361bb6f46d63
+			sample.well.core.id 8-cell blasto 2 cell#8
+			sample.core.id 803b0de1-97b7-48e0-bac4-361bb6f46d63
 
-		sample.donor.id 8-cell blastomere #3
-		sample.donor.uuid 46eb5117-2c61-444f-a294-9d6481e1b807
+		sample.donor.submitted_id 8-cell blastomere #3
+		sample.donor.core.id 46eb5117-2c61-444f-a294-9d6481e1b807
 
-			assay.sra_experiment SRX144364
-			assay.sra_run SRR490985
+			assay.seq.sra_experiment SRX144364
+			assay.seq.sra_run SRR490985
 			sample.geo_sample GSM922170
 			sample.ncbi_biosample SAMN00989139
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144364,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922170/GSM922170_Sample_K1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922170/GSM922170_Sample_K1.expression.txt.gz
-			cell.id 8-cell blasto 3 cell#1
-			sample.uuid facee6d6-d606-4a8f-a4ca-f32d9769c9b2
+			sample.well.core.id 8-cell blasto 3 cell#1
+			sample.core.id facee6d6-d606-4a8f-a4ca-f32d9769c9b2
 
-			assay.sra_experiment SRX144365
-			assay.sra_run SRR490986
+			assay.seq.sra_experiment SRX144365
+			assay.seq.sra_run SRR490986
 			sample.geo_sample GSM922171
 			sample.ncbi_biosample SAMN00989140
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144365,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922171/GSM922171_Sample_K2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922171/GSM922171_Sample_K2.expression.txt.gz
-			cell.id 8-cell blasto 3 cell#2
-			sample.uuid b3eb3876-a552-43c2-a97f-efefaf224e95
+			sample.well.core.id 8-cell blasto 3 cell#2
+			sample.core.id b3eb3876-a552-43c2-a97f-efefaf224e95
 
-			assay.sra_experiment SRX144366
-			assay.sra_run SRR490987
+			assay.seq.sra_experiment SRX144366
+			assay.seq.sra_run SRR490987
 			sample.geo_sample GSM922172
 			sample.ncbi_biosample SAMN00989141
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144366,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922172/GSM922172_Sample_K3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922172/GSM922172_Sample_K3.expression.txt.gz
-			cell.id 8-cell blasto 3 cell#3
-			sample.uuid 5a5ac9a9-1e4d-41a5-8490-0fa7e7feaac8
+			sample.well.core.id 8-cell blasto 3 cell#3
+			sample.core.id 5a5ac9a9-1e4d-41a5-8490-0fa7e7feaac8
 
-			assay.sra_experiment SRX144367
-			assay.sra_run SRR490988
+			assay.seq.sra_experiment SRX144367
+			assay.seq.sra_run SRR490988
 			sample.geo_sample GSM922173
 			sample.ncbi_biosample SAMN00989142
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144367,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922173/GSM922173_Sample_K4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922173/GSM922173_Sample_K4.expression.txt.gz
-			cell.id 8-cell blasto 3 cell#4
-			sample.uuid 61181e69-9637-4760-91e3-0320c3de06d7
+			sample.well.core.id 8-cell blasto 3 cell#4
+			sample.core.id 61181e69-9637-4760-91e3-0320c3de06d7
 
-			assay.sra_experiment SRX144368
-			assay.sra_run SRR490989
+			assay.seq.sra_experiment SRX144368
+			assay.seq.sra_run SRR490989
 			sample.geo_sample GSM922174
 			sample.ncbi_biosample SAMN00989143
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144368,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922174/GSM922174_Sample_K5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922174/GSM922174_Sample_K5.expression.txt.gz
-			cell.id 8-cell blasto 3 cell#5
-			sample.uuid 8ed360dc-6104-4729-b215-e7bbcb5c8875
+			sample.well.core.id 8-cell blasto 3 cell#5
+			sample.core.id 8ed360dc-6104-4729-b215-e7bbcb5c8875
 
-			assay.sra_experiment SRX144369
-			assay.sra_run SRR490990
+			assay.seq.sra_experiment SRX144369
+			assay.seq.sra_run SRR490990
 			sample.geo_sample GSM922175
 			sample.ncbi_biosample SAMN00989144
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144369,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922175/GSM922175_Sample_K6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922175/GSM922175_Sample_K6.expression.txt.gz
-			cell.id 8-cell blasto 3 cell#6
-			sample.uuid 79ab9736-0b96-41db-8cf4-b8d7be902d2a
+			sample.well.core.id 8-cell blasto 3 cell#6
+			sample.core.id 79ab9736-0b96-41db-8cf4-b8d7be902d2a
 
-			assay.sra_experiment SRX144370
-			assay.sra_run SRR490991
+			assay.seq.sra_experiment SRX144370
+			assay.seq.sra_run SRR490991
 			sample.geo_sample GSM922176
 			sample.ncbi_biosample SAMN00989145
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144370,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922176/GSM922176_Sample_K7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922176/GSM922176_Sample_K7.expression.txt.gz
-			cell.id 8-cell blasto 3 cell#7
-			sample.uuid 3befc4f9-0db9-457e-b427-07cf2e874e13
+			sample.well.core.id 8-cell blasto 3 cell#7
+			sample.core.id 3befc4f9-0db9-457e-b427-07cf2e874e13
 
-			assay.sra_experiment SRX144371
-			assay.sra_run SRR490992
+			assay.seq.sra_experiment SRX144371
+			assay.seq.sra_run SRR490992
 			sample.geo_sample GSM922177
 			sample.ncbi_biosample SAMN00989146
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144371,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922177/GSM922177_Sample_K8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922177/GSM922177_Sample_K8.expression.txt.gz
-			cell.id 8-cell blasto 3 cell#8
-			sample.uuid 3f2956d3-e05e-44b2-b062-f93b23f4a91b
+			sample.well.core.id 8-cell blasto 3 cell#8
+			sample.core.id 3f2956d3-e05e-44b2-b062-f93b23f4a91b
 
-	cell.type morula cell
-	sample.body_part.name morula stage embryo
+	sample.well.cell_type.text morula cell
+	sample.body_part.text morula stage embryo
 	sample.donor.age 0
 	sample.donor.age_unit week
 	sample.donor.life_stage embryo
-	sample.submission_date 2012-04-25
-	sample.short_label morula blastomeres
-	sample.long_label disassociated blastomeres from morula stage embryo Tang method 2013
-	sample.donor.development_stage morula
-	cell.ontology CL_0000360
+	sample.submit_date 2012-04-25
+	sample.name morula blastomeres
+	sample.title disassociated blastomeres from morula stage embryo Tang method 2013
+	sample.donor.development_stage.text morula
+	sample.well.cell_type.ontology CL_0000360
 
-		sample.donor.id morula #1
-		sample.donor.uuid a1f2353c-3560-41c2-a3df-60eb38ad2543
+		sample.donor.submitted_id morula #1
+		sample.donor.core.id a1f2353c-3560-41c2-a3df-60eb38ad2543
 
-			assay.sra_experiment SRX144372
-			assay.sra_run SRR490993
+			assay.seq.sra_experiment SRX144372
+			assay.seq.sra_run SRR490993
 			sample.geo_sample GSM922178
 			sample.ncbi_biosample SAMN00989147
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144372,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922178/GSM922178_Sample_D1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922178/GSM922178_Sample_D1.expression.txt.gz
-			cell.id morula 1 cell#1
-			sample.uuid 822a269e-94b0-40aa-a3ed-106173cad4ca
+			sample.well.core.id morula 1 cell#1
+			sample.core.id 822a269e-94b0-40aa-a3ed-106173cad4ca
 
-			assay.sra_experiment SRX144373
-			assay.sra_run SRR490994
+			assay.seq.sra_experiment SRX144373
+			assay.seq.sra_run SRR490994
 			sample.geo_sample GSM922179
 			sample.ncbi_biosample SAMN00989148
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144373,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922179/GSM922179_Sample_D2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922179/GSM922179_Sample_D2.expression.txt.gz
-			cell.id morula 1 cell#2
-			sample.uuid 7fe181ee-1e57-4ecf-a3ad-f7532d8a3c01
+			sample.well.core.id morula 1 cell#2
+			sample.core.id 7fe181ee-1e57-4ecf-a3ad-f7532d8a3c01
 
-			assay.sra_experiment SRX144374
-			assay.sra_run SRR490995
+			assay.seq.sra_experiment SRX144374
+			assay.seq.sra_run SRR490995
 			sample.geo_sample GSM922180
 			sample.ncbi_biosample SAMN00989149
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144374,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922180/GSM922180_Sample_D3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922180/GSM922180_Sample_D3.expression.txt.gz
-			cell.id morula 1 cell#3
-			sample.uuid b322eb85-bb77-42d1-80b1-caaab10801d9
+			sample.well.core.id morula 1 cell#3
+			sample.core.id b322eb85-bb77-42d1-80b1-caaab10801d9
 
-			assay.sra_experiment SRX144375
-			assay.sra_run SRR490996
+			assay.seq.sra_experiment SRX144375
+			assay.seq.sra_run SRR490996
 			sample.geo_sample GSM922181
 			sample.ncbi_biosample SAMN00989150
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144375,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922181/GSM922181_Sample_D4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922181/GSM922181_Sample_D4.expression.txt.gz
-			cell.id morula 1 cell#4
-			sample.uuid ef846c0f-93ac-4d76-be64-9fcf0d0e533b
+			sample.well.core.id morula 1 cell#4
+			sample.core.id ef846c0f-93ac-4d76-be64-9fcf0d0e533b
 
-			assay.sra_experiment SRX144376
-			assay.sra_run SRR490997
+			assay.seq.sra_experiment SRX144376
+			assay.seq.sra_run SRR490997
 			sample.geo_sample GSM922182
 			sample.ncbi_biosample SAMN00989151
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144376,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922182/GSM922182_Sample_D5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922182/GSM922182_Sample_D5.expression.txt.gz
-			cell.id morula 1 cell#5
-			sample.uuid 87df975b-d230-4129-93cf-048d7ad984ac
+			sample.well.core.id morula 1 cell#5
+			sample.core.id 87df975b-d230-4129-93cf-048d7ad984ac
 
-			assay.sra_experiment SRX144377
-			assay.sra_run SRR490998
+			assay.seq.sra_experiment SRX144377
+			assay.seq.sra_run SRR490998
 			sample.geo_sample GSM922183
 			sample.ncbi_biosample SAMN00989152
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144377,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922183/GSM922183_Sample_D6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922183/GSM922183_Sample_D6.expression.txt.gz
-			cell.id morula 1 cell#6
-			sample.uuid 956ad72c-6243-4989-9dec-c037df181c33
+			sample.well.core.id morula 1 cell#6
+			sample.core.id 956ad72c-6243-4989-9dec-c037df181c33
 
-			assay.sra_experiment SRX144378
-			assay.sra_run SRR490999
+			assay.seq.sra_experiment SRX144378
+			assay.seq.sra_run SRR490999
 			sample.geo_sample GSM922184
 			sample.ncbi_biosample SAMN00989153
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144378,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922184/GSM922184_Sample_D7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922184/GSM922184_Sample_D7.expression.txt.gz
-			cell.id morula 1 cell#7
-			sample.uuid f25cc778-756a-464e-941c-99cd36684e3f
+			sample.well.core.id morula 1 cell#7
+			sample.core.id f25cc778-756a-464e-941c-99cd36684e3f
 
-			assay.sra_experiment SRX144379
-			assay.sra_run SRR491000
+			assay.seq.sra_experiment SRX144379
+			assay.seq.sra_run SRR491000
 			sample.geo_sample GSM922185
 			sample.ncbi_biosample SAMN00989154
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144379,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922185/GSM922185_Sample_D8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922185/GSM922185_Sample_D8.expression.txt.gz
-			cell.id morula 1 cell#8
-			sample.uuid 2826a09e-2a3e-4d17-be98-fb06580fd247
+			sample.well.core.id morula 1 cell#8
+			sample.core.id 2826a09e-2a3e-4d17-be98-fb06580fd247
 
-		sample.donor.id morula #2
-		sample.donor.uuid 6ce39cea-8303-4966-9a50-7e4311b72324
+		sample.donor.submitted_id morula #2
+		sample.donor.core.id 6ce39cea-8303-4966-9a50-7e4311b72324
 
-			assay.sra_experiment SRX144380
-			assay.sra_run SRR491001
+			assay.seq.sra_experiment SRX144380
+			assay.seq.sra_run SRR491001
 			sample.geo_sample GSM922186
 			sample.ncbi_biosample SAMN00989155
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144380,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922186/GSM922186_Sample_F1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922186/GSM922186_Sample_F1.expression.txt.gz
-			cell.id morula 2 cell#1
-			sample.uuid c2f831cf-28f5-40fc-b264-ba381993bb11
+			sample.well.core.id morula 2 cell#1
+			sample.core.id c2f831cf-28f5-40fc-b264-ba381993bb11
 
-			assay.sra_experiment SRX144381
-			assay.sra_run SRR491002
+			assay.seq.sra_experiment SRX144381
+			assay.seq.sra_run SRR491002
 			sample.geo_sample GSM922187
 			sample.ncbi_biosample SAMN00989156
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144381,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922187/GSM922187_Sample_F2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922187/GSM922187_Sample_F2.expression.txt.gz
-			cell.id morula 2 cell#2
-			sample.uuid 0829ef1a-19a6-491d-926a-4bae055396bd
+			sample.well.core.id morula 2 cell#2
+			sample.core.id 0829ef1a-19a6-491d-926a-4bae055396bd
 
-			assay.sra_experiment SRX144382
-			assay.sra_run SRR491003
+			assay.seq.sra_experiment SRX144382
+			assay.seq.sra_run SRR491003
 			sample.geo_sample GSM922188
 			sample.ncbi_biosample SAMN00989157
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144382,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922188/GSM922188_Sample_F3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922188/GSM922188_Sample_F3.expression.txt.gz
-			cell.id morula 2 cell#3
-			sample.uuid 65f0b633-97f3-4342-9faa-8f4902a10325
+			sample.well.core.id morula 2 cell#3
+			sample.core.id 65f0b633-97f3-4342-9faa-8f4902a10325
 
-			assay.sra_experiment SRX144383
-			assay.sra_run SRR491004
+			assay.seq.sra_experiment SRX144383
+			assay.seq.sra_run SRR491004
 			sample.geo_sample GSM922189
 			sample.ncbi_biosample SAMN00989158
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144383,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922189/GSM922189_Sample_F4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922189/GSM922189_Sample_F4.expression.txt.gz
-			cell.id morula 2 cell#4
-			sample.uuid 2d173f49-3c9d-4c02-b89f-7850970d707e
+			sample.well.core.id morula 2 cell#4
+			sample.core.id 2d173f49-3c9d-4c02-b89f-7850970d707e
 
-			assay.sra_experiment SRX144384
-			assay.sra_run SRR491005
+			assay.seq.sra_experiment SRX144384
+			assay.seq.sra_run SRR491005
 			sample.geo_sample GSM922190
 			sample.ncbi_biosample SAMN00989159
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144384,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922190/GSM922190_Sample_F5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922190/GSM922190_Sample_F5.expression.txt.gz
-			cell.id morula 2 cell#5
-			sample.uuid 178b7c1b-4f98-4d4d-afee-cdc31d2d3bbf
+			sample.well.core.id morula 2 cell#5
+			sample.core.id 178b7c1b-4f98-4d4d-afee-cdc31d2d3bbf
 
-			assay.sra_experiment SRX144385
-			assay.sra_run SRR491006
+			assay.seq.sra_experiment SRX144385
+			assay.seq.sra_run SRR491006
 			sample.geo_sample GSM922191
 			sample.ncbi_biosample SAMN00989160
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144385,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922191/GSM922191_Sample_F6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922191/GSM922191_Sample_F6.expression.txt.gz
-			cell.id morula 2 cell#6
-			sample.uuid 5729ee7f-7e32-4455-9e2f-7e3f701ce781
+			sample.well.core.id morula 2 cell#6
+			sample.core.id 5729ee7f-7e32-4455-9e2f-7e3f701ce781
 
-			assay.sra_experiment SRX144386
-			assay.sra_run SRR491007
+			assay.seq.sra_experiment SRX144386
+			assay.seq.sra_run SRR491007
 			sample.geo_sample GSM922192
 			sample.ncbi_biosample SAMN00989161
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144386,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922192/GSM922192_Sample_F7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922192/GSM922192_Sample_F7.expression.txt.gz
-			cell.id morula 2 cell#7
-			sample.uuid 16b6fc9d-f42f-4a8c-aabf-1966197f7e9f
+			sample.well.core.id morula 2 cell#7
+			sample.core.id 16b6fc9d-f42f-4a8c-aabf-1966197f7e9f
 
-			assay.sra_experiment SRX144387
-			assay.sra_run SRR491008
+			assay.seq.sra_experiment SRX144387
+			assay.seq.sra_run SRR491008
 			sample.geo_sample GSM922193
 			sample.ncbi_biosample SAMN00989162
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144387,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922193/GSM922193_Sample_F8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922193/GSM922193_Sample_F8.expression.txt.gz
-			cell.id morula 2 cell#8
-			sample.uuid c130cb70-53c4-4b39-ac5a-fa8e51e2a10c
+			sample.well.core.id morula 2 cell#8
+			sample.core.id c130cb70-53c4-4b39-ac5a-fa8e51e2a10c
 
-	cell.type late blastomere
+	sample.well.cell_type.text late blastomere
 	sample.donor.age 0
 	sample.donor.age_unit week
 	sample.donor.life_stage embryo
-	sample.submission_date 2012-04-25
-	sample.short_label late blastomeres
-	sample.long_label disassociated blastomeres from late blastocyst stage embryo Tang method 2013
-	sample.donor.development_stage late blastocyst
-	sample.body_part.name late blastocyst
+	sample.submit_date 2012-04-25
+	sample.name late blastomeres
+	sample.title disassociated blastomeres from late blastocyst stage embryo Tang method 2013
+	sample.donor.development_stage.text late blastocyst
+	sample.body_part.text late blastocyst
 
-		sample.donor.id late blastocyst #1
-		sample.donor.uuid 1b40ea7e-1f03-40d9-85e7-dc59016b5ce7
+		sample.donor.submitted_id late blastocyst #1
+		sample.donor.core.id 1b40ea7e-1f03-40d9-85e7-dc59016b5ce7
 
-			assay.sra_experiment SRX144388
-			assay.sra_run SRR491009
+			assay.seq.sra_experiment SRX144388
+			assay.seq.sra_run SRR491009
 			sample.geo_sample GSM922194
 			sample.ncbi_biosample SAMN00989163
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144388,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922194/GSM922194_Sample_G2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922194/GSM922194_Sample_G2.expression.txt.gz
-			cell.id late blasto 1 cell#1
-			sample.uuid 90c45b3f-b687-41aa-a4a9-4478ec33a371
+			sample.well.core.id late blasto 1 cell#1
+			sample.core.id 90c45b3f-b687-41aa-a4a9-4478ec33a371
 
-			assay.sra_experiment SRX144389
-			assay.sra_run SRR491010
+			assay.seq.sra_experiment SRX144389
+			assay.seq.sra_run SRR491010
 			sample.geo_sample GSM922195
 			sample.ncbi_biosample SAMN00989164
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144389,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922195/GSM922195_Sample_G3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922195/GSM922195_Sample_G3.expression.txt.gz
-			cell.id late blasto 1 cell#2
-			sample.uuid 7bbdb44d-167f-4eeb-ae50-f7d7c02ae19a
+			sample.well.core.id late blasto 1 cell#2
+			sample.core.id 7bbdb44d-167f-4eeb-ae50-f7d7c02ae19a
 
-			assay.sra_experiment SRX144390
-			assay.sra_run SRR491011
+			assay.seq.sra_experiment SRX144390
+			assay.seq.sra_run SRR491011
 			sample.geo_sample GSM922196
 			sample.ncbi_biosample SAMN00989165
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144390,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922196/GSM922196_Sample_G4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922196/GSM922196_Sample_G4.expression.txt.gz
-			cell.id late blasto 1 cell#3
-			sample.uuid 60ffb0b5-f1dc-49a5-9ddf-f8df0d0b50ca
+			sample.well.core.id late blasto 1 cell#3
+			sample.core.id 60ffb0b5-f1dc-49a5-9ddf-f8df0d0b50ca
 
-			assay.sra_experiment SRX144391
-			assay.sra_run SRR491012
+			assay.seq.sra_experiment SRX144391
+			assay.seq.sra_run SRR491012
 			sample.geo_sample GSM922197
 			sample.ncbi_biosample SAMN00989166
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144391,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922197/GSM922197_Sample_G5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922197/GSM922197_Sample_G5.expression.txt.gz
-			cell.id late blasto 1 cell#4
-			sample.uuid 0bbf8e1c-b3f6-49ac-9e91-f4eb179317d8
+			sample.well.core.id late blasto 1 cell#4
+			sample.core.id 0bbf8e1c-b3f6-49ac-9e91-f4eb179317d8
 
-			assay.sra_experiment SRX144392
-			assay.sra_run SRR491013
+			assay.seq.sra_experiment SRX144392
+			assay.seq.sra_run SRR491013
 			sample.geo_sample GSM922198
 			sample.ncbi_biosample SAMN00989167
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144392,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922198/GSM922198_Sample_G6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922198/GSM922198_Sample_G6.expression.txt.gz
-			cell.id late blasto 1 cell#5
-			sample.uuid 42c4359c-c3ab-44cc-b997-6fbaa427d73b
+			sample.well.core.id late blasto 1 cell#5
+			sample.core.id 42c4359c-c3ab-44cc-b997-6fbaa427d73b
 
-			assay.sra_experiment SRX144393
-			assay.sra_run SRR491014
+			assay.seq.sra_experiment SRX144393
+			assay.seq.sra_run SRR491014
 			sample.geo_sample GSM922199
 			sample.ncbi_biosample SAMN00989168
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144393,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922199/GSM922199_Sample_G7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922199/GSM922199_Sample_G7.expression.txt.gz
-			cell.id late blasto 1 cell#6
-			sample.uuid 31119e2b-aca8-4555-985c-756a985aaec5
+			sample.well.core.id late blasto 1 cell#6
+			sample.core.id 31119e2b-aca8-4555-985c-756a985aaec5
 
-			assay.sra_experiment SRX144394
-			assay.sra_run SRR491015
+			assay.seq.sra_experiment SRX144394
+			assay.seq.sra_run SRR491015
 			sample.geo_sample GSM922200
 			sample.ncbi_biosample SAMN00989169
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144394,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922200/GSM922200_Sample_G8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922200/GSM922200_Sample_G8.expression.txt.gz
-			cell.id late blasto 1 cell#7
-			sample.uuid 76eaa355-034d-4cdf-9647-e6fd3c390105
+			sample.well.core.id late blasto 1 cell#7
+			sample.core.id 76eaa355-034d-4cdf-9647-e6fd3c390105
 
-			assay.sra_experiment SRX144395
-			assay.sra_run SRR491016
+			assay.seq.sra_experiment SRX144395
+			assay.seq.sra_run SRR491016
 			sample.geo_sample GSM922201
 			sample.ncbi_biosample SAMN00989170
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144395,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922201/GSM922201_Sample_G9.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922201/GSM922201_Sample_G9.expression.txt.gz
-			cell.id late blasto 1 cell#8
-			sample.uuid cc28ab82-a65b-4652-9bff-ea25118cf38c
+			sample.well.core.id late blasto 1 cell#8
+			sample.core.id cc28ab82-a65b-4652-9bff-ea25118cf38c
 
-			assay.sra_experiment SRX144396
-			assay.sra_run SRR491017
+			assay.seq.sra_experiment SRX144396
+			assay.seq.sra_run SRR491017
 			sample.geo_sample GSM922202
 			sample.ncbi_biosample SAMN00989171
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144396,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922202/GSM922202_Sample_G10.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922202/GSM922202_Sample_G10.expression.txt.gz
-			cell.id late blasto 1 cell#9
-			sample.uuid 01339f2c-4bb8-492b-a321-54e7e955b66f
+			sample.well.core.id late blasto 1 cell#9
+			sample.core.id 01339f2c-4bb8-492b-a321-54e7e955b66f
 
-			assay.sra_experiment SRX144397
-			assay.sra_run SRR491018
+			assay.seq.sra_experiment SRX144397
+			assay.seq.sra_run SRR491018
 			sample.geo_sample GSM922203
 			sample.ncbi_biosample SAMN00989172
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144397,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922203/GSM922203_Sample_G11.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922203/GSM922203_Sample_G11.expression.txt.gz
-			cell.id late blasto 1 cell#10
-			sample.uuid c2d7a46b-831a-4777-9b57-29d0d9f3f704
+			sample.well.core.id late blasto 1 cell#10
+			sample.core.id c2d7a46b-831a-4777-9b57-29d0d9f3f704
 
-			assay.sra_experiment SRX144398
-			assay.sra_run SRR491019
+			assay.seq.sra_experiment SRX144398
+			assay.seq.sra_run SRR491019
 			sample.geo_sample GSM922204
 			sample.ncbi_biosample SAMN00989173
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144398,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922204/GSM922204_Sample_G12.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922204/GSM922204_Sample_G12.expression.txt.gz
-			cell.id late blasto 1 cell#11
-			sample.uuid 6de34f91-9525-4e41-a7db-e927ab8474a1
+			sample.well.core.id late blasto 1 cell#11
+			sample.core.id 6de34f91-9525-4e41-a7db-e927ab8474a1
 
-			assay.sra_experiment SRX144399
-			assay.sra_run SRR491020
+			assay.seq.sra_experiment SRX144399
+			assay.seq.sra_run SRR491020
 			sample.geo_sample GSM922205
 			sample.ncbi_biosample SAMN00989174
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144399,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922205/GSM922205_Sample_G13.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922205/GSM922205_Sample_G13.expression.txt.gz
-			cell.id late blasto 1 cell#12
-			sample.uuid f709f033-f7ea-4d64-a31b-25c7342d5060
+			sample.well.core.id late blasto 1 cell#12
+			sample.core.id f709f033-f7ea-4d64-a31b-25c7342d5060
 
-		sample.donor.id late blastocyst #2
-		sample.donor.uuid 184b0f35-7229-4a7f-9fac-076b6e7c66b5
+		sample.donor.submitted_id late blastocyst #2
+		sample.donor.core.id 184b0f35-7229-4a7f-9fac-076b6e7c66b5
 
-			assay.sra_experiment SRX144400
-			assay.sra_run SRR491021
+			assay.seq.sra_experiment SRX144400
+			assay.seq.sra_run SRR491021
 			sample.geo_sample GSM922206
 			sample.ncbi_biosample SAMN00989175
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144400,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922206/GSM922206_Sample_H1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922206/GSM922206_Sample_H1.expression.txt.gz
-			cell.id late blasto 2 cell#1
-			sample.uuid c41f1f55-985e-413b-9e64-2a3bbb98716a
+			sample.well.core.id late blasto 2 cell#1
+			sample.core.id c41f1f55-985e-413b-9e64-2a3bbb98716a
 
-			assay.sra_experiment SRX144401
-			assay.sra_run SRR491022
+			assay.seq.sra_experiment SRX144401
+			assay.seq.sra_run SRR491022
 			sample.geo_sample GSM922207
 			sample.ncbi_biosample SAMN00989176
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144401,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922207/GSM922207_Sample_H2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922207/GSM922207_Sample_H2.expression.txt.gz
-			cell.id late blasto 2 cell#2
-			sample.uuid 51633402-e4f4-4bc2-868d-41560710acda
+			sample.well.core.id late blasto 2 cell#2
+			sample.core.id 51633402-e4f4-4bc2-868d-41560710acda
 
-			assay.sra_experiment SRX144402
-			assay.sra_run SRR491023
+			assay.seq.sra_experiment SRX144402
+			assay.seq.sra_run SRR491023
 			sample.geo_sample GSM922208
 			sample.ncbi_biosample SAMN00989177
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144402,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922208/GSM922208_Sample_H3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922208/GSM922208_Sample_H3.expression.txt.gz
-			cell.id late blasto 2 cell#3
-			sample.uuid 3acc5e57-4ea8-4475-9c42-a5a9f19b159b
+			sample.well.core.id late blasto 2 cell#3
+			sample.core.id 3acc5e57-4ea8-4475-9c42-a5a9f19b159b
 
-			assay.sra_experiment SRX144403
-			assay.sra_run SRR491024
+			assay.seq.sra_experiment SRX144403
+			assay.seq.sra_run SRR491024
 			sample.geo_sample GSM922209
 			sample.ncbi_biosample SAMN00989178
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144403,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922209/GSM922209_Sample_H4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922209/GSM922209_Sample_H4.expression.txt.gz
-			cell.id late blasto 2 cell#4
-			sample.uuid dca268b0-5ca7-41e0-a3f3-8f9bc1287416
+			sample.well.core.id late blasto 2 cell#4
+			sample.core.id dca268b0-5ca7-41e0-a3f3-8f9bc1287416
 
-			assay.sra_experiment SRX144404
-			assay.sra_run SRR491025
+			assay.seq.sra_experiment SRX144404
+			assay.seq.sra_run SRR491025
 			sample.geo_sample GSM922210
 			sample.ncbi_biosample SAMN00989179
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144404,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922210/GSM922210_Sample_H5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922210/GSM922210_Sample_H5.expression.txt.gz
-			cell.id late blasto 2 cell#5
-			sample.uuid 10c31794-20d3-4491-b909-4e1d9692e8bc
+			sample.well.core.id late blasto 2 cell#5
+			sample.core.id 10c31794-20d3-4491-b909-4e1d9692e8bc
 
-			assay.sra_experiment SRX144405
-			assay.sra_run SRR491026
+			assay.seq.sra_experiment SRX144405
+			assay.seq.sra_run SRR491026
 			sample.geo_sample GSM922211
 			sample.ncbi_biosample SAMN00989180
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144405,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922211/GSM922211_Sample_H6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922211/GSM922211_Sample_H6.expression.txt.gz
-			cell.id late blasto 2 cell#6
-			sample.uuid ccdf870b-d8a9-4748-b3c4-3a23a6daab5e
+			sample.well.core.id late blasto 2 cell#6
+			sample.core.id ccdf870b-d8a9-4748-b3c4-3a23a6daab5e
 
-			assay.sra_experiment SRX144406
-			assay.sra_run SRR491027
+			assay.seq.sra_experiment SRX144406
+			assay.seq.sra_run SRR491027
 			sample.geo_sample GSM922212
 			sample.ncbi_biosample SAMN00989181
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144406,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922212/GSM922212_Sample_H7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922212/GSM922212_Sample_H7.expression.txt.gz
-			cell.id late blasto 2 cell#7
-			sample.uuid acf9dd62-b90f-4f38-91b1-eed0273df612
+			sample.well.core.id late blasto 2 cell#7
+			sample.core.id acf9dd62-b90f-4f38-91b1-eed0273df612
 
-			assay.sra_experiment SRX144407
-			assay.sra_run SRR491028
+			assay.seq.sra_experiment SRX144407
+			assay.seq.sra_run SRR491028
 			sample.geo_sample GSM922213
 			sample.ncbi_biosample SAMN00989182
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144407,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922213/GSM922213_Sample_H8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922213/GSM922213_Sample_H8.expression.txt.gz
-			cell.id late blasto 2 cell#8
-			sample.uuid c5b76544-b0c8-4050-92e6-a5cbad89f1fb
+			sample.well.core.id late blasto 2 cell#8
+			sample.core.id c5b76544-b0c8-4050-92e6-a5cbad89f1fb
 
-			assay.sra_experiment SRX144408
-			assay.sra_run SRR491029
+			assay.seq.sra_experiment SRX144408
+			assay.seq.sra_run SRR491029
 			sample.geo_sample GSM922214
 			sample.ncbi_biosample SAMN00989183
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144408,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922214/GSM922214_Sample_H9.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922214/GSM922214_Sample_H9.expression.txt.gz
-			cell.id late blasto 2 cell#9
-			sample.uuid 8369e617-fae3-4657-b9b5-5b84f61e1a0b
+			sample.well.core.id late blasto 2 cell#9
+			sample.core.id 8369e617-fae3-4657-b9b5-5b84f61e1a0b
 
-			assay.sra_experiment SRX144409
-			assay.sra_run SRR491030
+			assay.seq.sra_experiment SRX144409
+			assay.seq.sra_run SRR491030
 			sample.geo_sample GSM922215
 			sample.ncbi_biosample SAMN00989184
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144409,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922215/GSM922215_Sample_H10.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922215/GSM922215_Sample_H10.expression.txt.gz
-			cell.id late blasto 2 cell#10
-			sample.uuid aa77e340-1a9c-4d2f-ab8e-d7f0a1a79057
+			sample.well.core.id late blasto 2 cell#10
+			sample.core.id aa77e340-1a9c-4d2f-ab8e-d7f0a1a79057
 
-		sample.donor.id late blastocyst #3
-		sample.donor.uuid 6ab329c1-a948-4a89-80c7-373ad1bcfebc
+		sample.donor.submitted_id late blastocyst #3
+		sample.donor.core.id 6ab329c1-a948-4a89-80c7-373ad1bcfebc
 
-			assay.sra_experiment SRX144410
-			assay.sra_run SRR491031
+			assay.seq.sra_experiment SRX144410
+			assay.seq.sra_run SRR491031
 			sample.geo_sample GSM922216
 			sample.ncbi_biosample SAMN00989185
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144410,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922216/GSM922216_Sample_R1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922216/GSM922216_Sample_R1.expression.txt.gz
-			cell.id late blasto 3 cell#1
-			sample.uuid abdf3186-ab2b-4a35-bb21-1fb5a38d25f2
+			sample.well.core.id late blasto 3 cell#1
+			sample.core.id abdf3186-ab2b-4a35-bb21-1fb5a38d25f2
 
-			assay.sra_experiment SRX144411
-			assay.sra_run SRR491032
+			assay.seq.sra_experiment SRX144411
+			assay.seq.sra_run SRR491032
 			sample.geo_sample GSM922217
 			sample.ncbi_biosample SAMN00989186
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144411,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922217/GSM922217_Sample_R2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922217/GSM922217_Sample_R2.expression.txt.gz
-			cell.id late blasto 3 cell#2
-			sample.uuid 90cac65e-4864-41e5-ab95-d8a77e4b9a9c
+			sample.well.core.id late blasto 3 cell#2
+			sample.core.id 90cac65e-4864-41e5-ab95-d8a77e4b9a9c
 
-			assay.sra_experiment SRX144412
-			assay.sra_run SRR491033
+			assay.seq.sra_experiment SRX144412
+			assay.seq.sra_run SRR491033
 			sample.geo_sample GSM922218
 			sample.ncbi_biosample SAMN00989187
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144412,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922218/GSM922218_Sample_R3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922218/GSM922218_Sample_R3.expression.txt.gz
-			cell.id late blasto 3 cell#3
-			sample.uuid ce04685c-c5a5-41d8-93b1-5c5c838a3cc2
+			sample.well.core.id late blasto 3 cell#3
+			sample.core.id ce04685c-c5a5-41d8-93b1-5c5c838a3cc2
 
-			assay.sra_experiment SRX144413
-			assay.sra_run SRR491034
+			assay.seq.sra_experiment SRX144413
+			assay.seq.sra_run SRR491034
 			sample.geo_sample GSM922219
 			sample.ncbi_biosample SAMN00989188
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144413,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922219/GSM922219_Sample_R4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922219/GSM922219_Sample_R4.expression.txt.gz
-			cell.id late blasto 3 cell#4
-			sample.uuid cd2f4049-aa78-4940-8c24-9bf2370051e4
+			sample.well.core.id late blasto 3 cell#4
+			sample.core.id cd2f4049-aa78-4940-8c24-9bf2370051e4
 
-			assay.sra_experiment SRX144414
-			assay.sra_run SRR491035
+			assay.seq.sra_experiment SRX144414
+			assay.seq.sra_run SRR491035
 			sample.geo_sample GSM922220
 			sample.ncbi_biosample SAMN00989189
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144414,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922220/GSM922220_Sample_R5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922220/GSM922220_Sample_R5.expression.txt.gz
-			cell.id late blasto 3 cell#5
-			sample.uuid 8ddac3ce-af66-4201-9016-f7d39b1992c6
+			sample.well.core.id late blasto 3 cell#5
+			sample.core.id 8ddac3ce-af66-4201-9016-f7d39b1992c6
 
-			assay.sra_experiment SRX144415
-			assay.sra_run SRR491036
+			assay.seq.sra_experiment SRX144415
+			assay.seq.sra_run SRR491036
 			sample.geo_sample GSM922221
 			sample.ncbi_biosample SAMN00989190
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144415,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922221/GSM922221_Sample_R6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922221/GSM922221_Sample_R6.expression.txt.gz
-			cell.id late blasto 3 cell#6
-			sample.uuid 5032cd29-8a77-448c-843c-6e32aff11d79
+			sample.well.core.id late blasto 3 cell#6
+			sample.core.id 5032cd29-8a77-448c-843c-6e32aff11d79
 
-			assay.sra_experiment SRX144416
-			assay.sra_run SRR491037
+			assay.seq.sra_experiment SRX144416
+			assay.seq.sra_run SRR491037
 			sample.geo_sample GSM922222
 			sample.ncbi_biosample SAMN00989191
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144416,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922222/GSM922222_Sample_R7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922222/GSM922222_Sample_R7.expression.txt.gz
-			cell.id late blasto 3 cell#7
-			sample.uuid 08af2d1a-111f-48b8-b62a-06f84f49971f
+			sample.well.core.id late blasto 3 cell#7
+			sample.core.id 08af2d1a-111f-48b8-b62a-06f84f49971f
 
-			assay.sra_experiment SRX144417
-			assay.sra_run SRR491038
+			assay.seq.sra_experiment SRX144417
+			assay.seq.sra_run SRR491038
 			sample.geo_sample GSM922223
 			sample.ncbi_biosample SAMN00989192
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144417,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922223/GSM922223_Sample_R8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922223/GSM922223_Sample_R8.expression.txt.gz
-			cell.id late blasto 3 cell#8
-			sample.uuid ad34fd5e-1b5c-49d9-abba-3782a8bd6f48
+			sample.well.core.id late blasto 3 cell#8
+			sample.core.id ad34fd5e-1b5c-49d9-abba-3782a8bd6f48
 
-	cell.type embryonic stem cell
-	sample.body_part.name embryonic stem cell
+	sample.well.cell_type.text embryonic stem cell
+	sample.body_part.text embryonic stem cell
 	sample.donor.life_stage cell line
-	cell.ontology CL_0002322
+	sample.well.cell_type.ontology CL_0002322
 
-		sample.donor.id hESC passage#0
-		sample.passage_number 0
-		sample.short_label hESC passage 0
-		sample.long_label cultured human embryonic stem cells passage #0 Tang method 2013
-		sample.donor.uuid e1ad4270-5c24-44a1-bd6e-d7f9b3ef2c9c
+		sample.donor.submitted_id hESC passage#0
+		sample.cell_line.passage_number 0
+		sample.name hESC passage 0
+		sample.title cultured human embryonic stem cells passage #0 Tang method 2013
+		sample.donor.core.id e1ad4270-5c24-44a1-bd6e-d7f9b3ef2c9c
 
-			assay.sra_experiment SRX130009
-			assay.sra_run SRR445730
+			assay.seq.sra_experiment SRX130009
+			assay.seq.sra_run SRR445730
 			sample.geo_sample GSM896815
 			sample.ncbi_biosample SAMN00828842
-			sample.submission_date 2012-03-16
+			sample.submit_date 2012-03-16
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130009,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896815/GSM896815_Sample_M1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896815/GSM896815_Sample_M1.expression.txt.gz
-			cell.id hESC p0 cell#1
-			sample.uuid fcf6d577-ad88-4056-b65c-d2af1b82461b
+			sample.well.core.id hESC p0 cell#1
+			sample.core.id fcf6d577-ad88-4056-b65c-d2af1b82461b
 
-			assay.sra_experiment SRX130010
-			assay.sra_run SRR445731
+			assay.seq.sra_experiment SRX130010
+			assay.seq.sra_run SRR445731
 			sample.geo_sample GSM896816
 			sample.ncbi_biosample SAMN00828843
-			sample.submission_date 2012-03-16
+			sample.submit_date 2012-03-16
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130010,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896816/GSM896816_Sample_M2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896816/GSM896816_Sample_M2.expression.txt.gz
-			cell.id hESC p0 cell#2
-			sample.uuid 57f94074-bf94-4f95-8300-994fcb001a77
+			sample.well.core.id hESC p0 cell#2
+			sample.core.id 57f94074-bf94-4f95-8300-994fcb001a77
 
-			assay.sra_experiment SRX144418
-			assay.sra_run SRR491039
+			assay.seq.sra_experiment SRX144418
+			assay.seq.sra_run SRR491039
 			sample.geo_sample GSM922224
 			sample.ncbi_biosample SAMN00989193
-			sample.submission_date 2012-04-25
+			sample.submit_date 2012-04-25
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144418,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922224/GSM922224_Sample_M4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922224/GSM922224_Sample_M4.expression.txt.gz
-			cell.id hESC p0 cell#4
-			sample.uuid 9d8c37a5-8335-41e3-8bc3-f95ef114dee9
+			sample.well.core.id hESC p0 cell#4
+			sample.core.id 9d8c37a5-8335-41e3-8bc3-f95ef114dee9
 
-			assay.sra_experiment SRX144419
-			assay.sra_run SRR491040
+			assay.seq.sra_experiment SRX144419
+			assay.seq.sra_run SRR491040
 			sample.geo_sample GSM922225
 			sample.ncbi_biosample SAMN00989194
-			sample.submission_date 2012-04-25
+			sample.submit_date 2012-04-25
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144419,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922225/GSM922225_Sample_M5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922225/GSM922225_Sample_M5.expression.txt.gz
-			cell.id hESC p0 cell#5
-			sample.uuid 3a8ac3b6-8af6-4d54-b30a-ad2dfbc8a9b5
+			sample.well.core.id hESC p0 cell#5
+			sample.core.id 3a8ac3b6-8af6-4d54-b30a-ad2dfbc8a9b5
 
-			assay.sra_experiment SRX144420
-			assay.sra_run SRR491041
+			assay.seq.sra_experiment SRX144420
+			assay.seq.sra_run SRR491041
 			sample.geo_sample GSM922226
 			sample.ncbi_biosample SAMN00989195
-			sample.submission_date 2012-04-25
+			sample.submit_date 2012-04-25
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144420,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922226/GSM922226_Sample_M6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922226/GSM922226_Sample_M6.expression.txt.gz
-			cell.id hESC p0 cell#6
-			sample.uuid 7c4b8edc-733b-49d8-a999-9d12497e4665
+			sample.well.core.id hESC p0 cell#6
+			sample.core.id 7c4b8edc-733b-49d8-a999-9d12497e4665
 
-			assay.sra_experiment SRX144421
-			assay.sra_run SRR491042
+			assay.seq.sra_experiment SRX144421
+			assay.seq.sra_run SRR491042
 			sample.geo_sample GSM922227
 			sample.ncbi_biosample SAMN00989196
-			sample.submission_date 2012-04-25
+			sample.submit_date 2012-04-25
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144421,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922227/GSM922227_Sample_M7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922227/GSM922227_Sample_M7.expression.txt.gz
-			cell.id hESC p0 cell#7
-			sample.uuid 7422325a-bfd1-437b-bef4-670830d45d65
+			sample.well.core.id hESC p0 cell#7
+			sample.core.id 7422325a-bfd1-437b-bef4-670830d45d65
 
-			assay.sra_experiment SRX144422
-			assay.sra_run SRR491043
+			assay.seq.sra_experiment SRX144422
+			assay.seq.sra_run SRR491043
 			sample.geo_sample GSM922228
 			sample.ncbi_biosample SAMN00989197
-			sample.submission_date 2012-04-25
+			sample.submit_date 2012-04-25
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144422,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922228/GSM922228_Sample_M8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922228/GSM922228_Sample_M8.expression.txt.gz
-			cell.id hESC p0 cell#8
-			sample.uuid b7f05ecf-391d-443d-a530-f49c10ae5b59
+			sample.well.core.id hESC p0 cell#8
+			sample.core.id b7f05ecf-391d-443d-a530-f49c10ae5b59
 
-			assay.sra_experiment SRX144424
-			assay.sra_run SRR491045
+			assay.seq.sra_experiment SRX144424
+			assay.seq.sra_run SRR491045
 			sample.geo_sample GSM922230
 			sample.ncbi_biosample SAMN00989199
-			sample.submission_date 2012-04-25
+			sample.submit_date 2012-04-25
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144424,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922230/GSM922230_Sample_M10.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922230/GSM922230_Sample_M10.expression.txt.gz
-			cell.id hESC p0 cell#10
-			sample.uuid 29ef63b5-c043-4068-b029-a764197e9fb9
+			sample.well.core.id hESC p0 cell#10
+			sample.core.id 29ef63b5-c043-4068-b029-a764197e9fb9
 
-		sample.donor.id hESC passage#10
-		sample.passage_number 10
-		sample.submission_date 2012-04-25
-		sample.short_label hESC passage 10
-		sample.long_label cultured human embryonic stem cells passage #10 Tang method 2013
-		sample.donor.uuid 4f4a8d1f-5660-47c5-82d7-fa01e2b24ec3
+		sample.donor.submitted_id hESC passage#10
+		sample.cell_line.passage_number 10
+		sample.submit_date 2012-04-25
+		sample.name hESC passage 10
+		sample.title cultured human embryonic stem cells passage #10 Tang method 2013
+		sample.donor.core.id 4f4a8d1f-5660-47c5-82d7-fa01e2b24ec3
 
-			assay.sra_experiment SRX144444
-			assay.sra_run SRR491065
+			assay.seq.sra_experiment SRX144444
+			assay.seq.sra_run SRR491065
 			sample.geo_sample GSM922250
 			sample.ncbi_biosample SAMN00989219
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144444,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922250/GSM922250_Sample_P1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922250/GSM922250_Sample_P1.expression.txt.gz
-			cell.id hESC p10 cell#1
-			sample.uuid 31fc1fc3-bfb5-4d37-98f6-b32a8f371ce3
+			sample.well.core.id hESC p10 cell#1
+			sample.core.id 31fc1fc3-bfb5-4d37-98f6-b32a8f371ce3
 
-			assay.sra_experiment SRX144445
-			assay.sra_run SRR491066
+			assay.seq.sra_experiment SRX144445
+			assay.seq.sra_run SRR491066
 			sample.geo_sample GSM922251
 			sample.ncbi_biosample SAMN00989220
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144445,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922251/GSM922251_Sample_P2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922251/GSM922251_Sample_P2.expression.txt.gz
-			cell.id hESC p10 cell#2
-			sample.uuid 6b52c1a1-d800-4b7f-8670-d093ea9e2e6b
+			sample.well.core.id hESC p10 cell#2
+			sample.core.id 6b52c1a1-d800-4b7f-8670-d093ea9e2e6b
 
-			assay.sra_experiment SRX144446
-			assay.sra_run SRR491067
+			assay.seq.sra_experiment SRX144446
+			assay.seq.sra_run SRR491067
 			sample.geo_sample GSM922252
 			sample.ncbi_biosample SAMN00989221
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144446,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922252/GSM922252_Sample_P5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922252/GSM922252_Sample_P5.expression.txt.gz
-			cell.id hESC p10 cell#3
-			sample.uuid d135e625-106a-4ea2-b18b-6bf10a85ab6d
+			sample.well.core.id hESC p10 cell#3
+			sample.core.id d135e625-106a-4ea2-b18b-6bf10a85ab6d
 
-			assay.sra_experiment SRX144447
-			assay.sra_run SRR491068
+			assay.seq.sra_experiment SRX144447
+			assay.seq.sra_run SRR491068
 			sample.geo_sample GSM922253
 			sample.ncbi_biosample SAMN00989222
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144447,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922253/GSM922253_Sample_P7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922253/GSM922253_Sample_P7.expression.txt.gz
-			cell.id hESC p10 cell#4
-			sample.uuid 3742680b-c585-4d4f-919d-654eee8624fb
+			sample.well.core.id hESC p10 cell#4
+			sample.core.id 3742680b-c585-4d4f-919d-654eee8624fb
 
-			assay.sra_experiment SRX144448
-			assay.sra_run SRR491069
+			assay.seq.sra_experiment SRX144448
+			assay.seq.sra_run SRR491069
 			sample.geo_sample GSM922254
 			sample.ncbi_biosample SAMN00989223
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144448,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922254/GSM922254_Sample_P9.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922254/GSM922254_Sample_P9.expression.txt.gz
-			cell.id hESC p10 cell#5
-			sample.uuid afafba59-3a90-4f7f-bc7f-f4d4e54c0387
+			sample.well.core.id hESC p10 cell#5
+			sample.core.id afafba59-3a90-4f7f-bc7f-f4d4e54c0387
 
-			assay.sra_experiment SRX144449
-			assay.sra_run SRR491070
+			assay.seq.sra_experiment SRX144449
+			assay.seq.sra_run SRR491070
 			sample.geo_sample GSM922255
 			sample.ncbi_biosample SAMN00989224
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144449,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922255/GSM922255_Sample_P11.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922255/GSM922255_Sample_P11.expression.txt.gz
-			cell.id hESC p10 cell#6
-			sample.uuid d96ac88c-517e-4951-b9f3-51d6d7cf34a1
+			sample.well.core.id hESC p10 cell#6
+			sample.core.id d96ac88c-517e-4951-b9f3-51d6d7cf34a1
 
-			assay.sra_experiment SRX144450
-			assay.sra_run SRR491071
+			assay.seq.sra_experiment SRX144450
+			assay.seq.sra_run SRR491071
 			sample.geo_sample GSM922256
 			sample.ncbi_biosample SAMN00989225
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144450,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922256/GSM922256_Sample_P12.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922256/GSM922256_Sample_P12.expression.txt.gz
-			cell.id hESC p10 cell#7
-			sample.uuid 5e5a0015-e54a-42c1-80c9-2485e213e083
+			sample.well.core.id hESC p10 cell#7
+			sample.core.id 5e5a0015-e54a-42c1-80c9-2485e213e083
 
-			assay.sra_experiment SRX144451
-			assay.sra_run SRR491072
+			assay.seq.sra_experiment SRX144451
+			assay.seq.sra_run SRR491072
 			sample.geo_sample GSM922257
 			sample.ncbi_biosample SAMN00989226
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144451,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922257/GSM922257_Sample_P13.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922257/GSM922257_Sample_P13.expression.txt.gz
-			cell.id hESC p10 cell#8
-			sample.uuid 3b44f630-d038-4896-ab4a-0c510d791cf9
+			sample.well.core.id hESC p10 cell#8
+			sample.core.id 3b44f630-d038-4896-ab4a-0c510d791cf9
 
-			assay.sra_experiment SRX144452
-			assay.sra_run SRR491073
+			assay.seq.sra_experiment SRX144452
+			assay.seq.sra_run SRR491073
 			sample.geo_sample GSM922258
 			sample.ncbi_biosample SAMN00989227
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144452,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922258/GSM922258_Sample_P14.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922258/GSM922258_Sample_P14.expression.txt.gz
-			cell.id hESC p10 cell#9
-			sample.uuid 365af3c2-eb6e-442a-95ba-3d0e43da2aab
+			sample.well.core.id hESC p10 cell#9
+			sample.core.id 365af3c2-eb6e-442a-95ba-3d0e43da2aab
 
-			assay.sra_experiment SRX144453
-			assay.sra_run SRR491074
+			assay.seq.sra_experiment SRX144453
+			assay.seq.sra_run SRR491074
 			sample.geo_sample GSM922259
 			sample.ncbi_biosample SAMN00989228
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144453,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922259/GSM922259_Sample_P15.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922259/GSM922259_Sample_P15.expression.txt.gz
-			cell.id hESC p10 cell#10
-			sample.uuid 4134b15b-88f8-4663-a924-88cfd0d9ad36
+			sample.well.core.id hESC p10 cell#10
+			sample.core.id 4134b15b-88f8-4663-a924-88cfd0d9ad36
 
-			assay.sra_experiment SRX144454
-			assay.sra_run SRR491075
+			assay.seq.sra_experiment SRX144454
+			assay.seq.sra_run SRR491075
 			sample.geo_sample GSM922260
 			sample.ncbi_biosample SAMN00989229
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144454,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922260/GSM922260_Sample_P17.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922260/GSM922260_Sample_P17.expression.txt.gz
-			cell.id hESC p10 cell#11
-			sample.uuid 89b248fb-02e3-4985-88c6-12b46403d60c
+			sample.well.core.id hESC p10 cell#11
+			sample.core.id 89b248fb-02e3-4985-88c6-12b46403d60c
 
-			assay.sra_experiment SRX144455
-			assay.sra_run SRR491076
+			assay.seq.sra_experiment SRX144455
+			assay.seq.sra_run SRR491076
 			sample.geo_sample GSM922261
 			sample.ncbi_biosample SAMN00989230
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144455,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922261/GSM922261_Sample_S1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922261/GSM922261_Sample_S1.expression.txt.gz
-			cell.id hESC p10 cell#12
-			sample.uuid f7e039d1-b3fb-44ff-9818-eb94ef0e4307
+			sample.well.core.id hESC p10 cell#12
+			sample.core.id f7e039d1-b3fb-44ff-9818-eb94ef0e4307
 
-			assay.sra_experiment SRX144456
-			assay.sra_run SRR491077
+			assay.seq.sra_experiment SRX144456
+			assay.seq.sra_run SRR491077
 			sample.geo_sample GSM922262
 			sample.ncbi_biosample SAMN00989231
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144456,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922262/GSM922262_Sample_S2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922262/GSM922262_Sample_S2.expression.txt.gz
-			cell.id hESC p10 cell#13
-			sample.uuid 69797d2f-f539-46ca-8d20-00292a081c76
+			sample.well.core.id hESC p10 cell#13
+			sample.core.id 69797d2f-f539-46ca-8d20-00292a081c76
 
-			assay.sra_experiment SRX144457
-			assay.sra_run SRR491078
+			assay.seq.sra_experiment SRX144457
+			assay.seq.sra_run SRR491078
 			sample.geo_sample GSM922263
 			sample.ncbi_biosample SAMN00989232
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144457,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922263/GSM922263_Sample_S3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922263/GSM922263_Sample_S3.expression.txt.gz
-			cell.id hESC p10 cell#14
-			sample.uuid 18ff87d2-a514-40d4-b885-de781ccaef36
+			sample.well.core.id hESC p10 cell#14
+			sample.core.id 18ff87d2-a514-40d4-b885-de781ccaef36
 
-			assay.sra_experiment SRX144458
-			assay.sra_run SRR491079
+			assay.seq.sra_experiment SRX144458
+			assay.seq.sra_run SRR491079
 			sample.geo_sample GSM922264
 			sample.ncbi_biosample SAMN00989233
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144458,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922264/GSM922264_Sample_S4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922264/GSM922264_Sample_S4.expression.txt.gz
-			cell.id hESC p10 cell#15
-			sample.uuid f0fe2bfe-96e7-4171-a074-64d1992ae5f7
+			sample.well.core.id hESC p10 cell#15
+			sample.core.id f0fe2bfe-96e7-4171-a074-64d1992ae5f7
 
-			assay.sra_experiment SRX144459
-			assay.sra_run SRR491080
+			assay.seq.sra_experiment SRX144459
+			assay.seq.sra_run SRR491080
 			sample.geo_sample GSM922265
 			sample.ncbi_biosample SAMN00989234
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144459,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922265/GSM922265_Sample_S5.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922265/GSM922265_Sample_S5.expression.txt.gz
-			cell.id hESC p10 cell#16
-			sample.uuid 6aaf8a04-410c-4871-8843-5d2f7a63e7d9
+			sample.well.core.id hESC p10 cell#16
+			sample.core.id 6aaf8a04-410c-4871-8843-5d2f7a63e7d9
 
-			assay.sra_experiment SRX144460
-			assay.sra_run SRR491081
+			assay.seq.sra_experiment SRX144460
+			assay.seq.sra_run SRR491081
 			sample.geo_sample GSM922266
 			sample.ncbi_biosample SAMN00989235
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144460,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922266/GSM922266_Sample_S6.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922266/GSM922266_Sample_S6.expression.txt.gz
-			cell.id hESC p10 cell#17
-			sample.uuid 9a43fdbc-ef97-4fa4-8861-25d9fc100479
+			sample.well.core.id hESC p10 cell#17
+			sample.core.id 9a43fdbc-ef97-4fa4-8861-25d9fc100479
 
-			assay.sra_experiment SRX144461
-			assay.sra_run SRR491082
+			assay.seq.sra_experiment SRX144461
+			assay.seq.sra_run SRR491082
 			sample.geo_sample GSM922267
 			sample.ncbi_biosample SAMN00989236
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144461,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922267/GSM922267_Sample_S7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922267/GSM922267_Sample_S7.expression.txt.gz
-			cell.id hESC p10 cell#18
-			sample.uuid 83812139-e8bf-4251-8f07-7a1775a0f964
+			sample.well.core.id hESC p10 cell#18
+			sample.core.id 83812139-e8bf-4251-8f07-7a1775a0f964
 
-			assay.sra_experiment SRX144462
-			assay.sra_run SRR491083
+			assay.seq.sra_experiment SRX144462
+			assay.seq.sra_run SRR491083
 			sample.geo_sample GSM922268
 			sample.ncbi_biosample SAMN00989237
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144462,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922268/GSM922268_Sample_S8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922268/GSM922268_Sample_S8.expression.txt.gz
-			cell.id hESC p10 cell#19
-			sample.uuid f3b37f3f-8608-48dc-b81e-c191de688c45
+			sample.well.core.id hESC p10 cell#19
+			sample.core.id f3b37f3f-8608-48dc-b81e-c191de688c45
 
-			assay.sra_experiment SRX144463
-			assay.sra_run SRR491084
+			assay.seq.sra_experiment SRX144463
+			assay.seq.sra_run SRR491084
 			sample.geo_sample GSM922269
 			sample.ncbi_biosample SAMN00989238
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144463,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922269/GSM922269_Sample_S9.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922269/GSM922269_Sample_S9.expression.txt.gz
-			cell.id hESC p10 cell#20
-			sample.uuid d4937f0a-0784-4a49-b61c-076fc4cc25d6
+			sample.well.core.id hESC p10 cell#20
+			sample.core.id d4937f0a-0784-4a49-b61c-076fc4cc25d6
 
-			assay.sra_experiment SRX144464
-			assay.sra_run SRR491085
+			assay.seq.sra_experiment SRX144464
+			assay.seq.sra_run SRR491085
 			sample.geo_sample GSM922270
 			sample.ncbi_biosample SAMN00989239
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144464,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922270/GSM922270_Sample_S10.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922270/GSM922270_Sample_S10.expression.txt.gz
-			cell.id hESC p10 cell#21
-			sample.uuid c9d0ae12-872e-43dc-ad81-e4e97d7c8c93
+			sample.well.core.id hESC p10 cell#21
+			sample.core.id c9d0ae12-872e-43dc-ad81-e4e97d7c8c93
 
-			assay.sra_experiment SRX144465
-			assay.sra_run SRR491086
+			assay.seq.sra_experiment SRX144465
+			assay.seq.sra_run SRR491086
 			sample.geo_sample GSM922271
 			sample.ncbi_biosample SAMN00989240
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144465,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922271/GSM922271_Sample_S11.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922271/GSM922271_Sample_S11.expression.txt.gz
-			cell.id hESC p10 cell#22
-			sample.uuid 954aacea-8fa4-4bd6-b699-cb4519e64708
+			sample.well.core.id hESC p10 cell#22
+			sample.core.id 954aacea-8fa4-4bd6-b699-cb4519e64708
 
-			assay.sra_experiment SRX144466
-			assay.sra_run SRR491087
+			assay.seq.sra_experiment SRX144466
+			assay.seq.sra_run SRR491087
 			sample.geo_sample GSM922272
 			sample.ncbi_biosample SAMN00989241
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144466,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922272/GSM922272_Sample_S12.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922272/GSM922272_Sample_S12.expression.txt.gz
-			cell.id hESC p10 cell#23
-			sample.uuid 3ae5c418-8afb-4af6-8c4b-1c671b27fb50
+			sample.well.core.id hESC p10 cell#23
+			sample.core.id 3ae5c418-8afb-4af6-8c4b-1c671b27fb50
 
-			assay.sra_experiment SRX144467
-			assay.sra_run SRR491088
+			assay.seq.sra_experiment SRX144467
+			assay.seq.sra_run SRR491088
 			sample.geo_sample GSM922273
 			sample.ncbi_biosample SAMN00989242
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144467,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922273/GSM922273_Sample_S13.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922273/GSM922273_Sample_S13.expression.txt.gz
-			cell.id hESC p10 cell#24
-			sample.uuid 888e2aea-2228-474a-a44a-05c59b43e814
+			sample.well.core.id hESC p10 cell#24
+			sample.core.id 888e2aea-2228-474a-a44a-05c59b43e814
 
-			assay.sra_experiment SRX144468
-			assay.sra_run SRR491089
+			assay.seq.sra_experiment SRX144468
+			assay.seq.sra_run SRR491089
 			sample.geo_sample GSM922274
 			sample.ncbi_biosample SAMN00989243
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144468,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922274/GSM922274_Sample_S14.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922274/GSM922274_Sample_S14.expression.txt.gz
-			cell.id hESC p10 cell#25
-			sample.uuid 84abebc8-4f1d-486b-aa29-cb549b08b637
+			sample.well.core.id hESC p10 cell#25
+			sample.core.id 84abebc8-4f1d-486b-aa29-cb549b08b637
 
-			assay.sra_experiment SRX144469
-			assay.sra_run SRR491090
+			assay.seq.sra_experiment SRX144469
+			assay.seq.sra_run SRR491090
 			sample.geo_sample GSM922275
 			sample.ncbi_biosample SAMN00989244
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144469,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922275/GSM922275_Sample_S15.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922275/GSM922275_Sample_S15.expression.txt.gz
-			cell.id hESC p10 cell#26
-			sample.uuid f76ef429-08d4-42c2-ac40-82304ea8f0d6
+			sample.well.core.id hESC p10 cell#26
+			sample.core.id f76ef429-08d4-42c2-ac40-82304ea8f0d6
 

@@ -1,38 +1,37 @@
-project.id 10x_t_4k
+project.core.id 10x_t_4k
 project.title Pan T Cells isolated from mononuclear cells of a healthy donor
-project.uuid 32985886-022b-4cde-b128-e732a22ab6df
-project.contact.email info@10xgenomics.com
-project.contact.phone +1 925 401 7300
-project.contact.address "7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA"
-project.contact.institute 10X Genomics Inc.
-project.contact.name 10X Genomics Inc.
-project.contact.street_address 7068 Koll Center Parkway Suite 401
-project.contact.city Pleasanton
-project.contact.state CA
-project.contact.country USA
-project.summary "Pan T cells isolated from mononuclear cells of a healthy donor (same donor as t_3k). T cells are primary cells with relatively small amounts of RNA (~1pg RNA/cell).   Used Chromium v2 chemistry and Cell Ranger 1.3.0 software. 4,518 cells detected. Sequenced on Illumina Hiseq4000 with approximately 73,000 reads per cell"
+project.submitter.email info@10xgenomics.com
+project.submitter.address "7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA"
+project.submitter.institution 10X Genomics Inc.
+project.submitter.name 10X Genomics Inc.
+project.submitter.city Pleasanton
+project.submitter.country_division CA
+project.submitter.country USA
+project.description "Pan T cells isolated from mononuclear cells of a healthy donor (same donor as t_3k). T cells are primary cells with relatively small amounts of RNA (~1pg RNA/cell).   Used Chromium v2 chemistry and Cell Ranger 1.3.0 software. 4,518 cells detected. Sequenced on Illumina Hiseq4000 with approximately 73,000 reads per cell"
 sample.donor.species Homo sapiens
-sample.donor.ncbi_taxon 9606
+sample.donor.species.ontology 9606
 sample.donor.life_stage adult
-sample.donor.uuid 0f4108bb-d548-495a-a19e-87e36b0a198e
-sample.body_part.name peripheral blood pan T-cells
-sample.long_label peripheral blood pan T-cells
-sample.short_label T-cells
-sample.body_part.organ blood
-sample.treatment.enrichment CD3+
-sample.treatment.enrichment_method pan
-sample.uuid 849f023a-da3b-4017-a151-23575bd94ca4
-assay.seq.machine Illumina HiSeq 4000
+sample.donor.core.id 0f4108bb-d548-495a-a19e-87e36b0a198e
+sample.body_part.text peripheral blood pan T-cells
+sample.title peripheral blood pan T-cells
+sample.name T-cells
+sample.organ.text blood
+sample.enrichment.markers CD3+
+sample.enrichment.protocol.text pan
+sample.core.id 849f023a-da3b-4017-a151-23575bd94ca4
+assay.seq.instrument_platform Illumina
+assay.seq.instrument_model Illumina HiSeq 4000
 assay.seq.molecule RNA
 assay.seq.paired_ends index1_reads2
 assay.seq.umi_barcode_size 10
 assay.seq.umi_barcode_offset 16
 assay.seq.umi_barcode_read index
 assay.rna.primer poly-dt
-assay.single_cell.cell_barcode_size 16
-assay.single_cell.cell_barcode_offset 0
-assay.single_cell.cell_barcode_read index
-assay.single_cell.method 10x_v2
+assay.rna.end_bias 3' end
+assay.single_cell.barcode_size 16
+assay.single_cell.barcode_offset 0
+assay.single_cell.barcode_read index
+assay.single_cell.cell_handling 10x_v2
 assay.files t_4k_S1_L001_R1_001.fastq.gz, t_4k_S1_L001_R2_001.fastq.gz, t_4k_S1_L002_R1_001.fastq.gz, t_4k_S1_L002_R2_001.fastq.gz, t_4k_S1_L003_R1_001.fastq.gz, t_4k_S1_L003_R2_001.fastq.gz, t_4k_S1_L004_R1_001.fastq.gz, t_4k_S1_L004_R2_001.fastq.gz, t_4k_S1_L005_R1_001.fastq.gz, t_4k_S1_L005_R2_001.fastq.gz, t_4k_S1_L006_R1_001.fastq.gz, t_4k_S1_L006_R2_001.fastq.gz, t_4k_S1_L007_R1_001.fastq.gz, t_4k_S1_L007_R2_001.fastq.gz, t_4k_S1_L008_R1_001.fastq.gz, t_4k_S1_L008_R2_001.fastq.gz
-sample.body_part.organ_ontology UBERON_0000178
+sample.organ.ontology UBERON_0000178
 
