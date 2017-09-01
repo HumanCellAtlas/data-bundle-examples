@@ -30,8 +30,8 @@ sample.supplementary_protocols.1.type growth protocol,nucleic acid library const
 sample.supplementary_protocols.1.description "Wild-type CD1 mice were mated overnight and noon of the day was considered E0.5. Mothers were killed and embryos were dissected out of the uterine horn between the time points E11.5 and E18.5. Adult CD1 animals were dissected at P19 to P27. Human tissue was collected at Addenbrooke’s Hospital (Cambridge, UK) and dissected in HIBERNATE medium (Gibco). Samples were shipped overnight on ice (in HIBERNATE solution) to Sweden. For the embryonic stem cells (hES DA),  iCell DopaNeurons from Cellular Dynamics International (DNC-301030001, lot #6003358) were differentiated following the manufacturer’s recommendations and harvested at day 5 and 21.","Human embryo ventral midbrain dissection was performed on ice in neuronal N2 culturing media. 10-17  tissue pieces were collected for each experiment. The tissue pieces were dissociated using the Papain dissociation system (Worthington) following manufacturers recommendations, adjusting incubation time based on tissue piece size to 25-45 mins. Using glass pipettes of increasingly smaller tip diameter, the cell suspension was then filtered with 20um filter (Partec) and cells kept in N2 media, and cells loaded into C1 chips for cell capture."
 sample.submit_date 2016-08-11
 
-	sample.donor.species.ontology 9606
-	sample.donor.species Homo sapiens
+	sample.donor.species.1.ontology 9606
+	sample.donor.species.1.text Homo sapiens
 
 		sample.body_part.text ventral midbrain
 		sample.organ.text brain
@@ -32502,8 +32502,8 @@ sample.submit_date 2016-08-11
 					assay.seq.sra_experiment SRX2047563
 					assay.seq.sra_run SRR4058196
 
-	sample.donor.species.ontology 10090
-	sample.donor.species Mus musculus
+	sample.donor.species.1.ontology 10090
+	sample.donor.species.1.text Mus musculus
 	sample.donor.age_unit day
 
 		sample.body_part.text ventral midbrain

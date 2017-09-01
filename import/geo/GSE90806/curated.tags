@@ -33,8 +33,8 @@ project.sra_project SRP094469
 project.submit_date 2016-12-02
 project.description Drop-seq and single cell sequencing of mouse arcuate nucleus and median eminence
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90806/suppl/GSE90806_RIP-Cre_ARC_GeneCounts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP094/SRP094469
-sample.donor.species.ontology 10090
-sample.donor.species Mus musculus
+sample.donor.species.1.ontology 10090
+sample.donor.species.1.text Mus musculus
 sample.donor.strain.1.text (C57BL/6 x DBA)F2
 sample.update_date 2017-02-06
 sample.supplementary_protocols.1.type nucleic acid library construction protocol

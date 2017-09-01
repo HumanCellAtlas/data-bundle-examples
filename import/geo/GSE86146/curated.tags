@@ -34,8 +34,8 @@ project.description "Human fetal germ cells (FGCs) are precursors to sperm and e
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP083/SRP083134,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE86nnn/GSE86146/suppl/GSE86146_RAW.tar
 sample.donor.age_unit week
 sample.donor.life_stage embryo
-sample.donor.species.ontology 9606
-sample.donor.species Homo sapiens
+sample.donor.species.1.ontology 9606
+sample.donor.species.1.text Homo sapiens
 sample.organ.text embryo
 sample.supplementary_protocols.1.type nucleic acid library construction protocol
 sample.supplementary_protocols.1.description "A modified Smart-seq2 protocol was applied for single-cell RNA-seq. Briefly, after MACS and FACS purification, a single PGC or gonadal somatic cell was picked into the lysis buffer by mouth pippete. The reverse transcription reaction was performed with 24 oligo (dT) primer anchored with the 8 bp cell specific barcode, and also with 8 bp unique molecular identifiers (UMIs)."

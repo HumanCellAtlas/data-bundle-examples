@@ -35,8 +35,8 @@ sample.organ.text pancreas
 sample.body_part.ontology UBERON_0000006
 sample.organ.ontology UBERON_0001264
 
-	sample.donor.species.ontology 9606
-	sample.donor.species Homo sapiens
+	sample.donor.species.1.ontology 9606
+	sample.donor.species.1.text Homo sapiens
 
 		assay.seq.sra_experiment SRX1935938
 		assay.seq.sra_run SRR3879601,SRR3879602,SRR3879603
@@ -91,8 +91,8 @@ sample.organ.ontology UBERON_0001264
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230760/suppl/GSM2230760_human4_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935942
 		sample.core.id c9c71349-5724-48d8-b349-2d3402db6655
 
-	sample.donor.species.ontology 10090
-	sample.donor.species Mus musculus
+	sample.donor.species.1.ontology 10090
+	sample.donor.species.1.text Mus musculus
 
 		assay.seq.sra_experiment SRX1935943
 		assay.seq.sra_run SRR3879614,SRR3879615,SRR3879616

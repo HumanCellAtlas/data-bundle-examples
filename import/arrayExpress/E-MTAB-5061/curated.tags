@@ -2,7 +2,6 @@ project.core.id E-MTAB-5061
 sample.body_part.text islet of Langerhans
 sample.organ.text pancreas
 sample.donor.life_stage adult
-sample.donor.species.ontology 9606
 assay.rna.library_construction smart-seq2
 assay.rna.spike_in ERCC
 assay.rna.spike_in_dilution 40000
@@ -31,7 +30,8 @@ project.supplementary_files E-MTAB-5061.README.txt
 project.title Single-cell RNA-seq analysis of human pancreas from healthy individuals and type 2 diabetes patients
 sample.body_part.text pancreas
 sample.donor.age_unit year
-sample.donor.species Homo sapiens
+sample.donor.species.1.text Homo sapiens
+sample.donor.species.1.ontology 9606
 sample.supplementary_protocols.1.type sample collection protocol,nucleic acid library construction protocol,nucleic acid sequencing protocol,normalization data transformation protocol
 sample.supplementary_protocols.1.description "Human primary islets (85-95% pure) were purchased from Prodo Laboratories Inc (Irvine, CA, USA) and cultured for 4 days in Prodo Islet Media Standard PIM(S) to recover after arrival. Islets were dissociated into single-cell suspension and viable individual cells were distributed by FACS into 384-well plates containing lysis buffer. Spike-in RNA from the External RNA Controls Consortium (ERCC) (Ambion, Life Technologies) was added to each well in 1:40 000 dilution. ","Single-cell RNA-seq libraries were generated as described in Picelli et al., 2014, Full-length RNA-seq from single cells using Smart-seq2, Nature Protocols. ","Libraries were sequenced on an Illumina HiSeq 2000, generating 43 bp single-end reads.","Expression values for RefSeq genes and values for ERCC transcripts were quantified as RPKMs using rpkmforgenes (Ramsköld et al., 2009). Format of the datafile ‘pancreas_refseq_rpkms_counts_3514sc.txt’: The file contains both the normalized rpkm values and the raw read counts for each sample. Columns correspond to samples and rows to genes. The first line of the file (starting with: #samples) contains the sample IDs to be used as column labels for both the rpkm and counts. The columns of the rpkm and the counts have the same order with the sample IDs. Columns 1:3514 correspond to rpkm values, Columns 3515:7028 correspond to read counts. Rows 1:26179 correspond to data for RefSeq genes, Rows 26180:26271 correspond to data for the 92 external RNA spike-in controls (ERCCs), Row 26272 (last) contains data for ‘eGFP’."
 sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/MTAB/E-MTAB-5061/E-MTAB-5061.processed.1.zip

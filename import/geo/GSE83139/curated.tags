@@ -27,8 +27,8 @@ project.description "We successfully sequenced and annotated more than 400 cells
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE83nnn/GSE83139/suppl/GSE83139_tbx-v-f-norm-ntv-cpms.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP076/SRP076307
 sample.organ.text pancreas
 sample.body_part.text islet of Langerhans
-sample.donor.species.ontology 9606
-sample.donor.species Homo sapiens
+sample.donor.species.1.ontology 9606
+sample.donor.species.1.text Homo sapiens
 sample.update_date 2016-07-05
 sample.supplementary_protocols.1.type growth protocol,nucleic acid library construction protocol
 sample.supplementary_protocols.1.description "islets were cultured in the standand prodo islet media (PIM-S001GMP, PIM-ABS001GMP, PIM-G001GMP) at 37oc with 5% CO2.","Islets were dissociated to single cell by 0.05% Trypsin, 9 mins at 37oC. Cells (250-500 cells/μl) were subsequently loaded on Fluidigm C1 IFC with either 5-10 μM or 10-17 μM capture size."

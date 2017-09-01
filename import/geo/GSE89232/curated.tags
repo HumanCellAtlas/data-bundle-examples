@@ -28,8 +28,8 @@ project.sra_project SRP092166
 project.submit_date 2016-10-27
 project.description "Here, we use a microfluidics-based approach to prepare single-cell RNA-Seq libraries from 164 primary human conventional dendritic cells (cDCs) as well as cord blood (452) and blood (341) pre-cDCs. We examined heterogeneity between individual cells to document potential subpopulations within human cDCs and pre-cDCs."
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE89nnn/GSE89232/suppl/GSE89232_expMatrix.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP092/SRP092166
-sample.donor.species.ontology 9606
-sample.donor.species Homo sapiens
+sample.donor.species.1.ontology 9606
+sample.donor.species.1.text Homo sapiens
 sample.supplementary_protocols.1.type nucleic acid library construction protocol
 sample.supplementary_protocols.1.description "cDNA from each sample was prepared using the SMART-Seq 2 protocol (Picelli et al., 2013)."
 sample.update_date 2016-11-15

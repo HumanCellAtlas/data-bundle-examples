@@ -30,9 +30,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 	sample.supplementary_protocols.1.description "SmartSeq2 (Picelli S, Nat Methods. 2013, PubMed PMID: 24056875)"
 
 		sample.donor.life_stage adult
-		sample.donor.species.ontology 9606
 		sample.donor.sex male
-		sample.donor.species Homo sapiens
+		sample.donor.species.1.text Homo sapiens
+		sample.donor.species.1.ontology 9606
 		sample.donor.medication Immunization with yellow fever vaccine YFV 17D
 		sample.submit_date 2015-12-03
 		assay.single_cell.cell_handling FACS
@@ -7279,8 +7279,8 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 					sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962978/suppl/GSM1962978_Tcell_person1_P1902_1574_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1462084
 					sample.core.id 8895b7cb-d8c0-4710-bc46-68618ca1879e
 
-		sample.donor.species.ontology 10090
-		sample.donor.species Mus musculus
+		sample.donor.species.1.ontology 10090
+		sample.donor.species.1.text Mus musculus
 		assay.single_cell.cell_handling mouth pipette
 
 			sample.submit_date 2015-12-03
@@ -10346,7 +10346,8 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 				sample.core.id 774c5d7c-10b2-4716-9401-ae51331b3c5e
 
 		sample.donor.sex female
-		sample.donor.species Mus musculus
+		sample.donor.species.1.text Mus musculus
+		sample.donor.species.1.ontology 10090
 		sample.submit_date 2016-04-19
 		assay.single_cell.cell_handling FACS
 

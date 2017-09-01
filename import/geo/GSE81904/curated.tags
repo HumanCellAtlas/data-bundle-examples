@@ -40,8 +40,8 @@ sample.donor.age 17
 sample.donor.age_unit day
 sample.donor.genotype Vsx2-GFP
 sample.donor.life_stage postpartum
-sample.donor.species.ontology 10090
-sample.donor.species Mus musculus
+sample.donor.species.1.ontology 10090
+sample.donor.species.1.text Mus musculus
 sample.supplementary_protocols.1.type nucleic acid library construction protocol
 sample.supplementary_protocols.1.description "suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads. Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol."
 sample.update_date 2016-08-25

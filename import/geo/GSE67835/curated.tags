@@ -25,8 +25,8 @@ project.submit_date 2015-04-14
 project.description "We used single cell RNA sequencing on 466 cells to capture the cellular complexity of the adult and fetal human brain at a whole transcriptome level. Healthy adult temporal lobe tissue was obtained from epileptic patients during temporal lobectomy for medically refractory seizures. We were able to classify individual cells into all of the major neuronal, glial, and vascular cell types in the brain."
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP057/SRP057196,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE67nnn/GSE67835/suppl/GSE67835_RAW.tar
 sample.organ.text brain
-sample.donor.species.ontology 9606
-sample.donor.species Homo sapiens
+sample.donor.species.1.ontology 9606
+sample.donor.species.1.text Homo sapiens
 sample.update_date 2015-11-06
 sample.supplementary_protocols.1.type nucleic acid library construction protocol
 sample.supplementary_protocols.1.description C1 autoprep standard protocol

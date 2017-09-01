@@ -32,8 +32,8 @@ project.sra_project SRP060416
 project.submit_date 2015-07-07
 project.description Single cell RNA-sequencing of human tonsil innate lymphoid cells (ILCs) from three independent tonsil donors.
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP060/SRP060416,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE70nnn/GSE70580/suppl/GSE70580_RAW.tar
-sample.donor.species.ontology 9606
-sample.donor.species Homo sapiens
+sample.donor.species.1.ontology 9606
+sample.donor.species.1.text Homo sapiens
 sample.update_date 2016-01-28
 sample.supplementary_protocols.1.type nucleic acid library construction protocol
 sample.supplementary_protocols.1.description cDNA was generated from FACS sorted cells using to Smart-seq2 (Picelli et al. Nature Methods 2013)

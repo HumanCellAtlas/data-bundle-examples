@@ -8,8 +8,8 @@ project.submitter.city Pleasanton
 project.submitter.country_division CA
 project.submitter.country USA
 project.description "Pan T cells isolated from mononuclear cells of a healthy donor (same donor as t_3k). T cells are primary cells with relatively small amounts of RNA (~1pg RNA/cell).   Used Chromium v2 chemistry and Cell Ranger 1.3.0 software. 4,518 cells detected. Sequenced on Illumina Hiseq4000 with approximately 73,000 reads per cell"
-sample.donor.species Homo sapiens
-sample.donor.species.ontology 9606
+sample.donor.species.1.text Homo sapiens
+sample.donor.species.1.ontology 9606
 sample.donor.life_stage adult
 sample.donor.core.id 0f4108bb-d548-495a-a19e-87e36b0a198e
 sample.body_part.text peripheral blood pan T-cells

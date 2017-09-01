@@ -34,8 +34,8 @@ sample.organ.ontology UBERON_0000922
 	assay.rna.primer random
 	assay.rna.end_bias none
 	sample.donor.ancestry.1.text Han Chinese
-	sample.donor.species.ontology 9606
-	sample.donor.species Homo sapiens
+	sample.donor.species.1.ontology 9606
+	sample.donor.species.1.text Homo sapiens
 	sample.submit_date 2013-06-11
 	sample.donor.age_unit week
 	sample.donor.age 0
@@ -319,8 +319,8 @@ sample.organ.ontology UBERON_0000922
 
 	assay.rna.primer poly-dt
 	assay.rna.end_bias 3' bias
-	sample.donor.species.ontology 10090
-	sample.donor.species Mus musculus
+	sample.donor.species.1.ontology 10090
+	sample.donor.species.1.text Mus musculus
 	sample.donor.strain.1.text C57BL/6
 	sample.submit_date 2013-02-08
 	sample.donor.age_unit day

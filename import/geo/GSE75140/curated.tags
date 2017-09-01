@@ -25,8 +25,8 @@ project.sra_project SRP066834
 project.submit_date 2015-11-18
 project.description "Cerebral organoids – three-dimensional cultures of human cerebral tissue derived from pluripotent stem cells – have emerged as models of human cortical development. However, the extent to which in vitro organoid systems recapitulate neural progenitor cell proliferation and neuronal differentiation programs observed in vivo remains unclear. Here we use single-cell RNA sequencing (scRNA-seq) to dissect and compare cell composition and progenitor-to-neuron lineage relationships in human cerebral organoids and fetal neocortex. Covariation network analysis using the fetal neocortex data reveals known and novel interactions among genes central to neural progenitor proliferation and neuronal differentiation. In the organoid, we detect diverse progenitors and differentiated cell types of neuronal and mesenchymal lineages, and identify cells that derived from regions resembling the fetal neocortex. We find that these organoid cortical cells use gene expression programs remarkably similar to those of the fetal tissue in order to organize into cerebral cortex-like regions. Our comparison of in vivo and in vitro cortical single cell transcriptomes illuminates the genetic features underlying human cortical development that can be studied in organoid cultures."
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75140/suppl/GSE75140_hOrg.fetal.master.data.frame.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP066/SRP066834
-sample.donor.species.ontology 9606
-sample.donor.species Homo sapiens
+sample.donor.species.1.ontology 9606
+sample.donor.species.1.text Homo sapiens
 sample.update_date 2015-12-07
 sample.supplementary_protocols.1.type growth protocol,treatment protocol,nucleic acid library construction protocol
 sample.submit_date 2015-11-30

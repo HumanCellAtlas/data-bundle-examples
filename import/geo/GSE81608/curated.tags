@@ -27,8 +27,8 @@ project.description "Pancreatic islet cells are critical for maintaining normal 
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81608/suppl/GSE81608_human_islets_rpkm.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP075/SRP075377
 sample.body_part.text islet of Langerhans
 sample.organ.text pancreas
-sample.donor.species.ontology 9606
-sample.donor.species Homo sapiens
+sample.donor.species.1.ontology 9606
+sample.donor.species.1.text Homo sapiens
 sample.donor.life_stage adult
 sample.update_date 2016-08-31
 sample.supplementary_protocols.1.type nucleic acid library construction protocol

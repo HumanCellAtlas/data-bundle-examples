@@ -34,8 +34,8 @@ project.sra_project SRP064464
 project.submit_date 2015-10-05
 project.description "We report the single-cell RNA-seq based identification of 6 known human islet cell types (alpha cells, beta cells, delta cells, pp cells, acinar cells and duct cells) based on the expression of known marker genes. We further assess cell type specific gene expression and suggest novel marker genes for several cell types."
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP064/SRP064464,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE73nnn/GSE73727/suppl/GSE73727_RAW.tar
-sample.donor.species.ontology 9606
-sample.donor.species Homo sapiens
+sample.donor.species.1.ontology 9606
+sample.donor.species.1.text Homo sapiens
 sample.update_date 2016-01-05
 sample.supplementary_protocols.1.type treatment protocol,nucleic acid library construction protocol
 sample.supplementary_protocols.1.description "Islets were cultured in CMRL medium (Life technology) supplemented with 10% FBS, 2 mM glutamine, 100 U/mL penicillin, and 100 µg/mL streptomycin.","To disassociate islets into single cells, islets were incubated in Accutase (Life technology) in 37 °C for 20 min, neutralized by CMRL medium. Purification of single cells was performed by flow cytometry cell sorting on a Moflo AstriosEQ (Beckman Coulter, Miami)"
