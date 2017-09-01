@@ -4,14 +4,9 @@ assay.rna.prep CEL-seq
 assay.rna.primer poly-dt
 assay.seq.machine Illumina HiSeq 2500
 assay.seq.molecule total RNA
-assay.seq.paired_ends index1_reads2
-assay.seq.umi_barcode_size 8
-assay.seq.umi_barcode_offset 12
+assay.seq.paired_ends yes
 assay.seq.umi_barcode_read index
-assay.single_cell.method drop-seq
-assay.single_cell.cell_barcode_size 12
-assay.single_cell.cell_barcode_offset 0
-assay.single_cell.cell_barcode_read index
+assay.single_cell.method inDrop
 project.contact.address "7 Divinity Ave; Cambridge, MA 02138 USA"
 project.contact.city Cambridge
 project.contact.country USA
