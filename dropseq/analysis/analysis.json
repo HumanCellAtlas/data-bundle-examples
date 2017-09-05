@@ -58,7 +58,7 @@
        "log_err" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_step_one.err",
        "log_out" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_step_one.out",
        "disk_size" : "500GB",
-       "docker_image" : "https://uri-to-docker-image",
+       "docker_image" : "human_cell_atlas/filter_reads",
        "cpus" : 8,
        "memory" : "10GB",
        "zone" : "us-east4-a"
@@ -70,7 +70,7 @@
        "log_err" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_step_two.err",
        "log_out" : "staging://43bd7eb0-23a3-4898-b043-f7e982de281a/v1/05bd7eb0-23a3-4898-b043-f7e982de281g/v1#dropseq_step_two.out",
        "disk_size" : "500GB",
-       "docker_image" : "https://uri-to-docker-image",
+       "docker_image" : "human_cell_atlas/star",
        "cpus" : 8,
        "memory" : "10GB",
        "zone" : "us-east4-a"
