@@ -206,7 +206,7 @@ class DSSrestDriver(DSSDriver):
 
 class DataStoreAPI:
 
-    DEFAULT_DSS_URL = "https://hca-dss.czi.technology/v1"
+    DEFAULT_DSS_URL = "https://dss.dev.data.humancellatlas.org/v1"
 
     def __init__(self, driver='rest', endpoint_url=DEFAULT_DSS_URL, report_task_ids: bool=False):
         driver_name = f"DSS{driver}Driver"
