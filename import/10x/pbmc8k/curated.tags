@@ -24,9 +24,9 @@ project.submitter.institution 10X Genomics Inc.
 project.submitter.name 10X Genomics Inc.
 sample.body_part.text peripheral blood mononuclear cells (PBMCs)
 sample.core.id 63cba020-fbb5-4fe5-82c2-eeb1cd5dd957
-sample.donor.life_stage adult
-sample.donor.species.1.ontology 9606
-sample.donor.species.1.text Homo sapiens
+sample.donor.1.life_stage adult
+sample.donor.1.species.ontology 9606
+sample.donor.1.species.text Homo sapiens
 sample.name PBMCs
 sample.organ.ontology UBERON_0000178
 sample.organ.text blood

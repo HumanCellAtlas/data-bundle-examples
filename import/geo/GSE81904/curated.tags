@@ -35,12 +35,12 @@ project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementar
 project.update_date 2017-05-26
 sample.body_part.ontology UBERON_0000966
 sample.body_part.text retina
-sample.donor.age 17
-sample.donor.age_unit day
-sample.donor.genotype Vsx2-GFP
-sample.donor.life_stage postpartum
-sample.donor.species.1.ontology 10090
-sample.donor.species.1.text Mus musculus
+sample.donor.1.age 17
+sample.donor.1.age_unit day
+sample.donor.1.genotype Vsx2-GFP
+sample.donor.1.life_stage postpartum
+sample.donor.1.species.ontology 10090
+sample.donor.1.species.text Mus musculus
 sample.organ.ontology UBERON_0000970
 sample.organ.text eye
 sample.submit_date 2016-05-25

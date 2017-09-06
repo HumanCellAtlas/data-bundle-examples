@@ -27,8 +27,8 @@ project.supplementary_files ERCC_Sequences.txt
 sample.body_part.text embryonic stem cell
 sample.cell_line.name.text AB2.2
 sample.culture_type cell line
-sample.donor.species.1.ontology 10090
-sample.donor.species.1.text Mus musculus
+sample.donor.1.species.ontology 10090
+sample.donor.1.species.text Mus musculus
 sample.organ.ontology UBERON_0000922
 sample.organ.text embryo
 sample.preservation.storage_protocol.description fresh

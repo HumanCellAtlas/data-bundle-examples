@@ -6,7 +6,6 @@ assay.seq.instrument_platform Illumina
 assay.seq.molecule polyA RNA
 assay.seq.paired_ends no
 assay.single_cell.cell_handling Fluidigm C1
-project.contact.department School of Medicine
 project.contributors.1.name "Yue,J,Wang"
 project.contributors.2.name "Jonathan,,Schug"
 project.contributors.3.name "Maria,L,Golson"
@@ -34,8 +33,8 @@ project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE83nnn/GSE83
 project.update_date 2017-06-13
 sample.body_part.ontology UBERON_0000006
 sample.body_part.text islet of Langerhans
-sample.donor.species.1.ontology 9606
-sample.donor.species.1.text Homo sapiens
+sample.donor.1.species.ontology 9606
+sample.donor.1.species.text Homo sapiens
 sample.organ.ontology UBERON_0001264
 sample.organ.text pancreas
 sample.submit_date 2016-06-08
@@ -45,11 +44,11 @@ sample.supplementary_protocols.2.description "Islets were dissociated to single 
 sample.supplementary_protocols.2.type nucleic acid library construction protocol
 sample.update_date 2016-07-05
 
-	sample.donor.disease.1.text normal
+	sample.donor.1.disease.1.text normal
 
-		sample.donor.core.id 88274e69-9151-42a3-b919-1528abbf1a0d
-		sample.donor.life_stage adult
-		sample.donor.submitted_id normal adult
+		sample.donor.1.core.id 88274e69-9151-42a3-b919-1528abbf1a0d
+		sample.donor.1.life_stage adult
+		sample.donor.1.submitted_id normal adult
 		sample.name pancreas islet normal
 		sample.title normal adult pancreatic islets
 
@@ -2080,9 +2079,9 @@ sample.update_date 2016-07-05
 			sample.well.quality OK
 
 		assay.seq.instrument_model Illumina HiSeq 2500
-		sample.donor.core.id 0924389c-6d9c-4207-b25e-de09082279e1
-		sample.donor.life_stage child
-		sample.donor.submitted_id normal child
+		sample.donor.1.core.id 0924389c-6d9c-4207-b25e-de09082279e1
+		sample.donor.1.life_stage child
+		sample.donor.1.submitted_id normal child
 		sample.name pancreas islet child
 		sample.title normal child pancreatic islets
 
@@ -3011,10 +3010,10 @@ sample.update_date 2016-07-05
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832582
 
 	assay.seq.instrument_model Illumina HiSeq 2500
-	sample.donor.core.id f3eb99eb-27b7-4b6f-9c9c-7603412c5c8f
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.life_stage adult
-	sample.donor.submitted_id t2d adult
+	sample.donor.1.core.id f3eb99eb-27b7-4b6f-9c9c-7603412c5c8f
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.life_stage adult
+	sample.donor.1.submitted_id t2d adult
 	sample.name pancreas islet diab II
 	sample.title type II diabetic adult pancreatic islets
 
@@ -4729,10 +4728,10 @@ sample.update_date 2016-07-05
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832449
 
 	assay.seq.instrument_model Illumina HiSeq 2500
-	sample.donor.core.id b859ce95-dbdd-46b3-81a8-e11510bdcd75
-	sample.donor.disease.1.text type I diabetes mellitus
-	sample.donor.life_stage adult
-	sample.donor.submitted_id t1d adult
+	sample.donor.1.core.id b859ce95-dbdd-46b3-81a8-e11510bdcd75
+	sample.donor.1.disease.1.text type I diabetes mellitus
+	sample.donor.1.life_stage adult
+	sample.donor.1.submitted_id t1d adult
 	sample.name pancreas islet diab I
 	sample.title type I diabetic adult pancreatic islets
 

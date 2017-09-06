@@ -8,7 +8,6 @@ assay.seq.instrument_platform Illumina
 assay.seq.molecule total RNA
 assay.seq.paired_ends yes
 assay.single_cell.cell_handling Fluidigm C1
-project.contact.department Evolutionary Genetics
 project.contributors.1.name "Gray,,Camp"
 project.contributors.2.name "Barbara,,Treutlein"
 project.description "Cerebral organoids – three-dimensional cultures of human cerebral tissue derived from pluripotent stem cells – have emerged as models of human cortical development. However, the extent to which in vitro organoid systems recapitulate neural progenitor cell proliferation and neuronal differentiation programs observed in vivo remains unclear. Here we use single-cell RNA sequencing (scRNA-seq) to dissect and compare cell composition and progenitor-to-neuron lineage relationships in human cerebral organoids and fetal neocortex. Covariation network analysis using the fetal neocortex data reveals known and novel interactions among genes central to neural progenitor proliferation and neuronal differentiation. In the organoid, we detect diverse progenitors and differentiated cell types of neuronal and mesenchymal lineages, and identify cells that derived from regions resembling the fetal neocortex. We find that these organoid cortical cells use gene expression programs remarkably similar to those of the fetal tissue in order to organize into cerebral cortex-like regions. Our comparison of in vivo and in vitro cortical single cell transcriptomes illuminates the genetic features underlying human cortical development that can be studied in organoid cultures."
@@ -26,8 +25,8 @@ project.submitter.institution Max Planck Institute for Evolutionary Anthropology
 project.submitter.name "Gray,,Camp"
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75140/suppl/GSE75140_hOrg.fetal.master.data.frame.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP066/SRP066834
 project.update_date 2017-06-02
-sample.donor.species.1.ontology 9606
-sample.donor.species.1.text Homo sapiens
+sample.donor.1.species.ontology 9606
+sample.donor.1.species.text Homo sapiens
 sample.submit_date 2015-11-30
 sample.supplementary_protocols.1.type growth protocol
 sample.supplementary_protocols.2.type treatment protocol
@@ -35,8 +34,8 @@ sample.supplementary_protocols.3.type nucleic acid library construction protocol
 sample.update_date 2015-12-07
 
 	sample.body_part.text cerebral organoid
-	sample.donor.age_unit day
-	sample.donor.life_stage organoid
+	sample.donor.1.age_unit day
+	sample.donor.1.life_stage organoid
 	sample.organ.ontology UBERON_0000922
 	sample.organ.text embryo
 	sample.supplementary_protocols.1.description "Cerebral organoids were generated using the same protocol as described Lancaster et al. Nature Protocols 2014, with the exception that mTESR1 (Stem Cell Technologies) was used during embryoid body formation."
@@ -44,7 +43,7 @@ sample.update_date 2015-12-07
 	sample.supplementary_protocols.3.description "Cells were loaded into the Fluidigm C1 microfluidic platform, where single cells were captured. Lysis of single cells, reverse-transcription of mRNA into cDNA as well as preamplification of cDNA occured within the microfluidic device using reagents provided by Fluidigm as well as the SMARTer Ultra Low RNA kit for Illumina (Clontech). External RNA spike-in transcripts (ERCC spike-in Mix, Ambion) were added to all single cell lysis reactions at a dilution of 1:40,000."
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.age 33
+		sample.donor.1.age 33
 		sample.name 33d cerebral organoid
 		sample.title 33 day old cerebral organoid from iPSC cell line 409B2
 
@@ -369,7 +368,7 @@ sample.update_date 2015-12-07
 			sample.well.core.id whOrg1_H9_hOrg33d_c1
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.age 35
+		sample.donor.1.age 35
 		sample.name 35d cerebral organoid
 		sample.title 35 day old cerebral organoid from iPSC cell line 409B2
 
@@ -918,7 +917,7 @@ sample.update_date 2015-12-07
 			sample.well.core.id whOrg2_F9_hOrg35d
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.age 37
+		sample.donor.1.age 37
 		sample.name 37d cerebral organoid
 		sample.title 37 day old cerebral organoid from iPSC cell line 409B2
 
@@ -1491,7 +1490,7 @@ sample.update_date 2015-12-07
 			sample.well.core.id whOrg3_H8_hOrg37d
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.age 41
+		sample.donor.1.age 41
 		sample.name 41d cerebral organoid
 		sample.title 41 day old cerebral organoid from iPSC cell line 409B2
 
@@ -2088,7 +2087,7 @@ sample.update_date 2015-12-07
 			sample.well.core.id whOrg4_H8_hOrg41d
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.age 65
+		sample.donor.1.age 65
 		sample.name 65d cerebral organoid
 		sample.title 65 day old cerebral organoid from iPSC cell line 409B2
 
@@ -2733,7 +2732,7 @@ sample.update_date 2015-12-07
 			sample.well.core.id whOrg5_H9_hOrg65d
 
 		sample.cell_line.name.text H9
-		sample.donor.age 53
+		sample.donor.1.age 53
 		sample.name 53d cerebral organoid
 		sample.title 53 day old cerebral organoid from human embyonic stem cell line H9
 
@@ -3506,7 +3505,7 @@ sample.update_date 2015-12-07
 			sample.well.core.id mdOrg2_H8_hOrg_ESC_reg2_53d
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.age 58
+		sample.donor.1.age 58
 		sample.name 58d cerebral organoid
 		sample.title 58 day old cerebral organoid from iPSC cell line 409B2
 
@@ -4144,17 +4143,17 @@ sample.update_date 2015-12-07
 
 	sample.body_part.ontology UBERON_0001950
 	sample.body_part.text neocortex
-	sample.donor.age_unit week
-	sample.donor.life_stage embryo
+	sample.donor.1.age_unit week
+	sample.donor.1.life_stage embryo
 	sample.organ.ontology UBERON_0000955
 	sample.organ.text brain
 	sample.supplementary_protocols.1.description Fetuses were 12 to 13 wpc as assessed by ultrasound measurements of crown-rump length and other standard criteria of developmental stage determination.
 	sample.supplementary_protocols.2.description "Fetal cortices were digested with papain (Miltenyi Biotec, 1ml) for 15 min at 37°C on a rotating wheel, followed by addition of a papain inhibitor. Dissociated cells were filtered through 40, 30, and 20 μm diameter strainers to create a single cell suspension."
 	sample.supplementary_protocols.3.description "Cells were loaded into the Fluidigm C1 microfluidic platform, where single cells were captured. Lysis of single cells, reverse-transcription of mRNA into cDNA as well as preamplification of cDNA occured within the microfluidic device using reagents provided by Fluidigm as well as the SMARTer Ultra Low RNA kit for Illumina (Clontech). External RNA spike-in transcripts (ERCC spike-in Mix, Ambion) were added to all single cell lysis reactions at a dilution of 1:40,000."
 
-		sample.donor.age 12
-		sample.donor.core.id 3d840544-d47b-4ada-9c20-e5cf426e50aa
-		sample.donor.submitted_id fetus 1
+		sample.donor.1.age 12
+		sample.donor.1.core.id 3d840544-d47b-4ada-9c20-e5cf426e50aa
+		sample.donor.1.submitted_id fetus 1
 		sample.name 12w fetal neocortex
 		sample.title 12 week post conception fetal neocortex
 
@@ -5470,9 +5469,9 @@ sample.update_date 2015-12-07
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX145/SRX1457217
 			sample.well.core.id fetal2_H8_fetal_12wpc_c2
 
-		sample.donor.age 13
-		sample.donor.core.id 8554cf0f-fc13-4d00-8b64-8f116edbc8f4
-		sample.donor.submitted_id fetus 2
+		sample.donor.1.age 13
+		sample.donor.1.core.id 8554cf0f-fc13-4d00-8b64-8f116edbc8f4
+		sample.donor.1.submitted_id fetus 2
 		sample.name 13w fetal neocortex
 		sample.title 13 week post conception fetal neocortex
 

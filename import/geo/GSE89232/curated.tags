@@ -9,7 +9,6 @@ assay.seq.library_construction Nextera XT
 assay.seq.molecule polyA RNA
 assay.seq.paired_ends no
 assay.single_cell.cell_handling FACS
-project.contact.department "Immunology, Virology and Microbiology"
 project.contributors.1.name "Thiago,,Oliveira"
 project.contributors.2.name "Rahul,,Satija"
 project.description "Here, we use a microfluidics-based approach to prepare single-cell RNA-Seq libraries from 164 primary human conventional dendritic cells (cDCs) as well as cord blood (452) and blood (341) pre-cDCs. We examined heterogeneity between individual cells to document potential subpopulations within human cDCs and pre-cDCs."
@@ -33,8 +32,8 @@ project.submitter.laboratory Laboratory of Molecular Immunology
 project.submitter.name "Thiago,Y,Oliveira"
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE89nnn/GSE89232/suppl/GSE89232_expMatrix.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP092/SRP092166
 project.update_date 2017-06-02
-sample.donor.species.1.ontology 9606
-sample.donor.species.1.text Homo sapiens
+sample.donor.1.species.ontology 9606
+sample.donor.1.species.text Homo sapiens
 sample.organ.ontology UBERON_0000178
 sample.organ.text blood
 sample.submit_date 2016-10-27
@@ -43,7 +42,7 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 sample.update_date 2016-11-15
 
 	sample.body_part.text blood dendritic cells
-	sample.donor.life_stage adult
+	sample.donor.1.life_stage adult
 
 		sample.name CD1c+ cDC
 		sample.title CD1c+ primary human conventional dendritic cell (CD1c+ cDC)
@@ -1369,9 +1368,9 @@ sample.update_date 2016-11-15
 
 	sample.body_part.ontology UBERON_0012168
 	sample.body_part.text umbilical cord blood
-	sample.donor.age 0
-	sample.donor.age_unit day
-	sample.donor.life_stage postpartum
+	sample.donor.1.age 0
+	sample.donor.1.age_unit day
+	sample.donor.1.life_stage postpartum
 	sample.name cord blood pre-cDC
 	sample.title cord blood pre-conventional dendritic cells (CB pre-cDC)
 	sample.well.cell_type.ontology CL_0002010
@@ -4994,7 +4993,7 @@ sample.update_date 2016-11-15
 		sample.well.core.id CB pre-cDC_S452
 
 	sample.body_part.text blood pre-cDCs
-	sample.donor.life_stage adult
+	sample.donor.1.life_stage adult
 	sample.name adult blood pre-cDC
 	sample.title blood pre-conventional dendritic cells (blood pre-cDC)
 	sample.well.cell_type.ontology CL_0002010

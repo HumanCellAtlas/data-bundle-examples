@@ -31,10 +31,10 @@ project.supplementary_files E-MTAB-5061.README.txt
 sample.body_part.ontology UBERON_0000006
 sample.body_part.text islet of Langerhans
 sample.body_part.text pancreas
-sample.donor.age_unit year
-sample.donor.life_stage adult
-sample.donor.species.1.ontology 9606
-sample.donor.species.1.text Homo sapiens
+sample.donor.1.age_unit year
+sample.donor.1.life_stage adult
+sample.donor.1.species.ontology 9606
+sample.donor.1.species.text Homo sapiens
 sample.organ.ontology UBERON_0001264
 sample.organ.text pancreas
 sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/MTAB/E-MTAB-5061/E-MTAB-5061.processed.1.zip
@@ -47,12 +47,12 @@ sample.supplementary_protocols.3.type nucleic acid sequencing protocol
 sample.supplementary_protocols.4.description "Expression values for RefSeq genes and values for ERCC transcripts were quantified as RPKMs using rpkmforgenes (Ramsköld et al., 2009). Format of the datafile ‘pancreas_refseq_rpkms_counts_3514sc.txt’: The file contains both the normalized rpkm values and the raw read counts for each sample. Columns correspond to samples and rows to genes. The first line of the file (starting with: #samples) contains the sample IDs to be used as column labels for both the rpkm and counts. The columns of the rpkm and the counts have the same order with the sample IDs. Columns 1:3514 correspond to rpkm values, Columns 3515:7028 correspond to read counts. Rows 1:26179 correspond to data for RefSeq genes, Rows 26180:26271 correspond to data for the 92 external RNA spike-in controls (ERCCs), Row 26272 (last) contains data for ‘eGFP’."
 sample.supplementary_protocols.4.type normalization data transformation protocol
 
-	sample.donor.age 43
-	sample.donor.body_mass_index 30.8
-	sample.donor.core.id e833be89-d54e-468b-a079-39be1d331f48
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id AZ
+	sample.donor.1.age 43
+	sample.donor.1.body_mass_index 30.8
+	sample.donor.1.core.id e833be89-d54e-468b-a079-39be1d331f48
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id AZ
 	sample.name pancreas islet normal
 	sample.title "Pancreatic islets from male donor, age 43, BMI 30.8, no diabetes"
 
@@ -1155,12 +1155,12 @@ sample.supplementary_protocols.4.type normalization data transformation protocol
 		sample.well.core.id AZ_H9
 		sample.well.quality OK
 
-	sample.donor.age 25
-	sample.donor.body_mass_index 24.7
-	sample.donor.core.id 84cfd52a-52d1-44a9-86ee-16a2f0d9c1cb
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id HP1502401
+	sample.donor.1.age 25
+	sample.donor.1.body_mass_index 24.7
+	sample.donor.1.core.id 84cfd52a-52d1-44a9-86ee-16a2f0d9c1cb
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id HP1502401
 	sample.name pancreas islet normal
 	sample.title "Pancreatic islets from male donor, age 25, BMI 24.7, no diabetes"
 
@@ -5216,12 +5216,12 @@ sample.supplementary_protocols.4.type normalization data transformation protocol
 		sample.well.core.id HP1502401_O9
 		sample.well.quality OK
 
-	sample.donor.age 57
-	sample.donor.body_mass_index 24
-	sample.donor.core.id 1139fded-7f22-4572-a4f4-d6f301992640
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.sex male
-	sample.donor.submitted_id HP1504101T2D
+	sample.donor.1.age 57
+	sample.donor.1.body_mass_index 24
+	sample.donor.1.core.id 1139fded-7f22-4572-a4f4-d6f301992640
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id HP1504101T2D
 	sample.name pancreas islet diab II
 	sample.title "Pancreatic islets from male donor, age 43, BMI 30.8, no diabetes"
 
@@ -9552,12 +9552,12 @@ sample.supplementary_protocols.4.type normalization data transformation protocol
 		sample.well.core.id HP1504101T2D_P9
 		sample.well.quality OK
 
-	sample.donor.age 23
-	sample.donor.body_mass_index 21.5
-	sample.donor.core.id 92be3652-eb84-4a35-bdee-e61f0fbc9f55
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id HP1504901
+	sample.donor.1.age 23
+	sample.donor.1.body_mass_index 21.5
+	sample.donor.1.core.id 92be3652-eb84-4a35-bdee-e61f0fbc9f55
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id HP1504901
 	sample.name pancreas islet normal
 	sample.title "Pancreatic islets from male donor, age 23, BMI 21.5, no diabetes"
 
@@ -13818,12 +13818,12 @@ sample.supplementary_protocols.4.type normalization data transformation protocol
 		sample.well.core.id HP1504901_P9
 		sample.well.quality OK
 
-	sample.donor.age 48
-	sample.donor.body_mass_index 35
-	sample.donor.core.id 2047c957-fed2-4d8f-b0de-d31d56237997
-	sample.donor.disease.1.text normal
-	sample.donor.sex female
-	sample.donor.submitted_id HP1506401
+	sample.donor.1.age 48
+	sample.donor.1.body_mass_index 35
+	sample.donor.1.core.id 2047c957-fed2-4d8f-b0de-d31d56237997
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id HP1506401
 	sample.name pancreas islet normal
 	sample.title "Pancreatic islets from male donor, age 48, BMI 35, no diabetes"
 
@@ -18115,12 +18115,12 @@ sample.supplementary_protocols.4.type normalization data transformation protocol
 		sample.well.core.id HP1506401_P9
 		sample.well.quality low quality cell
 
-	sample.donor.age 22
-	sample.donor.body_mass_index 32.9
-	sample.donor.core.id aa361df2-1072-4e95-a8fc-9100d9d12d07
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id HP1507101
+	sample.donor.1.age 22
+	sample.donor.1.body_mass_index 32.9
+	sample.donor.1.core.id aa361df2-1072-4e95-a8fc-9100d9d12d07
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id HP1507101
 	sample.name pancreas islet normal
 	sample.title "Pancreatic islets from male donor, age 22, BMI 32.9, no diabetes"
 
@@ -22348,12 +22348,12 @@ sample.supplementary_protocols.4.type normalization data transformation protocol
 		sample.well.core.id HP1507101_P9
 		sample.well.quality low quality cell
 
-	sample.donor.age 37
-	sample.donor.body_mass_index 39.6
-	sample.donor.core.id 6db7aa7f-0b2d-4219-9abf-aa4a11253ddd
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.sex female
-	sample.donor.submitted_id HP1508501T2D
+	sample.donor.1.age 37
+	sample.donor.1.body_mass_index 39.6
+	sample.donor.1.core.id 6db7aa7f-0b2d-4219-9abf-aa4a11253ddd
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id HP1508501T2D
 	sample.name pancreas islet diab II
 	sample.title "Pancreatic islets from female donor, age 37, BMI 39.6, diabetes type II"
 
@@ -26727,12 +26727,12 @@ sample.supplementary_protocols.4.type normalization data transformation protocol
 		sample.well.core.id HP1508501T2D_P9
 		sample.well.quality OK
 
-	sample.donor.age 27
-	sample.donor.body_mass_index 31.8
-	sample.donor.core.id d699fa2c-c655-4536-a948-baaff4c20e77
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id HP1509101
+	sample.donor.1.age 27
+	sample.donor.1.body_mass_index 31.8
+	sample.donor.1.core.id d699fa2c-c655-4536-a948-baaff4c20e77
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id HP1509101
 	sample.name pancreas islet normal
 	sample.title "Pancreatic islets from male donor, age 27, BMI 31.8, no diabetes"
 
@@ -30756,12 +30756,12 @@ sample.supplementary_protocols.4.type normalization data transformation protocol
 		sample.well.core.id HP1509101_P9
 		sample.well.quality OK
 
-	sample.donor.age 52
-	sample.donor.body_mass_index 34.36
-	sample.donor.core.id dcfe28f8-e844-4872-b704-fc0146d55313
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.sex male
-	sample.donor.submitted_id HP1525301T2D
+	sample.donor.1.age 52
+	sample.donor.1.body_mass_index 34.36
+	sample.donor.1.core.id dcfe28f8-e844-4872-b704-fc0146d55313
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id HP1525301T2D
 	sample.name pancreas islet diab II
 	sample.title "Pancreatic islets from male donor, age 52, BMI 34.4, diabetes type II"
 
@@ -35170,12 +35170,12 @@ sample.supplementary_protocols.4.type normalization data transformation protocol
 		sample.well.core.id HP1525301T2D_P9
 		sample.well.quality OK
 
-	sample.donor.age 55
-	sample.donor.body_mass_index 29.84
-	sample.donor.core.id ea4c4a2c-b8c3-44ac-b3d8-ac2aba946a9b
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.sex female
-	sample.donor.submitted_id HP1526901T2D
+	sample.donor.1.age 55
+	sample.donor.1.body_mass_index 29.84
+	sample.donor.1.core.id ea4c4a2c-b8c3-44ac-b3d8-ac2aba946a9b
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id HP1526901T2D
 	sample.name pancreas islet diab II
 	sample.title "Pancreatic islets from female donor, age 55, BMI 29.8, diabetes type II"
 

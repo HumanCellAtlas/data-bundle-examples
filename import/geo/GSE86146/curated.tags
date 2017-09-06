@@ -34,10 +34,10 @@ project.submitter.institution Peking University
 project.submitter.name "Ji,,Dong"
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP083/SRP083134,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE86nnn/GSE86146/suppl/GSE86146_RAW.tar
 project.update_date 2017-06-12
-sample.donor.age_unit week
-sample.donor.life_stage embryo
-sample.donor.species.1.ontology 9606
-sample.donor.species.1.text Homo sapiens
+sample.donor.1.age_unit week
+sample.donor.1.life_stage embryo
+sample.donor.1.species.ontology 9606
+sample.donor.1.species.text Homo sapiens
 sample.enrichment.markers CD117+
 sample.enrichment.protocol.text MACS,FACS
 sample.organ.ontology UBERON_0000922
@@ -46,9 +46,9 @@ sample.supplementary_protocols.1.description "A modified Smart-seq2 protocol was
 sample.supplementary_protocols.1.type nucleic acid library construction protocol
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 3
+	sample.donor.1.age 3
 
-		sample.donor.sex female
+		sample.donor.1.sex female
 		sample.name F 5GW germ cells
 		sample.title primordial germ cells (CD117+) from 5 GW female embryos
 
@@ -65,7 +65,7 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 	sample.body_part.text primordial germ cells
 	sample.characteristics_donor_age "2,9"
 
-		sample.donor.sex mixed
+		sample.donor.1.sex mixed
 		sample.name 4&11GW germ cells
 		sample.title primordial germ cells (CD117+) from pooled 4 and 11 GW mixed sex embryos
 
@@ -80,11 +80,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 5
+	sample.donor.1.age 5
 
-		sample.donor.core.id fb5e1463-600e-4f87-88b6-a551bd7361ee
-		sample.donor.sex female
-		sample.donor.submitted_id F_7W_embryo1
+		sample.donor.1.core.id fb5e1463-600e-4f87-88b6-a551bd7361ee
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_7W_embryo1
 		sample.name F 7GW germ cells
 		sample.title primordial germ cells (CD117+) from 7 GW female embryo
 
@@ -99,11 +99,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 6
+	sample.donor.1.age 6
 
-		sample.donor.core.id 80d17da8-3a81-496c-a377-55a82bd72425
-		sample.donor.sex female
-		sample.donor.submitted_id F_8W_embryo1
+		sample.donor.1.core.id 80d17da8-3a81-496c-a377-55a82bd72425
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_8W_embryo1
 		sample.name F 8GW germ cells
 		sample.title primordial germ cells (CD117+) from 8 GW female embryo
 
@@ -118,11 +118,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 7
+	sample.donor.1.age 7
 
-		sample.donor.core.id 84737680-dff1-4e80-95f2-5bc7b3c9bbee
-		sample.donor.sex male
-		sample.donor.submitted_id M_9W_embryo1
+		sample.donor.1.core.id 84737680-dff1-4e80-95f2-5bc7b3c9bbee
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_9W_embryo1
 		sample.name M 9GW germ cells
 		sample.title primordial germ cells (CD117+) from 9 GW male embryo
 
@@ -136,12 +136,12 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306024/suppl/GSM2306024_M_9W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148101
 			sample.update_date 2017-03-31
 
-	sample.donor.age 8
+	sample.donor.1.age 8
 
 		sample.body_part.text embryonic gonad
-		sample.donor.core.id c7abfe17-f377-441f-a3c5-4bbd025c3665
-		sample.donor.sex female
-		sample.donor.submitted_id F_10W_embryo1
+		sample.donor.1.core.id c7abfe17-f377-441f-a3c5-4bbd025c3665
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_10W_embryo1
 		sample.name F 10GW gonad
 		sample.title embryonic gonad from 10 GW female embryo
 
@@ -156,9 +156,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 		sample.body_part.text primordial germ cells
-		sample.donor.core.id cae85e00-093b-40fb-a592-0ac9a1d960e7
-		sample.donor.sex male
-		sample.donor.submitted_id M_10W_embryo1
+		sample.donor.1.core.id cae85e00-093b-40fb-a592-0ac9a1d960e7
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_10W_embryo1
 		sample.name M 10GW germ cells
 		sample.title primordial germ cells (CD117+) from 10 GW male embryo
 
@@ -173,9 +173,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 		sample.body_part.text primordial germ cells
-		sample.donor.core.id 1e536816-c254-41ce-b834-ba50fbf46ce6
-		sample.donor.sex male
-		sample.donor.submitted_id M_10W_embryo2
+		sample.donor.1.core.id 1e536816-c254-41ce-b834-ba50fbf46ce6
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_10W_embryo2
 		sample.name M 10GW germ cells
 		sample.title primordial germ cells (CD117+) from 10 GW male embryo
 
@@ -190,11 +190,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 10
+	sample.donor.1.age 10
 
-		sample.donor.core.id c821dd59-1ce6-40fa-89c5-6c80ab5ac9df
-		sample.donor.sex female
-		sample.donor.submitted_id F_12W_embryo1
+		sample.donor.1.core.id c821dd59-1ce6-40fa-89c5-6c80ab5ac9df
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_12W_embryo1
 		sample.name F 12GW germ cells
 		sample.title primordial germ cells (CD117+) from 12 GW female embryo
 
@@ -208,9 +208,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148091,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306014/suppl/GSM2306014_F_12W_embryo1_gene_expression.txt.gz
 			sample.update_date 2017-04-17
 
-		sample.donor.core.id 9fc60a04-63a1-401e-862e-bc21241b57cb
-		sample.donor.sex male
-		sample.donor.submitted_id M_12W_embryo1
+		sample.donor.1.core.id 9fc60a04-63a1-401e-862e-bc21241b57cb
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_12W_embryo1
 		sample.name M 12GW germ cells
 		sample.title primordial germ cells (CD117+) from 12 GW male embryo
 
@@ -225,11 +225,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text embryonic gonad
-	sample.donor.age 12
+	sample.donor.1.age 12
 
-		sample.donor.core.id 5fa8bef7-abba-4429-b16a-4193d4ec72db
-		sample.donor.sex female
-		sample.donor.submitted_id F_14W_embryo1
+		sample.donor.1.core.id 5fa8bef7-abba-4429-b16a-4193d4ec72db
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_14W_embryo1
 		sample.name F 14GW gonad
 		sample.title embryonic gonad from 14 GW female embryo
 
@@ -263,12 +263,12 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2295nnn/GSM2295853/suppl/GSM2295853_F_14W_embryo1_3_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX205/SRX2059670
 			sample.update_date 2017-03-31
 
-	sample.donor.age 16
+	sample.donor.1.age 16
 
 		sample.body_part.text embryonic gonad
-		sample.donor.core.id 8f013519-fc85-4e93-b8a6-885e7ae90ca7
-		sample.donor.sex female
-		sample.donor.submitted_id F_18W_embryo1
+		sample.donor.1.core.id 8f013519-fc85-4e93-b8a6-885e7ae90ca7
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_18W_embryo1
 		sample.name F 18GW gonad
 		sample.title embryonic gonad from 18 GW female embryo
 
@@ -283,9 +283,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 		sample.body_part.text primordial germ cells
-		sample.donor.core.id f79e89a8-f17a-4f0a-8884-660824544318
-		sample.donor.sex female
-		sample.donor.submitted_id F_18W_embryo2
+		sample.donor.1.core.id f79e89a8-f17a-4f0a-8884-660824544318
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_18W_embryo2
 		sample.name F 18GW germ cells
 		sample.title primordial germ cells (CD117+) from 18 GW female embryo
 
@@ -300,11 +300,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 17
+	sample.donor.1.age 17
 
-		sample.donor.core.id bde3e6f5-3b04-4568-8d3e-e79e79bb7cd9
-		sample.donor.sex male
-		sample.donor.submitted_id M_19W_embryo1
+		sample.donor.1.core.id bde3e6f5-3b04-4568-8d3e-e79e79bb7cd9
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_19W_embryo1
 		sample.name M 19GW germ cells
 		sample.title primordial germ cells (CD117+) from 19 GW male embryo
 
@@ -338,9 +338,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306030/suppl/GSM2306030_M_19W_embryo1_26_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148107
 			sample.update_date 2017-03-31
 
-		sample.donor.core.id ee4a3edc-851f-4ab1-a220-d43e3fb8cabc
-		sample.donor.sex male
-		sample.donor.submitted_id M_19W_embryo2
+		sample.donor.1.core.id ee4a3edc-851f-4ab1-a220-d43e3fb8cabc
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_19W_embryo2
 		sample.name M 19GW germ cells
 		sample.title primordial germ cells (CD117+) from 19 GW male embryo
 
@@ -375,11 +375,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 18
+	sample.donor.1.age 18
 
-		sample.donor.core.id 25fe8c15-72e5-458d-ae06-4e7b2b8b9e98
-		sample.donor.sex female
-		sample.donor.submitted_id F_20W_embryo1
+		sample.donor.1.core.id 25fe8c15-72e5-458d-ae06-4e7b2b8b9e98
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_20W_embryo1
 		sample.name F 20GW germ cells
 		sample.title primordial germ cells (CD117+) from 20 GW female embryo
 
@@ -393,9 +393,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306016/suppl/GSM2306016_F_20W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148093
 			sample.update_date 2017-03-31
 
-		sample.donor.core.id 1d0131e4-abc7-450f-9923-67fb82f0597f
-		sample.donor.sex female
-		sample.donor.submitted_id F_20W_embryo2
+		sample.donor.1.core.id 1d0131e4-abc7-450f-9923-67fb82f0597f
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_20W_embryo2
 		sample.name F 20GW germ cells
 		sample.title primordial germ cells (CD117+) from 20 GW female embryo
 
@@ -409,9 +409,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306017/suppl/GSM2306017_F_20W_embryo2_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148094
 			sample.update_date 2017-03-31
 
-		sample.donor.core.id 2e232e09-7bd9-4146-9f3e-0ceb1b63ffb3
-		sample.donor.sex male
-		sample.donor.submitted_id M_20W_embryo1
+		sample.donor.1.core.id 2e232e09-7bd9-4146-9f3e-0ceb1b63ffb3
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_20W_embryo1
 		sample.name M 20GW germ cells
 		sample.title primordial germ cells (CD117+) from 20 GW male embryo
 
@@ -426,11 +426,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 19
+	sample.donor.1.age 19
 
-		sample.donor.core.id 50aab821-3cb3-47d0-b48d-4bb5a98afa19
-		sample.donor.sex male
-		sample.donor.submitted_id M_21W_embryo1
+		sample.donor.1.core.id 50aab821-3cb3-47d0-b48d-4bb5a98afa19
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_21W_embryo1
 		sample.name M 21GW germ cells
 		sample.title primordial germ cells (CD117+) from 21 GW male embryo
 
@@ -444,9 +444,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306035/suppl/GSM2306035_M_21W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148112
 			sample.update_date 2017-03-31
 
-		sample.donor.core.id 6a01b213-bfb4-47d9-933f-7f1427eeec09
-		sample.donor.sex male
-		sample.donor.submitted_id M_21W_embryo2
+		sample.donor.1.core.id 6a01b213-bfb4-47d9-933f-7f1427eeec09
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_21W_embryo2
 		sample.name M 21GW germ cells
 		sample.title primordial germ cells (CD117+) from 21 GW male embryo
 
@@ -460,9 +460,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306036/suppl/GSM2306036_M_21W_embryo2_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148113
 			sample.update_date 2017-03-31
 
-		sample.donor.core.id a8106a23-232b-4084-b747-25ae6d884437
-		sample.donor.sex male
-		sample.donor.submitted_id M_21W_embryo3
+		sample.donor.1.core.id a8106a23-232b-4084-b747-25ae6d884437
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_21W_embryo3
 		sample.name M 21GW germ cells
 		sample.title primordial germ cells (CD117+) from 21 GW male embryo
 
@@ -497,11 +497,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 21
+	sample.donor.1.age 21
 
-		sample.donor.core.id b1f6fd25-8fb2-4ecb-98de-9cac1a373407
-		sample.donor.sex female
-		sample.donor.submitted_id F_23W_embryo1
+		sample.donor.1.core.id b1f6fd25-8fb2-4ecb-98de-9cac1a373407
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_23W_embryo1
 		sample.name F 23GW germ cells
 		sample.title primordial germ cells (CD117+) from 23 GW female embryo
 
@@ -515,9 +515,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306018/suppl/GSM2306018_F_23W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148095
 			sample.update_date 2017-03-31
 
-		sample.donor.core.id e59a6f06-6261-4a46-bb92-ce2e30475884
-		sample.donor.sex female
-		sample.donor.submitted_id F_23W_embryo2
+		sample.donor.1.core.id e59a6f06-6261-4a46-bb92-ce2e30475884
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_23W_embryo2
 		sample.name F 23GW germ cells
 		sample.title primordial germ cells (CD117+) from 23 GW female embryo
 
@@ -532,11 +532,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 22
+	sample.donor.1.age 22
 
-		sample.donor.core.id 2f9b054d-6ed4-4593-a816-9f15ff52f225
-		sample.donor.sex female
-		sample.donor.submitted_id F_24W_embryo1
+		sample.donor.1.core.id 2f9b054d-6ed4-4593-a816-9f15ff52f225
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_24W_embryo1
 		sample.name F 24GW germ cells
 		sample.title primordial germ cells (CD117+) from 24 GW female embryo
 
@@ -550,9 +550,9 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2306nnn/GSM2306020/suppl/GSM2306020_F_24W_embryo1_gene_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX214/SRX2148097
 			sample.update_date 2017-03-31
 
-		sample.donor.core.id 4e317b75-2aa4-4e97-af6d-cbb343e5bef0
-		sample.donor.sex female
-		sample.donor.submitted_id F_24W_embryo2
+		sample.donor.1.core.id 4e317b75-2aa4-4e97-af6d-cbb343e5bef0
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_24W_embryo2
 		sample.name F 24GW germ cells
 		sample.title primordial germ cells (CD117+) from 24 GW female embryo
 
@@ -567,11 +567,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-03-31
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 23
+	sample.donor.1.age 23
 
-		sample.donor.core.id da47345e-72e5-4bd2-9855-ac303cf822a1
-		sample.donor.sex male
-		sample.donor.submitted_id M_25W_embryo1
+		sample.donor.1.core.id da47345e-72e5-4bd2-9855-ac303cf822a1
+		sample.donor.1.sex male
+		sample.donor.1.submitted_id M_25W_embryo1
 		sample.name M 25GW germ cells
 		sample.title primordial germ cells (CD117+) from 25 GW male embryo
 
@@ -666,11 +666,11 @@ sample.supplementary_protocols.1.type nucleic acid library construction protocol
 			sample.update_date 2017-04-17
 
 	sample.body_part.text primordial germ cells
-	sample.donor.age 24
+	sample.donor.1.age 24
 
-		sample.donor.core.id f315eb0e-3d3d-4c38-adea-6464d3f94fdf
-		sample.donor.sex female
-		sample.donor.submitted_id F_26W_embryo1
+		sample.donor.1.core.id f315eb0e-3d3d-4c38-adea-6464d3f94fdf
+		sample.donor.1.sex female
+		sample.donor.1.submitted_id F_26W_embryo1
 		sample.name F 26GW germ cells
 		sample.title primordial germ cells (CD117+) from 26 GW female embryo
 

@@ -38,15 +38,15 @@ sample.supplementary_protocols.2.description "Cells were encapsulated using the 
 sample.supplementary_protocols.2.type nucleic acid library construction protocol
 sample.update_date 2016-09-26
 
-	sample.donor.species.1.ontology 9606
-	sample.donor.species.1.text Homo sapiens
+	sample.donor.1.species.ontology 9606
+	sample.donor.1.species.text Homo sapiens
 
 		assay.seq.sra_experiment SRX1935938
 		assay.seq.sra_run SRR3879601,SRR3879602,SRR3879603
 		sample.core.id 521b4fef-8239-4e78-a1ee-ea9ce242026d
-		sample.donor.age 17
-		sample.donor.body_mass_index 21.5
-		sample.donor.sex male
+		sample.donor.1.age 17
+		sample.donor.1.body_mass_index 21.5
+		sample.donor.1.sex male
 		sample.geo_sample GSM2230757
 		sample.name pancreas islet BMI22
 		sample.ncbi_biosample SAMN05379702
@@ -57,9 +57,9 @@ sample.update_date 2016-09-26
 		assay.seq.sra_experiment SRX1935939
 		assay.seq.sra_run SRR3879604,SRR3879605,SRR3879606
 		sample.core.id 69ef9006-c127-45c6-9b35-68852896d504
-		sample.donor.age 51
-		sample.donor.body_mass_index 21.1
-		sample.donor.sex female
+		sample.donor.1.age 51
+		sample.donor.1.body_mass_index 21.1
+		sample.donor.1.sex female
 		sample.geo_sample GSM2230758
 		sample.name pancreas islet BMI21
 		sample.ncbi_biosample SAMN05379703
@@ -70,9 +70,9 @@ sample.update_date 2016-09-26
 		assay.seq.sra_experiment SRX1935941
 		assay.seq.sra_run SRR3879607,SRR3879608,SRR3879609,SRR3879610
 		sample.core.id d399ccad-b5ad-4663-a060-b1723d75aa04
-		sample.donor.age 38
-		sample.donor.body_mass_index 27.5
-		sample.donor.sex male
+		sample.donor.1.age 38
+		sample.donor.1.body_mass_index 27.5
+		sample.donor.1.sex male
 		sample.geo_sample GSM2230759
 		sample.name pancreas islet BMI28
 		sample.ncbi_biosample SAMN05379704
@@ -83,10 +83,10 @@ sample.update_date 2016-09-26
 		assay.seq.sra_experiment SRX1935942
 		assay.seq.sra_run SRR3879611,SRR3879612,SRR3879613
 		sample.core.id c9c71349-5724-48d8-b349-2d3402db6655
-		sample.donor.age 59
-		sample.donor.body_mass_index 29.9
-		sample.donor.disease.1.text type II diabetes mellitus
-		sample.donor.sex female
+		sample.donor.1.age 59
+		sample.donor.1.body_mass_index 29.9
+		sample.donor.1.disease.1.text type II diabetes mellitus
+		sample.donor.1.sex female
 		sample.geo_sample GSM2230760
 		sample.name pancreas islet diab II
 		sample.ncbi_biosample SAMN05379705
@@ -94,13 +94,13 @@ sample.update_date 2016-09-26
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230760/suppl/GSM2230760_human4_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935942
 		sample.title "Pancreatic islets from female donor, age 59, BMI 29.9, diabetes type 2"
 
-	sample.donor.species.1.ontology 10090
-	sample.donor.species.1.text Mus musculus
+	sample.donor.1.species.ontology 10090
+	sample.donor.1.species.text Mus musculus
 
 		assay.seq.sra_experiment SRX1935943
 		assay.seq.sra_run SRR3879614,SRR3879615,SRR3879616
 		sample.core.id bf9fe4f8-b859-4874-b610-b84fdd069b6f
-		sample.donor.strain.1.text ICR
+		sample.donor.1.strain.1.text ICR
 		sample.geo_sample GSM2230761
 		sample.name "pancreas islet ICR"
 		sample.ncbi_biosample SAMN05379706
@@ -111,7 +111,7 @@ sample.update_date 2016-09-26
 		assay.seq.sra_experiment SRX1935944
 		assay.seq.sra_run SRR3879617,SRR3879618,SRR3879619
 		sample.core.id 8bfbfec2-f0e5-4072-9343-b7ae0a9877a4
-		sample.donor.strain.1.text C57BL/6
+		sample.donor.1.strain.1.text C57BL/6
 		sample.geo_sample GSM2230762
 		sample.name "pancreas islet C57BL/6"
 		sample.ncbi_biosample SAMN05379707

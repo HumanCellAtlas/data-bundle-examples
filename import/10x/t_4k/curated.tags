@@ -24,10 +24,10 @@ project.submitter.institution 10X Genomics Inc.
 project.submitter.name 10X Genomics Inc.
 sample.body_part.text peripheral blood pan T-cells
 sample.core.id 849f023a-da3b-4017-a151-23575bd94ca4
-sample.donor.core.id 0f4108bb-d548-495a-a19e-87e36b0a198e
-sample.donor.life_stage adult
-sample.donor.species.1.ontology 9606
-sample.donor.species.1.text Homo sapiens
+sample.donor.1.core.id 0f4108bb-d548-495a-a19e-87e36b0a198e
+sample.donor.1.life_stage adult
+sample.donor.1.species.ontology 9606
+sample.donor.1.species.text Homo sapiens
 sample.enrichment.markers CD3+
 sample.enrichment.protocol.text pan
 sample.name T-cells

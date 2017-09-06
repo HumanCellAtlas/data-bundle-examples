@@ -28,9 +28,9 @@ project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81
 project.update_date 2017-06-14
 sample.body_part.ontology UBERON_0000006
 sample.body_part.text islet of Langerhans
-sample.donor.life_stage adult
-sample.donor.species.1.ontology 9606
-sample.donor.species.1.text Homo sapiens
+sample.donor.1.life_stage adult
+sample.donor.1.species.ontology 9606
+sample.donor.1.species.text Homo sapiens
 sample.organ.ontology UBERON_0001264
 sample.organ.text pancreas
 sample.submit_date 2016-05-18
@@ -38,12 +38,12 @@ sample.supplementary_protocols.1.description "Single islet cells were captured w
 sample.supplementary_protocols.1.type nucleic acid library construction protocol
 sample.update_date 2016-08-31
 
-	sample.donor.age 23
-	sample.donor.ancestry.1.text AA
-	sample.donor.core.id 5efd4395-c4d6-45eb-a93f-be125831fd6c
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id Non T2D 1
+	sample.donor.1.age 23
+	sample.donor.1.ancestry.1.text AA
+	sample.donor.1.core.id 5efd4395-c4d6-45eb-a93f-be125831fd6c
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id Non T2D 1
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 23 year old male
 
@@ -817,12 +817,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 615
 
-	sample.donor.age 32
-	sample.donor.ancestry.1.text C
-	sample.donor.core.id 350b521d-f509-4a33-87de-b6e54b014d05
-	sample.donor.disease.1.text normal
-	sample.donor.sex female
-	sample.donor.submitted_id Non T2D 2
+	sample.donor.1.age 32
+	sample.donor.1.ancestry.1.text C
+	sample.donor.1.core.id 350b521d-f509-4a33-87de-b6e54b014d05
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id Non T2D 2
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 32 year old female
 
@@ -1066,12 +1066,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 620
 
-	sample.donor.age 23
-	sample.donor.ancestry.1.text C
-	sample.donor.core.id 6cbb2237-53d3-4207-a031-08969f34cc44
-	sample.donor.disease.1.text normal
-	sample.donor.sex female
-	sample.donor.submitted_id Non T2D 3
+	sample.donor.1.age 23
+	sample.donor.1.ancestry.1.text C
+	sample.donor.1.core.id 6cbb2237-53d3-4207-a031-08969f34cc44
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id Non T2D 3
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 23 year old female
 
@@ -1515,12 +1515,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 636
 
-	sample.donor.age 27
-	sample.donor.ancestry.1.text AA
-	sample.donor.core.id eb65b9bb-dfc7-4e32-af03-ec27a1a75f89
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id Non T2D 5
+	sample.donor.1.age 27
+	sample.donor.1.ancestry.1.text AA
+	sample.donor.1.core.id eb65b9bb-dfc7-4e32-af03-ec27a1a75f89
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id Non T2D 5
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 27 year old male
 
@@ -2094,12 +2094,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 623
 
-	sample.donor.age 68
-	sample.donor.ancestry.1.text C
-	sample.donor.core.id d58bd61a-0617-4b76-895d-a6790b268b6f
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id Non T2D 6
+	sample.donor.1.age 68
+	sample.donor.1.ancestry.1.text C
+	sample.donor.1.core.id d58bd61a-0617-4b76-895d-a6790b268b6f
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id Non T2D 6
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 68 year old male
 
@@ -2603,12 +2603,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 624
 
-	sample.donor.age 29
-	sample.donor.ancestry.1.text C
-	sample.donor.core.id fcfeae01-1d0b-4ee1-a2de-069ef346ace3
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id Non T2D 7
+	sample.donor.1.age 29
+	sample.donor.1.ancestry.1.text C
+	sample.donor.1.core.id fcfeae01-1d0b-4ee1-a2de-069ef346ace3
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id Non T2D 7
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 29 year old male
 
@@ -2902,12 +2902,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 628
 
-	sample.donor.age 60
-	sample.donor.ancestry.1.text AI
-	sample.donor.core.id 998afa55-b6d6-4e25-8a99-7c3b064f1a11
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id Non T2D 8
+	sample.donor.1.age 60
+	sample.donor.1.ancestry.1.text AI
+	sample.donor.1.core.id 998afa55-b6d6-4e25-8a99-7c3b064f1a11
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id Non T2D 8
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 60 year old male
 
@@ -3361,12 +3361,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 640
 
-	sample.donor.age 24
-	sample.donor.ancestry.1.text C
-	sample.donor.core.id bf8f58f6-f9d4-454c-aebb-0f0377c4ae24
-	sample.donor.disease.1.text normal
-	sample.donor.sex female
-	sample.donor.submitted_id Non T2D 9
+	sample.donor.1.age 24
+	sample.donor.1.ancestry.1.text C
+	sample.donor.1.core.id bf8f58f6-f9d4-454c-aebb-0f0377c4ae24
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id Non T2D 9
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 24 year old female
 
@@ -3750,12 +3750,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 644
 
-	sample.donor.age 43
-	sample.donor.ancestry.1.text C
-	sample.donor.core.id 7c9d0f96-c035-477c-afa2-e1d39240954a
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id Non T2D 10
+	sample.donor.1.age 43
+	sample.donor.1.ancestry.1.text C
+	sample.donor.1.core.id 7c9d0f96-c035-477c-afa2-e1d39240954a
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id Non T2D 10
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 43 year old male
 
@@ -4249,12 +4249,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 645
 
-	sample.donor.age 31
-	sample.donor.ancestry.1.text H
-	sample.donor.core.id a63892a9-071f-45e1-92ef-b14db9cc19e3
-	sample.donor.disease.1.text normal
-	sample.donor.sex female
-	sample.donor.submitted_id Non T2D 11
+	sample.donor.1.age 31
+	sample.donor.1.ancestry.1.text H
+	sample.donor.1.core.id a63892a9-071f-45e1-92ef-b14db9cc19e3
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id Non T2D 11
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 31 year old female
 
@@ -4888,12 +4888,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 646
 
-	sample.donor.age 56
-	sample.donor.ancestry.1.text AA
-	sample.donor.core.id 0b778390-c03e-404f-af76-ccecc1044a0e
-	sample.donor.disease.1.text normal
-	sample.donor.sex male
-	sample.donor.submitted_id Non T2D 12
+	sample.donor.1.age 56
+	sample.donor.1.ancestry.1.text AA
+	sample.donor.1.core.id 0b778390-c03e-404f-af76-ccecc1044a0e
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id Non T2D 12
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 56 year old male
 
@@ -6337,12 +6337,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic D cell
 		sample.well.core.id Pancreatic islet cell sample 612
 
-	sample.donor.age 56
-	sample.donor.ancestry.1.text C
-	sample.donor.core.id 38dc44ca-e8ca-45fe-a4a0-2bbf43c56845
-	sample.donor.disease.1.text normal
-	sample.donor.sex female
-	sample.donor.submitted_id Non T2D 4
+	sample.donor.1.age 56
+	sample.donor.1.ancestry.1.text C
+	sample.donor.1.core.id 38dc44ca-e8ca-45fe-a4a0-2bbf43c56845
+	sample.donor.1.disease.1.text normal
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id Non T2D 4
 	sample.name pancreas islet normal
 	sample.title adult pancreatic islets from normal 56 year old female
 
@@ -6656,12 +6656,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 651
 
-	sample.donor.age 37
-	sample.donor.ancestry.1.text C
-	sample.donor.core.id cb65ebaa-898b-49ba-93b9-ba92cdc1f246
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.sex female
-	sample.donor.submitted_id T2D 2
+	sample.donor.1.age 37
+	sample.donor.1.ancestry.1.text C
+	sample.donor.1.core.id cb65ebaa-898b-49ba-93b9-ba92cdc1f246
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id T2D 2
 	sample.name pancreas islet diab II
 	sample.title adult pancreatic islets from 56 year old female diabetes type II
 
@@ -7495,12 +7495,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 1597
 
-	sample.donor.age 55
-	sample.donor.ancestry.1.text C
-	sample.donor.core.id d0002850-8a24-4eef-b294-454e38e81cb8
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.sex female
-	sample.donor.submitted_id T2D 3
+	sample.donor.1.age 55
+	sample.donor.1.ancestry.1.text C
+	sample.donor.1.core.id d0002850-8a24-4eef-b294-454e38e81cb8
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id T2D 3
 	sample.name pancreas islet diab II
 	sample.title adult pancreatic islets from 55 year old female diabetes type II
 
@@ -8194,12 +8194,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 1563
 
-	sample.donor.age 57
-	sample.donor.ancestry.1.text AA
-	sample.donor.core.id 0637eb8a-17ac-4a23-af5e-14adaedbb3c3
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.sex male
-	sample.donor.submitted_id T2D 1
+	sample.donor.1.age 57
+	sample.donor.1.ancestry.1.text AA
+	sample.donor.1.core.id 0637eb8a-17ac-4a23-af5e-14adaedbb3c3
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id T2D 1
 	sample.name pancreas islet diab II
 	sample.title adult pancreatic islets from 57 year old male diabetes type II
 
@@ -9113,12 +9113,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 1596
 
-	sample.donor.age 41
-	sample.donor.ancestry.1.text H
-	sample.donor.core.id a43734b2-cb0f-488c-9764-abee50ffc439
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.sex female
-	sample.donor.submitted_id T2D 4
+	sample.donor.1.age 41
+	sample.donor.1.ancestry.1.text H
+	sample.donor.1.core.id a43734b2-cb0f-488c-9764-abee50ffc439
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id T2D 4
 	sample.name pancreas islet diab II
 	sample.title adult pancreatic islets from 41 year old female diabetes type II
 
@@ -12182,12 +12182,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 1570
 
-	sample.donor.age 42
-	sample.donor.ancestry.1.text C
-	sample.donor.core.id 588e3a8c-e7bf-486e-9902-9f01b413f811
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.sex male
-	sample.donor.submitted_id T2D 5
+	sample.donor.1.age 42
+	sample.donor.1.ancestry.1.text C
+	sample.donor.1.core.id 588e3a8c-e7bf-486e-9902-9f01b413f811
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id T2D 5
 	sample.name pancreas islet diab II
 	sample.title adult pancreatic islets from 42 year old male diabetes type II
 
@@ -13951,12 +13951,12 @@ sample.update_date 2016-08-31
 		sample.well.cell_type.text pancreatic PP cell
 		sample.well.core.id Pancreatic islet cell sample 1599
 
-	sample.donor.age 51
-	sample.donor.ancestry.1.text H
-	sample.donor.core.id b73c1c32-3668-4c3d-9876-a8831401aff5
-	sample.donor.disease.1.text type II diabetes mellitus
-	sample.donor.sex male
-	sample.donor.submitted_id T2D 6
+	sample.donor.1.age 51
+	sample.donor.1.ancestry.1.text H
+	sample.donor.1.core.id b73c1c32-3668-4c3d-9876-a8831401aff5
+	sample.donor.1.disease.1.text type II diabetes mellitus
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id T2D 6
 	sample.name pancreas islet diab II
 	sample.title adult pancreatic islets from 51 year old male diabetes type II
 

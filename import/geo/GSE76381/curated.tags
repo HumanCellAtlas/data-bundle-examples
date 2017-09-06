@@ -7,7 +7,6 @@ assay.seq.instrument_platform Illumina
 assay.seq.molecule polyA RNA
 assay.seq.paired_ends no
 assay.single_cell.cell_handling Fluidigm C1
-project.contact.department Medical Biochemistry and Biophysics
 project.contributors.1.name "Gioele,,LaManno"
 project.contributors.2.name "Daniel,,Gyllborg"
 project.contributors.3.name "Ernest,,Arenas"
@@ -35,8 +34,8 @@ sample.supplementary_protocols.2.description "Human embryo ventral midbrain diss
 sample.supplementary_protocols.2.type nucleic acid library construction protocol
 sample.update_date 2017-01-18
 
-	sample.donor.species.1.ontology 9606
-	sample.donor.species.1.text Homo sapiens
+	sample.donor.1.species.ontology 9606
+	sample.donor.1.species.text Homo sapiens
 
 		sample.body_part.text ventral midbrain
 		sample.characteristics_cef EmbryoMoleculeCounts.cef
@@ -44,10 +43,10 @@ sample.update_date 2017-01-18
 		sample.organ.text brain
 
 			sample.characteristics_time 6w
-			sample.donor.age 6
-			sample.donor.age_unit week
-			sample.donor.life_stage embryo
-			sample.donor.sex unknown
+			sample.donor.1.age 6
+			sample.donor.1.age_unit week
+			sample.donor.1.life_stage embryo
+			sample.donor.1.sex unknown
 			sample.name 6w emb vent midbrain
 			sample.title ventral midbrain from 6 week old embryo
 
@@ -2356,10 +2355,10 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772122319_H12
 
 			sample.characteristics_time 7w
-			sample.donor.age 7
-			sample.donor.age_unit week
-			sample.donor.life_stage embryo
-			sample.donor.sex mixed
+			sample.donor.1.age 7
+			sample.donor.1.age_unit week
+			sample.donor.1.life_stage embryo
+			sample.donor.1.sex mixed
 			sample.name 7w emb vent midbrain
 			sample.title ventral midbrain from 7 week old embryo
 
@@ -3418,10 +3417,10 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772071029_H12
 
 			sample.characteristics_time 8w
-			sample.donor.age 8
-			sample.donor.age_unit week
-			sample.donor.life_stage embryo
-			sample.donor.sex unknown
+			sample.donor.1.age 8
+			sample.donor.1.age_unit week
+			sample.donor.1.life_stage embryo
+			sample.donor.1.sex unknown
 			sample.name 8w emb vent midbrain
 			sample.title ventral midbrain from 8 week old embryo
 
@@ -6084,10 +6083,10 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772122226_H12
 
 			sample.characteristics_time 9w
-			sample.donor.age 9
-			sample.donor.age_unit week
-			sample.donor.life_stage embryo
-			sample.donor.sex unknown
+			sample.donor.1.age 9
+			sample.donor.1.age_unit week
+			sample.donor.1.life_stage embryo
+			sample.donor.1.sex unknown
 			sample.name 9w emb vent midbrain
 			sample.title ventral midbrain from 9 week old embryo
 
@@ -8684,10 +8683,10 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772078109_H12
 
 			sample.characteristics_time 10w
-			sample.donor.age 10
-			sample.donor.age_unit week
-			sample.donor.life_stage embryo
-			sample.donor.sex unknown
+			sample.donor.1.age 10
+			sample.donor.1.age_unit week
+			sample.donor.1.life_stage embryo
+			sample.donor.1.sex unknown
 			sample.name 10w emb vent midbrain
 			sample.title ventral midbrain from 10 week old embryo
 
@@ -12780,10 +12779,10 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772122236_H12
 
 			sample.characteristics_time 11w
-			sample.donor.age 11
-			sample.donor.age_unit week
-			sample.donor.life_stage embryo
-			sample.donor.sex unknown
+			sample.donor.1.age 11
+			sample.donor.1.age_unit week
+			sample.donor.1.life_stage embryo
+			sample.donor.1.sex unknown
 			sample.name 11w emb vent midbrain
 			sample.title ventral midbrain from 11 week old embryo
 
@@ -15979,12 +15978,12 @@ sample.update_date 2017-01-18
 
 		sample.body_part.text hES DA commercial
 		sample.characteristics_cef iPSMoleculeCounts.cef
-		sample.donor.life_stage cell line
+		sample.donor.1.life_stage cell line
 		sample.organ.ontology UBERON_0000922
 		sample.organ.text embryo
 
 			sample.characteristics_time 42d
-			sample.donor.sex unknown
+			sample.donor.1.sex unknown
 			sample.name DopaNeurons 5d
 			sample.title dopaminergic neurons (iCell DopaNeurons) cultured 5 days
 
@@ -17509,7 +17508,7 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772116064_H09
 
 			sample.characteristics_time 63d
-			sample.donor.sex unknown
+			sample.donor.1.sex unknown
 			sample.name DopaNeurons 21d
 			sample.title dopaminergic neurons (iCell DopaNeurons) cultured 21 days
 
@@ -18715,12 +18714,12 @@ sample.update_date 2017-01-18
 
 		sample.body_part.text embryonic stem cell
 		sample.characteristics_cef ESMoleculeCounts.cef
-		sample.donor.life_stage cell line
+		sample.donor.1.life_stage cell line
 		sample.organ.ontology UBERON_0000922
 		sample.organ.text embryo
 
 			sample.characteristics_time 0d
-			sample.donor.sex unknown
+			sample.donor.1.sex unknown
 			sample.name hESCs
 			sample.title human embyonic stem cells undifferentiated
 
@@ -21301,7 +21300,7 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772122314_H12
 
 			sample.characteristics_time 12d
-			sample.donor.sex unknown
+			sample.donor.1.sex unknown
 			sample.name hESC->dopaminergic 12d
 			sample.title human embyonic stem cells 12 days into dopaminergic differentiation protocol
 
@@ -25874,7 +25873,7 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772122326_H12
 
 			sample.characteristics_time 17d
-			sample.donor.sex unknown
+			sample.donor.1.sex unknown
 			sample.name hESC->dopaminergic 17d
 			sample.title human embyonic stem cells 17 days into dopaminergic differentiation protocol
 
@@ -27951,7 +27950,7 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772122315_H12
 
 			sample.characteristics_time 35d
-			sample.donor.sex unknown
+			sample.donor.1.sex unknown
 			sample.name hESC->dopaminergic 35d
 			sample.title human embyonic stem cells 35 days into dopaminergic differentiation protocol
 
@@ -32507,24 +32506,24 @@ sample.update_date 2017-01-18
 					sample.ncbi_biosample SAMN05563728
 					sample.submitter_id 1772122302_H12
 
-	sample.donor.age_unit day
-	sample.donor.species.1.ontology 10090
-	sample.donor.species.1.text Mus musculus
+	sample.donor.1.age_unit day
+	sample.donor.1.species.ontology 10090
+	sample.donor.1.species.text Mus musculus
 
 		sample.body_part.text ventral midbrain
 		sample.characteristics_cef MouseEmbryoMoleculeCounts.cef
-		sample.donor.life_stage embryo
+		sample.donor.1.life_stage embryo
 		sample.organ.ontology UBERON_0000955
 		sample.organ.text brain
 
 			sample.characteristics_time e11.5
-			sample.donor.age 11.5
+			sample.donor.1.age 11.5
 			sample.name e11.5 vent midbrain
 			sample.title ventral midbrain from 11.5 day old mouse embryo
 
 				sample.characteristics_plate 1771013013
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048618
 					assay.seq.sra_run SRR4059251
@@ -32791,8 +32790,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1771013013_H11
 
 				sample.characteristics_plate 1771013110
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048675
 					assay.seq.sra_run SRR4059308
@@ -32883,8 +32882,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1771013110_H10
 
 				sample.characteristics_plate 1771013111
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048686
 					assay.seq.sra_run SRR4059319
@@ -33087,8 +33086,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1771013111_H03
 
 				sample.characteristics_plate 1771013113
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048711
 					assay.seq.sra_run SRR4059344
@@ -33155,8 +33154,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1771013113_G10
 
 				sample.characteristics_plate 1771013118
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048724
 					assay.seq.sra_run SRR4059372
@@ -33367,8 +33366,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1771013118_H04
 
 				sample.characteristics_plate 1772092006
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049803
 					assay.seq.sra_run SRR4060451
@@ -33699,8 +33698,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772092006_H12
 
 				sample.characteristics_plate 1772094144
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049908
 					assay.seq.sra_run SRR4060555
@@ -34087,8 +34086,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094144_H11
 
 				sample.characteristics_plate 1772094146
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049957
 					assay.seq.sra_run SRR4060603
@@ -34571,8 +34570,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094146_H12
 
 				sample.characteristics_plate 1772094156
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050017
 					assay.seq.sra_run SRR4060663
@@ -34767,8 +34766,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094156_G06
 
 				sample.characteristics_plate 1772094158
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050042
 					assay.seq.sra_run SRR4060687
@@ -35051,8 +35050,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094158_H12
 
 				sample.characteristics_plate 1772094159
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050077
 					assay.seq.sra_run SRR4060722
@@ -35143,8 +35142,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094159_H01
 
 				sample.characteristics_plate 1772094161
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050088
 					assay.seq.sra_run SRR4060733
@@ -35363,13 +35362,13 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094161_G12
 
 			sample.characteristics_time e12.5
-			sample.donor.age 12.5
+			sample.donor.1.age 12.5
 			sample.name e12.5 vent midbrain
 			sample.title ventral midbrain from 12.5 day old mouse embryo
 
 				sample.characteristics_plate 1771013108
-				sample.donor.sex unknown
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex unknown
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048651
 					assay.seq.sra_run SRR4059284
@@ -35564,8 +35563,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1771013108_H11
 
 				sample.characteristics_plate 1771013153
-				sample.donor.sex unknown
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex unknown
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048750
 					assay.seq.sra_run SRR4059398
@@ -35792,7 +35791,7 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1771013153_H11
 
 				sample.characteristics_plate 1772071049
-				sample.donor.sex unknown
+				sample.donor.1.sex unknown
 
 					assay.seq.sra_experiment SRX2049144
 					assay.seq.sra_run SRR4059792
@@ -36091,7 +36090,7 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772071049_H08
 
 				sample.characteristics_plate 1772071050
-				sample.donor.sex unknown
+				sample.donor.1.sex unknown
 
 					assay.seq.sra_experiment SRX2049181
 					assay.seq.sra_run SRR4059829
@@ -36406,8 +36405,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772071050_H12
 
 				sample.characteristics_plate 1772094163
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050115
 					assay.seq.sra_run SRR4060760
@@ -36762,8 +36761,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094163_H11
 
 				sample.characteristics_plate 1772094166
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050160
 					assay.seq.sra_run SRR4060848
@@ -37230,8 +37229,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094166_H12
 
 				sample.characteristics_plate 1772094169
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050218
 					assay.seq.sra_run SRR4060964
@@ -37762,8 +37761,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094169_H12
 
 				sample.characteristics_plate 1772094171
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050285
 					assay.seq.sra_run SRR4061096
@@ -38198,13 +38197,13 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094171_H11
 
 			sample.characteristics_time e13.5
-			sample.donor.age 13.5
+			sample.donor.1.age 13.5
 			sample.name e13.5 vent midbrain
 			sample.title ventral midbrain from 13.5 day old mouse embryo
 
 				sample.characteristics_plate 1772071065
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049220
 					assay.seq.sra_run SRR4059868
@@ -38759,8 +38758,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772071065_H12
 
 				sample.characteristics_plate 1772075302
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049637
 					assay.seq.sra_run SRR4060285
@@ -39147,8 +39146,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772075302_H12
 
 				sample.characteristics_plate 1772075303
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049685
 					assay.seq.sra_run SRR4060333
@@ -39335,8 +39334,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772075303_H07
 
 				sample.characteristics_plate 1772096111
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050530
 					assay.seq.sra_run SRR4061391
@@ -39667,8 +39666,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772096111_H11
 
 				sample.characteristics_plate 1772096112
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050571
 					assay.seq.sra_run SRR4061473
@@ -40135,8 +40134,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772096112_H12
 
 				sample.characteristics_plate 1772096114
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050630
 					assay.seq.sra_run SRR4061589
@@ -40579,8 +40578,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772096114_H10
 
 				sample.characteristics_plate 1772096115
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050686
 					assay.seq.sra_run SRR4061644
@@ -40991,13 +40990,13 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772096115_H12
 
 			sample.characteristics_time e14.5
-			sample.donor.age 14.5
+			sample.donor.1.age 14.5
 			sample.name e14.5 vent midbrain
 			sample.title ventral midbrain from 14.5 day old mouse embryo
 
 				sample.characteristics_plate 1771013117
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048719
 					assay.seq.sra_run SRR4059352
@@ -41040,8 +41039,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1771013117_F06
 
 				sample.characteristics_plate 1772066087
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048900
 					assay.seq.sra_run SRR4059548
@@ -41444,8 +41443,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772066087_H11
 
 				sample.characteristics_plate 1772066091
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048950
 					assay.seq.sra_run SRR4059598
@@ -41600,8 +41599,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772066091_H12
 
 				sample.characteristics_plate 1772066093
-				sample.donor.sex female
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex female
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048969
 					assay.seq.sra_run SRR4059617
@@ -42116,8 +42115,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772066093_H12
 
 				sample.characteristics_plate 1772094172
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050340
 					assay.seq.sra_run SRR4061204
@@ -42448,8 +42447,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094172_H12
 
 				sample.characteristics_plate 1772094173
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050382
 					assay.seq.sra_run SRR4061245
@@ -42884,8 +42883,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094173_H12
 
 				sample.characteristics_plate 1772094174
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050436
 					assay.seq.sra_run SRR4061299
@@ -43104,8 +43103,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094174_H06
 
 				sample.characteristics_plate 1772094175
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2050464
 					assay.seq.sra_run SRR4061326
@@ -43492,13 +43491,13 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772094175_G11
 
 			sample.characteristics_time e15.5
-			sample.donor.age 15.5
+			sample.donor.1.age 15.5
 			sample.name e15.5 vent midbrain
 			sample.title ventral midbrain from 15.5 day old mouse embryo
 
 				sample.characteristics_plate 1772066084
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048778
 					assay.seq.sra_run SRR4059426
@@ -43925,8 +43924,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772066084_H11
 
 				sample.characteristics_plate 1772066085
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2048831
 					assay.seq.sra_run SRR4059479
@@ -44481,8 +44480,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772066085_H12
 
 				sample.characteristics_plate 1772071046
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049033
 					assay.seq.sra_run SRR4059681
@@ -44941,8 +44940,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772071046_H12
 
 				sample.characteristics_plate 1772071048
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049090
 					assay.seq.sra_run SRR4059738
@@ -45377,8 +45376,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772071048_H12
 
 				sample.characteristics_plate 1772075300
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049514
 					assay.seq.sra_run SRR4060162
@@ -45757,8 +45756,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772075300_H12
 
 				sample.characteristics_plate 1772075301
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049561
 					assay.seq.sra_run SRR4060209
@@ -46369,13 +46368,13 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772075301_H12
 
 			sample.characteristics_time e18.5
-			sample.donor.age 18.5
+			sample.donor.1.age 18.5
 			sample.name e18.5 vent midbrain
 			sample.title ventral midbrain from 18.5 day old mouse embryo
 
 				sample.characteristics_plate 1772072246
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049372
 					assay.seq.sra_run SRR4060020
@@ -46898,8 +46897,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772072246_H07
 
 				sample.characteristics_plate 1772072247
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049437
 					assay.seq.sra_run SRR4060085
@@ -47062,8 +47061,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772072247_H01
 
 				sample.characteristics_plate 1772072248
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049457
 					assay.seq.sra_run SRR4060105
@@ -47274,8 +47273,8 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772072248_H11
 
 				sample.characteristics_plate 1772072249
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049483
 					assay.seq.sra_run SRR4060131
@@ -47530,8 +47529,8 @@ sample.update_date 2017-01-18
 			sample.title ventral midbrain from mouse embryo
 
 				sample.characteristics_plate 1772092007
-				sample.donor.sex mixed
-				sample.donor.strain.1.text CD1
+				sample.donor.1.sex mixed
+				sample.donor.1.strain.1.text CD1
 
 					assay.seq.sra_experiment SRX2049844
 					assay.seq.sra_run SRR4060492
@@ -47991,14 +47990,14 @@ sample.update_date 2017-01-18
 
 		sample.body_part.text substantia nigra-ventral tegmental area
 		sample.characteristics_cef MouseAdultDAMoleculeCounts.cef
-		sample.donor.life_stage postpartum
+		sample.donor.1.life_stage postpartum
 		sample.organ.ontology UBERON_0000955
 		sample.organ.text brain
 
 			sample.characteristics_time p19
-			sample.donor.age 19
-			sample.donor.sex female
-			sample.donor.strain.1.text CD1
+			sample.donor.1.age 19
+			sample.donor.1.sex female
+			sample.donor.1.strain.1.text CD1
 			sample.name p19 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 19 day old mouse
 
@@ -48014,9 +48013,9 @@ sample.update_date 2017-01-18
 					sample.geo_sample GSM2273674
 
 			sample.characteristics_time p20
-			sample.donor.age 20
-			sample.donor.sex mixed
-			sample.donor.strain.1.text CD1
+			sample.donor.1.age 20
+			sample.donor.1.sex mixed
+			sample.donor.1.strain.1.text CD1
 			sample.name p20 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 20 day old mouse
 
@@ -48143,9 +48142,9 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772096091_A02
 
 			sample.characteristics_time p21
-			sample.donor.age 21
-			sample.donor.sex mixed
-			sample.donor.strain.1.text CD1
+			sample.donor.1.age 21
+			sample.donor.1.sex mixed
+			sample.donor.1.strain.1.text CD1
 			sample.name p21 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 21 day old mouse
 
@@ -48270,9 +48269,9 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772096094_D09
 
 			sample.characteristics_time p23
-			sample.donor.age 23
-			sample.donor.sex mixed
-			sample.donor.strain.1.text CD1
+			sample.donor.1.age 23
+			sample.donor.1.sex mixed
+			sample.donor.1.strain.1.text CD1
 			sample.name p23 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 23 day old mouse
 
@@ -48403,9 +48402,9 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772099008_H01
 
 			sample.characteristics_time p24
-			sample.donor.age 24
-			sample.donor.sex mixed
-			sample.donor.strain.1.text CD1
+			sample.donor.1.age 24
+			sample.donor.1.sex mixed
+			sample.donor.1.strain.1.text CD1
 			sample.name p24 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 24 day old mouse
 
@@ -48534,9 +48533,9 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772099012_E04
 
 			sample.characteristics_time p25
-			sample.donor.age 25
-			sample.donor.sex mixed
-			sample.donor.strain.1.text CD1
+			sample.donor.1.age 25
+			sample.donor.1.sex mixed
+			sample.donor.1.strain.1.text CD1
 			sample.name p25 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 25 day old mouse
 
@@ -48667,9 +48666,9 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772096151_H09
 
 			sample.characteristics_time p26
-			sample.donor.age 26
-			sample.donor.sex mixed
-			sample.donor.strain.1.text CD1
+			sample.donor.1.age 26
+			sample.donor.1.sex mixed
+			sample.donor.1.strain.1.text CD1
 			sample.name p26 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 26 day old mouse
 
@@ -48696,9 +48695,9 @@ sample.update_date 2017-01-18
 					sample.geo_sample GSM2274499
 
 			sample.characteristics_time p27
-			sample.donor.age 27
-			sample.donor.sex male
-			sample.donor.strain.1.text CD1
+			sample.donor.1.age 27
+			sample.donor.1.sex male
+			sample.donor.1.strain.1.text CD1
 			sample.name p27 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 27 day old mouse
 
@@ -48714,10 +48713,10 @@ sample.update_date 2017-01-18
 					sample.geo_sample GSM2273673
 
 			sample.characteristics_time p28
-			sample.donor.age 28
-			sample.donor.genotype Tomato/DAT-Cre+
-			sample.donor.sex male
-			sample.donor.strain.1.text C57BL/6
+			sample.donor.1.age 28
+			sample.donor.1.genotype Tomato/DAT-Cre+
+			sample.donor.1.sex male
+			sample.donor.1.strain.1.text C57BL/6
 			sample.name p28 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 28 day old mouse
 
@@ -49388,10 +49387,10 @@ sample.update_date 2017-01-18
 					sample.submitter_id 1772072122_H12
 
 			sample.characteristics_time p56
-			sample.donor.age 56
-			sample.donor.genotype Tomato/DAT-Cre+
-			sample.donor.sex male
-			sample.donor.strain.1.text C57BL/6
+			sample.donor.1.age 56
+			sample.donor.1.genotype Tomato/DAT-Cre+
+			sample.donor.1.sex male
+			sample.donor.1.strain.1.text C57BL/6
 			sample.name p56 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 56 day old mouse
 

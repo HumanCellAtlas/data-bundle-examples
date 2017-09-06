@@ -8,7 +8,6 @@ assay.seq.library_construction Nextera XT
 assay.seq.molecule total RNA
 assay.seq.paired_ends yes
 assay.single_cell.cell_handling Fluidigm C1
-project.contact.department Dep of Oncology-Pathology
 project.contributors.1.name "Spyros,,Darmanis"
 project.contributors.2.name "Martin,,Enge"
 project.contributors.3.name "Stephen,R,Quake"
@@ -33,8 +32,8 @@ project.submitter.institution Karolinska Institute
 project.submitter.name "Martin,,Enge"
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP057/SRP057196,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE67nnn/GSE67835/suppl/GSE67835_RAW.tar
 project.update_date 2017-06-14
-sample.donor.species.1.ontology 9606
-sample.donor.species.1.text Homo sapiens
+sample.donor.1.species.ontology 9606
+sample.donor.1.species.text Homo sapiens
 sample.name Single cell from healthy human cortex
 sample.organ.ontology UBERON_0000955
 sample.organ.text brain
@@ -45,13 +44,13 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina MiSeq
 	sample.characteristics_experiment_sample_name AB_S1
-	sample.donor.age 47
-	sample.donor.age_unit year
-	sample.donor.core.id 3ed4586d-6347-4a1d-bb5b-d2963edb82e0
-	sample.donor.disease.1.text epilepsy
-	sample.donor.life_stage postpartum
-	sample.donor.sex male
-	sample.donor.submitted_id AB_S1
+	sample.donor.1.age 47
+	sample.donor.1.age_unit year
+	sample.donor.1.core.id 3ed4586d-6347-4a1d-bb5b-d2963edb82e0
+	sample.donor.1.disease.1.text epilepsy
+	sample.donor.1.life_stage postpartum
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id AB_S1
 
 		sample.body_part.text temporal lobe cortex
 		sample.characteristics_c1_chip_id nochipID12
@@ -281,13 +280,13 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina MiSeq
 	sample.characteristics_experiment_sample_name AB_S2
-	sample.donor.age 63
-	sample.donor.age_unit year
-	sample.donor.core.id 96af6206-dbcc-4ff4-81a8-2ba8eedb8a76
-	sample.donor.disease.1.text epilepsy
-	sample.donor.life_stage postpartum
-	sample.donor.sex male
-	sample.donor.submitted_id AB_S2
+	sample.donor.1.age 63
+	sample.donor.1.age_unit year
+	sample.donor.1.core.id 96af6206-dbcc-4ff4-81a8-2ba8eedb8a76
+	sample.donor.1.disease.1.text epilepsy
+	sample.donor.1.life_stage postpartum
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id AB_S2
 
 		sample.body_part.text temporal lobe cortex
 		sample.characteristics_c1_chip_id nochipID14
@@ -341,13 +340,13 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina MiSeq
 	sample.characteristics_experiment_sample_name AB_S3
-	sample.donor.age 22
-	sample.donor.age_unit year
-	sample.donor.core.id a99f2140-4884-438c-9fad-7316203cc477
-	sample.donor.disease.1.text epilepsy
-	sample.donor.life_stage postpartum
-	sample.donor.sex male
-	sample.donor.submitted_id AB_S3
+	sample.donor.1.age 22
+	sample.donor.1.age_unit year
+	sample.donor.1.core.id a99f2140-4884-438c-9fad-7316203cc477
+	sample.donor.1.disease.1.text epilepsy
+	sample.donor.1.life_stage postpartum
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id AB_S3
 
 		sample.body_part.text temporal lobe cortex
 		sample.characteristics_c1_chip_id nochipID15
@@ -390,11 +389,11 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina MiSeq
 	sample.characteristics_experiment_sample_name FB_S1
-	sample.donor.age 17
-	sample.donor.age_unit week
-	sample.donor.core.id a9b24fb6-25fd-4330-ab23-25ecfd63db29
-	sample.donor.life_stage embryo
-	sample.donor.submitted_id FB_S1
+	sample.donor.1.age 17
+	sample.donor.1.age_unit week
+	sample.donor.1.core.id a9b24fb6-25fd-4330-ab23-25ecfd63db29
+	sample.donor.1.life_stage embryo
+	sample.donor.1.submitted_id FB_S1
 
 		sample.body_part.text fetal brain cortex
 		sample.characteristics_c1_chip_id nochipID10
@@ -611,11 +610,11 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina MiSeq
 	sample.characteristics_experiment_sample_name FB_S2
-	sample.donor.age 17
-	sample.donor.age_unit week
-	sample.donor.core.id 2efddf5d-43bb-4394-bae8-f63ecca7e757
-	sample.donor.life_stage embryo
-	sample.donor.submitted_id FB_S2
+	sample.donor.1.age 17
+	sample.donor.1.age_unit week
+	sample.donor.1.core.id 2efddf5d-43bb-4394-bae8-f63ecca7e757
+	sample.donor.1.life_stage embryo
+	sample.donor.1.submitted_id FB_S2
 
 		sample.body_part.text fetal brain cortex
 		sample.characteristics_c1_chip_id nochipID11
@@ -992,11 +991,11 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina MiSeq
 	sample.characteristics_experiment_sample_name FB_S3
-	sample.donor.age 17
-	sample.donor.age_unit week
-	sample.donor.core.id bdc4d8eb-d83b-4ec5-9fb7-d8a3e5f380ee
-	sample.donor.life_stage embryo
-	sample.donor.submitted_id FB_S3
+	sample.donor.1.age 17
+	sample.donor.1.age_unit week
+	sample.donor.1.core.id bdc4d8eb-d83b-4ec5-9fb7-d8a3e5f380ee
+	sample.donor.1.life_stage embryo
+	sample.donor.1.submitted_id FB_S3
 
 		sample.body_part.text fetal brain cortex
 		sample.characteristics_c1_chip_id nochipID13
@@ -1237,13 +1236,13 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina NextSeq 500
 	sample.characteristics_experiment_sample_name AB_S8
-	sample.donor.age 54
-	sample.donor.age_unit year
-	sample.donor.core.id f025da4e-7ad8-4b65-8686-d16594ddb821
-	sample.donor.disease.1.text epilepsy
-	sample.donor.life_stage postpartum
-	sample.donor.sex female
-	sample.donor.submitted_id AB_S8
+	sample.donor.1.age 54
+	sample.donor.1.age_unit year
+	sample.donor.1.core.id f025da4e-7ad8-4b65-8686-d16594ddb821
+	sample.donor.1.disease.1.text epilepsy
+	sample.donor.1.life_stage postpartum
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id AB_S8
 
 		sample.body_part.text temporal lobe cortex
 		sample.characteristics_c1_chip_id 1772078217
@@ -1762,13 +1761,13 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina NextSeq 500
 	sample.characteristics_experiment_sample_name AB_S11
-	sample.donor.age 37
-	sample.donor.age_unit year
-	sample.donor.core.id 0b6609e8-4a5c-45ea-8920-f1e3ebff5880
-	sample.donor.disease.1.text epilepsy
-	sample.donor.life_stage postpartum
-	sample.donor.sex female
-	sample.donor.submitted_id AB_S11
+	sample.donor.1.age 37
+	sample.donor.1.age_unit year
+	sample.donor.1.core.id 0b6609e8-4a5c-45ea-8920-f1e3ebff5880
+	sample.donor.1.disease.1.text epilepsy
+	sample.donor.1.life_stage postpartum
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id AB_S11
 
 		sample.body_part.text temporal lobe cortex
 		sample.characteristics_c1_chip_id 1772078236
@@ -2346,13 +2345,13 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina NextSeq 500
 	sample.characteristics_experiment_sample_name AB_S4
-	sample.donor.age 50
-	sample.donor.age_unit year
-	sample.donor.core.id 022cd652-dbdf-42a6-88a3-16a74e4309c8
-	sample.donor.disease.1.text epilepsy
-	sample.donor.life_stage postpartum
-	sample.donor.sex male
-	sample.donor.submitted_id AB_S4
+	sample.donor.1.age 50
+	sample.donor.1.age_unit year
+	sample.donor.1.core.id 022cd652-dbdf-42a6-88a3-16a74e4309c8
+	sample.donor.1.disease.1.text epilepsy
+	sample.donor.1.life_stage postpartum
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id AB_S4
 
 		sample.body_part.text temporal lobe cortex
 		sample.characteristics_c1_chip_id nochipID2
@@ -3035,13 +3034,13 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina NextSeq 500
 	sample.characteristics_experiment_sample_name AB_S5
-	sample.donor.age 63
-	sample.donor.age_unit year
-	sample.donor.core.id ddc37711-42ff-4a66-a449-68dcc467cc36
-	sample.donor.disease.1.text epilepsy
-	sample.donor.life_stage postpartum
-	sample.donor.sex male
-	sample.donor.submitted_id AB_S5
+	sample.donor.1.age 63
+	sample.donor.1.age_unit year
+	sample.donor.1.core.id ddc37711-42ff-4a66-a449-68dcc467cc36
+	sample.donor.1.disease.1.text epilepsy
+	sample.donor.1.life_stage postpartum
+	sample.donor.1.sex male
+	sample.donor.1.submitted_id AB_S5
 
 		sample.body_part.text temporal lobe cortex
 		sample.characteristics_c1_chip_id nochipID3
@@ -3451,13 +3450,13 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina NextSeq 500
 	sample.characteristics_experiment_sample_name AB_S7
-	sample.donor.age 21
-	sample.donor.age_unit year
-	sample.donor.core.id b0f35ec4-37d6-49f3-bc56-50b33748869c
-	sample.donor.disease.1.text epilepsy
-	sample.donor.life_stage postpartum
-	sample.donor.sex female
-	sample.donor.submitted_id AB_S7
+	sample.donor.1.age 21
+	sample.donor.1.age_unit year
+	sample.donor.1.core.id b0f35ec4-37d6-49f3-bc56-50b33748869c
+	sample.donor.1.disease.1.text epilepsy
+	sample.donor.1.life_stage postpartum
+	sample.donor.1.sex female
+	sample.donor.1.submitted_id AB_S7
 
 		sample.body_part.text temporal lobe cortex
 		sample.characteristics_c1_chip_id nochipID8
@@ -3972,11 +3971,11 @@ sample.update_date 2015-11-06
 
 	assay.seq.instrument_model Illumina NextSeq 500
 	sample.characteristics_experiment_sample_name FB_S6
-	sample.donor.age 17
-	sample.donor.age_unit week
-	sample.donor.core.id 27f0e987-c01b-4333-80fb-751950010d27
-	sample.donor.life_stage embryo
-	sample.donor.submitted_id FB_S6
+	sample.donor.1.age 17
+	sample.donor.1.age_unit week
+	sample.donor.1.core.id 27f0e987-c01b-4333-80fb-751950010d27
+	sample.donor.1.life_stage embryo
+	sample.donor.1.submitted_id FB_S6
 
 		sample.body_part.text fetal brain cortex
 		sample.characteristics_c1_chip_id nochipID4

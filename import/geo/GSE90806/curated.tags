@@ -7,7 +7,6 @@ assay.seq.instrument_platform Illumina
 assay.seq.molecule polyA RNA
 assay.seq.paired_ends no
 assay.single_cell.cell_handling mouth pipette
-project.contact.department Medicine
 project.contributors.1.name "Linus,T,Tsai"
 project.contributors.2.name "John,N,Campbell"
 project.description Drop-seq and single cell sequencing of mouse arcuate nucleus and median eminence
@@ -28,14 +27,14 @@ project.submitter.name "John,N,Campbell"
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90806/suppl/GSE90806_RIP-Cre_ARC_GeneCounts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP094/SRP094469
 project.update_date 2017-06-05
 sample.body_part.text arcuate nucleus and median eminence of hypothalamus
-sample.donor.age 63
-sample.donor.age_unit day
-sample.donor.genotype AAV-GFP+ RIP-Cre+
-sample.donor.life_stage adult
-sample.donor.sex male
-sample.donor.species.1.ontology 10090
-sample.donor.species.1.text Mus musculus
-sample.donor.strain.1.text (C57BL/6 x DBA)F2
+sample.donor.1.age 63
+sample.donor.1.age_unit day
+sample.donor.1.genotype AAV-GFP+ RIP-Cre+
+sample.donor.1.life_stage adult
+sample.donor.1.sex male
+sample.donor.1.species.ontology 10090
+sample.donor.1.species.text Mus musculus
+sample.donor.1.strain.1.text (C57BL/6 x DBA)F2
 sample.name brain: Arc-ME
 sample.organ.ontology UBERON_0000955
 sample.organ.text brain
