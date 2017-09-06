@@ -53,6 +53,7 @@ project.contributors.[].name $ *
 project.ddjb_trace $ ERP*
 !project.description $ *
 project.experimental_design.[].text $ *
+project.experimental_design.[].ontology $ *
 project.experimental_factor_name [$] *
 project.geo_series $ GSE*
 project.ncbi_bioproject $ PRJNA*
@@ -105,27 +106,43 @@ sample.disassociation_protocol $ P-????-*
 sample.donor.[].age % 0 150
 sample.donor.[].age_unit $ hour day week year
 sample.donor.[].ancestry.[].text $ *
+sample.donor.[].ancestry.[].ontology $ *
 sample.donor.[].body_mass_index % 5 100
-sample.donor.[].id $ *
+sample.donor.[].death.core.type $ death
+sample.donor.[].death.core.schema_version $ ?.*.*
+sample.donor.[].death.core.schema_url $ *
+sample.donor.[].death.cause_of_death $ *
+sample.donor.[].death.cold_perfused $ no yes
+sample.donor.[].death.days_on_ventilator % 0 10000
+sample.donor.[].death.hardy_scale # 0 4
+sample.donor.[].death.time_of_death $ ????-??-?? ??:??:??
 sample.donor.[].development_stage.text $ *
+sample.donor.[].development_stage.ontology $ *
 sample.donor.[].disease.[].text $ *
+sample.donor.[].disease.[].ontology $ *
 sample.donor.[].genotype $ *
+sample.donor.[].height % 0 10
+sample.donor.[].id $ *
+sample.donor.[].is_living $ no yes
 sample.donor.[].life_stage $ adult "cell line" child embryo organoid postpartum
-sample.donor.[].medication [$] *
+sample.donor.[].medication.[].text $ *
+sample.donor.[].medication.[].ontology $ *
 sample.donor.[].sex $ female male mixed unknown
 sample.donor.[].species.ontology # 9606 10090
 !sample.donor.[].species.text $ "Homo sapiens" "Mus musculus"
 sample.donor.[].strain.[].text $ *
+sample.donor.[].strain.[].ontology $ *
 sample.donor.[].submitted_id $ *
+sample.donor.[].weight % 0 1000
 sample.ena_sample $ ERS*
-sample.enrichment.core.type enrichment
-sample.enrichment.core.schema_version $ ?.*.*
-sample.enrichment.core.schema_url $ *
-sample.enrichment.markers $ *
-sample.enrichment.protocol [$] P-????-*
-sample.enrichment.size_min % 0.01 10000
-sample.enrichment.size_max % 0.01 10000
-sample.enrichment.type $ FACS MACS "Ficoll gradient"
+sample.enrichment.[].core.type enrichment
+sample.enrichment.[].core.schema_version $ ?.*.*
+sample.enrichment.[].core.schema_url $ *
+sample.enrichment.[].markers $ *
+sample.enrichment.[].protocol [$] P-????-*
+sample.enrichment.[].size_min % 0.01 10000
+sample.enrichment.[].size_max % 0.01 10000
+sample.enrichment.[].type $ FACS MACS "Ficoll gradient"
 sample.geo_sample $ GSM*
 !sample.name $ *
 sample.ncbi_biosample $ *
@@ -135,8 +152,8 @@ sample.preservation.core.type preservation
 sample.preservation.core.schema_version $ ?.*.*
 sample.preservation.core.schema_url $ *
 sample.preservation.autolysis_score $ none mild moderate
-sample.preservation.ischemic_time % # 100000
-sample.preservation.postmortem_interval # 100000
+sample.preservation.ischemic_time # 0 100000
+sample.preservation.postmortem_interval # 0 100000
 sample.preservation.gross_description $ *
 sample.preservation.gross_image [$] *.jpg *.jpeg *.tiff *.png
 sample.preservation.microscopic_description $ *
@@ -153,7 +170,14 @@ sample.title $ *
 sample.total_estimated_cells % 0.1 1e9
 sample.update_date $ 2???-??-??
 sample.updater_id $ *
+sample.well.core.type $ well
+sample.well.core.schema_version $ ?.*.*
+sample.well.core.schema_url $ ?.*.*
 sample.well.cell_type.ontology $ *_0?????? FMA_*
 sample.well.cell_type.text $ *
+sample.well.col	$ *
 sample.well.id $ *
+sample.well.plate $
+sample.well.plating_protocol $ P-????-*
 sample.well.quality $ OK "control, 2-cell well" "control, empty well" "low quality cell"
+sample.well.row $ *
