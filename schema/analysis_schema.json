@@ -33,12 +33,14 @@
          "type" : "array"
       },
       "timestamp_stop_utc" : {
-         "type" : "date-time",
+         "type" : "string",
+         "format" : "date-time",
          "description" : "Terminal stop time of the full pipeline."
       },
       "timestamp_start_utc" : {
          "description" : "Initial start time of the full pipeline.",
-         "type" : "date-time"
+         "type" : "string",
+         "format" : "date-time"
       },
       "inputs" : {
          "items" : {
@@ -97,8 +99,8 @@
       },
       "task" : {
          "properties" : {
-            "start_time" : "date-time",
-            "stop_time" : "date-time",
+            "start_time" : "string",
+            "stop_time" : "string",
             "name" : "string",
             "log_err" : "striing",
             "log_out" : "string",
