@@ -10,13 +10,10 @@
             }
          }
       },
-      "analysis_id" : {
-         "description" : "ID give to the analysis run which refers back to the analysis instance in the green box.",
-         "type" : "number"
-      },
-      "computational_method" : {
+      "pipeline" : {
          "description" : "A URI to a versioned workflow and versioned execution environment in a GA4GH compliant repository.",
-         "type" : "uri"
+         "type" : "string",
+         "format" : "uri"
       },
       "outputs" : {
          "items" : {
@@ -29,7 +26,8 @@
       },
       "input_bundles" : {
          "items" : {
-            "type" : "uri"
+           "type" : "string",
+           "format" : "uri"
          },
          "description" : "The input bundles used in this analysis run.",
          "type" : "array"
@@ -37,10 +35,6 @@
       "timestamp_stop_utc" : {
          "type" : "date-time",
          "description" : "Terminal stop time of the full pipeline."
-      },
-      "metadata_schema" : {
-         "description" : "The version of the metadata schemas used for the json files.",
-         "type" : "string"
       },
       "timestamp_start_utc" : {
          "description" : "Initial start time of the full pipeline.",
@@ -65,22 +59,39 @@
       },
       "reference_bundle" : {
          "description" : "Bundle containing the reference used in running the pipeline.",
-         "type" : "uri"
+          "type" : "string",
+          "format" : "uri"
       }
    },
    "type" : "object",
    "definitions" : {
+      "core" : {
+         "additionalProperties" : false,
+         "required" : [
+            "type",
+            "schema_url",
+            "schema_version",
+            "core_id"
+          ],
+          "properties" : {
+            "type" : "string",
+            "schema_version" : "string",
+            "schema_url" : "string",
+            "core_id" : "string"
+          },
+          "type" : "object"
+      },
       "file" : {
          "additionalProperties" : false,
          "required" : [
-            "checksum",
+            "md5",
             "file_path",
             "format"
          ],
          "properties" : {
             "format" : "string",
-            "file_path" : "uri",
-            "checksum" : "string"
+            "file_path" : "string",
+            "md5" : "string"
          },
          "type" : "object"
       },
@@ -89,8 +100,8 @@
             "start_time" : "date-time",
             "stop_time" : "date-time",
             "name" : "string",
-            "log_err" : "uri",
-            "log_out" : "uri",
+            "log_err" : "striing",
+            "log_out" : "string",
             "disk_size" : "string",
             "docker_image" : "string",
             "cpus" : "int",
@@ -118,7 +129,7 @@
             "value"
          ],
          "properties" : {
-            "checksum" : "string",
+            "md5" : "string",
             "value" : "string",
             "name" : "string"
          },
@@ -127,6 +138,7 @@
    },
    "$schema" : "https://json-schema.org/draft-04/schema#",
    "required" : [
+     "core",
      "timestamp_start_utc",
      "timestamp_stop_utc",
      "computational_method",
