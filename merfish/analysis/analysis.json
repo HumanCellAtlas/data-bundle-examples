@@ -1,5 +1,6 @@
 {
    "core" : { 
+       "core_id" : "4342342",
        "type" : "analysis",
        "schema_version" : "1.0.0",
        "schema_url" : "https://github.com/HumanCellAtlas/metadata-standards"
@@ -31,7 +32,6 @@
    "timestamp_start_utc" : "2017-05-18T03:44:23-5:00",
    "timestamp_stop_utc" : "2017-05-18T014:44:23-5:00",
    "pipeline" : "https://www.dockstore.org:8443/api/ga4gh/v1/tools/quay.io%2Fhca%2Fdockstore-hca-uploader/",
-   "analysis_id" : "4342342",
    "analysis_run_type" : "run",
    "outputs" : [
       {

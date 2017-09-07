@@ -10,13 +10,10 @@
             }
          }
       },
-      "analysis_id" : {
-         "description" : "ID give to the analysis run which refers back to the analysis instance in the green box.",
-         "type" : "string"
-      },
       "pipeline" : {
          "description" : "A URI to a versioned workflow and versioned execution environment in a GA4GH compliant repository.",
-         "type" : "uri"
+         "type" : "string",
+         "format" : "uri"
       },
       "outputs" : {
          "items" : {
@@ -29,7 +26,8 @@
       },
       "input_bundles" : {
          "items" : {
-            "type" : "uri"
+           "type" : "string",
+           "format" : "uri"
          },
          "description" : "The input bundles used in this analysis run.",
          "type" : "array"
@@ -61,7 +59,8 @@
       },
       "reference_bundle" : {
          "description" : "Bundle containing the reference used in running the pipeline.",
-         "type" : "uri"
+          "type" : "string",
+          "format" : "uri"
       }
    },
    "type" : "object",
@@ -71,12 +70,14 @@
          "required" : [
             "type",
             "schema_url",
-            "schema_version"
+            "schema_version",
+            "core_id"
           ],
           "properties" : {
             "type" : "string",
             "schema_version" : "string",
-            "schema_url" : "uri"
+            "schema_url" : "string",
+            "core_id" : "string"
           },
           "type" : "object"
       },
@@ -89,7 +90,7 @@
          ],
          "properties" : {
             "format" : "string",
-            "file_path" : "uri",
+            "file_path" : "string",
             "md5" : "string"
          },
          "type" : "object"
@@ -99,8 +100,8 @@
             "start_time" : "date-time",
             "stop_time" : "date-time",
             "name" : "string",
-            "log_err" : "uri",
-            "log_out" : "uri",
+            "log_err" : "striing",
+            "log_out" : "string",
             "disk_size" : "string",
             "docker_image" : "string",
             "cpus" : "int",
