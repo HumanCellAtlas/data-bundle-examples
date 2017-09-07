@@ -1,6 +1,6 @@
 project.title "Drop-Seq analysis of  P17 FACS sorted retinal cells from the Tg(Chx10-EGFP/cre,-ALPP)2Clc or Vsx2-GFP transgenic line"
-project.core.id GSE81904
-assay.rna.end_bias 3' end
+project.id GSE81904
+assay.rna.end_bias three_prime_end
 assay.rna.primer poly-dt
 assay.seq.instrument_model Illumina NextSeq 500
 assay.seq.instrument_platform Illumina
@@ -18,7 +18,6 @@ project.array_express_investigation E-MTAB-81904
 project.contributors.1.name "Karthik,,Shekhar"
 project.description "Vsx2-GFP mouse retinas were dissected, FACS sorted for GFP+ cells and single-cell mRNAseq libraries generated with Drop-Seq"
 project.experimental_design.1.text Drop-Seq was performed on two different batches. Bipolar1-Bipolar4 are replicates from batch 1 and Bipolar5-6 are replicates from Batch 2
-project.geo_parent_series GSE81905
 project.geo_series GSE81904
 project.ncbi_bioproject PRJNA323370
 project.publications.1.pmid 27565351
@@ -44,13 +43,13 @@ sample.donor.1.species.text Mus musculus
 sample.organ.ontology UBERON_0000970
 sample.organ.text eye
 sample.submit_date 2016-05-25
-sample.supplementary_protocols.1.description "suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads. Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol."
-sample.supplementary_protocols.1.type nucleic acid library construction protocol
+project.protocols.1.description "suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads. Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol."
+project.protocols.1.type.text nucleic acid library construction protocol
 sample.update_date 2016-08-25
 
 	assay.seq.sra_experiment SRX1800075
 	assay.seq.sra_run SRR3587500
-	sample.core.id 5053a2b0-0c07-4df3-8a9d-4485688e29e7
+	sample.id 5053a2b0-0c07-4df3-8a9d-4485688e29e7
 	sample.geo_sample GSM2177570
 	sample.name retina bipolar 1
 	sample.ncbi_biosample SAMN05177285
@@ -59,7 +58,7 @@ sample.update_date 2016-08-25
 
 	assay.seq.sra_experiment SRX1800076
 	assay.seq.sra_run SRR3587501
-	sample.core.id df661039-ad34-4e2b-8555-f42e8869ba6c
+	sample.id df661039-ad34-4e2b-8555-f42e8869ba6c
 	sample.geo_sample GSM2177571
 	sample.name retina bipolar 2
 	sample.ncbi_biosample SAMN05177286
@@ -68,7 +67,7 @@ sample.update_date 2016-08-25
 
 	assay.seq.sra_experiment SRX1800077
 	assay.seq.sra_run SRR3587502
-	sample.core.id df557776-643b-40e4-8502-389b4c697a92
+	sample.id df557776-643b-40e4-8502-389b4c697a92
 	sample.geo_sample GSM2177572
 	sample.name retina bipolar 3
 	sample.ncbi_biosample SAMN05177287
@@ -77,7 +76,7 @@ sample.update_date 2016-08-25
 
 	assay.seq.sra_experiment SRX1800078
 	assay.seq.sra_run SRR3587503
-	sample.core.id 13b08ba4-0eb6-4555-bf21-d89950b62b0e
+	sample.id 13b08ba4-0eb6-4555-bf21-d89950b62b0e
 	sample.geo_sample GSM2177573
 	sample.name retina bipolar 4
 	sample.ncbi_biosample SAMN05177288
@@ -86,7 +85,7 @@ sample.update_date 2016-08-25
 
 	assay.seq.sra_experiment SRX1800079
 	assay.seq.sra_run SRR3587504
-	sample.core.id 0088e6cb-7ea4-47e1-a228-207f1cb17532
+	sample.id 0088e6cb-7ea4-47e1-a228-207f1cb17532
 	sample.geo_sample GSM2177574
 	sample.name retina bipolar 5
 	sample.ncbi_biosample SAMN05177289
@@ -95,7 +94,7 @@ sample.update_date 2016-08-25
 
 	assay.seq.sra_experiment SRX1800080
 	assay.seq.sra_run SRR3587505
-	sample.core.id c5644370-fe35-4909-90cf-9ee99900d10d
+	sample.id c5644370-fe35-4909-90cf-9ee99900d10d
 	sample.geo_sample GSM2177575
 	sample.name retina bipolar 6
 	sample.ncbi_biosample SAMN05177290

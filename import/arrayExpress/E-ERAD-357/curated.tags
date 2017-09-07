@@ -1,6 +1,6 @@
 project.title RNAseq of mouse POMC neurons
-project.core.id E-ERAD-357
-assay.rna.end_bias none
+project.id E-ERAD-357
+assay.rna.end_bias full_transcript
 assay.rna.primer random
 assay.seq.instrument_model Illumina HiSeq 2500
 assay.seq.instrument_platform Illumina
@@ -23,19 +23,19 @@ sample.body_part.text arcuate nucleus of hypothalamus
 sample.donor.1.sex male
 sample.donor.1.species.ontology 10090
 sample.donor.1.species.text Mus musculus
-sample.enrichment.markers POMC+
+sample.enrichment.1.markers POMC+
 sample.organ.ontology UBERON_0000955
 sample.organ.text brain
-sample.supplementary_protocols.1.description qPCR only
-sample.supplementary_protocols.1.type nucleic acid library construction protocol
-sample.supplementary_protocols.2.description Illumina HiSeq 2500
-sample.supplementary_protocols.2.type nucleic acid sequencing protocol
+project.protocols.1.description qPCR only
+project.protocols.1.type.text nucleic acid library construction protocol
+project.protocols.2.description Illumina HiSeq 2500
+project.protocols.2.type.text nucleic acid sequencing protocol
 sample.total_estimated_cells 1
 sample.well.cell_type.ontology CL_0000540
 sample.well.cell_type.text neuron
 
-	sample.core.id 131e2e35-7521-4acc-b9f2-af548c201d0f
-	sample.donor.1.core.id e9d16835-e30f-4e10-b432-e79777e2b71c
+	sample.id 131e2e35-7521-4acc-b9f2-af548c201d0f
+	sample.donor.1.id e9d16835-e30f-4e10-b432-e79777e2b71c
 	sample.donor.1.submitted_id POMC_GFP_I_1
 	sample.ena_sample ERS639336
 	sample.name POMC+ from mouse 1
@@ -45,15 +45,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866186/ERR866186_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866186/ERR866186_2.fastq.gz
 		assay.seq.ena_experiment ERX945814
 		assay.seq.ena_run ERR866186
-		sample.well.core.id ERX945814
+		sample.well.id ERX945814
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866282/ERR866282_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866282/ERR866282_2.fastq.gz
 		assay.seq.ena_experiment ERX945910
 		assay.seq.ena_run ERR866282
-		sample.well.core.id ERX945910
+		sample.well.id ERX945910
 
-	sample.core.id 8130cb65-752f-45f3-91fb-8cb9e92aea0e
-	sample.donor.1.core.id 58f521ec-c28c-476c-b186-4a452884ab21
+	sample.id 8130cb65-752f-45f3-91fb-8cb9e92aea0e
+	sample.donor.1.id 58f521ec-c28c-476c-b186-4a452884ab21
 	sample.donor.1.submitted_id POMC_GFP_I_2
 	sample.ena_sample ERS639337
 	sample.name POMC+ from mouse 2
@@ -63,15 +63,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866187/ERR866187_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866187/ERR866187_2.fastq.gz
 		assay.seq.ena_experiment ERX945815
 		assay.seq.ena_run ERR866187
-		sample.well.core.id ERX945815
+		sample.well.id ERX945815
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866283/ERR866283_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866283/ERR866283_2.fastq.gz
 		assay.seq.ena_experiment ERX945911
 		assay.seq.ena_run ERR866283
-		sample.well.core.id ERX945911
+		sample.well.id ERX945911
 
-	sample.core.id 903e8946-8f14-4b84-bd9b-a85dc1773cc8
-	sample.donor.1.core.id 29708a27-1134-4bc4-92a4-4715ac490fd2
+	sample.id 903e8946-8f14-4b84-bd9b-a85dc1773cc8
+	sample.donor.1.id 29708a27-1134-4bc4-92a4-4715ac490fd2
 	sample.donor.1.submitted_id POMC_GFP_I_3
 	sample.ena_sample ERS639338
 	sample.name POMC+ from mouse 3
@@ -81,15 +81,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866188/ERR866188_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866188/ERR866188_2.fastq.gz
 		assay.seq.ena_experiment ERX945816
 		assay.seq.ena_run ERR866188
-		sample.well.core.id ERX945816
+		sample.well.id ERX945816
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866284/ERR866284_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866284/ERR866284_2.fastq.gz
 		assay.seq.ena_experiment ERX945912
 		assay.seq.ena_run ERR866284
-		sample.well.core.id ERX945912
+		sample.well.id ERX945912
 
-	sample.core.id b02dedef-7f9f-4188-9bc9-ae50b3722464
-	sample.donor.1.core.id 5baa1b6d-6ecd-4dea-8312-7294ccafd35d
+	sample.id b02dedef-7f9f-4188-9bc9-ae50b3722464
+	sample.donor.1.id 5baa1b6d-6ecd-4dea-8312-7294ccafd35d
 	sample.donor.1.submitted_id POMC_GFP_I_4
 	sample.ena_sample ERS639339
 	sample.name POMC+ from mouse 4
@@ -99,15 +99,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866189/ERR866189_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866189/ERR866189_2.fastq.gz
 		assay.seq.ena_experiment ERX945817
 		assay.seq.ena_run ERR866189
-		sample.well.core.id ERX945817
+		sample.well.id ERX945817
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866285/ERR866285_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866285/ERR866285_2.fastq.gz
 		assay.seq.ena_experiment ERX945913
 		assay.seq.ena_run ERR866285
-		sample.well.core.id ERX945913
+		sample.well.id ERX945913
 
-	sample.core.id b047cd26-2d54-41d4-9463-fca2c731d2a8
-	sample.donor.1.core.id 7fb4bbd6-e009-4fa0-8114-f7e735baf534
+	sample.id b047cd26-2d54-41d4-9463-fca2c731d2a8
+	sample.donor.1.id 7fb4bbd6-e009-4fa0-8114-f7e735baf534
 	sample.donor.1.submitted_id POMC_GFP_I_5
 	sample.ena_sample ERS639340
 	sample.name POMC+ from mouse 5
@@ -117,15 +117,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866190/ERR866190_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866190/ERR866190_2.fastq.gz
 		assay.seq.ena_experiment ERX945818
 		assay.seq.ena_run ERR866190
-		sample.well.core.id ERX945818
+		sample.well.id ERX945818
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866286/ERR866286_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866286/ERR866286_2.fastq.gz
 		assay.seq.ena_experiment ERX945914
 		assay.seq.ena_run ERR866286
-		sample.well.core.id ERX945914
+		sample.well.id ERX945914
 
-	sample.core.id 06caa559-10c4-4af0-bd0e-8cf17f4c1e36
-	sample.donor.1.core.id 81b9cae4-555f-4f1e-9854-0c2c807a9ff6
+	sample.id 06caa559-10c4-4af0-bd0e-8cf17f4c1e36
+	sample.donor.1.id 81b9cae4-555f-4f1e-9854-0c2c807a9ff6
 	sample.donor.1.submitted_id POMC_GFP_I_6
 	sample.ena_sample ERS639341
 	sample.name POMC+ from mouse 6
@@ -135,15 +135,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866191/ERR866191_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866191/ERR866191_2.fastq.gz
 		assay.seq.ena_experiment ERX945819
 		assay.seq.ena_run ERR866191
-		sample.well.core.id ERX945819
+		sample.well.id ERX945819
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866287/ERR866287_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866287/ERR866287_2.fastq.gz
 		assay.seq.ena_experiment ERX945915
 		assay.seq.ena_run ERR866287
-		sample.well.core.id ERX945915
+		sample.well.id ERX945915
 
-	sample.core.id 5920495c-6ba9-49c4-a3fb-c70ef957db60
-	sample.donor.1.core.id 1498fb83-50db-4069-a5a2-4a6b96a1970d
+	sample.id 5920495c-6ba9-49c4-a3fb-c70ef957db60
+	sample.donor.1.id 1498fb83-50db-4069-a5a2-4a6b96a1970d
 	sample.donor.1.submitted_id POMC_GFP_I_7
 	sample.ena_sample ERS639342
 	sample.name POMC+ from mouse 7
@@ -153,15 +153,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866192/ERR866192_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866192/ERR866192_2.fastq.gz
 		assay.seq.ena_experiment ERX945820
 		assay.seq.ena_run ERR866192
-		sample.well.core.id ERX945820
+		sample.well.id ERX945820
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866288/ERR866288_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866288/ERR866288_2.fastq.gz
 		assay.seq.ena_experiment ERX945916
 		assay.seq.ena_run ERR866288
-		sample.well.core.id ERX945916
+		sample.well.id ERX945916
 
-	sample.core.id d3be1943-43dc-47b8-bec4-3f5185480f96
-	sample.donor.1.core.id ecfe1c37-de25-4352-8951-d6ccdb9398e5
+	sample.id d3be1943-43dc-47b8-bec4-3f5185480f96
+	sample.donor.1.id ecfe1c37-de25-4352-8951-d6ccdb9398e5
 	sample.donor.1.submitted_id POMC_GFP_I_8
 	sample.ena_sample ERS639343
 	sample.name POMC+ from mouse 8
@@ -171,15 +171,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866193/ERR866193_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866193/ERR866193_2.fastq.gz
 		assay.seq.ena_experiment ERX945821
 		assay.seq.ena_run ERR866193
-		sample.well.core.id ERX945821
+		sample.well.id ERX945821
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866289/ERR866289_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866289/ERR866289_2.fastq.gz
 		assay.seq.ena_experiment ERX945917
 		assay.seq.ena_run ERR866289
-		sample.well.core.id ERX945917
+		sample.well.id ERX945917
 
-	sample.core.id 6db68a63-f3c1-43e4-9f03-35da04e9243d
-	sample.donor.1.core.id a7e79d25-0032-45c3-9e2e-0252502d0577
+	sample.id 6db68a63-f3c1-43e4-9f03-35da04e9243d
+	sample.donor.1.id a7e79d25-0032-45c3-9e2e-0252502d0577
 	sample.donor.1.submitted_id POMC_GFP_I_9
 	sample.ena_sample ERS639344
 	sample.name POMC+ from mouse 9
@@ -189,15 +189,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866194/ERR866194_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866194/ERR866194_2.fastq.gz
 		assay.seq.ena_experiment ERX945822
 		assay.seq.ena_run ERR866194
-		sample.well.core.id ERX945822
+		sample.well.id ERX945822
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866290/ERR866290_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866290/ERR866290_2.fastq.gz
 		assay.seq.ena_experiment ERX945918
 		assay.seq.ena_run ERR866290
-		sample.well.core.id ERX945918
+		sample.well.id ERX945918
 
-	sample.core.id fc797b0c-255c-45e5-a4a4-ec21b7b4506e
-	sample.donor.1.core.id 66dfc6cc-5ccf-46b0-9e1a-28055db7fd09
+	sample.id fc797b0c-255c-45e5-a4a4-ec21b7b4506e
+	sample.donor.1.id 66dfc6cc-5ccf-46b0-9e1a-28055db7fd09
 	sample.donor.1.submitted_id POMC_GFP_I_10
 	sample.ena_sample ERS639345
 	sample.name POMC+ from mouse 10
@@ -207,15 +207,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866195/ERR866195_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866195/ERR866195_2.fastq.gz
 		assay.seq.ena_experiment ERX945823
 		assay.seq.ena_run ERR866195
-		sample.well.core.id ERX945823
+		sample.well.id ERX945823
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866291/ERR866291_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866291/ERR866291_2.fastq.gz
 		assay.seq.ena_experiment ERX945919
 		assay.seq.ena_run ERR866291
-		sample.well.core.id ERX945919
+		sample.well.id ERX945919
 
-	sample.core.id ca824fea-9dfc-4e32-b25a-11b382158fd6
-	sample.donor.1.core.id c850c43c-2821-4884-9fc3-e52182346df8
+	sample.id ca824fea-9dfc-4e32-b25a-11b382158fd6
+	sample.donor.1.id c850c43c-2821-4884-9fc3-e52182346df8
 	sample.donor.1.submitted_id POMC_GFP_I_11
 	sample.ena_sample ERS639346
 	sample.name POMC+ from mouse 11
@@ -225,15 +225,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866196/ERR866196_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866196/ERR866196_2.fastq.gz
 		assay.seq.ena_experiment ERX945824
 		assay.seq.ena_run ERR866196
-		sample.well.core.id ERX945824
+		sample.well.id ERX945824
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866292/ERR866292_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866292/ERR866292_2.fastq.gz
 		assay.seq.ena_experiment ERX945920
 		assay.seq.ena_run ERR866292
-		sample.well.core.id ERX945920
+		sample.well.id ERX945920
 
-	sample.core.id b2ecd5f9-ec43-4ad8-9ec0-ee1b57dc1d11
-	sample.donor.1.core.id 7c3de743-f627-4e54-9d51-8f968c35c744
+	sample.id b2ecd5f9-ec43-4ad8-9ec0-ee1b57dc1d11
+	sample.donor.1.id 7c3de743-f627-4e54-9d51-8f968c35c744
 	sample.donor.1.submitted_id POMC_GFP_I_12
 	sample.ena_sample ERS639347
 	sample.name POMC+ from mouse 12
@@ -243,15 +243,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866197/ERR866197_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866197/ERR866197_2.fastq.gz
 		assay.seq.ena_experiment ERX945825
 		assay.seq.ena_run ERR866197
-		sample.well.core.id ERX945825
+		sample.well.id ERX945825
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866293/ERR866293_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866293/ERR866293_2.fastq.gz
 		assay.seq.ena_experiment ERX945921
 		assay.seq.ena_run ERR866293
-		sample.well.core.id ERX945921
+		sample.well.id ERX945921
 
-	sample.core.id 33c9b5d1-64b4-42d3-ba76-d3390d21b83e
-	sample.donor.1.core.id 0ddd776d-3bed-4c19-8460-33b1f0cc702c
+	sample.id 33c9b5d1-64b4-42d3-ba76-d3390d21b83e
+	sample.donor.1.id 0ddd776d-3bed-4c19-8460-33b1f0cc702c
 	sample.donor.1.submitted_id POMC_GFP_I_13
 	sample.ena_sample ERS639348
 	sample.name POMC+ from mouse 13
@@ -261,15 +261,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866198/ERR866198_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866198/ERR866198_2.fastq.gz
 		assay.seq.ena_experiment ERX945826
 		assay.seq.ena_run ERR866198
-		sample.well.core.id ERX945826
+		sample.well.id ERX945826
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866294/ERR866294_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866294/ERR866294_2.fastq.gz
 		assay.seq.ena_experiment ERX945922
 		assay.seq.ena_run ERR866294
-		sample.well.core.id ERX945922
+		sample.well.id ERX945922
 
-	sample.core.id 6d18d3a7-5d5c-456a-a2b3-92ce33e470dd
-	sample.donor.1.core.id 03860fbd-4902-4e63-8735-aadd36205be4
+	sample.id 6d18d3a7-5d5c-456a-a2b3-92ce33e470dd
+	sample.donor.1.id 03860fbd-4902-4e63-8735-aadd36205be4
 	sample.donor.1.submitted_id POMC_GFP_I_14
 	sample.ena_sample ERS639349
 	sample.name POMC+ from mouse 14
@@ -279,15 +279,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866199/ERR866199_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866199/ERR866199_2.fastq.gz
 		assay.seq.ena_experiment ERX945827
 		assay.seq.ena_run ERR866199
-		sample.well.core.id ERX945827
+		sample.well.id ERX945827
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866295/ERR866295_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866295/ERR866295_2.fastq.gz
 		assay.seq.ena_experiment ERX945923
 		assay.seq.ena_run ERR866295
-		sample.well.core.id ERX945923
+		sample.well.id ERX945923
 
-	sample.core.id 3354b601-8550-4bb3-9ba0-93ad7705e73f
-	sample.donor.1.core.id 05348aa5-1602-4147-b5ac-a0b85c0fa455
+	sample.id 3354b601-8550-4bb3-9ba0-93ad7705e73f
+	sample.donor.1.id 05348aa5-1602-4147-b5ac-a0b85c0fa455
 	sample.donor.1.submitted_id POMC_GFP_I_15
 	sample.ena_sample ERS639350
 	sample.name POMC+ from mouse 15
@@ -297,15 +297,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866200/ERR866200_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866200/ERR866200_2.fastq.gz
 		assay.seq.ena_experiment ERX945828
 		assay.seq.ena_run ERR866200
-		sample.well.core.id ERX945828
+		sample.well.id ERX945828
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866296/ERR866296_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866296/ERR866296_2.fastq.gz
 		assay.seq.ena_experiment ERX945924
 		assay.seq.ena_run ERR866296
-		sample.well.core.id ERX945924
+		sample.well.id ERX945924
 
-	sample.core.id fdc706ef-19d8-4f3d-a166-2a653c12680e
-	sample.donor.1.core.id c893f9ac-ad01-4b5c-931f-d9856796cd1e
+	sample.id fdc706ef-19d8-4f3d-a166-2a653c12680e
+	sample.donor.1.id c893f9ac-ad01-4b5c-931f-d9856796cd1e
 	sample.donor.1.submitted_id POMC_GFP_I_16
 	sample.ena_sample ERS639351
 	sample.name POMC+ from mouse 16
@@ -315,15 +315,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866201/ERR866201_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866201/ERR866201_2.fastq.gz
 		assay.seq.ena_experiment ERX945829
 		assay.seq.ena_run ERR866201
-		sample.well.core.id ERX945829
+		sample.well.id ERX945829
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866297/ERR866297_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866297/ERR866297_2.fastq.gz
 		assay.seq.ena_experiment ERX945925
 		assay.seq.ena_run ERR866297
-		sample.well.core.id ERX945925
+		sample.well.id ERX945925
 
-	sample.core.id 7a29e9dd-6dc7-4aa7-9c35-7e63c4e0dfd7
-	sample.donor.1.core.id f98a13bc-d1c1-4c7a-ad00-bab21543a90a
+	sample.id 7a29e9dd-6dc7-4aa7-9c35-7e63c4e0dfd7
+	sample.donor.1.id f98a13bc-d1c1-4c7a-ad00-bab21543a90a
 	sample.donor.1.submitted_id POMC_GFP_I_17
 	sample.ena_sample ERS639352
 	sample.name POMC+ from mouse 17
@@ -333,15 +333,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866202/ERR866202_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866202/ERR866202_2.fastq.gz
 		assay.seq.ena_experiment ERX945830
 		assay.seq.ena_run ERR866202
-		sample.well.core.id ERX945830
+		sample.well.id ERX945830
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866298/ERR866298_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866298/ERR866298_2.fastq.gz
 		assay.seq.ena_experiment ERX945926
 		assay.seq.ena_run ERR866298
-		sample.well.core.id ERX945926
+		sample.well.id ERX945926
 
-	sample.core.id c5897916-e5d7-467b-92e6-dabb3713056c
-	sample.donor.1.core.id 7d4fed6d-3e83-4154-80c2-ad9bd2eafad6
+	sample.id c5897916-e5d7-467b-92e6-dabb3713056c
+	sample.donor.1.id 7d4fed6d-3e83-4154-80c2-ad9bd2eafad6
 	sample.donor.1.submitted_id POMC_GFP_I_18
 	sample.ena_sample ERS639353
 	sample.name POMC+ from mouse 18
@@ -351,15 +351,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866203/ERR866203_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866203/ERR866203_2.fastq.gz
 		assay.seq.ena_experiment ERX945831
 		assay.seq.ena_run ERR866203
-		sample.well.core.id ERX945831
+		sample.well.id ERX945831
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866299/ERR866299_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866299/ERR866299_2.fastq.gz
 		assay.seq.ena_experiment ERX945927
 		assay.seq.ena_run ERR866299
-		sample.well.core.id ERX945927
+		sample.well.id ERX945927
 
-	sample.core.id f89eb1a4-a514-4e9e-9a1d-4434a8038897
-	sample.donor.1.core.id 47320142-5d50-4263-ad52-d4272ac9c3cb
+	sample.id f89eb1a4-a514-4e9e-9a1d-4434a8038897
+	sample.donor.1.id 47320142-5d50-4263-ad52-d4272ac9c3cb
 	sample.donor.1.submitted_id POMC_GFP_I_19
 	sample.ena_sample ERS639354
 	sample.name POMC+ from mouse 19
@@ -369,15 +369,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866204/ERR866204_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866204/ERR866204_2.fastq.gz
 		assay.seq.ena_experiment ERX945832
 		assay.seq.ena_run ERR866204
-		sample.well.core.id ERX945832
+		sample.well.id ERX945832
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866300/ERR866300_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866300/ERR866300_2.fastq.gz
 		assay.seq.ena_experiment ERX945928
 		assay.seq.ena_run ERR866300
-		sample.well.core.id ERX945928
+		sample.well.id ERX945928
 
-	sample.core.id 981252e6-e7b4-4f55-b9dc-9c44c3e6e964
-	sample.donor.1.core.id c23c772e-3cf8-4684-bd68-69b6c289f0c7
+	sample.id 981252e6-e7b4-4f55-b9dc-9c44c3e6e964
+	sample.donor.1.id c23c772e-3cf8-4684-bd68-69b6c289f0c7
 	sample.donor.1.submitted_id POMC_GFP_I_20
 	sample.ena_sample ERS639355
 	sample.name POMC+ from mouse 20
@@ -387,15 +387,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866205/ERR866205_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866205/ERR866205_2.fastq.gz
 		assay.seq.ena_experiment ERX945833
 		assay.seq.ena_run ERR866205
-		sample.well.core.id ERX945833
+		sample.well.id ERX945833
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866301/ERR866301_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866301/ERR866301_2.fastq.gz
 		assay.seq.ena_experiment ERX945929
 		assay.seq.ena_run ERR866301
-		sample.well.core.id ERX945929
+		sample.well.id ERX945929
 
-	sample.core.id f3c97ba6-0e67-472b-a561-ef1ab95de75a
-	sample.donor.1.core.id 47578b97-d0ee-4420-820c-804d614870d4
+	sample.id f3c97ba6-0e67-472b-a561-ef1ab95de75a
+	sample.donor.1.id 47578b97-d0ee-4420-820c-804d614870d4
 	sample.donor.1.submitted_id POMC_GFP_I_21
 	sample.ena_sample ERS639356
 	sample.name POMC+ from mouse 21
@@ -405,15 +405,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866206/ERR866206_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866206/ERR866206_2.fastq.gz
 		assay.seq.ena_experiment ERX945834
 		assay.seq.ena_run ERR866206
-		sample.well.core.id ERX945834
+		sample.well.id ERX945834
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866302/ERR866302_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866302/ERR866302_2.fastq.gz
 		assay.seq.ena_experiment ERX945930
 		assay.seq.ena_run ERR866302
-		sample.well.core.id ERX945930
+		sample.well.id ERX945930
 
-	sample.core.id 5e43d8a2-af22-42a3-805e-1c2add3c9db4
-	sample.donor.1.core.id 10834b15-e0ac-41c4-9e9c-b7cc49ac53d7
+	sample.id 5e43d8a2-af22-42a3-805e-1c2add3c9db4
+	sample.donor.1.id 10834b15-e0ac-41c4-9e9c-b7cc49ac53d7
 	sample.donor.1.submitted_id POMC_GFP_I_22
 	sample.ena_sample ERS639357
 	sample.name POMC+ from mouse 22
@@ -423,15 +423,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866207/ERR866207_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866207/ERR866207_2.fastq.gz
 		assay.seq.ena_experiment ERX945835
 		assay.seq.ena_run ERR866207
-		sample.well.core.id ERX945835
+		sample.well.id ERX945835
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866303/ERR866303_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866303/ERR866303_2.fastq.gz
 		assay.seq.ena_experiment ERX945931
 		assay.seq.ena_run ERR866303
-		sample.well.core.id ERX945931
+		sample.well.id ERX945931
 
-	sample.core.id 751cf460-cd9b-45a3-8110-a320b5905b93
-	sample.donor.1.core.id dfcf743d-d158-4d56-8a94-3a69b84a3a15
+	sample.id 751cf460-cd9b-45a3-8110-a320b5905b93
+	sample.donor.1.id dfcf743d-d158-4d56-8a94-3a69b84a3a15
 	sample.donor.1.submitted_id POMC_GFP_I_23
 	sample.ena_sample ERS639358
 	sample.name POMC+ from mouse 23
@@ -441,15 +441,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866208/ERR866208_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866208/ERR866208_2.fastq.gz
 		assay.seq.ena_experiment ERX945836
 		assay.seq.ena_run ERR866208
-		sample.well.core.id ERX945836
+		sample.well.id ERX945836
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866304/ERR866304_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866304/ERR866304_2.fastq.gz
 		assay.seq.ena_experiment ERX945932
 		assay.seq.ena_run ERR866304
-		sample.well.core.id ERX945932
+		sample.well.id ERX945932
 
-	sample.core.id 1d5ded14-093f-4682-99f0-311550a9742d
-	sample.donor.1.core.id 6d103776-d34a-4209-b844-b065fd1d2c2d
+	sample.id 1d5ded14-093f-4682-99f0-311550a9742d
+	sample.donor.1.id 6d103776-d34a-4209-b844-b065fd1d2c2d
 	sample.donor.1.submitted_id POMC_GFP_I_24
 	sample.ena_sample ERS639359
 	sample.name POMC+ from mouse 24
@@ -459,15 +459,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866209/ERR866209_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866209/ERR866209_2.fastq.gz
 		assay.seq.ena_experiment ERX945837
 		assay.seq.ena_run ERR866209
-		sample.well.core.id ERX945837
+		sample.well.id ERX945837
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866305/ERR866305_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866305/ERR866305_2.fastq.gz
 		assay.seq.ena_experiment ERX945933
 		assay.seq.ena_run ERR866305
-		sample.well.core.id ERX945933
+		sample.well.id ERX945933
 
-	sample.core.id 8dcc6d9e-0a09-4715-9ea4-47e93c658f9a
-	sample.donor.1.core.id 59d2895a-0216-4b02-af2d-3b04cecbaafa
+	sample.id 8dcc6d9e-0a09-4715-9ea4-47e93c658f9a
+	sample.donor.1.id 59d2895a-0216-4b02-af2d-3b04cecbaafa
 	sample.donor.1.submitted_id POMC_GFP_I_25
 	sample.ena_sample ERS639360
 	sample.name POMC+ from mouse 25
@@ -477,15 +477,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866210/ERR866210_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866210/ERR866210_2.fastq.gz
 		assay.seq.ena_experiment ERX945838
 		assay.seq.ena_run ERR866210
-		sample.well.core.id ERX945838
+		sample.well.id ERX945838
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866306/ERR866306_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866306/ERR866306_2.fastq.gz
 		assay.seq.ena_experiment ERX945934
 		assay.seq.ena_run ERR866306
-		sample.well.core.id ERX945934
+		sample.well.id ERX945934
 
-	sample.core.id b70ab1d6-6430-4f60-b281-654ae9eb463c
-	sample.donor.1.core.id c7373a7a-ff66-40e3-9f11-3c7da12afca7
+	sample.id b70ab1d6-6430-4f60-b281-654ae9eb463c
+	sample.donor.1.id c7373a7a-ff66-40e3-9f11-3c7da12afca7
 	sample.donor.1.submitted_id POMC_GFP_I_26
 	sample.ena_sample ERS639361
 	sample.name POMC+ from mouse 26
@@ -495,15 +495,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866211/ERR866211_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866211/ERR866211_2.fastq.gz
 		assay.seq.ena_experiment ERX945839
 		assay.seq.ena_run ERR866211
-		sample.well.core.id ERX945839
+		sample.well.id ERX945839
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866307/ERR866307_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866307/ERR866307_2.fastq.gz
 		assay.seq.ena_experiment ERX945935
 		assay.seq.ena_run ERR866307
-		sample.well.core.id ERX945935
+		sample.well.id ERX945935
 
-	sample.core.id 01dfcbeb-e58d-42f6-9fa7-4f9094b1ee8c
-	sample.donor.1.core.id 756f001e-2228-489c-ab63-77170d82b768
+	sample.id 01dfcbeb-e58d-42f6-9fa7-4f9094b1ee8c
+	sample.donor.1.id 756f001e-2228-489c-ab63-77170d82b768
 	sample.donor.1.submitted_id POMC_GFP_I_27
 	sample.ena_sample ERS639362
 	sample.name POMC+ from mouse 27
@@ -513,15 +513,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866212/ERR866212_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866212/ERR866212_2.fastq.gz
 		assay.seq.ena_experiment ERX945840
 		assay.seq.ena_run ERR866212
-		sample.well.core.id ERX945840
+		sample.well.id ERX945840
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866308/ERR866308_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866308/ERR866308_2.fastq.gz
 		assay.seq.ena_experiment ERX945936
 		assay.seq.ena_run ERR866308
-		sample.well.core.id ERX945936
+		sample.well.id ERX945936
 
-	sample.core.id d492fea6-2020-4c16-9082-244e4183a010
-	sample.donor.1.core.id 1c079b9b-9d5c-4078-98cc-f28ed87b85d5
+	sample.id d492fea6-2020-4c16-9082-244e4183a010
+	sample.donor.1.id 1c079b9b-9d5c-4078-98cc-f28ed87b85d5
 	sample.donor.1.submitted_id POMC_GFP_I_28
 	sample.ena_sample ERS639363
 	sample.name POMC+ from mouse 28
@@ -531,15 +531,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866213/ERR866213_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866213/ERR866213_2.fastq.gz
 		assay.seq.ena_experiment ERX945841
 		assay.seq.ena_run ERR866213
-		sample.well.core.id ERX945841
+		sample.well.id ERX945841
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866309/ERR866309_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866309/ERR866309_2.fastq.gz
 		assay.seq.ena_experiment ERX945937
 		assay.seq.ena_run ERR866309
-		sample.well.core.id ERX945937
+		sample.well.id ERX945937
 
-	sample.core.id 5e9e79cc-2f7c-438f-a9bd-276541a6e75c
-	sample.donor.1.core.id 374375ef-47b6-498f-b5d3-3e9a58c96c4d
+	sample.id 5e9e79cc-2f7c-438f-a9bd-276541a6e75c
+	sample.donor.1.id 374375ef-47b6-498f-b5d3-3e9a58c96c4d
 	sample.donor.1.submitted_id POMC_GFP_I_29
 	sample.ena_sample ERS639364
 	sample.name POMC+ from mouse 29
@@ -549,15 +549,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866214/ERR866214_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866214/ERR866214_2.fastq.gz
 		assay.seq.ena_experiment ERX945842
 		assay.seq.ena_run ERR866214
-		sample.well.core.id ERX945842
+		sample.well.id ERX945842
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866310/ERR866310_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866310/ERR866310_2.fastq.gz
 		assay.seq.ena_experiment ERX945938
 		assay.seq.ena_run ERR866310
-		sample.well.core.id ERX945938
+		sample.well.id ERX945938
 
-	sample.core.id e01d949e-8ec7-4b08-8bdb-baac12b70f69
-	sample.donor.1.core.id eb32f18d-9099-4d3a-adc6-15a05ba529cb
+	sample.id e01d949e-8ec7-4b08-8bdb-baac12b70f69
+	sample.donor.1.id eb32f18d-9099-4d3a-adc6-15a05ba529cb
 	sample.donor.1.submitted_id POMC_GFP_I_30
 	sample.ena_sample ERS639365
 	sample.name POMC+ from mouse 30
@@ -567,15 +567,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866215/ERR866215_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866215/ERR866215_2.fastq.gz
 		assay.seq.ena_experiment ERX945843
 		assay.seq.ena_run ERR866215
-		sample.well.core.id ERX945843
+		sample.well.id ERX945843
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866311/ERR866311_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866311/ERR866311_2.fastq.gz
 		assay.seq.ena_experiment ERX945939
 		assay.seq.ena_run ERR866311
-		sample.well.core.id ERX945939
+		sample.well.id ERX945939
 
-	sample.core.id abfbc673-6b98-4807-94b4-8aba1bc89af2
-	sample.donor.1.core.id efaf9e8d-0563-48d4-afdf-460f17ac061b
+	sample.id abfbc673-6b98-4807-94b4-8aba1bc89af2
+	sample.donor.1.id efaf9e8d-0563-48d4-afdf-460f17ac061b
 	sample.donor.1.submitted_id POMC_GFP_I_31
 	sample.ena_sample ERS639366
 	sample.name POMC+ from mouse 31
@@ -585,15 +585,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866216/ERR866216_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866216/ERR866216_2.fastq.gz
 		assay.seq.ena_experiment ERX945844
 		assay.seq.ena_run ERR866216
-		sample.well.core.id ERX945844
+		sample.well.id ERX945844
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866312/ERR866312_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866312/ERR866312_2.fastq.gz
 		assay.seq.ena_experiment ERX945940
 		assay.seq.ena_run ERR866312
-		sample.well.core.id ERX945940
+		sample.well.id ERX945940
 
-	sample.core.id 52be67b5-c995-4eeb-9a84-46268da9285c
-	sample.donor.1.core.id 0640fac5-491e-4878-866d-1153cea0ade4
+	sample.id 52be67b5-c995-4eeb-9a84-46268da9285c
+	sample.donor.1.id 0640fac5-491e-4878-866d-1153cea0ade4
 	sample.donor.1.submitted_id POMC_GFP_I_32
 	sample.ena_sample ERS639367
 	sample.name POMC+ from mouse 32
@@ -603,15 +603,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866217/ERR866217_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866217/ERR866217_2.fastq.gz
 		assay.seq.ena_experiment ERX945845
 		assay.seq.ena_run ERR866217
-		sample.well.core.id ERX945845
+		sample.well.id ERX945845
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866313/ERR866313_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866313/ERR866313_2.fastq.gz
 		assay.seq.ena_experiment ERX945941
 		assay.seq.ena_run ERR866313
-		sample.well.core.id ERX945941
+		sample.well.id ERX945941
 
-	sample.core.id 2cf011e4-7c6a-49d9-bd20-cbaad5dcd195
-	sample.donor.1.core.id aebab3e4-300d-4d37-af72-29ae21ae1ede
+	sample.id 2cf011e4-7c6a-49d9-bd20-cbaad5dcd195
+	sample.donor.1.id aebab3e4-300d-4d37-af72-29ae21ae1ede
 	sample.donor.1.submitted_id POMC_GFP_I_33
 	sample.ena_sample ERS639368
 	sample.name POMC+ from mouse 33
@@ -621,15 +621,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866218/ERR866218_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866218/ERR866218_2.fastq.gz
 		assay.seq.ena_experiment ERX945846
 		assay.seq.ena_run ERR866218
-		sample.well.core.id ERX945846
+		sample.well.id ERX945846
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866314/ERR866314_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866314/ERR866314_2.fastq.gz
 		assay.seq.ena_experiment ERX945942
 		assay.seq.ena_run ERR866314
-		sample.well.core.id ERX945942
+		sample.well.id ERX945942
 
-	sample.core.id 5be2df75-09f1-41b3-a8e4-11ceddd92320
-	sample.donor.1.core.id 72ed7ece-b6f3-4645-bf86-ddf378541d26
+	sample.id 5be2df75-09f1-41b3-a8e4-11ceddd92320
+	sample.donor.1.id 72ed7ece-b6f3-4645-bf86-ddf378541d26
 	sample.donor.1.submitted_id POMC_GFP_I_34
 	sample.ena_sample ERS639369
 	sample.name POMC+ from mouse 34
@@ -639,15 +639,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866219/ERR866219_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866219/ERR866219_2.fastq.gz
 		assay.seq.ena_experiment ERX945847
 		assay.seq.ena_run ERR866219
-		sample.well.core.id ERX945847
+		sample.well.id ERX945847
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866315/ERR866315_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866315/ERR866315_2.fastq.gz
 		assay.seq.ena_experiment ERX945943
 		assay.seq.ena_run ERR866315
-		sample.well.core.id ERX945943
+		sample.well.id ERX945943
 
-	sample.core.id 14c15fc9-321a-445e-8838-fee2cdc6d220
-	sample.donor.1.core.id c0613b50-7c1b-4f1a-ae8d-12ccc003ee02
+	sample.id 14c15fc9-321a-445e-8838-fee2cdc6d220
+	sample.donor.1.id c0613b50-7c1b-4f1a-ae8d-12ccc003ee02
 	sample.donor.1.submitted_id POMC_GFP_I_35
 	sample.ena_sample ERS639370
 	sample.name POMC+ from mouse 35
@@ -657,15 +657,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866220/ERR866220_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866220/ERR866220_2.fastq.gz
 		assay.seq.ena_experiment ERX945848
 		assay.seq.ena_run ERR866220
-		sample.well.core.id ERX945848
+		sample.well.id ERX945848
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866316/ERR866316_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866316/ERR866316_2.fastq.gz
 		assay.seq.ena_experiment ERX945944
 		assay.seq.ena_run ERR866316
-		sample.well.core.id ERX945944
+		sample.well.id ERX945944
 
-	sample.core.id ac7c2cfe-f5f7-4da7-97d7-f47c3184b56e
-	sample.donor.1.core.id f27bad64-d17c-4dbe-887d-633c7294adbe
+	sample.id ac7c2cfe-f5f7-4da7-97d7-f47c3184b56e
+	sample.donor.1.id f27bad64-d17c-4dbe-887d-633c7294adbe
 	sample.donor.1.submitted_id POMC_GFP_I_36
 	sample.ena_sample ERS639371
 	sample.name POMC+ from mouse 36
@@ -675,15 +675,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866221/ERR866221_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866221/ERR866221_2.fastq.gz
 		assay.seq.ena_experiment ERX945849
 		assay.seq.ena_run ERR866221
-		sample.well.core.id ERX945849
+		sample.well.id ERX945849
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866317/ERR866317_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866317/ERR866317_2.fastq.gz
 		assay.seq.ena_experiment ERX945945
 		assay.seq.ena_run ERR866317
-		sample.well.core.id ERX945945
+		sample.well.id ERX945945
 
-	sample.core.id ac5f49d4-dd33-4a01-9953-68f55f134c89
-	sample.donor.1.core.id 7ccc9398-004f-47a3-928b-ed9eee966c36
+	sample.id ac5f49d4-dd33-4a01-9953-68f55f134c89
+	sample.donor.1.id 7ccc9398-004f-47a3-928b-ed9eee966c36
 	sample.donor.1.submitted_id POMC_GFP_I_37
 	sample.ena_sample ERS639372
 	sample.name POMC+ from mouse 37
@@ -693,15 +693,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866222/ERR866222_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866222/ERR866222_2.fastq.gz
 		assay.seq.ena_experiment ERX945850
 		assay.seq.ena_run ERR866222
-		sample.well.core.id ERX945850
+		sample.well.id ERX945850
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866318/ERR866318_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866318/ERR866318_2.fastq.gz
 		assay.seq.ena_experiment ERX945946
 		assay.seq.ena_run ERR866318
-		sample.well.core.id ERX945946
+		sample.well.id ERX945946
 
-	sample.core.id 291fe510-a5e6-4853-8f95-02ac7add9144
-	sample.donor.1.core.id acb86171-19ed-4c08-aefa-eaa826f73644
+	sample.id 291fe510-a5e6-4853-8f95-02ac7add9144
+	sample.donor.1.id acb86171-19ed-4c08-aefa-eaa826f73644
 	sample.donor.1.submitted_id POMC_GFP_I_38
 	sample.ena_sample ERS639373
 	sample.name POMC+ from mouse 38
@@ -711,15 +711,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866223/ERR866223_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866223/ERR866223_2.fastq.gz
 		assay.seq.ena_experiment ERX945851
 		assay.seq.ena_run ERR866223
-		sample.well.core.id ERX945851
+		sample.well.id ERX945851
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866319/ERR866319_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866319/ERR866319_2.fastq.gz
 		assay.seq.ena_experiment ERX945947
 		assay.seq.ena_run ERR866319
-		sample.well.core.id ERX945947
+		sample.well.id ERX945947
 
-	sample.core.id 6dcbfb01-8c3a-48a5-897c-45b6f7dfe059
-	sample.donor.1.core.id f485a70f-ecfa-47e5-a833-73323a850789
+	sample.id 6dcbfb01-8c3a-48a5-897c-45b6f7dfe059
+	sample.donor.1.id f485a70f-ecfa-47e5-a833-73323a850789
 	sample.donor.1.submitted_id POMC_GFP_I_39
 	sample.ena_sample ERS639374
 	sample.name POMC+ from mouse 39
@@ -729,15 +729,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866224/ERR866224_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866224/ERR866224_2.fastq.gz
 		assay.seq.ena_experiment ERX945852
 		assay.seq.ena_run ERR866224
-		sample.well.core.id ERX945852
+		sample.well.id ERX945852
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866320/ERR866320_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866320/ERR866320_2.fastq.gz
 		assay.seq.ena_experiment ERX945948
 		assay.seq.ena_run ERR866320
-		sample.well.core.id ERX945948
+		sample.well.id ERX945948
 
-	sample.core.id f6180ad9-2db5-4af2-b89d-6011d0413bd4
-	sample.donor.1.core.id 0c15c18b-c83b-457c-a0af-e9a6f4f039c4
+	sample.id f6180ad9-2db5-4af2-b89d-6011d0413bd4
+	sample.donor.1.id 0c15c18b-c83b-457c-a0af-e9a6f4f039c4
 	sample.donor.1.submitted_id POMC_GFP_I_40
 	sample.ena_sample ERS639375
 	sample.name POMC+ from mouse 40
@@ -747,15 +747,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866225/ERR866225_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866225/ERR866225_2.fastq.gz
 		assay.seq.ena_experiment ERX945853
 		assay.seq.ena_run ERR866225
-		sample.well.core.id ERX945853
+		sample.well.id ERX945853
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866321/ERR866321_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866321/ERR866321_2.fastq.gz
 		assay.seq.ena_experiment ERX945949
 		assay.seq.ena_run ERR866321
-		sample.well.core.id ERX945949
+		sample.well.id ERX945949
 
-	sample.core.id 8cecf32f-d51c-4c38-8e96-a0d8d2417234
-	sample.donor.1.core.id f51062c8-d4e4-436b-a08d-1c16645febc3
+	sample.id 8cecf32f-d51c-4c38-8e96-a0d8d2417234
+	sample.donor.1.id f51062c8-d4e4-436b-a08d-1c16645febc3
 	sample.donor.1.submitted_id POMC_GFP_I_41
 	sample.ena_sample ERS639376
 	sample.name POMC+ from mouse 41
@@ -765,15 +765,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866226/ERR866226_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866226/ERR866226_2.fastq.gz
 		assay.seq.ena_experiment ERX945854
 		assay.seq.ena_run ERR866226
-		sample.well.core.id ERX945854
+		sample.well.id ERX945854
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866322/ERR866322_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866322/ERR866322_2.fastq.gz
 		assay.seq.ena_experiment ERX945950
 		assay.seq.ena_run ERR866322
-		sample.well.core.id ERX945950
+		sample.well.id ERX945950
 
-	sample.core.id 231ce516-04f2-4591-8bce-451daf804bd1
-	sample.donor.1.core.id 9db1c073-bab1-486a-9bb4-a02b882508b1
+	sample.id 231ce516-04f2-4591-8bce-451daf804bd1
+	sample.donor.1.id 9db1c073-bab1-486a-9bb4-a02b882508b1
 	sample.donor.1.submitted_id POMC_GFP_I_42
 	sample.ena_sample ERS639377
 	sample.name POMC+ from mouse 42
@@ -783,15 +783,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866227/ERR866227_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866227/ERR866227_2.fastq.gz
 		assay.seq.ena_experiment ERX945855
 		assay.seq.ena_run ERR866227
-		sample.well.core.id ERX945855
+		sample.well.id ERX945855
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866323/ERR866323_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866323/ERR866323_2.fastq.gz
 		assay.seq.ena_experiment ERX945951
 		assay.seq.ena_run ERR866323
-		sample.well.core.id ERX945951
+		sample.well.id ERX945951
 
-	sample.core.id e1995287-ec63-4b5f-8884-6858c08ca2ba
-	sample.donor.1.core.id 0874d2ba-0085-4235-a226-433177658559
+	sample.id e1995287-ec63-4b5f-8884-6858c08ca2ba
+	sample.donor.1.id 0874d2ba-0085-4235-a226-433177658559
 	sample.donor.1.submitted_id POMC_GFP_I_43
 	sample.ena_sample ERS639378
 	sample.name POMC+ from mouse 43
@@ -801,15 +801,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866228/ERR866228_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866228/ERR866228_2.fastq.gz
 		assay.seq.ena_experiment ERX945856
 		assay.seq.ena_run ERR866228
-		sample.well.core.id ERX945856
+		sample.well.id ERX945856
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866324/ERR866324_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866324/ERR866324_2.fastq.gz
 		assay.seq.ena_experiment ERX945952
 		assay.seq.ena_run ERR866324
-		sample.well.core.id ERX945952
+		sample.well.id ERX945952
 
-	sample.core.id a43f0186-3d34-47fa-9c04-63cb30add199
-	sample.donor.1.core.id f1d2a894-b6cd-431f-8250-981f7ec2c341
+	sample.id a43f0186-3d34-47fa-9c04-63cb30add199
+	sample.donor.1.id f1d2a894-b6cd-431f-8250-981f7ec2c341
 	sample.donor.1.submitted_id POMC_GFP_I_44
 	sample.ena_sample ERS639379
 	sample.name POMC+ from mouse 44
@@ -819,15 +819,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866229/ERR866229_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866229/ERR866229_2.fastq.gz
 		assay.seq.ena_experiment ERX945857
 		assay.seq.ena_run ERR866229
-		sample.well.core.id ERX945857
+		sample.well.id ERX945857
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866325/ERR866325_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866325/ERR866325_2.fastq.gz
 		assay.seq.ena_experiment ERX945953
 		assay.seq.ena_run ERR866325
-		sample.well.core.id ERX945953
+		sample.well.id ERX945953
 
-	sample.core.id ec598220-0c9f-4668-bf3b-753985136e62
-	sample.donor.1.core.id 364890f1-fea8-4384-ac2d-7c583ba2e378
+	sample.id ec598220-0c9f-4668-bf3b-753985136e62
+	sample.donor.1.id 364890f1-fea8-4384-ac2d-7c583ba2e378
 	sample.donor.1.submitted_id POMC_GFP_I_45
 	sample.ena_sample ERS639380
 	sample.name POMC+ from mouse 45
@@ -837,15 +837,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866230/ERR866230_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866230/ERR866230_2.fastq.gz
 		assay.seq.ena_experiment ERX945858
 		assay.seq.ena_run ERR866230
-		sample.well.core.id ERX945858
+		sample.well.id ERX945858
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866326/ERR866326_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866326/ERR866326_2.fastq.gz
 		assay.seq.ena_experiment ERX945954
 		assay.seq.ena_run ERR866326
-		sample.well.core.id ERX945954
+		sample.well.id ERX945954
 
-	sample.core.id c97b65f4-c888-428f-a3a5-45aa777177e3
-	sample.donor.1.core.id fec6a033-9169-4175-9dc1-c210bb30224d
+	sample.id c97b65f4-c888-428f-a3a5-45aa777177e3
+	sample.donor.1.id fec6a033-9169-4175-9dc1-c210bb30224d
 	sample.donor.1.submitted_id POMC_GFP_I_46
 	sample.ena_sample ERS639381
 	sample.name POMC+ from mouse 46
@@ -855,15 +855,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866231/ERR866231_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866231/ERR866231_2.fastq.gz
 		assay.seq.ena_experiment ERX945859
 		assay.seq.ena_run ERR866231
-		sample.well.core.id ERX945859
+		sample.well.id ERX945859
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866327/ERR866327_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866327/ERR866327_2.fastq.gz
 		assay.seq.ena_experiment ERX945955
 		assay.seq.ena_run ERR866327
-		sample.well.core.id ERX945955
+		sample.well.id ERX945955
 
-	sample.core.id cc5fa29a-fdd5-465c-b202-45f7e2607099
-	sample.donor.1.core.id eae4fc87-2872-4143-b79d-b478b8c8cc51
+	sample.id cc5fa29a-fdd5-465c-b202-45f7e2607099
+	sample.donor.1.id eae4fc87-2872-4143-b79d-b478b8c8cc51
 	sample.donor.1.submitted_id POMC_GFP_I_47
 	sample.ena_sample ERS639382
 	sample.name POMC+ from mouse 47
@@ -873,15 +873,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866232/ERR866232_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866232/ERR866232_2.fastq.gz
 		assay.seq.ena_experiment ERX945860
 		assay.seq.ena_run ERR866232
-		sample.well.core.id ERX945860
+		sample.well.id ERX945860
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866328/ERR866328_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866328/ERR866328_2.fastq.gz
 		assay.seq.ena_experiment ERX945956
 		assay.seq.ena_run ERR866328
-		sample.well.core.id ERX945956
+		sample.well.id ERX945956
 
-	sample.core.id 17fb876d-8f20-4a04-8e96-2051ed967e38
-	sample.donor.1.core.id 19742992-7ac4-40c0-8354-7058c4ec77ee
+	sample.id 17fb876d-8f20-4a04-8e96-2051ed967e38
+	sample.donor.1.id 19742992-7ac4-40c0-8354-7058c4ec77ee
 	sample.donor.1.submitted_id POMC_GFP_I_48
 	sample.ena_sample ERS639383
 	sample.name POMC+ from mouse 48
@@ -891,15 +891,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866233/ERR866233_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866233/ERR866233_2.fastq.gz
 		assay.seq.ena_experiment ERX945861
 		assay.seq.ena_run ERR866233
-		sample.well.core.id ERX945861
+		sample.well.id ERX945861
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866329/ERR866329_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866329/ERR866329_2.fastq.gz
 		assay.seq.ena_experiment ERX945957
 		assay.seq.ena_run ERR866329
-		sample.well.core.id ERX945957
+		sample.well.id ERX945957
 
-	sample.core.id f0183360-9f6f-409c-b3e5-34accfe2c55c
-	sample.donor.1.core.id 4c7c4f2a-d2cf-4bc7-9eae-c78abce913dd
+	sample.id f0183360-9f6f-409c-b3e5-34accfe2c55c
+	sample.donor.1.id 4c7c4f2a-d2cf-4bc7-9eae-c78abce913dd
 	sample.donor.1.submitted_id POMC_GFP_I_49
 	sample.ena_sample ERS639384
 	sample.name POMC+ from mouse 49
@@ -909,15 +909,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866234/ERR866234_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866234/ERR866234_2.fastq.gz
 		assay.seq.ena_experiment ERX945862
 		assay.seq.ena_run ERR866234
-		sample.well.core.id ERX945862
+		sample.well.id ERX945862
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866330/ERR866330_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866330/ERR866330_2.fastq.gz
 		assay.seq.ena_experiment ERX945958
 		assay.seq.ena_run ERR866330
-		sample.well.core.id ERX945958
+		sample.well.id ERX945958
 
-	sample.core.id 42e93c2d-4e1c-4bc7-8128-ede7c8b981f4
-	sample.donor.1.core.id abc69d50-7f4d-4b69-97b8-a7728cb2217e
+	sample.id 42e93c2d-4e1c-4bc7-8128-ede7c8b981f4
+	sample.donor.1.id abc69d50-7f4d-4b69-97b8-a7728cb2217e
 	sample.donor.1.submitted_id POMC_GFP_I_50
 	sample.ena_sample ERS639385
 	sample.name POMC+ from mouse 50
@@ -927,15 +927,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866235/ERR866235_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866235/ERR866235_2.fastq.gz
 		assay.seq.ena_experiment ERX945863
 		assay.seq.ena_run ERR866235
-		sample.well.core.id ERX945863
+		sample.well.id ERX945863
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866331/ERR866331_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866331/ERR866331_2.fastq.gz
 		assay.seq.ena_experiment ERX945959
 		assay.seq.ena_run ERR866331
-		sample.well.core.id ERX945959
+		sample.well.id ERX945959
 
-	sample.core.id 9026bef1-c74a-4b64-850e-1d806ead4949
-	sample.donor.1.core.id a75942ef-934b-46d3-9622-303608326bd5
+	sample.id 9026bef1-c74a-4b64-850e-1d806ead4949
+	sample.donor.1.id a75942ef-934b-46d3-9622-303608326bd5
 	sample.donor.1.submitted_id POMC_GFP_I_51
 	sample.ena_sample ERS639386
 	sample.name POMC+ from mouse 51
@@ -945,15 +945,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866236/ERR866236_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866236/ERR866236_2.fastq.gz
 		assay.seq.ena_experiment ERX945864
 		assay.seq.ena_run ERR866236
-		sample.well.core.id ERX945864
+		sample.well.id ERX945864
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866332/ERR866332_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866332/ERR866332_2.fastq.gz
 		assay.seq.ena_experiment ERX945960
 		assay.seq.ena_run ERR866332
-		sample.well.core.id ERX945960
+		sample.well.id ERX945960
 
-	sample.core.id b6cb2c36-a917-428a-bcf6-5f309620b9d8
-	sample.donor.1.core.id 51cfaa4b-dc87-4bf1-80d4-b5a9585f37fd
+	sample.id b6cb2c36-a917-428a-bcf6-5f309620b9d8
+	sample.donor.1.id 51cfaa4b-dc87-4bf1-80d4-b5a9585f37fd
 	sample.donor.1.submitted_id POMC_GFP_I_52
 	sample.ena_sample ERS639387
 	sample.name POMC+ from mouse 52
@@ -963,15 +963,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866237/ERR866237_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866237/ERR866237_2.fastq.gz
 		assay.seq.ena_experiment ERX945865
 		assay.seq.ena_run ERR866237
-		sample.well.core.id ERX945865
+		sample.well.id ERX945865
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866333/ERR866333_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866333/ERR866333_2.fastq.gz
 		assay.seq.ena_experiment ERX945961
 		assay.seq.ena_run ERR866333
-		sample.well.core.id ERX945961
+		sample.well.id ERX945961
 
-	sample.core.id 4f835da8-5819-4e2a-b38c-8e0540200ba0
-	sample.donor.1.core.id e0d2017a-5612-4fbf-8a60-f0f3f7019152
+	sample.id 4f835da8-5819-4e2a-b38c-8e0540200ba0
+	sample.donor.1.id e0d2017a-5612-4fbf-8a60-f0f3f7019152
 	sample.donor.1.submitted_id POMC_GFP_I_53
 	sample.ena_sample ERS639388
 	sample.name POMC+ from mouse 53
@@ -981,15 +981,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866238/ERR866238_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866238/ERR866238_2.fastq.gz
 		assay.seq.ena_experiment ERX945866
 		assay.seq.ena_run ERR866238
-		sample.well.core.id ERX945866
+		sample.well.id ERX945866
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866334/ERR866334_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866334/ERR866334_2.fastq.gz
 		assay.seq.ena_experiment ERX945962
 		assay.seq.ena_run ERR866334
-		sample.well.core.id ERX945962
+		sample.well.id ERX945962
 
-	sample.core.id 40180bbc-d44b-4830-8fde-08a19c533211
-	sample.donor.1.core.id af861fed-eb2b-4cd9-bf8e-316bc73fc8d9
+	sample.id 40180bbc-d44b-4830-8fde-08a19c533211
+	sample.donor.1.id af861fed-eb2b-4cd9-bf8e-316bc73fc8d9
 	sample.donor.1.submitted_id POMC_GFP_I_54
 	sample.ena_sample ERS639389
 	sample.name POMC+ from mouse 54
@@ -999,15 +999,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866239/ERR866239_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866239/ERR866239_2.fastq.gz
 		assay.seq.ena_experiment ERX945867
 		assay.seq.ena_run ERR866239
-		sample.well.core.id ERX945867
+		sample.well.id ERX945867
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866335/ERR866335_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866335/ERR866335_2.fastq.gz
 		assay.seq.ena_experiment ERX945963
 		assay.seq.ena_run ERR866335
-		sample.well.core.id ERX945963
+		sample.well.id ERX945963
 
-	sample.core.id 6da7608b-026e-4bab-a257-adad9d3350ef
-	sample.donor.1.core.id bd584fd2-9304-4524-aa42-a4b4cb4596bd
+	sample.id 6da7608b-026e-4bab-a257-adad9d3350ef
+	sample.donor.1.id bd584fd2-9304-4524-aa42-a4b4cb4596bd
 	sample.donor.1.submitted_id POMC_GFP_I_55
 	sample.ena_sample ERS639390
 	sample.name POMC+ from mouse 55
@@ -1017,15 +1017,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866240/ERR866240_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866240/ERR866240_2.fastq.gz
 		assay.seq.ena_experiment ERX945868
 		assay.seq.ena_run ERR866240
-		sample.well.core.id ERX945868
+		sample.well.id ERX945868
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866336/ERR866336_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866336/ERR866336_2.fastq.gz
 		assay.seq.ena_experiment ERX945964
 		assay.seq.ena_run ERR866336
-		sample.well.core.id ERX945964
+		sample.well.id ERX945964
 
-	sample.core.id 96a6efef-2c0a-4d98-baa6-1e16a8db7c61
-	sample.donor.1.core.id a88c518c-70e8-476d-85d5-b18b2c6d5d7a
+	sample.id 96a6efef-2c0a-4d98-baa6-1e16a8db7c61
+	sample.donor.1.id a88c518c-70e8-476d-85d5-b18b2c6d5d7a
 	sample.donor.1.submitted_id POMC_GFP_I_56
 	sample.ena_sample ERS639391
 	sample.name POMC+ from mouse 56
@@ -1035,15 +1035,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866241/ERR866241_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866241/ERR866241_2.fastq.gz
 		assay.seq.ena_experiment ERX945869
 		assay.seq.ena_run ERR866241
-		sample.well.core.id ERX945869
+		sample.well.id ERX945869
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866337/ERR866337_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866337/ERR866337_2.fastq.gz
 		assay.seq.ena_experiment ERX945965
 		assay.seq.ena_run ERR866337
-		sample.well.core.id ERX945965
+		sample.well.id ERX945965
 
-	sample.core.id 5f27a949-b72a-4119-a4e1-620188cfce38
-	sample.donor.1.core.id c2b01741-8f4d-489c-9c5a-50f8fe8512d8
+	sample.id 5f27a949-b72a-4119-a4e1-620188cfce38
+	sample.donor.1.id c2b01741-8f4d-489c-9c5a-50f8fe8512d8
 	sample.donor.1.submitted_id POMC_GFP_I_57
 	sample.ena_sample ERS639392
 	sample.name POMC+ from mouse 57
@@ -1053,15 +1053,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866242/ERR866242_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866242/ERR866242_2.fastq.gz
 		assay.seq.ena_experiment ERX945870
 		assay.seq.ena_run ERR866242
-		sample.well.core.id ERX945870
+		sample.well.id ERX945870
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866338/ERR866338_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866338/ERR866338_2.fastq.gz
 		assay.seq.ena_experiment ERX945966
 		assay.seq.ena_run ERR866338
-		sample.well.core.id ERX945966
+		sample.well.id ERX945966
 
-	sample.core.id 7753abdd-5ce0-4524-b63d-d2292142296d
-	sample.donor.1.core.id 95f98d5f-6172-4ad7-b504-b32a963a8283
+	sample.id 7753abdd-5ce0-4524-b63d-d2292142296d
+	sample.donor.1.id 95f98d5f-6172-4ad7-b504-b32a963a8283
 	sample.donor.1.submitted_id POMC_GFP_I_58
 	sample.ena_sample ERS639393
 	sample.name POMC+ from mouse 58
@@ -1071,15 +1071,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866243/ERR866243_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866243/ERR866243_2.fastq.gz
 		assay.seq.ena_experiment ERX945871
 		assay.seq.ena_run ERR866243
-		sample.well.core.id ERX945871
+		sample.well.id ERX945871
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866339/ERR866339_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866339/ERR866339_2.fastq.gz
 		assay.seq.ena_experiment ERX945967
 		assay.seq.ena_run ERR866339
-		sample.well.core.id ERX945967
+		sample.well.id ERX945967
 
-	sample.core.id 01da731f-f940-4db8-9853-8cc3b1cfd63c
-	sample.donor.1.core.id 628b16b7-3603-45a5-8535-4a9d3c800a37
+	sample.id 01da731f-f940-4db8-9853-8cc3b1cfd63c
+	sample.donor.1.id 628b16b7-3603-45a5-8535-4a9d3c800a37
 	sample.donor.1.submitted_id POMC_GFP_I_59
 	sample.ena_sample ERS639394
 	sample.name POMC+ from mouse 59
@@ -1089,15 +1089,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866244/ERR866244_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866244/ERR866244_2.fastq.gz
 		assay.seq.ena_experiment ERX945872
 		assay.seq.ena_run ERR866244
-		sample.well.core.id ERX945872
+		sample.well.id ERX945872
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866340/ERR866340_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866340/ERR866340_2.fastq.gz
 		assay.seq.ena_experiment ERX945968
 		assay.seq.ena_run ERR866340
-		sample.well.core.id ERX945968
+		sample.well.id ERX945968
 
-	sample.core.id ce29b1dc-51be-4387-92b9-5b6a0b4c3fda
-	sample.donor.1.core.id 344e3ae8-c3eb-4348-8fa0-f019131daa9d
+	sample.id ce29b1dc-51be-4387-92b9-5b6a0b4c3fda
+	sample.donor.1.id 344e3ae8-c3eb-4348-8fa0-f019131daa9d
 	sample.donor.1.submitted_id POMC_GFP_I_60
 	sample.ena_sample ERS639395
 	sample.name POMC+ from mouse 60
@@ -1107,15 +1107,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866245/ERR866245_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866245/ERR866245_2.fastq.gz
 		assay.seq.ena_experiment ERX945873
 		assay.seq.ena_run ERR866245
-		sample.well.core.id ERX945873
+		sample.well.id ERX945873
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866341/ERR866341_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866341/ERR866341_2.fastq.gz
 		assay.seq.ena_experiment ERX945969
 		assay.seq.ena_run ERR866341
-		sample.well.core.id ERX945969
+		sample.well.id ERX945969
 
-	sample.core.id ac7ccf8c-ee51-440c-90a7-2756adc187c4
-	sample.donor.1.core.id cdc70902-d23b-4b08-8725-a28b8d6eb0c2
+	sample.id ac7ccf8c-ee51-440c-90a7-2756adc187c4
+	sample.donor.1.id cdc70902-d23b-4b08-8725-a28b8d6eb0c2
 	sample.donor.1.submitted_id POMC_GFP_I_61
 	sample.ena_sample ERS639396
 	sample.name POMC+ from mouse 61
@@ -1125,15 +1125,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866246/ERR866246_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866246/ERR866246_2.fastq.gz
 		assay.seq.ena_experiment ERX945874
 		assay.seq.ena_run ERR866246
-		sample.well.core.id ERX945874
+		sample.well.id ERX945874
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866342/ERR866342_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866342/ERR866342_2.fastq.gz
 		assay.seq.ena_experiment ERX945970
 		assay.seq.ena_run ERR866342
-		sample.well.core.id ERX945970
+		sample.well.id ERX945970
 
-	sample.core.id 31860d59-400e-415b-bcea-e3f410aaba58
-	sample.donor.1.core.id 0c9e2d43-bc5e-46cc-9835-c0774de5d8c7
+	sample.id 31860d59-400e-415b-bcea-e3f410aaba58
+	sample.donor.1.id 0c9e2d43-bc5e-46cc-9835-c0774de5d8c7
 	sample.donor.1.submitted_id POMC_GFP_I_62
 	sample.ena_sample ERS639397
 	sample.name POMC+ from mouse 62
@@ -1143,15 +1143,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866247/ERR866247_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866247/ERR866247_2.fastq.gz
 		assay.seq.ena_experiment ERX945875
 		assay.seq.ena_run ERR866247
-		sample.well.core.id ERX945875
+		sample.well.id ERX945875
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866343/ERR866343_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866343/ERR866343_2.fastq.gz
 		assay.seq.ena_experiment ERX945971
 		assay.seq.ena_run ERR866343
-		sample.well.core.id ERX945971
+		sample.well.id ERX945971
 
-	sample.core.id dfb87407-1e3c-49ff-9a2a-de67afae5f74
-	sample.donor.1.core.id 1815307c-e4e3-4c3b-975a-08a601b27440
+	sample.id dfb87407-1e3c-49ff-9a2a-de67afae5f74
+	sample.donor.1.id 1815307c-e4e3-4c3b-975a-08a601b27440
 	sample.donor.1.submitted_id POMC_GFP_I_63
 	sample.ena_sample ERS639398
 	sample.name POMC+ from mouse 63
@@ -1161,15 +1161,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866248/ERR866248_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866248/ERR866248_2.fastq.gz
 		assay.seq.ena_experiment ERX945876
 		assay.seq.ena_run ERR866248
-		sample.well.core.id ERX945876
+		sample.well.id ERX945876
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866344/ERR866344_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866344/ERR866344_2.fastq.gz
 		assay.seq.ena_experiment ERX945972
 		assay.seq.ena_run ERR866344
-		sample.well.core.id ERX945972
+		sample.well.id ERX945972
 
-	sample.core.id 99b178fe-c377-48d0-a43c-79371c3de747
-	sample.donor.1.core.id a04702fa-eadd-498b-8e40-9064ceb2fbf8
+	sample.id 99b178fe-c377-48d0-a43c-79371c3de747
+	sample.donor.1.id a04702fa-eadd-498b-8e40-9064ceb2fbf8
 	sample.donor.1.submitted_id POMC_GFP_I_64
 	sample.ena_sample ERS639399
 	sample.name POMC+ from mouse 64
@@ -1179,15 +1179,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866249/ERR866249_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866249/ERR866249_2.fastq.gz
 		assay.seq.ena_experiment ERX945877
 		assay.seq.ena_run ERR866249
-		sample.well.core.id ERX945877
+		sample.well.id ERX945877
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866345/ERR866345_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866345/ERR866345_2.fastq.gz
 		assay.seq.ena_experiment ERX945973
 		assay.seq.ena_run ERR866345
-		sample.well.core.id ERX945973
+		sample.well.id ERX945973
 
-	sample.core.id 566db369-5214-4be0-8cba-24240b949ee7
-	sample.donor.1.core.id 9fe9d72b-229d-460c-aa6c-c233716f2a8f
+	sample.id 566db369-5214-4be0-8cba-24240b949ee7
+	sample.donor.1.id 9fe9d72b-229d-460c-aa6c-c233716f2a8f
 	sample.donor.1.submitted_id POMC_GFP_I_65
 	sample.ena_sample ERS639400
 	sample.name POMC+ from mouse 65
@@ -1197,15 +1197,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866250/ERR866250_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866250/ERR866250_2.fastq.gz
 		assay.seq.ena_experiment ERX945878
 		assay.seq.ena_run ERR866250
-		sample.well.core.id ERX945878
+		sample.well.id ERX945878
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866346/ERR866346_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866346/ERR866346_2.fastq.gz
 		assay.seq.ena_experiment ERX945974
 		assay.seq.ena_run ERR866346
-		sample.well.core.id ERX945974
+		sample.well.id ERX945974
 
-	sample.core.id 02cb6b36-8287-44bb-b538-82595cba2abc
-	sample.donor.1.core.id 0d2a5d22-1120-48cb-b12d-c077c3acccab
+	sample.id 02cb6b36-8287-44bb-b538-82595cba2abc
+	sample.donor.1.id 0d2a5d22-1120-48cb-b12d-c077c3acccab
 	sample.donor.1.submitted_id POMC_GFP_I_66
 	sample.ena_sample ERS639401
 	sample.name POMC+ from mouse 66
@@ -1215,15 +1215,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866251/ERR866251_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866251/ERR866251_2.fastq.gz
 		assay.seq.ena_experiment ERX945879
 		assay.seq.ena_run ERR866251
-		sample.well.core.id ERX945879
+		sample.well.id ERX945879
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866347/ERR866347_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866347/ERR866347_2.fastq.gz
 		assay.seq.ena_experiment ERX945975
 		assay.seq.ena_run ERR866347
-		sample.well.core.id ERX945975
+		sample.well.id ERX945975
 
-	sample.core.id 63b06e47-0af6-4e19-bb17-7933f4e13820
-	sample.donor.1.core.id bfc87b17-f3eb-4f14-bb16-8d1c161a615a
+	sample.id 63b06e47-0af6-4e19-bb17-7933f4e13820
+	sample.donor.1.id bfc87b17-f3eb-4f14-bb16-8d1c161a615a
 	sample.donor.1.submitted_id POMC_GFP_I_67
 	sample.ena_sample ERS639402
 	sample.name POMC+ from mouse 67
@@ -1233,15 +1233,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866252/ERR866252_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866252/ERR866252_2.fastq.gz
 		assay.seq.ena_experiment ERX945880
 		assay.seq.ena_run ERR866252
-		sample.well.core.id ERX945880
+		sample.well.id ERX945880
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866348/ERR866348_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866348/ERR866348_2.fastq.gz
 		assay.seq.ena_experiment ERX945976
 		assay.seq.ena_run ERR866348
-		sample.well.core.id ERX945976
+		sample.well.id ERX945976
 
-	sample.core.id 3f1366a7-80a0-4fae-b5b4-79f71b7284ed
-	sample.donor.1.core.id a9b277e7-1140-4fd3-85a9-1663b86b7dcb
+	sample.id 3f1366a7-80a0-4fae-b5b4-79f71b7284ed
+	sample.donor.1.id a9b277e7-1140-4fd3-85a9-1663b86b7dcb
 	sample.donor.1.submitted_id POMC_GFP_I_68
 	sample.ena_sample ERS639403
 	sample.name POMC+ from mouse 68
@@ -1251,15 +1251,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866253/ERR866253_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866253/ERR866253_2.fastq.gz
 		assay.seq.ena_experiment ERX945881
 		assay.seq.ena_run ERR866253
-		sample.well.core.id ERX945881
+		sample.well.id ERX945881
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866349/ERR866349_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866349/ERR866349_2.fastq.gz
 		assay.seq.ena_experiment ERX945977
 		assay.seq.ena_run ERR866349
-		sample.well.core.id ERX945977
+		sample.well.id ERX945977
 
-	sample.core.id 41077589-e221-4db6-aad0-80a70389cab3
-	sample.donor.1.core.id bcab0872-3d87-49ed-87b1-882e62664dd3
+	sample.id 41077589-e221-4db6-aad0-80a70389cab3
+	sample.donor.1.id bcab0872-3d87-49ed-87b1-882e62664dd3
 	sample.donor.1.submitted_id POMC_GFP_I_69
 	sample.ena_sample ERS639404
 	sample.name POMC+ from mouse 69
@@ -1269,15 +1269,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866254/ERR866254_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866254/ERR866254_2.fastq.gz
 		assay.seq.ena_experiment ERX945882
 		assay.seq.ena_run ERR866254
-		sample.well.core.id ERX945882
+		sample.well.id ERX945882
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866350/ERR866350_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866350/ERR866350_2.fastq.gz
 		assay.seq.ena_experiment ERX945978
 		assay.seq.ena_run ERR866350
-		sample.well.core.id ERX945978
+		sample.well.id ERX945978
 
-	sample.core.id bcc22937-f1d3-4439-9be5-685627f0d553
-	sample.donor.1.core.id 2f4cb49b-ed9b-45ae-ab4f-783bc512fc06
+	sample.id bcc22937-f1d3-4439-9be5-685627f0d553
+	sample.donor.1.id 2f4cb49b-ed9b-45ae-ab4f-783bc512fc06
 	sample.donor.1.submitted_id POMC_GFP_I_70
 	sample.ena_sample ERS639405
 	sample.name POMC+ from mouse 70
@@ -1287,15 +1287,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866255/ERR866255_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866255/ERR866255_2.fastq.gz
 		assay.seq.ena_experiment ERX945883
 		assay.seq.ena_run ERR866255
-		sample.well.core.id ERX945883
+		sample.well.id ERX945883
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866351/ERR866351_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866351/ERR866351_2.fastq.gz
 		assay.seq.ena_experiment ERX945979
 		assay.seq.ena_run ERR866351
-		sample.well.core.id ERX945979
+		sample.well.id ERX945979
 
-	sample.core.id 008f640b-3fb8-44ae-a2fb-19c565fd911a
-	sample.donor.1.core.id 2f9339a0-7045-48f5-b541-db1cb62c77b1
+	sample.id 008f640b-3fb8-44ae-a2fb-19c565fd911a
+	sample.donor.1.id 2f9339a0-7045-48f5-b541-db1cb62c77b1
 	sample.donor.1.submitted_id POMC_GFP_I_71
 	sample.ena_sample ERS639406
 	sample.name POMC+ from mouse 71
@@ -1305,15 +1305,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866256/ERR866256_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866256/ERR866256_2.fastq.gz
 		assay.seq.ena_experiment ERX945884
 		assay.seq.ena_run ERR866256
-		sample.well.core.id ERX945884
+		sample.well.id ERX945884
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866352/ERR866352_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866352/ERR866352_2.fastq.gz
 		assay.seq.ena_experiment ERX945980
 		assay.seq.ena_run ERR866352
-		sample.well.core.id ERX945980
+		sample.well.id ERX945980
 
-	sample.core.id 18bff311-6826-4045-b2e4-552eabd468b7
-	sample.donor.1.core.id 5d362617-556e-49d7-967b-74184924a32d
+	sample.id 18bff311-6826-4045-b2e4-552eabd468b7
+	sample.donor.1.id 5d362617-556e-49d7-967b-74184924a32d
 	sample.donor.1.submitted_id POMC_GFP_I_72
 	sample.ena_sample ERS639407
 	sample.name POMC+ from mouse 72
@@ -1323,15 +1323,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866257/ERR866257_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866257/ERR866257_2.fastq.gz
 		assay.seq.ena_experiment ERX945885
 		assay.seq.ena_run ERR866257
-		sample.well.core.id ERX945885
+		sample.well.id ERX945885
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866353/ERR866353_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866353/ERR866353_2.fastq.gz
 		assay.seq.ena_experiment ERX945981
 		assay.seq.ena_run ERR866353
-		sample.well.core.id ERX945981
+		sample.well.id ERX945981
 
-	sample.core.id 94c8df2c-e70f-4078-8e5c-baeff6b0dae7
-	sample.donor.1.core.id d8ec1ccd-52fc-45ff-b0a6-080f5f32c6fd
+	sample.id 94c8df2c-e70f-4078-8e5c-baeff6b0dae7
+	sample.donor.1.id d8ec1ccd-52fc-45ff-b0a6-080f5f32c6fd
 	sample.donor.1.submitted_id POMC_GFP_I_73
 	sample.ena_sample ERS639408
 	sample.name POMC+ from mouse 73
@@ -1341,15 +1341,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866258/ERR866258_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866258/ERR866258_2.fastq.gz
 		assay.seq.ena_experiment ERX945886
 		assay.seq.ena_run ERR866258
-		sample.well.core.id ERX945886
+		sample.well.id ERX945886
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866354/ERR866354_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866354/ERR866354_2.fastq.gz
 		assay.seq.ena_experiment ERX945982
 		assay.seq.ena_run ERR866354
-		sample.well.core.id ERX945982
+		sample.well.id ERX945982
 
-	sample.core.id 7982dd37-59b3-4539-998a-785d2951a376
-	sample.donor.1.core.id c2472810-8a8b-4bd7-9368-6f6057d4bb8d
+	sample.id 7982dd37-59b3-4539-998a-785d2951a376
+	sample.donor.1.id c2472810-8a8b-4bd7-9368-6f6057d4bb8d
 	sample.donor.1.submitted_id POMC_GFP_I_74
 	sample.ena_sample ERS639409
 	sample.name POMC+ from mouse 74
@@ -1359,15 +1359,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866259/ERR866259_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866259/ERR866259_2.fastq.gz
 		assay.seq.ena_experiment ERX945887
 		assay.seq.ena_run ERR866259
-		sample.well.core.id ERX945887
+		sample.well.id ERX945887
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866355/ERR866355_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866355/ERR866355_2.fastq.gz
 		assay.seq.ena_experiment ERX945983
 		assay.seq.ena_run ERR866355
-		sample.well.core.id ERX945983
+		sample.well.id ERX945983
 
-	sample.core.id 8568ad17-a871-4b86-9dc3-1de996b6e1d2
-	sample.donor.1.core.id 34ba5c6a-860d-4d2b-9497-97d25fa9ea87
+	sample.id 8568ad17-a871-4b86-9dc3-1de996b6e1d2
+	sample.donor.1.id 34ba5c6a-860d-4d2b-9497-97d25fa9ea87
 	sample.donor.1.submitted_id POMC_GFP_I_75
 	sample.ena_sample ERS639410
 	sample.name POMC+ from mouse 75
@@ -1377,15 +1377,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866260/ERR866260_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866260/ERR866260_2.fastq.gz
 		assay.seq.ena_experiment ERX945888
 		assay.seq.ena_run ERR866260
-		sample.well.core.id ERX945888
+		sample.well.id ERX945888
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866356/ERR866356_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866356/ERR866356_2.fastq.gz
 		assay.seq.ena_experiment ERX945984
 		assay.seq.ena_run ERR866356
-		sample.well.core.id ERX945984
+		sample.well.id ERX945984
 
-	sample.core.id 65048438-ba21-4aa7-b99f-ebf292e805f9
-	sample.donor.1.core.id 72d7ec61-3433-475c-b0f7-913a380ede6f
+	sample.id 65048438-ba21-4aa7-b99f-ebf292e805f9
+	sample.donor.1.id 72d7ec61-3433-475c-b0f7-913a380ede6f
 	sample.donor.1.submitted_id POMC_GFP_I_76
 	sample.ena_sample ERS639411
 	sample.name POMC+ from mouse 76
@@ -1395,15 +1395,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866261/ERR866261_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866261/ERR866261_2.fastq.gz
 		assay.seq.ena_experiment ERX945889
 		assay.seq.ena_run ERR866261
-		sample.well.core.id ERX945889
+		sample.well.id ERX945889
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866357/ERR866357_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866357/ERR866357_2.fastq.gz
 		assay.seq.ena_experiment ERX945985
 		assay.seq.ena_run ERR866357
-		sample.well.core.id ERX945985
+		sample.well.id ERX945985
 
-	sample.core.id 5ee94494-8461-48bf-9567-97cf55c58a4c
-	sample.donor.1.core.id be55353a-32e9-468a-8f80-60c82df69afd
+	sample.id 5ee94494-8461-48bf-9567-97cf55c58a4c
+	sample.donor.1.id be55353a-32e9-468a-8f80-60c82df69afd
 	sample.donor.1.submitted_id POMC_GFP_I_77
 	sample.ena_sample ERS639412
 	sample.name POMC+ from mouse 77
@@ -1413,15 +1413,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866262/ERR866262_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866262/ERR866262_2.fastq.gz
 		assay.seq.ena_experiment ERX945890
 		assay.seq.ena_run ERR866262
-		sample.well.core.id ERX945890
+		sample.well.id ERX945890
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866358/ERR866358_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866358/ERR866358_2.fastq.gz
 		assay.seq.ena_experiment ERX945986
 		assay.seq.ena_run ERR866358
-		sample.well.core.id ERX945986
+		sample.well.id ERX945986
 
-	sample.core.id 55493ebb-29ab-49d9-af73-49204d1d6396
-	sample.donor.1.core.id 1c7711fa-017e-41e0-a4a8-14b48344f435
+	sample.id 55493ebb-29ab-49d9-af73-49204d1d6396
+	sample.donor.1.id 1c7711fa-017e-41e0-a4a8-14b48344f435
 	sample.donor.1.submitted_id POMC_GFP_I_78
 	sample.ena_sample ERS639413
 	sample.name POMC+ from mouse 78
@@ -1431,15 +1431,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866263/ERR866263_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866263/ERR866263_2.fastq.gz
 		assay.seq.ena_experiment ERX945891
 		assay.seq.ena_run ERR866263
-		sample.well.core.id ERX945891
+		sample.well.id ERX945891
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866359/ERR866359_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866359/ERR866359_2.fastq.gz
 		assay.seq.ena_experiment ERX945987
 		assay.seq.ena_run ERR866359
-		sample.well.core.id ERX945987
+		sample.well.id ERX945987
 
-	sample.core.id 0b65e78d-52fb-4ff4-b21f-58fd8dc59337
-	sample.donor.1.core.id 8d67ff07-a4f8-4710-840d-16c2c279b916
+	sample.id 0b65e78d-52fb-4ff4-b21f-58fd8dc59337
+	sample.donor.1.id 8d67ff07-a4f8-4710-840d-16c2c279b916
 	sample.donor.1.submitted_id POMC_GFP_I_79
 	sample.ena_sample ERS639414
 	sample.name POMC+ from mouse 79
@@ -1449,15 +1449,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866264/ERR866264_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866264/ERR866264_2.fastq.gz
 		assay.seq.ena_experiment ERX945892
 		assay.seq.ena_run ERR866264
-		sample.well.core.id ERX945892
+		sample.well.id ERX945892
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866360/ERR866360_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866360/ERR866360_2.fastq.gz
 		assay.seq.ena_experiment ERX945988
 		assay.seq.ena_run ERR866360
-		sample.well.core.id ERX945988
+		sample.well.id ERX945988
 
-	sample.core.id 2128f6cd-975c-4f1a-ad62-6a33c64518f0
-	sample.donor.1.core.id 7a58ee76-b223-4027-8896-bc5b63bf90a8
+	sample.id 2128f6cd-975c-4f1a-ad62-6a33c64518f0
+	sample.donor.1.id 7a58ee76-b223-4027-8896-bc5b63bf90a8
 	sample.donor.1.submitted_id POMC_GFP_I_80
 	sample.ena_sample ERS639415
 	sample.name POMC+ from mouse 80
@@ -1467,15 +1467,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866265/ERR866265_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866265/ERR866265_2.fastq.gz
 		assay.seq.ena_experiment ERX945893
 		assay.seq.ena_run ERR866265
-		sample.well.core.id ERX945893
+		sample.well.id ERX945893
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866361/ERR866361_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866361/ERR866361_2.fastq.gz
 		assay.seq.ena_experiment ERX945989
 		assay.seq.ena_run ERR866361
-		sample.well.core.id ERX945989
+		sample.well.id ERX945989
 
-	sample.core.id f190cd44-028a-4668-8124-fd943d5c9b16
-	sample.donor.1.core.id ef94c036-bd05-482c-8eeb-094511dc5fce
+	sample.id f190cd44-028a-4668-8124-fd943d5c9b16
+	sample.donor.1.id ef94c036-bd05-482c-8eeb-094511dc5fce
 	sample.donor.1.submitted_id POMC_GFP_I_81
 	sample.ena_sample ERS639416
 	sample.name POMC+ from mouse 81
@@ -1485,15 +1485,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866266/ERR866266_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866266/ERR866266_2.fastq.gz
 		assay.seq.ena_experiment ERX945894
 		assay.seq.ena_run ERR866266
-		sample.well.core.id ERX945894
+		sample.well.id ERX945894
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866362/ERR866362_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866362/ERR866362_2.fastq.gz
 		assay.seq.ena_experiment ERX945990
 		assay.seq.ena_run ERR866362
-		sample.well.core.id ERX945990
+		sample.well.id ERX945990
 
-	sample.core.id 1ae11f8d-ddd0-46ff-8561-6311c152a28d
-	sample.donor.1.core.id 5b965acc-35e0-42ee-b693-ce5f195e2418
+	sample.id 1ae11f8d-ddd0-46ff-8561-6311c152a28d
+	sample.donor.1.id 5b965acc-35e0-42ee-b693-ce5f195e2418
 	sample.donor.1.submitted_id POMC_GFP_I_82
 	sample.ena_sample ERS639417
 	sample.name POMC+ from mouse 82
@@ -1503,15 +1503,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866267/ERR866267_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866267/ERR866267_2.fastq.gz
 		assay.seq.ena_experiment ERX945895
 		assay.seq.ena_run ERR866267
-		sample.well.core.id ERX945895
+		sample.well.id ERX945895
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866363/ERR866363_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866363/ERR866363_2.fastq.gz
 		assay.seq.ena_experiment ERX945991
 		assay.seq.ena_run ERR866363
-		sample.well.core.id ERX945991
+		sample.well.id ERX945991
 
-	sample.core.id f5c7d811-3be4-4bf7-8e0a-78114b0fb936
-	sample.donor.1.core.id 6ef93b37-59c9-41db-be6a-a7b3356fa405
+	sample.id f5c7d811-3be4-4bf7-8e0a-78114b0fb936
+	sample.donor.1.id 6ef93b37-59c9-41db-be6a-a7b3356fa405
 	sample.donor.1.submitted_id POMC_GFP_I_83
 	sample.ena_sample ERS639418
 	sample.name POMC+ from mouse 83
@@ -1521,15 +1521,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866268/ERR866268_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866268/ERR866268_2.fastq.gz
 		assay.seq.ena_experiment ERX945896
 		assay.seq.ena_run ERR866268
-		sample.well.core.id ERX945896
+		sample.well.id ERX945896
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866364/ERR866364_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866364/ERR866364_2.fastq.gz
 		assay.seq.ena_experiment ERX945992
 		assay.seq.ena_run ERR866364
-		sample.well.core.id ERX945992
+		sample.well.id ERX945992
 
-	sample.core.id bbce8d28-fcac-4c12-b902-c52354d78228
-	sample.donor.1.core.id fd3a5f04-d717-46e9-98b8-2d902e7c9007
+	sample.id bbce8d28-fcac-4c12-b902-c52354d78228
+	sample.donor.1.id fd3a5f04-d717-46e9-98b8-2d902e7c9007
 	sample.donor.1.submitted_id POMC_GFP_I_84
 	sample.ena_sample ERS639419
 	sample.name POMC+ from mouse 84
@@ -1539,15 +1539,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866269/ERR866269_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866269/ERR866269_2.fastq.gz
 		assay.seq.ena_experiment ERX945897
 		assay.seq.ena_run ERR866269
-		sample.well.core.id ERX945897
+		sample.well.id ERX945897
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866365/ERR866365_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866365/ERR866365_2.fastq.gz
 		assay.seq.ena_experiment ERX945993
 		assay.seq.ena_run ERR866365
-		sample.well.core.id ERX945993
+		sample.well.id ERX945993
 
-	sample.core.id 42561763-ce2f-4fe5-bde7-f77da481e9f3
-	sample.donor.1.core.id 79ef2974-65a9-4c53-9893-4162e30f99ae
+	sample.id 42561763-ce2f-4fe5-bde7-f77da481e9f3
+	sample.donor.1.id 79ef2974-65a9-4c53-9893-4162e30f99ae
 	sample.donor.1.submitted_id POMC_GFP_I_85
 	sample.ena_sample ERS639420
 	sample.name POMC+ from mouse 85
@@ -1557,15 +1557,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866270/ERR866270_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866270/ERR866270_2.fastq.gz
 		assay.seq.ena_experiment ERX945898
 		assay.seq.ena_run ERR866270
-		sample.well.core.id ERX945898
+		sample.well.id ERX945898
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866366/ERR866366_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866366/ERR866366_2.fastq.gz
 		assay.seq.ena_experiment ERX945994
 		assay.seq.ena_run ERR866366
-		sample.well.core.id ERX945994
+		sample.well.id ERX945994
 
-	sample.core.id ec511278-9843-47d6-8a7d-e9836c493d95
-	sample.donor.1.core.id 7956b42f-046b-4871-b5a9-8dd044d69a3b
+	sample.id ec511278-9843-47d6-8a7d-e9836c493d95
+	sample.donor.1.id 7956b42f-046b-4871-b5a9-8dd044d69a3b
 	sample.donor.1.submitted_id POMC_GFP_I_86
 	sample.ena_sample ERS639421
 	sample.name POMC+ from mouse 86
@@ -1575,15 +1575,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866271/ERR866271_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866271/ERR866271_2.fastq.gz
 		assay.seq.ena_experiment ERX945899
 		assay.seq.ena_run ERR866271
-		sample.well.core.id ERX945899
+		sample.well.id ERX945899
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866367/ERR866367_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866367/ERR866367_2.fastq.gz
 		assay.seq.ena_experiment ERX945995
 		assay.seq.ena_run ERR866367
-		sample.well.core.id ERX945995
+		sample.well.id ERX945995
 
-	sample.core.id c0ffb322-15de-44f9-b3a8-f4ba60550071
-	sample.donor.1.core.id ca91430c-ed67-4907-9ec2-526200a43d67
+	sample.id c0ffb322-15de-44f9-b3a8-f4ba60550071
+	sample.donor.1.id ca91430c-ed67-4907-9ec2-526200a43d67
 	sample.donor.1.submitted_id POMC_GFP_I_87
 	sample.ena_sample ERS639422
 	sample.name POMC+ from mouse 87
@@ -1593,15 +1593,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866272/ERR866272_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866272/ERR866272_2.fastq.gz
 		assay.seq.ena_experiment ERX945900
 		assay.seq.ena_run ERR866272
-		sample.well.core.id ERX945900
+		sample.well.id ERX945900
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866368/ERR866368_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866368/ERR866368_2.fastq.gz
 		assay.seq.ena_experiment ERX945996
 		assay.seq.ena_run ERR866368
-		sample.well.core.id ERX945996
+		sample.well.id ERX945996
 
-	sample.core.id 3751c987-d968-476c-afbb-525b9d25dec3
-	sample.donor.1.core.id 5f3114f7-4976-4fbc-af26-17a163a219dd
+	sample.id 3751c987-d968-476c-afbb-525b9d25dec3
+	sample.donor.1.id 5f3114f7-4976-4fbc-af26-17a163a219dd
 	sample.donor.1.submitted_id POMC_GFP_I_88
 	sample.ena_sample ERS639423
 	sample.name POMC+ from mouse 88
@@ -1611,15 +1611,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866273/ERR866273_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866273/ERR866273_2.fastq.gz
 		assay.seq.ena_experiment ERX945901
 		assay.seq.ena_run ERR866273
-		sample.well.core.id ERX945901
+		sample.well.id ERX945901
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866369/ERR866369_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866369/ERR866369_2.fastq.gz
 		assay.seq.ena_experiment ERX945997
 		assay.seq.ena_run ERR866369
-		sample.well.core.id ERX945997
+		sample.well.id ERX945997
 
-	sample.core.id 958a7646-331f-4b0b-b593-99db02269ba5
-	sample.donor.1.core.id 2424e369-046c-4ffa-ac8d-c719ad93eef3
+	sample.id 958a7646-331f-4b0b-b593-99db02269ba5
+	sample.donor.1.id 2424e369-046c-4ffa-ac8d-c719ad93eef3
 	sample.donor.1.submitted_id POMC_GFP_I_89
 	sample.ena_sample ERS639424
 	sample.name POMC+ from mouse 89
@@ -1629,15 +1629,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866274/ERR866274_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866274/ERR866274_2.fastq.gz
 		assay.seq.ena_experiment ERX945902
 		assay.seq.ena_run ERR866274
-		sample.well.core.id ERX945902
+		sample.well.id ERX945902
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866370/ERR866370_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866370/ERR866370_2.fastq.gz
 		assay.seq.ena_experiment ERX945998
 		assay.seq.ena_run ERR866370
-		sample.well.core.id ERX945998
+		sample.well.id ERX945998
 
-	sample.core.id 8d5d3711-97c0-49fc-bbf4-90bb4e855d5d
-	sample.donor.1.core.id 85b0bb92-4b6a-4357-b64e-58dfd0513d59
+	sample.id 8d5d3711-97c0-49fc-bbf4-90bb4e855d5d
+	sample.donor.1.id 85b0bb92-4b6a-4357-b64e-58dfd0513d59
 	sample.donor.1.submitted_id POMC_GFP_I_90
 	sample.ena_sample ERS639425
 	sample.name POMC+ from mouse 90
@@ -1647,15 +1647,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866275/ERR866275_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866275/ERR866275_2.fastq.gz
 		assay.seq.ena_experiment ERX945903
 		assay.seq.ena_run ERR866275
-		sample.well.core.id ERX945903
+		sample.well.id ERX945903
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866371/ERR866371_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866371/ERR866371_2.fastq.gz
 		assay.seq.ena_experiment ERX945999
 		assay.seq.ena_run ERR866371
-		sample.well.core.id ERX945999
+		sample.well.id ERX945999
 
-	sample.core.id 3d883eee-2d90-4b78-a8f8-cfb9455d97a3
-	sample.donor.1.core.id 415ca9da-c458-4a38-b249-333df223b6df
+	sample.id 3d883eee-2d90-4b78-a8f8-cfb9455d97a3
+	sample.donor.1.id 415ca9da-c458-4a38-b249-333df223b6df
 	sample.donor.1.submitted_id POMC_GFP_I_91
 	sample.ena_sample ERS639426
 	sample.name POMC+ from mouse 91
@@ -1665,15 +1665,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866276/ERR866276_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866276/ERR866276_2.fastq.gz
 		assay.seq.ena_experiment ERX945904
 		assay.seq.ena_run ERR866276
-		sample.well.core.id ERX945904
+		sample.well.id ERX945904
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866372/ERR866372_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866372/ERR866372_2.fastq.gz
 		assay.seq.ena_experiment ERX946000
 		assay.seq.ena_run ERR866372
-		sample.well.core.id ERX946000
+		sample.well.id ERX946000
 
-	sample.core.id 32610d9c-96fc-4fbe-b8f6-1130a2d7f3b8
-	sample.donor.1.core.id 99d8323b-7710-48a7-b34d-8d7e3760ce35
+	sample.id 32610d9c-96fc-4fbe-b8f6-1130a2d7f3b8
+	sample.donor.1.id 99d8323b-7710-48a7-b34d-8d7e3760ce35
 	sample.donor.1.submitted_id POMC_GFP_I_92
 	sample.ena_sample ERS639427
 	sample.name POMC+ from mouse 92
@@ -1683,15 +1683,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866277/ERR866277_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866277/ERR866277_2.fastq.gz
 		assay.seq.ena_experiment ERX945905
 		assay.seq.ena_run ERR866277
-		sample.well.core.id ERX945905
+		sample.well.id ERX945905
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866373/ERR866373_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866373/ERR866373_2.fastq.gz
 		assay.seq.ena_experiment ERX946001
 		assay.seq.ena_run ERR866373
-		sample.well.core.id ERX946001
+		sample.well.id ERX946001
 
-	sample.core.id a5324879-de67-40fa-86f1-00e236d01e23
-	sample.donor.1.core.id fb8c7b65-e3cb-4327-8634-ad96b6082386
+	sample.id a5324879-de67-40fa-86f1-00e236d01e23
+	sample.donor.1.id fb8c7b65-e3cb-4327-8634-ad96b6082386
 	sample.donor.1.submitted_id POMC_GFP_I_93
 	sample.ena_sample ERS639428
 	sample.name POMC+ from mouse 93
@@ -1701,15 +1701,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866278/ERR866278_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866278/ERR866278_2.fastq.gz
 		assay.seq.ena_experiment ERX945906
 		assay.seq.ena_run ERR866278
-		sample.well.core.id ERX945906
+		sample.well.id ERX945906
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866374/ERR866374_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866374/ERR866374_2.fastq.gz
 		assay.seq.ena_experiment ERX946002
 		assay.seq.ena_run ERR866374
-		sample.well.core.id ERX946002
+		sample.well.id ERX946002
 
-	sample.core.id 5118c1ca-9d61-4b07-a3dd-4aa179174df4
-	sample.donor.1.core.id 32a85261-d698-4381-b38a-e61a8a1d7de7
+	sample.id 5118c1ca-9d61-4b07-a3dd-4aa179174df4
+	sample.donor.1.id 32a85261-d698-4381-b38a-e61a8a1d7de7
 	sample.donor.1.submitted_id POMC_GFP_I_94
 	sample.ena_sample ERS639429
 	sample.name POMC+ from mouse 94
@@ -1719,15 +1719,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866279/ERR866279_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866279/ERR866279_2.fastq.gz
 		assay.seq.ena_experiment ERX945907
 		assay.seq.ena_run ERR866279
-		sample.well.core.id ERX945907
+		sample.well.id ERX945907
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866375/ERR866375_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866375/ERR866375_2.fastq.gz
 		assay.seq.ena_experiment ERX946003
 		assay.seq.ena_run ERR866375
-		sample.well.core.id ERX946003
+		sample.well.id ERX946003
 
-	sample.core.id ed217561-e9e2-4857-9671-6faa83f7b0a1
-	sample.donor.1.core.id fcece85b-50e4-4e28-b8e0-d7937285d744
+	sample.id ed217561-e9e2-4857-9671-6faa83f7b0a1
+	sample.donor.1.id fcece85b-50e4-4e28-b8e0-d7937285d744
 	sample.donor.1.submitted_id POMC_GFP_I_95
 	sample.ena_sample ERS639430
 	sample.name POMC+ from mouse 95
@@ -1737,15 +1737,15 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866280/ERR866280_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866280/ERR866280_2.fastq.gz
 		assay.seq.ena_experiment ERX945908
 		assay.seq.ena_run ERR866280
-		sample.well.core.id ERX945908
+		sample.well.id ERX945908
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866376/ERR866376_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866376/ERR866376_2.fastq.gz
 		assay.seq.ena_experiment ERX946004
 		assay.seq.ena_run ERR866376
-		sample.well.core.id ERX946004
+		sample.well.id ERX946004
 
-	sample.core.id 0679ebd4-52af-4468-81bc-2dce725bb2e2
-	sample.donor.1.core.id 8d1f5e26-3b2a-4dd7-8a2a-8f4f8380b64a
+	sample.id 0679ebd4-52af-4468-81bc-2dce725bb2e2
+	sample.donor.1.id 8d1f5e26-3b2a-4dd7-8a2a-8f4f8380b64a
 	sample.donor.1.submitted_id POMC_GFP_I_96
 	sample.ena_sample ERS639431
 	sample.name POMC+ from mouse 96
@@ -1755,10 +1755,10 @@ sample.well.cell_type.text neuron
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866281/ERR866281_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866281/ERR866281_2.fastq.gz
 		assay.seq.ena_experiment ERX945909
 		assay.seq.ena_run ERR866281
-		sample.well.core.id ERX945909
+		sample.well.id ERX945909
 
 		assay.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866377/ERR866377_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866377/ERR866377_2.fastq.gz
 		assay.seq.ena_experiment ERX946005
 		assay.seq.ena_run ERR866377
-		sample.well.core.id ERX946005
+		sample.well.id ERX946005
 
