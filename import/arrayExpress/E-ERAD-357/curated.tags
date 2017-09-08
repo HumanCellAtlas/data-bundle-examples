@@ -35,6 +35,7 @@ sample.well.cell_type.ontology CL_0000540
 sample.well.cell_type.text neuron
 project.protocols.1.id 62ec05ef-773f-444d-9997-0729b1230e05
 project.protocols.2.id 2b5bb9f2-489e-42d5-892a-8b252af5e190
+sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a-8b252af5e190
 
 	sample.id 131e2e35-7521-4acc-b9f2-af548c201d0f
 	sample.donor.1.id e9d16835-e30f-4e10-b432-e79777e2b71c

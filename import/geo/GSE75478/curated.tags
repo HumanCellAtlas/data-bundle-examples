@@ -49,6 +49,7 @@ sample.organ.text bone
 project.protocols.1.description "Fresh bone marrow mononuclear cells were stained with fluorescence labeled antibodies against CD34, CD38, CD45RA, CD90, CD49f, CD135, CD10, CD7 and a lineage cocktail consisting of CD4, CD8, CD11b, CD14, CD19, CD20, CD56 and CD235a. Single Lin-CD34+CD38- and LinCD34+CD38+ HSPCs were sorted into lysis buffer."
 project.protocols.1.type.text nucleic acid library construction protocol
 project.protocols.1.id a2e711c5-6f96-474a-ba07-9390b512c6f1
+sample.protocol_ids a2e711c5-6f96-474a-ba07-9390b512c6f1
 
 	sample.donor.1.age 29
 	sample.donor.1.age_unit year

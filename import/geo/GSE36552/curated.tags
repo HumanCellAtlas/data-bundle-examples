@@ -41,6 +41,7 @@ project.protocols.2.type.text nucleic acid library construction protocol
 sample.update_date 2013-08-10
 project.protocols.1.id e5c25d4e-3c83-4495-95c3-04f793cb0853
 project.protocols.2.id 06978636-42c2-4c52-9a87-3549562ca5e3
+sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87-3549562ca5e3
 
 	sample.body_part.text oocyte
 	sample.donor.1.age 0

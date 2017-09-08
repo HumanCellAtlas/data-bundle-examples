@@ -50,6 +50,7 @@ project.protocols.1.id c663e0a3-9da5-4f70-8473-8741918228dd
 project.protocols.2.id ecbdd317-7bad-4c0b-a122-7f8563c8f98d
 project.protocols.3.id 00cc119b-d338-4233-9336-29505b622b90
 project.protocols.4.id 9b17656b-4866-4bfd-98d4-06a8394e3a11
+sample.protocol_ids c663e0a3-9da5-4f70-8473-8741918228dd,ecbdd317-7bad-4c0b-a122-7f8563c8f98d,00cc119b-d338-4233-9336-29505b622b90,9b17656b-4866-4bfd-98d4-06a8394e3a11
 
 	sample.donor.1.age 43
 	sample.donor.1.body_mass_index 30.8

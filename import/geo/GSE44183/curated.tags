@@ -38,6 +38,7 @@ sample.update_date 2013-07-29
 project.protocols.1.id bd94de32-3a72-4090-a34e-3315d2cb9655
 project.protocols.2.id f0d0154b-d7ba-4745-9578-bc23b9bc0a3e
 project.protocols.3.id 9b1c41af-8f1b-4c5b-aaf4-f6eebce54324
+sample.protocol_ids bd94de32-3a72-4090-a34e-3315d2cb9655,f0d0154b-d7ba-4745-9578-bc23b9bc0a3e,9b1c41af-8f1b-4c5b-aaf4-f6eebce54324
 
 	assay.rna.end_bias full_transcript
 	assay.rna.primer random

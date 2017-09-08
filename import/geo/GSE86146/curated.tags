@@ -45,6 +45,7 @@ sample.organ.text embryo
 project.protocols.1.description "A modified Smart-seq2 protocol was applied for single-cell RNA-seq. Briefly, after MACS and FACS purification, a single PGC or gonadal somatic cell was picked into the lysis buffer by mouth pippete. The reverse transcription reaction was performed with 24 oligo (dT) primer anchored with the 8 bp cell specific barcode, and also with 8 bp unique molecular identifiers (UMIs)."
 project.protocols.1.type.text nucleic acid library construction protocol
 project.protocols.1.id d85cbc46-5a25-4006-8af3-e696a3f18eed
+sample.protocol_ids d85cbc46-5a25-4006-8af3-e696a3f18eed
 
 	sample.body_part.text primordial germ cells
 	sample.donor.1.age 3

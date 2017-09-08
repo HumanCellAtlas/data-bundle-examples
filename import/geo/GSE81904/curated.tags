@@ -47,6 +47,7 @@ project.protocols.1.description "suspensions were processed through Drop-Seq to 
 project.protocols.1.type.text nucleic acid library construction protocol
 sample.update_date 2016-08-25
 project.protocols.1.id 0414acee-2ea8-4d6d-b552-520836cb0825
+sample.protocol_ids 0414acee-2ea8-4d6d-b552-520836cb0825
 
 	assay.seq.sra_experiment SRX1800075
 	assay.seq.sra_run SRR3587500

@@ -42,6 +42,7 @@ project.protocols.1.description C1 autoprep standard protocol
 project.protocols.1.type.text nucleic acid library construction protocol
 sample.update_date 2015-11-06
 project.protocols.1.id f9aa23b1-4358-49bd-aebb-675aef13bb5b
+sample.protocol_ids f9aa23b1-4358-49bd-aebb-675aef13bb5b
 
 	assay.seq.instrument_model Illumina MiSeq
 	sample.characteristics_experiment_sample_name AB_S1

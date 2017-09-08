@@ -38,6 +38,7 @@ project.protocols.1.description "Single islet cells were captured with C1 Integr
 project.protocols.1.type.text nucleic acid library construction protocol
 sample.update_date 2016-08-31
 project.protocols.1.id 4ea03114-0dd0-4132-9b33-829d1635aebe
+sample.protocol_ids 4ea03114-0dd0-4132-9b33-829d1635aebe
 
 	sample.donor.1.age 23
 	sample.donor.1.ancestry.1.text AA

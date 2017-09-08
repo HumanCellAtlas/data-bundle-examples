@@ -4159,7 +4159,6 @@ sample.update_date 2015-12-07
 	sample.organ.text brain
 	sample.protocol_ids 1e793d89-f1a5-400f-8ad8-4d960f677826,18b4ba76-c487-4f5b-bdc2-66facbed4c9a,0491663f-1700-4a17-8d14-be8e16003049
 
-
 		sample.donor.1.age 12
 		sample.donor.1.id 3d840544-d47b-4ada-9c20-e5cf426e50aa
 		sample.donor.1.submitted_id fetus 1

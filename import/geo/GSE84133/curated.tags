@@ -39,6 +39,7 @@ project.protocols.2.type.text nucleic acid library construction protocol
 sample.update_date 2016-09-26
 project.protocols.1.id df2c9001-6802-4972-b367-2dcfa4728713
 project.protocols.2.id ad8c409f-bb6a-41e2-ad1f-8d25da0b9bcd
+sample.protocol_ids df2c9001-6802-4972-b367-2dcfa4728713,ad8c409f-bb6a-41e2-ad1f-8d25da0b9bcd
 
 	sample.donor.1.species.ontology 9606
 	sample.donor.1.species.text Homo sapiens

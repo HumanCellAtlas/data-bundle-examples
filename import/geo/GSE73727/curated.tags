@@ -54,6 +54,7 @@ project.protocols.2.type.text nucleic acid library construction protocol
 sample.update_date 2016-01-05
 project.protocols.1.id 19aeb079-ee34-48c8-bec5-3743a43a9571
 project.protocols.2.id c415dbce-2335-4cb1-9079-e227da725b37
+sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079-e227da725b37
 
 	assay.single_cell.cell_handling FACS
 	sample.total_estimated_cells 1

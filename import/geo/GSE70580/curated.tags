@@ -34,7 +34,8 @@ sample.donor.1.disease.1.text obstructive sleep apnea
 sample.donor.1.life_stage adult
 sample.donor.1.species.ontology 9606
 sample.donor.1.species.text Homo sapiens
-sample.enrichment.1.type MACS,FACS
+sample.enrichment.1.type MACS
+sample.enrichment.2.type FACS
 sample.organ.ontology UBERON_0002372
 sample.organ.text tonsil
 sample.submit_date 2015-07-07
@@ -43,12 +44,14 @@ project.protocols.1.type.text nucleic acid library construction protocol
 sample.update_date 2016-01-28
 sample.well.cell_type.text tonsil innate lymphoid cells
 project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
+sample.protocol_ids 10238004-6f34-439c-bc04-c6210d44873b
 
 	sample.donor.1.id 64154fb0-f8e7-44dc-9e08-e228e8704352
 	sample.donor.1.submitted_id Donor T74
 
 		sample.characteristics_facs_gating ILC1
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2-
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2-
 		sample.name tonsil ILC1 cells
 		sample.title uninfected tonsil innate lymphoid cells ILC1 from donor T74
 
@@ -62,6 +65,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating NK
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127- CD56+ NKG2A+
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127- CD56+ NKG2A+
 		sample.name tonsil NK cells
 		sample.title uninfected tonsil natural killer cells from donor T74
 
@@ -267,6 +271,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating ILC2
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2+
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2+
 		sample.name tonsil ILC2 cells
 		sample.title uninfected tonsil innate lymphoid cells ILC2 from donor T74
 
@@ -360,6 +365,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating ILC3
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+
 		sample.name tonsil ILC3 cells
 		sample.title uninfected tonsil innate lymphoid cells ILC3 from donor T74
 
@@ -672,6 +678,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating ILC3
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+
 		sample.name tonsil ILC3 cells
 		sample.title uninfected tonsil innate lymphoid cells ILC3 from donor T75
 
@@ -1701,6 +1708,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating NK
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127- CD56+ NKG2A+
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127- CD56+ NKG2A+
 		sample.name tonsil NK cells
 		sample.title uninfected tonsil natural killer cells from donor T75
 
@@ -1890,6 +1898,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating ILC2
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2+
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2+
 		sample.name tonsil ILC2 cells
 		sample.title uninfected tonsil innate lymphoid cells ILC2 from donor T75
 
@@ -2391,6 +2400,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating ILC1
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2-
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2-
 		sample.name tonsil ILC1 cells
 		sample.title uninfected tonsil innate lymphoid cells ILC1 from donor T75
 
@@ -2879,6 +2889,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating ILC3
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+
 		sample.name tonsil ILC3 cells
 		sample.title uninfected tonsil innate lymphoid cells ILC3 from donor T86
 
@@ -4020,6 +4031,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating NK
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127- CD56+ NKG2A+
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127- CD56+ NKG2A+
 		sample.name tonsil NK cells
 		sample.title uninfected tonsil natural killer cells from donor T86
 
@@ -4233,6 +4245,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating ILC2
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2+
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2+
 		sample.name tonsil ILC2 cells
 		sample.title uninfected tonsil innate lymphoid cells ILC2 from donor T86
 
@@ -4766,6 +4779,7 @@ project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 		sample.characteristics_facs_gating ILC1
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2-
+		sample.enrichment.2.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2-
 		sample.name tonsil ILC1 cells
 		sample.title uninfected tonsil innate lymphoid cells ILC1 from donor T86
 

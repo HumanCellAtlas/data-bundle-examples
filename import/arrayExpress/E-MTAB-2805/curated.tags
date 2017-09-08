@@ -59,6 +59,7 @@ project.protocols.5.id b19fe364-75da-4136-9eaf-9af7426efa5d
 project.protocols.6.id 6d2db841-811a-48bf-9638-5889b830daa7
 project.protocols.7.id 48743d35-375b-4211-abb7-07ccde5e90a4
 project.protocols.8.id 322d3d98-5707-4199-914c-c99ca6ec8050
+sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb-aa753ae5594f,80427428-5260-4acd-aed8-fdf3e393a034,55d09648-6607-4302-bc06-b8cd9e7630a1,b19fe364-75da-4136-9eaf-9af7426efa5d,6d2db841-811a-48bf-9638-5889b830daa7,48743d35-375b-4211-abb7-07ccde5e90a4,322d3d98-5707-4199-914c-c99ca6ec8050
 
 	sample.cell_cycle.text G1 phase
 	sample.name G1 phase mESCs
