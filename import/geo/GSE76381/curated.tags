@@ -33,6 +33,8 @@ project.protocols.1.type.text growth protocol
 project.protocols.2.description "Human embryo ventral midbrain dissection was performed on ice in neuronal N2 culturing media. 10-17  tissue pieces were collected for each experiment. The tissue pieces were dissociated using the Papain dissociation system (Worthington) following manufacturers recommendations, adjusting incubation time based on tissue piece size to 25-45 mins. Using glass pipettes of increasingly smaller tip diameter, the cell suspension was then filtered with 20um filter (Partec) and cells kept in N2 media, and cells loaded into C1 chips for cell capture."
 project.protocols.2.type.text nucleic acid library construction protocol
 sample.update_date 2017-01-18
+project.protocols.1.id 6c976554-cc00-4912-94a9-b32ddacb7c2e
+project.protocols.2.id c29cabfa-8622-4700-8e79-963b2081a0ff
 
 	sample.donor.1.species.ontology 9606
 	sample.donor.1.species.text Homo sapiens

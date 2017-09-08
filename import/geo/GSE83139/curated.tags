@@ -43,6 +43,8 @@ project.protocols.1.type.text growth protocol
 project.protocols.2.description "Islets were dissociated to single cell by 0.05% Trypsin, 9 mins at 37oC. Cells (250-500 cells/μl) were subsequently loaded on Fluidigm C1 IFC with either 5-10 μM or 10-17 μM capture size."
 project.protocols.2.type.text nucleic acid library construction protocol
 sample.update_date 2016-07-05
+project.protocols.1.id 3ac57d38-fdf1-4d73-81c1-f1973fabd44d
+project.protocols.2.id 21ac3c8e-47b0-4e1d-a2b7-e7d3577f7a69
 
 	sample.donor.1.disease.1.text normal
 

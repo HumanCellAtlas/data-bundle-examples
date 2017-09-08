@@ -46,6 +46,7 @@ sample.submit_date 2016-05-25
 project.protocols.1.description "suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads. Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol."
 project.protocols.1.type.text nucleic acid library construction protocol
 sample.update_date 2016-08-25
+project.protocols.1.id 0414acee-2ea8-4d6d-b552-520836cb0825
 
 	assay.seq.sra_experiment SRX1800075
 	assay.seq.sra_run SRR3587500

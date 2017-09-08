@@ -38,7 +38,7 @@ assay.single_cell.barcode_size # 0 50
 assay.single_cell.core.type $ single_cell
 assay.single_cell.core.schema_version $ ?.*.*
 assay.single_cell.core.schema_url $ *
-project.array_express_investigation $ E-ERAD-357 E-MTAB-2805 E-MTAB-5061 E-MTAB-81904
+project.array_express_investigation $ E-????-*
 project.characteristics_* $ *
 project.contributors.[].address $ *
 project.contributors.[].city $ *
@@ -48,7 +48,7 @@ project.contributors.[].email $ *@*.*
 project.contributors.[].id $
 project.contributors.[].institution $ *
 project.contributors.[].laboratory $ *
-project.contributors.[].name $ *
+!project.contributors.[].name $ *
 !project.id $ *
 project.ddjb_trace $ ERP*
 !project.description $ *
@@ -57,6 +57,10 @@ project.experimental_design.[].ontology $ *
 project.experimental_factor_name [$] *
 project.geo_series $ GSE*
 project.ncbi_bioproject $ PRJNA*
+project.protocols.[].id $ P-????-*
+project.protocols.[].description $ *
+project.protocols.[].type.text $ 
+project.protocols.[].type.ontology $
 project.publications.[].authors [$] *
 project.publications.[].pmid #
 project.publications.[].doi $
@@ -115,7 +119,7 @@ sample.donor.[].death.cause_of_death $ *
 sample.donor.[].death.cold_perfused $ no yes
 sample.donor.[].death.days_on_ventilator % 0 10000
 sample.donor.[].death.hardy_scale # 0 4
-sample.donor.[].death.time_of_death $ ????-??-?? ??:??:??
+sample.donor.[].death.time_of_death $ "????-??-?? ??:??:??"
 sample.donor.[].development_stage.text $ *
 sample.donor.[].development_stage.ontology $ *
 sample.donor.[].disease.[].text $ *
@@ -161,10 +165,10 @@ sample.preservation.microscopic_image [$] *.jpg *.jpeg *.tiff *.png
 sample.preservation.preservation_protocol $ P-????-*
 sample.preservation.storage_protocol $ P-????-*
 sample.project_id $ *
+sample.protocol_ids [$] *-????-*
 sample.submit_date $ 2???-??-??
 sample.submitter_id $ *
 sample.supplementary_files [$] *
-sample.supplementary_protocols [$] P-????-*
 sample.title $ *
 sample.total_estimated_cells % 0.1 1e9
 sample.update_date $ 2???-??-??

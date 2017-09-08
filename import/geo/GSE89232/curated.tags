@@ -40,6 +40,7 @@ sample.submit_date 2016-10-27
 project.protocols.1.description "cDNA from each sample was prepared using the SMART-Seq 2 protocol (Picelli et al., 2013)."
 project.protocols.1.type.text nucleic acid library construction protocol
 sample.update_date 2016-11-15
+project.protocols.1.id faa1d4d1-abfc-4123-8dfb-51753357cf4c
 
 	sample.body_part.text blood dendritic cells
 	sample.donor.1.life_stage adult

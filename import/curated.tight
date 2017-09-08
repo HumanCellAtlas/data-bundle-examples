@@ -1,7 +1,7 @@
 assay.files [$] *
 assay.rna.end_bias $ three_prime_end three_prime_bias five_prime_end five_prime_bias full_transcript
 assay.rna.library_construction $ "C1 autoprep" CEL-seq "SMARTer Ultra Low RNA Kit" "modified smart-seq2" smart-seq2
-assay.rna.library_protocol $ P-????-*
+assay.rna.library_protocol $ *-????-*
 assay.rna.primer $ poly-dt random
 assay.rna.spike_in $ ERCC
 assay.rna.spike_in_dilution # 1 1000000
@@ -12,7 +12,7 @@ assay.seq.instrument_model $ "Illumina HiSeq 2000" "Illumina HiSeq 2500" "Illumi
 assay.seq.instrument_platform $ Illumina
 assay.seq.local_machine_name $
 assay.seq.library_construction $ "Nextera XT" TruSeq "modified Nextera XT"
-assay.seq.library_protocol $ P-????-*
+assay.seq.library_protocol $ *-????-*
 !assay.seq.molecule $ RNA "polyA RNA" "total RNA"
 !assay.seq.paired_ends $ index1_reads2 no yes
 assay.seq.sra_experiment $ SRX*
@@ -24,7 +24,7 @@ assay.single_cell.barcode_offset # 0 50
 assay.single_cell.barcode_read $ read1 read2 index
 assay.single_cell.barcode_size # 0 50
 !assay.single_cell.cell_handling $ 10x_v2 FACS "Fluidigm C1" drop-seq inDrop "mouth pipette" bulk
-project.array_express_investigation $ E-ERAD-357 E-MTAB-2805 E-MTAB-5061 E-MTAB-81904
+project.array_express_investigation $ E-????-*
 project.characteristics_* $ *
 project.contributors.[].address $ *
 project.contributors.[].city $ *
@@ -34,7 +34,7 @@ project.contributors.[].email $ *@*.*
 project.contributors.[].id $
 project.contributors.[].institution $ *
 project.contributors.[].laboratory $ *
-project.contributors.[].name $ *
+!project.contributors.[].name $ *
 !project.id $ *
 project.ddjb_trace $ ERP*
 !project.description $ *
@@ -42,6 +42,10 @@ project.experimental_design.[].text $ *
 project.experimental_factor_name [$] *
 project.geo_series $ GSE*
 project.ncbi_bioproject $ PRJNA*
+project.protocols.[].id $ *-????-*
+project.protocols.[].description $ *
+project.protocols.[].type.text $ 
+project.protocols.[].type.ontology $
 project.publications.[].authors [$] *
 project.publications.[].pmid #
 project.publications.[].doi $
@@ -80,14 +84,14 @@ sample.cell_line.publication.title $
 sample.cell_line.publication.url $
 sample.cell_line.cell_type.text $
 sample.cell_line.cell_type.ontology $
-sample.cell_line.culture_protocol $ P-????-*
+sample.cell_line.culture_protocol $ *-????-*
 sample.cell_line.disease.text $ 
 sample.cell_line.disease.ontology $ 
 sample.cell_line.karyotype $
 sample.characteristics_* $ *
 !sample.id $ *
 sample.culture_type $ "cell line" "primary culture" tissue
-sample.disassociation_protocol $ P-????-*
+sample.disassociation_protocol $ *-????-*
 sample.donor.[].age % 0 150
 sample.donor.[].age_unit $ hour day week year
 sample.donor.[].ancestry.[].text $ *
@@ -97,7 +101,7 @@ sample.donor.[].death.cause_of_death $ *
 sample.donor.[].death.cold_perfused $ no yes
 sample.donor.[].death.days_on_ventilator % 0 10000
 sample.donor.[].death.hardy_scale # 0 4
-sample.donor.[].death.time_of_death $ ????-??-?? ??:??:??
+sample.donor.[].death.time_of_death $ "????-??-?? ??:??:??"
 sample.donor.[].development_stage.text $ *
 sample.donor.[].disease.[].text $ *
 sample.donor.[].disease.[].ontology $ *
@@ -117,7 +121,7 @@ sample.donor.[].submitted_id $ *
 sample.donor.[].weight % 0 1000
 sample.ena_sample $ ERS*
 sample.enrichment.[].markers $ *
-sample.enrichment.[].protocol [$] P-????-*
+sample.enrichment.[].protocol [$] *-????-*
 sample.enrichment.[].size_min % 0.01 10000
 sample.enrichment.[].size_max % 0.01 10000
 sample.enrichment.[].type $ FACS MACS "Ficoll gradient"
@@ -133,16 +137,14 @@ sample.preservation.gross_description $ *
 sample.preservation.gross_image [$] *.jpg *.jpeg *.tiff *.png
 sample.preservation.microscopic_description $ *
 sample.preservation.microscopic_image [$] *.jpg *.jpeg *.tiff *.png
-sample.preservation.preservation_protocol $ P-????-*
+sample.preservation.preservation_protocol $ *-????-*
 sample.preservation.preservation_protocol.description $ 
-sample.preservation.storage_protocol $ P-????-*
+sample.preservation.storage_protocol $ *-????-*
 sample.preservation.storage_protocol.description $ *
+sample.protocol_ids [$] *-????-*
 sample.submit_date $ 2???-??-??
 sample.submitter_id $ *
 sample.supplementary_files [$] *
-sample.supplementary_protocols.[].description $ *
-sample.supplementary_protocols.[].type $ "growth protocol" "high throughput sequence alignment protocol" "normalization data transformation protocol" "nucleic acid extraction protocol" "nucleic acid library construction protocol" "nucleic acid sequencing protocol" "sample collection protocol" "treatment protocol"
-sample.supplementary_protocols.[].id P-????-*
 sample.title $ *
 sample.total_estimated_cells % 0.1 1e9
 sample.update_date $ 2???-??-??
@@ -151,6 +153,6 @@ sample.well.cell_type.text $ *
 sample.well.col	$ *
 sample.well.id $ *
 sample.well.plate $
-sample.well.plating_protocol $ P-????-*
+sample.well.plating_protocol $ *-????-*
 sample.well.quality $ OK "control, 2-cell well" "control, empty well" "low quality cell"
 sample.well.row $ *

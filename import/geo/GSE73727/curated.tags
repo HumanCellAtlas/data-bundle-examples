@@ -52,6 +52,8 @@ project.protocols.1.type.text treatment protocol
 project.protocols.2.description "To disassociate islets into single cells, islets were incubated in Accutase (Life technology) in 37 °C for 20 min, neutralized by CMRL medium. Purification of single cells was performed by flow cytometry cell sorting on a Moflo AstriosEQ (Beckman Coulter, Miami)"
 project.protocols.2.type.text nucleic acid library construction protocol
 sample.update_date 2016-01-05
+project.protocols.1.id 19aeb079-ee34-48c8-bec5-3743a43a9571
+project.protocols.2.id c415dbce-2335-4cb1-9079-e227da725b37
 
 	assay.single_cell.cell_handling FACS
 	sample.total_estimated_cells 1

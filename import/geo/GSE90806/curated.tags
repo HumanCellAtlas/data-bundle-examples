@@ -43,6 +43,7 @@ project.protocols.1.description GFP+ cells were manually isolated from a cell su
 project.protocols.1.type.text nucleic acid library construction protocol
 sample.title arcuate hypothalamus/median eminence cells from RIP-Cre::AAV-loxSTOPlox-GFP+ mouse
 sample.update_date 2017-02-06
+project.protocols.1.id da241a08-e717-4faf-b83c-6f807a1f20b3
 
 	assay.seq.sra_experiment SRX2390154
 	assay.seq.sra_run SRR5070307

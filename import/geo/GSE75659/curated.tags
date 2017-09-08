@@ -23,6 +23,9 @@ project.submitter.name "Daniel,,Ramsköld"
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP066/SRP066963,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75659/suppl/GSE75659_RAW.tar
 project.update_date 2017-06-02
 project.protocols.1.type.text nucleic acid library construction protocol
+project.protocols.1.description "SmartSeq2 (Picelli S, Nat Methods. 2013, PubMed PMID: 24056875)"
+project.protocols.1.id ce926efb-4d92-436e-b99d-45a9249b332b
+sample.protocols ce926efb-4d92-436e-b99d-45a9249b332b
 sample.update_date 2016-09-26
 
 	assay.rna.end_bias full_transcript
@@ -30,7 +33,6 @@ sample.update_date 2016-09-26
 	assay.rna.primer random
 	assay.seq.molecule total RNA
 	assay.seq.paired_ends no
-	project.protocols.1.description "SmartSeq2 (Picelli S, Nat Methods. 2013, PubMed PMID: 24056875)"
 
 		assay.single_cell.cell_handling FACS
 		sample.donor.1.life_stage adult

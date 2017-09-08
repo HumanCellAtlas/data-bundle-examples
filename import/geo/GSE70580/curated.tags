@@ -42,6 +42,7 @@ project.protocols.1.description cDNA was generated from FACS sorted cells using 
 project.protocols.1.type.text nucleic acid library construction protocol
 sample.update_date 2016-01-28
 sample.well.cell_type.text tonsil innate lymphoid cells
+project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 
 	sample.donor.1.id 64154fb0-f8e7-44dc-9e08-e228e8704352
 	sample.donor.1.submitted_id Donor T74
