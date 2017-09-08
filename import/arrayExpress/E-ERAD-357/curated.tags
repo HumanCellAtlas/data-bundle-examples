@@ -2,6 +2,7 @@ project.title RNAseq of mouse POMC neurons
 project.id E-ERAD-357
 assay.rna.end_bias full_transcript
 assay.rna.primer random
+assay.rna.library_construction SMARTer Ultra Low RNA Kit
 assay.seq.instrument_model Illumina HiSeq 2500
 assay.seq.instrument_platform Illumina
 assay.seq.molecule RNA
@@ -20,10 +21,11 @@ project.submitter.institution Wellcome Trust Sanger Institute
 project.submitter.name ",,The Wellcome Trust Sanger Institute"
 sample.body_part.ontology UBERON_0001932
 sample.body_part.text arcuate nucleus of hypothalamus
-sample.donor.1.sex male
-sample.donor.1.species.ontology 10090
-sample.donor.1.species.text Mus musculus
-sample.donor.1.id 29708a27-1134-4bc4-92a4-4715ac490fd2
+sample.donor.sex male
+sample.donor.species.ontology 10090
+sample.donor.species.text Mus musculus
+sample.donor.is_living no
+sample.donor.id 29708a27-1134-4bc4-92a4-4715ac490fd2
 sample.enrichment.1.markers POMC+
 sample.organ.ontology UBERON_0000955
 sample.organ.text brain

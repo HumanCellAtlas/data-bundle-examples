@@ -35,11 +35,12 @@ sample.update_date 2016-09-26
 	assay.seq.paired_ends no
 
 		assay.single_cell.cell_handling FACS
-		sample.donor.1.life_stage adult
-		sample.donor.1.medication.1.text Immunization with yellow fever vaccine YFV 17D
-		sample.donor.1.sex male
-		sample.donor.1.species.ontology 9606
-		sample.donor.1.species.text Homo sapiens
+		sample.donor.life_stage adult
+		sample.donor.medication.1.text Immunization with yellow fever vaccine YFV 17D
+		sample.donor.sex male
+		sample.donor.species.ontology 9606
+		sample.donor.species.text Homo sapiens
+		sample.donor.is_living yes
 		sample.submit_date 2015-12-03
 
 			sample.body_part.text CD8+ T cell
@@ -7285,13 +7286,14 @@ sample.update_date 2016-09-26
 					sample.well.id Tcell_person1_P1902_1574
 
 		assay.single_cell.cell_handling mouth pipette
-		sample.donor.1.species.ontology 10090
-		sample.donor.1.species.text Mus musculus
+		sample.donor.species.ontology 10090
+		sample.donor.species.text Mus musculus
+		sample.donor.is_living no
 
 			sample.submit_date 2015-12-03
 
-				sample.donor.1.life_stage adult
-				sample.donor.1.sex female
+				sample.donor.life_stage adult
+				sample.donor.sex female
 
 					sample.body_part.text fibroblast
 					sample.culture_type primary culture
@@ -7305,7 +7307,7 @@ sample.update_date 2016-09-26
 					sample.well.cell_type.text fibroblast
 
 						sample.characteristics_clone.info fibroblast.cl1
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 
 							assay.seq.sra_experiment SRX1460857
 							assay.seq.sra_run SRR2971483
@@ -7332,7 +7334,7 @@ sample.update_date 2016-09-26
 							sample.well.id fibroblast.3.cl1
 
 						sample.characteristics_clone.info fibroblast.cl2
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 
 							assay.seq.sra_experiment SRX1460860
 							assay.seq.sra_run SRR2971486
@@ -7367,7 +7369,7 @@ sample.update_date 2016-09-26
 							sample.well.id fibroblast.7.cl2
 
 						sample.characteristics_clone.info fibroblast.cl3
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 
 							assay.seq.sra_experiment SRX1460864
 							assay.seq.sra_run SRR2971490
@@ -7402,7 +7404,7 @@ sample.update_date 2016-09-26
 							sample.well.id fibroblast.11.cl3
 
 						sample.characteristics_clone.info fibroblast.cl4
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 
 							assay.seq.sra_experiment SRX1460868
 							assay.seq.sra_run SRR2971494
@@ -7429,7 +7431,7 @@ sample.update_date 2016-09-26
 							sample.well.id fibroblast.14.cl4
 
 						sample.characteristics_clone.info fibroblast.cl5
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 
 							assay.seq.sra_experiment SRX1460871
 							assay.seq.sra_run SRR2971497
@@ -7496,7 +7498,7 @@ sample.update_date 2016-09-26
 							sample.well.id fibroblast.22.cl5
 
 						sample.characteristics_clone.info fibroblast.cl7
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 
 							assay.seq.sra_experiment SRX1460917
 							assay.seq.sra_run SRR2971543
@@ -7974,7 +7976,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_run SRR2971606
 						sample.characteristics_clone.info fibroblast.cl7.5.pooled.cells
 						sample.id e3a1c2cf-0d96-44c0-a46c-1dacab81998e
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1961873
 						sample.ncbi_biosample SAMN04312303
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961873/suppl/GSM1961873_fibroblast.123.cl7_5.pooled.cells_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460979
@@ -7986,7 +7988,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461027
 							assay.seq.sra_run SRR2971654
 							sample.id aea69107-7e27-44b7-ae01-8a7f3963177d
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961921
 							sample.ncbi_biosample SAMN04312460
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961921/suppl/GSM1961921_fibroblast.171_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461027
@@ -7995,7 +7997,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461028
 							assay.seq.sra_run SRR2971655
 							sample.id add69aaf-c2fd-4d5d-a626-403de8aceb8a
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961922
 							sample.ncbi_biosample SAMN04312461
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961922/suppl/GSM1961922_fibroblast.172_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461028
@@ -8004,7 +8006,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461029
 							assay.seq.sra_run SRR2971656
 							sample.id 299b3431-8d4d-4ad8-97a4-7ebac9b26cdf
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961923
 							sample.ncbi_biosample SAMN04312462
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961923/suppl/GSM1961923_fibroblast.173_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461029
@@ -8013,7 +8015,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461030
 							assay.seq.sra_run SRR2971657
 							sample.id 16189123-d7bd-42db-b07e-fe904df26d00
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961924
 							sample.ncbi_biosample SAMN04312463
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961924/suppl/GSM1961924_fibroblast.174_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461030
@@ -8022,7 +8024,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461031
 							assay.seq.sra_run SRR2971658
 							sample.id 5c35e384-3e43-4f6c-b329-9ad06124e781
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961925
 							sample.ncbi_biosample SAMN04312464
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961925/suppl/GSM1961925_fibroblast.175_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461031
@@ -8031,7 +8033,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461032
 							assay.seq.sra_run SRR2971659
 							sample.id 7e7e5a9b-d926-4e72-b8fe-23b334c97020
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961926
 							sample.ncbi_biosample SAMN04312465
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961926/suppl/GSM1961926_fibroblast.176_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461032
@@ -8040,7 +8042,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461033
 							assay.seq.sra_run SRR2971660
 							sample.id d6c768f0-9000-4113-ad4e-ceea705da912
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961927
 							sample.ncbi_biosample SAMN04312466
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961927/suppl/GSM1961927_fibroblast.177_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461033
@@ -8049,7 +8051,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461034
 							assay.seq.sra_run SRR2971661
 							sample.id 74d29376-5146-4118-953c-494c3e923423
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961928
 							sample.ncbi_biosample SAMN04312467
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961928/suppl/GSM1961928_fibroblast.178_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461034
@@ -8058,7 +8060,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461035
 							assay.seq.sra_run SRR2971662
 							sample.id ebd3d715-977f-4194-a296-df3c29618086
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961929
 							sample.ncbi_biosample SAMN04312468
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961929/suppl/GSM1961929_fibroblast.179_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461035
@@ -8067,7 +8069,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461036
 							assay.seq.sra_run SRR2971663
 							sample.id 0a134de1-1a52-4054-8f83-9706d3d72658
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961930
 							sample.ncbi_biosample SAMN04312270
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961930/suppl/GSM1961930_fibroblast.180_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461036
@@ -8076,7 +8078,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461037
 							assay.seq.sra_run SRR2971664
 							sample.id 6c467a27-d65f-450b-907a-1ff61b2fb367
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961931
 							sample.ncbi_biosample SAMN04312271
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961931/suppl/GSM1961931_fibroblast.181_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461037
@@ -8085,7 +8087,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461038
 							assay.seq.sra_run SRR2971665
 							sample.id 819bb68c-fe04-4cca-9d76-e22a8901eb6d
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961932
 							sample.ncbi_biosample SAMN04312272
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961932/suppl/GSM1961932_fibroblast.182_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461038
@@ -8094,7 +8096,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461039
 							assay.seq.sra_run SRR2971666
 							sample.id e2d363eb-cea5-48be-a1c5-b8e5b9dded23
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961933
 							sample.ncbi_biosample SAMN04312273
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961933/suppl/GSM1961933_fibroblast.183_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461039
@@ -8103,7 +8105,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461040
 							assay.seq.sra_run SRR2971667
 							sample.id 4f2fd128-1b8d-4082-b1e4-88b2da904498
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961934
 							sample.ncbi_biosample SAMN04312274
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961934/suppl/GSM1961934_fibroblast.184_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461040
@@ -8112,7 +8114,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461041
 							assay.seq.sra_run SRR2971668
 							sample.id 78b01676-9e74-4047-9a47-d519badf6859
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961935
 							sample.ncbi_biosample SAMN04312275
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961935/suppl/GSM1961935_fibroblast.185_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461041
@@ -8121,7 +8123,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461042
 							assay.seq.sra_run SRR2971669
 							sample.id b1a61614-c5e0-43d0-b978-33f56e43e091
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961936
 							sample.ncbi_biosample SAMN04312276
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961936/suppl/GSM1961936_fibroblast.186_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461042
@@ -8130,7 +8132,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461043
 							assay.seq.sra_run SRR2971670
 							sample.id 91148314-e2b9-4bdd-89ee-dc2dc771ac44
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961937
 							sample.ncbi_biosample SAMN04312277
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961937/suppl/GSM1961937_fibroblast.187_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461043
@@ -8139,7 +8141,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461044
 							assay.seq.sra_run SRR2971671
 							sample.id 7ad30b07-efe4-4d46-933a-3c27821047f0
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961938
 							sample.ncbi_biosample SAMN04312278
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961938/suppl/GSM1961938_fibroblast.188_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461044
@@ -8148,7 +8150,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461045
 							assay.seq.sra_run SRR2971672
 							sample.id 5b115b90-3366-4447-826d-5338fe1e0408
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961939
 							sample.ncbi_biosample SAMN04312279
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961939/suppl/GSM1961939_fibroblast.189_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461045
@@ -8157,7 +8159,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461046
 							assay.seq.sra_run SRR2971673
 							sample.id d98e305c-7294-4262-b37d-77d04ff93275
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961940
 							sample.ncbi_biosample SAMN04312280
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961940/suppl/GSM1961940_fibroblast.190_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461046
@@ -8166,7 +8168,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461047
 							assay.seq.sra_run SRR2971674
 							sample.id d03ee182-da79-49d9-b8f8-5c5b959eea7a
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961941
 							sample.ncbi_biosample SAMN04312281
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961941/suppl/GSM1961941_fibroblast.191_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461047
@@ -8175,7 +8177,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461048
 							assay.seq.sra_run SRR2971675
 							sample.id 0bc2044a-ca9e-4fcd-ae74-9dd95624c134
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961942
 							sample.ncbi_biosample SAMN04312282
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961942/suppl/GSM1961942_fibroblast.192_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461048
@@ -8184,7 +8186,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461049
 							assay.seq.sra_run SRR2971676
 							sample.id 45f6a4e8-0868-4699-a95c-e565ebaf66f1
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961943
 							sample.ncbi_biosample SAMN04312283
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961943/suppl/GSM1961943_fibroblast.193_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461049
@@ -8193,7 +8195,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461050
 							assay.seq.sra_run SRR2971677
 							sample.id 0d97a26c-1b80-4761-b47c-d94969107d09
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961944
 							sample.ncbi_biosample SAMN04312284
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961944/suppl/GSM1961944_fibroblast.194_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461050
@@ -8202,7 +8204,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461051
 							assay.seq.sra_run SRR2971678
 							sample.id e5766a69-c459-4b7d-8a72-3bbd65360298
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961945
 							sample.ncbi_biosample SAMN04312285
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961945/suppl/GSM1961945_fibroblast.195_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461051
@@ -8211,7 +8213,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461052
 							assay.seq.sra_run SRR2971679
 							sample.id 6f701071-f9e2-4577-82e6-27d9bcad5a18
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961946
 							sample.ncbi_biosample SAMN04312286
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961946/suppl/GSM1961946_fibroblast.196_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461052
@@ -8220,7 +8222,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461053
 							assay.seq.sra_run SRR2971680
 							sample.id 3c96f069-4279-4349-ac52-4eeaea7ea036
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961947
 							sample.ncbi_biosample SAMN04312287
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961947/suppl/GSM1961947_fibroblast.197_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461053
@@ -8229,7 +8231,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461054
 							assay.seq.sra_run SRR2971681
 							sample.id 21c18bfa-f80d-4fca-ad31-c454e97a6a9f
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961948
 							sample.ncbi_biosample SAMN04312288
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961948/suppl/GSM1961948_fibroblast.198_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461054
@@ -8238,7 +8240,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461055
 							assay.seq.sra_run SRR2971682
 							sample.id 880cd687-2d38-4d8a-9ab5-2db84048e0e4
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961949
 							sample.ncbi_biosample SAMN04312289
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961949/suppl/GSM1961949_fibroblast.199_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461055
@@ -8247,7 +8249,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461056
 							assay.seq.sra_run SRR2971683
 							sample.id e84077bc-81bf-4831-8b21-9db32351ddfe
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961950
 							sample.ncbi_biosample SAMN04312290
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961950/suppl/GSM1961950_fibroblast.200_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461056
@@ -8256,7 +8258,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461057
 							assay.seq.sra_run SRR2971684
 							sample.id 208a5877-56aa-4bd7-8c97-e7eb3bee9964
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961951
 							sample.ncbi_biosample SAMN04312291
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961951/suppl/GSM1961951_fibroblast.201_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461057
@@ -8265,7 +8267,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461062
 							assay.seq.sra_run SRR2971689
 							sample.id 1b7b1164-f43d-4868-92a7-81656400471f
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961956
 							sample.ncbi_biosample SAMN04312296
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961956/suppl/GSM1961956_fibroblast.206_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461062
@@ -8274,7 +8276,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461063
 							assay.seq.sra_run SRR2971690
 							sample.id 0a4a4fa0-da30-4e54-bc19-a7d1fd0f7b8a
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961957
 							sample.ncbi_biosample SAMN04312297
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961957/suppl/GSM1961957_fibroblast.207_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461063
@@ -8283,7 +8285,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461064
 							assay.seq.sra_run SRR2971691
 							sample.id fbb0f4dd-ac96-49b3-a666-65614c356782
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961958
 							sample.ncbi_biosample SAMN04312298
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961958/suppl/GSM1961958_fibroblast.208_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461064
@@ -8292,7 +8294,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461065
 							assay.seq.sra_run SRR2971692
 							sample.id 22996f43-c7f5-4c2e-9010-5ed8990127e5
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961959
 							sample.ncbi_biosample SAMN04312299
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961959/suppl/GSM1961959_fibroblast.209_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461065
@@ -8301,7 +8303,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461066
 							assay.seq.sra_run SRR2971693
 							sample.id e0ea43de-51c4-4626-8726-24a3d651a908
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961960
 							sample.ncbi_biosample SAMN04312558
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961960/suppl/GSM1961960_fibroblast.210_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461066
@@ -8310,7 +8312,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461067
 							assay.seq.sra_run SRR2971694
 							sample.id eafbb6cb-aa23-4907-b620-1c6fc72e7fd1
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961961
 							sample.ncbi_biosample SAMN04312559
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961961/suppl/GSM1961961_fibroblast.211_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461067
@@ -8319,7 +8321,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461068
 							assay.seq.sra_run SRR2971695
 							sample.id 2780ff26-eb95-43a6-8683-d19deae65224
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961962
 							sample.ncbi_biosample SAMN04312560
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961962/suppl/GSM1961962_fibroblast.212_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461068
@@ -8328,7 +8330,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461069
 							assay.seq.sra_run SRR2971696
 							sample.id 7563e87a-8ea5-49a0-840a-ba5dfa70d094
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961963
 							sample.ncbi_biosample SAMN04312561
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961963/suppl/GSM1961963_fibroblast.213_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461069
@@ -8337,7 +8339,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461070
 							assay.seq.sra_run SRR2971697
 							sample.id 46cbd82b-ac43-4f45-b1a4-a0bc214114cc
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961964
 							sample.ncbi_biosample SAMN04312562
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961964/suppl/GSM1961964_fibroblast.214_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461070
@@ -8346,7 +8348,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461071
 							assay.seq.sra_run SRR2971698
 							sample.id 7e2438b9-d6c5-4a34-a874-e9b3adbaa7f1
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961965
 							sample.ncbi_biosample SAMN04312563
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961965/suppl/GSM1961965_fibroblast.215_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461071
@@ -8355,7 +8357,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461072
 							assay.seq.sra_run SRR2971699
 							sample.id 3fa825db-fdfd-4026-bbbb-f02acaf01efb
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961966
 							sample.ncbi_biosample SAMN04312564
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961966/suppl/GSM1961966_fibroblast.216_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461072
@@ -8364,7 +8366,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461073
 							assay.seq.sra_run SRR2971700
 							sample.id 46da66cb-caa4-4a5a-bf02-45b008fb7b39
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961967
 							sample.ncbi_biosample SAMN04312565
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961967/suppl/GSM1961967_fibroblast.217_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461073
@@ -8373,7 +8375,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461074
 							assay.seq.sra_run SRR2971701
 							sample.id b3ad5024-07ba-4433-b23e-742076fce4f7
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961968
 							sample.ncbi_biosample SAMN04312566
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961968/suppl/GSM1961968_fibroblast.218_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461074
@@ -8382,7 +8384,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461075
 							assay.seq.sra_run SRR2971702
 							sample.id e5ed41f6-6f94-45b6-ba52-72a0744a105c
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961969
 							sample.ncbi_biosample SAMN04312567
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961969/suppl/GSM1961969_fibroblast.219_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461075
@@ -8391,7 +8393,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461076
 							assay.seq.sra_run SRR2971703
 							sample.id deee9146-a865-4bd9-9b07-d27824c02d36
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961970
 							sample.ncbi_biosample SAMN04312568
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961970/suppl/GSM1961970_fibroblast.220_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461076
@@ -8400,7 +8402,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461077
 							assay.seq.sra_run SRR2971704
 							sample.id e273b57f-7668-42f2-a31b-a641c6dc040d
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961971
 							sample.ncbi_biosample SAMN04312569
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961971/suppl/GSM1961971_fibroblast.221_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461077
@@ -8409,7 +8411,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461082
 							assay.seq.sra_run SRR2971709
 							sample.id ea836238-7dd6-461c-b7fb-737d0487b237
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961976
 							sample.ncbi_biosample SAMN04312574
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961976/suppl/GSM1961976_fibroblast.226_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461082
@@ -8418,7 +8420,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461083
 							assay.seq.sra_run SRR2971710
 							sample.id 7e0a0bbd-7e4c-4e4e-89a4-445fad8d2836
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961977
 							sample.ncbi_biosample SAMN04312575
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961977/suppl/GSM1961977_fibroblast.227_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461083
@@ -8427,7 +8429,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461084
 							assay.seq.sra_run SRR2971711
 							sample.id 53bd1950-e317-4bb0-991c-c8a1fa3ff331
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961978
 							sample.ncbi_biosample SAMN04312576
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961978/suppl/GSM1961978_fibroblast.228_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461084
@@ -8436,7 +8438,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461085
 							assay.seq.sra_run SRR2971712
 							sample.id fadcb1c2-36e7-4f7a-a358-c5b00178b7fb
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961979
 							sample.ncbi_biosample SAMN04312577
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961979/suppl/GSM1961979_fibroblast.229_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461085
@@ -8445,7 +8447,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461086
 							assay.seq.sra_run SRR2971713
 							sample.id 1e9b8860-40c2-496b-a9df-786d4dfa0227
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961980
 							sample.ncbi_biosample SAMN04312578
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961980/suppl/GSM1961980_fibroblast.230_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461086
@@ -8454,7 +8456,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461087
 							assay.seq.sra_run SRR2971714
 							sample.id a503267e-a526-48a7-b618-3f585f1824e8
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961981
 							sample.ncbi_biosample SAMN04312579
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961981/suppl/GSM1961981_fibroblast.231_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461087
@@ -8463,7 +8465,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461088
 							assay.seq.sra_run SRR2971715
 							sample.id 61bb314f-2f9e-4f9f-909f-58aaace9c01c
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961982
 							sample.ncbi_biosample SAMN04312580
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961982/suppl/GSM1961982_fibroblast.232_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461088
@@ -8472,7 +8474,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461089
 							assay.seq.sra_run SRR2971716
 							sample.id 0659ee3d-751d-4fb0-9726-29978f58d76a
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961983
 							sample.ncbi_biosample SAMN04312581
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961983/suppl/GSM1961983_fibroblast.233_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461089
@@ -8481,7 +8483,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461090
 							assay.seq.sra_run SRR2971717
 							sample.id d2a55289-3b9f-45a0-963f-938a932dcfc2
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961984
 							sample.ncbi_biosample SAMN04312582
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961984/suppl/GSM1961984_fibroblast.234_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461090
@@ -8490,7 +8492,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461091
 							assay.seq.sra_run SRR2971718
 							sample.id 6480428f-c3c6-4601-bfcc-574d334f3c3e
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961985
 							sample.ncbi_biosample SAMN04312583
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961985/suppl/GSM1961985_fibroblast.235_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461091
@@ -8499,7 +8501,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461092
 							assay.seq.sra_run SRR2971719
 							sample.id 8f3aa1ee-32f4-408b-9ffe-17340dc18a7d
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961986
 							sample.ncbi_biosample SAMN04312584
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961986/suppl/GSM1961986_fibroblast.236_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461092
@@ -8508,7 +8510,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461093
 							assay.seq.sra_run SRR2971720
 							sample.id 87fab626-0b4d-4380-b4dc-106d6b588e51
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961987
 							sample.ncbi_biosample SAMN04312585
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961987/suppl/GSM1961987_fibroblast.237_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461093
@@ -8517,7 +8519,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461094
 							assay.seq.sra_run SRR2971721
 							sample.id 0aff2428-094b-4a2b-9235-874c54d6805f
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961988
 							sample.ncbi_biosample SAMN04312586
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961988/suppl/GSM1961988_fibroblast.238_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461094
@@ -8526,7 +8528,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461095
 							assay.seq.sra_run SRR2971722
 							sample.id 982c4141-13ca-4691-aa46-f7dcec7b2507
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961989
 							sample.ncbi_biosample SAMN04312587
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961989/suppl/GSM1961989_fibroblast.239_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461095
@@ -8535,7 +8537,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461096
 							assay.seq.sra_run SRR2971723
 							sample.id d7b9cbf5-5ea6-4902-977c-b8ecb1cd0937
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961990
 							sample.ncbi_biosample SAMN04312528
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961990/suppl/GSM1961990_fibroblast.240_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461096
@@ -8544,7 +8546,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461097
 							assay.seq.sra_run SRR2971724
 							sample.id 96c71161-64b3-411f-80bb-23b5958060a6
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961991
 							sample.ncbi_biosample SAMN04312529
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961991/suppl/GSM1961991_fibroblast.241_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461097
@@ -8556,7 +8558,7 @@ sample.update_date 2016-09-26
 					sample.characteristics_clone.info fibroblast.cl7
 					sample.id 12b38a59-2281-47f3-a80a-707d83cbe43d
 					sample.culture_type primary culture
-					sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+					sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 					sample.geo_sample GSM1961870
 					sample.name 15 fibroblasts
 					sample.ncbi_biosample SAMN04312300
@@ -8571,7 +8573,7 @@ sample.update_date 2016-09-26
 
 					sample.body_part.text fibroblast
 					sample.culture_type primary culture
-					sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+					sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 					sample.name 5 fibroblasts
 					sample.organ.ontology UBERON_0002097
 					sample.organ.text skin
@@ -8612,7 +8614,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461126
 						assay.seq.sra_run SRR2971753
 						sample.id 8398b380-5249-485b-b747-27cd32b42a19
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962020
 						sample.ncbi_biosample SAMN04312476
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962020/suppl/GSM1962020_fibroblast.split.Q.270_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461126
@@ -8621,7 +8623,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461127
 						assay.seq.sra_run SRR2971754
 						sample.id f9427cda-e2c8-4003-8552-536b6a5862d6
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962021
 						sample.ncbi_biosample SAMN04312556
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962021/suppl/GSM1962021_fibroblast.split.Q.271_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461127
@@ -8630,7 +8632,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461128
 						assay.seq.sra_run SRR2971755
 						sample.id 965623dd-99f0-4bcf-a674-6e0af7040da7
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962022
 						sample.ncbi_biosample SAMN04312557
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962022/suppl/GSM1962022_fibroblast.split.S.272_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461128
@@ -8639,7 +8641,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461129
 						assay.seq.sra_run SRR2971756
 						sample.id 20a19bc0-e435-4877-befb-4fb9bea1dad4
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962023
 						sample.ncbi_biosample SAMN04312469
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962023/suppl/GSM1962023_fibroblast.split.S.273_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461129
@@ -8648,7 +8650,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461130
 						assay.seq.sra_run SRR2971757
 						sample.id e669a97f-6c17-4148-bfc9-317bbb9f01ea
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962024
 						sample.ncbi_biosample SAMN04312470
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962024/suppl/GSM1962024_fibroblast.split.T.274_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461130
@@ -8657,7 +8659,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461131
 						assay.seq.sra_run SRR2971758
 						sample.id 193626a1-68e3-4b45-ad9a-7ad6737f0f2d
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962025
 						sample.ncbi_biosample SAMN04312471
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962025/suppl/GSM1962025_fibroblast.split.T.275_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461131
@@ -8666,7 +8668,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461132
 						assay.seq.sra_run SRR2971759
 						sample.id 2d7627dd-7627-4390-905e-85a75f30f850
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962026
 						sample.ncbi_biosample SAMN04312472
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962026/suppl/GSM1962026_fibroblast.split.I.276_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461132
@@ -8675,7 +8677,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461133
 						assay.seq.sra_run SRR2971760
 						sample.id 8f138e50-bce5-481d-b86f-1983399ac539
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962027
 						sample.ncbi_biosample SAMN04312473
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962027/suppl/GSM1962027_fibroblast.split.I.277_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461133
@@ -8684,7 +8686,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461134
 						assay.seq.sra_run SRR2971761
 						sample.id 048a5f4f-0a42-4bf2-8178-7a29392ca2ed
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962028
 						sample.ncbi_biosample SAMN04312477
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962028/suppl/GSM1962028_fibroblast.split.J.278_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461134
@@ -8693,7 +8695,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461135
 						assay.seq.sra_run SRR2971762
 						sample.id 891124b0-129e-425a-8709-42fc438d5aa3
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962029
 						sample.ncbi_biosample SAMN04312478
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962029/suppl/GSM1962029_fibroblast.split.J.279_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461135
@@ -8702,7 +8704,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461136
 						assay.seq.sra_run SRR2971763
 						sample.id 938f1395-ce6b-4bad-83b0-b36718ab5f61
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962030
 						sample.ncbi_biosample SAMN04312479
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962030/suppl/GSM1962030_fibroblast.split.K.280_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461136
@@ -8711,7 +8713,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461137
 						assay.seq.sra_run SRR2971764
 						sample.id 2ad5e1a3-d21c-48a0-91c2-db8f344bedc7
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962031
 						sample.ncbi_biosample SAMN04312480
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962031/suppl/GSM1962031_fibroblast.split.K.281_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461137
@@ -8720,7 +8722,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461138
 						assay.seq.sra_run SRR2971765
 						sample.id 8863ef3e-6eee-4438-8d42-5b0d67f5af14
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962032
 						sample.ncbi_biosample SAMN04312481
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962032/suppl/GSM1962032_fibroblast.split.L.282_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461138
@@ -8729,7 +8731,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461139
 						assay.seq.sra_run SRR2971766
 						sample.id a4cb571c-13b7-4009-8320-f385da5a6b94
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962033
 						sample.ncbi_biosample SAMN04312482
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962033/suppl/GSM1962033_fibroblast.split.L.283_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461139
@@ -8738,7 +8740,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461140
 						assay.seq.sra_run SRR2971767
 						sample.id aa4386da-0543-42fc-b15d-1a2f25741a57
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962034
 						sample.ncbi_biosample SAMN04312483
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962034/suppl/GSM1962034_fibroblast.split.O.284_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461140
@@ -8747,7 +8749,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461141
 						assay.seq.sra_run SRR2971768
 						sample.id 253b5d0e-3ee3-4655-80d5-bb7924bad8cf
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962035
 						sample.ncbi_biosample SAMN04312484
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962035/suppl/GSM1962035_fibroblast.split.O.285_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461141
@@ -8756,7 +8758,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461142
 						assay.seq.sra_run SRR2971769
 						sample.id b2761d75-910f-443f-94d2-33d28d1fd580
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962036
 						sample.ncbi_biosample SAMN04312485
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962036/suppl/GSM1962036_fibroblast.split.P.286_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461142
@@ -8765,7 +8767,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461143
 						assay.seq.sra_run SRR2971770
 						sample.id 02461ae0-9052-4a02-a7dd-b6df7f4dbcc4
-						sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+						sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 						sample.geo_sample GSM1962037
 						sample.ncbi_biosample SAMN04312486
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962037/suppl/GSM1962037_fibroblast.split.P.287_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461143
@@ -8774,7 +8776,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461144
 						assay.seq.sra_run SRR2971771
 						sample.id d500d57e-8e79-4181-b3ea-8ec1073ac555
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962038
 						sample.ncbi_biosample SAMN04312487
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962038/suppl/GSM1962038_fibroblast.split.A.288_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461144
@@ -8783,7 +8785,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461145
 						assay.seq.sra_run SRR2971772
 						sample.id 8310133e-7532-4b7a-8ff0-49c287739f1a
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962039
 						sample.ncbi_biosample SAMN04312488
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962039/suppl/GSM1962039_fibroblast.split.A.289_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461145
@@ -8792,7 +8794,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461146
 						assay.seq.sra_run SRR2971773
 						sample.id 0527afc9-92fb-441a-b3f4-23f56e86c9cb
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962040
 						sample.ncbi_biosample SAMN04312489
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962040/suppl/GSM1962040_fibroblast.split.B.290_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461146
@@ -8801,7 +8803,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461147
 						assay.seq.sra_run SRR2971774
 						sample.id 6d2116a2-8dbd-4a2c-8516-7179e82ef411
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962041
 						sample.ncbi_biosample SAMN04312490
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962041/suppl/GSM1962041_fibroblast.split.B.291_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461147
@@ -8810,7 +8812,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461148
 						assay.seq.sra_run SRR2971775
 						sample.id 05050865-7408-417e-ab89-c52cfa5a09ae
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962042
 						sample.ncbi_biosample SAMN04312491
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962042/suppl/GSM1962042_fibroblast.split.C.292_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461148
@@ -8819,7 +8821,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461149
 						assay.seq.sra_run SRR2971776
 						sample.id f4917fdb-5fee-47dd-b71f-d3058c881608
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962043
 						sample.ncbi_biosample SAMN04312492
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962043/suppl/GSM1962043_fibroblast.split.C.293_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461149
@@ -8828,7 +8830,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461150
 						assay.seq.sra_run SRR2971777
 						sample.id 48ffd8da-7232-4ea7-a0fd-e2307bf9e819
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962044
 						sample.ncbi_biosample SAMN04312493
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962044/suppl/GSM1962044_fibroblast.split.D.294_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461150
@@ -8837,7 +8839,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461151
 						assay.seq.sra_run SRR2971778
 						sample.id 2851d54e-25fd-4c0b-b403-cd94dbb508c8
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962045
 						sample.ncbi_biosample SAMN04312494
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962045/suppl/GSM1962045_fibroblast.split.D.295_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461151
@@ -8846,7 +8848,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461152
 						assay.seq.sra_run SRR2971779
 						sample.id 8f12ff02-8a97-4eb0-a993-f8b859069f0a
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962046
 						sample.ncbi_biosample SAMN04312495
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962046/suppl/GSM1962046_fibroblast.split.E.296_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461152
@@ -8855,7 +8857,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461153
 						assay.seq.sra_run SRR2971780
 						sample.id 96a9154d-03bf-4285-a7fd-3f4113b6d119
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962047
 						sample.ncbi_biosample SAMN04312496
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962047/suppl/GSM1962047_fibroblast.split.E.297_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461153
@@ -8864,7 +8866,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461154
 						assay.seq.sra_run SRR2971781
 						sample.id f15e28e2-079e-4255-92eb-2b06fef493ad
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962048
 						sample.ncbi_biosample SAMN04312497
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962048/suppl/GSM1962048_fibroblast.split.F.298_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461154
@@ -8873,7 +8875,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461155
 						assay.seq.sra_run SRR2971782
 						sample.id 7627bb2e-63f9-45b6-a669-202c7b9b4103
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962049
 						sample.ncbi_biosample SAMN04312498
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962049/suppl/GSM1962049_fibroblast.split.F.299_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461155
@@ -8882,7 +8884,7 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461156
 						assay.seq.sra_run SRR2971784
 						sample.id 276003b1-4958-4a76-a796-c33673f600ae
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962050
 						sample.ncbi_biosample SAMN04312499
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962050/suppl/GSM1962050_fibroblast.split.G.300_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461156
@@ -8891,21 +8893,21 @@ sample.update_date 2016-09-26
 						assay.seq.sra_experiment SRX1461157
 						assay.seq.sra_run SRR2971785
 						sample.id 99879e95-dddb-4e13-90bd-5b9a1c31b04c
-						sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+						sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 						sample.geo_sample GSM1962051
 						sample.ncbi_biosample SAMN04312500
 						sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962051/suppl/GSM1962051_fibroblast.split.G.301_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461157
 						sample.well.id fibroblast.split.G.301
 
-				sample.donor.1.sex male
+				sample.donor.sex male
 
 					sample.body_part.text fibroblast
 					sample.characteristics_clone.info fibroblast.cl6
 					sample.culture_type primary culture
-					sample.donor.1.age 15
-					sample.donor.1.age_unit day
-					sample.donor.1.life_stage embryo
-					sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+					sample.donor.age 15
+					sample.donor.age_unit day
+					sample.donor.life_stage embryo
+					sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 					sample.name E15 fibroblast
 					sample.organ.ontology UBERON_0002097
 					sample.organ.text skin
@@ -9219,7 +9221,7 @@ sample.update_date 2016-09-26
 						sample.well.id fibroblast.60.cl6
 
 					sample.characteristics_clone.info non.clonal
-					sample.donor.1.life_stage adult
+					sample.donor.life_stage adult
 
 						sample.body_part.text fibroblast
 						sample.name fibroblast
@@ -9233,7 +9235,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460980
 							assay.seq.sra_run SRR2971607
 							sample.id 93e7abe0-cd12-4fe9-923b-6e12e40d6ec3
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961874
 							sample.ncbi_biosample SAMN04312304
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961874/suppl/GSM1961874_fibroblast.124_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460980
@@ -9242,7 +9244,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460981
 							assay.seq.sra_run SRR2971608
 							sample.id 45ab4ab1-9617-4d3e-9635-645460302221
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961875
 							sample.ncbi_biosample SAMN04312305
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961875/suppl/GSM1961875_fibroblast.125_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460981
@@ -9251,7 +9253,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460982
 							assay.seq.sra_run SRR2971609
 							sample.id d93dfcf0-ab06-416e-a893-a1c1dcb7814f
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961876
 							sample.ncbi_biosample SAMN04312306
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961876/suppl/GSM1961876_fibroblast.126_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460982
@@ -9260,7 +9262,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460983
 							assay.seq.sra_run SRR2971610
 							sample.id 0d78d038-b00d-4044-bbfa-a333a8aed265
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961877
 							sample.ncbi_biosample SAMN04312307
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961877/suppl/GSM1961877_fibroblast.127_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460983
@@ -9269,7 +9271,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460984
 							assay.seq.sra_run SRR2971611
 							sample.id 4cfc7f6d-bfbd-4aaa-8aa1-2b962b525a45
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961878
 							sample.ncbi_biosample SAMN04312308
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961878/suppl/GSM1961878_fibroblast.128_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460984
@@ -9278,7 +9280,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460985
 							assay.seq.sra_run SRR2971612
 							sample.id a83703fd-13a8-45dc-8b51-07a056a505b8
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961879
 							sample.ncbi_biosample SAMN04312309
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961879/suppl/GSM1961879_fibroblast.129_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460985
@@ -9287,7 +9289,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460986
 							assay.seq.sra_run SRR2971613
 							sample.id 5e9ed676-360b-490d-b0b4-9adf27db06d6
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961880
 							sample.ncbi_biosample SAMN04312310
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961880/suppl/GSM1961880_fibroblast.130_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460986
@@ -9296,7 +9298,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460987
 							assay.seq.sra_run SRR2971614
 							sample.id 41f010e5-2027-4f95-9399-3b340da7c229
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961881
 							sample.ncbi_biosample SAMN04312311
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961881/suppl/GSM1961881_fibroblast.131_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460987
@@ -9305,7 +9307,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460988
 							assay.seq.sra_run SRR2971615
 							sample.id ce461ac0-f0dc-4823-b7aa-d535eaa8de10
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961882
 							sample.ncbi_biosample SAMN04312312
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961882/suppl/GSM1961882_fibroblast.132_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460988
@@ -9314,7 +9316,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460989
 							assay.seq.sra_run SRR2971616
 							sample.id c9a462e0-9328-4e49-be3b-e09482deb8e4
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961883
 							sample.ncbi_biosample SAMN04312313
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961883/suppl/GSM1961883_fibroblast.133_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460989
@@ -9323,7 +9325,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460990
 							assay.seq.sra_run SRR2971617
 							sample.id 6fa63154-6018-4f71-93c8-6cef0115eeda
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961884
 							sample.ncbi_biosample SAMN04312314
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961884/suppl/GSM1961884_fibroblast.134_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460990
@@ -9332,7 +9334,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460991
 							assay.seq.sra_run SRR2971618
 							sample.id d848ec34-a087-4ef8-8159-f11e5f6e4751
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961885
 							sample.ncbi_biosample SAMN04312315
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961885/suppl/GSM1961885_fibroblast.135_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460991
@@ -9341,7 +9343,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460992
 							assay.seq.sra_run SRR2971619
 							sample.id a2a1f9a5-962e-4f83-a07f-3cfb6605b58d
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961886
 							sample.ncbi_biosample SAMN04312316
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961886/suppl/GSM1961886_fibroblast.136_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460992
@@ -9350,7 +9352,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460993
 							assay.seq.sra_run SRR2971620
 							sample.id 1eb8869d-53b5-430e-9fbd-d5999827cbfa
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961887
 							sample.ncbi_biosample SAMN04312317
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961887/suppl/GSM1961887_fibroblast.137_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460993
@@ -9359,7 +9361,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460994
 							assay.seq.sra_run SRR2971621
 							sample.id 435d7d55-10d0-4c43-a53e-d7bce42d9139
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961888
 							sample.ncbi_biosample SAMN04312318
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961888/suppl/GSM1961888_fibroblast.138_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460994
@@ -9368,7 +9370,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460995
 							assay.seq.sra_run SRR2971622
 							sample.id 7a300113-ef1b-453d-a54e-1d94ab16246e
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961889
 							sample.ncbi_biosample SAMN04312319
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961889/suppl/GSM1961889_fibroblast.139_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460995
@@ -9377,7 +9379,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460996
 							assay.seq.sra_run SRR2971623
 							sample.id edc654fd-8ea5-4683-83b5-58669dec04e3
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961890
 							sample.ncbi_biosample SAMN04312320
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961890/suppl/GSM1961890_fibroblast.140_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460996
@@ -9386,7 +9388,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460997
 							assay.seq.sra_run SRR2971624
 							sample.id 5fa050cb-f77d-4c98-813e-fb7e91b215ed
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961891
 							sample.ncbi_biosample SAMN04312321
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961891/suppl/GSM1961891_fibroblast.141_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460997
@@ -9395,7 +9397,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460998
 							assay.seq.sra_run SRR2971625
 							sample.id ec4c9981-bc33-4d52-ab6b-69b9c963a861
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961892
 							sample.ncbi_biosample SAMN04312322
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961892/suppl/GSM1961892_fibroblast.142_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460998
@@ -9404,7 +9406,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1460999
 							assay.seq.sra_run SRR2971626
 							sample.id d2433140-19e8-4413-ad16-aeb77cd68fed
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961893
 							sample.ncbi_biosample SAMN04312323
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961893/suppl/GSM1961893_fibroblast.143_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1460999
@@ -9413,7 +9415,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461000
 							assay.seq.sra_run SRR2971627
 							sample.id 6653563c-da9a-4640-bdc8-516e25296798
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961894
 							sample.ncbi_biosample SAMN04312324
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961894/suppl/GSM1961894_fibroblast.144_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461000
@@ -9422,7 +9424,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461001
 							assay.seq.sra_run SRR2971628
 							sample.id 88386f98-423a-45c0-9d84-e02ef50c20e7
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961895
 							sample.ncbi_biosample SAMN04312325
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961895/suppl/GSM1961895_fibroblast.145_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461001
@@ -9431,7 +9433,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461002
 							assay.seq.sra_run SRR2971629
 							sample.id 56ba6613-f0ef-4ce2-9ca0-7f9789ebe9ff
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961896
 							sample.ncbi_biosample SAMN04312326
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961896/suppl/GSM1961896_fibroblast.146_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461002
@@ -9440,7 +9442,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461003
 							assay.seq.sra_run SRR2971630
 							sample.id d2fba80e-7345-444f-aecb-33c7185d5da2
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961897
 							sample.ncbi_biosample SAMN04312327
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961897/suppl/GSM1961897_fibroblast.147_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461003
@@ -9449,7 +9451,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461004
 							assay.seq.sra_run SRR2971631
 							sample.id 067ef470-efae-4f2e-89d0-be87f71389a6
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961898
 							sample.ncbi_biosample SAMN04312328
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961898/suppl/GSM1961898_fibroblast.148_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461004
@@ -9458,7 +9460,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461005
 							assay.seq.sra_run SRR2971632
 							sample.id 27f0c34a-2720-46e6-ac53-0d8469bf4acb
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961899
 							sample.ncbi_biosample SAMN04312329
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961899/suppl/GSM1961899_fibroblast.149_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461005
@@ -9467,7 +9469,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461006
 							assay.seq.sra_run SRR2971633
 							sample.id 5eae279e-0eb5-411d-84f5-7e7b863ccbdc
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961900
 							sample.ncbi_biosample SAMN04312439
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961900/suppl/GSM1961900_fibroblast.150_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461006
@@ -9476,7 +9478,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461007
 							assay.seq.sra_run SRR2971634
 							sample.id cccf78f8-0f7b-490b-9680-a459b7b9e65c
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961901
 							sample.ncbi_biosample SAMN04312440
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961901/suppl/GSM1961901_fibroblast.151_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461007
@@ -9485,7 +9487,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461008
 							assay.seq.sra_run SRR2971635
 							sample.id 8f8c377c-0a83-44a2-b355-c0c003155948
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961902
 							sample.ncbi_biosample SAMN04312441
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961902/suppl/GSM1961902_fibroblast.152_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461008
@@ -9494,7 +9496,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461009
 							assay.seq.sra_run SRR2971636
 							sample.id 1538bee4-1fbf-493b-9c94-14505301f359
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961903
 							sample.ncbi_biosample SAMN04312442
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961903/suppl/GSM1961903_fibroblast.153_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461009
@@ -9503,7 +9505,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461010
 							assay.seq.sra_run SRR2971637
 							sample.id 68de2496-2de0-49c4-8778-cdf613deb220
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961904
 							sample.ncbi_biosample SAMN04312443
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961904/suppl/GSM1961904_fibroblast.154_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461010
@@ -9512,7 +9514,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461011
 							assay.seq.sra_run SRR2971638
 							sample.id e8f19142-fc4e-4f3b-a650-d7c21544187b
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961905
 							sample.ncbi_biosample SAMN04312444
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961905/suppl/GSM1961905_fibroblast.155_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461011
@@ -9521,7 +9523,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461012
 							assay.seq.sra_run SRR2971639
 							sample.id 0c88475e-40d8-4946-bdb8-02749a9dc770
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961906
 							sample.ncbi_biosample SAMN04312445
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961906/suppl/GSM1961906_fibroblast.156_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461012
@@ -9530,7 +9532,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461013
 							assay.seq.sra_run SRR2971640
 							sample.id 6eb2ff1f-db54-498e-ba91-217378e0559c
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961907
 							sample.ncbi_biosample SAMN04312446
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961907/suppl/GSM1961907_fibroblast.157_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461013
@@ -9539,7 +9541,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461014
 							assay.seq.sra_run SRR2971641
 							sample.id 97e0e4b0-6584-4b56-b0cd-581050004785
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961908
 							sample.ncbi_biosample SAMN04312447
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961908/suppl/GSM1961908_fibroblast.158_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461014
@@ -9548,7 +9550,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461015
 							assay.seq.sra_run SRR2971642
 							sample.id ba78babc-3812-4215-84cf-d1fc6a53b3cd
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961909
 							sample.ncbi_biosample SAMN04312448
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961909/suppl/GSM1961909_fibroblast.159_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461015
@@ -9557,7 +9559,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461016
 							assay.seq.sra_run SRR2971643
 							sample.id 4d45cbeb-dd0d-4f61-86c5-71671ef16acf
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961910
 							sample.ncbi_biosample SAMN04312449
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961910/suppl/GSM1961910_fibroblast.160_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461016
@@ -9566,7 +9568,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461017
 							assay.seq.sra_run SRR2971644
 							sample.id 5bf2bdf5-b665-4bfb-b11f-41fd3212b9be
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961911
 							sample.ncbi_biosample SAMN04312450
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961911/suppl/GSM1961911_fibroblast.161_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461017
@@ -9575,7 +9577,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461018
 							assay.seq.sra_run SRR2971645
 							sample.id 50c9e9b9-15b1-46a2-bd8e-623f26f5374d
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961912
 							sample.ncbi_biosample SAMN04312451
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961912/suppl/GSM1961912_fibroblast.162_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461018
@@ -9584,7 +9586,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461019
 							assay.seq.sra_run SRR2971646
 							sample.id fdc6f902-6877-4977-9f24-47367fd59b9e
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961913
 							sample.ncbi_biosample SAMN04312452
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961913/suppl/GSM1961913_fibroblast.163_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461019
@@ -9593,7 +9595,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461020
 							assay.seq.sra_run SRR2971647
 							sample.id 745091e7-86c2-4f9b-b861-6fb8dbffcf9d
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961914
 							sample.ncbi_biosample SAMN04312453
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961914/suppl/GSM1961914_fibroblast.164_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461020
@@ -9602,7 +9604,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461021
 							assay.seq.sra_run SRR2971648
 							sample.id 8ff4b74b-ebd4-4700-9b1b-580a2e562577
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961915
 							sample.ncbi_biosample SAMN04312454
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961915/suppl/GSM1961915_fibroblast.165_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461021
@@ -9611,7 +9613,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461022
 							assay.seq.sra_run SRR2971649
 							sample.id b0f53b2f-492f-4e95-8f41-75d66438e42f
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961916
 							sample.ncbi_biosample SAMN04312455
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961916/suppl/GSM1961916_fibroblast.166_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461022
@@ -9620,7 +9622,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461023
 							assay.seq.sra_run SRR2971650
 							sample.id 9361f028-6934-42bc-b699-3d214faf629b
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961917
 							sample.ncbi_biosample SAMN04312456
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961917/suppl/GSM1961917_fibroblast.167_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461023
@@ -9629,7 +9631,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461024
 							assay.seq.sra_run SRR2971651
 							sample.id d2e1333c-92eb-439a-836d-617104fc083d
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961918
 							sample.ncbi_biosample SAMN04312457
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961918/suppl/GSM1961918_fibroblast.168_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461024
@@ -9638,7 +9640,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461025
 							assay.seq.sra_run SRR2971652
 							sample.id 0cbc38ef-9494-4ffb-b884-83a82dbf396f
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961919
 							sample.ncbi_biosample SAMN04312458
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961919/suppl/GSM1961919_fibroblast.169_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461025
@@ -9647,7 +9649,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461026
 							assay.seq.sra_run SRR2971653
 							sample.id 17a80d6c-0840-451f-9fd3-c21f28072419
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961920
 							sample.ncbi_biosample SAMN04312459
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961920/suppl/GSM1961920_fibroblast.170_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461026
@@ -9656,7 +9658,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461058
 							assay.seq.sra_run SRR2971685
 							sample.id 9f98c664-eadb-47b4-886b-6e0a6db6e41e
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961952
 							sample.ncbi_biosample SAMN04312292
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961952/suppl/GSM1961952_fibroblast.202_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461058
@@ -9665,7 +9667,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461059
 							assay.seq.sra_run SRR2971686
 							sample.id fb5261d0-8864-4158-b938-0eba8d1280e5
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961953
 							sample.ncbi_biosample SAMN04312293
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961953/suppl/GSM1961953_fibroblast.203_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461059
@@ -9674,7 +9676,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461060
 							assay.seq.sra_run SRR2971687
 							sample.id 5a042c6e-1af4-41bd-8c0a-14f0d8ae8316
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961954
 							sample.ncbi_biosample SAMN04312294
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961954/suppl/GSM1961954_fibroblast.204_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461060
@@ -9683,7 +9685,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461061
 							assay.seq.sra_run SRR2971688
 							sample.id a0eb6040-5dc3-4a25-b0bb-8049e5d71d05
-							sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+							sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 							sample.geo_sample GSM1961955
 							sample.ncbi_biosample SAMN04312295
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961955/suppl/GSM1961955_fibroblast.205_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461061
@@ -9692,7 +9694,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461078
 							assay.seq.sra_run SRR2971705
 							sample.id f758e33c-2d33-4216-ad27-3f8165db0c91
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961972
 							sample.ncbi_biosample SAMN04312570
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961972/suppl/GSM1961972_fibroblast.222_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461078
@@ -9701,7 +9703,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461079
 							assay.seq.sra_run SRR2971706
 							sample.id 4758ee1e-f789-4045-987b-9f4e911e6f2a
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961973
 							sample.ncbi_biosample SAMN04312571
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961973/suppl/GSM1961973_fibroblast.223_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461079
@@ -9710,7 +9712,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461080
 							assay.seq.sra_run SRR2971707
 							sample.id 2d5b6c45-1588-4f95-8fcc-db245662d1b8
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961974
 							sample.ncbi_biosample SAMN04312572
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961974/suppl/GSM1961974_fibroblast.224_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461080
@@ -9719,7 +9721,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461081
 							assay.seq.sra_run SRR2971708
 							sample.id 8e03f5ad-0ca6-475c-ad2f-bb621d606756
-							sample.donor.1.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
+							sample.donor.strain.1.text CAST/EiJ (mother) x C57BL/6J (father)
 							sample.geo_sample GSM1961975
 							sample.ncbi_biosample SAMN04312573
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961975/suppl/GSM1961975_fibroblast.225_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461081
@@ -9728,7 +9730,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461098
 							assay.seq.sra_run SRR2971725
 							sample.id 8684ad76-2c29-48fc-b46d-a3b82ea45c95
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1961992
 							sample.ncbi_biosample SAMN04312530
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961992/suppl/GSM1961992_fibroblast.242_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461098
@@ -9737,7 +9739,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461099
 							assay.seq.sra_run SRR2971726
 							sample.id dd825699-499a-4e5c-b75f-4834bc33077a
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1961993
 							sample.ncbi_biosample SAMN04312531
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961993/suppl/GSM1961993_fibroblast.243_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461099
@@ -9746,7 +9748,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461100
 							assay.seq.sra_run SRR2971727
 							sample.id 5052e94b-67f4-4dde-90d1-f5f53ffdd2ed
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1961994
 							sample.ncbi_biosample SAMN04312532
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961994/suppl/GSM1961994_fibroblast.244_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461100
@@ -9755,7 +9757,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461101
 							assay.seq.sra_run SRR2971728
 							sample.id 7673b3e6-8b74-49ed-963e-86353fa38a31
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1961995
 							sample.ncbi_biosample SAMN04312533
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961995/suppl/GSM1961995_fibroblast.245_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461101
@@ -9764,7 +9766,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461102
 							assay.seq.sra_run SRR2971729
 							sample.id 514d2be0-ede3-4c27-ae4d-a7af3293ff76
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1961996
 							sample.ncbi_biosample SAMN04312534
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961996/suppl/GSM1961996_fibroblast.246_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461102
@@ -9773,7 +9775,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461103
 							assay.seq.sra_run SRR2971730
 							sample.id 3461a69e-c860-4c18-9448-e13359c1e236
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1961997
 							sample.ncbi_biosample SAMN04312535
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961997/suppl/GSM1961997_fibroblast.247_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461103
@@ -9782,7 +9784,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461104
 							assay.seq.sra_run SRR2971731
 							sample.id 3eb52cb8-c024-4e5b-b2fd-b1a8686f0326
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1961998
 							sample.ncbi_biosample SAMN04312536
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961998/suppl/GSM1961998_fibroblast.248_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461104
@@ -9791,7 +9793,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461105
 							assay.seq.sra_run SRR2971732
 							sample.id 1d896a28-740e-4fce-b9df-bf122fdb44c7
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1961999
 							sample.ncbi_biosample SAMN04312537
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1961nnn/GSM1961999/suppl/GSM1961999_fibroblast.249_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461105
@@ -9800,7 +9802,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461106
 							assay.seq.sra_run SRR2971733
 							sample.id 739f99bd-6356-45b1-9526-fda94b931244
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962000
 							sample.ncbi_biosample SAMN04312538
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962000/suppl/GSM1962000_fibroblast.250_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461106
@@ -9809,7 +9811,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461107
 							assay.seq.sra_run SRR2971734
 							sample.id 2fad8009-46d3-4670-aa1a-6d2093364f6e
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962001
 							sample.ncbi_biosample SAMN04312539
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962001/suppl/GSM1962001_fibroblast.251_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461107
@@ -9818,7 +9820,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461108
 							assay.seq.sra_run SRR2971735
 							sample.id d2404910-9c50-413c-8265-d041ad6a2e65
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962002
 							sample.ncbi_biosample SAMN04312540
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962002/suppl/GSM1962002_fibroblast.252_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461108
@@ -9827,7 +9829,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461109
 							assay.seq.sra_run SRR2971736
 							sample.id 0b0102d1-2d3f-4f70-ae73-0a31dd304aa1
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962003
 							sample.ncbi_biosample SAMN04312541
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962003/suppl/GSM1962003_fibroblast.253_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461109
@@ -9836,7 +9838,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461110
 							assay.seq.sra_run SRR2971737
 							sample.id 02217fd5-c2e3-4729-b934-2417499886ce
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962004
 							sample.ncbi_biosample SAMN04312542
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962004/suppl/GSM1962004_fibroblast.254_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461110
@@ -9845,7 +9847,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461111
 							assay.seq.sra_run SRR2971738
 							sample.id ad97d608-1d47-4b25-8eab-d14286c752bb
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962005
 							sample.ncbi_biosample SAMN04312543
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962005/suppl/GSM1962005_fibroblast.255_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461111
@@ -9854,7 +9856,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461112
 							assay.seq.sra_run SRR2971739
 							sample.id 1ead4a5c-01d9-41cf-af08-cfa6360adaf1
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962006
 							sample.ncbi_biosample SAMN04312544
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962006/suppl/GSM1962006_fibroblast.256_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461112
@@ -9863,7 +9865,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461113
 							assay.seq.sra_run SRR2971740
 							sample.id dbe66ea2-bc04-42f7-9c43-9afad822fe7c
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962007
 							sample.ncbi_biosample SAMN04312545
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962007/suppl/GSM1962007_fibroblast.257_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461113
@@ -9872,7 +9874,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461114
 							assay.seq.sra_run SRR2971741
 							sample.id 4b4c1537-3eef-4acc-82f0-d6b629f31ccd
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962008
 							sample.ncbi_biosample SAMN04312546
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962008/suppl/GSM1962008_fibroblast.258_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461114
@@ -9881,7 +9883,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461115
 							assay.seq.sra_run SRR2971742
 							sample.id 5b51d1ba-74ea-4fc1-a61d-cefdbecfd7c4
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962009
 							sample.ncbi_biosample SAMN04312547
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962009/suppl/GSM1962009_fibroblast.259_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461115
@@ -9890,7 +9892,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461116
 							assay.seq.sra_run SRR2971743
 							sample.id 35984669-5707-4c44-9c12-77c02c7e9631
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962010
 							sample.ncbi_biosample SAMN04312548
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962010/suppl/GSM1962010_fibroblast.260_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461116
@@ -9899,7 +9901,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461117
 							assay.seq.sra_run SRR2971744
 							sample.id 8c00aaaa-327e-4087-a3e5-802eae1ec0f9
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962011
 							sample.ncbi_biosample SAMN04312549
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962011/suppl/GSM1962011_fibroblast.261_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461117
@@ -9908,7 +9910,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461118
 							assay.seq.sra_run SRR2971745
 							sample.id a69e71b8-d658-4721-a149-aa063a2d6f1f
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962012
 							sample.ncbi_biosample SAMN04312550
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962012/suppl/GSM1962012_fibroblast.262_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461118
@@ -9917,7 +9919,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461119
 							assay.seq.sra_run SRR2971746
 							sample.id a53147a7-13c2-4d55-9938-712f7e304106
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962013
 							sample.ncbi_biosample SAMN04312551
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962013/suppl/GSM1962013_fibroblast.263_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461119
@@ -9926,7 +9928,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461120
 							assay.seq.sra_run SRR2971747
 							sample.id a75d13f0-184a-4336-8afc-d5b09c3f839a
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962014
 							sample.ncbi_biosample SAMN04312552
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962014/suppl/GSM1962014_fibroblast.264_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461120
@@ -9935,7 +9937,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461121
 							assay.seq.sra_run SRR2971748
 							sample.id 00e4e2a2-cf09-41c3-8631-dbf9484dff4a
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962015
 							sample.ncbi_biosample SAMN04312553
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962015/suppl/GSM1962015_fibroblast.265_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461121
@@ -9944,7 +9946,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461122
 							assay.seq.sra_run SRR2971749
 							sample.id 178d46ee-9230-4f2c-b755-f51560683fc0
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962016
 							sample.ncbi_biosample SAMN04312554
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962016/suppl/GSM1962016_fibroblast.266_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461122
@@ -9953,7 +9955,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461123
 							assay.seq.sra_run SRR2971750
 							sample.id 35cd423b-b3df-4500-bff0-1c4fef0110ce
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962017
 							sample.ncbi_biosample SAMN04312555
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962017/suppl/GSM1962017_fibroblast.267_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461123
@@ -9962,7 +9964,7 @@ sample.update_date 2016-09-26
 							assay.seq.sra_experiment SRX1461124
 							assay.seq.sra_run SRR2971751
 							sample.id 97bb80ff-bd8c-4d2a-a8e3-522286015316
-							sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+							sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 							sample.geo_sample GSM1962018
 							sample.ncbi_biosample SAMN04312474
 							sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1962nnn/GSM1962018/suppl/GSM1962018_fibroblast.268_expression.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX146/SRX1461124
@@ -9973,7 +9975,7 @@ sample.update_date 2016-09-26
 						sample.body_part.text fibroblast
 						sample.id 778fb6e6-fe5e-418e-a448-40bb80f06a54
 						sample.culture_type primary culture
-						sample.donor.1.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
+						sample.donor.strain.1.text CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ
 						sample.geo_sample GSM1962019
 						sample.name split fibroblast
 						sample.ncbi_biosample SAMN04312475
@@ -9987,10 +9989,10 @@ sample.update_date 2016-09-26
 						sample.well.id fibroblast.269
 
 				sample.characteristics_clone.info non.clonal
-				sample.donor.1.age 15
-				sample.donor.1.age_unit day
-				sample.donor.1.life_stage embryo
-				sample.donor.1.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
+				sample.donor.age 15
+				sample.donor.age_unit day
+				sample.donor.life_stage embryo
+				sample.donor.strain.1.text C57BL/6J (mother) x CAST/EiJ (father)
 				sample.total_estimated_cells 1
 
 					sample.body_part.text brain cell
@@ -10032,9 +10034,9 @@ sample.update_date 2016-09-26
 						sample.well.id brain.305
 
 					sample.body_part.text hepatocyte
-					sample.donor.1.age 15
-					sample.donor.1.age_unit day
-					sample.donor.1.life_stage embryo
+					sample.donor.age 15
+					sample.donor.age_unit day
+					sample.donor.life_stage embryo
 					sample.name E15 liver cell
 					sample.organ.ontology UBERON_0002107
 					sample.organ.text liver
@@ -10291,8 +10293,8 @@ sample.update_date 2016-09-26
 						sample.well.id liver.336
 
 			sample.body_part.text fibroblast
-			sample.donor.1.sex female
-			sample.donor.1.strain.1.text CAST/EiJ_x_C57BL/6J
+			sample.donor.sex female
+			sample.donor.strain.1.text CAST/EiJ_x_C57BL/6J
 			sample.name fibroblast
 			sample.organ.ontology UBERON_0002097
 			sample.organ.text skin
@@ -10351,9 +10353,10 @@ sample.update_date 2016-09-26
 				sample.well.id fibroblast.342
 
 		assay.single_cell.cell_handling FACS
-		sample.donor.1.sex female
-		sample.donor.1.species.ontology 10090
-		sample.donor.1.species.text Mus musculus
+		sample.donor.sex female
+		sample.donor.species.ontology 10090
+		sample.donor.species.text Mus musculus
+		sample.donor.is_living no
 		sample.submit_date 2016-04-19
 
 			sample.body_part.text fibroblast

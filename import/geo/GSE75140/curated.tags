@@ -25,8 +25,9 @@ project.submitter.institution Max Planck Institute for Evolutionary Anthropology
 project.submitter.name "Gray,,Camp"
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75140/suppl/GSE75140_hOrg.fetal.master.data.frame.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP066/SRP066834
 project.update_date 2017-06-02
-sample.donor.1.species.ontology 9606
-sample.donor.1.species.text Homo sapiens
+sample.donor.species.ontology 9606
+sample.donor.species.text Homo sapiens
+sample.donor.is_living no
 sample.submit_date 2015-11-30
 project.protocols.1.type.text growth protocol
 project.protocols.1.description "Cerebral organoids were generated using the same protocol as described Lancaster et al. Nature Protocols 2014, with the exception that mTESR1 (Stem Cell Technologies) was used during embryoid body formation."
@@ -46,14 +47,14 @@ project.protocols.5.id 18b4ba76-c487-4f5b-bdc2-66facbed4c9a
 sample.update_date 2015-12-07
 
 	sample.body_part.text cerebral organoid
-	sample.donor.1.age_unit day
-	sample.donor.1.life_stage organoid
+	sample.donor.age_unit day
+	sample.donor.life_stage organoid
 	sample.organ.ontology UBERON_0000922
 	sample.organ.text embryo
 	sample.protocol_ids aae0d8e1-a588-49cc-b4f5-133872fa89de,d5916bbd-767b-47dd-9b2b-24fb6ed90ac6,0491663f-1700-4a17-8d14-be8e16003049
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.1.age 33
+		sample.donor.age 33
 		sample.name 33d cerebral organoid
 		sample.title 33 day old cerebral organoid from iPSC cell line 409B2
 
@@ -378,7 +379,7 @@ sample.update_date 2015-12-07
 			sample.well.id whOrg1_H9_hOrg33d_c1
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.1.age 35
+		sample.donor.age 35
 		sample.name 35d cerebral organoid
 		sample.title 35 day old cerebral organoid from iPSC cell line 409B2
 
@@ -927,7 +928,7 @@ sample.update_date 2015-12-07
 			sample.well.id whOrg2_F9_hOrg35d
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.1.age 37
+		sample.donor.age 37
 		sample.name 37d cerebral organoid
 		sample.title 37 day old cerebral organoid from iPSC cell line 409B2
 
@@ -1500,7 +1501,7 @@ sample.update_date 2015-12-07
 			sample.well.id whOrg3_H8_hOrg37d
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.1.age 41
+		sample.donor.age 41
 		sample.name 41d cerebral organoid
 		sample.title 41 day old cerebral organoid from iPSC cell line 409B2
 
@@ -2097,7 +2098,7 @@ sample.update_date 2015-12-07
 			sample.well.id whOrg4_H8_hOrg41d
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.1.age 65
+		sample.donor.age 65
 		sample.name 65d cerebral organoid
 		sample.title 65 day old cerebral organoid from iPSC cell line 409B2
 
@@ -2742,7 +2743,7 @@ sample.update_date 2015-12-07
 			sample.well.id whOrg5_H9_hOrg65d
 
 		sample.cell_line.name.text H9
-		sample.donor.1.age 53
+		sample.donor.age 53
 		sample.name 53d cerebral organoid
 		sample.title 53 day old cerebral organoid from human embyonic stem cell line H9
 
@@ -3515,7 +3516,7 @@ sample.update_date 2015-12-07
 			sample.well.id mdOrg2_H8_hOrg_ESC_reg2_53d
 
 		sample.cell_line.name.text iPSC 409B2
-		sample.donor.1.age 58
+		sample.donor.age 58
 		sample.name 58d cerebral organoid
 		sample.title 58 day old cerebral organoid from iPSC cell line 409B2
 
@@ -4153,15 +4154,15 @@ sample.update_date 2015-12-07
 
 	sample.body_part.ontology UBERON_0001950
 	sample.body_part.text neocortex
-	sample.donor.1.age_unit week
-	sample.donor.1.life_stage embryo
+	sample.donor.age_unit week
+	sample.donor.life_stage embryo
 	sample.organ.ontology UBERON_0000955
 	sample.organ.text brain
 	sample.protocol_ids 1e793d89-f1a5-400f-8ad8-4d960f677826,18b4ba76-c487-4f5b-bdc2-66facbed4c9a,0491663f-1700-4a17-8d14-be8e16003049
 
-		sample.donor.1.age 12
-		sample.donor.1.id 3d840544-d47b-4ada-9c20-e5cf426e50aa
-		sample.donor.1.submitted_id fetus 1
+		sample.donor.age 12
+		sample.donor.id 3d840544-d47b-4ada-9c20-e5cf426e50aa
+		sample.donor.submitted_id fetus 1
 		sample.name 12w fetal neocortex
 		sample.title 12 week post conception fetal neocortex
 
@@ -5477,9 +5478,9 @@ sample.update_date 2015-12-07
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX145/SRX1457217
 			sample.well.id fetal2_H8_fetal_12wpc_c2
 
-		sample.donor.1.age 13
-		sample.donor.1.id 8554cf0f-fc13-4d00-8b64-8f116edbc8f4
-		sample.donor.1.submitted_id fetus 2
+		sample.donor.age 13
+		sample.donor.id 8554cf0f-fc13-4d00-8b64-8f116edbc8f4
+		sample.donor.submitted_id fetus 2
 		sample.name 13w fetal neocortex
 		sample.title 13 week post conception fetal neocortex
 

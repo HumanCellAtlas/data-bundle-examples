@@ -33,9 +33,10 @@ project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE83nnn/GSE83
 project.update_date 2017-06-13
 sample.body_part.ontology UBERON_0000006
 sample.body_part.text islet of Langerhans
-sample.donor.1.species.ontology 9606
-sample.donor.1.species.text Homo sapiens
+sample.donor.species.ontology 9606
+sample.donor.species.text Homo sapiens
 sample.organ.ontology UBERON_0001264
+sample.donor.is_living no
 sample.organ.text pancreas
 sample.submit_date 2016-06-08
 project.protocols.1.description "islets were cultured in the standand prodo islet media (PIM-S001GMP, PIM-ABS001GMP, PIM-G001GMP) at 37oc with 5% CO2."
@@ -47,11 +48,11 @@ project.protocols.1.id 3ac57d38-fdf1-4d73-81c1-f1973fabd44d
 project.protocols.2.id 21ac3c8e-47b0-4e1d-a2b7-e7d3577f7a69
 sample.protocol_ids 3ac57d38-fdf1-4d73-81c1-f1973fabd44d,21ac3c8e-47b0-4e1d-a2b7-e7d3577f7a69
 
-	sample.donor.1.disease.1.text normal
+	sample.donor.disease.1.text normal
 
-		sample.donor.1.id 88274e69-9151-42a3-b919-1528abbf1a0d
-		sample.donor.1.life_stage adult
-		sample.donor.1.submitted_id normal adult
+		sample.donor.id 88274e69-9151-42a3-b919-1528abbf1a0d
+		sample.donor.life_stage adult
+		sample.donor.submitted_id normal adult
 		sample.name pancreas islet normal
 		sample.title normal adult pancreatic islets
 
@@ -2082,9 +2083,9 @@ sample.protocol_ids 3ac57d38-fdf1-4d73-81c1-f1973fabd44d,21ac3c8e-47b0-4e1d-a2b7
 			sample.well.quality OK
 
 		assay.seq.instrument_model Illumina HiSeq 2500
-		sample.donor.1.id 0924389c-6d9c-4207-b25e-de09082279e1
-		sample.donor.1.life_stage child
-		sample.donor.1.submitted_id normal child
+		sample.donor.id 0924389c-6d9c-4207-b25e-de09082279e1
+		sample.donor.life_stage child
+		sample.donor.submitted_id normal child
 		sample.name pancreas islet child
 		sample.title normal child pancreatic islets
 
@@ -3013,10 +3014,10 @@ sample.protocol_ids 3ac57d38-fdf1-4d73-81c1-f1973fabd44d,21ac3c8e-47b0-4e1d-a2b7
 				sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832582
 
 	assay.seq.instrument_model Illumina HiSeq 2500
-	sample.donor.1.id f3eb99eb-27b7-4b6f-9c9c-7603412c5c8f
-	sample.donor.1.disease.1.text type II diabetes mellitus
-	sample.donor.1.life_stage adult
-	sample.donor.1.submitted_id t2d adult
+	sample.donor.id f3eb99eb-27b7-4b6f-9c9c-7603412c5c8f
+	sample.donor.disease.1.text type II diabetes mellitus
+	sample.donor.life_stage adult
+	sample.donor.submitted_id t2d adult
 	sample.name pancreas islet diab II
 	sample.title type II diabetic adult pancreatic islets
 
@@ -4731,10 +4732,10 @@ sample.protocol_ids 3ac57d38-fdf1-4d73-81c1-f1973fabd44d,21ac3c8e-47b0-4e1d-a2b7
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX183/SRX1832449
 
 	assay.seq.instrument_model Illumina HiSeq 2500
-	sample.donor.1.id b859ce95-dbdd-46b3-81a8-e11510bdcd75
-	sample.donor.1.disease.1.text type I diabetes mellitus
-	sample.donor.1.life_stage adult
-	sample.donor.1.submitted_id t1d adult
+	sample.donor.id b859ce95-dbdd-46b3-81a8-e11510bdcd75
+	sample.donor.disease.1.text type I diabetes mellitus
+	sample.donor.life_stage adult
+	sample.donor.submitted_id t1d adult
 	sample.name pancreas islet diab I
 	sample.title type I diabetic adult pancreatic islets
 

@@ -41,8 +41,10 @@ project.submitter.name "Lars,,Velten"
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP066/SRP066781,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_RAW.tar,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_culture_data.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_facs_indeces_filtered_I1.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_facs_indeces_filtered_I2.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_normalized_filtered_I1.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_normalized_filtered_I2.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_raw_filtered_I1.csv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75478/suppl/GSE75478_transcriptomics_raw_filtered_I2.csv.gz
 project.update_date 2017-06-13
 sample.body_part.text bone marrow
-sample.donor.1.species.ontology 9606
-sample.donor.1.species.text Homo sapiens
+sample.donor.species.ontology 9606
+sample.donor.species.text Homo sapiens
+sample.donor.life_stage adult
+sample.donor.is_living yes
 sample.enrichment.1.type FACS
 sample.organ.ontology UBERON_0001474
 sample.organ.text bone
@@ -51,11 +53,11 @@ project.protocols.1.type.text nucleic acid library construction protocol
 project.protocols.1.id a2e711c5-6f96-474a-ba07-9390b512c6f1
 sample.protocol_ids a2e711c5-6f96-474a-ba07-9390b512c6f1
 
-	sample.donor.1.age 29
-	sample.donor.1.age_unit year
-	sample.donor.1.id 85e95c40-1ddb-43e7-af8e-21f4729afbb6
-	sample.donor.1.sex female
-	sample.donor.1.submitted_id I2
+	sample.donor.age 29
+	sample.donor.age_unit year
+	sample.donor.id 85e95c40-1ddb-43e7-af8e-21f4729afbb6
+	sample.donor.sex female
+	sample.donor.submitted_id I2
 	sample.submit_date 2015-11-30
 
 		sample.enrichment.1.markers CD4- CD8- CD11b- CD14- CD19- CD20- CD56- CD235a- CD34+ CD38-
@@ -27754,11 +27756,11 @@ sample.protocol_ids a2e711c5-6f96-474a-ba07-9390b512c6f1
 				sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1956nnn/GSM1956660/suppl/GSM1956660_counts_plate12_H_12.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX145/SRX1454868
 				sample.well.id I2_plate12_H_12
 
-	sample.donor.1.age 25
-	sample.donor.1.age_unit year
-	sample.donor.1.id f2fca97b-98bf-48be-90f4-7c48eecd60ef
-	sample.donor.1.sex male
-	sample.donor.1.submitted_id I1
+	sample.donor.age 25
+	sample.donor.age_unit year
+	sample.donor.id f2fca97b-98bf-48be-90f4-7c48eecd60ef
+	sample.donor.sex male
+	sample.donor.submitted_id I1
 	sample.submit_date 2016-08-23
 
 		sample.enrichment.1.markers CD4- CD8- CD11b- CD14- CD19- CD20- CD56- CD235a- CD34+ CD38+

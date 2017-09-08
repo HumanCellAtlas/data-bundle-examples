@@ -30,10 +30,11 @@ project.submitter.name "Asa,Kristina,Bjorklund"
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP060/SRP060416,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE70nnn/GSE70580/suppl/GSE70580_RAW.tar
 project.update_date 2017-06-19
 sample.body_part.text tonsil
-sample.donor.1.disease.1.text obstructive sleep apnea
-sample.donor.1.life_stage adult
-sample.donor.1.species.ontology 9606
-sample.donor.1.species.text Homo sapiens
+sample.donor.disease.1.text obstructive sleep apnea
+sample.donor.life_stage adult
+sample.donor.is_living yes
+sample.donor.species.ontology 9606
+sample.donor.species.text Homo sapiens
 sample.enrichment.1.type MACS
 sample.enrichment.2.type FACS
 sample.organ.ontology UBERON_0002372
@@ -46,8 +47,8 @@ sample.well.cell_type.text tonsil innate lymphoid cells
 project.protocols.1.id 10238004-6f34-439c-bc04-c6210d44873b
 sample.protocol_ids 10238004-6f34-439c-bc04-c6210d44873b
 
-	sample.donor.1.id 64154fb0-f8e7-44dc-9e08-e228e8704352
-	sample.donor.1.submitted_id Donor T74
+	sample.donor.id 64154fb0-f8e7-44dc-9e08-e228e8704352
+	sample.donor.submitted_id Donor T74
 
 		sample.characteristics_facs_gating ILC1
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ NKG2A- CD16- CD117- CRTH2-
@@ -673,8 +674,8 @@ sample.protocol_ids 10238004-6f34-439c-bc04-c6210d44873b
 			sample.submitter_id T74_P4_H9_ILC3
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX108/SRX1082118,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1810nnn/GSM1810584/suppl/GSM1810584_T74_P4_H9_ILC3_expression.txt.gz
 
-	sample.donor.1.id bbb0d3cc-8a5a-494a-8210-31e8944dacdd
-	sample.donor.1.submitted_id Donor T75
+	sample.donor.id bbb0d3cc-8a5a-494a-8210-31e8944dacdd
+	sample.donor.submitted_id Donor T75
 
 		sample.characteristics_facs_gating ILC3
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+
@@ -2884,8 +2885,8 @@ sample.protocol_ids 10238004-6f34-439c-bc04-c6210d44873b
 			sample.submitter_id T75_P4_H9_ILC1
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX108/SRX1082391,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1810nnn/GSM1810857/suppl/GSM1810857_T75_P4_H9_ILC1_expression.txt.gz
 
-	sample.donor.1.id e65ba87a-d2e8-44ce-a506-79b146b6ff5e
-	sample.donor.1.submitted_id Donor T86
+	sample.donor.id e65ba87a-d2e8-44ce-a506-79b146b6ff5e
+	sample.donor.submitted_id Donor T86
 
 		sample.characteristics_facs_gating ILC3
 		sample.enrichment.1.markers CD3- CD14- CD19- CD45+ CD127+ CD161+ CD117+ CRTH2- NKp44+

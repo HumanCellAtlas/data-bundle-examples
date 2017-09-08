@@ -1,6 +1,6 @@
 project.title Pan T Cells isolated from mononuclear cells of a healthy donor
 project.id 10x_t_4k
-assay.files t_4k_S1_L001_R1_001.fastq.gz, t_4k_S1_L001_R2_001.fastq.gz, t_4k_S1_L002_R1_001.fastq.gz, t_4k_S1_L002_R2_001.fastq.gz, t_4k_S1_L003_R1_001.fastq.gz, t_4k_S1_L003_R2_001.fastq.gz, t_4k_S1_L004_R1_001.fastq.gz, t_4k_S1_L004_R2_001.fastq.gz, t_4k_S1_L005_R1_001.fastq.gz, t_4k_S1_L005_R2_001.fastq.gz, t_4k_S1_L006_R1_001.fastq.gz, t_4k_S1_L006_R2_001.fastq.gz, t_4k_S1_L007_R1_001.fastq.gz, t_4k_S1_L007_R2_001.fastq.gz, t_4k_S1_L008_R1_001.fastq.gz, t_4k_S1_L008_R2_001.fastq.gz
+assay.seq.files t_4k_S1_L001_R1_001.fastq.gz, t_4k_S1_L001_R2_001.fastq.gz, t_4k_S1_L002_R1_001.fastq.gz, t_4k_S1_L002_R2_001.fastq.gz, t_4k_S1_L003_R1_001.fastq.gz, t_4k_S1_L003_R2_001.fastq.gz, t_4k_S1_L004_R1_001.fastq.gz, t_4k_S1_L004_R2_001.fastq.gz, t_4k_S1_L005_R1_001.fastq.gz, t_4k_S1_L005_R2_001.fastq.gz, t_4k_S1_L006_R1_001.fastq.gz, t_4k_S1_L006_R2_001.fastq.gz, t_4k_S1_L007_R1_001.fastq.gz, t_4k_S1_L007_R2_001.fastq.gz, t_4k_S1_L008_R1_001.fastq.gz, t_4k_S1_L008_R2_001.fastq.gz
 assay.rna.end_bias three_prime_end
 assay.rna.primer poly-dt
 assay.seq.instrument_model Illumina HiSeq 4000
@@ -25,10 +25,11 @@ project.submitter.institution 10X Genomics Inc.
 project.submitter.name 10X Genomics Inc.
 sample.body_part.text peripheral blood pan T-cells
 sample.id 849f023a-da3b-4017-a151-23575bd94ca4
-sample.donor.1.id 0f4108bb-d548-495a-a19e-87e36b0a198e
-sample.donor.1.life_stage adult
-sample.donor.1.species.ontology 9606
-sample.donor.1.species.text Homo sapiens
+sample.donor.id 0f4108bb-d548-495a-a19e-87e36b0a198e
+sample.donor.life_stage adult
+sample.donor.is_living yes
+sample.donor.species.ontology 9606
+sample.donor.species.text Homo sapiens
 sample.enrichment.1.markers CD3+
 sample.enrichment.1.type Ficoll gradient
 sample.name T-cells

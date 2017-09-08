@@ -1,6 +1,6 @@
 project.title Peripheral blood mononuclear cells (PBMCs) from a healthy donor
 project.id 10x_pbmc8k
-assay.files pbmc8k_S1_L007_R1_001.fastq.gz, pbmc8k_S1_L007_R2_001.fastq.gz, pbmc8k_S1_L008_R1_001.fastq.gz, pbmc8k_S1_L008_R2_001.fastq.gz
+assay.seq.files pbmc8k_S1_L007_R1_001.fastq.gz, pbmc8k_S1_L007_R2_001.fastq.gz, pbmc8k_S1_L008_R1_001.fastq.gz, pbmc8k_S1_L008_R2_001.fastq.gz
 assay.rna.end_bias three_prime_end
 assay.rna.primer poly-dt
 assay.seq.instrument_model Illumina HiSeq 4000
@@ -25,9 +25,10 @@ project.submitter.institution 10X Genomics Inc.
 project.submitter.name 10X Genomics Inc.
 sample.body_part.text peripheral blood mononuclear cells (PBMCs)
 sample.id 63cba020-fbb5-4fe5-82c2-eeb1cd5dd957
-sample.donor.1.life_stage adult
-sample.donor.1.species.ontology 9606
-sample.donor.1.species.text Homo sapiens
+sample.donor.is_living yes
+sample.donor.life_stage adult
+sample.donor.species.ontology 9606
+sample.donor.species.text Homo sapiens
 sample.name PBMCs
 sample.organ.ontology UBERON_0000178
 sample.organ.text blood

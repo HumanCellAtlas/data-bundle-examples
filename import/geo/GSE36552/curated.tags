@@ -30,8 +30,9 @@ project.submitter.institution Peking University
 project.submitter.name "Mingyu,,Yang"
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP011/SRP011546,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_2-cell.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_2-cell.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_4-cell.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_4-cell.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_8-cell.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_8-cell.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_ESC.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_ESC.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_Morluae.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_Morluae.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_PE.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_PE.sort.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_RAW.tar,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_TE.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_TE.sort.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_epi.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_epi.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_oocyte.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_oocyte.bed.tdf,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_zygote.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE36552/GSE36552_zygote.bed.tdf
 project.update_date 2017-05-22
-sample.donor.1.species.ontology 9606
-sample.donor.1.species.text Homo sapiens
+sample.donor.species.ontology 9606
+sample.donor.species.text Homo sapiens
+sample.donor.is_living no
 sample.organ.ontology UBERON_0000922
 sample.organ.text embryo
 project.protocols.1.description Donated human preplantation embryos were dissociated into individual blastmeres and were separately amplied to set up single cell cDNA libraries.
@@ -44,10 +45,10 @@ project.protocols.2.id 06978636-42c2-4c52-9a87-3549562ca5e3
 sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87-3549562ca5e3
 
 	sample.body_part.text oocyte
-	sample.donor.1.age 0
-	sample.donor.1.age_unit week
-	sample.donor.1.development_stage.text oocyte
-	sample.donor.1.life_stage embryo
+	sample.donor.age 0
+	sample.donor.age_unit week
+	sample.donor.development_stage.text oocyte
+	sample.donor.life_stage embryo
 	sample.name oocytes
 	sample.submit_date 2012-03-16
 	sample.title unfertilized oocytes from Tang single cell method 2013
@@ -57,8 +58,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 		assay.seq.sra_experiment SRX129997
 		assay.seq.sra_run SRR445718
 		sample.id 4365266e-fe81-4b2b-822d-a0a51973ceba
-		sample.donor.1.id 8373486d-3134-47e4-9b81-9d381886af36
-		sample.donor.1.submitted_id oocyte #1
+		sample.donor.id 8373486d-3134-47e4-9b81-9d381886af36
+		sample.donor.submitted_id oocyte #1
 		sample.geo_sample GSM896803
 		sample.ncbi_biosample SAMN00828830
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX129/SRX129997,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896803/GSM896803_Sample_M21.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896803/GSM896803_Sample_M21.expression.txt.gz
@@ -67,8 +68,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 		assay.seq.sra_experiment SRX129998
 		assay.seq.sra_run SRR445719
 		sample.id 2d475ae3-70fb-4e18-b6e3-bb993db5f3b6
-		sample.donor.1.id 6787a3a4-63b2-42b4-a55e-a518f328e77a
-		sample.donor.1.submitted_id oocyte #2
+		sample.donor.id 6787a3a4-63b2-42b4-a55e-a518f328e77a
+		sample.donor.submitted_id oocyte #2
 		sample.geo_sample GSM896804
 		sample.ncbi_biosample SAMN00828831
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX129/SRX129998,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896804/GSM896804_Sample_M22.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896804/GSM896804_Sample_M22.expression.txt.gz
@@ -77,18 +78,18 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 		assay.seq.sra_experiment SRX129999
 		assay.seq.sra_run SRR445720
 		sample.id 3c635a99-c8bf-4e79-9024-5bccc4a3439d
-		sample.donor.1.id e6b07325-44e1-433f-9139-97591ec38958
-		sample.donor.1.submitted_id oocyte #3
+		sample.donor.id e6b07325-44e1-433f-9139-97591ec38958
+		sample.donor.submitted_id oocyte #3
 		sample.geo_sample GSM896805
 		sample.ncbi_biosample SAMN00828832
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX129/SRX129999,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896805/GSM896805_Sample_M23.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896805/GSM896805_Sample_M23.expression.txt.gz
 		sample.well.id oocyte #3
 
 	sample.body_part.text zygote
-	sample.donor.1.age 0
-	sample.donor.1.age_unit week
-	sample.donor.1.development_stage.text zygote
-	sample.donor.1.life_stage embryo
+	sample.donor.age 0
+	sample.donor.age_unit week
+	sample.donor.development_stage.text zygote
+	sample.donor.life_stage embryo
 	sample.name zygotes
 	sample.submit_date 2012-03-16
 	sample.title zygotes from Tang single cell method 2013
@@ -98,8 +99,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 		assay.seq.sra_experiment SRX130000
 		assay.seq.sra_run SRR445721
 		sample.id 7a1e3d6e-3430-456d-b19c-5c5d812a5a62
-		sample.donor.1.id d9d415ec-c895-407b-b901-72442b1f5bec
-		sample.donor.1.submitted_id zygote #1
+		sample.donor.id d9d415ec-c895-407b-b901-72442b1f5bec
+		sample.donor.submitted_id zygote #1
 		sample.geo_sample GSM896806
 		sample.ncbi_biosample SAMN00828833
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130000,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896806/GSM896806_Sample_C1.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896806/GSM896806_Sample_C1.expression.txt.gz
@@ -108,8 +109,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 		assay.seq.sra_experiment SRX130001
 		assay.seq.sra_run SRR445722
 		sample.id 1f7f298e-f7ed-4d01-8db0-6539d070af1b
-		sample.donor.1.id 8bbf7cbf-d35a-4648-8f8a-18364d34b009
-		sample.donor.1.submitted_id zygote #2
+		sample.donor.id 8bbf7cbf-d35a-4648-8f8a-18364d34b009
+		sample.donor.submitted_id zygote #2
 		sample.geo_sample GSM896807
 		sample.ncbi_biosample SAMN00828834
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130001,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896807/GSM896807_Sample_C2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896807/GSM896807_Sample_C2.expression.txt.gz
@@ -118,25 +119,25 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 		assay.seq.sra_experiment SRX130002
 		assay.seq.sra_run SRR445723
 		sample.id 6f7ade8e-65c9-4979-9f3f-a77410c131c0
-		sample.donor.1.id 0b7b0b6c-db73-442c-9d9e-8609269f3de2
-		sample.donor.1.submitted_id zygote #3
+		sample.donor.id 0b7b0b6c-db73-442c-9d9e-8609269f3de2
+		sample.donor.submitted_id zygote #3
 		sample.geo_sample GSM896808
 		sample.ncbi_biosample SAMN00828835
 		sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130002,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896808/GSM896808_Sample_C3.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896808/GSM896808_Sample_C3.expression.txt.gz
 		sample.well.id zygote #3
 
 	sample.body_part.text 2-cell blastomere
-	sample.donor.1.age 0
-	sample.donor.1.age_unit week
-	sample.donor.1.development_stage.text 2-cell blastomeres
-	sample.donor.1.life_stage embryo
+	sample.donor.age 0
+	sample.donor.age_unit week
+	sample.donor.development_stage.text 2-cell blastomeres
+	sample.donor.life_stage embryo
 	sample.name 2-cell blastomeres
 	sample.submit_date 2012-03-16
 	sample.title disassociated blastomeres from 2-cell stage Tang method 2013
 	sample.well.cell_type.text 2-cell blastomere
 
-		sample.donor.1.id c2c32742-510b-4189-8eb9-bd13de26fe1a
-		sample.donor.1.submitted_id 2-cell blastomere #1
+		sample.donor.id c2c32742-510b-4189-8eb9-bd13de26fe1a
+		sample.donor.submitted_id 2-cell blastomere #1
 
 			assay.seq.sra_experiment SRX130003
 			assay.seq.sra_run SRR445724
@@ -154,8 +155,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130004,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896810/GSM896810_Sample_B2.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896810/GSM896810_Sample_B2.expression.txt.gz
 			sample.well.id 2-cell blasto 1 cell#2
 
-		sample.donor.1.id 9b71c5e9-43da-4f9b-afff-be09fcf24ff6
-		sample.donor.1.submitted_id 2-cell blastomere #2
+		sample.donor.id 9b71c5e9-43da-4f9b-afff-be09fcf24ff6
+		sample.donor.submitted_id 2-cell blastomere #2
 
 			assay.seq.sra_experiment SRX130005
 			assay.seq.sra_run SRR445726
@@ -173,8 +174,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX130006,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896812/GSM896812_Sample_B4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM896nnn/GSM896812/GSM896812_Sample_B4.expression.txt.gz
 			sample.well.id 2-cell blasto 2 cell#2
 
-		sample.donor.1.id 2fa70358-d99b-4dd6-b4c9-fd75c0f67a1a
-		sample.donor.1.submitted_id 2-cell blastomere #3
+		sample.donor.id 2fa70358-d99b-4dd6-b4c9-fd75c0f67a1a
+		sample.donor.submitted_id 2-cell blastomere #3
 
 			assay.seq.sra_experiment SRX130007
 			assay.seq.sra_run SRR445728
@@ -193,17 +194,17 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.well.id 2-cell blasto 3 cell#2
 
 	sample.body_part.text 4-cell blastomere
-	sample.donor.1.age 0
-	sample.donor.1.age_unit week
-	sample.donor.1.development_stage.text 4-cell blastomeres
-	sample.donor.1.life_stage embryo
+	sample.donor.age 0
+	sample.donor.age_unit week
+	sample.donor.development_stage.text 4-cell blastomeres
+	sample.donor.life_stage embryo
 	sample.name 4-cell blastomeres
 	sample.submit_date 2012-04-25
 	sample.title disassociated blastomeres from 4-cell stage Tang method 2013
 	sample.well.cell_type.text 4-cell blastomere
 
-		sample.donor.1.id a27cbc46-585f-48f6-9298-b8a0c209fd06
-		sample.donor.1.submitted_id 4-cell blastomere #1
+		sample.donor.id a27cbc46-585f-48f6-9298-b8a0c209fd06
+		sample.donor.submitted_id 4-cell blastomere #1
 
 			assay.seq.sra_experiment SRX144340
 			assay.seq.sra_run SRR490961
@@ -237,8 +238,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144343,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922149/GSM922149_Sample_C7.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922149/GSM922149_Sample_C7.expression.txt.gz
 			sample.well.id 4-cell blasto 1 cell#4
 
-		sample.donor.1.id e8a3409c-6b53-4f78-8aab-00012b2c9aae
-		sample.donor.1.submitted_id 4-cell blastomere #2
+		sample.donor.id e8a3409c-6b53-4f78-8aab-00012b2c9aae
+		sample.donor.submitted_id 4-cell blastomere #2
 
 			assay.seq.sra_experiment SRX144344
 			assay.seq.sra_run SRR490965
@@ -272,8 +273,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144347,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922153/GSM922153_Sample_L4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922153/GSM922153_Sample_L4.expression.txt.gz
 			sample.well.id 4-cell blasto 2 cell#4
 
-		sample.donor.1.id 3bfbfc40-9cd7-4ec7-a35c-ce174bc8e624
-		sample.donor.1.submitted_id 4-cell blastomere #3
+		sample.donor.id 3bfbfc40-9cd7-4ec7-a35c-ce174bc8e624
+		sample.donor.submitted_id 4-cell blastomere #3
 
 			assay.seq.sra_experiment SRX144348
 			assay.seq.sra_run SRR490969
@@ -308,17 +309,17 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.well.id 4-cell blasto 3 cell#4
 
 	sample.body_part.text 8-cell blastomere
-	sample.donor.1.age 0
-	sample.donor.1.age_unit week
-	sample.donor.1.development_stage.text 8-cell blastomeres
-	sample.donor.1.life_stage embryo
+	sample.donor.age 0
+	sample.donor.age_unit week
+	sample.donor.development_stage.text 8-cell blastomeres
+	sample.donor.life_stage embryo
 	sample.name 8-cell blastomeres
 	sample.submit_date 2012-04-25
 	sample.title disassociated blastomeres from 8-cell stage Tang method 2013
 	sample.well.cell_type.text 8-cell blastomere
 
-		sample.donor.1.id d26ff9bb-5d5e-4890-a24c-3b71ce9a0c3c
-		sample.donor.1.submitted_id 8-cell blastomere #1
+		sample.donor.id d26ff9bb-5d5e-4890-a24c-3b71ce9a0c3c
+		sample.donor.submitted_id 8-cell blastomere #1
 
 			assay.seq.sra_experiment SRX144352
 			assay.seq.sra_run SRR490973
@@ -352,8 +353,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144355,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922161/GSM922161_Sample_A4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922161/GSM922161_Sample_A4.expression.txt.gz
 			sample.well.id 8-cell blasto 1 cell#4
 
-		sample.donor.1.id 6b501b7d-53a0-4e0e-8df2-59b6c883da4e
-		sample.donor.1.submitted_id 8-cell blastomere #2
+		sample.donor.id 6b501b7d-53a0-4e0e-8df2-59b6c883da4e
+		sample.donor.submitted_id 8-cell blastomere #2
 
 			assay.seq.sra_experiment SRX144356
 			assay.seq.sra_run SRR490977
@@ -419,8 +420,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144363,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922169/GSM922169_Sample_E4.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922169/GSM922169_Sample_E4.expression.txt.gz
 			sample.well.id 8-cell blasto 2 cell#8
 
-		sample.donor.1.id 46eb5117-2c61-444f-a294-9d6481e1b807
-		sample.donor.1.submitted_id 8-cell blastomere #3
+		sample.donor.id 46eb5117-2c61-444f-a294-9d6481e1b807
+		sample.donor.submitted_id 8-cell blastomere #3
 
 			assay.seq.sra_experiment SRX144364
 			assay.seq.sra_run SRR490985
@@ -487,18 +488,18 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.well.id 8-cell blasto 3 cell#8
 
 	sample.body_part.text morula stage embryo
-	sample.donor.1.age 0
-	sample.donor.1.age_unit week
-	sample.donor.1.development_stage.text morula
-	sample.donor.1.life_stage embryo
+	sample.donor.age 0
+	sample.donor.age_unit week
+	sample.donor.development_stage.text morula
+	sample.donor.life_stage embryo
 	sample.name morula blastomeres
 	sample.submit_date 2012-04-25
 	sample.title disassociated blastomeres from morula stage embryo Tang method 2013
 	sample.well.cell_type.ontology CL_0000360
 	sample.well.cell_type.text morula cell
 
-		sample.donor.1.id a1f2353c-3560-41c2-a3df-60eb38ad2543
-		sample.donor.1.submitted_id morula #1
+		sample.donor.id a1f2353c-3560-41c2-a3df-60eb38ad2543
+		sample.donor.submitted_id morula #1
 
 			assay.seq.sra_experiment SRX144372
 			assay.seq.sra_run SRR490993
@@ -564,8 +565,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144379,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922185/GSM922185_Sample_D8.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922185/GSM922185_Sample_D8.expression.txt.gz
 			sample.well.id morula 1 cell#8
 
-		sample.donor.1.id 6ce39cea-8303-4966-9a50-7e4311b72324
-		sample.donor.1.submitted_id morula #2
+		sample.donor.id 6ce39cea-8303-4966-9a50-7e4311b72324
+		sample.donor.submitted_id morula #2
 
 			assay.seq.sra_experiment SRX144380
 			assay.seq.sra_run SRR491001
@@ -632,17 +633,17 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.well.id morula 2 cell#8
 
 	sample.body_part.text late blastocyst
-	sample.donor.1.age 0
-	sample.donor.1.age_unit week
-	sample.donor.1.development_stage.text late blastocyst
-	sample.donor.1.life_stage embryo
+	sample.donor.age 0
+	sample.donor.age_unit week
+	sample.donor.development_stage.text late blastocyst
+	sample.donor.life_stage embryo
 	sample.name late blastomeres
 	sample.submit_date 2012-04-25
 	sample.title disassociated blastomeres from late blastocyst stage embryo Tang method 2013
 	sample.well.cell_type.text late blastomere
 
-		sample.donor.1.id 1b40ea7e-1f03-40d9-85e7-dc59016b5ce7
-		sample.donor.1.submitted_id late blastocyst #1
+		sample.donor.id 1b40ea7e-1f03-40d9-85e7-dc59016b5ce7
+		sample.donor.submitted_id late blastocyst #1
 
 			assay.seq.sra_experiment SRX144388
 			assay.seq.sra_run SRR491009
@@ -740,8 +741,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144399,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922205/GSM922205_Sample_G13.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922205/GSM922205_Sample_G13.expression.txt.gz
 			sample.well.id late blasto 1 cell#12
 
-		sample.donor.1.id 184b0f35-7229-4a7f-9fac-076b6e7c66b5
-		sample.donor.1.submitted_id late blastocyst #2
+		sample.donor.id 184b0f35-7229-4a7f-9fac-076b6e7c66b5
+		sample.donor.submitted_id late blastocyst #2
 
 			assay.seq.sra_experiment SRX144400
 			assay.seq.sra_run SRR491021
@@ -823,8 +824,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144/SRX144409,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922215/GSM922215_Sample_H10.bed.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM922nnn/GSM922215/GSM922215_Sample_H10.expression.txt.gz
 			sample.well.id late blasto 2 cell#10
 
-		sample.donor.1.id 6ab329c1-a948-4a89-80c7-373ad1bcfebc
-		sample.donor.1.submitted_id late blastocyst #3
+		sample.donor.id 6ab329c1-a948-4a89-80c7-373ad1bcfebc
+		sample.donor.submitted_id late blastocyst #3
 
 			assay.seq.sra_experiment SRX144410
 			assay.seq.sra_run SRR491031
@@ -891,13 +892,13 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.well.id late blasto 3 cell#8
 
 	sample.body_part.text embryonic stem cell
-	sample.donor.1.life_stage cell line
+	sample.donor.life_stage cell line
 	sample.well.cell_type.ontology CL_0002322
 	sample.well.cell_type.text embryonic stem cell
 
 		sample.cell_line.passage_number 0
-		sample.donor.1.id e1ad4270-5c24-44a1-bd6e-d7f9b3ef2c9c
-		sample.donor.1.submitted_id hESC passage#0
+		sample.donor.id e1ad4270-5c24-44a1-bd6e-d7f9b3ef2c9c
+		sample.donor.submitted_id hESC passage#0
 		sample.name hESC passage 0
 		sample.title cultured human embryonic stem cells passage #0 Tang method 2013
 
@@ -974,8 +975,8 @@ sample.protocol_ids e5c25d4e-3c83-4495-95c3-04f793cb0853,06978636-42c2-4c52-9a87
 			sample.well.id hESC p0 cell#10
 
 		sample.cell_line.passage_number 10
-		sample.donor.1.id 4f4a8d1f-5660-47c5-82d7-fa01e2b24ec3
-		sample.donor.1.submitted_id hESC passage#10
+		sample.donor.id 4f4a8d1f-5660-47c5-82d7-fa01e2b24ec3
+		sample.donor.submitted_id hESC passage#10
 		sample.name hESC passage 10
 		sample.submit_date 2012-04-25
 		sample.title cultured human embryonic stem cells passage #10 Tang method 2013

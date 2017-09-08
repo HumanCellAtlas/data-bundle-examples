@@ -37,12 +37,14 @@ project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/rea
 project.update_date 2017-06-19
 sample.body_part.ontology UBERON_0000006
 sample.body_part.text islet of Langerhans
-sample.donor.1.age 37
-sample.donor.1.age_unit year
-sample.donor.1.body_mass_index 22
-sample.donor.1.sex male
-sample.donor.1.species.ontology 9606
-sample.donor.1.species.text Homo sapiens
+sample.donor.life_stage adult
+sample.donor.is_living no
+sample.donor.age 37
+sample.donor.age_unit year
+sample.donor.body_mass_index 22
+sample.donor.sex male
+sample.donor.species.ontology 9606
+sample.donor.species.text Homo sapiens
 sample.name pancreas islet BMI22
 sample.organ.ontology UBERON_0001264
 sample.organ.text pancreas

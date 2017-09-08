@@ -32,8 +32,9 @@ project.submitter.laboratory Laboratory of Molecular Immunology
 project.submitter.name "Thiago,Y,Oliveira"
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE89nnn/GSE89232/suppl/GSE89232_expMatrix.txt.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP092/SRP092166
 project.update_date 2017-06-02
-sample.donor.1.species.ontology 9606
-sample.donor.1.species.text Homo sapiens
+sample.donor.species.ontology 9606
+sample.donor.species.text Homo sapiens
+sample.donor.is_living yes
 sample.organ.ontology UBERON_0000178
 sample.organ.text blood
 sample.submit_date 2016-10-27
@@ -44,7 +45,7 @@ project.protocols.1.id faa1d4d1-abfc-4123-8dfb-51753357cf4c
 sample.protocol_ids faa1d4d1-abfc-4123-8dfb-51753357cf4c
 
 	sample.body_part.text blood dendritic cells
-	sample.donor.1.life_stage adult
+	sample.donor.life_stage adult
 
 		sample.name CD1c+ cDC
 		sample.title CD1c+ primary human conventional dendritic cell (CD1c+ cDC)
@@ -1370,9 +1371,9 @@ sample.protocol_ids faa1d4d1-abfc-4123-8dfb-51753357cf4c
 
 	sample.body_part.ontology UBERON_0012168
 	sample.body_part.text umbilical cord blood
-	sample.donor.1.age 0
-	sample.donor.1.age_unit day
-	sample.donor.1.life_stage postpartum
+	sample.donor.age 0
+	sample.donor.age_unit day
+	sample.donor.life_stage postpartum
 	sample.name cord blood pre-cDC
 	sample.title cord blood pre-conventional dendritic cells (CB pre-cDC)
 	sample.well.cell_type.ontology CL_0002010
@@ -4995,7 +4996,7 @@ sample.protocol_ids faa1d4d1-abfc-4123-8dfb-51753357cf4c
 		sample.well.id CB pre-cDC_S452
 
 	sample.body_part.text blood pre-cDCs
-	sample.donor.1.life_stage adult
+	sample.donor.life_stage adult
 	sample.name adult blood pre-cDC
 	sample.title blood pre-conventional dendritic cells (blood pre-cDC)
 	sample.well.cell_type.ontology CL_0002010
