@@ -1,28 +1,46 @@
 {
     "body_part": {
-        "name": "retina", 
         "ontology": "UBERON_0000966", 
-        "organ": "eye"
+        "text": "retina"
+    }, 
+    "core": {
+        "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/sample.json", 
+        "schema_version": "3.0.0", 
+        "type": "sample"
     }, 
     "donor": {
         "age": 17, 
         "age_unit": "day", 
+        "core": {
+            "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/donor.json", 
+            "schema_version": "3.0.0", 
+            "type": "donor"
+        }, 
         "genotype": "Vsx2-GFP", 
+        "is_living": "no", 
         "life_stage": "postpartum", 
-        "ncbi_taxon": 10090, 
-        "species": "Mus musculus"
+        "species": {
+            "ontology": "10090", 
+            "text": "Mus musculus"
+        }
     }, 
     "geo_sample": "GSM2177570", 
-    "last_update_date": "2016-08-25", 
-    "long_label": "P17 Vsx2-GFP sorted mouse bipolar retina cells 1 (Batch 1)", 
+    "id": "5053a2b0-0c07-4df3-8a9d-4485688e29e7", 
+    "name": "retina bipolar 1", 
     "ncbi_biosample": "SAMN05177285", 
-    "protocols": [
-        {
-            "description": "suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads. Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol.", 
-            "type": "nucleic acid library construction protocol"
-        }
+    "organ": {
+        "ontology": "UBERON_0000970", 
+        "text": "eye"
+    }, 
+    "project_id": "GSE81904", 
+    "protocol_ids": [
+        "0414acee-2ea8-4d6d-b552-520836cb0825"
     ], 
-    "short_label": "retina bipolar 1", 
-    "submission_date": "2016-05-25", 
-    "uuid": "5aca931f-9c88-4483-ba46-685b70c08a73"
+    "submit_date": "2016-05-25", 
+    "supplementary_files": [
+        "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177570/GSM2177570_Bipolar1.bam", 
+        "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800075"
+    ], 
+    "title": "P17 Vsx2-GFP sorted mouse bipolar retina cells 1 (Batch 1)", 
+    "update_date": "2016-08-25"
 }

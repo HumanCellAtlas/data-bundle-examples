@@ -1,6 +1,34 @@
 {
+    "contributors": [
+        {
+            "core": {
+                "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/contact.json", 
+                "schema_version": "3.0.0", 
+                "type": "contact"
+            }, 
+            "name": "10X Genomics Inc."
+        }
+    ], 
+    "core": {
+        "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/project.json", 
+        "schema_version": "3.0.0", 
+        "type": "project"
+    }, 
+    "description": "Peripheral blood mononuclear cells (PBMCs) from a healthy donor (same donor as pbmc4k). PBMCs are primary cells with relatively small amounts of RNA (~1pg RNA/cell). Used Chromium v2 chemistry and Cell Ranger 1.3.0 software.  8403 cells were detected.", 
     "id": "10x_pbmc8k", 
-    "title": "Peripheral blood mononuclear cells (PBMCs) from a healthy donor", 
-    "uuid": "7068d6f8-31aa-405f-b02d-51ce7361b686",
-    "summary": "The RNA sequence of 8,403 peripheral blood mononuclear cells (PBMCs) from a healthy donor.  This is a demonstration set created using of the 10x Genomics Chromium platform with v2 Chemistry processed by Cell Ranger 1.3.0. The library was sequenced to a depth of approximatedly 92,000 reads per cell."
+    "submitter": {
+        "address": "7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA", 
+        "city": "Pleasanton", 
+        "core": {
+            "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/contact.json", 
+            "schema_version": "3.0.0", 
+            "type": "contact"
+        }, 
+        "country": "USA", 
+        "country_division": "CA", 
+        "email": "info@10xgenomics.com", 
+        "institution": "10X Genomics Inc.", 
+        "name": "10X Genomics Inc."
+    }, 
+    "title": "Peripheral blood mononuclear cells (PBMCs) from a healthy donor"
 }

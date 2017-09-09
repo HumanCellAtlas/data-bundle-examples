@@ -1,14 +1,31 @@
 {
     "body_part": {
-        "name": "peripheral blood mononuclear cells (PBMCs)", 
-        "organ": "blood"
+        "text": "peripheral blood mononuclear cells (PBMCs)"
+    }, 
+    "core": {
+        "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/sample.json", 
+        "schema_version": "3.0.0", 
+        "type": "sample"
     }, 
     "donor": {
+        "core": {
+            "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/donor.json", 
+            "schema_version": "3.0.0", 
+            "type": "donor"
+        }, 
+        "is_living": "yes", 
         "life_stage": "adult", 
-        "ncbi_taxon": 9606, 
-        "species": "Homo sapiens"
+        "species": {
+            "ontology": "9606", 
+            "text": "Homo sapiens"
+        }
     }, 
-    "long_label": "peripheral blood mononuclear cells (PBMCs)", 
-    "short_label": "PBMCs", 
-    "uuid": "7f298125-c4ea-43c6-b45e-c2099526309c"
+    "id": "7f298125-c4ea-43c6-b45e-c2099526309c", 
+    "name": "PBMCs", 
+    "organ": {
+        "ontology": "UBERON_0000178", 
+        "text": "blood"
+    }, 
+    "project_id": "10x_pbmc8k", 
+    "title": "peripheral blood mononuclear cells (PBMCs)"
 }

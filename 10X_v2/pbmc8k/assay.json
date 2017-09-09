@@ -1,45 +1,56 @@
 {
-    "files": [
-        {
-            "format": ".fastq.gz", 
-            "name": "pbmc8k_S1_L007_R1_001.fastq.gz", 
-	    "lane": 7,
-            "type": "index"
-        }, 
-        {
-            "format": ".fastq.gz", 
-            "name": "pbmc8k_S1_L007_R2_001.fastq.gz", 
-	    "lane": 7,
-            "type": "reads"
-        }, 
-        {
-            "format": ".fastq.gz", 
-            "name": "pbmc8k_S1_L008_R1_001.fastq.gz", 
-	    "lane": 8,
-            "type": "index"
-        }, 
-        {
-            "format": ".fastq.gz", 
-            "name": "pbmc8k_S1_L008_R2_001.fastq.gz", 
-	    "lane": 8,
-            "type": "reads"
-        }
-    ], 
+    "core": {
+        "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/assay.json", 
+        "schema_version": "3.0.0", 
+        "type": "assay"
+    }, 
+    "id": "c349cce6-6d63-4976-832e-3c27ca1399ac", 
     "rna": {
+        "core": {
+            "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/rna.json", 
+            "schema_version": "3.0.0", 
+            "type": "rna"
+        }, 
+        "end_bias": "three_prime_end", 
+        "library_construction": "10xV2", 
         "primer": "poly-dt"
     }, 
+    "sample_id": "63cba020-fbb5-4fe5-82c2-eeb1cd5dd957", 
     "seq": {
-        "machine": "Illumina HiSeq 4000", 
+        "core": {
+            "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/seq.json", 
+            "schema_version": "3.0.0", 
+            "type": "seq"
+        }, 
+        "instrument_model": "Illumina HiSeq 4000", 
+        "instrument_platform": "Illumina", 
+        "lanes": [
+            {
+                "index": "pbmc8k_S1_L007_R1_001.fastq.gz", 
+                "number": 7, 
+                "reads": "pbmc8k_S1_L007_R2_001.fastq.gz"
+            }, 
+            {
+                "index": "pbmc8k_S1_L008_R1_001.fastq.gz", 
+                "number": 8, 
+                "reads": "pbmc8k_S1_L008_R2_001.fastq.gz"
+            }
+        ], 
         "molecule": "RNA", 
         "paired_ends": "index1_reads2", 
         "umi_barcode_offset": 16, 
-        "umi_barcode_size": 10,
-	"umi_barcode_read": "index"
+        "umi_barcode_read": "index", 
+        "umi_barcode_size": 10
     }, 
     "single_cell": {
-        "cell_barcode_offset": 0, 
-        "cell_barcode_size": 16, 
-	"cell_barcode_read": "index",
-        "method": "10x_v2"
+        "barcode_offset": 0, 
+        "barcode_read": "index", 
+        "barcode_size": 16, 
+        "cell_handling": "10x_v2", 
+        "core": {
+            "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/single_cell.json", 
+            "schema_version": "3.0.0", 
+            "type": "single_cell"
+        }
     }
 }
