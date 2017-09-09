@@ -1,0 +1,5 @@
+boto3
+crcmod
+dotmap
+urllib3
+requests

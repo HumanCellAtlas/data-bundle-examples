@@ -1,0 +1,12 @@
+GSE67835.sample.body_part.name	hippocampus
+GSE67835.sample.donor.species	Homo sapiens
+GSE67835.sample.donor.life_stage	embryo
+GSE67835.sample.donor.age_unit	year
+GSE67835.sample.donor.life_stage	postpartum
+GSE67835.sample.donor.sex	female
+GSE67835.sample.donor.sex	male
+GSE67835.sample.body_part.organ	brain
+GSE67835.assay.single_cell.method	Fluidigm C1
+GSE67835.sample.body_part.name	temporal lobe cortex
+GSE67835.sample.donor.age_unit	week
+GSE67835.sample.body_part.name	fetal brain cortex

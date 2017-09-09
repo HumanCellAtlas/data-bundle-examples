@@ -1,0 +1,12 @@
+GSE75140.sample.body_part.organ	brain
+GSE75140.sample.donor.species	Homo sapiens
+GSE75140.sample.body_part.name	cerebral organoid
+GSE75140.sample.donor.age_unit	day
+GSE75140.sample.donor.age_unit	week
+GSE75140.sample.cell_line	iPSC 409B2
+GSE75140.sample.donor.life_stage	embryo
+GSE75140.sample.donor.life_stage	organoid
+GSE75140.sample.body_part.organ	embryo
+GSE75140.sample.cell_line	H9
+GSE75140.assay.single_cell.method	Fluidigm C1
+GSE75140.sample.body_part.name	neocortex

@@ -1,0 +1,18 @@
+GSE75659.sample.donor.medication	Immunization with yellow fever vaccine YFV 17D
+GSE75659.sample.body_part.name	CD8+ T cell
+GSE75659.sample.body_part.name	fibroblast
+GSE75659.sample.donor.species	Mus musculus
+GSE75659.sample.donor.sex	female
+GSE75659.sample.donor.age_unit	day
+GSE75659.sample.donor.life_stage	embryo
+GSE75659.sample.body_part.name	hepatocyte
+GSE75659.sample.donor.species	Homo sapiens
+GSE75659.assay.single_cell.method	mouth pipette
+GSE75659.sample.body_part.organ	liver
+GSE75659.sample.body_part.name	brain cell
+GSE75659.sample.body_part.organ	skin
+GSE75659.sample.donor.life_stage	adult
+GSE75659.assay.single_cell.method	FACS
+GSE75659.sample.donor.sex	male
+GSE75659.sample.body_part.organ	blood
+GSE75659.sample.body_part.organ	brain
