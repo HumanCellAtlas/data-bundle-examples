@@ -2,6 +2,7 @@ project.title "Drop-Seq analysis of  P17 FACS sorted retinal cells from the Tg(C
 project.id GSE81904
 assay.rna.end_bias three_prime_end
 assay.rna.primer poly-dt
+assay.rna.library_construction drop-seq
 assay.seq.instrument_model Illumina NextSeq 500
 assay.seq.instrument_platform Illumina
 assay.seq.library_construction modified Nextera XT

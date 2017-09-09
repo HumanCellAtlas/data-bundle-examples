@@ -1,7 +1,7 @@
 project.title A survey of human brain transcriptome diversity at the single cell level
 project.id GSE67835
 assay.rna.end_bias three_prime_bias
-assay.rna.library_construction C1 autoprep
+assay.rna.library_construction SMARTer Ultra Low RNA Kit
 assay.rna.primer poly-dt
 assay.seq.instrument_platform Illumina
 assay.seq.library_construction Nextera XT

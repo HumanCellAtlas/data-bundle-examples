@@ -1,8 +1,10 @@
 project.title Pan T Cells isolated from mononuclear cells of a healthy donor
 project.id 10x_t_4k
+assay.id 2a54e2ca-7b6f-4544-a431-bd58fbd549c7
 assay.seq.files t_4k_S1_L001_R1_001.fastq.gz, t_4k_S1_L001_R2_001.fastq.gz, t_4k_S1_L002_R1_001.fastq.gz, t_4k_S1_L002_R2_001.fastq.gz, t_4k_S1_L003_R1_001.fastq.gz, t_4k_S1_L003_R2_001.fastq.gz, t_4k_S1_L004_R1_001.fastq.gz, t_4k_S1_L004_R2_001.fastq.gz, t_4k_S1_L005_R1_001.fastq.gz, t_4k_S1_L005_R2_001.fastq.gz, t_4k_S1_L006_R1_001.fastq.gz, t_4k_S1_L006_R2_001.fastq.gz, t_4k_S1_L007_R1_001.fastq.gz, t_4k_S1_L007_R2_001.fastq.gz, t_4k_S1_L008_R1_001.fastq.gz, t_4k_S1_L008_R2_001.fastq.gz
 assay.rna.end_bias three_prime_end
 assay.rna.primer poly-dt
+assay.rna.library_construction 10xV2
 assay.seq.instrument_model Illumina HiSeq 4000
 assay.seq.instrument_platform Illumina
 assay.seq.molecule RNA

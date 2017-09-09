@@ -2,6 +2,7 @@ project.title "Single Cell RNA-seq Study of Midbrain and Dopaminergic Neuron Dev
 project.id GSE76381
 assay.rna.end_bias three_prime_bias
 assay.rna.primer poly-dt
+assay.rna.library_construction SMARTer Ultra Low RNA Kit
 assay.seq.instrument_model Illumina HiSeq 2000
 assay.seq.instrument_platform Illumina
 assay.seq.molecule polyA RNA
@@ -49,6 +50,7 @@ sample.donor.is_living no
 			sample.characteristics_time 6w
 			sample.donor.age 6
 			sample.donor.age_unit week
+			sample.donor.submitted_id e6w
 			sample.donor.life_stage embryo
 			sample.donor.sex unknown
 			sample.name 6w emb vent midbrain
@@ -2365,6 +2367,7 @@ sample.donor.is_living no
 			sample.donor.sex mixed
 			sample.name 7w emb vent midbrain
 			sample.title ventral midbrain from 7 week old embryo
+			sample.donor.submitted_id e7w
 
 				sample.characteristics_plate 1772067089
 
@@ -3427,6 +3430,7 @@ sample.donor.is_living no
 			sample.donor.sex unknown
 			sample.name 8w emb vent midbrain
 			sample.title ventral midbrain from 8 week old embryo
+			sample.donor.submitted_id e8w
 
 				sample.characteristics_plate 1772122220
 
@@ -6093,6 +6097,7 @@ sample.donor.is_living no
 			sample.donor.sex unknown
 			sample.name 9w emb vent midbrain
 			sample.title ventral midbrain from 9 week old embryo
+			sample.donor.submitted_id e9w
 
 				sample.characteristics_plate 1772075298
 
@@ -8693,6 +8698,7 @@ sample.donor.is_living no
 			sample.donor.sex unknown
 			sample.name 10w emb vent midbrain
 			sample.title ventral midbrain from 10 week old embryo
+			sample.donor.submitted_id e10w
 
 				sample.characteristics_plate 1772096095
 
@@ -12789,6 +12795,7 @@ sample.donor.is_living no
 			sample.donor.sex unknown
 			sample.name 11w emb vent midbrain
 			sample.title ventral midbrain from 11 week old embryo
+			sample.donor.submitted_id e11w
 
 				sample.characteristics_plate 1772122199
 
@@ -15985,6 +15992,7 @@ sample.donor.is_living no
 		sample.donor.life_stage cell line
 		sample.organ.ontology UBERON_0000922
 		sample.organ.text embryo
+		sample.donor.submitted_id cell_donor_1
 
 			sample.characteristics_time 42d
 			sample.donor.sex unknown
@@ -18719,6 +18727,7 @@ sample.donor.is_living no
 		sample.body_part.text embryonic stem cell
 		sample.characteristics_cef ESMoleculeCounts.cef
 		sample.donor.life_stage cell line
+		sample.donor.submitted_id cell_donor_2
 		sample.organ.ontology UBERON_0000922
 		sample.organ.text embryo
 
@@ -21307,6 +21316,7 @@ sample.donor.is_living no
 			sample.donor.sex unknown
 			sample.name hESC->dopaminergic 12d
 			sample.title human embyonic stem cells 12 days into dopaminergic differentiation protocol
+			sample.donor.submitted_id cell_donor_2
 
 				sample.characteristics_plate 1772122204
 
@@ -25880,6 +25890,7 @@ sample.donor.is_living no
 			sample.donor.sex unknown
 			sample.name hESC->dopaminergic 17d
 			sample.title human embyonic stem cells 17 days into dopaminergic differentiation protocol
+			sample.donor.submitted_id cell_donor_2
 
 				sample.characteristics_plate 1772122303
 
@@ -27957,6 +27968,7 @@ sample.donor.is_living no
 			sample.donor.sex unknown
 			sample.name hESC->dopaminergic 35d
 			sample.title human embyonic stem cells 35 days into dopaminergic differentiation protocol
+			sample.donor.submitted_id cell_donor_2
 
 				sample.characteristics_plate 1772122180
 
@@ -32524,6 +32536,7 @@ sample.donor.is_living no
 			sample.donor.age 11.5
 			sample.name e11.5 vent midbrain
 			sample.title ventral midbrain from 11.5 day old mouse embryo
+			sample.donor.submitted_id e11.5 mouse donor
 
 				sample.characteristics_plate 1771013013
 				sample.donor.sex mixed
@@ -35369,6 +35382,7 @@ sample.donor.is_living no
 			sample.donor.age 12.5
 			sample.name e12.5 vent midbrain
 			sample.title ventral midbrain from 12.5 day old mouse embryo
+			sample.donor.submitted_id e12.5 mouse donor
 
 				sample.characteristics_plate 1771013108
 				sample.donor.sex unknown
@@ -38204,6 +38218,7 @@ sample.donor.is_living no
 			sample.donor.age 13.5
 			sample.name e13.5 vent midbrain
 			sample.title ventral midbrain from 13.5 day old mouse embryo
+			sample.donor.submitted_id e13.5 mouse donor
 
 				sample.characteristics_plate 1772071065
 				sample.donor.sex mixed
@@ -40997,6 +41012,7 @@ sample.donor.is_living no
 			sample.donor.age 14.5
 			sample.name e14.5 vent midbrain
 			sample.title ventral midbrain from 14.5 day old mouse embryo
+			sample.donor.submitted_id e14.5 mouse donor
 
 				sample.characteristics_plate 1771013117
 				sample.donor.sex mixed
@@ -43498,6 +43514,7 @@ sample.donor.is_living no
 			sample.donor.age 15.5
 			sample.name e15.5 vent midbrain
 			sample.title ventral midbrain from 15.5 day old mouse embryo
+			sample.donor.submitted_id e15.5 mouse donor
 
 				sample.characteristics_plate 1772066084
 				sample.donor.sex mixed
@@ -46375,6 +46392,7 @@ sample.donor.is_living no
 			sample.donor.age 18.5
 			sample.name e18.5 vent midbrain
 			sample.title ventral midbrain from 18.5 day old mouse embryo
+			sample.donor.submitted_id e18.5 mouse donor
 
 				sample.characteristics_plate 1772072246
 				sample.donor.sex mixed
@@ -47531,6 +47549,7 @@ sample.donor.is_living no
 			sample.characteristics_time ?
 			sample.name embryonic vent midbrain
 			sample.title ventral midbrain from mouse embryo
+			sample.donor.submitted_id embyonic mouse donor unknown age
 
 				sample.characteristics_plate 1772092007
 				sample.donor.sex mixed
@@ -48002,6 +48021,7 @@ sample.donor.is_living no
 			sample.donor.age 19
 			sample.donor.sex female
 			sample.donor.strain.1.text CD1
+			sample.donor.submitted_id p19 mouse donor
 			sample.name p19 substantia nigra
 			sample.title substantia nigra-ventral tegmental area from 19 day old mouse
 
@@ -48018,6 +48038,7 @@ sample.donor.is_living no
 
 			sample.characteristics_time p20
 			sample.donor.age 20
+			sample.donor.submitted_id p20 mouse donor
 			sample.donor.sex mixed
 			sample.donor.strain.1.text CD1
 			sample.name p20 substantia nigra
@@ -48147,6 +48168,7 @@ sample.donor.is_living no
 
 			sample.characteristics_time p21
 			sample.donor.age 21
+			sample.donor.submitted_id p21 mouse donor
 			sample.donor.sex mixed
 			sample.donor.strain.1.text CD1
 			sample.name p21 substantia nigra
@@ -48274,6 +48296,7 @@ sample.donor.is_living no
 
 			sample.characteristics_time p23
 			sample.donor.age 23
+			sample.donor.submitted_id p23 mouse donor
 			sample.donor.sex mixed
 			sample.donor.strain.1.text CD1
 			sample.name p23 substantia nigra
@@ -48407,6 +48430,7 @@ sample.donor.is_living no
 
 			sample.characteristics_time p24
 			sample.donor.age 24
+			sample.donor.submitted_id p24 mouse donor
 			sample.donor.sex mixed
 			sample.donor.strain.1.text CD1
 			sample.name p24 substantia nigra
@@ -48538,6 +48562,7 @@ sample.donor.is_living no
 
 			sample.characteristics_time p25
 			sample.donor.age 25
+			sample.donor.submitted_id p25 mouse donor
 			sample.donor.sex mixed
 			sample.donor.strain.1.text CD1
 			sample.name p25 substantia nigra
@@ -48671,6 +48696,7 @@ sample.donor.is_living no
 
 			sample.characteristics_time p26
 			sample.donor.age 26
+			sample.donor.submitted_id p26 mouse donor
 			sample.donor.sex mixed
 			sample.donor.strain.1.text CD1
 			sample.name p26 substantia nigra
@@ -48700,6 +48726,7 @@ sample.donor.is_living no
 
 			sample.characteristics_time p27
 			sample.donor.age 27
+			sample.donor.submitted_id p27 mouse donor
 			sample.donor.sex male
 			sample.donor.strain.1.text CD1
 			sample.name p27 substantia nigra
@@ -48718,6 +48745,7 @@ sample.donor.is_living no
 
 			sample.characteristics_time p28
 			sample.donor.age 28
+			sample.donor.submitted_id p28 mouse donor
 			sample.donor.genotype Tomato/DAT-Cre+
 			sample.donor.sex male
 			sample.donor.strain.1.text C57BL/6
@@ -49392,6 +49420,7 @@ sample.donor.is_living no
 
 			sample.characteristics_time p56
 			sample.donor.age 56
+			sample.donor.submitted_id p56 GMO mouse donor
 			sample.donor.genotype Tomato/DAT-Cre+
 			sample.donor.sex male
 			sample.donor.strain.1.text C57BL/6

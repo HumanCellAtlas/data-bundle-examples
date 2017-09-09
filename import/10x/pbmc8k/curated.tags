@@ -1,8 +1,10 @@
 project.title Peripheral blood mononuclear cells (PBMCs) from a healthy donor
 project.id 10x_pbmc8k
+assay.id c349cce6-6d63-4976-832e-3c27ca1399ac
 assay.seq.files pbmc8k_S1_L007_R1_001.fastq.gz, pbmc8k_S1_L007_R2_001.fastq.gz, pbmc8k_S1_L008_R1_001.fastq.gz, pbmc8k_S1_L008_R2_001.fastq.gz
 assay.rna.end_bias three_prime_end
 assay.rna.primer poly-dt
+assay.rna.library_construction 10xV2
 assay.seq.instrument_model Illumina HiSeq 4000
 assay.seq.instrument_platform Illumina
 assay.seq.molecule RNA

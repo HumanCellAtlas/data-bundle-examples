@@ -70,7 +70,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901455
 			sample.ncbi_biosample SAMN04145828
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901455/suppl/GSM1901455_sample_1_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901455/suppl/GSM1901455_sample_1_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304143
-			sample.well.id islet_single_cell_1
+			sample.well.name islet_single_cell_1
 
 			assay.seq.sra_experiment SRX1304151
 			assay.seq.sra_run SRR2558119
@@ -78,7 +78,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901463
 			sample.ncbi_biosample SAMN04145836
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901463/suppl/GSM1901463_sample_9_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901463/suppl/GSM1901463_sample_9_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304151
-			sample.well.id islet_single_cell_9
+			sample.well.name islet_single_cell_9
 
 			assay.seq.sra_experiment SRX1304173
 			assay.seq.sra_run SRR2558141
@@ -86,7 +86,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901485
 			sample.ncbi_biosample SAMN04145785
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901485/suppl/GSM1901485_sample_31_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901485/suppl/GSM1901485_sample_31_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304173
-			sample.well.id islet_single_cell_31
+			sample.well.name islet_single_cell_31
 
 			assay.seq.sra_experiment SRX1304193
 			assay.seq.sra_run SRR2558161
@@ -94,7 +94,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901505
 			sample.ncbi_biosample SAMN04145806
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901505/suppl/GSM1901505_sample_51_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901505/suppl/GSM1901505_sample_51_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304193
-			sample.well.id islet_single_cell_51
+			sample.well.name islet_single_cell_51
 
 		sample.title pancreatic A cell from 37 year old male BMI 22
 		sample.well.cell_type.ontology CL_0000171
@@ -107,7 +107,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901456
 			sample.ncbi_biosample SAMN04145829
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901456/suppl/GSM1901456_sample_2_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901456/suppl/GSM1901456_sample_2_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304144
-			sample.well.id islet_single_cell_2
+			sample.well.name islet_single_cell_2
 
 			assay.seq.sra_experiment SRX1304154
 			assay.seq.sra_run SRR2558122
@@ -115,7 +115,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901466
 			sample.ncbi_biosample SAMN04145839
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901466/suppl/GSM1901466_sample_12_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901466/suppl/GSM1901466_sample_12_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304154
-			sample.well.id islet_single_cell_12
+			sample.well.name islet_single_cell_12
 
 			assay.seq.sra_experiment SRX1304158
 			assay.seq.sra_run SRR2558126
@@ -123,7 +123,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901470
 			sample.ncbi_biosample SAMN04145843
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901470/suppl/GSM1901470_sample_16_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901470/suppl/GSM1901470_sample_16_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304158
-			sample.well.id islet_single_cell_16
+			sample.well.name islet_single_cell_16
 
 			assay.seq.sra_experiment SRX1304161
 			assay.seq.sra_run SRR2558129
@@ -131,7 +131,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901473
 			sample.ncbi_biosample SAMN04145846
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901473/suppl/GSM1901473_sample_19_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901473/suppl/GSM1901473_sample_19_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304161
-			sample.well.id islet_single_cell_19
+			sample.well.name islet_single_cell_19
 
 			assay.seq.sra_experiment SRX1304163
 			assay.seq.sra_run SRR2558131
@@ -139,7 +139,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901475
 			sample.ncbi_biosample SAMN04145848
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901475/suppl/GSM1901475_sample_21_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901475/suppl/GSM1901475_sample_21_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304163
-			sample.well.id islet_single_cell_21
+			sample.well.name islet_single_cell_21
 
 			assay.seq.sra_experiment SRX1304168
 			assay.seq.sra_run SRR2558136
@@ -147,7 +147,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901480
 			sample.ncbi_biosample SAMN04145781
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901480/suppl/GSM1901480_sample_26_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901480/suppl/GSM1901480_sample_26_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304168
-			sample.well.id islet_single_cell_26
+			sample.well.name islet_single_cell_26
 
 			assay.seq.sra_experiment SRX1304172
 			assay.seq.sra_run SRR2558140
@@ -155,7 +155,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901484
 			sample.ncbi_biosample SAMN04145792
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901484/suppl/GSM1901484_sample_30_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901484/suppl/GSM1901484_sample_30_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304172
-			sample.well.id islet_single_cell_30
+			sample.well.name islet_single_cell_30
 
 			assay.seq.sra_experiment SRX1304174
 			assay.seq.sra_run SRR2558142
@@ -163,7 +163,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901486
 			sample.ncbi_biosample SAMN04145786
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901486/suppl/GSM1901486_sample_32_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901486/suppl/GSM1901486_sample_32_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304174
-			sample.well.id islet_single_cell_32
+			sample.well.name islet_single_cell_32
 
 			assay.seq.sra_experiment SRX1304175
 			assay.seq.sra_run SRR2558143
@@ -171,7 +171,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901487
 			sample.ncbi_biosample SAMN04145787
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901487/suppl/GSM1901487_sample_33_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901487/suppl/GSM1901487_sample_33_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304175
-			sample.well.id islet_single_cell_33
+			sample.well.name islet_single_cell_33
 
 			assay.seq.sra_experiment SRX1304176
 			assay.seq.sra_run SRR2558144
@@ -179,7 +179,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901488
 			sample.ncbi_biosample SAMN04145788
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901488/suppl/GSM1901488_sample_34_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901488/suppl/GSM1901488_sample_34_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304176
-			sample.well.id islet_single_cell_34
+			sample.well.name islet_single_cell_34
 
 			assay.seq.sra_experiment SRX1304177
 			assay.seq.sra_run SRR2558145
@@ -187,7 +187,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901489
 			sample.ncbi_biosample SAMN04145789
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901489/suppl/GSM1901489_sample_35_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901489/suppl/GSM1901489_sample_35_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304177
-			sample.well.id islet_single_cell_35
+			sample.well.name islet_single_cell_35
 
 			assay.seq.sra_experiment SRX1304181
 			assay.seq.sra_run SRR2558149
@@ -195,7 +195,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901493
 			sample.ncbi_biosample SAMN04145794
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901493/suppl/GSM1901493_sample_39_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901493/suppl/GSM1901493_sample_39_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304181
-			sample.well.id islet_single_cell_39
+			sample.well.name islet_single_cell_39
 
 			assay.seq.sra_experiment SRX1304183
 			assay.seq.sra_run SRR2558151
@@ -203,7 +203,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901495
 			sample.ncbi_biosample SAMN04145796
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901495/suppl/GSM1901495_sample_41_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901495/suppl/GSM1901495_sample_41_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304183
-			sample.well.id islet_single_cell_41
+			sample.well.name islet_single_cell_41
 
 			assay.seq.sra_experiment SRX1304185
 			assay.seq.sra_run SRR2558153
@@ -211,7 +211,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901497
 			sample.ncbi_biosample SAMN04145798
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901497/suppl/GSM1901497_sample_43_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901497/suppl/GSM1901497_sample_43_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304185
-			sample.well.id islet_single_cell_43
+			sample.well.name islet_single_cell_43
 
 			assay.seq.sra_experiment SRX1304203
 			assay.seq.sra_run SRR2558171
@@ -219,7 +219,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901515
 			sample.ncbi_biosample SAMN04145813
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901515/suppl/GSM1901515_sample_61_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901515/suppl/GSM1901515_sample_61_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304203
-			sample.well.id islet_single_cell_61
+			sample.well.name islet_single_cell_61
 
 			assay.seq.sra_experiment SRX1304204
 			assay.seq.sra_run SRR2558172
@@ -227,7 +227,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901516
 			sample.ncbi_biosample SAMN04145814
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901516/suppl/GSM1901516_sample_62_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901516/suppl/GSM1901516_sample_62_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304204
-			sample.well.id islet_single_cell_62
+			sample.well.name islet_single_cell_62
 
 			assay.seq.sra_experiment SRX1304210
 			assay.seq.sra_run SRR2558178
@@ -235,7 +235,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901522
 			sample.ncbi_biosample SAMN04145820
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901522/suppl/GSM1901522_sample_68_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901522/suppl/GSM1901522_sample_68_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304210
-			sample.well.id islet_single_cell_68
+			sample.well.name islet_single_cell_68
 
 			assay.seq.sra_experiment SRX1304212
 			assay.seq.sra_run SRR2558180
@@ -243,7 +243,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901524
 			sample.ncbi_biosample SAMN04145822
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901524/suppl/GSM1901524_sample_70_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901524/suppl/GSM1901524_sample_70_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304212
-			sample.well.id islet_single_cell_70
+			sample.well.name islet_single_cell_70
 
 		sample.title pancreatic D cell from 37 year old male BMI 22
 		sample.well.cell_type.ontology CL_0000173
@@ -256,7 +256,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901457
 			sample.ncbi_biosample SAMN04145830
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901457/suppl/GSM1901457_sample_3_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901457/suppl/GSM1901457_sample_3_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304145
-			sample.well.id islet_single_cell_3
+			sample.well.name islet_single_cell_3
 
 			assay.seq.sra_experiment SRX1304150
 			assay.seq.sra_run SRR2558118
@@ -264,7 +264,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901462
 			sample.ncbi_biosample SAMN04145835
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901462/suppl/GSM1901462_sample_8_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901462/suppl/GSM1901462_sample_8_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304150
-			sample.well.id islet_single_cell_8
+			sample.well.name islet_single_cell_8
 
 		sample.title pancreatic PP cell from 37 year old male BMI 22
 		sample.well.cell_type.ontology CL_0002275
@@ -277,7 +277,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901458
 			sample.ncbi_biosample SAMN04145831
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901458/suppl/GSM1901458_sample_4_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901458/suppl/GSM1901458_sample_4_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304146
-			sample.well.id islet_single_cell_4
+			sample.well.name islet_single_cell_4
 
 			assay.seq.sra_experiment SRX1304148
 			assay.seq.sra_run SRR2558116
@@ -285,7 +285,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901460
 			sample.ncbi_biosample SAMN04145833
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901460/suppl/GSM1901460_sample_6_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901460/suppl/GSM1901460_sample_6_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304148
-			sample.well.id islet_single_cell_6
+			sample.well.name islet_single_cell_6
 
 			assay.seq.sra_experiment SRX1304155
 			assay.seq.sra_run SRR2558123
@@ -293,7 +293,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901467
 			sample.ncbi_biosample SAMN04145840
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901467/suppl/GSM1901467_sample_13_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901467/suppl/GSM1901467_sample_13_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304155
-			sample.well.id islet_single_cell_13
+			sample.well.name islet_single_cell_13
 
 			assay.seq.sra_experiment SRX1304156
 			assay.seq.sra_run SRR2558124
@@ -301,7 +301,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901468
 			sample.ncbi_biosample SAMN04145841
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901468/suppl/GSM1901468_sample_14_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901468/suppl/GSM1901468_sample_14_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304156
-			sample.well.id islet_single_cell_14
+			sample.well.name islet_single_cell_14
 
 			assay.seq.sra_experiment SRX1304162
 			assay.seq.sra_run SRR2558130
@@ -309,7 +309,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901474
 			sample.ncbi_biosample SAMN04145847
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901474/suppl/GSM1901474_sample_20_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901474/suppl/GSM1901474_sample_20_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304162
-			sample.well.id islet_single_cell_20
+			sample.well.name islet_single_cell_20
 
 			assay.seq.sra_experiment SRX1304167
 			assay.seq.sra_run SRR2558135
@@ -317,7 +317,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901479
 			sample.ncbi_biosample SAMN04145780
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901479/suppl/GSM1901479_sample_25_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901479/suppl/GSM1901479_sample_25_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304167
-			sample.well.id islet_single_cell_25
+			sample.well.name islet_single_cell_25
 
 			assay.seq.sra_experiment SRX1304180
 			assay.seq.sra_run SRR2558148
@@ -325,7 +325,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901492
 			sample.ncbi_biosample SAMN04145793
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901492/suppl/GSM1901492_sample_38_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901492/suppl/GSM1901492_sample_38_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304180
-			sample.well.id islet_single_cell_38
+			sample.well.name islet_single_cell_38
 
 			assay.seq.sra_experiment SRX1304187
 			assay.seq.sra_run SRR2558155
@@ -333,7 +333,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901499
 			sample.ncbi_biosample SAMN04145800
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901499/suppl/GSM1901499_sample_45_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901499/suppl/GSM1901499_sample_45_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304187
-			sample.well.id islet_single_cell_45
+			sample.well.name islet_single_cell_45
 
 			assay.seq.sra_experiment SRX1304192
 			assay.seq.sra_run SRR2558160
@@ -341,7 +341,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901504
 			sample.ncbi_biosample SAMN04145805
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901504/suppl/GSM1901504_sample_50_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901504/suppl/GSM1901504_sample_50_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304192
-			sample.well.id islet_single_cell_50
+			sample.well.name islet_single_cell_50
 
 		sample.title pancreatic ductal cell from 37 year old male BMI 22
 		sample.well.cell_type.ontology CL_0002079
@@ -354,7 +354,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901459
 			sample.ncbi_biosample SAMN04145832
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901459/suppl/GSM1901459_sample_5_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901459/suppl/GSM1901459_sample_5_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304147
-			sample.well.id islet_single_cell_5
+			sample.well.name islet_single_cell_5
 
 			assay.seq.sra_experiment SRX1304152
 			assay.seq.sra_run SRR2558120
@@ -362,7 +362,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901464
 			sample.ncbi_biosample SAMN04145837
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901464/suppl/GSM1901464_sample_10_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901464/suppl/GSM1901464_sample_10_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304152
-			sample.well.id islet_single_cell_10
+			sample.well.name islet_single_cell_10
 
 			assay.seq.sra_experiment SRX1304164
 			assay.seq.sra_run SRR2558132
@@ -370,7 +370,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901476
 			sample.ncbi_biosample SAMN04145849
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901476/suppl/GSM1901476_sample_22_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901476/suppl/GSM1901476_sample_22_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304164
-			sample.well.id islet_single_cell_22
+			sample.well.name islet_single_cell_22
 
 			assay.seq.sra_experiment SRX1304166
 			assay.seq.sra_run SRR2558134
@@ -378,7 +378,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901478
 			sample.ncbi_biosample SAMN04145779
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901478/suppl/GSM1901478_sample_24_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901478/suppl/GSM1901478_sample_24_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304166
-			sample.well.id islet_single_cell_24
+			sample.well.name islet_single_cell_24
 
 			assay.seq.sra_experiment SRX1304171
 			assay.seq.sra_run SRR2558139
@@ -386,7 +386,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901483
 			sample.ncbi_biosample SAMN04145784
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901483/suppl/GSM1901483_sample_29_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901483/suppl/GSM1901483_sample_29_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304171
-			sample.well.id islet_single_cell_29
+			sample.well.name islet_single_cell_29
 
 			assay.seq.sra_experiment SRX1304179
 			assay.seq.sra_run SRR2558147
@@ -394,7 +394,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901491
 			sample.ncbi_biosample SAMN04145791
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901491/suppl/GSM1901491_sample_37_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901491/suppl/GSM1901491_sample_37_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304179
-			sample.well.id islet_single_cell_37
+			sample.well.name islet_single_cell_37
 
 			assay.seq.sra_experiment SRX1304182
 			assay.seq.sra_run SRR2558150
@@ -402,7 +402,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901494
 			sample.ncbi_biosample SAMN04145795
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901494/suppl/GSM1901494_sample_40_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901494/suppl/GSM1901494_sample_40_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304182
-			sample.well.id islet_single_cell_40
+			sample.well.name islet_single_cell_40
 
 			assay.seq.sra_experiment SRX1304196
 			assay.seq.sra_run SRR2558164
@@ -410,7 +410,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901508
 			sample.ncbi_biosample SAMN04145825
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901508/suppl/GSM1901508_sample_54_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901508/suppl/GSM1901508_sample_54_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304196
-			sample.well.id islet_single_cell_54
+			sample.well.name islet_single_cell_54
 
 		sample.title pancreatic acinar cell from 37 year old male BMI 22
 		sample.well.cell_type.ontology CL_0002064
@@ -423,7 +423,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901461
 			sample.ncbi_biosample SAMN04145834
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901461/suppl/GSM1901461_sample_7_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901461/suppl/GSM1901461_sample_7_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304149
-			sample.well.id islet_single_cell_7
+			sample.well.name islet_single_cell_7
 
 			assay.seq.sra_experiment SRX1304160
 			assay.seq.sra_run SRR2558128
@@ -431,7 +431,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901472
 			sample.ncbi_biosample SAMN04145845
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901472/suppl/GSM1901472_sample_18_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901472/suppl/GSM1901472_sample_18_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304160
-			sample.well.id islet_single_cell_18
+			sample.well.name islet_single_cell_18
 
 			assay.seq.sra_experiment SRX1304169
 			assay.seq.sra_run SRR2558137
@@ -439,7 +439,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901481
 			sample.ncbi_biosample SAMN04145782
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901481/suppl/GSM1901481_sample_27_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901481/suppl/GSM1901481_sample_27_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304169
-			sample.well.id islet_single_cell_27
+			sample.well.name islet_single_cell_27
 
 			assay.seq.sra_experiment SRX1304186
 			assay.seq.sra_run SRR2558154
@@ -447,7 +447,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901498
 			sample.ncbi_biosample SAMN04145799
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901498/suppl/GSM1901498_sample_44_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901498/suppl/GSM1901498_sample_44_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304186
-			sample.well.id islet_single_cell_44
+			sample.well.name islet_single_cell_44
 
 			assay.seq.sra_experiment SRX1304190
 			assay.seq.sra_run SRR2558158
@@ -455,7 +455,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901502
 			sample.ncbi_biosample SAMN04145803
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901502/suppl/GSM1901502_sample_48_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901502/suppl/GSM1901502_sample_48_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304190
-			sample.well.id islet_single_cell_48
+			sample.well.name islet_single_cell_48
 
 			assay.seq.sra_experiment SRX1304195
 			assay.seq.sra_run SRR2558163
@@ -463,7 +463,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901507
 			sample.ncbi_biosample SAMN04145808
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901507/suppl/GSM1901507_sample_53_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901507/suppl/GSM1901507_sample_53_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304195
-			sample.well.id islet_single_cell_53
+			sample.well.name islet_single_cell_53
 
 			assay.seq.sra_experiment SRX1304198
 			assay.seq.sra_run SRR2558166
@@ -471,7 +471,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901510
 			sample.ncbi_biosample SAMN04145827
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901510/suppl/GSM1901510_sample_56_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901510/suppl/GSM1901510_sample_56_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304198
-			sample.well.id islet_single_cell_56
+			sample.well.name islet_single_cell_56
 
 			assay.seq.sra_experiment SRX1304199
 			assay.seq.sra_run SRR2558167
@@ -479,7 +479,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901511
 			sample.ncbi_biosample SAMN04145809
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901511/suppl/GSM1901511_sample_57_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901511/suppl/GSM1901511_sample_57_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304199
-			sample.well.id islet_single_cell_57
+			sample.well.name islet_single_cell_57
 
 			assay.seq.sra_experiment SRX1304200
 			assay.seq.sra_run SRR2558168
@@ -487,7 +487,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901512
 			sample.ncbi_biosample SAMN04145810
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901512/suppl/GSM1901512_sample_58_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901512/suppl/GSM1901512_sample_58_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304200
-			sample.well.id islet_single_cell_58
+			sample.well.name islet_single_cell_58
 
 			assay.seq.sra_experiment SRX1304201
 			assay.seq.sra_run SRR2558169
@@ -495,7 +495,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901513
 			sample.ncbi_biosample SAMN04145811
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901513/suppl/GSM1901513_sample_59_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901513/suppl/GSM1901513_sample_59_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304201
-			sample.well.id islet_single_cell_59
+			sample.well.name islet_single_cell_59
 
 			assay.seq.sra_experiment SRX1304209
 			assay.seq.sra_run SRR2558177
@@ -503,7 +503,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901521
 			sample.ncbi_biosample SAMN04145819
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901521/suppl/GSM1901521_sample_67_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901521/suppl/GSM1901521_sample_67_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304209
-			sample.well.id islet_single_cell_67
+			sample.well.name islet_single_cell_67
 
 		sample.title pancreatic insulin secreting cell from 37 year old male BMI 22
 		sample.well.cell_type.ontology CL_0000168
@@ -515,7 +515,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901465
 			sample.ncbi_biosample SAMN04145838
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901465/suppl/GSM1901465_sample_11_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901465/suppl/GSM1901465_sample_11_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304153
-			sample.well.id islet_single_cell_11
+			sample.well.name islet_single_cell_11
 
 			assay.seq.sra_experiment SRX1304157
 			assay.seq.sra_run SRR2558125
@@ -523,7 +523,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901469
 			sample.ncbi_biosample SAMN04145842
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901469/suppl/GSM1901469_sample_15_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901469/suppl/GSM1901469_sample_15_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304157
-			sample.well.id islet_single_cell_15
+			sample.well.name islet_single_cell_15
 
 			assay.seq.sra_experiment SRX1304170
 			assay.seq.sra_run SRR2558138
@@ -531,7 +531,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901482
 			sample.ncbi_biosample SAMN04145783
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901482/suppl/GSM1901482_sample_28_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901482/suppl/GSM1901482_sample_28_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304170
-			sample.well.id islet_single_cell_28
+			sample.well.name islet_single_cell_28
 
 			assay.seq.sra_experiment SRX1304178
 			assay.seq.sra_run SRR2558146
@@ -539,7 +539,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901490
 			sample.ncbi_biosample SAMN04145790
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901490/suppl/GSM1901490_sample_36_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901490/suppl/GSM1901490_sample_36_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304178
-			sample.well.id islet_single_cell_36
+			sample.well.name islet_single_cell_36
 
 			assay.seq.sra_experiment SRX1304184
 			assay.seq.sra_run SRR2558152
@@ -547,7 +547,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901496
 			sample.ncbi_biosample SAMN04145797
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901496/suppl/GSM1901496_sample_42_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901496/suppl/GSM1901496_sample_42_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304184
-			sample.well.id islet_single_cell_42
+			sample.well.name islet_single_cell_42
 
 			assay.seq.sra_experiment SRX1304194
 			assay.seq.sra_run SRR2558162
@@ -555,7 +555,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901506
 			sample.ncbi_biosample SAMN04145807
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901506/suppl/GSM1901506_sample_52_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901506/suppl/GSM1901506_sample_52_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304194
-			sample.well.id islet_single_cell_52
+			sample.well.name islet_single_cell_52
 
 			assay.seq.sra_experiment SRX1304197
 			assay.seq.sra_run SRR2558165
@@ -563,7 +563,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901509
 			sample.ncbi_biosample SAMN04145826
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901509/suppl/GSM1901509_sample_55_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901509/suppl/GSM1901509_sample_55_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304197
-			sample.well.id islet_single_cell_55
+			sample.well.name islet_single_cell_55
 
 			assay.seq.sra_experiment SRX1304205
 			assay.seq.sra_run SRR2558173
@@ -571,7 +571,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901517
 			sample.ncbi_biosample SAMN04145815
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901517/suppl/GSM1901517_sample_63_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901517/suppl/GSM1901517_sample_63_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304205
-			sample.well.id islet_single_cell_63
+			sample.well.name islet_single_cell_63
 
 			assay.seq.sra_experiment SRX1304206
 			assay.seq.sra_run SRR2558174
@@ -579,7 +579,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901518
 			sample.ncbi_biosample SAMN04145816
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901518/suppl/GSM1901518_sample_64_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901518/suppl/GSM1901518_sample_64_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304206
-			sample.well.id islet_single_cell_64
+			sample.well.name islet_single_cell_64
 
 			assay.seq.sra_experiment SRX1304207
 			assay.seq.sra_run SRR2558175
@@ -587,7 +587,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901519
 			sample.ncbi_biosample SAMN04145817
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901519/suppl/GSM1901519_sample_65_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901519/suppl/GSM1901519_sample_65_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304207
-			sample.well.id islet_single_cell_65
+			sample.well.name islet_single_cell_65
 
 			assay.seq.sra_experiment SRX1304208
 			assay.seq.sra_run SRR2558176
@@ -595,7 +595,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901520
 			sample.ncbi_biosample SAMN04145818
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901520/suppl/GSM1901520_sample_66_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901520/suppl/GSM1901520_sample_66_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304208
-			sample.well.id islet_single_cell_66
+			sample.well.name islet_single_cell_66
 
 			assay.seq.sra_experiment SRX1304211
 			assay.seq.sra_run SRR2558179
@@ -603,7 +603,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901523
 			sample.ncbi_biosample SAMN04145821
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901523/suppl/GSM1901523_sample_69_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901523/suppl/GSM1901523_sample_69_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304211
-			sample.well.id islet_single_cell_69
+			sample.well.name islet_single_cell_69
 
 		sample.title low quality well from pancreatic islets experiment
 		sample.well.quality low quality cell
@@ -614,7 +614,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901471
 			sample.ncbi_biosample SAMN04145844
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901471/suppl/GSM1901471_sample_17_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901471/suppl/GSM1901471_sample_17_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304159
-			sample.well.id islet_single_cell_17
+			sample.well.name islet_single_cell_17
 
 			assay.seq.sra_experiment SRX1304165
 			assay.seq.sra_run SRR2558133
@@ -622,7 +622,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901477
 			sample.ncbi_biosample SAMN04145850
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901477/suppl/GSM1901477_sample_23_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901477/suppl/GSM1901477_sample_23_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304165
-			sample.well.id islet_single_cell_23
+			sample.well.name islet_single_cell_23
 
 			assay.seq.sra_experiment SRX1304188
 			assay.seq.sra_run SRR2558156
@@ -630,7 +630,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901500
 			sample.ncbi_biosample SAMN04145801
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901500/suppl/GSM1901500_sample_46_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901500/suppl/GSM1901500_sample_46_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304188
-			sample.well.id islet_single_cell_46
+			sample.well.name islet_single_cell_46
 
 			assay.seq.sra_experiment SRX1304189
 			assay.seq.sra_run SRR2558157
@@ -638,7 +638,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901501
 			sample.ncbi_biosample SAMN04145802
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901501/suppl/GSM1901501_sample_47_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901501/suppl/GSM1901501_sample_47_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304189
-			sample.well.id islet_single_cell_47
+			sample.well.name islet_single_cell_47
 
 			assay.seq.sra_experiment SRX1304191
 			assay.seq.sra_run SRR2558159
@@ -646,7 +646,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901503
 			sample.ncbi_biosample SAMN04145804
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901503/suppl/GSM1901503_sample_49_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901503/suppl/GSM1901503_sample_49_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304191
-			sample.well.id islet_single_cell_49
+			sample.well.name islet_single_cell_49
 
 			assay.seq.sra_experiment SRX1304202
 			assay.seq.sra_run SRR2558170
@@ -654,7 +654,7 @@ sample.protocol_ids 19aeb079-ee34-48c8-bec5-3743a43a9571,c415dbce-2335-4cb1-9079
 			sample.geo_sample GSM1901514
 			sample.ncbi_biosample SAMN04145812
 			sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901514/suppl/GSM1901514_sample_60_RPKM.tsv.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1901nnn/GSM1901514/suppl/GSM1901514_sample_60_counts.tsv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX130/SRX1304202
-			sample.well.id islet_single_cell_60
+			sample.well.name islet_single_cell_60
 
 	sample.title pancreatic islets bulk (500 cell) RNA sequence from 37 year old male BMI 22
 	sample.total_estimated_cells 500

@@ -2,6 +2,7 @@ project.title "Single cell RNA-seq of human pancreatic endocrine cells from Juve
 project.id GSE83139
 assay.rna.end_bias full_transcript
 assay.rna.primer random
+assay.rna.library_construction SMARTer Ultra Low RNA Kit
 assay.seq.instrument_platform Illumina
 assay.seq.molecule polyA RNA
 assay.seq.paired_ends no

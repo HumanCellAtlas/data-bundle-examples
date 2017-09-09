@@ -27,6 +27,7 @@ sample.donor.species.text Mus musculus
 sample.donor.is_living no
 sample.donor.id 29708a27-1134-4bc4-92a4-4715ac490fd2
 sample.enrichment.1.markers POMC+
+sample.enrichment.1.type FACS
 sample.organ.ontology UBERON_0000955
 sample.organ.text brain
 project.protocols.1.description qPCR only
@@ -40,7 +41,7 @@ project.protocols.1.id 62ec05ef-773f-444d-9997-0729b1230e05
 project.protocols.2.id 2b5bb9f2-489e-42d5-892a-8b252af5e190
 sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a-8b252af5e190
 
-	sample.well.id POMC_GFP_I_1
+	sample.well.name POMC_GFP_I_1
 	sample.ena_sample ERS639336
 	sample.name POMC+ from mouse 1
 	sample.submitter_id ERS639336
@@ -57,7 +58,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866282
 		assay.id 1e358f19-031f-4a39-97eb-3a6db934104f
 
-	sample.well.id POMC_GFP_I_2
+	sample.well.name POMC_GFP_I_2
 	sample.ena_sample ERS639337
 	sample.name POMC+ from mouse 2
 	sample.submitter_id ERS639337
@@ -74,7 +75,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866283
 		assay.id c1e3f6ab-42f0-45bd-ba14-d85b45e28b98
 
-	sample.well.id POMC_GFP_I_3
+	sample.well.name POMC_GFP_I_3
 	sample.ena_sample ERS639338
 	sample.name POMC+ from mouse 3
 	sample.submitter_id ERS639338
@@ -91,7 +92,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866284
 		assay.id c236ce45-00d9-466b-b9e9-47114af41965
 
-	sample.well.id POMC_GFP_I_4
+	sample.well.name POMC_GFP_I_4
 	sample.ena_sample ERS639339
 	sample.name POMC+ from mouse 4
 	sample.submitter_id ERS639339
@@ -108,7 +109,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866285
 		assay.id 9da22938-0c12-4d69-ab51-aaa1f7fbb9cf
 
-	sample.well.id POMC_GFP_I_5
+	sample.well.name POMC_GFP_I_5
 	sample.ena_sample ERS639340
 	sample.name POMC+ from mouse 5
 	sample.submitter_id ERS639340
@@ -125,7 +126,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866286
 		assay.id 22af87bf-5b32-4cd7-8c86-e48b3c0d170b
 
-	sample.well.id POMC_GFP_I_6
+	sample.well.name POMC_GFP_I_6
 	sample.ena_sample ERS639341
 	sample.name POMC+ from mouse 6
 	sample.submitter_id ERS639341
@@ -142,7 +143,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866287
 		assay.id 91aeb12a-39b3-4f28-976b-b02dda50eb2a
 
-	sample.well.id POMC_GFP_I_7
+	sample.well.name POMC_GFP_I_7
 	sample.ena_sample ERS639342
 	sample.name POMC+ from mouse 7
 	sample.submitter_id ERS639342
@@ -159,7 +160,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866288
 		assay.id cec6c3a5-7c79-4394-9d2e-e3f4bd939089
 
-	sample.well.id POMC_GFP_I_8
+	sample.well.name POMC_GFP_I_8
 	sample.ena_sample ERS639343
 	sample.name POMC+ from mouse 8
 	sample.submitter_id ERS639343
@@ -176,7 +177,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866289
 		assay.id fb7cdd13-7b09-4d25-ba87-c37963ef3c82
 
-	sample.well.id POMC_GFP_I_9
+	sample.well.name POMC_GFP_I_9
 	sample.ena_sample ERS639344
 	sample.name POMC+ from mouse 9
 	sample.submitter_id ERS639344
@@ -193,7 +194,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866290
 		assay.id aacfd53c-9fdc-451c-8dd2-5885d0b584ef
 
-	sample.well.id POMC_GFP_I_10
+	sample.well.name POMC_GFP_I_10
 	sample.ena_sample ERS639345
 	sample.name POMC+ from mouse 10
 	sample.submitter_id ERS639345
@@ -210,7 +211,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866291
 		assay.id 88f57b0e-c307-4808-bd6c-2f355a3ecd56
 
-	sample.well.id POMC_GFP_I_11
+	sample.well.name POMC_GFP_I_11
 	sample.ena_sample ERS639346
 	sample.name POMC+ from mouse 11
 	sample.submitter_id ERS639346
@@ -227,7 +228,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866292
 		assay.id dec8b175-d7a6-433d-a007-49139ad8048c
 
-	sample.well.id POMC_GFP_I_12
+	sample.well.name POMC_GFP_I_12
 	sample.ena_sample ERS639347
 	sample.name POMC+ from mouse 12
 	sample.submitter_id ERS639347
@@ -244,7 +245,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866293
 		assay.id e842fcf0-9cfe-4f08-9917-5e8a5cb6f5cd
 
-	sample.well.id POMC_GFP_I_13
+	sample.well.name POMC_GFP_I_13
 	sample.ena_sample ERS639348
 	sample.name POMC+ from mouse 13
 	sample.submitter_id ERS639348
@@ -261,7 +262,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866294
 		assay.id 4ab55a04-7c63-4d4b-85fb-c211db5cdbdc
 
-	sample.well.id POMC_GFP_I_14
+	sample.well.name POMC_GFP_I_14
 	sample.ena_sample ERS639349
 	sample.name POMC+ from mouse 14
 	sample.submitter_id ERS639349
@@ -278,7 +279,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866295
 		assay.id 80d79af5-d57a-4fba-85ac-718040b56065
 
-	sample.well.id POMC_GFP_I_15
+	sample.well.name POMC_GFP_I_15
 	sample.ena_sample ERS639350
 	sample.name POMC+ from mouse 15
 	sample.submitter_id ERS639350
@@ -295,7 +296,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866296
 		assay.id b4a9da95-a6c4-43b4-8b11-d01a7d92b02b
 
-	sample.well.id POMC_GFP_I_16
+	sample.well.name POMC_GFP_I_16
 	sample.ena_sample ERS639351
 	sample.name POMC+ from mouse 16
 	sample.submitter_id ERS639351
@@ -312,7 +313,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866297
 		assay.id d9a3b94b-9aaa-4184-8718-b7452f6ca195
 
-	sample.well.id POMC_GFP_I_17
+	sample.well.name POMC_GFP_I_17
 	sample.ena_sample ERS639352
 	sample.name POMC+ from mouse 17
 	sample.submitter_id ERS639352
@@ -329,7 +330,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866298
 		assay.id b41e9cef-bedb-4041-9d04-29bd75240580
 
-	sample.well.id POMC_GFP_I_18
+	sample.well.name POMC_GFP_I_18
 	sample.ena_sample ERS639353
 	sample.name POMC+ from mouse 18
 	sample.submitter_id ERS639353
@@ -346,7 +347,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866299
 		assay.id 09b29518-de50-4d70-9e72-6972c8573d60
 
-	sample.well.id POMC_GFP_I_19
+	sample.well.name POMC_GFP_I_19
 	sample.ena_sample ERS639354
 	sample.name POMC+ from mouse 19
 	sample.submitter_id ERS639354
@@ -363,7 +364,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866300
 		assay.id 0582a59f-c3c5-49d2-93ef-bb3c6af829c4
 
-	sample.well.id POMC_GFP_I_20
+	sample.well.name POMC_GFP_I_20
 	sample.ena_sample ERS639355
 	sample.name POMC+ from mouse 20
 	sample.submitter_id ERS639355
@@ -380,7 +381,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866301
 		assay.id f46b00fa-9df3-43e7-93b3-59012420e3d8
 
-	sample.well.id POMC_GFP_I_21
+	sample.well.name POMC_GFP_I_21
 	sample.ena_sample ERS639356
 	sample.name POMC+ from mouse 21
 	sample.submitter_id ERS639356
@@ -397,7 +398,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866302
 		assay.id 98b69c4a-3426-42e4-8bdc-829f3436032a
 
-	sample.well.id POMC_GFP_I_22
+	sample.well.name POMC_GFP_I_22
 	sample.ena_sample ERS639357
 	sample.name POMC+ from mouse 22
 	sample.submitter_id ERS639357
@@ -414,7 +415,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866303
 		assay.id cd6d6afb-25de-419e-a531-0fa6e3008ca8
 
-	sample.well.id POMC_GFP_I_23
+	sample.well.name POMC_GFP_I_23
 	sample.ena_sample ERS639358
 	sample.name POMC+ from mouse 23
 	sample.submitter_id ERS639358
@@ -431,7 +432,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866304
 		assay.id 0573d513-340a-4457-bf72-1af0b69062d8
 
-	sample.well.id POMC_GFP_I_24
+	sample.well.name POMC_GFP_I_24
 	sample.ena_sample ERS639359
 	sample.name POMC+ from mouse 24
 	sample.submitter_id ERS639359
@@ -448,7 +449,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866305
 		assay.id fae8ba9e-e414-4d1e-8dca-38d25b1a2151
 
-	sample.well.id POMC_GFP_I_25
+	sample.well.name POMC_GFP_I_25
 	sample.ena_sample ERS639360
 	sample.name POMC+ from mouse 25
 	sample.submitter_id ERS639360
@@ -465,7 +466,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866306
 		assay.id 3cdba33e-21cd-4910-bc6b-7363847d2e60
 
-	sample.well.id POMC_GFP_I_26
+	sample.well.name POMC_GFP_I_26
 	sample.ena_sample ERS639361
 	sample.name POMC+ from mouse 26
 	sample.submitter_id ERS639361
@@ -482,7 +483,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866307
 		assay.id b98fead2-7d89-4e7b-a6ba-d558a80b81f7
 
-	sample.well.id POMC_GFP_I_27
+	sample.well.name POMC_GFP_I_27
 	sample.ena_sample ERS639362
 	sample.name POMC+ from mouse 27
 	sample.submitter_id ERS639362
@@ -499,7 +500,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866308
 		assay.id 2363d880-66a3-47df-9b70-fd4aedbf47d3
 
-	sample.well.id POMC_GFP_I_28
+	sample.well.name POMC_GFP_I_28
 	sample.ena_sample ERS639363
 	sample.name POMC+ from mouse 28
 	sample.submitter_id ERS639363
@@ -516,7 +517,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866309
 		assay.id dbadf0cf-eb6b-49f9-8691-c5d52d3e1e4f
 
-	sample.well.id POMC_GFP_I_29
+	sample.well.name POMC_GFP_I_29
 	sample.ena_sample ERS639364
 	sample.name POMC+ from mouse 29
 	sample.submitter_id ERS639364
@@ -533,7 +534,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866310
 		assay.id 38bcb8a5-37a5-43aa-9f71-ccb47191051e
 
-	sample.well.id POMC_GFP_I_30
+	sample.well.name POMC_GFP_I_30
 	sample.ena_sample ERS639365
 	sample.name POMC+ from mouse 30
 	sample.submitter_id ERS639365
@@ -550,7 +551,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866311
 		assay.id b3ae1e4b-5ed6-4161-ada8-91962c2982c6
 
-	sample.well.id POMC_GFP_I_31
+	sample.well.name POMC_GFP_I_31
 	sample.ena_sample ERS639366
 	sample.name POMC+ from mouse 31
 	sample.submitter_id ERS639366
@@ -567,7 +568,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866312
 		assay.id 5a82036d-7db8-4b27-b523-84d797b19692
 
-	sample.well.id POMC_GFP_I_32
+	sample.well.name POMC_GFP_I_32
 	sample.ena_sample ERS639367
 	sample.name POMC+ from mouse 32
 	sample.submitter_id ERS639367
@@ -584,7 +585,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866313
 		assay.id 60504794-16f2-46c0-b287-83128b192df9
 
-	sample.well.id POMC_GFP_I_33
+	sample.well.name POMC_GFP_I_33
 	sample.ena_sample ERS639368
 	sample.name POMC+ from mouse 33
 	sample.submitter_id ERS639368
@@ -601,7 +602,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866314
 		assay.id a29287f0-e87e-4bb5-9b4a-07e7d5cad269
 
-	sample.well.id POMC_GFP_I_34
+	sample.well.name POMC_GFP_I_34
 	sample.ena_sample ERS639369
 	sample.name POMC+ from mouse 34
 	sample.submitter_id ERS639369
@@ -618,7 +619,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866315
 		assay.id f89068d6-fc85-4fcd-91e0-d64b469bcd3a
 
-	sample.well.id POMC_GFP_I_35
+	sample.well.name POMC_GFP_I_35
 	sample.ena_sample ERS639370
 	sample.name POMC+ from mouse 35
 	sample.submitter_id ERS639370
@@ -635,7 +636,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866316
 		assay.id 6752702f-3285-48e8-af87-950ccac6754c
 
-	sample.well.id POMC_GFP_I_36
+	sample.well.name POMC_GFP_I_36
 	sample.ena_sample ERS639371
 	sample.name POMC+ from mouse 36
 	sample.submitter_id ERS639371
@@ -652,7 +653,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866317
 		assay.id 4c0ceeac-1f56-4669-bedb-56607c9f4b4a
 
-	sample.well.id POMC_GFP_I_37
+	sample.well.name POMC_GFP_I_37
 	sample.ena_sample ERS639372
 	sample.name POMC+ from mouse 37
 	sample.submitter_id ERS639372
@@ -669,7 +670,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866318
 		assay.id 996ca7bc-cf88-45ea-81d5-660664f9ee18
 
-	sample.well.id POMC_GFP_I_38
+	sample.well.name POMC_GFP_I_38
 	sample.ena_sample ERS639373
 	sample.name POMC+ from mouse 38
 	sample.submitter_id ERS639373
@@ -686,7 +687,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866319
 		assay.id a84785cf-58bc-43ad-b93b-2ea3d65082b8
 
-	sample.well.id POMC_GFP_I_39
+	sample.well.name POMC_GFP_I_39
 	sample.ena_sample ERS639374
 	sample.name POMC+ from mouse 39
 	sample.submitter_id ERS639374
@@ -703,7 +704,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866320
 		assay.id be6d4752-5c20-4300-9c8c-caeb898f1b2a
 
-	sample.well.id POMC_GFP_I_40
+	sample.well.name POMC_GFP_I_40
 	sample.ena_sample ERS639375
 	sample.name POMC+ from mouse 40
 	sample.submitter_id ERS639375
@@ -720,7 +721,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866321
 		assay.id f60ef5b7-f0b6-4a92-a9c7-312f09f7c6a4
 
-	sample.well.id POMC_GFP_I_41
+	sample.well.name POMC_GFP_I_41
 	sample.ena_sample ERS639376
 	sample.name POMC+ from mouse 41
 	sample.submitter_id ERS639376
@@ -737,7 +738,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866322
 		assay.id b68264e0-a001-4e31-a3a5-762bc92ad7e8
 
-	sample.well.id POMC_GFP_I_42
+	sample.well.name POMC_GFP_I_42
 	sample.ena_sample ERS639377
 	sample.name POMC+ from mouse 42
 	sample.submitter_id ERS639377
@@ -754,7 +755,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866323
 		assay.id dc044501-46c0-4fa2-9cbd-efc30386901c
 
-	sample.well.id POMC_GFP_I_43
+	sample.well.name POMC_GFP_I_43
 	sample.ena_sample ERS639378
 	sample.name POMC+ from mouse 43
 	sample.submitter_id ERS639378
@@ -771,7 +772,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866324
 		assay.id 06b6e430-9365-4824-adb5-553e50123f86
 
-	sample.well.id POMC_GFP_I_44
+	sample.well.name POMC_GFP_I_44
 	sample.ena_sample ERS639379
 	sample.name POMC+ from mouse 44
 	sample.submitter_id ERS639379
@@ -788,7 +789,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866325
 		assay.id ca38664e-ee5e-40fc-a1dd-8dc4478d6162
 
-	sample.well.id POMC_GFP_I_45
+	sample.well.name POMC_GFP_I_45
 	sample.ena_sample ERS639380
 	sample.name POMC+ from mouse 45
 	sample.submitter_id ERS639380
@@ -805,7 +806,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866326
 		assay.id 5804dd4e-c14a-40cb-9086-9d5504921ffc
 
-	sample.well.id POMC_GFP_I_46
+	sample.well.name POMC_GFP_I_46
 	sample.ena_sample ERS639381
 	sample.name POMC+ from mouse 46
 	sample.submitter_id ERS639381
@@ -822,7 +823,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866327
 		assay.id 0225a365-e990-4ffc-a16e-eb4659ae54f2
 
-	sample.well.id POMC_GFP_I_47
+	sample.well.name POMC_GFP_I_47
 	sample.ena_sample ERS639382
 	sample.name POMC+ from mouse 47
 	sample.submitter_id ERS639382
@@ -839,7 +840,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866328
 		assay.id 3a2fb988-3522-4d30-9b2f-5667a499c074
 
-	sample.well.id POMC_GFP_I_48
+	sample.well.name POMC_GFP_I_48
 	sample.ena_sample ERS639383
 	sample.name POMC+ from mouse 48
 	sample.submitter_id ERS639383
@@ -856,7 +857,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866329
 		assay.id ab67fa7a-43f3-4aa0-9c51-3f3a51bcaafd
 
-	sample.well.id POMC_GFP_I_49
+	sample.well.name POMC_GFP_I_49
 	sample.ena_sample ERS639384
 	sample.name POMC+ from mouse 49
 	sample.submitter_id ERS639384
@@ -873,7 +874,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866330
 		assay.id c697d510-8c4e-4bf1-a4de-e446e243d0f3
 
-	sample.well.id POMC_GFP_I_50
+	sample.well.name POMC_GFP_I_50
 	sample.ena_sample ERS639385
 	sample.name POMC+ from mouse 50
 	sample.submitter_id ERS639385
@@ -890,7 +891,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866331
 		assay.id 469b4fe0-8dff-4216-bb7b-3c9ea61ed505
 
-	sample.well.id POMC_GFP_I_51
+	sample.well.name POMC_GFP_I_51
 	sample.ena_sample ERS639386
 	sample.name POMC+ from mouse 51
 	sample.submitter_id ERS639386
@@ -907,7 +908,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866332
 		assay.id 7195fcf6-71c1-4baa-ba45-53a9bb464880
 
-	sample.well.id POMC_GFP_I_52
+	sample.well.name POMC_GFP_I_52
 	sample.ena_sample ERS639387
 	sample.name POMC+ from mouse 52
 	sample.submitter_id ERS639387
@@ -924,7 +925,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866333
 		assay.id 67ba714c-90ec-478f-ad44-b65cc2d2d9e1
 
-	sample.well.id POMC_GFP_I_53
+	sample.well.name POMC_GFP_I_53
 	sample.ena_sample ERS639388
 	sample.name POMC+ from mouse 53
 	sample.submitter_id ERS639388
@@ -941,7 +942,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866334
 		assay.id 5bc4a3c3-b1ff-45b9-a18f-398d0d52ee42
 
-	sample.well.id POMC_GFP_I_54
+	sample.well.name POMC_GFP_I_54
 	sample.ena_sample ERS639389
 	sample.name POMC+ from mouse 54
 	sample.submitter_id ERS639389
@@ -958,7 +959,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866335
 		assay.id d24f8c34-0db0-4a9d-9a5e-54d46d6603dd
 
-	sample.well.id POMC_GFP_I_55
+	sample.well.name POMC_GFP_I_55
 	sample.ena_sample ERS639390
 	sample.name POMC+ from mouse 55
 	sample.submitter_id ERS639390
@@ -975,7 +976,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866336
 		assay.id d9de2db0-c211-4c34-9dae-29745ee44311
 
-	sample.well.id POMC_GFP_I_56
+	sample.well.name POMC_GFP_I_56
 	sample.ena_sample ERS639391
 	sample.name POMC+ from mouse 56
 	sample.submitter_id ERS639391
@@ -992,7 +993,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866337
 		assay.id c109c110-ae5d-46bf-9e04-6fbe075f2313
 
-	sample.well.id POMC_GFP_I_57
+	sample.well.name POMC_GFP_I_57
 	sample.ena_sample ERS639392
 	sample.name POMC+ from mouse 57
 	sample.submitter_id ERS639392
@@ -1009,7 +1010,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866338
 		assay.id e4d13e14-b362-4b10-ac4a-57a5da837ced
 
-	sample.well.id POMC_GFP_I_58
+	sample.well.name POMC_GFP_I_58
 	sample.ena_sample ERS639393
 	sample.name POMC+ from mouse 58
 	sample.submitter_id ERS639393
@@ -1026,7 +1027,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866339
 		assay.id 3b8406cd-d985-4aad-b190-19badcd3c0c9
 
-	sample.well.id POMC_GFP_I_59
+	sample.well.name POMC_GFP_I_59
 	sample.ena_sample ERS639394
 	sample.name POMC+ from mouse 59
 	sample.submitter_id ERS639394
@@ -1043,7 +1044,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866340
 		assay.id 28117b50-1a39-4ae0-bf79-746d85262004
 
-	sample.well.id POMC_GFP_I_60
+	sample.well.name POMC_GFP_I_60
 	sample.ena_sample ERS639395
 	sample.name POMC+ from mouse 60
 	sample.submitter_id ERS639395
@@ -1060,7 +1061,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866341
 		assay.id 19cb8c65-5c8a-4f04-9ba7-dd1570b7df12
 
-	sample.well.id POMC_GFP_I_61
+	sample.well.name POMC_GFP_I_61
 	sample.ena_sample ERS639396
 	sample.name POMC+ from mouse 61
 	sample.submitter_id ERS639396
@@ -1077,7 +1078,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866342
 		assay.id 60e11054-b34f-40b5-b26b-4cbd1b188a98
 
-	sample.well.id POMC_GFP_I_62
+	sample.well.name POMC_GFP_I_62
 	sample.ena_sample ERS639397
 	sample.name POMC+ from mouse 62
 	sample.submitter_id ERS639397
@@ -1094,7 +1095,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866343
 		assay.id 02f76cff-a854-42e0-a606-50a3abd80fc5
 
-	sample.well.id POMC_GFP_I_63
+	sample.well.name POMC_GFP_I_63
 	sample.ena_sample ERS639398
 	sample.name POMC+ from mouse 63
 	sample.submitter_id ERS639398
@@ -1111,7 +1112,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866344
 		assay.id 75a08ccd-5d40-4919-9f2b-d96271142542
 
-	sample.well.id POMC_GFP_I_64
+	sample.well.name POMC_GFP_I_64
 	sample.ena_sample ERS639399
 	sample.name POMC+ from mouse 64
 	sample.submitter_id ERS639399
@@ -1128,7 +1129,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866345
 		assay.id 18c50b04-76ac-4eff-ab09-4b9ec3355fdf
 
-	sample.well.id POMC_GFP_I_65
+	sample.well.name POMC_GFP_I_65
 	sample.ena_sample ERS639400
 	sample.name POMC+ from mouse 65
 	sample.submitter_id ERS639400
@@ -1145,7 +1146,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866346
 		assay.id 4f568010-a877-440e-9a25-45e5a0fd75d7
 
-	sample.well.id POMC_GFP_I_66
+	sample.well.name POMC_GFP_I_66
 	sample.ena_sample ERS639401
 	sample.name POMC+ from mouse 66
 	sample.submitter_id ERS639401
@@ -1162,7 +1163,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866347
 		assay.id e5eb5591-f899-4176-828a-b9bb6047eb09
 
-	sample.well.id POMC_GFP_I_67
+	sample.well.name POMC_GFP_I_67
 	sample.ena_sample ERS639402
 	sample.name POMC+ from mouse 67
 	sample.submitter_id ERS639402
@@ -1179,7 +1180,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866348
 		assay.id 73465355-23b9-4756-9890-589991e2f556
 
-	sample.well.id POMC_GFP_I_68
+	sample.well.name POMC_GFP_I_68
 	sample.ena_sample ERS639403
 	sample.name POMC+ from mouse 68
 	sample.submitter_id ERS639403
@@ -1196,7 +1197,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866349
 		assay.id 21438291-5a90-4471-bf19-58b7408a3bb4
 
-	sample.well.id POMC_GFP_I_69
+	sample.well.name POMC_GFP_I_69
 	sample.ena_sample ERS639404
 	sample.name POMC+ from mouse 69
 	sample.submitter_id ERS639404
@@ -1213,7 +1214,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866350
 		assay.id 1f050bea-9792-4d7e-bae8-184c981c36c6
 
-	sample.well.id POMC_GFP_I_70
+	sample.well.name POMC_GFP_I_70
 	sample.ena_sample ERS639405
 	sample.name POMC+ from mouse 70
 	sample.submitter_id ERS639405
@@ -1230,7 +1231,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866351
 		assay.id cabe59c2-8a02-4bf3-ab06-d8b8ddea3e3d
 
-	sample.well.id POMC_GFP_I_71
+	sample.well.name POMC_GFP_I_71
 	sample.ena_sample ERS639406
 	sample.name POMC+ from mouse 71
 	sample.submitter_id ERS639406
@@ -1247,7 +1248,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866352
 		assay.id bf8767ef-8c4f-467f-9a71-98fc182b821a
 
-	sample.well.id POMC_GFP_I_72
+	sample.well.name POMC_GFP_I_72
 	sample.ena_sample ERS639407
 	sample.name POMC+ from mouse 72
 	sample.submitter_id ERS639407
@@ -1264,7 +1265,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866353
 		assay.id be3ab9d4-5ad1-4b0b-bac4-562800aa6134
 
-	sample.well.id POMC_GFP_I_73
+	sample.well.name POMC_GFP_I_73
 	sample.ena_sample ERS639408
 	sample.name POMC+ from mouse 73
 	sample.submitter_id ERS639408
@@ -1281,7 +1282,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866354
 		assay.id fc4ea66c-6246-404f-b30c-be3ea3566b55
 
-	sample.well.id POMC_GFP_I_74
+	sample.well.name POMC_GFP_I_74
 	sample.ena_sample ERS639409
 	sample.name POMC+ from mouse 74
 	sample.submitter_id ERS639409
@@ -1298,7 +1299,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866355
 		assay.id 0799afeb-3be6-450c-909f-27d70402c9f3
 
-	sample.well.id POMC_GFP_I_75
+	sample.well.name POMC_GFP_I_75
 	sample.ena_sample ERS639410
 	sample.name POMC+ from mouse 75
 	sample.submitter_id ERS639410
@@ -1315,7 +1316,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866356
 		assay.id 28470524-1042-4b68-99d3-071a68d09195
 
-	sample.well.id POMC_GFP_I_76
+	sample.well.name POMC_GFP_I_76
 	sample.ena_sample ERS639411
 	sample.name POMC+ from mouse 76
 	sample.submitter_id ERS639411
@@ -1332,7 +1333,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866357
 		assay.id bfb425dd-fe92-4b1a-b957-eeb69e715472
 
-	sample.well.id POMC_GFP_I_77
+	sample.well.name POMC_GFP_I_77
 	sample.ena_sample ERS639412
 	sample.name POMC+ from mouse 77
 	sample.submitter_id ERS639412
@@ -1349,7 +1350,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866358
 		assay.id 4569e9e4-d109-49f0-8db4-1ee28bf6d1fb
 
-	sample.well.id POMC_GFP_I_78
+	sample.well.name POMC_GFP_I_78
 	sample.ena_sample ERS639413
 	sample.name POMC+ from mouse 78
 	sample.submitter_id ERS639413
@@ -1366,7 +1367,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866359
 		assay.id 2fe9301e-b946-4187-b412-7ff402c46769
 
-	sample.well.id POMC_GFP_I_79
+	sample.well.name POMC_GFP_I_79
 	sample.ena_sample ERS639414
 	sample.name POMC+ from mouse 79
 	sample.submitter_id ERS639414
@@ -1383,7 +1384,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866360
 		assay.id 58f66f70-5659-407b-ae09-bf9017ec2331
 
-	sample.well.id POMC_GFP_I_80
+	sample.well.name POMC_GFP_I_80
 	sample.ena_sample ERS639415
 	sample.name POMC+ from mouse 80
 	sample.submitter_id ERS639415
@@ -1400,7 +1401,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866361
 		assay.id 0da27215-3294-48b5-86ce-e0c03b12d8cb
 
-	sample.well.id POMC_GFP_I_81
+	sample.well.name POMC_GFP_I_81
 	sample.ena_sample ERS639416
 	sample.name POMC+ from mouse 81
 	sample.submitter_id ERS639416
@@ -1417,7 +1418,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866362
 		assay.id 0ba64017-5b11-4b61-8eb6-9365c3c0d0d1
 
-	sample.well.id POMC_GFP_I_82
+	sample.well.name POMC_GFP_I_82
 	sample.ena_sample ERS639417
 	sample.name POMC+ from mouse 82
 	sample.submitter_id ERS639417
@@ -1434,7 +1435,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866363
 		assay.id 5aee0200-f94a-4ada-a229-4f28a6169ea7
 
-	sample.well.id POMC_GFP_I_83
+	sample.well.name POMC_GFP_I_83
 	sample.ena_sample ERS639418
 	sample.name POMC+ from mouse 83
 	sample.submitter_id ERS639418
@@ -1451,7 +1452,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866364
 		assay.id b7b36758-09ef-4d35-9ab8-f00687ecb2e8
 
-	sample.well.id POMC_GFP_I_84
+	sample.well.name POMC_GFP_I_84
 	sample.ena_sample ERS639419
 	sample.name POMC+ from mouse 84
 	sample.submitter_id ERS639419
@@ -1468,7 +1469,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866365
 		assay.id a530a806-fc07-4cb7-a00f-22e555371576
 
-	sample.well.id POMC_GFP_I_85
+	sample.well.name POMC_GFP_I_85
 	sample.ena_sample ERS639420
 	sample.name POMC+ from mouse 85
 	sample.submitter_id ERS639420
@@ -1485,7 +1486,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866366
 		assay.id 54e12f9e-0463-4586-bfd6-06c2235befa7
 
-	sample.well.id POMC_GFP_I_86
+	sample.well.name POMC_GFP_I_86
 	sample.ena_sample ERS639421
 	sample.name POMC+ from mouse 86
 	sample.submitter_id ERS639421
@@ -1502,7 +1503,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866367
 		assay.id 15233acc-bc24-4d39-8151-eae12d066f5e
 
-	sample.well.id POMC_GFP_I_87
+	sample.well.name POMC_GFP_I_87
 	sample.ena_sample ERS639422
 	sample.name POMC+ from mouse 87
 	sample.submitter_id ERS639422
@@ -1519,7 +1520,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866368
 		assay.id 665d1c0b-f59c-4efe-839d-b2f41b2284c5
 
-	sample.well.id POMC_GFP_I_88
+	sample.well.name POMC_GFP_I_88
 	sample.ena_sample ERS639423
 	sample.name POMC+ from mouse 88
 	sample.submitter_id ERS639423
@@ -1536,7 +1537,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866369
 		assay.id f6eead6b-e63a-48f9-9ad9-9fe624e3953e
 
-	sample.well.id POMC_GFP_I_89
+	sample.well.name POMC_GFP_I_89
 	sample.ena_sample ERS639424
 	sample.name POMC+ from mouse 89
 	sample.submitter_id ERS639424
@@ -1553,7 +1554,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866370
 		assay.id 103bee55-8c99-49d2-b2b9-a6c6420c02ed
 
-	sample.well.id POMC_GFP_I_90
+	sample.well.name POMC_GFP_I_90
 	sample.ena_sample ERS639425
 	sample.name POMC+ from mouse 90
 	sample.submitter_id ERS639425
@@ -1570,7 +1571,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866371
 		assay.id b9ee9a37-62eb-45f7-9621-d29abe01d611
 
-	sample.well.id POMC_GFP_I_91
+	sample.well.name POMC_GFP_I_91
 	sample.ena_sample ERS639426
 	sample.name POMC+ from mouse 91
 	sample.submitter_id ERS639426
@@ -1587,7 +1588,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866372
 		assay.id fbd61cf0-b77b-4f7c-900c-0d4071c2a0b2
 
-	sample.well.id POMC_GFP_I_92
+	sample.well.name POMC_GFP_I_92
 	sample.ena_sample ERS639427
 	sample.name POMC+ from mouse 92
 	sample.submitter_id ERS639427
@@ -1604,7 +1605,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866373
 		assay.id a8f2dd0f-0325-4866-a335-6eca4ac070d1
 
-	sample.well.id POMC_GFP_I_93
+	sample.well.name POMC_GFP_I_93
 	sample.ena_sample ERS639428
 	sample.name POMC+ from mouse 93
 	sample.submitter_id ERS639428
@@ -1621,7 +1622,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866374
 		assay.id 78775071-9db1-4a05-a7c1-bfbb093ee50e
 
-	sample.well.id POMC_GFP_I_94
+	sample.well.name POMC_GFP_I_94
 	sample.ena_sample ERS639429
 	sample.name POMC+ from mouse 94
 	sample.submitter_id ERS639429
@@ -1638,7 +1639,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866375
 		assay.id dd76cdce-615e-4ad5-a04e-b4d26c7d0b16
 
-	sample.well.id POMC_GFP_I_95
+	sample.well.name POMC_GFP_I_95
 	sample.ena_sample ERS639430
 	sample.name POMC+ from mouse 95
 	sample.submitter_id ERS639430
@@ -1655,7 +1656,7 @@ sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a
 		assay.seq.ena_run ERR866376
 		assay.id 3435cd73-8b75-4481-9e0d-abbfe0ad7264
 
-	sample.well.id POMC_GFP_I_96
+	sample.well.name POMC_GFP_I_96
 	sample.ena_sample ERS639431
 	sample.name POMC+ from mouse 96
 	sample.submitter_id ERS639431

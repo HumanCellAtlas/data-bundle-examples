@@ -2,6 +2,7 @@ project.title Gene expression pattern of single mES cells during cell cycle stag
 project.id E-MTAB-2805
 assay.rna.end_bias full_transcript
 assay.rna.primer random
+assay.rna.library_construction SMARTer Ultra Low RNA Kit
 assay.rna.spike_in ERCC
 assay.seq.instrument_model Illumina HiSeq 2000
 assay.seq.instrument_platform Illumina
@@ -32,7 +33,7 @@ sample.donor.species.text Mus musculus
 sample.organ.ontology UBERON_0000922
 sample.donor.is_living no
 sample.organ.text embryo
-sample.preservation.storage_protocol.description fresh
+sample.preservation.storage_protocol P-LOCL-9
 sample.supplementary_files ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/MTAB/E-MTAB-2805/E-MTAB-2805.processed.1.zip
 project.protocols.1.description "mESC were grown in standard 2i media. The media composition was N2B27 basal media (NDiff 227, StemCells), 100 U/ml recombinant human leukemia inhibitory factor (Millipore), 1M PD0325901 (Stemgent), 3M CHIR99021 (Stemgent)."
 project.protocols.1.type.text growth protocol
@@ -50,6 +51,9 @@ project.protocols.7.description As per Wellcome Trust Sequencing pipeline guidel
 project.protocols.7.type.text high throughput sequence alignment protocol
 project.protocols.8.description Mapping for each single cell dataset was done using GSNAP/GMAP (released on 2014-01-21) to a custom mouse genome (mm10; Ensembl GRCm38.p1) including ERCC sequences. Mapped reads were counted using HTSeq (0.6.1)
 project.protocols.8.type.text normalization data transformation protocol
+project.protocols.9.description fresh
+project.protocols.9.type.text storage protocol
+project.protocols.9.id P-LOCL-9
 sample.total_estimated_cells 1
 sample.well.cell_type.text embyronic stem cell
 project.protocols.1.id e9fa2f85-5958-4db1-93e2-f8a6b4f066ca
@@ -72,7 +76,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d3abdd56-8d52-44d9-938b-f349e827e06e
 		sample.ena_sample ERS527385
 		sample.submitter_id G1_cell1
-		sample.well.id G1_cell1
+		sample.well.name G1_cell1
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580026/ERR580026_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580026/ERR580026_2.fastq.gz
 		assay.seq.ena_experiment ERX538181
@@ -80,7 +84,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 83fc4acc-45e3-4a63-adcc-20c60fca4b53
 		sample.ena_sample ERS527282
 		sample.submitter_id G1_cell2
-		sample.well.id G1_cell2
+		sample.well.name G1_cell2
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580203/ERR580203_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580203/ERR580203_2.fastq.gz
 		assay.seq.ena_experiment ERX538422
@@ -88,7 +92,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id c5a45cc3-cad9-4aea-8102-7601591dc186
 		sample.ena_sample ERS527523
 		sample.submitter_id G1_cell3
-		sample.well.id G1_cell3
+		sample.well.name G1_cell3
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580180/ERR580180_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580180/ERR580180_2.fastq.gz
 		assay.seq.ena_experiment ERX538339
@@ -96,7 +100,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 379aef02-6506-4181-a00d-3f5a697bc410
 		sample.ena_sample ERS527440
 		sample.submitter_id G1_cell4
-		sample.well.id G1_cell4
+		sample.well.name G1_cell4
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580113/ERR580113_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580113/ERR580113_2.fastq.gz
 		assay.seq.ena_experiment ERX538331
@@ -104,7 +108,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 10fd32d5-9e15-4bbc-b28d-1039cad6433b
 		sample.ena_sample ERS527432
 		sample.submitter_id G1_cell5
-		sample.well.id G1_cell5
+		sample.well.name G1_cell5
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580065/ERR580065_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580065/ERR580065_2.fastq.gz
 		assay.seq.ena_experiment ERX538256
@@ -112,7 +116,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5404740e-ecae-4aa7-b459-3790a25fc053
 		sample.ena_sample ERS527357
 		sample.submitter_id G1_cell6
-		sample.well.id G1_cell6
+		sample.well.name G1_cell6
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580207/ERR580207_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580207/ERR580207_2.fastq.gz
 		assay.seq.ena_experiment ERX538373
@@ -120,7 +124,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ddf32429-e80a-4a02-a09c-b880740e44c6
 		sample.ena_sample ERS527474
 		sample.submitter_id G1_cell7
-		sample.well.id G1_cell7
+		sample.well.name G1_cell7
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580012/ERR580012_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580012/ERR580012_2.fastq.gz
 		assay.seq.ena_experiment ERX538157
@@ -128,7 +132,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e6d27d07-bb92-4939-a2bb-daea079d83eb
 		sample.ena_sample ERS527258
 		sample.submitter_id G1_cell8
-		sample.well.id G1_cell8
+		sample.well.name G1_cell8
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580262/ERR580262_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580262/ERR580262_2.fastq.gz
 		assay.seq.ena_experiment ERX538210
@@ -136,7 +140,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 22eca3ba-821e-414f-bb82-ef3e5216da66
 		sample.ena_sample ERS527311
 		sample.submitter_id G1_cell9
-		sample.well.id G1_cell9
+		sample.well.name G1_cell9
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580037/ERR580037_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580037/ERR580037_2.fastq.gz
 		assay.seq.ena_experiment ERX538258
@@ -144,7 +148,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 0fdab0c4-4e0f-450b-87e6-68e9eb57f820
 		sample.ena_sample ERS527359
 		sample.submitter_id G1_cell10
-		sample.well.id G1_cell10
+		sample.well.name G1_cell10
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580215/ERR580215_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580215/ERR580215_2.fastq.gz
 		assay.seq.ena_experiment ERX538249
@@ -152,7 +156,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 47a13c57-12b5-4465-9c29-35ec48891a22
 		sample.ena_sample ERS527350
 		sample.submitter_id G1_cell11
-		sample.well.id G1_cell11
+		sample.well.name G1_cell11
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580258/ERR580258_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580258/ERR580258_2.fastq.gz
 		assay.seq.ena_experiment ERX538334
@@ -160,7 +164,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 116ddf21-cffd-49ef-9951-72c01e19c82b
 		sample.ena_sample ERS527435
 		sample.submitter_id G1_cell12
-		sample.well.id G1_cell12
+		sample.well.name G1_cell12
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580031/ERR580031_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580031/ERR580031_2.fastq.gz
 		assay.seq.ena_experiment ERX538354
@@ -168,7 +172,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9cf6b8e6-6851-4dc4-b0e1-21f49e00a4db
 		sample.ena_sample ERS527455
 		sample.submitter_id G1_cell13
-		sample.well.id G1_cell13
+		sample.well.name G1_cell13
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580277/ERR580277_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580277/ERR580277_2.fastq.gz
 		assay.seq.ena_experiment ERX538140
@@ -176,7 +180,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a54e9326-bee5-46f6-8ce3-5cf33f3a41e7
 		sample.ena_sample ERS527241
 		sample.submitter_id G1_cell14
-		sample.well.id G1_cell14
+		sample.well.name G1_cell14
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580175/ERR580175_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580175/ERR580175_2.fastq.gz
 		assay.seq.ena_experiment ERX538216
@@ -184,7 +188,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 59bec938-ebfc-4137-80e4-83608d597704
 		sample.ena_sample ERS527317
 		sample.submitter_id G1_cell15
-		sample.well.id G1_cell15
+		sample.well.name G1_cell15
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580295/ERR580295_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580295/ERR580295_2.fastq.gz
 		assay.seq.ena_experiment ERX538404
@@ -192,7 +196,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5ef36248-fbcc-49c8-a7ae-f378f9596296
 		sample.ena_sample ERS527505
 		sample.submitter_id G1_cell16
-		sample.well.id G1_cell16
+		sample.well.name G1_cell16
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580142/ERR580142_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580142/ERR580142_2.fastq.gz
 		assay.seq.ena_experiment ERX538167
@@ -200,7 +204,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9b84005e-c43e-4486-8ce2-980a47a32014
 		sample.ena_sample ERS527268
 		sample.submitter_id G1_cell17
-		sample.well.id G1_cell17
+		sample.well.name G1_cell17
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580029/ERR580029_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580029/ERR580029_2.fastq.gz
 		assay.seq.ena_experiment ERX538241
@@ -208,7 +212,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 107a6ae2-603f-4fef-b2a8-91576761010a
 		sample.ena_sample ERS527342
 		sample.submitter_id G1_cell18
-		sample.well.id G1_cell18
+		sample.well.name G1_cell18
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580291/ERR580291_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580291/ERR580291_2.fastq.gz
 		assay.seq.ena_experiment ERX538254
@@ -216,7 +220,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id bd8a513a-ca70-4697-878f-40a7dd1179a2
 		sample.ena_sample ERS527355
 		sample.submitter_id G1_cell19
-		sample.well.id G1_cell19
+		sample.well.name G1_cell19
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580024/ERR580024_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580024/ERR580024_2.fastq.gz
 		assay.seq.ena_experiment ERX538341
@@ -224,7 +228,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 6ce26e02-0f09-4846-91f2-4a6637caad20
 		sample.ena_sample ERS527442
 		sample.submitter_id G1_cell20
-		sample.well.id G1_cell20
+		sample.well.name G1_cell20
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580195/ERR580195_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580195/ERR580195_2.fastq.gz
 		assay.seq.ena_experiment ERX538390
@@ -232,7 +236,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 96f6731e-118b-4779-b89a-be317f02dfc1
 		sample.ena_sample ERS527491
 		sample.submitter_id G1_cell21
-		sample.well.id G1_cell21
+		sample.well.name G1_cell21
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580103/ERR580103_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580103/ERR580103_2.fastq.gz
 		assay.seq.ena_experiment ERX538230
@@ -240,7 +244,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 7f27efc3-e2b5-44c9-9080-a9e0c35b350f
 		sample.ena_sample ERS527331
 		sample.submitter_id G1_cell22
-		sample.well.id G1_cell22
+		sample.well.name G1_cell22
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580284/ERR580284_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580284/ERR580284_2.fastq.gz
 		assay.seq.ena_experiment ERX538159
@@ -248,7 +252,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id bb8ce74d-cdae-488a-b359-a08155e61b81
 		sample.ena_sample ERS527260
 		sample.submitter_id G1_cell23
-		sample.well.id G1_cell23
+		sample.well.name G1_cell23
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580068/ERR580068_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580068/ERR580068_2.fastq.gz
 		assay.seq.ena_experiment ERX538355
@@ -256,7 +260,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 7567a43a-2c55-44a5-8bbf-11d430cf3ac2
 		sample.ena_sample ERS527456
 		sample.submitter_id G1_cell24
-		sample.well.id G1_cell24
+		sample.well.name G1_cell24
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580181/ERR580181_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580181/ERR580181_2.fastq.gz
 		assay.seq.ena_experiment ERX538333
@@ -264,7 +268,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 369f261b-5434-4c74-95c0-18cbc4367198
 		sample.ena_sample ERS527434
 		sample.submitter_id G1_cell25
-		sample.well.id G1_cell25
+		sample.well.name G1_cell25
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580285/ERR580285_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580285/ERR580285_2.fastq.gz
 		assay.seq.ena_experiment ERX538273
@@ -272,7 +276,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id b36b98e7-8663-4a9d-b294-978cf83ff5d7
 		sample.ena_sample ERS527374
 		sample.submitter_id G1_cell26
-		sample.well.id G1_cell26
+		sample.well.name G1_cell26
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580094/ERR580094_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580094/ERR580094_2.fastq.gz
 		assay.seq.ena_experiment ERX538182
@@ -280,7 +284,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 4253fd9b-4615-479a-8861-f3f05f7831e2
 		sample.ena_sample ERS527283
 		sample.submitter_id G1_cell27
-		sample.well.id G1_cell27
+		sample.well.name G1_cell27
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580230/ERR580230_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580230/ERR580230_2.fastq.gz
 		assay.seq.ena_experiment ERX538286
@@ -288,7 +292,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5559ce23-5b3e-403b-a157-15f9f5c81081
 		sample.ena_sample ERS527387
 		sample.submitter_id G1_cell28
-		sample.well.id G1_cell28
+		sample.well.name G1_cell28
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580287/ERR580287_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580287/ERR580287_2.fastq.gz
 		assay.seq.ena_experiment ERX538240
@@ -296,7 +300,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id c717df06-5f7d-456f-ae3d-dd76932f2403
 		sample.ena_sample ERS527341
 		sample.submitter_id G1_cell29
-		sample.well.id G1_cell29
+		sample.well.name G1_cell29
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580143/ERR580143_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580143/ERR580143_2.fastq.gz
 		assay.seq.ena_experiment ERX538226
@@ -304,7 +308,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 80a3368c-20e6-4706-8dec-6d3044c229c4
 		sample.ena_sample ERS527327
 		sample.submitter_id G1_cell30
-		sample.well.id G1_cell30
+		sample.well.name G1_cell30
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580077/ERR580077_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580077/ERR580077_2.fastq.gz
 		assay.seq.ena_experiment ERX538394
@@ -312,7 +316,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 6e97f2b9-07cd-4f51-ae71-cd8b37fd589c
 		sample.ena_sample ERS527495
 		sample.submitter_id G1_cell31
-		sample.well.id G1_cell31
+		sample.well.name G1_cell31
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580102/ERR580102_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580102/ERR580102_2.fastq.gz
 		assay.seq.ena_experiment ERX538371
@@ -320,7 +324,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 7c711913-8255-4bba-9731-b2c7bf28abbe
 		sample.ena_sample ERS527472
 		sample.submitter_id G1_cell32
-		sample.well.id G1_cell32
+		sample.well.name G1_cell32
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580097/ERR580097_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580097/ERR580097_2.fastq.gz
 		assay.seq.ena_experiment ERX538201
@@ -328,7 +332,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 3c26d1ff-8220-4a89-b814-08efb1ef205d
 		sample.ena_sample ERS527302
 		sample.submitter_id G1_cell33
-		sample.well.id G1_cell33
+		sample.well.name G1_cell33
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580281/ERR580281_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580281/ERR580281_2.fastq.gz
 		assay.seq.ena_experiment ERX538313
@@ -336,7 +340,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 6f804ce5-088c-4c18-8f06-4a1dfbea0947
 		sample.ena_sample ERS527414
 		sample.submitter_id G1_cell34
-		sample.well.id G1_cell34
+		sample.well.name G1_cell34
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580152/ERR580152_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580152/ERR580152_2.fastq.gz
 		assay.seq.ena_experiment ERX538387
@@ -344,7 +348,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 393ffc9d-9abd-421f-81ba-80a901e78648
 		sample.ena_sample ERS527488
 		sample.submitter_id G1_cell35
-		sample.well.id G1_cell35
+		sample.well.name G1_cell35
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580162/ERR580162_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580162/ERR580162_2.fastq.gz
 		assay.seq.ena_experiment ERX538346
@@ -352,7 +356,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ebf5d216-b936-4fbb-98ef-dcb9f1eb5a9d
 		sample.ena_sample ERS527447
 		sample.submitter_id G1_cell36
-		sample.well.id G1_cell36
+		sample.well.name G1_cell36
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580192/ERR580192_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580192/ERR580192_2.fastq.gz
 		assay.seq.ena_experiment ERX538144
@@ -360,7 +364,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 1baf6afa-fa93-4c06-998f-db4542e75e0a
 		sample.ena_sample ERS527245
 		sample.submitter_id G1_cell37
-		sample.well.id G1_cell37
+		sample.well.name G1_cell37
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580101/ERR580101_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580101/ERR580101_2.fastq.gz
 		assay.seq.ena_experiment ERX538243
@@ -368,7 +372,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 81b230e4-7448-49c6-b50a-6f6c0f73ffea
 		sample.ena_sample ERS527344
 		sample.submitter_id G1_cell38
-		sample.well.id G1_cell38
+		sample.well.name G1_cell38
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580117/ERR580117_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580117/ERR580117_2.fastq.gz
 		assay.seq.ena_experiment ERX538304
@@ -376,7 +380,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5665176e-a5a8-456a-b003-4f049fc540e5
 		sample.ena_sample ERS527405
 		sample.submitter_id G1_cell39
-		sample.well.id G1_cell39
+		sample.well.name G1_cell39
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580164/ERR580164_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580164/ERR580164_2.fastq.gz
 		assay.seq.ena_experiment ERX538141
@@ -384,7 +388,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ac4c32e1-0d17-4d30-9ed6-0260afdc9ae5
 		sample.ena_sample ERS527242
 		sample.submitter_id G1_cell40
-		sample.well.id G1_cell40
+		sample.well.name G1_cell40
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580115/ERR580115_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580115/ERR580115_2.fastq.gz
 		assay.seq.ena_experiment ERX538262
@@ -392,7 +396,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a1ffeb8f-33df-4beb-8223-49cf8a6742d6
 		sample.ena_sample ERS527363
 		sample.submitter_id G1_cell41
-		sample.well.id G1_cell41
+		sample.well.name G1_cell41
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580085/ERR580085_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580085/ERR580085_2.fastq.gz
 		assay.seq.ena_experiment ERX538301
@@ -400,7 +404,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d98b4f6b-7b88-4467-ae92-8f3207fe4ed0
 		sample.ena_sample ERS527402
 		sample.submitter_id G1_cell42
-		sample.well.id G1_cell42
+		sample.well.name G1_cell42
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580129/ERR580129_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580129/ERR580129_2.fastq.gz
 		assay.seq.ena_experiment ERX538220
@@ -408,7 +412,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id fe453381-6f70-4050-a8ba-293025ee6618
 		sample.ena_sample ERS527321
 		sample.submitter_id G1_cell43
-		sample.well.id G1_cell43
+		sample.well.name G1_cell43
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580196/ERR580196_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580196/ERR580196_2.fastq.gz
 		assay.seq.ena_experiment ERX538223
@@ -416,7 +420,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 6946cb03-c0d7-4418-8269-5a18870bb720
 		sample.ena_sample ERS527324
 		sample.submitter_id G1_cell44
-		sample.well.id G1_cell44
+		sample.well.name G1_cell44
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580186/ERR580186_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580186/ERR580186_2.fastq.gz
 		assay.seq.ena_experiment ERX538161
@@ -424,7 +428,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 7758959b-d5b9-412b-a1ba-ea2c0e34d2c3
 		sample.ena_sample ERS527262
 		sample.submitter_id G1_cell45
-		sample.well.id G1_cell45
+		sample.well.name G1_cell45
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580214/ERR580214_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580214/ERR580214_2.fastq.gz
 		assay.seq.ena_experiment ERX538403
@@ -432,7 +436,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id bd43915a-44c3-436f-9a49-d902ec634b0a
 		sample.ena_sample ERS527504
 		sample.submitter_id G1_cell46
-		sample.well.id G1_cell46
+		sample.well.name G1_cell46
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580109/ERR580109_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580109/ERR580109_2.fastq.gz
 		assay.seq.ena_experiment ERX538209
@@ -440,7 +444,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 465b14f6-5d35-402b-b2cf-fc96a486aff3
 		sample.ena_sample ERS527310
 		sample.submitter_id G1_cell47
-		sample.well.id G1_cell47
+		sample.well.name G1_cell47
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580061/ERR580061_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580061/ERR580061_2.fastq.gz
 		assay.seq.ena_experiment ERX538265
@@ -448,7 +452,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 59a7ac34-1738-4b8e-b908-fc19ea136517
 		sample.ena_sample ERS527366
 		sample.submitter_id G1_cell48
-		sample.well.id G1_cell48
+		sample.well.name G1_cell48
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580125/ERR580125_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580125/ERR580125_2.fastq.gz
 		assay.seq.ena_experiment ERX538187
@@ -456,7 +460,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d6c3ae01-a91f-486b-bc0d-a253049c2662
 		sample.ena_sample ERS527288
 		sample.submitter_id G1_cell49
-		sample.well.id G1_cell49
+		sample.well.name G1_cell49
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580188/ERR580188_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580188/ERR580188_2.fastq.gz
 		assay.seq.ena_experiment ERX538192
@@ -464,7 +468,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 3ac04f24-1923-496d-b0b6-a36459c94786
 		sample.ena_sample ERS527293
 		sample.submitter_id G1_cell50
-		sample.well.id G1_cell50
+		sample.well.name G1_cell50
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580139/ERR580139_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580139/ERR580139_2.fastq.gz
 		assay.seq.ena_experiment ERX538375
@@ -472,7 +476,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e13b5880-5fd7-4a60-ae2b-dc05c594d4cc
 		sample.ena_sample ERS527476
 		sample.submitter_id G1_cell51
-		sample.well.id G1_cell51
+		sample.well.name G1_cell51
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580198/ERR580198_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580198/ERR580198_2.fastq.gz
 		assay.seq.ena_experiment ERX538277
@@ -480,7 +484,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d78c1ab1-d695-46b7-8311-83c64eb70b05
 		sample.ena_sample ERS527378
 		sample.submitter_id G1_cell52
-		sample.well.id G1_cell52
+		sample.well.name G1_cell52
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580133/ERR580133_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580133/ERR580133_2.fastq.gz
 		assay.seq.ena_experiment ERX538228
@@ -488,7 +492,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 6bff8243-cd5c-4d68-9737-ce788884b84f
 		sample.ena_sample ERS527329
 		sample.submitter_id G1_cell53
-		sample.well.id G1_cell53
+		sample.well.name G1_cell53
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580221/ERR580221_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580221/ERR580221_2.fastq.gz
 		assay.seq.ena_experiment ERX538186
@@ -496,7 +500,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 0dd649eb-ef01-4b3d-9c91-6dab22863f15
 		sample.ena_sample ERS527287
 		sample.submitter_id G1_cell54
-		sample.well.id G1_cell54
+		sample.well.name G1_cell54
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580052/ERR580052_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580052/ERR580052_2.fastq.gz
 		assay.seq.ena_experiment ERX538175
@@ -504,7 +508,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id edd9081f-899f-4b90-a689-4ab39e03b08b
 		sample.ena_sample ERS527276
 		sample.submitter_id G1_cell55
-		sample.well.id G1_cell55
+		sample.well.name G1_cell55
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580271/ERR580271_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580271/ERR580271_2.fastq.gz
 		assay.seq.ena_experiment ERX538388
@@ -512,7 +516,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 07096811-2213-485d-a34d-813feb434fdc
 		sample.ena_sample ERS527489
 		sample.submitter_id G1_cell56
-		sample.well.id G1_cell56
+		sample.well.name G1_cell56
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580135/ERR580135_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580135/ERR580135_2.fastq.gz
 		assay.seq.ena_experiment ERX538303
@@ -520,7 +524,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5b5ddbd7-0bd3-4380-ade9-b145720f0818
 		sample.ena_sample ERS527404
 		sample.submitter_id G1_cell57
-		sample.well.id G1_cell57
+		sample.well.name G1_cell57
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580219/ERR580219_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580219/ERR580219_2.fastq.gz
 		assay.seq.ena_experiment ERX538397
@@ -528,7 +532,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a1a0ee46-5915-4191-96a7-a3a39e782788
 		sample.ena_sample ERS527498
 		sample.submitter_id G1_cell58
-		sample.well.id G1_cell58
+		sample.well.name G1_cell58
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580226/ERR580226_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580226/ERR580226_2.fastq.gz
 		assay.seq.ena_experiment ERX538198
@@ -536,7 +540,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 1b084e1a-cdc8-4f74-9a1a-8e02b6a6db5f
 		sample.ena_sample ERS527299
 		sample.submitter_id G1_cell59
-		sample.well.id G1_cell59
+		sample.well.name G1_cell59
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580140/ERR580140_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580140/ERR580140_2.fastq.gz
 		assay.seq.ena_experiment ERX538264
@@ -544,7 +548,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 287b5d7e-97af-4e69-bbde-d970588a25f3
 		sample.ena_sample ERS527365
 		sample.submitter_id G1_cell60
-		sample.well.id G1_cell60
+		sample.well.name G1_cell60
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580161/ERR580161_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580161/ERR580161_2.fastq.gz
 		assay.seq.ena_experiment ERX538194
@@ -552,7 +556,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id af2ecd91-db52-4983-89ef-cbcdb0cd0475
 		sample.ena_sample ERS527295
 		sample.submitter_id G1_cell61
-		sample.well.id G1_cell61
+		sample.well.name G1_cell61
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580015/ERR580015_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580015/ERR580015_2.fastq.gz
 		assay.seq.ena_experiment ERX538420
@@ -560,7 +564,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 7273c0a7-4d05-42a3-859b-8c30f986cbe7
 		sample.ena_sample ERS527521
 		sample.submitter_id G1_cell62
-		sample.well.id G1_cell62
+		sample.well.name G1_cell62
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580145/ERR580145_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580145/ERR580145_2.fastq.gz
 		assay.seq.ena_experiment ERX538193
@@ -568,7 +572,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 2e8bb222-b7e8-4f8a-b082-7f66fafe0ff0
 		sample.ena_sample ERS527294
 		sample.submitter_id G1_cell63
-		sample.well.id G1_cell63
+		sample.well.name G1_cell63
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580201/ERR580201_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580201/ERR580201_2.fastq.gz
 		assay.seq.ena_experiment ERX538246
@@ -576,7 +580,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id bfc7f5b5-c358-4a1d-92a4-7fcaa20b6dc2
 		sample.ena_sample ERS527347
 		sample.submitter_id G1_cell64
-		sample.well.id G1_cell64
+		sample.well.name G1_cell64
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580280/ERR580280_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580280/ERR580280_2.fastq.gz
 		assay.seq.ena_experiment ERX538319
@@ -584,7 +588,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5bd28640-8309-424d-87f8-6ce745739208
 		sample.ena_sample ERS527420
 		sample.submitter_id G1_cell65
-		sample.well.id G1_cell65
+		sample.well.name G1_cell65
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580055/ERR580055_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580055/ERR580055_2.fastq.gz
 		assay.seq.ena_experiment ERX538145
@@ -592,7 +596,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 4517e061-ed16-4419-93bc-dc247bc4c9f1
 		sample.ena_sample ERS527246
 		sample.submitter_id G1_cell66
-		sample.well.id G1_cell66
+		sample.well.name G1_cell66
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580131/ERR580131_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580131/ERR580131_2.fastq.gz
 		assay.seq.ena_experiment ERX538200
@@ -600,7 +604,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 09b1eb10-ef33-4135-aece-ebeb8c6949bf
 		sample.ena_sample ERS527301
 		sample.submitter_id G1_cell67
-		sample.well.id G1_cell67
+		sample.well.name G1_cell67
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580099/ERR580099_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580099/ERR580099_2.fastq.gz
 		assay.seq.ena_experiment ERX538279
@@ -608,7 +612,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id edca50bd-d74c-4dbe-9b44-84dcf5606f7a
 		sample.ena_sample ERS527380
 		sample.submitter_id G1_cell68
-		sample.well.id G1_cell68
+		sample.well.name G1_cell68
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580240/ERR580240_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580240/ERR580240_2.fastq.gz
 		assay.seq.ena_experiment ERX538349
@@ -616,7 +620,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 4e19b5f2-f32b-45b4-b76d-99c4437c0337
 		sample.ena_sample ERS527450
 		sample.submitter_id G1_cell69
-		sample.well.id G1_cell69
+		sample.well.name G1_cell69
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580218/ERR580218_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580218/ERR580218_2.fastq.gz
 		assay.seq.ena_experiment ERX538364
@@ -624,7 +628,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 964c4e79-e14a-4372-88f2-4540bb7178a1
 		sample.ena_sample ERS527465
 		sample.submitter_id G1_cell70
-		sample.well.id G1_cell70
+		sample.well.name G1_cell70
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580067/ERR580067_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580067/ERR580067_2.fastq.gz
 		assay.seq.ena_experiment ERX538253
@@ -632,7 +636,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e817eb2a-b908-4563-a5ab-8074280d3ee6
 		sample.ena_sample ERS527354
 		sample.submitter_id G1_cell71
-		sample.well.id G1_cell71
+		sample.well.name G1_cell71
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580084/ERR580084_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580084/ERR580084_2.fastq.gz
 		assay.seq.ena_experiment ERX538239
@@ -640,7 +644,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 89ee51cc-2188-4f7f-9064-095749355e09
 		sample.ena_sample ERS527340
 		sample.submitter_id G1_cell72
-		sample.well.id G1_cell72
+		sample.well.name G1_cell72
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580282/ERR580282_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580282/ERR580282_2.fastq.gz
 		assay.seq.ena_experiment ERX538391
@@ -648,7 +652,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id aae646cc-7d86-4ae7-9ef8-999ec68aecb2
 		sample.ena_sample ERS527492
 		sample.submitter_id G1_cell73
-		sample.well.id G1_cell73
+		sample.well.name G1_cell73
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580130/ERR580130_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580130/ERR580130_2.fastq.gz
 		assay.seq.ena_experiment ERX538300
@@ -656,7 +660,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 4524d2c3-235d-495a-9c9b-de250b643b56
 		sample.ena_sample ERS527401
 		sample.submitter_id G1_cell74
-		sample.well.id G1_cell74
+		sample.well.name G1_cell74
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580144/ERR580144_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580144/ERR580144_2.fastq.gz
 		assay.seq.ena_experiment ERX538204
@@ -664,7 +668,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 25e006fd-9d58-4828-92ca-04ca0b69ff5c
 		sample.ena_sample ERS527305
 		sample.submitter_id G1_cell75
-		sample.well.id G1_cell75
+		sample.well.name G1_cell75
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580233/ERR580233_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580233/ERR580233_2.fastq.gz
 		assay.seq.ena_experiment ERX538154
@@ -672,7 +676,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 7c509e61-901a-45de-8996-ae83cb1241a1
 		sample.ena_sample ERS527255
 		sample.submitter_id G1_cell76
-		sample.well.id G1_cell76
+		sample.well.name G1_cell76
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580132/ERR580132_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580132/ERR580132_2.fastq.gz
 		assay.seq.ena_experiment ERX538164
@@ -680,7 +684,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 35890d64-3ff8-46f5-b369-8fdbc7d9ba55
 		sample.ena_sample ERS527265
 		sample.submitter_id G1_cell77
-		sample.well.id G1_cell77
+		sample.well.name G1_cell77
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580047/ERR580047_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580047/ERR580047_2.fastq.gz
 		assay.seq.ena_experiment ERX538312
@@ -688,7 +692,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 1db2eb4f-3129-4e4c-9dc9-4bb036097411
 		sample.ena_sample ERS527413
 		sample.submitter_id G1_cell78
-		sample.well.id G1_cell78
+		sample.well.name G1_cell78
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580034/ERR580034_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580034/ERR580034_2.fastq.gz
 		assay.seq.ena_experiment ERX538310
@@ -696,7 +700,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d49c2427-baeb-4dd0-9edf-0c73fd375f10
 		sample.ena_sample ERS527411
 		sample.submitter_id G1_cell79
-		sample.well.id G1_cell79
+		sample.well.name G1_cell79
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580048/ERR580048_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580048/ERR580048_2.fastq.gz
 		assay.seq.ena_experiment ERX538353
@@ -704,7 +708,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 1dcacf1d-1199-4e2d-aa18-9e66cb03795f
 		sample.ena_sample ERS527454
 		sample.submitter_id G1_cell80
-		sample.well.id G1_cell80
+		sample.well.name G1_cell80
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580166/ERR580166_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580166/ERR580166_2.fastq.gz
 		assay.seq.ena_experiment ERX538332
@@ -712,7 +716,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5375eb9b-d20d-425b-9ad0-7355ce664163
 		sample.ena_sample ERS527433
 		sample.submitter_id G1_cell81
-		sample.well.id G1_cell81
+		sample.well.name G1_cell81
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580216/ERR580216_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580216/ERR580216_2.fastq.gz
 		assay.seq.ena_experiment ERX538293
@@ -720,7 +724,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 077df59f-0f4e-4857-b5d7-509111fe05f7
 		sample.ena_sample ERS527394
 		sample.submitter_id G1_cell82
-		sample.well.id G1_cell82
+		sample.well.name G1_cell82
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580273/ERR580273_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580273/ERR580273_2.fastq.gz
 		assay.seq.ena_experiment ERX538379
@@ -728,7 +732,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9f4e0fbc-77df-4d27-ac90-7c473c562c0f
 		sample.ena_sample ERS527480
 		sample.submitter_id G1_cell83
-		sample.well.id G1_cell83
+		sample.well.name G1_cell83
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580210/ERR580210_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580210/ERR580210_2.fastq.gz
 		assay.seq.ena_experiment ERX538418
@@ -736,7 +740,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 0287a70d-9206-4bc8-8401-78ba2050ec14
 		sample.ena_sample ERS527519
 		sample.submitter_id G1_cell84
-		sample.well.id G1_cell84
+		sample.well.name G1_cell84
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580045/ERR580045_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580045/ERR580045_2.fastq.gz
 		assay.seq.ena_experiment ERX538171
@@ -744,7 +748,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id bc806973-56b5-48fd-9fe6-b77529ed8843
 		sample.ena_sample ERS527272
 		sample.submitter_id G1_cell85
-		sample.well.id G1_cell85
+		sample.well.name G1_cell85
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580148/ERR580148_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580148/ERR580148_2.fastq.gz
 		assay.seq.ena_experiment ERX538238
@@ -752,7 +756,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 21df9fc4-fafe-4692-8f5f-0c1fb146204f
 		sample.ena_sample ERS527339
 		sample.submitter_id G1_cell86
-		sample.well.id G1_cell86
+		sample.well.name G1_cell86
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580259/ERR580259_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580259/ERR580259_2.fastq.gz
 		assay.seq.ena_experiment ERX538306
@@ -760,7 +764,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e574fd5c-90d1-4876-bb59-a24ec7520855
 		sample.ena_sample ERS527407
 		sample.submitter_id G1_cell87
-		sample.well.id G1_cell87
+		sample.well.name G1_cell87
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580261/ERR580261_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580261/ERR580261_2.fastq.gz
 		assay.seq.ena_experiment ERX538148
@@ -768,7 +772,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 8b04872c-2be8-4516-9565-e637356e32b0
 		sample.ena_sample ERS527249
 		sample.submitter_id G1_cell88
-		sample.well.id G1_cell88
+		sample.well.name G1_cell88
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580105/ERR580105_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580105/ERR580105_2.fastq.gz
 		assay.seq.ena_experiment ERX538218
@@ -776,7 +780,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 51dd7c62-1b11-47d2-983d-e767b926af76
 		sample.ena_sample ERS527319
 		sample.submitter_id G1_cell89
-		sample.well.id G1_cell89
+		sample.well.name G1_cell89
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580044/ERR580044_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580044/ERR580044_2.fastq.gz
 		assay.seq.ena_experiment ERX538347
@@ -784,7 +788,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d25a8e4b-f846-4092-b14b-08399f27c61e
 		sample.ena_sample ERS527448
 		sample.submitter_id G1_cell90
-		sample.well.id G1_cell90
+		sample.well.name G1_cell90
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580245/ERR580245_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580245/ERR580245_2.fastq.gz
 		assay.seq.ena_experiment ERX538411
@@ -792,7 +796,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 0426e70d-43eb-40e6-a7fa-1f328ceba9f3
 		sample.ena_sample ERS527512
 		sample.submitter_id G1_cell91
-		sample.well.id G1_cell91
+		sample.well.name G1_cell91
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580177/ERR580177_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580177/ERR580177_2.fastq.gz
 		assay.seq.ena_experiment ERX538298
@@ -800,7 +804,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 8c282a53-f523-4a7d-87e0-22a3c059550e
 		sample.ena_sample ERS527399
 		sample.submitter_id G1_cell92
-		sample.well.id G1_cell92
+		sample.well.name G1_cell92
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580141/ERR580141_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580141/ERR580141_2.fastq.gz
 		assay.seq.ena_experiment ERX538225
@@ -808,7 +812,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 540734ac-6bb2-41bd-a21c-e3cdbe6fa6b7
 		sample.ena_sample ERS527326
 		sample.submitter_id G1_cell93
-		sample.well.id G1_cell93
+		sample.well.name G1_cell93
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580293/ERR580293_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580293/ERR580293_2.fastq.gz
 		assay.seq.ena_experiment ERX538160
@@ -816,7 +820,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 3a953548-0ea6-4e0e-90f1-b7456a087bd4
 		sample.ena_sample ERS527261
 		sample.submitter_id G1_cell94
-		sample.well.id G1_cell94
+		sample.well.name G1_cell94
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580147/ERR580147_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580147/ERR580147_2.fastq.gz
 		assay.seq.ena_experiment ERX538360
@@ -824,7 +828,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 58b57e3c-e3c5-43b8-b854-4cea49c0291e
 		sample.ena_sample ERS527461
 		sample.submitter_id G1_cell95
-		sample.well.id G1_cell95
+		sample.well.name G1_cell95
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580171/ERR580171_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580171/ERR580171_2.fastq.gz
 		assay.seq.ena_experiment ERX538384
@@ -832,7 +836,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 24e92ad0-e687-4221-a1d8-e168169e00cf
 		sample.ena_sample ERS527485
 		sample.submitter_id G1_cell96
-		sample.well.id G1_cell96
+		sample.well.name G1_cell96
 
 	sample.cell_cycle.text S phase
 	sample.name S phase mESCs
@@ -844,7 +848,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 3f28f77b-3dc9-45ca-920b-3d26f96c2493
 		sample.ena_sample ERS527333
 		sample.submitter_id S_cell1
-		sample.well.id S_cell1
+		sample.well.name S_cell1
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580176/ERR580176_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580176/ERR580176_2.fastq.gz
 		assay.seq.ena_experiment ERX538252
@@ -852,7 +856,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e1ff0c24-2742-47fe-b47f-f4f419d8e6a8
 		sample.ena_sample ERS527353
 		sample.submitter_id S_cell2
-		sample.well.id S_cell2
+		sample.well.name S_cell2
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580126/ERR580126_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580126/ERR580126_2.fastq.gz
 		assay.seq.ena_experiment ERX538317
@@ -860,7 +864,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9f587448-bdfa-428f-abf1-b234d4b200bc
 		sample.ena_sample ERS527418
 		sample.submitter_id S_cell3
-		sample.well.id S_cell3
+		sample.well.name S_cell3
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580173/ERR580173_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580173/ERR580173_2.fastq.gz
 		assay.seq.ena_experiment ERX538205
@@ -868,7 +872,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 3d6304de-5f6d-48dc-9ee2-bec15231dbd4
 		sample.ena_sample ERS527306
 		sample.submitter_id S_cell4
-		sample.well.id S_cell4
+		sample.well.name S_cell4
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580014/ERR580014_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580014/ERR580014_2.fastq.gz
 		assay.seq.ena_experiment ERX538195
@@ -876,7 +880,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 0f460390-cf9d-46af-941d-0ba3d8d0a236
 		sample.ena_sample ERS527296
 		sample.submitter_id S_cell5
-		sample.well.id S_cell5
+		sample.well.name S_cell5
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580086/ERR580086_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580086/ERR580086_2.fastq.gz
 		assay.seq.ena_experiment ERX538365
@@ -884,7 +888,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a52678cf-0185-4036-8e50-698c6b954328
 		sample.ena_sample ERS527466
 		sample.submitter_id S_cell6
-		sample.well.id S_cell6
+		sample.well.name S_cell6
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580160/ERR580160_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580160/ERR580160_2.fastq.gz
 		assay.seq.ena_experiment ERX538307
@@ -892,7 +896,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 012ff586-d3af-493d-8fb2-959b836c3616
 		sample.ena_sample ERS527408
 		sample.submitter_id S_cell7
-		sample.well.id S_cell7
+		sample.well.name S_cell7
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580093/ERR580093_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580093/ERR580093_2.fastq.gz
 		assay.seq.ena_experiment ERX538342
@@ -900,7 +904,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id c36a0b79-37a2-4117-af65-d0cdb2a6a3ce
 		sample.ena_sample ERS527443
 		sample.submitter_id S_cell8
-		sample.well.id S_cell8
+		sample.well.name S_cell8
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580023/ERR580023_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580023/ERR580023_2.fastq.gz
 		assay.seq.ena_experiment ERX538247
@@ -908,7 +912,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5b87bbba-9b52-4b89-8d2f-7193689e0ea6
 		sample.ena_sample ERS527348
 		sample.submitter_id S_cell9
-		sample.well.id S_cell9
+		sample.well.name S_cell9
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580235/ERR580235_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580235/ERR580235_2.fastq.gz
 		assay.seq.ena_experiment ERX538325
@@ -916,7 +920,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 44eedb46-22de-4c33-8b74-c32c66595ff2
 		sample.ena_sample ERS527426
 		sample.submitter_id S_cell10
-		sample.well.id S_cell10
+		sample.well.name S_cell10
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580278/ERR580278_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580278/ERR580278_2.fastq.gz
 		assay.seq.ena_experiment ERX538285
@@ -924,7 +928,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id fc948c81-0968-44a9-9e60-5f6adf15ff0e
 		sample.ena_sample ERS527386
 		sample.submitter_id S_cell11
-		sample.well.id S_cell11
+		sample.well.name S_cell11
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580028/ERR580028_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580028/ERR580028_2.fastq.gz
 		assay.seq.ena_experiment ERX538222
@@ -932,7 +936,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a080bf54-9cb8-4580-b9c2-6ddba42f39cc
 		sample.ena_sample ERS527323
 		sample.submitter_id S_cell12
-		sample.well.id S_cell12
+		sample.well.name S_cell12
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580298/ERR580298_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580298/ERR580298_2.fastq.gz
 		assay.seq.ena_experiment ERX538147
@@ -940,7 +944,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d3c005f6-9250-43f1-9e8b-03a96ce9bc8d
 		sample.ena_sample ERS527248
 		sample.submitter_id S_cell13
-		sample.well.id S_cell13
+		sample.well.name S_cell13
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580217/ERR580217_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580217/ERR580217_2.fastq.gz
 		assay.seq.ena_experiment ERX538229
@@ -948,7 +952,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id aaa21d5c-c963-4328-bb64-dc4944f81fe3
 		sample.ena_sample ERS527330
 		sample.submitter_id S_cell14
-		sample.well.id S_cell14
+		sample.well.name S_cell14
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580255/ERR580255_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580255/ERR580255_2.fastq.gz
 		assay.seq.ena_experiment ERX538302
@@ -956,7 +960,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 8581aa35-ea3a-4180-b448-9c0ce2925d6e
 		sample.ena_sample ERS527403
 		sample.submitter_id S_cell15
-		sample.well.id S_cell15
+		sample.well.name S_cell15
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580017/ERR580017_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580017/ERR580017_2.fastq.gz
 		assay.seq.ena_experiment ERX538352
@@ -964,7 +968,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 7d1cd8e2-5766-4e89-8191-6520487c54c9
 		sample.ena_sample ERS527453
 		sample.submitter_id S_cell16
-		sample.well.id S_cell16
+		sample.well.name S_cell16
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580169/ERR580169_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580169/ERR580169_2.fastq.gz
 		assay.seq.ena_experiment ERX538416
@@ -972,7 +976,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id f807a6b7-6541-4b77-a590-565de0fbe091
 		sample.ena_sample ERS527517
 		sample.submitter_id S_cell17
-		sample.well.id S_cell17
+		sample.well.name S_cell17
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580265/ERR580265_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580265/ERR580265_2.fastq.gz
 		assay.seq.ena_experiment ERX538168
@@ -980,7 +984,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id b8202340-18d9-47c8-9fb3-70513f6c5577
 		sample.ena_sample ERS527269
 		sample.submitter_id S_cell18
-		sample.well.id S_cell18
+		sample.well.name S_cell18
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580167/ERR580167_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580167/ERR580167_2.fastq.gz
 		assay.seq.ena_experiment ERX538399
@@ -988,7 +992,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id f9f71ade-f4b0-4dea-952a-13e5779e3dc5
 		sample.ena_sample ERS527500
 		sample.submitter_id S_cell19
-		sample.well.id S_cell19
+		sample.well.name S_cell19
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580212/ERR580212_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580212/ERR580212_2.fastq.gz
 		assay.seq.ena_experiment ERX538143
@@ -996,7 +1000,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e399ce2e-ea5b-4c28-9054-a549054691c8
 		sample.ena_sample ERS527244
 		sample.submitter_id S_cell20
-		sample.well.id S_cell20
+		sample.well.name S_cell20
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580228/ERR580228_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580228/ERR580228_2.fastq.gz
 		assay.seq.ena_experiment ERX538328
@@ -1004,7 +1008,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 2394f448-2797-4c4b-9192-ea19b4123037
 		sample.ena_sample ERS527429
 		sample.submitter_id S_cell21
-		sample.well.id S_cell21
+		sample.well.name S_cell21
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580211/ERR580211_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580211/ERR580211_2.fastq.gz
 		assay.seq.ena_experiment ERX538282
@@ -1012,7 +1016,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 0df203b8-ae3d-4bfd-b06c-c4945bc57f0d
 		sample.ena_sample ERS527383
 		sample.submitter_id S_cell22
-		sample.well.id S_cell22
+		sample.well.name S_cell22
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580134/ERR580134_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580134/ERR580134_2.fastq.gz
 		assay.seq.ena_experiment ERX538207
@@ -1020,7 +1024,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id daec813c-b379-4f42-b1d6-99b3579dbd32
 		sample.ena_sample ERS527308
 		sample.submitter_id S_cell23
-		sample.well.id S_cell23
+		sample.well.name S_cell23
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580250/ERR580250_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580250/ERR580250_2.fastq.gz
 		assay.seq.ena_experiment ERX538407
@@ -1028,7 +1032,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ef32a48f-6f2a-46bf-9c8c-3d07c421d61e
 		sample.ena_sample ERS527508
 		sample.submitter_id S_cell24
-		sample.well.id S_cell24
+		sample.well.name S_cell24
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580069/ERR580069_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580069/ERR580069_2.fastq.gz
 		assay.seq.ena_experiment ERX538316
@@ -1036,7 +1040,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 2c02065f-facd-4703-b508-b70b94e52eec
 		sample.ena_sample ERS527417
 		sample.submitter_id S_cell25
-		sample.well.id S_cell25
+		sample.well.name S_cell25
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580251/ERR580251_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580251/ERR580251_2.fastq.gz
 		assay.seq.ena_experiment ERX538351
@@ -1044,7 +1048,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a2f53845-11fc-46f0-8d9a-2e27f6696d03
 		sample.ena_sample ERS527452
 		sample.submitter_id S_cell26
-		sample.well.id S_cell26
+		sample.well.name S_cell26
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580237/ERR580237_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580237/ERR580237_2.fastq.gz
 		assay.seq.ena_experiment ERX538149
@@ -1052,7 +1056,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id f4484b32-6c30-47d6-bc67-e09e9c73dbbd
 		sample.ena_sample ERS527250
 		sample.submitter_id S_cell27
-		sample.well.id S_cell27
+		sample.well.name S_cell27
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580063/ERR580063_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580063/ERR580063_2.fastq.gz
 		assay.seq.ena_experiment ERX538234
@@ -1060,7 +1064,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 436e1784-f9fa-4afd-ae19-5ed848494e1f
 		sample.ena_sample ERS527335
 		sample.submitter_id S_cell28
-		sample.well.id S_cell28
+		sample.well.name S_cell28
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580248/ERR580248_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580248/ERR580248_2.fastq.gz
 		assay.seq.ena_experiment ERX538321
@@ -1068,7 +1072,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 97d3594f-267f-41f8-9017-4f4292d116e4
 		sample.ena_sample ERS527422
 		sample.submitter_id S_cell29
-		sample.well.id S_cell29
+		sample.well.name S_cell29
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580222/ERR580222_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580222/ERR580222_2.fastq.gz
 		assay.seq.ena_experiment ERX538237
@@ -1076,7 +1080,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e4a05a19-b524-4237-9daa-7428a1e11964
 		sample.ena_sample ERS527338
 		sample.submitter_id S_cell30
-		sample.well.id S_cell30
+		sample.well.name S_cell30
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580292/ERR580292_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580292/ERR580292_2.fastq.gz
 		assay.seq.ena_experiment ERX538381
@@ -1084,7 +1088,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d0ee57ae-8d81-4e8f-a17c-e260d0873e29
 		sample.ena_sample ERS527482
 		sample.submitter_id S_cell31
-		sample.well.id S_cell31
+		sample.well.name S_cell31
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580239/ERR580239_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580239/ERR580239_2.fastq.gz
 		assay.seq.ena_experiment ERX538372
@@ -1092,7 +1096,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 4dd07c57-ebce-49ec-884e-004f5e99153e
 		sample.ena_sample ERS527473
 		sample.submitter_id S_cell32
-		sample.well.id S_cell32
+		sample.well.name S_cell32
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580163/ERR580163_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580163/ERR580163_2.fastq.gz
 		assay.seq.ena_experiment ERX538415
@@ -1100,7 +1104,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9a0c9494-d774-43db-a263-7d4b036cd9d2
 		sample.ena_sample ERS527516
 		sample.submitter_id S_cell33
-		sample.well.id S_cell33
+		sample.well.name S_cell33
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580283/ERR580283_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580283/ERR580283_2.fastq.gz
 		assay.seq.ena_experiment ERX538383
@@ -1108,7 +1112,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 1788005c-aec3-4176-ac50-d9aced310372
 		sample.ena_sample ERS527484
 		sample.submitter_id S_cell34
-		sample.well.id S_cell34
+		sample.well.name S_cell34
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580191/ERR580191_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580191/ERR580191_2.fastq.gz
 		assay.seq.ena_experiment ERX538311
@@ -1116,7 +1120,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 0f2024e5-e7da-4859-a468-468ee0366c75
 		sample.ena_sample ERS527412
 		sample.submitter_id S_cell35
-		sample.well.id S_cell35
+		sample.well.name S_cell35
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580081/ERR580081_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580081/ERR580081_2.fastq.gz
 		assay.seq.ena_experiment ERX538268
@@ -1124,7 +1128,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 18e87e63-f0cd-4a4f-9594-18465f2906af
 		sample.ena_sample ERS527369
 		sample.submitter_id S_cell36
-		sample.well.id S_cell36
+		sample.well.name S_cell36
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580019/ERR580019_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580019/ERR580019_2.fastq.gz
 		assay.seq.ena_experiment ERX538366
@@ -1132,7 +1136,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 27db4b21-9cd4-4a46-aeab-677da69219b4
 		sample.ena_sample ERS527467
 		sample.submitter_id S_cell37
-		sample.well.id S_cell37
+		sample.well.name S_cell37
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580190/ERR580190_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580190/ERR580190_2.fastq.gz
 		assay.seq.ena_experiment ERX538184
@@ -1140,7 +1144,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 54caebce-5c6f-405b-b128-1a4e78f7caee
 		sample.ena_sample ERS527285
 		sample.submitter_id S_cell38
-		sample.well.id S_cell38
+		sample.well.name S_cell38
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580020/ERR580020_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580020/ERR580020_2.fastq.gz
 		assay.seq.ena_experiment ERX538267
@@ -1148,7 +1152,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 3de23589-904c-4d63-8081-79f95904c05f
 		sample.ena_sample ERS527368
 		sample.submitter_id S_cell39
-		sample.well.id S_cell39
+		sample.well.name S_cell39
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580289/ERR580289_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580289/ERR580289_2.fastq.gz
 		assay.seq.ena_experiment ERX538345
@@ -1156,7 +1160,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 6e7d9d07-53ac-4c79-bcd2-6cdf7d74f8a8
 		sample.ena_sample ERS527446
 		sample.submitter_id S_cell40
-		sample.well.id S_cell40
+		sample.well.name S_cell40
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580118/ERR580118_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580118/ERR580118_2.fastq.gz
 		assay.seq.ena_experiment ERX538294
@@ -1164,7 +1168,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 634f9220-5119-42bc-a235-156385a72005
 		sample.ena_sample ERS527395
 		sample.submitter_id S_cell41
-		sample.well.id S_cell41
+		sample.well.name S_cell41
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580022/ERR580022_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580022/ERR580022_2.fastq.gz
 		assay.seq.ena_experiment ERX538242
@@ -1172,7 +1176,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id c93cebb5-b5c0-4546-a782-90b59a505902
 		sample.ena_sample ERS527343
 		sample.submitter_id S_cell42
-		sample.well.id S_cell42
+		sample.well.name S_cell42
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580205/ERR580205_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580205/ERR580205_2.fastq.gz
 		assay.seq.ena_experiment ERX538374
@@ -1180,7 +1184,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5d0b409c-2bf8-43d1-b105-63313509db2c
 		sample.ena_sample ERS527475
 		sample.submitter_id S_cell43
-		sample.well.id S_cell43
+		sample.well.name S_cell43
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580070/ERR580070_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580070/ERR580070_2.fastq.gz
 		assay.seq.ena_experiment ERX538263
@@ -1188,7 +1192,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id bd642be6-a6aa-40a8-bd01-e210ad885fac
 		sample.ena_sample ERS527364
 		sample.submitter_id S_cell44
-		sample.well.id S_cell44
+		sample.well.name S_cell44
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580178/ERR580178_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580178/ERR580178_2.fastq.gz
 		assay.seq.ena_experiment ERX538338
@@ -1196,7 +1200,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 26fcdb6a-0af2-4344-8d13-5036d85bcfeb
 		sample.ena_sample ERS527439
 		sample.submitter_id S_cell45
-		sample.well.id S_cell45
+		sample.well.name S_cell45
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580244/ERR580244_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580244/ERR580244_2.fastq.gz
 		assay.seq.ena_experiment ERX538357
@@ -1204,7 +1208,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d0191b79-65ea-45d7-ace9-3bd13730de9d
 		sample.ena_sample ERS527458
 		sample.submitter_id S_cell46
-		sample.well.id S_cell46
+		sample.well.name S_cell46
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580243/ERR580243_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580243/ERR580243_2.fastq.gz
 		assay.seq.ena_experiment ERX538162
@@ -1212,7 +1216,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a65d8936-fa3d-4e19-ae2d-fb1e74b473d3
 		sample.ena_sample ERS527263
 		sample.submitter_id S_cell47
-		sample.well.id S_cell47
+		sample.well.name S_cell47
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580041/ERR580041_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580041/ERR580041_2.fastq.gz
 		assay.seq.ena_experiment ERX538215
@@ -1220,7 +1224,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d976758b-93a5-40bf-aa48-024232e0c044
 		sample.ena_sample ERS527316
 		sample.submitter_id S_cell48
-		sample.well.id S_cell48
+		sample.well.name S_cell48
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580269/ERR580269_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580269/ERR580269_2.fastq.gz
 		assay.seq.ena_experiment ERX538276
@@ -1228,7 +1232,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ac2b6808-a020-4841-82ef-4961b8183274
 		sample.ena_sample ERS527377
 		sample.submitter_id S_cell49
-		sample.well.id S_cell49
+		sample.well.name S_cell49
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580018/ERR580018_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580018/ERR580018_2.fastq.gz
 		assay.seq.ena_experiment ERX538367
@@ -1236,7 +1240,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5cf565a4-9cae-41cb-ba82-9d13578c2afc
 		sample.ena_sample ERS527468
 		sample.submitter_id S_cell50
-		sample.well.id S_cell50
+		sample.well.name S_cell50
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580257/ERR580257_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580257/ERR580257_2.fastq.gz
 		assay.seq.ena_experiment ERX538410
@@ -1244,7 +1248,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id fa23f12d-bde1-496a-b75b-81caf7572219
 		sample.ena_sample ERS527511
 		sample.submitter_id S_cell51
-		sample.well.id S_cell51
+		sample.well.name S_cell51
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580059/ERR580059_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580059/ERR580059_2.fastq.gz
 		assay.seq.ena_experiment ERX538280
@@ -1252,7 +1256,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 7aa4b4e5-3c72-43e3-8d8d-21a172336cbe
 		sample.ena_sample ERS527381
 		sample.submitter_id S_cell52
-		sample.well.id S_cell52
+		sample.well.name S_cell52
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580200/ERR580200_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580200/ERR580200_2.fastq.gz
 		assay.seq.ena_experiment ERX538202
@@ -1260,7 +1264,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 36aa53ce-4643-4fe4-a727-039274f2c54d
 		sample.ena_sample ERS527303
 		sample.submitter_id S_cell53
-		sample.well.id S_cell53
+		sample.well.name S_cell53
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580079/ERR580079_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580079/ERR580079_2.fastq.gz
 		assay.seq.ena_experiment ERX538257
@@ -1268,7 +1272,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 4d29b6d7-e923-43d7-a7ff-db160a77ea20
 		sample.ena_sample ERS527358
 		sample.submitter_id S_cell54
-		sample.well.id S_cell54
+		sample.well.name S_cell54
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580043/ERR580043_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580043/ERR580043_2.fastq.gz
 		assay.seq.ena_experiment ERX538359
@@ -1276,7 +1280,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 600657fa-8307-4ad7-8506-67ad8e2496de
 		sample.ena_sample ERS527460
 		sample.submitter_id S_cell55
-		sample.well.id S_cell55
+		sample.well.name S_cell55
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580127/ERR580127_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580127/ERR580127_2.fastq.gz
 		assay.seq.ena_experiment ERX538287
@@ -1284,7 +1288,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 32207045-780b-4c1b-ae42-c3098675f648
 		sample.ena_sample ERS527388
 		sample.submitter_id S_cell56
-		sample.well.id S_cell56
+		sample.well.name S_cell56
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580156/ERR580156_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580156/ERR580156_2.fastq.gz
 		assay.seq.ena_experiment ERX538213
@@ -1292,7 +1296,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e7574150-5b09-422e-81de-3f35ab78f265
 		sample.ena_sample ERS527314
 		sample.submitter_id S_cell57
-		sample.well.id S_cell57
+		sample.well.name S_cell57
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580076/ERR580076_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580076/ERR580076_2.fastq.gz
 		assay.seq.ena_experiment ERX538176
@@ -1300,7 +1304,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a8355b0b-ecdc-4ca6-8dfe-50e7426f8053
 		sample.ena_sample ERS527277
 		sample.submitter_id S_cell58
-		sample.well.id S_cell58
+		sample.well.name S_cell58
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580170/ERR580170_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580170/ERR580170_2.fastq.gz
 		assay.seq.ena_experiment ERX538212
@@ -1308,7 +1312,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ac18de74-cf6c-42aa-9cd3-84f8f4996841
 		sample.ena_sample ERS527313
 		sample.submitter_id S_cell59
-		sample.well.id S_cell59
+		sample.well.name S_cell59
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580108/ERR580108_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580108/ERR580108_2.fastq.gz
 		assay.seq.ena_experiment ERX538199
@@ -1316,7 +1320,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 4a77f397-555f-494c-960b-0dd904b1a24b
 		sample.ena_sample ERS527300
 		sample.submitter_id S_cell60
-		sample.well.id S_cell60
+		sample.well.name S_cell60
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580136/ERR580136_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580136/ERR580136_2.fastq.gz
 		assay.seq.ena_experiment ERX538412
@@ -1324,7 +1328,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id f267728f-7bd0-4164-a6b9-8bffd91e5d49
 		sample.ena_sample ERS527513
 		sample.submitter_id S_cell61
-		sample.well.id S_cell61
+		sample.well.name S_cell61
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580197/ERR580197_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580197/ERR580197_2.fastq.gz
 		assay.seq.ena_experiment ERX538329
@@ -1332,7 +1336,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 21131e7b-c75d-4d2a-a628-566215be7849
 		sample.ena_sample ERS527430
 		sample.submitter_id S_cell62
-		sample.well.id S_cell62
+		sample.well.name S_cell62
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580241/ERR580241_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580241/ERR580241_2.fastq.gz
 		assay.seq.ena_experiment ERX538396
@@ -1340,7 +1344,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9b33a9ff-5dfc-46b8-a290-55914ed3f8ef
 		sample.ena_sample ERS527497
 		sample.submitter_id S_cell63
-		sample.well.id S_cell63
+		sample.well.name S_cell63
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580165/ERR580165_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580165/ERR580165_2.fastq.gz
 		assay.seq.ena_experiment ERX538363
@@ -1348,7 +1352,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 78b16037-9926-486c-8d10-7e1599f5e35e
 		sample.ena_sample ERS527464
 		sample.submitter_id S_cell64
-		sample.well.id S_cell64
+		sample.well.name S_cell64
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580185/ERR580185_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580185/ERR580185_2.fastq.gz
 		assay.seq.ena_experiment ERX538137
@@ -1356,7 +1360,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 2d32ac57-f0bb-4211-8518-74be4c50be92
 		sample.ena_sample ERS527238
 		sample.submitter_id S_cell65
-		sample.well.id S_cell65
+		sample.well.name S_cell65
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580279/ERR580279_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580279/ERR580279_2.fastq.gz
 		assay.seq.ena_experiment ERX538211
@@ -1364,7 +1368,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d5833d2f-e0bb-41c4-9ec0-064cfe538be7
 		sample.ena_sample ERS527312
 		sample.submitter_id S_cell66
-		sample.well.id S_cell66
+		sample.well.name S_cell66
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580159/ERR580159_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580159/ERR580159_2.fastq.gz
 		assay.seq.ena_experiment ERX538409
@@ -1372,7 +1376,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5e14e93f-1f86-4795-b547-3c308778c763
 		sample.ena_sample ERS527510
 		sample.submitter_id S_cell67
-		sample.well.id S_cell67
+		sample.well.name S_cell67
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580111/ERR580111_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580111/ERR580111_2.fastq.gz
 		assay.seq.ena_experiment ERX538370
@@ -1380,7 +1384,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id f42afd46-7dc7-43c7-aaf3-53c04c452287
 		sample.ena_sample ERS527471
 		sample.submitter_id S_cell68
-		sample.well.id S_cell68
+		sample.well.name S_cell68
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580040/ERR580040_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580040/ERR580040_2.fastq.gz
 		assay.seq.ena_experiment ERX538158
@@ -1388,7 +1392,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 3b25c27f-b427-4c7c-902e-97284a5c3402
 		sample.ena_sample ERS527259
 		sample.submitter_id S_cell69
-		sample.well.id S_cell69
+		sample.well.name S_cell69
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580274/ERR580274_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580274/ERR580274_2.fastq.gz
 		assay.seq.ena_experiment ERX538377
@@ -1396,7 +1400,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d6de9e89-5b51-47b9-aa28-7e6ffcbe5fef
 		sample.ena_sample ERS527478
 		sample.submitter_id S_cell70
-		sample.well.id S_cell70
+		sample.well.name S_cell70
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580199/ERR580199_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580199/ERR580199_2.fastq.gz
 		assay.seq.ena_experiment ERX538170
@@ -1404,7 +1408,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5ead40c1-e96a-4cb0-9cef-98f0d56312d9
 		sample.ena_sample ERS527271
 		sample.submitter_id S_cell71
-		sample.well.id S_cell71
+		sample.well.name S_cell71
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580194/ERR580194_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580194/ERR580194_2.fastq.gz
 		assay.seq.ena_experiment ERX538206
@@ -1412,7 +1416,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ece830e0-63b6-446f-8614-7161fb14c70d
 		sample.ena_sample ERS527307
 		sample.submitter_id S_cell72
-		sample.well.id S_cell72
+		sample.well.name S_cell72
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580138/ERR580138_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580138/ERR580138_2.fastq.gz
 		assay.seq.ena_experiment ERX538231
@@ -1420,7 +1424,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 04157f70-fb98-42be-967d-7a550ff47fb2
 		sample.ena_sample ERS527332
 		sample.submitter_id S_cell73
-		sample.well.id S_cell73
+		sample.well.name S_cell73
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580119/ERR580119_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580119/ERR580119_2.fastq.gz
 		assay.seq.ena_experiment ERX538185
@@ -1428,7 +1432,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 209fde48-7637-42f5-83d3-59bb6327d3fb
 		sample.ena_sample ERS527286
 		sample.submitter_id S_cell74
-		sample.well.id S_cell74
+		sample.well.name S_cell74
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580035/ERR580035_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580035/ERR580035_2.fastq.gz
 		assay.seq.ena_experiment ERX538392
@@ -1436,7 +1440,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 77d1054d-41ea-442b-885d-0373a1f46aba
 		sample.ena_sample ERS527493
 		sample.submitter_id S_cell75
-		sample.well.id S_cell75
+		sample.well.name S_cell75
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580121/ERR580121_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580121/ERR580121_2.fastq.gz
 		assay.seq.ena_experiment ERX538343
@@ -1444,7 +1448,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id c5f0b71e-2b9c-4bb1-b077-4206bbb29e33
 		sample.ena_sample ERS527444
 		sample.submitter_id S_cell76
-		sample.well.id S_cell76
+		sample.well.name S_cell76
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580151/ERR580151_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580151/ERR580151_2.fastq.gz
 		assay.seq.ena_experiment ERX538413
@@ -1452,7 +1456,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d2f5773b-73a8-4b5a-98b0-115c69bb0877
 		sample.ena_sample ERS527514
 		sample.submitter_id S_cell77
-		sample.well.id S_cell77
+		sample.well.name S_cell77
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580266/ERR580266_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580266/ERR580266_2.fastq.gz
 		assay.seq.ena_experiment ERX538361
@@ -1460,7 +1464,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5fb284eb-92b4-478a-9bc5-4f75f662ac5b
 		sample.ena_sample ERS527462
 		sample.submitter_id S_cell78
-		sample.well.id S_cell78
+		sample.well.name S_cell78
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580153/ERR580153_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580153/ERR580153_2.fastq.gz
 		assay.seq.ena_experiment ERX538270
@@ -1468,7 +1472,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 8b4d3be3-3171-4e5d-930f-885162a29ce9
 		sample.ena_sample ERS527371
 		sample.submitter_id S_cell79
-		sample.well.id S_cell79
+		sample.well.name S_cell79
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580242/ERR580242_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580242/ERR580242_2.fastq.gz
 		assay.seq.ena_experiment ERX538135
@@ -1476,7 +1480,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a8812a49-844f-4ae3-b70c-8473937f946e
 		sample.ena_sample ERS527236
 		sample.submitter_id S_cell80
-		sample.well.id S_cell80
+		sample.well.name S_cell80
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580146/ERR580146_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580146/ERR580146_2.fastq.gz
 		assay.seq.ena_experiment ERX538203
@@ -1484,7 +1488,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 27e0923c-37d0-490e-b6ad-d92d3be9c001
 		sample.ena_sample ERS527304
 		sample.submitter_id S_cell81
-		sample.well.id S_cell81
+		sample.well.name S_cell81
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580150/ERR580150_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580150/ERR580150_2.fastq.gz
 		assay.seq.ena_experiment ERX538322
@@ -1492,7 +1496,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 7fcd3bba-ee15-4f34-9a84-5909124e50d5
 		sample.ena_sample ERS527423
 		sample.submitter_id S_cell82
-		sample.well.id S_cell82
+		sample.well.name S_cell82
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580232/ERR580232_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580232/ERR580232_2.fastq.gz
 		assay.seq.ena_experiment ERX538376
@@ -1500,7 +1504,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 3e6cff16-937e-423d-9bbb-b91444e5d1ef
 		sample.ena_sample ERS527477
 		sample.submitter_id S_cell83
-		sample.well.id S_cell83
+		sample.well.name S_cell83
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580096/ERR580096_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580096/ERR580096_2.fastq.gz
 		assay.seq.ena_experiment ERX538217
@@ -1508,7 +1512,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 69bc09d6-8fd5-4774-be88-9d045103f700
 		sample.ena_sample ERS527318
 		sample.submitter_id S_cell84
-		sample.well.id S_cell84
+		sample.well.name S_cell84
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580299/ERR580299_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580299/ERR580299_2.fastq.gz
 		assay.seq.ena_experiment ERX538283
@@ -1516,7 +1520,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 87ae83b2-cf93-44e1-a224-b6a5989c35f9
 		sample.ena_sample ERS527384
 		sample.submitter_id S_cell85
-		sample.well.id S_cell85
+		sample.well.name S_cell85
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580051/ERR580051_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580051/ERR580051_2.fastq.gz
 		assay.seq.ena_experiment ERX538177
@@ -1524,7 +1528,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 85009982-89d8-49bd-9a39-d119a9182ce1
 		sample.ena_sample ERS527278
 		sample.submitter_id S_cell86
-		sample.well.id S_cell86
+		sample.well.name S_cell86
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580016/ERR580016_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580016/ERR580016_2.fastq.gz
 		assay.seq.ena_experiment ERX538261
@@ -1532,7 +1536,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e4d089c2-6f14-4c28-920f-a25e5adc19d2
 		sample.ena_sample ERS527362
 		sample.submitter_id S_cell87
-		sample.well.id S_cell87
+		sample.well.name S_cell87
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580290/ERR580290_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580290/ERR580290_2.fastq.gz
 		assay.seq.ena_experiment ERX538244
@@ -1540,7 +1544,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 1530ea0d-f1c4-4c8d-966f-2c62e983ffa2
 		sample.ena_sample ERS527345
 		sample.submitter_id S_cell88
-		sample.well.id S_cell88
+		sample.well.name S_cell88
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580264/ERR580264_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580264/ERR580264_2.fastq.gz
 		assay.seq.ena_experiment ERX538138
@@ -1548,7 +1552,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 1810ab46-9cae-4102-b765-1e904c2392af
 		sample.ena_sample ERS527239
 		sample.submitter_id S_cell89
-		sample.well.id S_cell89
+		sample.well.name S_cell89
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580172/ERR580172_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580172/ERR580172_2.fastq.gz
 		assay.seq.ena_experiment ERX538197
@@ -1556,7 +1560,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 68ad736a-ee08-44cb-b855-77cd7e486b2c
 		sample.ena_sample ERS527298
 		sample.submitter_id S_cell90
-		sample.well.id S_cell90
+		sample.well.name S_cell90
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580270/ERR580270_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580270/ERR580270_2.fastq.gz
 		assay.seq.ena_experiment ERX538314
@@ -1564,7 +1568,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 272f9bda-1705-4fd8-8942-9c8377207c1d
 		sample.ena_sample ERS527415
 		sample.submitter_id S_cell91
-		sample.well.id S_cell91
+		sample.well.name S_cell91
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580091/ERR580091_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580091/ERR580091_2.fastq.gz
 		assay.seq.ena_experiment ERX538400
@@ -1572,7 +1576,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id f335ab84-759d-4489-a898-4a1112cd6e5c
 		sample.ena_sample ERS527501
 		sample.submitter_id S_cell92
-		sample.well.id S_cell92
+		sample.well.name S_cell92
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580179/ERR580179_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580179/ERR580179_2.fastq.gz
 		assay.seq.ena_experiment ERX538362
@@ -1580,7 +1584,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id fe29e353-eb05-4797-a246-de6a52d11d51
 		sample.ena_sample ERS527463
 		sample.submitter_id S_cell93
-		sample.well.id S_cell93
+		sample.well.name S_cell93
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580236/ERR580236_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580236/ERR580236_2.fastq.gz
 		assay.seq.ena_experiment ERX538358
@@ -1588,7 +1592,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id dde4c15a-a48c-407c-bdf0-223c1d3b0f2d
 		sample.ena_sample ERS527459
 		sample.submitter_id S_cell94
-		sample.well.id S_cell94
+		sample.well.name S_cell94
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580078/ERR580078_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580078/ERR580078_2.fastq.gz
 		assay.seq.ena_experiment ERX538405
@@ -1596,7 +1600,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e61dadd3-a6d3-448d-a9de-fd288933bf1f
 		sample.ena_sample ERS527506
 		sample.submitter_id S_cell95
-		sample.well.id S_cell95
+		sample.well.name S_cell95
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580252/ERR580252_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580252/ERR580252_2.fastq.gz
 		assay.seq.ena_experiment ERX538156
@@ -1604,7 +1608,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id dde774f4-04c9-4151-8f7e-364c75e60de2
 		sample.ena_sample ERS527257
 		sample.submitter_id S_cell96
-		sample.well.id S_cell96
+		sample.well.name S_cell96
 
 	sample.cell_cycle.text G2/M phase
 	sample.name G2/M phase mESCs
@@ -1616,7 +1620,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a8232df3-3b34-4ea1-a002-a81dfeba2746
 		sample.ena_sample ERS527237
 		sample.submitter_id G2M_cell1
-		sample.well.id G2M_cell1
+		sample.well.name G2M_cell1
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580120/ERR580120_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580120/ERR580120_2.fastq.gz
 		assay.seq.ena_experiment ERX538214
@@ -1624,7 +1628,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 43f8a450-3c56-41bc-962d-2110080a74cb
 		sample.ena_sample ERS527315
 		sample.submitter_id G2M_cell2
-		sample.well.id G2M_cell2
+		sample.well.name G2M_cell2
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580183/ERR580183_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580183/ERR580183_2.fastq.gz
 		assay.seq.ena_experiment ERX538221
@@ -1632,7 +1636,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 159b0cde-312e-4001-8c1e-909bd16b44c0
 		sample.ena_sample ERS527322
 		sample.submitter_id G2M_cell3
-		sample.well.id G2M_cell3
+		sample.well.name G2M_cell3
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580155/ERR580155_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580155/ERR580155_2.fastq.gz
 		assay.seq.ena_experiment ERX538146
@@ -1640,7 +1644,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 8116fa6a-4aa2-4ebc-bbcc-e25d3b82af9b
 		sample.ena_sample ERS527247
 		sample.submitter_id G2M_cell4
-		sample.well.id G2M_cell4
+		sample.well.name G2M_cell4
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580060/ERR580060_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580060/ERR580060_2.fastq.gz
 		assay.seq.ena_experiment ERX538414
@@ -1648,7 +1652,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 11d7d191-ab89-4dd0-8c99-0a578a2bdcca
 		sample.ena_sample ERS527515
 		sample.submitter_id G2M_cell5
-		sample.well.id G2M_cell5
+		sample.well.name G2M_cell5
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580231/ERR580231_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580231/ERR580231_2.fastq.gz
 		assay.seq.ena_experiment ERX538340
@@ -1656,7 +1660,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id c07e3d8e-9567-4c24-b444-3ad388660b46
 		sample.ena_sample ERS527441
 		sample.submitter_id G2M_cell6
-		sample.well.id G2M_cell6
+		sample.well.name G2M_cell6
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580254/ERR580254_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580254/ERR580254_2.fastq.gz
 		assay.seq.ena_experiment ERX538250
@@ -1664,7 +1668,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5b068111-e08e-4a92-b7d4-002fdde23c22
 		sample.ena_sample ERS527351
 		sample.submitter_id G2M_cell7
-		sample.well.id G2M_cell7
+		sample.well.name G2M_cell7
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580053/ERR580053_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580053/ERR580053_2.fastq.gz
 		assay.seq.ena_experiment ERX538166
@@ -1672,7 +1676,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 58243209-b7da-4573-baef-4f702616d23a
 		sample.ena_sample ERS527267
 		sample.submitter_id G2M_cell8
-		sample.well.id G2M_cell8
+		sample.well.name G2M_cell8
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580057/ERR580057_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580057/ERR580057_2.fastq.gz
 		assay.seq.ena_experiment ERX538385
@@ -1680,7 +1684,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d22ace21-5dd1-4ec5-9172-bd3217682b85
 		sample.ena_sample ERS527486
 		sample.submitter_id G2M_cell9
-		sample.well.id G2M_cell9
+		sample.well.name G2M_cell9
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580208/ERR580208_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580208/ERR580208_2.fastq.gz
 		assay.seq.ena_experiment ERX538337
@@ -1688,7 +1692,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 4657accb-6972-4c62-a7c3-483751e2de98
 		sample.ena_sample ERS527438
 		sample.submitter_id G2M_cell10
-		sample.well.id G2M_cell10
+		sample.well.name G2M_cell10
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580267/ERR580267_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580267/ERR580267_2.fastq.gz
 		assay.seq.ena_experiment ERX538259
@@ -1696,7 +1700,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id f5c5d527-962b-4b7c-860b-2d1dff097fec
 		sample.ena_sample ERS527360
 		sample.submitter_id G2M_cell11
-		sample.well.id G2M_cell11
+		sample.well.name G2M_cell11
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580204/ERR580204_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580204/ERR580204_2.fastq.gz
 		assay.seq.ena_experiment ERX538369
@@ -1704,7 +1708,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id cc932f6b-6237-4c06-bbae-a57f3cdd9d18
 		sample.ena_sample ERS527470
 		sample.submitter_id G2M_cell12
-		sample.well.id G2M_cell12
+		sample.well.name G2M_cell12
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580253/ERR580253_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580253/ERR580253_2.fastq.gz
 		assay.seq.ena_experiment ERX538174
@@ -1712,7 +1716,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id c0db22b3-d4c1-4721-a419-a2dc17029c4c
 		sample.ena_sample ERS527275
 		sample.submitter_id G2M_cell13
-		sample.well.id G2M_cell13
+		sample.well.name G2M_cell13
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580106/ERR580106_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580106/ERR580106_2.fastq.gz
 		assay.seq.ena_experiment ERX538350
@@ -1720,7 +1724,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e6526933-6f5a-4a1d-a787-8b6a508cb4a0
 		sample.ena_sample ERS527451
 		sample.submitter_id G2M_cell14
-		sample.well.id G2M_cell14
+		sample.well.name G2M_cell14
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580223/ERR580223_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580223/ERR580223_2.fastq.gz
 		assay.seq.ena_experiment ERX538278
@@ -1728,7 +1732,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 297be69e-6ad9-4cfa-86e5-25fd84afcb29
 		sample.ena_sample ERS527379
 		sample.submitter_id G2M_cell15
-		sample.well.id G2M_cell15
+		sample.well.name G2M_cell15
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580182/ERR580182_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580182/ERR580182_2.fastq.gz
 		assay.seq.ena_experiment ERX538382
@@ -1736,7 +1740,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9565f074-5198-46cb-ad96-ea4d66314603
 		sample.ena_sample ERS527483
 		sample.submitter_id G2M_cell16
-		sample.well.id G2M_cell16
+		sample.well.name G2M_cell16
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580013/ERR580013_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580013/ERR580013_2.fastq.gz
 		assay.seq.ena_experiment ERX538151
@@ -1744,7 +1748,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9b290acb-2141-4b2f-8922-46d20d6b85fc
 		sample.ena_sample ERS527252
 		sample.submitter_id G2M_cell17
-		sample.well.id G2M_cell17
+		sample.well.name G2M_cell17
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580033/ERR580033_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580033/ERR580033_2.fastq.gz
 		assay.seq.ena_experiment ERX538269
@@ -1752,7 +1756,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9ac787eb-1ace-4ab9-98a1-d31cf8b5fb8f
 		sample.ena_sample ERS527370
 		sample.submitter_id G2M_cell18
-		sample.well.id G2M_cell18
+		sample.well.name G2M_cell18
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580227/ERR580227_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580227/ERR580227_2.fastq.gz
 		assay.seq.ena_experiment ERX538318
@@ -1760,7 +1764,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 04db4295-8473-4601-a3bb-479c0040b910
 		sample.ena_sample ERS527419
 		sample.submitter_id G2M_cell19
-		sample.well.id G2M_cell19
+		sample.well.name G2M_cell19
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580107/ERR580107_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580107/ERR580107_2.fastq.gz
 		assay.seq.ena_experiment ERX538224
@@ -1768,7 +1772,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e1c90ea2-ba12-43f9-8eb8-84e92f2002f3
 		sample.ena_sample ERS527325
 		sample.submitter_id G2M_cell20
-		sample.well.id G2M_cell20
+		sample.well.name G2M_cell20
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580058/ERR580058_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580058/ERR580058_2.fastq.gz
 		assay.seq.ena_experiment ERX538155
@@ -1776,7 +1780,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 824aec0e-efde-4ed8-a76c-90d083b5958f
 		sample.ena_sample ERS527256
 		sample.submitter_id G2M_cell21
-		sample.well.id G2M_cell21
+		sample.well.name G2M_cell21
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580174/ERR580174_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580174/ERR580174_2.fastq.gz
 		assay.seq.ena_experiment ERX538191
@@ -1784,7 +1788,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 37be84d2-6e17-4d1b-9adb-e967b4cac943
 		sample.ena_sample ERS527292
 		sample.submitter_id G2M_cell22
-		sample.well.id G2M_cell22
+		sample.well.name G2M_cell22
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580027/ERR580027_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580027/ERR580027_2.fastq.gz
 		assay.seq.ena_experiment ERX538336
@@ -1792,7 +1796,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 1353982d-5d89-44a7-a519-4a70bd06a709
 		sample.ena_sample ERS527437
 		sample.submitter_id G2M_cell23
-		sample.well.id G2M_cell23
+		sample.well.name G2M_cell23
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580074/ERR580074_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580074/ERR580074_2.fastq.gz
 		assay.seq.ena_experiment ERX538305
@@ -1800,7 +1804,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a95ccb85-7658-4614-b50f-5a82d7b559f6
 		sample.ena_sample ERS527406
 		sample.submitter_id G2M_cell24
-		sample.well.id G2M_cell24
+		sample.well.name G2M_cell24
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580297/ERR580297_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580297/ERR580297_2.fastq.gz
 		assay.seq.ena_experiment ERX538368
@@ -1808,7 +1812,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d1ccdbb6-82b2-490b-b720-27a3b5cc4ac8
 		sample.ena_sample ERS527469
 		sample.submitter_id G2M_cell25
-		sample.well.id G2M_cell25
+		sample.well.name G2M_cell25
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580249/ERR580249_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580249/ERR580249_2.fastq.gz
 		assay.seq.ena_experiment ERX538152
@@ -1816,7 +1820,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9c693852-aae3-40d5-a48d-08e3a471ddac
 		sample.ena_sample ERS527253
 		sample.submitter_id G2M_cell26
-		sample.well.id G2M_cell26
+		sample.well.name G2M_cell26
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580246/ERR580246_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580246/ERR580246_2.fastq.gz
 		assay.seq.ena_experiment ERX538227
@@ -1824,7 +1828,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id f302316b-3b0b-4fef-81ce-5517877ef69d
 		sample.ena_sample ERS527328
 		sample.submitter_id G2M_cell27
-		sample.well.id G2M_cell27
+		sample.well.name G2M_cell27
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580116/ERR580116_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580116/ERR580116_2.fastq.gz
 		assay.seq.ena_experiment ERX538299
@@ -1832,7 +1836,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 5ab54f73-692d-46a3-af4a-9dac910aa2b4
 		sample.ena_sample ERS527400
 		sample.submitter_id G2M_cell28
-		sample.well.id G2M_cell28
+		sample.well.name G2M_cell28
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580049/ERR580049_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580049/ERR580049_2.fastq.gz
 		assay.seq.ena_experiment ERX538380
@@ -1840,7 +1844,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 3489cfe9-0d48-4ef4-8663-aa94b2bec706
 		sample.ena_sample ERS527481
 		sample.submitter_id G2M_cell29
-		sample.well.id G2M_cell29
+		sample.well.name G2M_cell29
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580088/ERR580088_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580088/ERR580088_2.fastq.gz
 		assay.seq.ena_experiment ERX538344
@@ -1848,7 +1852,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 6d012851-a213-453a-b6ef-c3023c300cfb
 		sample.ena_sample ERS527445
 		sample.submitter_id G2M_cell30
-		sample.well.id G2M_cell30
+		sample.well.name G2M_cell30
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580080/ERR580080_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580080/ERR580080_2.fastq.gz
 		assay.seq.ena_experiment ERX538292
@@ -1856,7 +1860,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 124f194b-1219-4986-abf4-ce288c16e045
 		sample.ena_sample ERS527393
 		sample.submitter_id G2M_cell31
-		sample.well.id G2M_cell31
+		sample.well.name G2M_cell31
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580238/ERR580238_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580238/ERR580238_2.fastq.gz
 		assay.seq.ena_experiment ERX538245
@@ -1864,7 +1868,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 86974beb-e953-43cd-8515-c4326244b2b1
 		sample.ena_sample ERS527346
 		sample.submitter_id G2M_cell32
-		sample.well.id G2M_cell32
+		sample.well.name G2M_cell32
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580229/ERR580229_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580229/ERR580229_2.fastq.gz
 		assay.seq.ena_experiment ERX538188
@@ -1872,7 +1876,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 36b269c6-a00b-4a73-af0f-7eca8f04ded5
 		sample.ena_sample ERS527289
 		sample.submitter_id G2M_cell33
-		sample.well.id G2M_cell33
+		sample.well.name G2M_cell33
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580275/ERR580275_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580275/ERR580275_2.fastq.gz
 		assay.seq.ena_experiment ERX538421
@@ -1880,7 +1884,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a8ae9fde-dff8-4988-9347-e8e46085dd06
 		sample.ena_sample ERS527522
 		sample.submitter_id G2M_cell34
-		sample.well.id G2M_cell34
+		sample.well.name G2M_cell34
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580062/ERR580062_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580062/ERR580062_2.fastq.gz
 		assay.seq.ena_experiment ERX538356
@@ -1888,7 +1892,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 0697be0c-b58d-488b-87d4-fb0283d86408
 		sample.ena_sample ERS527457
 		sample.submitter_id G2M_cell35
-		sample.well.id G2M_cell35
+		sample.well.name G2M_cell35
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580225/ERR580225_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580225/ERR580225_2.fastq.gz
 		assay.seq.ena_experiment ERX538297
@@ -1896,7 +1900,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 28edc7b4-0e73-4ae4-bec3-9e0b7d4b7e6f
 		sample.ena_sample ERS527398
 		sample.submitter_id G2M_cell36
-		sample.well.id G2M_cell36
+		sample.well.name G2M_cell36
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580092/ERR580092_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580092/ERR580092_2.fastq.gz
 		assay.seq.ena_experiment ERX538251
@@ -1904,7 +1908,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 412d109b-8e1d-4167-acde-e1fe74712581
 		sample.ena_sample ERS527352
 		sample.submitter_id G2M_cell37
-		sample.well.id G2M_cell37
+		sample.well.name G2M_cell37
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580220/ERR580220_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580220/ERR580220_2.fastq.gz
 		assay.seq.ena_experiment ERX538173
@@ -1912,7 +1916,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 22e3f6ef-f8c9-4139-b656-5d0c637f224d
 		sample.ena_sample ERS527274
 		sample.submitter_id G2M_cell38
-		sample.well.id G2M_cell38
+		sample.well.name G2M_cell38
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580123/ERR580123_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580123/ERR580123_2.fastq.gz
 		assay.seq.ena_experiment ERX538402
@@ -1920,7 +1924,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id f65cf593-b0db-4e12-ba9d-48d39c220ba0
 		sample.ena_sample ERS527503
 		sample.submitter_id G2M_cell39
-		sample.well.id G2M_cell39
+		sample.well.name G2M_cell39
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580021/ERR580021_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580021/ERR580021_2.fastq.gz
 		assay.seq.ena_experiment ERX538169
@@ -1928,7 +1932,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id b45d920b-2090-4864-9daf-223a784f9731
 		sample.ena_sample ERS527270
 		sample.submitter_id G2M_cell40
-		sample.well.id G2M_cell40
+		sample.well.name G2M_cell40
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580036/ERR580036_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580036/ERR580036_2.fastq.gz
 		assay.seq.ena_experiment ERX538393
@@ -1936,7 +1940,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 854ed33e-82ce-4272-80d1-5699a2df2875
 		sample.ena_sample ERS527494
 		sample.submitter_id G2M_cell41
-		sample.well.id G2M_cell41
+		sample.well.name G2M_cell41
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580025/ERR580025_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580025/ERR580025_2.fastq.gz
 		assay.seq.ena_experiment ERX538295
@@ -1944,7 +1948,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 4c70bccc-32a0-451b-97ac-fedeb70fb4b7
 		sample.ena_sample ERS527396
 		sample.submitter_id G2M_cell42
-		sample.well.id G2M_cell42
+		sample.well.name G2M_cell42
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580090/ERR580090_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580090/ERR580090_2.fastq.gz
 		assay.seq.ena_experiment ERX538208
@@ -1952,7 +1956,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 51e37cda-4fea-48f6-8dba-e7996a2310d6
 		sample.ena_sample ERS527309
 		sample.submitter_id G2M_cell43
-		sample.well.id G2M_cell43
+		sample.well.name G2M_cell43
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580137/ERR580137_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580137/ERR580137_2.fastq.gz
 		assay.seq.ena_experiment ERX538142
@@ -1960,7 +1964,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 8b8ba9c1-486e-4e37-9c68-798b9ab41d88
 		sample.ena_sample ERS527243
 		sample.submitter_id G2M_cell44
-		sample.well.id G2M_cell44
+		sample.well.name G2M_cell44
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580187/ERR580187_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580187/ERR580187_2.fastq.gz
 		assay.seq.ena_experiment ERX538327
@@ -1968,7 +1972,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 2f758743-9fc4-41f0-869f-b0c31afd9057
 		sample.ena_sample ERS527428
 		sample.submitter_id G2M_cell45
-		sample.well.id G2M_cell45
+		sample.well.name G2M_cell45
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580268/ERR580268_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580268/ERR580268_2.fastq.gz
 		assay.seq.ena_experiment ERX538248
@@ -1976,7 +1980,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 24321977-ee49-4ebf-9ee1-b73fb6dc50c8
 		sample.ena_sample ERS527349
 		sample.submitter_id G2M_cell46
-		sample.well.id G2M_cell46
+		sample.well.name G2M_cell46
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580276/ERR580276_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580276/ERR580276_2.fastq.gz
 		assay.seq.ena_experiment ERX538315
@@ -1984,7 +1988,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 48411224-3917-4b56-bc94-767c43bd3268
 		sample.ena_sample ERS527416
 		sample.submitter_id G2M_cell47
-		sample.well.id G2M_cell47
+		sample.well.name G2M_cell47
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580260/ERR580260_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580260/ERR580260_2.fastq.gz
 		assay.seq.ena_experiment ERX538183
@@ -1992,7 +1996,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id fc34707d-4268-432f-9398-d3f270ee6869
 		sample.ena_sample ERS527284
 		sample.submitter_id G2M_cell48
-		sample.well.id G2M_cell48
+		sample.well.name G2M_cell48
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580149/ERR580149_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580149/ERR580149_2.fastq.gz
 		assay.seq.ena_experiment ERX538398
@@ -2000,7 +2004,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 494e8d61-f370-4f7b-95ce-a6463579e2ef
 		sample.ena_sample ERS527499
 		sample.submitter_id G2M_cell49
-		sample.well.id G2M_cell49
+		sample.well.name G2M_cell49
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580206/ERR580206_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580206/ERR580206_2.fastq.gz
 		assay.seq.ena_experiment ERX538233
@@ -2008,7 +2012,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 850a3f56-3966-4a48-9ce0-8cd859255d20
 		sample.ena_sample ERS527334
 		sample.submitter_id G2M_cell50
-		sample.well.id G2M_cell50
+		sample.well.name G2M_cell50
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580168/ERR580168_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580168/ERR580168_2.fastq.gz
 		assay.seq.ena_experiment ERX538281
@@ -2016,7 +2020,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9e4ba0b0-7dc5-4093-823c-a0000f1de616
 		sample.ena_sample ERS527382
 		sample.submitter_id G2M_cell51
-		sample.well.id G2M_cell51
+		sample.well.name G2M_cell51
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580095/ERR580095_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580095/ERR580095_2.fastq.gz
 		assay.seq.ena_experiment ERX538386
@@ -2024,7 +2028,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 96506503-1b61-4265-952f-d00d3c1ce830
 		sample.ena_sample ERS527487
 		sample.submitter_id G2M_cell52
-		sample.well.id G2M_cell52
+		sample.well.name G2M_cell52
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580122/ERR580122_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580122/ERR580122_2.fastq.gz
 		assay.seq.ena_experiment ERX538180
@@ -2032,7 +2036,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 247ae6cb-e371-4984-ad92-6d5b0b2987c5
 		sample.ena_sample ERS527281
 		sample.submitter_id G2M_cell53
-		sample.well.id G2M_cell53
+		sample.well.name G2M_cell53
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580209/ERR580209_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580209/ERR580209_2.fastq.gz
 		assay.seq.ena_experiment ERX538150
@@ -2040,7 +2044,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id b06d204d-84cf-44e7-a3a7-899f0edf9959
 		sample.ena_sample ERS527251
 		sample.submitter_id G2M_cell54
-		sample.well.id G2M_cell54
+		sample.well.name G2M_cell54
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580075/ERR580075_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580075/ERR580075_2.fastq.gz
 		assay.seq.ena_experiment ERX538324
@@ -2048,7 +2052,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id fc5b8853-7409-438c-95ac-d868aef3bb3c
 		sample.ena_sample ERS527425
 		sample.submitter_id G2M_cell55
-		sample.well.id G2M_cell55
+		sample.well.name G2M_cell55
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580286/ERR580286_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580286/ERR580286_2.fastq.gz
 		assay.seq.ena_experiment ERX538290
@@ -2056,7 +2060,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 6cf3c03b-5ca8-4445-8f12-cf217a40e695
 		sample.ena_sample ERS527391
 		sample.submitter_id G2M_cell56
-		sample.well.id G2M_cell56
+		sample.well.name G2M_cell56
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580030/ERR580030_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580030/ERR580030_2.fastq.gz
 		assay.seq.ena_experiment ERX538235
@@ -2064,7 +2068,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 9866ecfb-b9ad-43c0-83a2-2f0b858f5abe
 		sample.ena_sample ERS527336
 		sample.submitter_id G2M_cell57
-		sample.well.id G2M_cell57
+		sample.well.name G2M_cell57
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580098/ERR580098_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580098/ERR580098_2.fastq.gz
 		assay.seq.ena_experiment ERX538178
@@ -2072,7 +2076,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 4cbed18c-0ca8-4bb2-82ad-b4063003ca3b
 		sample.ena_sample ERS527279
 		sample.submitter_id G2M_cell58
-		sample.well.id G2M_cell58
+		sample.well.name G2M_cell58
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580193/ERR580193_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580193/ERR580193_2.fastq.gz
 		assay.seq.ena_experiment ERX538296
@@ -2080,7 +2084,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ca498a89-7837-44f2-a854-a09e43570e5c
 		sample.ena_sample ERS527397
 		sample.submitter_id G2M_cell59
-		sample.well.id G2M_cell59
+		sample.well.name G2M_cell59
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580104/ERR580104_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580104/ERR580104_2.fastq.gz
 		assay.seq.ena_experiment ERX538309
@@ -2088,7 +2092,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a579b162-820c-4894-800a-aef058d99176
 		sample.ena_sample ERS527410
 		sample.submitter_id G2M_cell60
-		sample.well.id G2M_cell60
+		sample.well.name G2M_cell60
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580296/ERR580296_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580296/ERR580296_2.fastq.gz
 		assay.seq.ena_experiment ERX538219
@@ -2096,7 +2100,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 22acdcc3-aa67-4723-90a0-09e9bd6c3439
 		sample.ena_sample ERS527320
 		sample.submitter_id G2M_cell61
-		sample.well.id G2M_cell61
+		sample.well.name G2M_cell61
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580158/ERR580158_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580158/ERR580158_2.fastq.gz
 		assay.seq.ena_experiment ERX538190
@@ -2104,7 +2108,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 842f7608-4d70-4ca5-8c12-4ad41d2df6b0
 		sample.ena_sample ERS527291
 		sample.submitter_id G2M_cell62
-		sample.well.id G2M_cell62
+		sample.well.name G2M_cell62
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580073/ERR580073_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580073/ERR580073_2.fastq.gz
 		assay.seq.ena_experiment ERX538395
@@ -2112,7 +2116,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e82c7357-c32c-4d39-aecd-d2a290d524dc
 		sample.ena_sample ERS527496
 		sample.submitter_id G2M_cell63
-		sample.well.id G2M_cell63
+		sample.well.name G2M_cell63
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580288/ERR580288_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580288/ERR580288_2.fastq.gz
 		assay.seq.ena_experiment ERX538275
@@ -2120,7 +2124,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ab30f669-9002-4fd6-bdd9-318ab1e9fffe
 		sample.ena_sample ERS527376
 		sample.submitter_id G2M_cell64
-		sample.well.id G2M_cell64
+		sample.well.name G2M_cell64
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580039/ERR580039_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580039/ERR580039_2.fastq.gz
 		assay.seq.ena_experiment ERX538172
@@ -2128,7 +2132,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 7573278d-cc62-4caa-9f7b-32b56cb4815d
 		sample.ena_sample ERS527273
 		sample.submitter_id G2M_cell65
-		sample.well.id G2M_cell65
+		sample.well.name G2M_cell65
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580202/ERR580202_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580202/ERR580202_2.fastq.gz
 		assay.seq.ena_experiment ERX538139
@@ -2136,7 +2140,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id b7aaa4fd-9707-4f6d-ac78-446ab2ae065f
 		sample.ena_sample ERS527240
 		sample.submitter_id G2M_cell66
-		sample.well.id G2M_cell66
+		sample.well.name G2M_cell66
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580256/ERR580256_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580256/ERR580256_2.fastq.gz
 		assay.seq.ena_experiment ERX538323
@@ -2144,7 +2148,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ca8f2e89-70fc-432c-bbb3-415d7390d288
 		sample.ena_sample ERS527424
 		sample.submitter_id G2M_cell67
-		sample.well.id G2M_cell67
+		sample.well.name G2M_cell67
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580038/ERR580038_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580038/ERR580038_2.fastq.gz
 		assay.seq.ena_experiment ERX538335
@@ -2152,7 +2156,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ef9419f9-06c8-42fd-afa2-6d350894a599
 		sample.ena_sample ERS527436
 		sample.submitter_id G2M_cell68
-		sample.well.id G2M_cell68
+		sample.well.name G2M_cell68
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580042/ERR580042_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580042/ERR580042_2.fastq.gz
 		assay.seq.ena_experiment ERX538266
@@ -2160,7 +2164,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 92200b8c-0c90-4750-b186-0da6d9314379
 		sample.ena_sample ERS527367
 		sample.submitter_id G2M_cell69
-		sample.well.id G2M_cell69
+		sample.well.name G2M_cell69
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580056/ERR580056_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580056/ERR580056_2.fastq.gz
 		assay.seq.ena_experiment ERX538406
@@ -2168,7 +2172,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a2e2276b-a166-48aa-8595-6aaa05817bf8
 		sample.ena_sample ERS527507
 		sample.submitter_id G2M_cell70
-		sample.well.id G2M_cell70
+		sample.well.name G2M_cell70
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580213/ERR580213_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580213/ERR580213_2.fastq.gz
 		assay.seq.ena_experiment ERX538320
@@ -2176,7 +2180,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d513ad86-7f95-4599-bc2f-ac3c4dcbf924
 		sample.ena_sample ERS527421
 		sample.submitter_id G2M_cell71
-		sample.well.id G2M_cell71
+		sample.well.name G2M_cell71
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580189/ERR580189_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580189/ERR580189_2.fastq.gz
 		assay.seq.ena_experiment ERX538255
@@ -2184,7 +2188,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 873d50da-55f3-483a-9ff9-207ca68de74c
 		sample.ena_sample ERS527356
 		sample.submitter_id G2M_cell72
-		sample.well.id G2M_cell72
+		sample.well.name G2M_cell72
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580110/ERR580110_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580110/ERR580110_2.fastq.gz
 		assay.seq.ena_experiment ERX538165
@@ -2192,7 +2196,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id cbb56666-9cf5-4cda-9d4f-a964f72282a3
 		sample.ena_sample ERS527266
 		sample.submitter_id G2M_cell73
-		sample.well.id G2M_cell73
+		sample.well.name G2M_cell73
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580247/ERR580247_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580247/ERR580247_2.fastq.gz
 		assay.seq.ena_experiment ERX538389
@@ -2200,7 +2204,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id d9b11556-dc44-498c-baff-009d9e5d500a
 		sample.ena_sample ERS527490
 		sample.submitter_id G2M_cell74
-		sample.well.id G2M_cell74
+		sample.well.name G2M_cell74
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580224/ERR580224_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580224/ERR580224_2.fastq.gz
 		assay.seq.ena_experiment ERX538196
@@ -2208,7 +2212,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e638376c-1b71-4791-97ae-9acc12fc7b6b
 		sample.ena_sample ERS527297
 		sample.submitter_id G2M_cell75
-		sample.well.id G2M_cell75
+		sample.well.name G2M_cell75
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580064/ERR580064_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580064/ERR580064_2.fastq.gz
 		assay.seq.ena_experiment ERX538274
@@ -2216,7 +2220,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 266d6f8f-1b4e-4fdf-aec7-5b1daf1e10ee
 		sample.ena_sample ERS527375
 		sample.submitter_id G2M_cell76
-		sample.well.id G2M_cell76
+		sample.well.name G2M_cell76
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580072/ERR580072_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580072/ERR580072_2.fastq.gz
 		assay.seq.ena_experiment ERX538326
@@ -2224,7 +2228,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id be06be3c-92e9-4ca1-830f-33468c5246ee
 		sample.ena_sample ERS527427
 		sample.submitter_id G2M_cell77
-		sample.well.id G2M_cell77
+		sample.well.name G2M_cell77
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580071/ERR580071_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580071/ERR580071_2.fastq.gz
 		assay.seq.ena_experiment ERX538419
@@ -2232,7 +2236,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id afd065dd-0cb5-46fb-ad0a-6e462ed9713e
 		sample.ena_sample ERS527520
 		sample.submitter_id G2M_cell78
-		sample.well.id G2M_cell78
+		sample.well.name G2M_cell78
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580046/ERR580046_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580046/ERR580046_2.fastq.gz
 		assay.seq.ena_experiment ERX538417
@@ -2240,7 +2244,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e97e9a8f-236d-4e2f-9ed5-25dcf0bf7861
 		sample.ena_sample ERS527518
 		sample.submitter_id G2M_cell79
-		sample.well.id G2M_cell79
+		sample.well.name G2M_cell79
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580114/ERR580114_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580114/ERR580114_2.fastq.gz
 		assay.seq.ena_experiment ERX538288
@@ -2248,7 +2252,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 0a071078-1049-425f-a639-b93d3e7adcea
 		sample.ena_sample ERS527389
 		sample.submitter_id G2M_cell80
-		sample.well.id G2M_cell80
+		sample.well.name G2M_cell80
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580082/ERR580082_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580082/ERR580082_2.fastq.gz
 		assay.seq.ena_experiment ERX538260
@@ -2256,7 +2260,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 8ccad3e2-3f81-4bf7-a4ad-fc768aaba9de
 		sample.ena_sample ERS527361
 		sample.submitter_id G2M_cell81
-		sample.well.id G2M_cell81
+		sample.well.name G2M_cell81
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580294/ERR580294_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580294/ERR580294_2.fastq.gz
 		assay.seq.ena_experiment ERX538179
@@ -2264,7 +2268,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id f42e4539-1b9f-4e21-9806-770ce4080ed5
 		sample.ena_sample ERS527280
 		sample.submitter_id G2M_cell82
-		sample.well.id G2M_cell82
+		sample.well.name G2M_cell82
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580154/ERR580154_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580154/ERR580154_2.fastq.gz
 		assay.seq.ena_experiment ERX538272
@@ -2272,7 +2276,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 2fe6ae75-57e2-442a-b946-6c8c5a2ed811
 		sample.ena_sample ERS527373
 		sample.submitter_id G2M_cell83
-		sample.well.id G2M_cell83
+		sample.well.name G2M_cell83
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580184/ERR580184_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580184/ERR580184_2.fastq.gz
 		assay.seq.ena_experiment ERX538308
@@ -2280,7 +2284,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id c0c015ef-6cdb-4989-b9e2-cd0de7bb7515
 		sample.ena_sample ERS527409
 		sample.submitter_id G2M_cell84
-		sample.well.id G2M_cell84
+		sample.well.name G2M_cell84
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580112/ERR580112_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580112/ERR580112_2.fastq.gz
 		assay.seq.ena_experiment ERX538348
@@ -2288,7 +2292,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id defdeca8-43ea-4bba-8d59-ca4056671a83
 		sample.ena_sample ERS527449
 		sample.submitter_id G2M_cell85
-		sample.well.id G2M_cell85
+		sample.well.name G2M_cell85
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580124/ERR580124_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580124/ERR580124_2.fastq.gz
 		assay.seq.ena_experiment ERX538289
@@ -2296,7 +2300,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id b4e97325-e162-4878-bb30-8c56ab182dd1
 		sample.ena_sample ERS527390
 		sample.submitter_id G2M_cell86
-		sample.well.id G2M_cell86
+		sample.well.name G2M_cell86
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580128/ERR580128_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580128/ERR580128_2.fastq.gz
 		assay.seq.ena_experiment ERX538271
@@ -2304,7 +2308,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 54cd878b-342d-42bd-a34f-340b2aa04ed6
 		sample.ena_sample ERS527372
 		sample.submitter_id G2M_cell87
-		sample.well.id G2M_cell87
+		sample.well.name G2M_cell87
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580050/ERR580050_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580050/ERR580050_2.fastq.gz
 		assay.seq.ena_experiment ERX538189
@@ -2312,7 +2316,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id c5944ccf-843c-48b8-a965-1d598ea6bc11
 		sample.ena_sample ERS527290
 		sample.submitter_id G2M_cell88
-		sample.well.id G2M_cell88
+		sample.well.name G2M_cell88
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580263/ERR580263_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580263/ERR580263_2.fastq.gz
 		assay.seq.ena_experiment ERX538291
@@ -2320,7 +2324,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 209b2f90-95fa-4153-9e43-67b8f31f8057
 		sample.ena_sample ERS527392
 		sample.submitter_id G2M_cell89
-		sample.well.id G2M_cell89
+		sample.well.name G2M_cell89
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580032/ERR580032_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580032/ERR580032_2.fastq.gz
 		assay.seq.ena_experiment ERX538401
@@ -2328,7 +2332,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e215cda7-36de-444a-9f58-2361ac62a4cc
 		sample.ena_sample ERS527502
 		sample.submitter_id G2M_cell90
-		sample.well.id G2M_cell90
+		sample.well.name G2M_cell90
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580234/ERR580234_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580234/ERR580234_2.fastq.gz
 		assay.seq.ena_experiment ERX538153
@@ -2336,7 +2340,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id ecf71570-ce82-4a5a-9cce-2a5d84fa0674
 		sample.ena_sample ERS527254
 		sample.submitter_id G2M_cell91
-		sample.well.id G2M_cell91
+		sample.well.name G2M_cell91
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580100/ERR580100_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580100/ERR580100_2.fastq.gz
 		assay.seq.ena_experiment ERX538236
@@ -2344,7 +2348,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 1344536e-4e56-4de8-8b42-58afb5cab037
 		sample.ena_sample ERS527337
 		sample.submitter_id G2M_cell92
-		sample.well.id G2M_cell92
+		sample.well.name G2M_cell92
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580089/ERR580089_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580089/ERR580089_2.fastq.gz
 		assay.seq.ena_experiment ERX538163
@@ -2352,7 +2356,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 1a5667ae-c3c6-450e-ac02-c38f01748637
 		sample.ena_sample ERS527264
 		sample.submitter_id G2M_cell93
-		sample.well.id G2M_cell93
+		sample.well.name G2M_cell93
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580272/ERR580272_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580272/ERR580272_2.fastq.gz
 		assay.seq.ena_experiment ERX538378
@@ -2360,7 +2364,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id 57b7880d-9480-4698-8917-f6d41c6a7701
 		sample.ena_sample ERS527479
 		sample.submitter_id G2M_cell94
-		sample.well.id G2M_cell94
+		sample.well.name G2M_cell94
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580087/ERR580087_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580087/ERR580087_2.fastq.gz
 		assay.seq.ena_experiment ERX538330
@@ -2368,7 +2372,7 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id a9d040c6-5047-4c81-b72d-c6b7ee0f23a5
 		sample.ena_sample ERS527431
 		sample.submitter_id G2M_cell95
-		sample.well.id G2M_cell95
+		sample.well.name G2M_cell95
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580083/ERR580083_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR580/ERR580083/ERR580083_2.fastq.gz
 		assay.seq.ena_experiment ERX538408
@@ -2376,5 +2380,5 @@ sample.protocol_ids e9fa2f85-5958-4db1-93e2-f8a6b4f066ca,427c4ca2-c4ec-45ce-9bfb
 		sample.id e8825af8-5fb4-4949-a8d6-4a3ea8ba8c73
 		sample.ena_sample ERS527509
 		sample.submitter_id G2M_cell96
-		sample.well.id G2M_cell96
+		sample.well.name G2M_cell96
 
