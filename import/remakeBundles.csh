@@ -3,7 +3,7 @@ pushd .
 set destDir = /dev/shm/kent/hca/gitScratch
 rm -rf $destDir
 mkdir -p $destDir
-tar -cvf $destDir/curatedTags.tar */*/curated.tags  */remakeBundles.csh curated.tight
+tar -cvf $destDir/curatedTags.tar */*/curated.tags  */remakeBundles.csh curated.tight testSchema.csh
 cd $destDir
 mkdir import
 cd import
