@@ -28,8 +28,8 @@
         "lanes": [
             {
                 "number": 1, 
-                "read1": "SRR2967608_1.fastq.gz", 
-                "read2": "SRR2967608_2.fastq.gz"
+                "r1": "SRR2967608_1.fastq.gz", 
+                "r2": "SRR2967608_2.fastq.gz"
             }
         ], 
         "molecule": "total RNA", 

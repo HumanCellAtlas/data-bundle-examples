@@ -32,7 +32,7 @@
         "lanes": [
             {
                 "number": 1, 
-                "reads": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1630013/ERR1630013.fastq.gz"
+                "r1": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR163/003/ERR1630013/ERR1630013.fastq.gz"
             }
         ], 
         "molecule": "RNA", 

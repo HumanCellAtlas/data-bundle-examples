@@ -26,26 +26,40 @@
         "instrument_platform": "Illumina", 
         "lanes": [
             {
-                "index": "SRR3587500_1.fastq.gz", 
                 "number": 1, 
-                "reads": "SRR3587500_2.fastq.gz"
+                "r1": "SRR3587500_1.fastq.gz", 
+                "r2": "SRR3587500_2.fastq.gz"
             }
         ], 
         "library_construction": "modified Nextera XT", 
         "molecule": "total RNA", 
-        "paired_ends": "index1_reads2", 
+        "paired_ends": "yes", 
         "sra_experiment": "SRX1800075", 
         "sra_run": [
             "SRR3587500"
         ], 
-        "umi_barcode_offset": 12, 
-        "umi_barcode_read": "index", 
-        "umi_barcode_size": 8
+	"umi_barcode": {
+	    "core": {
+		"schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/barcode.json", 
+		"schema_version": "3.0.0", 
+		"type": "barcode"
+	    }, 
+	    "offset": 12,
+	    "size": 8,
+	    "read": "r1"
+	}
     }, 
     "single_cell": {
-        "barcode_offset": 0, 
-        "barcode_read": "index", 
-        "barcode_size": 12, 
+	"barcode": {
+	"core": {
+	    "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/barcode.json", 
+	    "schema_version": "3.0.0", 
+	    "type": "barcode"
+	}, 
+	    "offset": 0,
+	    "size": 12,
+	    "read": "r1"
+	},
         "cell_handling": "drop-seq", 
         "core": {
             "schema_url": "http://hgwdev.soe.ucsc.edu/~kent/hca/schema/single_cell.json", 
