@@ -7,13 +7,13 @@ assay.seq.instrument_model Illumina NextSeq 500
 assay.seq.instrument_platform Illumina
 assay.seq.library_construction modified Nextera XT
 assay.seq.molecule total RNA
-assay.seq.paired_ends index1_reads2
-assay.seq.umi_barcode_offset 12
-assay.seq.umi_barcode_read index
-assay.seq.umi_barcode_size 8
-assay.single_cell.barcode_offset 0
-assay.single_cell.barcode_read index
-assay.single_cell.barcode_size 12
+assay.seq.paired_ends yes
+assay.seq.umi_barcode.offset 12
+assay.seq.umi_barcode.read r1
+assay.seq.umi_barcode.size 8
+assay.single_cell.barcode.offset 0
+assay.single_cell.barcode.read r1
+assay.single_cell.barcode.size 12
 assay.single_cell.cell_handling drop-seq
 project.array_express_investigation E-MTAB-81904
 project.contributors.1.name "Karthik,,Shekhar"

@@ -4,17 +4,17 @@ assay.id c349cce6-6d63-4976-832e-3c27ca1399ac
 assay.seq.files pbmc8k_S1_L007_R1_001.fastq.gz, pbmc8k_S1_L007_R2_001.fastq.gz, pbmc8k_S1_L008_R1_001.fastq.gz, pbmc8k_S1_L008_R2_001.fastq.gz
 assay.rna.end_bias three_prime_end
 assay.rna.primer poly-dt
-assay.rna.library_construction 10xV2
+assay.rna.library_construction 10x_v2
 assay.seq.instrument_model Illumina HiSeq 4000
 assay.seq.instrument_platform Illumina
 assay.seq.molecule RNA
-assay.seq.paired_ends index1_reads2
-assay.seq.umi_barcode_offset 16
-assay.seq.umi_barcode_read index
-assay.seq.umi_barcode_size 10
-assay.single_cell.barcode_offset 0
-assay.single_cell.barcode_read index
-assay.single_cell.barcode_size 16
+assay.seq.paired_ends yes
+assay.seq.umi_barcode.offset 16
+assay.seq.umi_barcode.read r1
+assay.seq.umi_barcode.size 10
+assay.single_cell.barcode.offset 0
+assay.single_cell.barcode.read r1
+assay.single_cell.barcode.size 16
 assay.single_cell.cell_handling 10x_v2
 project.description "Peripheral blood mononuclear cells (PBMCs) from a healthy donor (same donor as pbmc4k). PBMCs are primary cells with relatively small amounts of RNA (~1pg RNA/cell). Used Chromium v2 chemistry and Cell Ranger 1.3.0 software.  8403 cells were detected."
 project.contributors.1.name 10X Genomics Inc.

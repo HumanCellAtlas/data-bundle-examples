@@ -1,7 +1,7 @@
 assay.id $ *
 assay.seq.files [$] *
 assay.rna.end_bias $ three_prime_end three_prime_bias five_prime_end five_prime_bias full_transcript
-!assay.rna.library_construction $ CEL-seq "SMARTer Ultra Low RNA Kit" "modified smart-seq2" smart-seq2 QUARTZ-Seq 10xV2 unknown drop-seq inDrop
+!assay.rna.library_construction $ CEL-seq "SMARTer Ultra Low RNA Kit" "modified smart-seq2" smart-seq2 QUARTZ-Seq 10x_v2 unknown drop-seq inDrop
 assay.rna.library_protocol $ *-????-*
 assay.rna.primer $ poly-dt random
 assay.rna.spike_in $ ERCC
@@ -15,15 +15,15 @@ assay.seq.local_machine_name $
 assay.seq.library_construction $ "Nextera XT" TruSeq "modified Nextera XT"
 assay.seq.library_protocol $ *-????-*
 !assay.seq.molecule $ RNA "polyA RNA" "total RNA"
-!assay.seq.paired_ends $ index1_reads2 no yes
+!assay.seq.paired_ends $ no yes
 assay.seq.sra_experiment $ SRX*
 assay.seq.sra_run [$] SRR*
-assay.seq.umi_barcode_offset # 0 50
-assay.seq.umi_barcode_read $ read1 read2 index
-assay.seq.umi_barcode_size # 0 50
-assay.single_cell.barcode_offset # 0 50
-assay.single_cell.barcode_read $ read1 read2 index
-assay.single_cell.barcode_size # 0 50
+assay.seq.umi_barcode.offset # 0 50
+assay.seq.umi_barcode.read $ r1 r2
+assay.seq.umi_barcode.size # 0 50
+assay.single_cell.barcode.offset # 0 50
+assay.single_cell.barcode.read $ r1 r2 
+assay.single_cell.barcode.size # 0 50
 !assay.single_cell.cell_handling $ 10x_v2 FACS "Fluidigm C1" drop-seq inDrop "mouth pipette" bulk
 project.array_express_investigation $ E-????-*
 project.characteristics_* $ *
