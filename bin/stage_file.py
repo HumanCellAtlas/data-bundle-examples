@@ -11,7 +11,21 @@ Commands:
 
 import argparse, base64, json, os
 
+import pika
+
 from bundle_tools.s3 import S3Agent
+
+
+def notify_ingest_of_new_file(file_info):
+    print("Sending to Ingest:", file_info)
+    connection = pika.BlockingConnection(pika.ConnectionParameters(f"amqp.ingest.dev.data.humancellatlas.org"))
+    channel = connection.channel()
+    channel.queue_declare(queue='ingest.file.create.staged')
+    success = channel.basic_publish(exchange='ingest.file.staged.exchange',
+                                    routing_key='ingest.file.create.staged',
+                                    body=json.dumps(file_info))
+    print(success)
+    connection.close()
 
 
 class Main:
@@ -38,6 +52,7 @@ class Main:
     def _stage_file(self, file_path):
         target_url = f"s3://{self.STAGING_BUCKET}/{self.area_uuid}/{file_path}"
         file_size = os.stat(file_path).st_size
+        print("Uploading file.  Be patient if the file is large.  There is no output...")
         checksums = self.s3.upload_and_checksum(self.args.file_path, target_url, file_size)
         tags = {
             'hca-dss-content-type': 'hca-data-file',
@@ -46,7 +61,17 @@ class Main:
             'hca-dss-sha256': checksums['sha256'],
             'hca-dss-crc32c': checksums['crc32c'],
         }
+        print("Tagging file...")
         self.s3.add_tagging(target_url, tags)
+
+        file_info = {
+          "checksums": checksums,
+          "content_type": "hca-data-file",
+          "name": file_path,
+          "size": file_size,
+          "url": target_url
+        }
+        notify_ingest_of_new_file(file_info)
 
 
 if __name__ == '__main__':
