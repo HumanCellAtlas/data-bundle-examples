@@ -65,11 +65,12 @@ class Main:
         self.s3.add_tagging(target_url, tags)
 
         file_info = {
-          "checksums": checksums,
-          "content_type": "hca-data-file",
-          "name": file_path,
-          "size": file_size,
-          "url": target_url
+            "staging_area_id": self.area_uuid,
+            "checksums": checksums,
+            "content_type": "hca-data-file",
+            "name": file_path,
+            "size": file_size,
+            "url": target_url
         }
         notify_ingest_of_new_file(file_info)
 
