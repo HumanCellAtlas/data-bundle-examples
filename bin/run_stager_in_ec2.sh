@@ -77,7 +77,6 @@ setup_git_repo(){
         grep -q github.com ~/.ssh/config || echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 		[ -d data-bundle-examples ] || git clone --recursive git@github.com:humancellatlas/data-bundle-examples.git
 		cd data-bundle-examples
-		git checkout spierson-storer
 	EOF
 }
 
@@ -130,6 +129,6 @@ install_and_setup_docker_on_ec2_instance
 setup_git_repo
 build_docker_image
 #run_stager
-terminate_ec2_instance
+# terminate_ec2_instance
 echo -e "Finished at `date`"
 exit 0
