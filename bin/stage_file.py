@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.6
+#!/usr/bin/env python
 
 """
 Stage files in the HCA Staging Area
@@ -11,8 +11,12 @@ Usage:
 
 import argparse, base64, json, os, sys
 
-import boto3
-from boto3.s3.transfer import TransferConfig
+try:
+    import boto3
+    from boto3.s3.transfer import TransferConfig
+except ImportError:
+    print("\nPlease install boto3 to use this script, e.g. \"pip install boto3\"\n")
+    exit(1)
 
 KB = 1024
 MB = KB * KB
@@ -39,7 +43,6 @@ class Main:
         junk, junk, junk, self.area_uuid, encoded_credentials = self.args.urn.split(':')
         uppercase_credentials = json.loads(base64.b64decode(encoded_credentials))
         credentials = {k.lower(): v for k, v in uppercase_credentials.items()}
-        print(credentials)
         session = boto3.session.Session(**credentials)
         self.s3 = session.resource('s3')
         self._stage_file(self.args.file_path)
@@ -63,6 +66,7 @@ class Main:
                           sizeof_fmt(self.file_size),
                           percent_complete,
                           self.CLEAR_TO_EOL))
+        sys.stdout.flush()
 
     def _stage_file(self, file_path):
         print("Uploading %s to staging area %s..." % (os.path.basename(file_path), self.area_uuid))
@@ -81,13 +85,13 @@ class Main:
         print("\n")
 
     @classmethod
-    def transfer_config(cls, file_size: int) -> TransferConfig:
+    def transfer_config(cls, file_size):
         etag_stride = cls._s3_chunk_size(file_size)
         return TransferConfig(multipart_threshold=etag_stride,
                               multipart_chunksize=etag_stride)
 
     @staticmethod
-    def _s3_chunk_size(file_size: int) -> int:
+    def _s3_chunk_size(file_size):
         if file_size <= 10000 * 64 * MB:
             return 64 * MB
         else:
