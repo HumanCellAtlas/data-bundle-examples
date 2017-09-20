@@ -3,41 +3,45 @@
 """
 Stage files in the HCA Staging Area
 
-Commands:
+Usage:
 
     stage_file cp <file> <urn>
 
 """
 
-import argparse, base64, json, os
+import argparse, base64, json, os, sys
 
-import pika
+import boto3
+from boto3.s3.transfer import TransferConfig
 
-from bundle_tools.s3 import S3Agent
+KB = 1024
+MB = KB * KB
 
 
-def notify_ingest_of_new_file(file_info):
-    print("Sending to Ingest:", file_info)
-    connection = pika.BlockingConnection(pika.ConnectionParameters(f"amqp.ingest.dev.data.humancellatlas.org"))
-    channel = connection.channel()
-    channel.queue_declare(queue='ingest.file.create.staged')
-    success = channel.basic_publish(exchange='ingest.file.staged.exchange',
-                                    routing_key='ingest.file.create.staged',
-                                    body=json.dumps(file_info))
-    print(success)
-    connection.close()
+def sizeof_fmt(num, suffix='B'):
+    """
+    From https://stackoverflow.com/a/1094933
+    """
+    for unit in ['', 'Ki', 'Mi', 'Gi', 'Ti', 'Pi', 'Ei', 'Zi']:
+        if abs(num) < 1024.0:
+            return "%d %s%s" % (num, unit, suffix)
+        num /= 1024.0
+    return "%.1f %s%s" % (num, 'Yi', suffix)
 
 
 class Main:
 
-    STAGING_BUCKET = "org-humancellatlas-staging-dev"
+    STAGING_BUCKET_TEMPLATE = "org-humancellatlas-staging-%s"
+    CLEAR_TO_EOL = "\x1b[0K"
 
     def __init__(self):
         self._parse_args()
         junk, junk, junk, self.area_uuid, encoded_credentials = self.args.urn.split(':')
         uppercase_credentials = json.loads(base64.b64decode(encoded_credentials))
-        self.credentials = {k.lower(): v for k, v in uppercase_credentials.items()}
-        self.s3 = S3Agent(credentials=self.credentials)
+        credentials = {k.lower(): v for k, v in uppercase_credentials.items()}
+        print(credentials)
+        session = boto3.session.Session(**credentials)
+        self.s3 = session.resource('s3')
         self._stage_file(self.args.file_path)
 
     def _parse_args(self):
@@ -47,32 +51,50 @@ class Main:
                             help="name of file to stage")
         parser.add_argument('urn', metavar='<URN>',
                             help="URN of staging area (given to you by Ingest Broker)")
+        parser.add_argument('-d', '--deployment', metavar="<deployment>", default='dev',
+                            help="Deployment to use (default=dev)")
         self.args = parser.parse_args()
 
-    def _stage_file(self, file_path):
-        target_url = f"s3://{self.STAGING_BUCKET}/{self.area_uuid}/{file_path}"
-        file_size = os.stat(file_path).st_size
-        print("Uploading file.  Be patient if the file is large.  There is no output...")
-        checksums = self.s3.upload_and_checksum(self.args.file_path, target_url, file_size)
-        tags = {
-            'hca-dss-content-type': 'hca-data-file',
-            'hca-dss-s3_etag': checksums['s3_etag'],
-            'hca-dss-sha1': checksums['sha1'],
-            'hca-dss-sha256': checksums['sha256'],
-            'hca-dss-crc32c': checksums['crc32c'],
-        }
-        print("Tagging file...")
-        self.s3.add_tagging(target_url, tags)
+    def callback(self, bytes_transferred):
+        self.cumulative_bytes_transferred += bytes_transferred
+        percent_complete = (self.cumulative_bytes_transferred * 100) / self.file_size
+        sys.stdout.write("\r%s of %s transferred (%.0f%%)%s" %
+                         (sizeof_fmt(self.cumulative_bytes_transferred),
+                          sizeof_fmt(self.file_size),
+                          percent_complete,
+                          self.CLEAR_TO_EOL))
 
-        file_info = {
-            "staging_area_id": self.area_uuid,
-            "checksums": checksums,
-            "content_type": "hca-data-file",
-            "name": file_path,
-            "size": file_size,
-            "url": target_url
-        }
-        notify_ingest_of_new_file(file_info)
+    def _stage_file(self, file_path):
+        print("Uploading %s to staging area %s..." % (os.path.basename(file_path), self.area_uuid))
+        self.file_size = os.stat(file_path).st_size
+        bucket_name = self.STAGING_BUCKET_TEMPLATE % (self.args.deployment,)
+        file_s3_key = "%s/%s" % (self.area_uuid, os.path.basename(file_path))
+        bucket = self.s3.Bucket(bucket_name)
+        obj = bucket.Object(file_s3_key)
+        with open(file_path, 'rb') as fh:
+            self.cumulative_bytes_transferred = 0
+            obj.upload_fileobj(fh,
+                               ExtraArgs={'ACL': 'bucket-owner-full-control'},
+                               Callback=self.callback,
+                               Config=self.transfer_config(self.file_size)
+                               )
+        print("\n")
+
+    @classmethod
+    def transfer_config(cls, file_size: int) -> TransferConfig:
+        etag_stride = cls._s3_chunk_size(file_size)
+        return TransferConfig(multipart_threshold=etag_stride,
+                              multipart_chunksize=etag_stride)
+
+    @staticmethod
+    def _s3_chunk_size(file_size: int) -> int:
+        if file_size <= 10000 * 64 * MB:
+            return 64 * MB
+        else:
+            div = file_size // 10000
+            if div * 10000 < file_size:
+                div += 1
+            return ((div + (MB-1)) // MB) * MB
 
 
 if __name__ == '__main__':
