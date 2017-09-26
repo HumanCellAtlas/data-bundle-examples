@@ -14,6 +14,11 @@
            "match": {
              "files.sample_json.donor.species.ontology": "9606"
            }
+         },
+         {
+           "wildcard": {
+             "manifest.files.name": "*fastq.gz"
+           }
          }
        ]
      }
