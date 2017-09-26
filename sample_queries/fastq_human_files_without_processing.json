@@ -1,0 +1,7 @@
+{
+ "es_query": {
+  "query": {
+   "match_all": {}
+  }
+ }
+}
