@@ -1,7 +1,22 @@
 {
  "es_query": {
-  "query": {
-   "match_all": {}
-  }
+   "query": {
+     "bool": {
+       "must_not": [
+         {
+           "match": {
+             "manifest.files.name": "analysis.json"
+           }
+         }
+       ],
+       "must": [
+         {
+           "match": {
+             "files.sample_json.donor.species.ontology": "9606"
+           }
+         }
+       ]
+     }
+   }
  }
 }
