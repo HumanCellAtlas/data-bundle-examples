@@ -295,16 +295,20 @@ class S3Agent:
     def _file_upload_progress_callback(self, bytes_transferred):
         self.cumulative_bytes_transferred += bytes_transferred
         percent_complete = (self.cumulative_bytes_transferred * 100) / self.file_being_transferred_size
-        progress("\rUploading %s: %s of %s transferred (%.0f%%)%s" %
+        duration = time.time() - self.file_upload_start_time
+        rate_mb_s = (self.cumulative_bytes_transferred / duration) / MB
+        progress("\rUploading %s: %s of %s transferred [%.0f%%] (%.1f MiB/s) %s" %
                  (self.file_being_transferred_name,
                   sizeof_fmt(self.cumulative_bytes_transferred),
                   sizeof_fmt(self.file_being_transferred_size),
                   percent_complete,
+                  rate_mb_s,
                   self.CLEAR_TO_EOL))
 
     def upload_and_checksum(self, local_path, target_bucket, target_key, content_type, file_size):
         self.file_being_transferred_name = os.path.basename(local_path)
         self.file_being_transferred_size = file_size
+        self.file_upload_start_time = time.time()
         progress("Uploading %s: " % (self.file_being_transferred_name,))
         bucket = self.s3.Bucket(target_bucket)
         with io.open(local_path, 'rb') as fh:
@@ -395,7 +399,7 @@ class StagingArea:
     def _create_area(self):
         progress("Creating staging area...")
         response = self._api_call('post', 'area/' + self.uuid, expected_response_status=201)
-        junk, junk, junk, junk, encoded_credentials = response.json()['urn'].split(':')
+        junk, junk, junk, junk, junk, encoded_credentials = response.json()['urn'].split(':')
         uppercase_credentials = json.loads(base64.b64decode(encoded_credentials))
         aws_credentials = {k.lower(): v for k, v in uppercase_credentials.items()}
         self.s3 = S3Agent(credentials=aws_credentials)
@@ -456,8 +460,11 @@ class Main:
 
     def _store_file(self, bundle, file):
         progress("Storing %s as %s..." % (file.name, file.uuid))
+        start_time = time.time()
         file.version = self.dss.put_file(bundle.uuid, file.uuid, file.staged_url)
-        print(file.version)
+        duration = time.time() - start_time
+        rate_mb_s = file.size / duration / MB
+        print("%s (%.1f MiB/s)" % (file.version, rate_mb_s))
 
     def _register_bundle(self, bundle):
         progress("Registering bundle %s... " % (bundle.uuid,))
