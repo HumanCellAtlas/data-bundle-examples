@@ -1,0 +1,19 @@
+{
+ "es_query": {
+   "query": {
+     "bool":
+     {
+       "must":
+       {
+         "match": {
+           "files.project_json.id": "Q3_DEMO-project_PRJNA248302"
+         }
+       },
+       "must_not":
+       {
+         "exists": {"field": "files.analysis_json" }
+       }
+     }
+   }
+ }
+}
