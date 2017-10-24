@@ -10,7 +10,7 @@
          },
          {
            "match": {
-             "files.assay_json.single_cell.method": ""
+             "files.assay_json.single_cell.cell_handling": "FACS"
            }
          }
        ]

@@ -1,0 +1,11 @@
+{
+ "es_query": {
+    "aggs" : {
+        "attrs" : {
+            "terms" : {
+                "field" : "files.project_json.title"
+            }
+        }
+    }
+ }
+}
