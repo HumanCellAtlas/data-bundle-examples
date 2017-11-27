@@ -1,0 +1,20 @@
+{
+ "es_query": {
+   "query": {
+     "bool": {
+       "must": [
+         {
+           "match": {
+             "files.sample_json.donor.species.text": "Homo sapiens"
+           }
+         },
+         {
+           "match": {
+             "files.assay_json.single_cell.cell_handling": "FACs"
+           }
+         }
+       ]
+     }
+   }
+ }
+}

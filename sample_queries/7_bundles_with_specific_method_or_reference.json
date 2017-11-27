@@ -1,0 +1,26 @@
+{
+ "es_query": {
+   "_source": ["files.analysis_json.inputs", "files.analysis_json.input_bundles"],
+   "query": {
+     "bool": {
+       "must": [
+         {
+           "match": {
+             "manifest.files.name": "analysis.json"
+           }
+         },
+         {
+           "match": {
+             "files.analysis_json.reference_bundle": "bf51d668-3e14-4843-9bc7-5d676fdf0e01"
+           }
+         },
+         {
+           "match": {
+             "files.analysis_json.computational_method": "Ss2RsemSingleSample"
+           }
+         }
+       ]
+     }
+   }
+ }
+}

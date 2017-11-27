@@ -1,0 +1,37 @@
+{
+  "query": {
+    "match_all": {}
+  }, 
+  "aggs": {
+    "Projects": {
+      "terms": {
+        "field": "files.project_json.id.keyword",
+        "size": 10
+      },
+      "aggs": {
+        "Emails": {
+          "terms": {
+            "field": "files.project_json.contact.email.keyword",
+            "size": 10
+          }
+        },
+        "Titles":{
+          "terms": {
+            "field": "files.project_json.title.keyword",
+            "size": 10
+          }
+        },
+        "Samples": {
+          "cardinality": {
+            "field": "files.sample_json.uuid.keyword"
+          }
+        },
+        "Files": {
+          "cardinality": {
+            "field": "manifest.files.uuid.keyword"
+          }
+        }
+      }
+    }
+  }
+}

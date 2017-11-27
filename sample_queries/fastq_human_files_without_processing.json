@@ -1,0 +1,27 @@
+{
+ "es_query": {
+   "query": {
+     "bool": {
+       "must_not": [
+         {
+           "match": {
+             "manifest.files.name": "analysis.json"
+           }
+         }
+       ],
+       "must": [
+         {
+           "match": {
+             "files.sample_json.donor.species.ontology": "9606"
+           }
+         },
+         {
+           "wildcard": {
+             "manifest.files.name": "*fastq.gz"
+           }
+         }
+       ]
+     }
+   }
+ }
+}

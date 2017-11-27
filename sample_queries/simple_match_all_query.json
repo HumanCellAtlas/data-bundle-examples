@@ -1,0 +1,27 @@
+{
+  "es_query": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "files.sample.donor.species.ontology": "9606"
+            }
+          }
+        ],
+        "should": [
+          {
+            "match": {
+              "files.assay_json.single_cell.cell_handling": "FACs"
+            }
+          },
+          {
+            "match": {
+              "files.assay_json.single_cell.cell_handling": "mouth-pipetting"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
