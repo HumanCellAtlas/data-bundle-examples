@@ -1,0 +1,22 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "files.sample_json.organ.text.keyword": "pancreas"
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "files": {
+      "terms": {
+        "field": "manifest.files.name.keyword",
+        "size": 9999,
+        "include": ".*\\.fastq\\.gz"
+      }
+    }
+  }
+}
