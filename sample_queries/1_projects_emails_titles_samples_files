@@ -11,7 +11,7 @@
       "aggs": {
         "Emails": {
           "terms": {
-            "field": "files.project_json.contact.email.keyword",
+            "field": "files.project_json.submitter.email.keyword",
             "size": 10
           }
         },
@@ -23,7 +23,7 @@
         },
         "Samples": {
           "cardinality": {
-            "field": "files.sample_json.uuid.keyword"
+            "field": "files.sample_json.core.uuid.keyword"
           }
         },
         "Files": {
