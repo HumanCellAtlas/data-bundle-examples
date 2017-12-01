@@ -1,0 +1,24 @@
+GET fb_index/_search
+{
+  "query": {
+    "constant_score": {
+      "filter": {
+        "terms": {
+          "file_uuid": [
+            "d56beee5-7b98-49ce-bb04-bcb52f63d04d",
+            "4aeee1e8-cbde-42c6-92c9-cb28ce2c3f5f",
+            "0245684a-53ba-475d-890c-c837ab1e37bc"
+            
+          ]
+        }
+      }
+    }
+  },
+  "aggs": {
+    "file_size": {
+      "sum": {
+        "field": "file_size"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "query": {
+    "range": {
+      "files.project_json.core.submissionDate.date": {
+        "gte": "2017-10-01T17:51:39.389Z",
+        "lte": "2017-10-02T17:51:39.389Z"
+      }
+    }
+  },
+  "aggs": {
+    "name_of_submitted_files": {
+      "terms": {
+        "field": "manifest.files.name.keyword",
+        "size": 9999
+      }
+    }
+  }
+}
