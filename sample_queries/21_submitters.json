@@ -1,0 +1,21 @@
+{
+  "query": {
+    "match_all": {}
+  },
+  "aggs": {
+    "submitters": {
+      "terms": {
+        "field": "files.project_json.submitter.email.keyword",
+        "size": 9999
+      },
+      "aggs": {
+        "submitter_institution": {
+          "terms": {
+            "field": "files.project_json.submitter.institution.keyword",
+            "size": 10
+          }
+        }
+      }
+    }
+  }
+}
