@@ -1,0 +1,18 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "files.analysis_json"
+          }
+        },
+        {
+          "exists": {
+            "field": "files.project_json.submitter.email"
+          }          
+        }
+      ]
+    }
+  }
+}
