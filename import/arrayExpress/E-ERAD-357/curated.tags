@@ -1,5 +1,5 @@
-project.title RNAseq of mouse POMC neurons
-project.id E-ERAD-357
+project.name RNAseq of mouse POMC neurons
+project.project_id E-ERAD-357
 assay.rna.end_bias full_transcript
 assay.rna.primer random
 assay.rna.library_construction SMARTer Ultra Low RNA Kit
@@ -10,1666 +10,1473 @@ assay.seq.paired_ends yes
 assay.single_cell.cell_handling Fluidigm C1
 project.array_express_investigation E-ERAD-357
 project.contributors.1.name ",,The Wellcome Trust Sanger Institute"
-project.ddjb_trace ERP009255
 project.description "From the arcuate nucleus of mice, we have dissociated neurons that express Proopiomelanocortin(POMC) and captured them on the Fluidigm C1 platform. These neurons play important roles in the regulation of appetite and sexual behavior. Here we propose to sequence RNA from 96 single POMC-expressing neurons to understand the variance in their transcriptomes. This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/"
 project.experimental_factor_name individual
-project.submitter.address "Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK"
-project.submitter.city Hinxton
-project.submitter.country UK
-project.submitter.email datahose@sanger.ac.uk
-project.submitter.institution Wellcome Trust Sanger Institute
-project.submitter.name ",,The Wellcome Trust Sanger Institute"
-sample.body_part.ontology UBERON_0001932
-sample.body_part.text arcuate nucleus of hypothalamus
+project.submitters.1.address "Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK"
+project.submitters.1.city Hinxton
+project.submitters.1.country UK
+project.submitters.1.email datahose@sanger.ac.uk
+project.submitters.1.institution Wellcome Trust Sanger Institute
+project.submitters.1.name ",,The Wellcome Trust Sanger Institute"
+sample.specimen_from_organism.body_part.ontology UBERON_0001932
+sample.specimen_from_organism.body_part.text arcuate nucleus of hypothalamus
 sample.donor.sex male
-sample.donor.species.ontology 10090
-sample.donor.species.text Mus musculus
+sample.ncbi_taxon_id 10090
+sample.genus_species Mus musculus
 sample.donor.is_living no
 sample.donor.id 29708a27-1134-4bc4-92a4-4715ac490fd2
-sample.enrichment.1.markers POMC+
-sample.enrichment.1.type FACS
-sample.organ.ontology UBERON_0000955
-sample.organ.text brain
-project.protocols.1.description qPCR only
-project.protocols.1.type.text nucleic acid library construction protocol
-project.protocols.2.description Illumina HiSeq 2500
-project.protocols.2.type.text nucleic acid sequencing protocol
-sample.total_estimated_cells 1
+sample.cell_suspension.enrichment.1.markers POMC+
+sample.cell_suspension.enrichment.1.type FACS
+sample.specimen_from_organism.organ.ontology UBERON_0000955
+sample.specimen_from_organism.organ.text brain
+protocols.1.description qPCR only
+protocols.1.type.text nucleic acid library construction protocol
+protocols.2.description Illumina HiSeq 2500
+protocols.2.type.text nucleic acid sequencing protocol
+sample.cell_suspension.total_estimated_cells 1
 sample.well.cell_type.ontology CL_0000540
 sample.well.cell_type.text neuron
-project.protocols.1.id 62ec05ef-773f-444d-9997-0729b1230e05
-project.protocols.2.id 2b5bb9f2-489e-42d5-892a-8b252af5e190
+protocols.1.id 62ec05ef-773f-444d-9997-0729b1230e05
+protocols.2.id 2b5bb9f2-489e-42d5-892a-8b252af5e190
 sample.protocol_ids 62ec05ef-773f-444d-9997-0729b1230e05,2b5bb9f2-489e-42d5-892a-8b252af5e190
 
-	sample.well.name POMC_GFP_I_1
-	sample.ena_sample ERS639336
+	sample.cell_suspension.well.name POMC_GFP_I_1
 	sample.name POMC+ from mouse 1
-	sample.submitter_id ERS639336
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 1
-	sample.id e5705d9f-5903-4e70-a6f7-ee5feade7263
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 1
+	sample.sample_id e5705d9f-5903-4e70-a6f7-ee5feade7263
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866186/ERR866186_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866186/ERR866186_2.fastq.gz
-		assay.seq.ena_experiment ERX945814
-		assay.seq.ena_run ERR866186
-		assay.id 11de996e-d2dd-41d6-9d10-07fba1ebdbc9
+		assay.seq.insdc_experiment ERX945814
+		assay.seq.insdc_run ERR866186
+		assay.assay_id 11de996e-d2dd-41d6-9d10-07fba1ebdbc9
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866282/ERR866282_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866282/ERR866282_2.fastq.gz
-		assay.seq.ena_experiment ERX945910
-		assay.seq.ena_run ERR866282
-		assay.id 1e358f19-031f-4a39-97eb-3a6db934104f
+		assay.seq.insdc_experiment ERX945910
+		assay.seq.insdc_run ERR866282
+		assay.assay_id 1e358f19-031f-4a39-97eb-3a6db934104f
 
-	sample.well.name POMC_GFP_I_2
-	sample.ena_sample ERS639337
+	sample.cell_suspension.well.name POMC_GFP_I_2
 	sample.name POMC+ from mouse 2
-	sample.submitter_id ERS639337
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 2
-	sample.id 118ccb8b-2417-4851-bf54-30d39cae307b
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 2
+	sample.sample_id 118ccb8b-2417-4851-bf54-30d39cae307b
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866187/ERR866187_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866187/ERR866187_2.fastq.gz
-		assay.seq.ena_experiment ERX945815
-		assay.seq.ena_run ERR866187
-		assay.id 93a98ef0-c7e1-4dde-bc0a-b8d0e9a9b171
+		assay.seq.insdc_experiment ERX945815
+		assay.seq.insdc_run ERR866187
+		assay.assay_id 93a98ef0-c7e1-4dde-bc0a-b8d0e9a9b171
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866283/ERR866283_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866283/ERR866283_2.fastq.gz
-		assay.seq.ena_experiment ERX945911
-		assay.seq.ena_run ERR866283
-		assay.id c1e3f6ab-42f0-45bd-ba14-d85b45e28b98
+		assay.seq.insdc_experiment ERX945911
+		assay.seq.insdc_run ERR866283
+		assay.assay_id c1e3f6ab-42f0-45bd-ba14-d85b45e28b98
 
-	sample.well.name POMC_GFP_I_3
-	sample.ena_sample ERS639338
+	sample.cell_suspension.well.name POMC_GFP_I_3
 	sample.name POMC+ from mouse 3
-	sample.submitter_id ERS639338
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 3
-	sample.id 7675a88d-238f-4bba-8f86-868c1fb719c1
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 3
+	sample.sample_id 7675a88d-238f-4bba-8f86-868c1fb719c1
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866188/ERR866188_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866188/ERR866188_2.fastq.gz
-		assay.seq.ena_experiment ERX945816
-		assay.seq.ena_run ERR866188
-		assay.id 25519796-3744-4a4d-96af-7de3ae3f2047
+		assay.seq.insdc_experiment ERX945816
+		assay.seq.insdc_run ERR866188
+		assay.assay_id 25519796-3744-4a4d-96af-7de3ae3f2047
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866284/ERR866284_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866284/ERR866284_2.fastq.gz
-		assay.seq.ena_experiment ERX945912
-		assay.seq.ena_run ERR866284
-		assay.id c236ce45-00d9-466b-b9e9-47114af41965
+		assay.seq.insdc_experiment ERX945912
+		assay.seq.insdc_run ERR866284
+		assay.assay_id c236ce45-00d9-466b-b9e9-47114af41965
 
-	sample.well.name POMC_GFP_I_4
-	sample.ena_sample ERS639339
+	sample.cell_suspension.well.name POMC_GFP_I_4
 	sample.name POMC+ from mouse 4
-	sample.submitter_id ERS639339
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 4
-	sample.id d5e0f7b5-bea1-4bce-94dc-fee680d3fd43
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 4
+	sample.sample_id d5e0f7b5-bea1-4bce-94dc-fee680d3fd43
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866189/ERR866189_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866189/ERR866189_2.fastq.gz
-		assay.seq.ena_experiment ERX945817
-		assay.seq.ena_run ERR866189
-		assay.id 99f4f063-eb5d-4a72-af02-1e60e4c0cc01
+		assay.seq.insdc_experiment ERX945817
+		assay.seq.insdc_run ERR866189
+		assay.assay_id 99f4f063-eb5d-4a72-af02-1e60e4c0cc01
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866285/ERR866285_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866285/ERR866285_2.fastq.gz
-		assay.seq.ena_experiment ERX945913
-		assay.seq.ena_run ERR866285
-		assay.id 9da22938-0c12-4d69-ab51-aaa1f7fbb9cf
+		assay.seq.insdc_experiment ERX945913
+		assay.seq.insdc_run ERR866285
+		assay.assay_id 9da22938-0c12-4d69-ab51-aaa1f7fbb9cf
 
-	sample.well.name POMC_GFP_I_5
-	sample.ena_sample ERS639340
+	sample.cell_suspension.well.name POMC_GFP_I_5
 	sample.name POMC+ from mouse 5
-	sample.submitter_id ERS639340
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 5
-	sample.id 5644435a-62d2-4f1f-8c2a-eda8940b9e74
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 5
+	sample.sample_id 5644435a-62d2-4f1f-8c2a-eda8940b9e74
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866190/ERR866190_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866190/ERR866190_2.fastq.gz
-		assay.seq.ena_experiment ERX945818
-		assay.seq.ena_run ERR866190
-		assay.id 64379b00-5243-4be2-bc86-6c84b60ca1d1
+		assay.seq.insdc_experiment ERX945818
+		assay.seq.insdc_run ERR866190
+		assay.assay_id 64379b00-5243-4be2-bc86-6c84b60ca1d1
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866286/ERR866286_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866286/ERR866286_2.fastq.gz
-		assay.seq.ena_experiment ERX945914
-		assay.seq.ena_run ERR866286
-		assay.id 22af87bf-5b32-4cd7-8c86-e48b3c0d170b
+		assay.seq.insdc_experiment ERX945914
+		assay.seq.insdc_run ERR866286
+		assay.assay_id 22af87bf-5b32-4cd7-8c86-e48b3c0d170b
 
-	sample.well.name POMC_GFP_I_6
-	sample.ena_sample ERS639341
+	sample.cell_suspension.well.name POMC_GFP_I_6
 	sample.name POMC+ from mouse 6
-	sample.submitter_id ERS639341
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 6
-	sample.id 468e046c-31fb-4d15-bfae-e22acd7fcfb8
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 6
+	sample.sample_id 468e046c-31fb-4d15-bfae-e22acd7fcfb8
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866191/ERR866191_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866191/ERR866191_2.fastq.gz
-		assay.seq.ena_experiment ERX945819
-		assay.seq.ena_run ERR866191
-		assay.id 148fff5f-5483-4900-aaed-8e70ad690156
+		assay.seq.insdc_experiment ERX945819
+		assay.seq.insdc_run ERR866191
+		assay.assay_id 148fff5f-5483-4900-aaed-8e70ad690156
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866287/ERR866287_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866287/ERR866287_2.fastq.gz
-		assay.seq.ena_experiment ERX945915
-		assay.seq.ena_run ERR866287
-		assay.id 91aeb12a-39b3-4f28-976b-b02dda50eb2a
+		assay.seq.insdc_experiment ERX945915
+		assay.seq.insdc_run ERR866287
+		assay.assay_id 91aeb12a-39b3-4f28-976b-b02dda50eb2a
 
-	sample.well.name POMC_GFP_I_7
-	sample.ena_sample ERS639342
+	sample.cell_suspension.well.name POMC_GFP_I_7
 	sample.name POMC+ from mouse 7
-	sample.submitter_id ERS639342
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 7
-	sample.id cfe09c2c-1cc6-4276-bf0a-3b2dcd2ea4dd
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 7
+	sample.sample_id cfe09c2c-1cc6-4276-bf0a-3b2dcd2ea4dd
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866192/ERR866192_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866192/ERR866192_2.fastq.gz
-		assay.seq.ena_experiment ERX945820
-		assay.seq.ena_run ERR866192
-		assay.id f3f067d5-545c-465b-bf85-6142df8b65cd
+		assay.seq.insdc_experiment ERX945820
+		assay.seq.insdc_run ERR866192
+		assay.assay_id f3f067d5-545c-465b-bf85-6142df8b65cd
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866288/ERR866288_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866288/ERR866288_2.fastq.gz
-		assay.seq.ena_experiment ERX945916
-		assay.seq.ena_run ERR866288
-		assay.id cec6c3a5-7c79-4394-9d2e-e3f4bd939089
+		assay.seq.insdc_experiment ERX945916
+		assay.seq.insdc_run ERR866288
+		assay.assay_id cec6c3a5-7c79-4394-9d2e-e3f4bd939089
 
-	sample.well.name POMC_GFP_I_8
-	sample.ena_sample ERS639343
+	sample.cell_suspension.well.name POMC_GFP_I_8
 	sample.name POMC+ from mouse 8
-	sample.submitter_id ERS639343
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 8
-	sample.id 3996703a-4061-4e3f-afc3-6aae06f874b7
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 8
+	sample.sample_id 3996703a-4061-4e3f-afc3-6aae06f874b7
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866193/ERR866193_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866193/ERR866193_2.fastq.gz
-		assay.seq.ena_experiment ERX945821
-		assay.seq.ena_run ERR866193
-		assay.id 388934a5-5555-4b47-ab0e-70df2373ff8c
+		assay.seq.insdc_experiment ERX945821
+		assay.seq.insdc_run ERR866193
+		assay.assay_id 388934a5-5555-4b47-ab0e-70df2373ff8c
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866289/ERR866289_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866289/ERR866289_2.fastq.gz
-		assay.seq.ena_experiment ERX945917
-		assay.seq.ena_run ERR866289
-		assay.id fb7cdd13-7b09-4d25-ba87-c37963ef3c82
+		assay.seq.insdc_experiment ERX945917
+		assay.seq.insdc_run ERR866289
+		assay.assay_id fb7cdd13-7b09-4d25-ba87-c37963ef3c82
 
-	sample.well.name POMC_GFP_I_9
-	sample.ena_sample ERS639344
+	sample.cell_suspension.well.name POMC_GFP_I_9
 	sample.name POMC+ from mouse 9
-	sample.submitter_id ERS639344
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 9
-	sample.id 6d520cf4-fe40-4222-9b03-57069549bf82
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 9
+	sample.sample_id 6d520cf4-fe40-4222-9b03-57069549bf82
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866194/ERR866194_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866194/ERR866194_2.fastq.gz
-		assay.seq.ena_experiment ERX945822
-		assay.seq.ena_run ERR866194
-		assay.id 3230bbea-f81e-40df-bbcf-dacc1e7ca89c
+		assay.seq.insdc_experiment ERX945822
+		assay.seq.insdc_run ERR866194
+		assay.assay_id 3230bbea-f81e-40df-bbcf-dacc1e7ca89c
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866290/ERR866290_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866290/ERR866290_2.fastq.gz
-		assay.seq.ena_experiment ERX945918
-		assay.seq.ena_run ERR866290
-		assay.id aacfd53c-9fdc-451c-8dd2-5885d0b584ef
+		assay.seq.insdc_experiment ERX945918
+		assay.seq.insdc_run ERR866290
+		assay.assay_id aacfd53c-9fdc-451c-8dd2-5885d0b584ef
 
-	sample.well.name POMC_GFP_I_10
-	sample.ena_sample ERS639345
+	sample.cell_suspension.well.name POMC_GFP_I_10
 	sample.name POMC+ from mouse 10
-	sample.submitter_id ERS639345
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 10
-	sample.id 9237da89-92d6-451e-8868-1fc632eb72c4
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 10
+	sample.sample_id 9237da89-92d6-451e-8868-1fc632eb72c4
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866195/ERR866195_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866195/ERR866195_2.fastq.gz
-		assay.seq.ena_experiment ERX945823
-		assay.seq.ena_run ERR866195
-		assay.id f9be0986-4ba8-439f-82ac-769e8aee3f76
+		assay.seq.insdc_experiment ERX945823
+		assay.seq.insdc_run ERR866195
+		assay.assay_id f9be0986-4ba8-439f-82ac-769e8aee3f76
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866291/ERR866291_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866291/ERR866291_2.fastq.gz
-		assay.seq.ena_experiment ERX945919
-		assay.seq.ena_run ERR866291
-		assay.id 88f57b0e-c307-4808-bd6c-2f355a3ecd56
+		assay.seq.insdc_experiment ERX945919
+		assay.seq.insdc_run ERR866291
+		assay.assay_id 88f57b0e-c307-4808-bd6c-2f355a3ecd56
 
-	sample.well.name POMC_GFP_I_11
-	sample.ena_sample ERS639346
+	sample.cell_suspension.well.name POMC_GFP_I_11
 	sample.name POMC+ from mouse 11
-	sample.submitter_id ERS639346
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 11
-	sample.id 81bbff1c-74da-4cc1-a4a0-674fb8e59766
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 11
+	sample.sample_id 81bbff1c-74da-4cc1-a4a0-674fb8e59766
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866196/ERR866196_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866196/ERR866196_2.fastq.gz
-		assay.seq.ena_experiment ERX945824
-		assay.seq.ena_run ERR866196
-		assay.id 25a7ef72-e0cd-49b0-adee-e3194fb02097
+		assay.seq.insdc_experiment ERX945824
+		assay.seq.insdc_run ERR866196
+		assay.assay_id 25a7ef72-e0cd-49b0-adee-e3194fb02097
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866292/ERR866292_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866292/ERR866292_2.fastq.gz
-		assay.seq.ena_experiment ERX945920
-		assay.seq.ena_run ERR866292
-		assay.id dec8b175-d7a6-433d-a007-49139ad8048c
+		assay.seq.insdc_experiment ERX945920
+		assay.seq.insdc_run ERR866292
+		assay.assay_id dec8b175-d7a6-433d-a007-49139ad8048c
 
-	sample.well.name POMC_GFP_I_12
-	sample.ena_sample ERS639347
+	sample.cell_suspension.well.name POMC_GFP_I_12
 	sample.name POMC+ from mouse 12
-	sample.submitter_id ERS639347
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 12
-	sample.id 7a88ba79-3593-42f5-9e56-099d4e30fc19
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 12
+	sample.sample_id 7a88ba79-3593-42f5-9e56-099d4e30fc19
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866197/ERR866197_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866197/ERR866197_2.fastq.gz
-		assay.seq.ena_experiment ERX945825
-		assay.seq.ena_run ERR866197
-		assay.id ca863df4-8230-4d28-9dee-3a3ca58c0723
+		assay.seq.insdc_experiment ERX945825
+		assay.seq.insdc_run ERR866197
+		assay.assay_id ca863df4-8230-4d28-9dee-3a3ca58c0723
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866293/ERR866293_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866293/ERR866293_2.fastq.gz
-		assay.seq.ena_experiment ERX945921
-		assay.seq.ena_run ERR866293
-		assay.id e842fcf0-9cfe-4f08-9917-5e8a5cb6f5cd
+		assay.seq.insdc_experiment ERX945921
+		assay.seq.insdc_run ERR866293
+		assay.assay_id e842fcf0-9cfe-4f08-9917-5e8a5cb6f5cd
 
-	sample.well.name POMC_GFP_I_13
-	sample.ena_sample ERS639348
+	sample.cell_suspension.well.name POMC_GFP_I_13
 	sample.name POMC+ from mouse 13
-	sample.submitter_id ERS639348
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 13
-	sample.id fbf964e2-0501-45e5-a318-670f374ca91f
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 13
+	sample.sample_id fbf964e2-0501-45e5-a318-670f374ca91f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866198/ERR866198_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866198/ERR866198_2.fastq.gz
-		assay.seq.ena_experiment ERX945826
-		assay.seq.ena_run ERR866198
-		assay.id 58bf0541-1f18-4333-854e-95f124c8ee82
+		assay.seq.insdc_experiment ERX945826
+		assay.seq.insdc_run ERR866198
+		assay.assay_id 58bf0541-1f18-4333-854e-95f124c8ee82
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866294/ERR866294_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866294/ERR866294_2.fastq.gz
-		assay.seq.ena_experiment ERX945922
-		assay.seq.ena_run ERR866294
-		assay.id 4ab55a04-7c63-4d4b-85fb-c211db5cdbdc
+		assay.seq.insdc_experiment ERX945922
+		assay.seq.insdc_run ERR866294
+		assay.assay_id 4ab55a04-7c63-4d4b-85fb-c211db5cdbdc
 
-	sample.well.name POMC_GFP_I_14
-	sample.ena_sample ERS639349
+	sample.cell_suspension.well.name POMC_GFP_I_14
 	sample.name POMC+ from mouse 14
-	sample.submitter_id ERS639349
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 14
-	sample.id 351a462d-87cb-42e2-8fe3-0ad4564913fa
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 14
+	sample.sample_id 351a462d-87cb-42e2-8fe3-0ad4564913fa
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866199/ERR866199_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866199/ERR866199_2.fastq.gz
-		assay.seq.ena_experiment ERX945827
-		assay.seq.ena_run ERR866199
-		assay.id 70e0401b-ebba-4f5e-aafa-a0fdfc9b2c86
+		assay.seq.insdc_experiment ERX945827
+		assay.seq.insdc_run ERR866199
+		assay.assay_id 70e0401b-ebba-4f5e-aafa-a0fdfc9b2c86
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866295/ERR866295_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866295/ERR866295_2.fastq.gz
-		assay.seq.ena_experiment ERX945923
-		assay.seq.ena_run ERR866295
-		assay.id 80d79af5-d57a-4fba-85ac-718040b56065
+		assay.seq.insdc_experiment ERX945923
+		assay.seq.insdc_run ERR866295
+		assay.assay_id 80d79af5-d57a-4fba-85ac-718040b56065
 
-	sample.well.name POMC_GFP_I_15
-	sample.ena_sample ERS639350
+	sample.cell_suspension.well.name POMC_GFP_I_15
 	sample.name POMC+ from mouse 15
-	sample.submitter_id ERS639350
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 15
-	sample.id 2df6578c-97bf-415b-8e7e-e4f381bf80ff
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 15
+	sample.sample_id 2df6578c-97bf-415b-8e7e-e4f381bf80ff
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866200/ERR866200_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866200/ERR866200_2.fastq.gz
-		assay.seq.ena_experiment ERX945828
-		assay.seq.ena_run ERR866200
-		assay.id 7cc751ff-039a-4990-9a6d-7f2062716162
+		assay.seq.insdc_experiment ERX945828
+		assay.seq.insdc_run ERR866200
+		assay.assay_id 7cc751ff-039a-4990-9a6d-7f2062716162
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866296/ERR866296_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866296/ERR866296_2.fastq.gz
-		assay.seq.ena_experiment ERX945924
-		assay.seq.ena_run ERR866296
-		assay.id b4a9da95-a6c4-43b4-8b11-d01a7d92b02b
+		assay.seq.insdc_experiment ERX945924
+		assay.seq.insdc_run ERR866296
+		assay.assay_id b4a9da95-a6c4-43b4-8b11-d01a7d92b02b
 
-	sample.well.name POMC_GFP_I_16
-	sample.ena_sample ERS639351
+	sample.cell_suspension.well.name POMC_GFP_I_16
 	sample.name POMC+ from mouse 16
-	sample.submitter_id ERS639351
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 16
-	sample.id 420cde7d-9494-4cd3-9465-f522e980d553
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 16
+	sample.sample_id 420cde7d-9494-4cd3-9465-f522e980d553
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866201/ERR866201_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866201/ERR866201_2.fastq.gz
-		assay.seq.ena_experiment ERX945829
-		assay.seq.ena_run ERR866201
-		assay.id cb195a4c-da1c-479b-bba1-af9d75f78be6
+		assay.seq.insdc_experiment ERX945829
+		assay.seq.insdc_run ERR866201
+		assay.assay_id cb195a4c-da1c-479b-bba1-af9d75f78be6
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866297/ERR866297_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866297/ERR866297_2.fastq.gz
-		assay.seq.ena_experiment ERX945925
-		assay.seq.ena_run ERR866297
-		assay.id d9a3b94b-9aaa-4184-8718-b7452f6ca195
+		assay.seq.insdc_experiment ERX945925
+		assay.seq.insdc_run ERR866297
+		assay.assay_id d9a3b94b-9aaa-4184-8718-b7452f6ca195
 
-	sample.well.name POMC_GFP_I_17
-	sample.ena_sample ERS639352
+	sample.cell_suspension.well.name POMC_GFP_I_17
 	sample.name POMC+ from mouse 17
-	sample.submitter_id ERS639352
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 17
-	sample.id d97edcde-13c6-4eea-98ac-3939749a9b24
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 17
+	sample.sample_id d97edcde-13c6-4eea-98ac-3939749a9b24
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866202/ERR866202_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866202/ERR866202_2.fastq.gz
-		assay.seq.ena_experiment ERX945830
-		assay.seq.ena_run ERR866202
-		assay.id 9573729f-d1a9-4397-b8c5-6e5377627d77
+		assay.seq.insdc_experiment ERX945830
+		assay.seq.insdc_run ERR866202
+		assay.assay_id 9573729f-d1a9-4397-b8c5-6e5377627d77
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866298/ERR866298_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866298/ERR866298_2.fastq.gz
-		assay.seq.ena_experiment ERX945926
-		assay.seq.ena_run ERR866298
-		assay.id b41e9cef-bedb-4041-9d04-29bd75240580
+		assay.seq.insdc_experiment ERX945926
+		assay.seq.insdc_run ERR866298
+		assay.assay_id b41e9cef-bedb-4041-9d04-29bd75240580
 
-	sample.well.name POMC_GFP_I_18
-	sample.ena_sample ERS639353
+	sample.cell_suspension.well.name POMC_GFP_I_18
 	sample.name POMC+ from mouse 18
-	sample.submitter_id ERS639353
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 18
-	sample.id 35acf89f-f62c-4a6e-9f24-4f585a7d0254
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 18
+	sample.sample_id 35acf89f-f62c-4a6e-9f24-4f585a7d0254
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866203/ERR866203_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866203/ERR866203_2.fastq.gz
-		assay.seq.ena_experiment ERX945831
-		assay.seq.ena_run ERR866203
-		assay.id 54cab009-4322-42e9-bb7b-4fa8b4a0decb
+		assay.seq.insdc_experiment ERX945831
+		assay.seq.insdc_run ERR866203
+		assay.assay_id 54cab009-4322-42e9-bb7b-4fa8b4a0decb
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866299/ERR866299_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866299/ERR866299_2.fastq.gz
-		assay.seq.ena_experiment ERX945927
-		assay.seq.ena_run ERR866299
-		assay.id 09b29518-de50-4d70-9e72-6972c8573d60
+		assay.seq.insdc_experiment ERX945927
+		assay.seq.insdc_run ERR866299
+		assay.assay_id 09b29518-de50-4d70-9e72-6972c8573d60
 
-	sample.well.name POMC_GFP_I_19
-	sample.ena_sample ERS639354
+	sample.cell_suspension.well.name POMC_GFP_I_19
 	sample.name POMC+ from mouse 19
-	sample.submitter_id ERS639354
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 19
-	sample.id 434a4f10-01be-485c-8018-ca3b7a3e7523
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 19
+	sample.sample_id 434a4f10-01be-485c-8018-ca3b7a3e7523
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866204/ERR866204_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866204/ERR866204_2.fastq.gz
-		assay.seq.ena_experiment ERX945832
-		assay.seq.ena_run ERR866204
-		assay.id fa954a89-2bb8-470e-bc9f-a52c5c6433c5
+		assay.seq.insdc_experiment ERX945832
+		assay.seq.insdc_run ERR866204
+		assay.assay_id fa954a89-2bb8-470e-bc9f-a52c5c6433c5
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866300/ERR866300_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866300/ERR866300_2.fastq.gz
-		assay.seq.ena_experiment ERX945928
-		assay.seq.ena_run ERR866300
-		assay.id 0582a59f-c3c5-49d2-93ef-bb3c6af829c4
+		assay.seq.insdc_experiment ERX945928
+		assay.seq.insdc_run ERR866300
+		assay.assay_id 0582a59f-c3c5-49d2-93ef-bb3c6af829c4
 
-	sample.well.name POMC_GFP_I_20
-	sample.ena_sample ERS639355
+	sample.cell_suspension.well.name POMC_GFP_I_20
 	sample.name POMC+ from mouse 20
-	sample.submitter_id ERS639355
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 20
-	sample.id 7d63a9fc-26dd-47b6-9ac2-247724bdb9ab
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 20
+	sample.sample_id 7d63a9fc-26dd-47b6-9ac2-247724bdb9ab
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866205/ERR866205_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866205/ERR866205_2.fastq.gz
-		assay.seq.ena_experiment ERX945833
-		assay.seq.ena_run ERR866205
-		assay.id a64954d9-7d31-4ef9-b886-541d202a9321
+		assay.seq.insdc_experiment ERX945833
+		assay.seq.insdc_run ERR866205
+		assay.assay_id a64954d9-7d31-4ef9-b886-541d202a9321
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866301/ERR866301_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866301/ERR866301_2.fastq.gz
-		assay.seq.ena_experiment ERX945929
-		assay.seq.ena_run ERR866301
-		assay.id f46b00fa-9df3-43e7-93b3-59012420e3d8
+		assay.seq.insdc_experiment ERX945929
+		assay.seq.insdc_run ERR866301
+		assay.assay_id f46b00fa-9df3-43e7-93b3-59012420e3d8
 
-	sample.well.name POMC_GFP_I_21
-	sample.ena_sample ERS639356
+	sample.cell_suspension.well.name POMC_GFP_I_21
 	sample.name POMC+ from mouse 21
-	sample.submitter_id ERS639356
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 21
-	sample.id 5f828134-f2c0-4888-a418-69471380e495
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 21
+	sample.sample_id 5f828134-f2c0-4888-a418-69471380e495
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866206/ERR866206_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866206/ERR866206_2.fastq.gz
-		assay.seq.ena_experiment ERX945834
-		assay.seq.ena_run ERR866206
-		assay.id d276f45d-21bd-45b5-899f-0059ea174897
+		assay.seq.insdc_experiment ERX945834
+		assay.seq.insdc_run ERR866206
+		assay.assay_id d276f45d-21bd-45b5-899f-0059ea174897
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866302/ERR866302_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866302/ERR866302_2.fastq.gz
-		assay.seq.ena_experiment ERX945930
-		assay.seq.ena_run ERR866302
-		assay.id 98b69c4a-3426-42e4-8bdc-829f3436032a
+		assay.seq.insdc_experiment ERX945930
+		assay.seq.insdc_run ERR866302
+		assay.assay_id 98b69c4a-3426-42e4-8bdc-829f3436032a
 
-	sample.well.name POMC_GFP_I_22
-	sample.ena_sample ERS639357
+	sample.cell_suspension.well.name POMC_GFP_I_22
 	sample.name POMC+ from mouse 22
-	sample.submitter_id ERS639357
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 22
-	sample.id d6b70f44-92fc-4291-bf72-72a131713554
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 22
+	sample.sample_id d6b70f44-92fc-4291-bf72-72a131713554
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866207/ERR866207_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866207/ERR866207_2.fastq.gz
-		assay.seq.ena_experiment ERX945835
-		assay.seq.ena_run ERR866207
-		assay.id c92b1d55-0ec5-4bb6-bfd4-da6a66d6e7b3
+		assay.seq.insdc_experiment ERX945835
+		assay.seq.insdc_run ERR866207
+		assay.assay_id c92b1d55-0ec5-4bb6-bfd4-da6a66d6e7b3
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866303/ERR866303_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866303/ERR866303_2.fastq.gz
-		assay.seq.ena_experiment ERX945931
-		assay.seq.ena_run ERR866303
-		assay.id cd6d6afb-25de-419e-a531-0fa6e3008ca8
+		assay.seq.insdc_experiment ERX945931
+		assay.seq.insdc_run ERR866303
+		assay.assay_id cd6d6afb-25de-419e-a531-0fa6e3008ca8
 
-	sample.well.name POMC_GFP_I_23
-	sample.ena_sample ERS639358
+	sample.cell_suspension.well.name POMC_GFP_I_23
 	sample.name POMC+ from mouse 23
-	sample.submitter_id ERS639358
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 23
-	sample.id c921efd7-98e5-4e0d-beb5-10c423c0066b
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 23
+	sample.sample_id c921efd7-98e5-4e0d-beb5-10c423c0066b
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866208/ERR866208_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866208/ERR866208_2.fastq.gz
-		assay.seq.ena_experiment ERX945836
-		assay.seq.ena_run ERR866208
-		assay.id 075c7e44-4d08-4f01-88b4-8eb5203d92c7
+		assay.seq.insdc_experiment ERX945836
+		assay.seq.insdc_run ERR866208
+		assay.assay_id 075c7e44-4d08-4f01-88b4-8eb5203d92c7
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866304/ERR866304_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866304/ERR866304_2.fastq.gz
-		assay.seq.ena_experiment ERX945932
-		assay.seq.ena_run ERR866304
-		assay.id 0573d513-340a-4457-bf72-1af0b69062d8
+		assay.seq.insdc_experiment ERX945932
+		assay.seq.insdc_run ERR866304
+		assay.assay_id 0573d513-340a-4457-bf72-1af0b69062d8
 
-	sample.well.name POMC_GFP_I_24
-	sample.ena_sample ERS639359
+	sample.cell_suspension.well.name POMC_GFP_I_24
 	sample.name POMC+ from mouse 24
-	sample.submitter_id ERS639359
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 24
-	sample.id 1dcde3ef-78eb-4294-95a8-1aa291c8d637
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 24
+	sample.sample_id 1dcde3ef-78eb-4294-95a8-1aa291c8d637
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866209/ERR866209_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866209/ERR866209_2.fastq.gz
-		assay.seq.ena_experiment ERX945837
-		assay.seq.ena_run ERR866209
-		assay.id 9e708981-d7d4-460c-86d2-f3f962912ae4
+		assay.seq.insdc_experiment ERX945837
+		assay.seq.insdc_run ERR866209
+		assay.assay_id 9e708981-d7d4-460c-86d2-f3f962912ae4
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866305/ERR866305_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866305/ERR866305_2.fastq.gz
-		assay.seq.ena_experiment ERX945933
-		assay.seq.ena_run ERR866305
-		assay.id fae8ba9e-e414-4d1e-8dca-38d25b1a2151
+		assay.seq.insdc_experiment ERX945933
+		assay.seq.insdc_run ERR866305
+		assay.assay_id fae8ba9e-e414-4d1e-8dca-38d25b1a2151
 
-	sample.well.name POMC_GFP_I_25
-	sample.ena_sample ERS639360
+	sample.cell_suspension.well.name POMC_GFP_I_25
 	sample.name POMC+ from mouse 25
-	sample.submitter_id ERS639360
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 25
-	sample.id adc05003-d42a-41cc-8563-2116a18a7d17
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 25
+	sample.sample_id adc05003-d42a-41cc-8563-2116a18a7d17
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866210/ERR866210_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866210/ERR866210_2.fastq.gz
-		assay.seq.ena_experiment ERX945838
-		assay.seq.ena_run ERR866210
-		assay.id d9009d96-4851-4141-b134-b1979214e458
+		assay.seq.insdc_experiment ERX945838
+		assay.seq.insdc_run ERR866210
+		assay.assay_id d9009d96-4851-4141-b134-b1979214e458
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866306/ERR866306_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866306/ERR866306_2.fastq.gz
-		assay.seq.ena_experiment ERX945934
-		assay.seq.ena_run ERR866306
-		assay.id 3cdba33e-21cd-4910-bc6b-7363847d2e60
+		assay.seq.insdc_experiment ERX945934
+		assay.seq.insdc_run ERR866306
+		assay.assay_id 3cdba33e-21cd-4910-bc6b-7363847d2e60
 
-	sample.well.name POMC_GFP_I_26
-	sample.ena_sample ERS639361
+	sample.cell_suspension.well.name POMC_GFP_I_26
 	sample.name POMC+ from mouse 26
-	sample.submitter_id ERS639361
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 26
-	sample.id 32d8b02f-1ecc-48fc-a1bc-b93acf4393f1
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 26
+	sample.sample_id 32d8b02f-1ecc-48fc-a1bc-b93acf4393f1
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866211/ERR866211_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866211/ERR866211_2.fastq.gz
-		assay.seq.ena_experiment ERX945839
-		assay.seq.ena_run ERR866211
-		assay.id 96fd05c0-fca2-42a8-84da-c0465aa07522
+		assay.seq.insdc_experiment ERX945839
+		assay.seq.insdc_run ERR866211
+		assay.assay_id 96fd05c0-fca2-42a8-84da-c0465aa07522
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866307/ERR866307_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866307/ERR866307_2.fastq.gz
-		assay.seq.ena_experiment ERX945935
-		assay.seq.ena_run ERR866307
-		assay.id b98fead2-7d89-4e7b-a6ba-d558a80b81f7
+		assay.seq.insdc_experiment ERX945935
+		assay.seq.insdc_run ERR866307
+		assay.assay_id b98fead2-7d89-4e7b-a6ba-d558a80b81f7
 
-	sample.well.name POMC_GFP_I_27
-	sample.ena_sample ERS639362
+	sample.cell_suspension.well.name POMC_GFP_I_27
 	sample.name POMC+ from mouse 27
-	sample.submitter_id ERS639362
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 27
-	sample.id 53c9a134-4792-4e1a-b29f-482f182ecc35
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 27
+	sample.sample_id 53c9a134-4792-4e1a-b29f-482f182ecc35
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866212/ERR866212_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866212/ERR866212_2.fastq.gz
-		assay.seq.ena_experiment ERX945840
-		assay.seq.ena_run ERR866212
-		assay.id 932efeae-563c-4091-893c-4a065c085865
+		assay.seq.insdc_experiment ERX945840
+		assay.seq.insdc_run ERR866212
+		assay.assay_id 932efeae-563c-4091-893c-4a065c085865
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866308/ERR866308_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866308/ERR866308_2.fastq.gz
-		assay.seq.ena_experiment ERX945936
-		assay.seq.ena_run ERR866308
-		assay.id 2363d880-66a3-47df-9b70-fd4aedbf47d3
+		assay.seq.insdc_experiment ERX945936
+		assay.seq.insdc_run ERR866308
+		assay.assay_id 2363d880-66a3-47df-9b70-fd4aedbf47d3
 
-	sample.well.name POMC_GFP_I_28
-	sample.ena_sample ERS639363
+	sample.cell_suspension.well.name POMC_GFP_I_28
 	sample.name POMC+ from mouse 28
-	sample.submitter_id ERS639363
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 28
-	sample.id 678b426b-d4b4-4115-8d8d-93f1e92ef01f
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 28
+	sample.sample_id 678b426b-d4b4-4115-8d8d-93f1e92ef01f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866213/ERR866213_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866213/ERR866213_2.fastq.gz
-		assay.seq.ena_experiment ERX945841
-		assay.seq.ena_run ERR866213
-		assay.id 0464ffd1-15ba-445c-98c6-298f047b3620
+		assay.seq.insdc_experiment ERX945841
+		assay.seq.insdc_run ERR866213
+		assay.assay_id 0464ffd1-15ba-445c-98c6-298f047b3620
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866309/ERR866309_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866309/ERR866309_2.fastq.gz
-		assay.seq.ena_experiment ERX945937
-		assay.seq.ena_run ERR866309
-		assay.id dbadf0cf-eb6b-49f9-8691-c5d52d3e1e4f
+		assay.seq.insdc_experiment ERX945937
+		assay.seq.insdc_run ERR866309
+		assay.assay_id dbadf0cf-eb6b-49f9-8691-c5d52d3e1e4f
 
-	sample.well.name POMC_GFP_I_29
-	sample.ena_sample ERS639364
+	sample.cell_suspension.well.name POMC_GFP_I_29
 	sample.name POMC+ from mouse 29
-	sample.submitter_id ERS639364
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 29
-	sample.id 72741c1c-ba6b-4c09-859f-e3a7758126cf
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 29
+	sample.sample_id 72741c1c-ba6b-4c09-859f-e3a7758126cf
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866214/ERR866214_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866214/ERR866214_2.fastq.gz
-		assay.seq.ena_experiment ERX945842
-		assay.seq.ena_run ERR866214
-		assay.id c914174f-92f7-4888-bf53-ceeacb2d0287
+		assay.seq.insdc_experiment ERX945842
+		assay.seq.insdc_run ERR866214
+		assay.assay_id c914174f-92f7-4888-bf53-ceeacb2d0287
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866310/ERR866310_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866310/ERR866310_2.fastq.gz
-		assay.seq.ena_experiment ERX945938
-		assay.seq.ena_run ERR866310
-		assay.id 38bcb8a5-37a5-43aa-9f71-ccb47191051e
+		assay.seq.insdc_experiment ERX945938
+		assay.seq.insdc_run ERR866310
+		assay.assay_id 38bcb8a5-37a5-43aa-9f71-ccb47191051e
 
-	sample.well.name POMC_GFP_I_30
-	sample.ena_sample ERS639365
+	sample.cell_suspension.well.name POMC_GFP_I_30
 	sample.name POMC+ from mouse 30
-	sample.submitter_id ERS639365
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 30
-	sample.id 262bd856-76b2-41a3-b05f-789a1feb0350
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 30
+	sample.sample_id 262bd856-76b2-41a3-b05f-789a1feb0350
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866215/ERR866215_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866215/ERR866215_2.fastq.gz
-		assay.seq.ena_experiment ERX945843
-		assay.seq.ena_run ERR866215
-		assay.id 5ff0c49b-526a-4296-84e0-5830f489204c
+		assay.seq.insdc_experiment ERX945843
+		assay.seq.insdc_run ERR866215
+		assay.assay_id 5ff0c49b-526a-4296-84e0-5830f489204c
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866311/ERR866311_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866311/ERR866311_2.fastq.gz
-		assay.seq.ena_experiment ERX945939
-		assay.seq.ena_run ERR866311
-		assay.id b3ae1e4b-5ed6-4161-ada8-91962c2982c6
+		assay.seq.insdc_experiment ERX945939
+		assay.seq.insdc_run ERR866311
+		assay.assay_id b3ae1e4b-5ed6-4161-ada8-91962c2982c6
 
-	sample.well.name POMC_GFP_I_31
-	sample.ena_sample ERS639366
+	sample.cell_suspension.well.name POMC_GFP_I_31
 	sample.name POMC+ from mouse 31
-	sample.submitter_id ERS639366
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 31
-	sample.id 7b8b2af2-53cc-48ba-b744-a4cc81c8825e
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 31
+	sample.sample_id 7b8b2af2-53cc-48ba-b744-a4cc81c8825e
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866216/ERR866216_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866216/ERR866216_2.fastq.gz
-		assay.seq.ena_experiment ERX945844
-		assay.seq.ena_run ERR866216
-		assay.id 59340fd9-88fe-494b-9667-eaf3caa148ff
+		assay.seq.insdc_experiment ERX945844
+		assay.seq.insdc_run ERR866216
+		assay.assay_id 59340fd9-88fe-494b-9667-eaf3caa148ff
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866312/ERR866312_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866312/ERR866312_2.fastq.gz
-		assay.seq.ena_experiment ERX945940
-		assay.seq.ena_run ERR866312
-		assay.id 5a82036d-7db8-4b27-b523-84d797b19692
+		assay.seq.insdc_experiment ERX945940
+		assay.seq.insdc_run ERR866312
+		assay.assay_id 5a82036d-7db8-4b27-b523-84d797b19692
 
-	sample.well.name POMC_GFP_I_32
-	sample.ena_sample ERS639367
+	sample.cell_suspension.well.name POMC_GFP_I_32
 	sample.name POMC+ from mouse 32
-	sample.submitter_id ERS639367
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 32
-	sample.id b44bafe0-a92f-445a-a29f-46b762b75723
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 32
+	sample.sample_id b44bafe0-a92f-445a-a29f-46b762b75723
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866217/ERR866217_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866217/ERR866217_2.fastq.gz
-		assay.seq.ena_experiment ERX945845
-		assay.seq.ena_run ERR866217
-		assay.id 29067e0f-6910-44c0-b483-cdc43dea1694
+		assay.seq.insdc_experiment ERX945845
+		assay.seq.insdc_run ERR866217
+		assay.assay_id 29067e0f-6910-44c0-b483-cdc43dea1694
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866313/ERR866313_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866313/ERR866313_2.fastq.gz
-		assay.seq.ena_experiment ERX945941
-		assay.seq.ena_run ERR866313
-		assay.id 60504794-16f2-46c0-b287-83128b192df9
+		assay.seq.insdc_experiment ERX945941
+		assay.seq.insdc_run ERR866313
+		assay.assay_id 60504794-16f2-46c0-b287-83128b192df9
 
-	sample.well.name POMC_GFP_I_33
-	sample.ena_sample ERS639368
+	sample.cell_suspension.well.name POMC_GFP_I_33
 	sample.name POMC+ from mouse 33
-	sample.submitter_id ERS639368
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 33
-	sample.id 53fa0183-3700-4280-b10c-e30f4790dc9e
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 33
+	sample.sample_id 53fa0183-3700-4280-b10c-e30f4790dc9e
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866218/ERR866218_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866218/ERR866218_2.fastq.gz
-		assay.seq.ena_experiment ERX945846
-		assay.seq.ena_run ERR866218
-		assay.id 1d797818-7f0d-420c-99c0-a16ef1af1a5d
+		assay.seq.insdc_experiment ERX945846
+		assay.seq.insdc_run ERR866218
+		assay.assay_id 1d797818-7f0d-420c-99c0-a16ef1af1a5d
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866314/ERR866314_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866314/ERR866314_2.fastq.gz
-		assay.seq.ena_experiment ERX945942
-		assay.seq.ena_run ERR866314
-		assay.id a29287f0-e87e-4bb5-9b4a-07e7d5cad269
+		assay.seq.insdc_experiment ERX945942
+		assay.seq.insdc_run ERR866314
+		assay.assay_id a29287f0-e87e-4bb5-9b4a-07e7d5cad269
 
-	sample.well.name POMC_GFP_I_34
-	sample.ena_sample ERS639369
+	sample.cell_suspension.well.name POMC_GFP_I_34
 	sample.name POMC+ from mouse 34
-	sample.submitter_id ERS639369
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 34
-	sample.id 67b77cdb-3194-41f8-9ad0-56d97aa2fb09
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 34
+	sample.sample_id 67b77cdb-3194-41f8-9ad0-56d97aa2fb09
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866219/ERR866219_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866219/ERR866219_2.fastq.gz
-		assay.seq.ena_experiment ERX945847
-		assay.seq.ena_run ERR866219
-		assay.id b31aa375-997a-4533-b8f5-fc2b48b3c1f1
+		assay.seq.insdc_experiment ERX945847
+		assay.seq.insdc_run ERR866219
+		assay.assay_id b31aa375-997a-4533-b8f5-fc2b48b3c1f1
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866315/ERR866315_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866315/ERR866315_2.fastq.gz
-		assay.seq.ena_experiment ERX945943
-		assay.seq.ena_run ERR866315
-		assay.id f89068d6-fc85-4fcd-91e0-d64b469bcd3a
+		assay.seq.insdc_experiment ERX945943
+		assay.seq.insdc_run ERR866315
+		assay.assay_id f89068d6-fc85-4fcd-91e0-d64b469bcd3a
 
-	sample.well.name POMC_GFP_I_35
-	sample.ena_sample ERS639370
+	sample.cell_suspension.well.name POMC_GFP_I_35
 	sample.name POMC+ from mouse 35
-	sample.submitter_id ERS639370
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 35
-	sample.id 4e024687-ca19-456f-a822-66ad2e327bce
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 35
+	sample.sample_id 4e024687-ca19-456f-a822-66ad2e327bce
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866220/ERR866220_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866220/ERR866220_2.fastq.gz
-		assay.seq.ena_experiment ERX945848
-		assay.seq.ena_run ERR866220
-		assay.id 591ce29b-6343-4ea3-83e2-9956746c11e2
+		assay.seq.insdc_experiment ERX945848
+		assay.seq.insdc_run ERR866220
+		assay.assay_id 591ce29b-6343-4ea3-83e2-9956746c11e2
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866316/ERR866316_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866316/ERR866316_2.fastq.gz
-		assay.seq.ena_experiment ERX945944
-		assay.seq.ena_run ERR866316
-		assay.id 6752702f-3285-48e8-af87-950ccac6754c
+		assay.seq.insdc_experiment ERX945944
+		assay.seq.insdc_run ERR866316
+		assay.assay_id 6752702f-3285-48e8-af87-950ccac6754c
 
-	sample.well.name POMC_GFP_I_36
-	sample.ena_sample ERS639371
+	sample.cell_suspension.well.name POMC_GFP_I_36
 	sample.name POMC+ from mouse 36
-	sample.submitter_id ERS639371
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 36
-	sample.id 78abd6f8-d134-4d17-a158-f7dea19412ac
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 36
+	sample.sample_id 78abd6f8-d134-4d17-a158-f7dea19412ac
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866221/ERR866221_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866221/ERR866221_2.fastq.gz
-		assay.seq.ena_experiment ERX945849
-		assay.seq.ena_run ERR866221
-		assay.id 5d29afa3-8867-4ef9-a044-a6557404ca4f
+		assay.seq.insdc_experiment ERX945849
+		assay.seq.insdc_run ERR866221
+		assay.assay_id 5d29afa3-8867-4ef9-a044-a6557404ca4f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866317/ERR866317_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866317/ERR866317_2.fastq.gz
-		assay.seq.ena_experiment ERX945945
-		assay.seq.ena_run ERR866317
-		assay.id 4c0ceeac-1f56-4669-bedb-56607c9f4b4a
+		assay.seq.insdc_experiment ERX945945
+		assay.seq.insdc_run ERR866317
+		assay.assay_id 4c0ceeac-1f56-4669-bedb-56607c9f4b4a
 
-	sample.well.name POMC_GFP_I_37
-	sample.ena_sample ERS639372
+	sample.cell_suspension.well.name POMC_GFP_I_37
 	sample.name POMC+ from mouse 37
-	sample.submitter_id ERS639372
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 37
-	sample.id 929d5707-d11d-4a75-aaea-50f8ac313859
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 37
+	sample.sample_id 929d5707-d11d-4a75-aaea-50f8ac313859
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866222/ERR866222_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866222/ERR866222_2.fastq.gz
-		assay.seq.ena_experiment ERX945850
-		assay.seq.ena_run ERR866222
-		assay.id 00415588-0e6b-439b-b190-4d0b6ef69fd5
+		assay.seq.insdc_experiment ERX945850
+		assay.seq.insdc_run ERR866222
+		assay.assay_id 00415588-0e6b-439b-b190-4d0b6ef69fd5
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866318/ERR866318_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866318/ERR866318_2.fastq.gz
-		assay.seq.ena_experiment ERX945946
-		assay.seq.ena_run ERR866318
-		assay.id 996ca7bc-cf88-45ea-81d5-660664f9ee18
+		assay.seq.insdc_experiment ERX945946
+		assay.seq.insdc_run ERR866318
+		assay.assay_id 996ca7bc-cf88-45ea-81d5-660664f9ee18
 
-	sample.well.name POMC_GFP_I_38
-	sample.ena_sample ERS639373
+	sample.cell_suspension.well.name POMC_GFP_I_38
 	sample.name POMC+ from mouse 38
-	sample.submitter_id ERS639373
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 38
-	sample.id 86dc37ca-9b77-479e-b941-a1dc10dbd4b9
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 38
+	sample.sample_id 86dc37ca-9b77-479e-b941-a1dc10dbd4b9
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866223/ERR866223_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866223/ERR866223_2.fastq.gz
-		assay.seq.ena_experiment ERX945851
-		assay.seq.ena_run ERR866223
-		assay.id a1af63ea-c291-4f59-ba5b-ace442c1c673
+		assay.seq.insdc_experiment ERX945851
+		assay.seq.insdc_run ERR866223
+		assay.assay_id a1af63ea-c291-4f59-ba5b-ace442c1c673
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866319/ERR866319_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866319/ERR866319_2.fastq.gz
-		assay.seq.ena_experiment ERX945947
-		assay.seq.ena_run ERR866319
-		assay.id a84785cf-58bc-43ad-b93b-2ea3d65082b8
+		assay.seq.insdc_experiment ERX945947
+		assay.seq.insdc_run ERR866319
+		assay.assay_id a84785cf-58bc-43ad-b93b-2ea3d65082b8
 
-	sample.well.name POMC_GFP_I_39
-	sample.ena_sample ERS639374
+	sample.cell_suspension.well.name POMC_GFP_I_39
 	sample.name POMC+ from mouse 39
-	sample.submitter_id ERS639374
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 39
-	sample.id 10a99ca1-489e-4a33-b9d4-5bd443701aae
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 39
+	sample.sample_id 10a99ca1-489e-4a33-b9d4-5bd443701aae
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866224/ERR866224_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866224/ERR866224_2.fastq.gz
-		assay.seq.ena_experiment ERX945852
-		assay.seq.ena_run ERR866224
-		assay.id 892086aa-2529-4830-bdd6-02371be0240e
+		assay.seq.insdc_experiment ERX945852
+		assay.seq.insdc_run ERR866224
+		assay.assay_id 892086aa-2529-4830-bdd6-02371be0240e
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866320/ERR866320_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866320/ERR866320_2.fastq.gz
-		assay.seq.ena_experiment ERX945948
-		assay.seq.ena_run ERR866320
-		assay.id be6d4752-5c20-4300-9c8c-caeb898f1b2a
+		assay.seq.insdc_experiment ERX945948
+		assay.seq.insdc_run ERR866320
+		assay.assay_id be6d4752-5c20-4300-9c8c-caeb898f1b2a
 
-	sample.well.name POMC_GFP_I_40
-	sample.ena_sample ERS639375
+	sample.cell_suspension.well.name POMC_GFP_I_40
 	sample.name POMC+ from mouse 40
-	sample.submitter_id ERS639375
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 40
-	sample.id 5d3ac4c2-c3eb-4f48-ad9c-cd4359921d31
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 40
+	sample.sample_id 5d3ac4c2-c3eb-4f48-ad9c-cd4359921d31
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866225/ERR866225_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866225/ERR866225_2.fastq.gz
-		assay.seq.ena_experiment ERX945853
-		assay.seq.ena_run ERR866225
-		assay.id a4113017-707b-44db-8c8d-d886874e57da
+		assay.seq.insdc_experiment ERX945853
+		assay.seq.insdc_run ERR866225
+		assay.assay_id a4113017-707b-44db-8c8d-d886874e57da
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866321/ERR866321_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866321/ERR866321_2.fastq.gz
-		assay.seq.ena_experiment ERX945949
-		assay.seq.ena_run ERR866321
-		assay.id f60ef5b7-f0b6-4a92-a9c7-312f09f7c6a4
+		assay.seq.insdc_experiment ERX945949
+		assay.seq.insdc_run ERR866321
+		assay.assay_id f60ef5b7-f0b6-4a92-a9c7-312f09f7c6a4
 
-	sample.well.name POMC_GFP_I_41
-	sample.ena_sample ERS639376
+	sample.cell_suspension.well.name POMC_GFP_I_41
 	sample.name POMC+ from mouse 41
-	sample.submitter_id ERS639376
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 41
-	sample.id 20311de4-48e4-4496-be05-e1f19071ca60
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 41
+	sample.sample_id 20311de4-48e4-4496-be05-e1f19071ca60
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866226/ERR866226_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866226/ERR866226_2.fastq.gz
-		assay.seq.ena_experiment ERX945854
-		assay.seq.ena_run ERR866226
-		assay.id d746cc59-6049-4158-ae44-55bc58d1e8ab
+		assay.seq.insdc_experiment ERX945854
+		assay.seq.insdc_run ERR866226
+		assay.assay_id d746cc59-6049-4158-ae44-55bc58d1e8ab
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866322/ERR866322_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866322/ERR866322_2.fastq.gz
-		assay.seq.ena_experiment ERX945950
-		assay.seq.ena_run ERR866322
-		assay.id b68264e0-a001-4e31-a3a5-762bc92ad7e8
+		assay.seq.insdc_experiment ERX945950
+		assay.seq.insdc_run ERR866322
+		assay.assay_id b68264e0-a001-4e31-a3a5-762bc92ad7e8
 
-	sample.well.name POMC_GFP_I_42
-	sample.ena_sample ERS639377
+	sample.cell_suspension.well.name POMC_GFP_I_42
 	sample.name POMC+ from mouse 42
-	sample.submitter_id ERS639377
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 42
-	sample.id 49f80d67-e325-4730-8a9d-72ebd19c244f
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 42
+	sample.sample_id 49f80d67-e325-4730-8a9d-72ebd19c244f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866227/ERR866227_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866227/ERR866227_2.fastq.gz
-		assay.seq.ena_experiment ERX945855
-		assay.seq.ena_run ERR866227
-		assay.id f7092ed3-ea73-4cca-9754-6cf17ef0d62f
+		assay.seq.insdc_experiment ERX945855
+		assay.seq.insdc_run ERR866227
+		assay.assay_id f7092ed3-ea73-4cca-9754-6cf17ef0d62f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866323/ERR866323_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866323/ERR866323_2.fastq.gz
-		assay.seq.ena_experiment ERX945951
-		assay.seq.ena_run ERR866323
-		assay.id dc044501-46c0-4fa2-9cbd-efc30386901c
+		assay.seq.insdc_experiment ERX945951
+		assay.seq.insdc_run ERR866323
+		assay.assay_id dc044501-46c0-4fa2-9cbd-efc30386901c
 
-	sample.well.name POMC_GFP_I_43
-	sample.ena_sample ERS639378
+	sample.cell_suspension.well.name POMC_GFP_I_43
 	sample.name POMC+ from mouse 43
-	sample.submitter_id ERS639378
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 43
-	sample.id e87a21d8-4ed8-4647-adaa-fa7053c4c8d5
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 43
+	sample.sample_id e87a21d8-4ed8-4647-adaa-fa7053c4c8d5
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866228/ERR866228_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866228/ERR866228_2.fastq.gz
-		assay.seq.ena_experiment ERX945856
-		assay.seq.ena_run ERR866228
-		assay.id a8c65145-124b-4eef-81e1-0cfdbbf88d3f
+		assay.seq.insdc_experiment ERX945856
+		assay.seq.insdc_run ERR866228
+		assay.assay_id a8c65145-124b-4eef-81e1-0cfdbbf88d3f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866324/ERR866324_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866324/ERR866324_2.fastq.gz
-		assay.seq.ena_experiment ERX945952
-		assay.seq.ena_run ERR866324
-		assay.id 06b6e430-9365-4824-adb5-553e50123f86
+		assay.seq.insdc_experiment ERX945952
+		assay.seq.insdc_run ERR866324
+		assay.assay_id 06b6e430-9365-4824-adb5-553e50123f86
 
-	sample.well.name POMC_GFP_I_44
-	sample.ena_sample ERS639379
+	sample.cell_suspension.well.name POMC_GFP_I_44
 	sample.name POMC+ from mouse 44
-	sample.submitter_id ERS639379
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 44
-	sample.id 2d915f44-1477-454f-a0b6-33907562889e
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 44
+	sample.sample_id 2d915f44-1477-454f-a0b6-33907562889e
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866229/ERR866229_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866229/ERR866229_2.fastq.gz
-		assay.seq.ena_experiment ERX945857
-		assay.seq.ena_run ERR866229
-		assay.id 9840a009-83db-4776-a261-cb81e2cff957
+		assay.seq.insdc_experiment ERX945857
+		assay.seq.insdc_run ERR866229
+		assay.assay_id 9840a009-83db-4776-a261-cb81e2cff957
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866325/ERR866325_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866325/ERR866325_2.fastq.gz
-		assay.seq.ena_experiment ERX945953
-		assay.seq.ena_run ERR866325
-		assay.id ca38664e-ee5e-40fc-a1dd-8dc4478d6162
+		assay.seq.insdc_experiment ERX945953
+		assay.seq.insdc_run ERR866325
+		assay.assay_id ca38664e-ee5e-40fc-a1dd-8dc4478d6162
 
-	sample.well.name POMC_GFP_I_45
-	sample.ena_sample ERS639380
+	sample.cell_suspension.well.name POMC_GFP_I_45
 	sample.name POMC+ from mouse 45
-	sample.submitter_id ERS639380
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 45
-	sample.id fe6a8d2e-a058-4191-be8a-e7ff06144f8c
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 45
+	sample.sample_id fe6a8d2e-a058-4191-be8a-e7ff06144f8c
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866230/ERR866230_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866230/ERR866230_2.fastq.gz
-		assay.seq.ena_experiment ERX945858
-		assay.seq.ena_run ERR866230
-		assay.id 5b04f342-5c75-47ff-b264-e00ed1698fb7
+		assay.seq.insdc_experiment ERX945858
+		assay.seq.insdc_run ERR866230
+		assay.assay_id 5b04f342-5c75-47ff-b264-e00ed1698fb7
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866326/ERR866326_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866326/ERR866326_2.fastq.gz
-		assay.seq.ena_experiment ERX945954
-		assay.seq.ena_run ERR866326
-		assay.id 5804dd4e-c14a-40cb-9086-9d5504921ffc
+		assay.seq.insdc_experiment ERX945954
+		assay.seq.insdc_run ERR866326
+		assay.assay_id 5804dd4e-c14a-40cb-9086-9d5504921ffc
 
-	sample.well.name POMC_GFP_I_46
-	sample.ena_sample ERS639381
+	sample.cell_suspension.well.name POMC_GFP_I_46
 	sample.name POMC+ from mouse 46
-	sample.submitter_id ERS639381
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 46
-	sample.id 9dcc02f2-36f6-4479-9ba5-21aa2e9bd3df
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 46
+	sample.sample_id 9dcc02f2-36f6-4479-9ba5-21aa2e9bd3df
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866231/ERR866231_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866231/ERR866231_2.fastq.gz
-		assay.seq.ena_experiment ERX945859
-		assay.seq.ena_run ERR866231
-		assay.id ffdad876-73ba-4bbe-8dce-311e4a1592ea
+		assay.seq.insdc_experiment ERX945859
+		assay.seq.insdc_run ERR866231
+		assay.assay_id ffdad876-73ba-4bbe-8dce-311e4a1592ea
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866327/ERR866327_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866327/ERR866327_2.fastq.gz
-		assay.seq.ena_experiment ERX945955
-		assay.seq.ena_run ERR866327
-		assay.id 0225a365-e990-4ffc-a16e-eb4659ae54f2
+		assay.seq.insdc_experiment ERX945955
+		assay.seq.insdc_run ERR866327
+		assay.assay_id 0225a365-e990-4ffc-a16e-eb4659ae54f2
 
-	sample.well.name POMC_GFP_I_47
-	sample.ena_sample ERS639382
+	sample.cell_suspension.well.name POMC_GFP_I_47
 	sample.name POMC+ from mouse 47
-	sample.submitter_id ERS639382
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 47
-	sample.id 7c873826-6a84-40d7-bf5d-27b96b98155d
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 47
+	sample.sample_id 7c873826-6a84-40d7-bf5d-27b96b98155d
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866232/ERR866232_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866232/ERR866232_2.fastq.gz
-		assay.seq.ena_experiment ERX945860
-		assay.seq.ena_run ERR866232
-		assay.id aeaf4e7d-370c-4dd6-9028-e816f80bbc2d
+		assay.seq.insdc_experiment ERX945860
+		assay.seq.insdc_run ERR866232
+		assay.assay_id aeaf4e7d-370c-4dd6-9028-e816f80bbc2d
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866328/ERR866328_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866328/ERR866328_2.fastq.gz
-		assay.seq.ena_experiment ERX945956
-		assay.seq.ena_run ERR866328
-		assay.id 3a2fb988-3522-4d30-9b2f-5667a499c074
+		assay.seq.insdc_experiment ERX945956
+		assay.seq.insdc_run ERR866328
+		assay.assay_id 3a2fb988-3522-4d30-9b2f-5667a499c074
 
-	sample.well.name POMC_GFP_I_48
-	sample.ena_sample ERS639383
+	sample.cell_suspension.well.name POMC_GFP_I_48
 	sample.name POMC+ from mouse 48
-	sample.submitter_id ERS639383
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 48
-	sample.id 1ef04d40-e057-40f8-911e-f3097e70c214
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 48
+	sample.sample_id 1ef04d40-e057-40f8-911e-f3097e70c214
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866233/ERR866233_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866233/ERR866233_2.fastq.gz
-		assay.seq.ena_experiment ERX945861
-		assay.seq.ena_run ERR866233
-		assay.id d45ad12a-55fd-479c-8667-1ea1ffc553c6
+		assay.seq.insdc_experiment ERX945861
+		assay.seq.insdc_run ERR866233
+		assay.assay_id d45ad12a-55fd-479c-8667-1ea1ffc553c6
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866329/ERR866329_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866329/ERR866329_2.fastq.gz
-		assay.seq.ena_experiment ERX945957
-		assay.seq.ena_run ERR866329
-		assay.id ab67fa7a-43f3-4aa0-9c51-3f3a51bcaafd
+		assay.seq.insdc_experiment ERX945957
+		assay.seq.insdc_run ERR866329
+		assay.assay_id ab67fa7a-43f3-4aa0-9c51-3f3a51bcaafd
 
-	sample.well.name POMC_GFP_I_49
-	sample.ena_sample ERS639384
+	sample.cell_suspension.well.name POMC_GFP_I_49
 	sample.name POMC+ from mouse 49
-	sample.submitter_id ERS639384
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 49
-	sample.id e25e3aa0-62bd-4166-a4b1-a481f4ca249a
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 49
+	sample.sample_id e25e3aa0-62bd-4166-a4b1-a481f4ca249a
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866234/ERR866234_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866234/ERR866234_2.fastq.gz
-		assay.seq.ena_experiment ERX945862
-		assay.seq.ena_run ERR866234
-		assay.id 8216d832-b62a-4221-9e1a-b7df81ee2b72
+		assay.seq.insdc_experiment ERX945862
+		assay.seq.insdc_run ERR866234
+		assay.assay_id 8216d832-b62a-4221-9e1a-b7df81ee2b72
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866330/ERR866330_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866330/ERR866330_2.fastq.gz
-		assay.seq.ena_experiment ERX945958
-		assay.seq.ena_run ERR866330
-		assay.id c697d510-8c4e-4bf1-a4de-e446e243d0f3
+		assay.seq.insdc_experiment ERX945958
+		assay.seq.insdc_run ERR866330
+		assay.assay_id c697d510-8c4e-4bf1-a4de-e446e243d0f3
 
-	sample.well.name POMC_GFP_I_50
-	sample.ena_sample ERS639385
+	sample.cell_suspension.well.name POMC_GFP_I_50
 	sample.name POMC+ from mouse 50
-	sample.submitter_id ERS639385
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 50
-	sample.id 87647c51-baaf-4d85-aad4-55307c30668c
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 50
+	sample.sample_id 87647c51-baaf-4d85-aad4-55307c30668c
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866235/ERR866235_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866235/ERR866235_2.fastq.gz
-		assay.seq.ena_experiment ERX945863
-		assay.seq.ena_run ERR866235
-		assay.id ecf84442-3195-42a3-9cb5-447d498218fa
+		assay.seq.insdc_experiment ERX945863
+		assay.seq.insdc_run ERR866235
+		assay.assay_id ecf84442-3195-42a3-9cb5-447d498218fa
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866331/ERR866331_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866331/ERR866331_2.fastq.gz
-		assay.seq.ena_experiment ERX945959
-		assay.seq.ena_run ERR866331
-		assay.id 469b4fe0-8dff-4216-bb7b-3c9ea61ed505
+		assay.seq.insdc_experiment ERX945959
+		assay.seq.insdc_run ERR866331
+		assay.assay_id 469b4fe0-8dff-4216-bb7b-3c9ea61ed505
 
-	sample.well.name POMC_GFP_I_51
-	sample.ena_sample ERS639386
+	sample.cell_suspension.well.name POMC_GFP_I_51
 	sample.name POMC+ from mouse 51
-	sample.submitter_id ERS639386
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 51
-	sample.id 8503eb33-e2e3-4dad-92eb-40702a1953fb
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 51
+	sample.sample_id 8503eb33-e2e3-4dad-92eb-40702a1953fb
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866236/ERR866236_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866236/ERR866236_2.fastq.gz
-		assay.seq.ena_experiment ERX945864
-		assay.seq.ena_run ERR866236
-		assay.id a2a841fe-5a5b-4918-8cde-5b49c60eb674
+		assay.seq.insdc_experiment ERX945864
+		assay.seq.insdc_run ERR866236
+		assay.assay_id a2a841fe-5a5b-4918-8cde-5b49c60eb674
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866332/ERR866332_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866332/ERR866332_2.fastq.gz
-		assay.seq.ena_experiment ERX945960
-		assay.seq.ena_run ERR866332
-		assay.id 7195fcf6-71c1-4baa-ba45-53a9bb464880
+		assay.seq.insdc_experiment ERX945960
+		assay.seq.insdc_run ERR866332
+		assay.assay_id 7195fcf6-71c1-4baa-ba45-53a9bb464880
 
-	sample.well.name POMC_GFP_I_52
-	sample.ena_sample ERS639387
+	sample.cell_suspension.well.name POMC_GFP_I_52
 	sample.name POMC+ from mouse 52
-	sample.submitter_id ERS639387
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 52
-	sample.id 93a4580c-116d-435c-a6d5-e0d7483e03d2
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 52
+	sample.sample_id 93a4580c-116d-435c-a6d5-e0d7483e03d2
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866237/ERR866237_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866237/ERR866237_2.fastq.gz
-		assay.seq.ena_experiment ERX945865
-		assay.seq.ena_run ERR866237
-		assay.id 1ec56bbb-17e1-4785-974d-6a9851ef78df
+		assay.seq.insdc_experiment ERX945865
+		assay.seq.insdc_run ERR866237
+		assay.assay_id 1ec56bbb-17e1-4785-974d-6a9851ef78df
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866333/ERR866333_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866333/ERR866333_2.fastq.gz
-		assay.seq.ena_experiment ERX945961
-		assay.seq.ena_run ERR866333
-		assay.id 67ba714c-90ec-478f-ad44-b65cc2d2d9e1
+		assay.seq.insdc_experiment ERX945961
+		assay.seq.insdc_run ERR866333
+		assay.assay_id 67ba714c-90ec-478f-ad44-b65cc2d2d9e1
 
-	sample.well.name POMC_GFP_I_53
-	sample.ena_sample ERS639388
+	sample.cell_suspension.well.name POMC_GFP_I_53
 	sample.name POMC+ from mouse 53
-	sample.submitter_id ERS639388
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 53
-	sample.id 718780e4-b6f4-4278-9936-dc6f14c813f5
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 53
+	sample.sample_id 718780e4-b6f4-4278-9936-dc6f14c813f5
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866238/ERR866238_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866238/ERR866238_2.fastq.gz
-		assay.seq.ena_experiment ERX945866
-		assay.seq.ena_run ERR866238
-		assay.id 74f00835-0dcd-4c9b-bf77-5867d1d2f7cc
+		assay.seq.insdc_experiment ERX945866
+		assay.seq.insdc_run ERR866238
+		assay.assay_id 74f00835-0dcd-4c9b-bf77-5867d1d2f7cc
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866334/ERR866334_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866334/ERR866334_2.fastq.gz
-		assay.seq.ena_experiment ERX945962
-		assay.seq.ena_run ERR866334
-		assay.id 5bc4a3c3-b1ff-45b9-a18f-398d0d52ee42
+		assay.seq.insdc_experiment ERX945962
+		assay.seq.insdc_run ERR866334
+		assay.assay_id 5bc4a3c3-b1ff-45b9-a18f-398d0d52ee42
 
-	sample.well.name POMC_GFP_I_54
-	sample.ena_sample ERS639389
+	sample.cell_suspension.well.name POMC_GFP_I_54
 	sample.name POMC+ from mouse 54
-	sample.submitter_id ERS639389
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 54
-	sample.id 6fda505f-a2dd-4497-a6bc-4cdb6abc3f2c
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 54
+	sample.sample_id 6fda505f-a2dd-4497-a6bc-4cdb6abc3f2c
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866239/ERR866239_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866239/ERR866239_2.fastq.gz
-		assay.seq.ena_experiment ERX945867
-		assay.seq.ena_run ERR866239
-		assay.id 11d50ddf-7bf2-4fd5-8822-d6de944830d9
+		assay.seq.insdc_experiment ERX945867
+		assay.seq.insdc_run ERR866239
+		assay.assay_id 11d50ddf-7bf2-4fd5-8822-d6de944830d9
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866335/ERR866335_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866335/ERR866335_2.fastq.gz
-		assay.seq.ena_experiment ERX945963
-		assay.seq.ena_run ERR866335
-		assay.id d24f8c34-0db0-4a9d-9a5e-54d46d6603dd
+		assay.seq.insdc_experiment ERX945963
+		assay.seq.insdc_run ERR866335
+		assay.assay_id d24f8c34-0db0-4a9d-9a5e-54d46d6603dd
 
-	sample.well.name POMC_GFP_I_55
-	sample.ena_sample ERS639390
+	sample.cell_suspension.well.name POMC_GFP_I_55
 	sample.name POMC+ from mouse 55
-	sample.submitter_id ERS639390
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 55
-	sample.id 22dafb5e-c25e-49eb-8b99-e2faaa74818d
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 55
+	sample.sample_id 22dafb5e-c25e-49eb-8b99-e2faaa74818d
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866240/ERR866240_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866240/ERR866240_2.fastq.gz
-		assay.seq.ena_experiment ERX945868
-		assay.seq.ena_run ERR866240
-		assay.id 51b3dffc-fd40-448c-b7be-ef061f6a27c4
+		assay.seq.insdc_experiment ERX945868
+		assay.seq.insdc_run ERR866240
+		assay.assay_id 51b3dffc-fd40-448c-b7be-ef061f6a27c4
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866336/ERR866336_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866336/ERR866336_2.fastq.gz
-		assay.seq.ena_experiment ERX945964
-		assay.seq.ena_run ERR866336
-		assay.id d9de2db0-c211-4c34-9dae-29745ee44311
+		assay.seq.insdc_experiment ERX945964
+		assay.seq.insdc_run ERR866336
+		assay.assay_id d9de2db0-c211-4c34-9dae-29745ee44311
 
-	sample.well.name POMC_GFP_I_56
-	sample.ena_sample ERS639391
+	sample.cell_suspension.well.name POMC_GFP_I_56
 	sample.name POMC+ from mouse 56
-	sample.submitter_id ERS639391
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 56
-	sample.id 8464cc1f-7f65-4730-aa50-665f23682c8d
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 56
+	sample.sample_id 8464cc1f-7f65-4730-aa50-665f23682c8d
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866241/ERR866241_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866241/ERR866241_2.fastq.gz
-		assay.seq.ena_experiment ERX945869
-		assay.seq.ena_run ERR866241
-		assay.id 8b6279c6-8b3b-4152-a482-49592ae042a7
+		assay.seq.insdc_experiment ERX945869
+		assay.seq.insdc_run ERR866241
+		assay.assay_id 8b6279c6-8b3b-4152-a482-49592ae042a7
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866337/ERR866337_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866337/ERR866337_2.fastq.gz
-		assay.seq.ena_experiment ERX945965
-		assay.seq.ena_run ERR866337
-		assay.id c109c110-ae5d-46bf-9e04-6fbe075f2313
+		assay.seq.insdc_experiment ERX945965
+		assay.seq.insdc_run ERR866337
+		assay.assay_id c109c110-ae5d-46bf-9e04-6fbe075f2313
 
-	sample.well.name POMC_GFP_I_57
-	sample.ena_sample ERS639392
+	sample.cell_suspension.well.name POMC_GFP_I_57
 	sample.name POMC+ from mouse 57
-	sample.submitter_id ERS639392
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 57
-	sample.id 018db573-bff1-43e5-b8b6-be6c73e46cc4
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 57
+	sample.sample_id 018db573-bff1-43e5-b8b6-be6c73e46cc4
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866242/ERR866242_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866242/ERR866242_2.fastq.gz
-		assay.seq.ena_experiment ERX945870
-		assay.seq.ena_run ERR866242
-		assay.id bb045592-af3d-4b5b-a172-2be6ce1f9531
+		assay.seq.insdc_experiment ERX945870
+		assay.seq.insdc_run ERR866242
+		assay.assay_id bb045592-af3d-4b5b-a172-2be6ce1f9531
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866338/ERR866338_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866338/ERR866338_2.fastq.gz
-		assay.seq.ena_experiment ERX945966
-		assay.seq.ena_run ERR866338
-		assay.id e4d13e14-b362-4b10-ac4a-57a5da837ced
+		assay.seq.insdc_experiment ERX945966
+		assay.seq.insdc_run ERR866338
+		assay.assay_id e4d13e14-b362-4b10-ac4a-57a5da837ced
 
-	sample.well.name POMC_GFP_I_58
-	sample.ena_sample ERS639393
+	sample.cell_suspension.well.name POMC_GFP_I_58
 	sample.name POMC+ from mouse 58
-	sample.submitter_id ERS639393
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 58
-	sample.id 314f2539-700e-41bf-b74b-7580a41a813d
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 58
+	sample.sample_id 314f2539-700e-41bf-b74b-7580a41a813d
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866243/ERR866243_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866243/ERR866243_2.fastq.gz
-		assay.seq.ena_experiment ERX945871
-		assay.seq.ena_run ERR866243
-		assay.id 0d0b0bd0-1ba4-43c8-993c-3c2626450ea5
+		assay.seq.insdc_experiment ERX945871
+		assay.seq.insdc_run ERR866243
+		assay.assay_id 0d0b0bd0-1ba4-43c8-993c-3c2626450ea5
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866339/ERR866339_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866339/ERR866339_2.fastq.gz
-		assay.seq.ena_experiment ERX945967
-		assay.seq.ena_run ERR866339
-		assay.id 3b8406cd-d985-4aad-b190-19badcd3c0c9
+		assay.seq.insdc_experiment ERX945967
+		assay.seq.insdc_run ERR866339
+		assay.assay_id 3b8406cd-d985-4aad-b190-19badcd3c0c9
 
-	sample.well.name POMC_GFP_I_59
-	sample.ena_sample ERS639394
+	sample.cell_suspension.well.name POMC_GFP_I_59
 	sample.name POMC+ from mouse 59
-	sample.submitter_id ERS639394
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 59
-	sample.id 04a252dd-ff8e-4d55-91da-4f3de3d0b93b
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 59
+	sample.sample_id 04a252dd-ff8e-4d55-91da-4f3de3d0b93b
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866244/ERR866244_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866244/ERR866244_2.fastq.gz
-		assay.seq.ena_experiment ERX945872
-		assay.seq.ena_run ERR866244
-		assay.id c211605c-3a61-4872-b587-6c57c546d943
+		assay.seq.insdc_experiment ERX945872
+		assay.seq.insdc_run ERR866244
+		assay.assay_id c211605c-3a61-4872-b587-6c57c546d943
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866340/ERR866340_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866340/ERR866340_2.fastq.gz
-		assay.seq.ena_experiment ERX945968
-		assay.seq.ena_run ERR866340
-		assay.id 28117b50-1a39-4ae0-bf79-746d85262004
+		assay.seq.insdc_experiment ERX945968
+		assay.seq.insdc_run ERR866340
+		assay.assay_id 28117b50-1a39-4ae0-bf79-746d85262004
 
-	sample.well.name POMC_GFP_I_60
-	sample.ena_sample ERS639395
+	sample.cell_suspension.well.name POMC_GFP_I_60
 	sample.name POMC+ from mouse 60
-	sample.submitter_id ERS639395
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 60
-	sample.id 31fa70f7-9e48-4a22-b030-10b2497a9b87
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 60
+	sample.sample_id 31fa70f7-9e48-4a22-b030-10b2497a9b87
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866245/ERR866245_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866245/ERR866245_2.fastq.gz
-		assay.seq.ena_experiment ERX945873
-		assay.seq.ena_run ERR866245
-		assay.id b46de011-aa13-42b6-9524-df005c5119dd
+		assay.seq.insdc_experiment ERX945873
+		assay.seq.insdc_run ERR866245
+		assay.assay_id b46de011-aa13-42b6-9524-df005c5119dd
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866341/ERR866341_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866341/ERR866341_2.fastq.gz
-		assay.seq.ena_experiment ERX945969
-		assay.seq.ena_run ERR866341
-		assay.id 19cb8c65-5c8a-4f04-9ba7-dd1570b7df12
+		assay.seq.insdc_experiment ERX945969
+		assay.seq.insdc_run ERR866341
+		assay.assay_id 19cb8c65-5c8a-4f04-9ba7-dd1570b7df12
 
-	sample.well.name POMC_GFP_I_61
-	sample.ena_sample ERS639396
+	sample.cell_suspension.well.name POMC_GFP_I_61
 	sample.name POMC+ from mouse 61
-	sample.submitter_id ERS639396
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 61
-	sample.id d5315e89-0745-417c-8e99-1c1229c117bb
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 61
+	sample.sample_id d5315e89-0745-417c-8e99-1c1229c117bb
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866246/ERR866246_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866246/ERR866246_2.fastq.gz
-		assay.seq.ena_experiment ERX945874
-		assay.seq.ena_run ERR866246
-		assay.id 1813129e-bf20-4a81-8a2a-00a7ffe6e445
+		assay.seq.insdc_experiment ERX945874
+		assay.seq.insdc_run ERR866246
+		assay.assay_id 1813129e-bf20-4a81-8a2a-00a7ffe6e445
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866342/ERR866342_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866342/ERR866342_2.fastq.gz
-		assay.seq.ena_experiment ERX945970
-		assay.seq.ena_run ERR866342
-		assay.id 60e11054-b34f-40b5-b26b-4cbd1b188a98
+		assay.seq.insdc_experiment ERX945970
+		assay.seq.insdc_run ERR866342
+		assay.assay_id 60e11054-b34f-40b5-b26b-4cbd1b188a98
 
-	sample.well.name POMC_GFP_I_62
-	sample.ena_sample ERS639397
+	sample.cell_suspension.well.name POMC_GFP_I_62
 	sample.name POMC+ from mouse 62
-	sample.submitter_id ERS639397
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 62
-	sample.id 0c4f5579-94db-4ed5-869c-64e17871d3ff
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 62
+	sample.sample_id 0c4f5579-94db-4ed5-869c-64e17871d3ff
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866247/ERR866247_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866247/ERR866247_2.fastq.gz
-		assay.seq.ena_experiment ERX945875
-		assay.seq.ena_run ERR866247
-		assay.id d3f4efc3-ed17-4cd0-a32c-7d58da1c1b94
+		assay.seq.insdc_experiment ERX945875
+		assay.seq.insdc_run ERR866247
+		assay.assay_id d3f4efc3-ed17-4cd0-a32c-7d58da1c1b94
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866343/ERR866343_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866343/ERR866343_2.fastq.gz
-		assay.seq.ena_experiment ERX945971
-		assay.seq.ena_run ERR866343
-		assay.id 02f76cff-a854-42e0-a606-50a3abd80fc5
+		assay.seq.insdc_experiment ERX945971
+		assay.seq.insdc_run ERR866343
+		assay.assay_id 02f76cff-a854-42e0-a606-50a3abd80fc5
 
-	sample.well.name POMC_GFP_I_63
-	sample.ena_sample ERS639398
+	sample.cell_suspension.well.name POMC_GFP_I_63
 	sample.name POMC+ from mouse 63
-	sample.submitter_id ERS639398
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 63
-	sample.id 03189cac-af38-4e2c-9da1-b120cc5dd20d
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 63
+	sample.sample_id 03189cac-af38-4e2c-9da1-b120cc5dd20d
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866248/ERR866248_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866248/ERR866248_2.fastq.gz
-		assay.seq.ena_experiment ERX945876
-		assay.seq.ena_run ERR866248
-		assay.id 5205979c-2ff1-4fcd-9cec-8201660f3ead
+		assay.seq.insdc_experiment ERX945876
+		assay.seq.insdc_run ERR866248
+		assay.assay_id 5205979c-2ff1-4fcd-9cec-8201660f3ead
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866344/ERR866344_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866344/ERR866344_2.fastq.gz
-		assay.seq.ena_experiment ERX945972
-		assay.seq.ena_run ERR866344
-		assay.id 75a08ccd-5d40-4919-9f2b-d96271142542
+		assay.seq.insdc_experiment ERX945972
+		assay.seq.insdc_run ERR866344
+		assay.assay_id 75a08ccd-5d40-4919-9f2b-d96271142542
 
-	sample.well.name POMC_GFP_I_64
-	sample.ena_sample ERS639399
+	sample.cell_suspension.well.name POMC_GFP_I_64
 	sample.name POMC+ from mouse 64
-	sample.submitter_id ERS639399
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 64
-	sample.id b4dd5f0e-d139-4c2e-af3d-dbc44db2b66e
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 64
+	sample.sample_id b4dd5f0e-d139-4c2e-af3d-dbc44db2b66e
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866249/ERR866249_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866249/ERR866249_2.fastq.gz
-		assay.seq.ena_experiment ERX945877
-		assay.seq.ena_run ERR866249
-		assay.id e3db0f47-2850-428a-a5a4-d4df46f3512f
+		assay.seq.insdc_experiment ERX945877
+		assay.seq.insdc_run ERR866249
+		assay.assay_id e3db0f47-2850-428a-a5a4-d4df46f3512f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866345/ERR866345_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866345/ERR866345_2.fastq.gz
-		assay.seq.ena_experiment ERX945973
-		assay.seq.ena_run ERR866345
-		assay.id 18c50b04-76ac-4eff-ab09-4b9ec3355fdf
+		assay.seq.insdc_experiment ERX945973
+		assay.seq.insdc_run ERR866345
+		assay.assay_id 18c50b04-76ac-4eff-ab09-4b9ec3355fdf
 
-	sample.well.name POMC_GFP_I_65
-	sample.ena_sample ERS639400
+	sample.cell_suspension.well.name POMC_GFP_I_65
 	sample.name POMC+ from mouse 65
-	sample.submitter_id ERS639400
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 65
-	sample.id f3984119-e29e-4ba0-b6c5-6e792a595fd4
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 65
+	sample.sample_id f3984119-e29e-4ba0-b6c5-6e792a595fd4
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866250/ERR866250_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866250/ERR866250_2.fastq.gz
-		assay.seq.ena_experiment ERX945878
-		assay.seq.ena_run ERR866250
-		assay.id 0452c06d-78dd-4adf-adba-187d9dfcbe1f
+		assay.seq.insdc_experiment ERX945878
+		assay.seq.insdc_run ERR866250
+		assay.assay_id 0452c06d-78dd-4adf-adba-187d9dfcbe1f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866346/ERR866346_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866346/ERR866346_2.fastq.gz
-		assay.seq.ena_experiment ERX945974
-		assay.seq.ena_run ERR866346
-		assay.id 4f568010-a877-440e-9a25-45e5a0fd75d7
+		assay.seq.insdc_experiment ERX945974
+		assay.seq.insdc_run ERR866346
+		assay.assay_id 4f568010-a877-440e-9a25-45e5a0fd75d7
 
-	sample.well.name POMC_GFP_I_66
-	sample.ena_sample ERS639401
+	sample.cell_suspension.well.name POMC_GFP_I_66
 	sample.name POMC+ from mouse 66
-	sample.submitter_id ERS639401
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 66
-	sample.id 82921835-e952-4d8a-a073-9e5c6f30abf9
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 66
+	sample.sample_id 82921835-e952-4d8a-a073-9e5c6f30abf9
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866251/ERR866251_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866251/ERR866251_2.fastq.gz
-		assay.seq.ena_experiment ERX945879
-		assay.seq.ena_run ERR866251
-		assay.id 8bca388c-049d-42d1-bd73-38bf1c56561f
+		assay.seq.insdc_experiment ERX945879
+		assay.seq.insdc_run ERR866251
+		assay.assay_id 8bca388c-049d-42d1-bd73-38bf1c56561f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866347/ERR866347_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866347/ERR866347_2.fastq.gz
-		assay.seq.ena_experiment ERX945975
-		assay.seq.ena_run ERR866347
-		assay.id e5eb5591-f899-4176-828a-b9bb6047eb09
+		assay.seq.insdc_experiment ERX945975
+		assay.seq.insdc_run ERR866347
+		assay.assay_id e5eb5591-f899-4176-828a-b9bb6047eb09
 
-	sample.well.name POMC_GFP_I_67
-	sample.ena_sample ERS639402
+	sample.cell_suspension.well.name POMC_GFP_I_67
 	sample.name POMC+ from mouse 67
-	sample.submitter_id ERS639402
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 67
-	sample.id 70b964a9-9d23-4bc7-bc4c-54ca1ae8a346
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 67
+	sample.sample_id 70b964a9-9d23-4bc7-bc4c-54ca1ae8a346
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866252/ERR866252_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866252/ERR866252_2.fastq.gz
-		assay.seq.ena_experiment ERX945880
-		assay.seq.ena_run ERR866252
-		assay.id b338cf60-e409-480c-ae1a-a36652b603a4
+		assay.seq.insdc_experiment ERX945880
+		assay.seq.insdc_run ERR866252
+		assay.assay_id b338cf60-e409-480c-ae1a-a36652b603a4
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866348/ERR866348_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866348/ERR866348_2.fastq.gz
-		assay.seq.ena_experiment ERX945976
-		assay.seq.ena_run ERR866348
-		assay.id 73465355-23b9-4756-9890-589991e2f556
+		assay.seq.insdc_experiment ERX945976
+		assay.seq.insdc_run ERR866348
+		assay.assay_id 73465355-23b9-4756-9890-589991e2f556
 
-	sample.well.name POMC_GFP_I_68
-	sample.ena_sample ERS639403
+	sample.cell_suspension.well.name POMC_GFP_I_68
 	sample.name POMC+ from mouse 68
-	sample.submitter_id ERS639403
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 68
-	sample.id aac4c183-e29f-4f63-82bf-80c1c0867313
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 68
+	sample.sample_id aac4c183-e29f-4f63-82bf-80c1c0867313
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866253/ERR866253_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866253/ERR866253_2.fastq.gz
-		assay.seq.ena_experiment ERX945881
-		assay.seq.ena_run ERR866253
-		assay.id da7b93f3-299b-41a4-96ad-755dded5727e
+		assay.seq.insdc_experiment ERX945881
+		assay.seq.insdc_run ERR866253
+		assay.assay_id da7b93f3-299b-41a4-96ad-755dded5727e
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866349/ERR866349_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866349/ERR866349_2.fastq.gz
-		assay.seq.ena_experiment ERX945977
-		assay.seq.ena_run ERR866349
-		assay.id 21438291-5a90-4471-bf19-58b7408a3bb4
+		assay.seq.insdc_experiment ERX945977
+		assay.seq.insdc_run ERR866349
+		assay.assay_id 21438291-5a90-4471-bf19-58b7408a3bb4
 
-	sample.well.name POMC_GFP_I_69
-	sample.ena_sample ERS639404
+	sample.cell_suspension.well.name POMC_GFP_I_69
 	sample.name POMC+ from mouse 69
-	sample.submitter_id ERS639404
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 69
-	sample.id fabad76d-4b1f-4d5f-bb1e-7b97c9063b5b
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 69
+	sample.sample_id fabad76d-4b1f-4d5f-bb1e-7b97c9063b5b
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866254/ERR866254_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866254/ERR866254_2.fastq.gz
-		assay.seq.ena_experiment ERX945882
-		assay.seq.ena_run ERR866254
-		assay.id e934f4e1-4526-4786-8b16-3ea98169ba79
+		assay.seq.insdc_experiment ERX945882
+		assay.seq.insdc_run ERR866254
+		assay.assay_id e934f4e1-4526-4786-8b16-3ea98169ba79
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866350/ERR866350_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866350/ERR866350_2.fastq.gz
-		assay.seq.ena_experiment ERX945978
-		assay.seq.ena_run ERR866350
-		assay.id 1f050bea-9792-4d7e-bae8-184c981c36c6
+		assay.seq.insdc_experiment ERX945978
+		assay.seq.insdc_run ERR866350
+		assay.assay_id 1f050bea-9792-4d7e-bae8-184c981c36c6
 
-	sample.well.name POMC_GFP_I_70
-	sample.ena_sample ERS639405
+	sample.cell_suspension.well.name POMC_GFP_I_70
 	sample.name POMC+ from mouse 70
-	sample.submitter_id ERS639405
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 70
-	sample.id 447f256d-d3e8-4ac7-8c70-42c8fb5052e1
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 70
+	sample.sample_id 447f256d-d3e8-4ac7-8c70-42c8fb5052e1
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866255/ERR866255_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866255/ERR866255_2.fastq.gz
-		assay.seq.ena_experiment ERX945883
-		assay.seq.ena_run ERR866255
-		assay.id eae44db8-dc5a-4911-979e-cb098b1a868f
+		assay.seq.insdc_experiment ERX945883
+		assay.seq.insdc_run ERR866255
+		assay.assay_id eae44db8-dc5a-4911-979e-cb098b1a868f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866351/ERR866351_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866351/ERR866351_2.fastq.gz
-		assay.seq.ena_experiment ERX945979
-		assay.seq.ena_run ERR866351
-		assay.id cabe59c2-8a02-4bf3-ab06-d8b8ddea3e3d
+		assay.seq.insdc_experiment ERX945979
+		assay.seq.insdc_run ERR866351
+		assay.assay_id cabe59c2-8a02-4bf3-ab06-d8b8ddea3e3d
 
-	sample.well.name POMC_GFP_I_71
-	sample.ena_sample ERS639406
+	sample.cell_suspension.well.name POMC_GFP_I_71
 	sample.name POMC+ from mouse 71
-	sample.submitter_id ERS639406
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 71
-	sample.id cb857b69-5266-43c5-9c42-f1dd87aa34c9
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 71
+	sample.sample_id cb857b69-5266-43c5-9c42-f1dd87aa34c9
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866256/ERR866256_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866256/ERR866256_2.fastq.gz
-		assay.seq.ena_experiment ERX945884
-		assay.seq.ena_run ERR866256
-		assay.id fb4fb795-a255-4b9a-9533-fb0ec422d141
+		assay.seq.insdc_experiment ERX945884
+		assay.seq.insdc_run ERR866256
+		assay.assay_id fb4fb795-a255-4b9a-9533-fb0ec422d141
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866352/ERR866352_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866352/ERR866352_2.fastq.gz
-		assay.seq.ena_experiment ERX945980
-		assay.seq.ena_run ERR866352
-		assay.id bf8767ef-8c4f-467f-9a71-98fc182b821a
+		assay.seq.insdc_experiment ERX945980
+		assay.seq.insdc_run ERR866352
+		assay.assay_id bf8767ef-8c4f-467f-9a71-98fc182b821a
 
-	sample.well.name POMC_GFP_I_72
-	sample.ena_sample ERS639407
+	sample.cell_suspension.well.name POMC_GFP_I_72
 	sample.name POMC+ from mouse 72
-	sample.submitter_id ERS639407
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 72
-	sample.id 1273cad9-561e-44b3-84ce-91065559a07f
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 72
+	sample.sample_id 1273cad9-561e-44b3-84ce-91065559a07f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866257/ERR866257_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866257/ERR866257_2.fastq.gz
-		assay.seq.ena_experiment ERX945885
-		assay.seq.ena_run ERR866257
-		assay.id ebe3ec74-f904-47cf-a774-596115e7f132
+		assay.seq.insdc_experiment ERX945885
+		assay.seq.insdc_run ERR866257
+		assay.assay_id ebe3ec74-f904-47cf-a774-596115e7f132
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866353/ERR866353_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866353/ERR866353_2.fastq.gz
-		assay.seq.ena_experiment ERX945981
-		assay.seq.ena_run ERR866353
-		assay.id be3ab9d4-5ad1-4b0b-bac4-562800aa6134
+		assay.seq.insdc_experiment ERX945981
+		assay.seq.insdc_run ERR866353
+		assay.assay_id be3ab9d4-5ad1-4b0b-bac4-562800aa6134
 
-	sample.well.name POMC_GFP_I_73
-	sample.ena_sample ERS639408
+	sample.cell_suspension.well.name POMC_GFP_I_73
 	sample.name POMC+ from mouse 73
-	sample.submitter_id ERS639408
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 73
-	sample.id c0136de6-6c21-4bab-8697-299796513898
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 73
+	sample.sample_id c0136de6-6c21-4bab-8697-299796513898
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866258/ERR866258_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866258/ERR866258_2.fastq.gz
-		assay.seq.ena_experiment ERX945886
-		assay.seq.ena_run ERR866258
-		assay.id 9c30ac36-9b3c-4e27-bf85-823d91e4f38e
+		assay.seq.insdc_experiment ERX945886
+		assay.seq.insdc_run ERR866258
+		assay.assay_id 9c30ac36-9b3c-4e27-bf85-823d91e4f38e
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866354/ERR866354_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866354/ERR866354_2.fastq.gz
-		assay.seq.ena_experiment ERX945982
-		assay.seq.ena_run ERR866354
-		assay.id fc4ea66c-6246-404f-b30c-be3ea3566b55
+		assay.seq.insdc_experiment ERX945982
+		assay.seq.insdc_run ERR866354
+		assay.assay_id fc4ea66c-6246-404f-b30c-be3ea3566b55
 
-	sample.well.name POMC_GFP_I_74
-	sample.ena_sample ERS639409
+	sample.cell_suspension.well.name POMC_GFP_I_74
 	sample.name POMC+ from mouse 74
-	sample.submitter_id ERS639409
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 74
-	sample.id d7865418-4cc4-4fbe-bf93-b89ad365bef8
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 74
+	sample.sample_id d7865418-4cc4-4fbe-bf93-b89ad365bef8
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866259/ERR866259_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866259/ERR866259_2.fastq.gz
-		assay.seq.ena_experiment ERX945887
-		assay.seq.ena_run ERR866259
-		assay.id 87acaf73-9024-4c3c-9ca8-ea2fe97d46ee
+		assay.seq.insdc_experiment ERX945887
+		assay.seq.insdc_run ERR866259
+		assay.assay_id 87acaf73-9024-4c3c-9ca8-ea2fe97d46ee
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866355/ERR866355_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866355/ERR866355_2.fastq.gz
-		assay.seq.ena_experiment ERX945983
-		assay.seq.ena_run ERR866355
-		assay.id 0799afeb-3be6-450c-909f-27d70402c9f3
+		assay.seq.insdc_experiment ERX945983
+		assay.seq.insdc_run ERR866355
+		assay.assay_id 0799afeb-3be6-450c-909f-27d70402c9f3
 
-	sample.well.name POMC_GFP_I_75
-	sample.ena_sample ERS639410
+	sample.cell_suspension.well.name POMC_GFP_I_75
 	sample.name POMC+ from mouse 75
-	sample.submitter_id ERS639410
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 75
-	sample.id 733e1369-475e-4a4f-be1b-d5d8f6a6ed05
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 75
+	sample.sample_id 733e1369-475e-4a4f-be1b-d5d8f6a6ed05
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866260/ERR866260_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866260/ERR866260_2.fastq.gz
-		assay.seq.ena_experiment ERX945888
-		assay.seq.ena_run ERR866260
-		assay.id 53c53580-066e-4aed-b682-b8cfe7569f3e
+		assay.seq.insdc_experiment ERX945888
+		assay.seq.insdc_run ERR866260
+		assay.assay_id 53c53580-066e-4aed-b682-b8cfe7569f3e
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866356/ERR866356_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866356/ERR866356_2.fastq.gz
-		assay.seq.ena_experiment ERX945984
-		assay.seq.ena_run ERR866356
-		assay.id 28470524-1042-4b68-99d3-071a68d09195
+		assay.seq.insdc_experiment ERX945984
+		assay.seq.insdc_run ERR866356
+		assay.assay_id 28470524-1042-4b68-99d3-071a68d09195
 
-	sample.well.name POMC_GFP_I_76
-	sample.ena_sample ERS639411
+	sample.cell_suspension.well.name POMC_GFP_I_76
 	sample.name POMC+ from mouse 76
-	sample.submitter_id ERS639411
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 76
-	sample.id 48bf8764-b53e-4cb1-a677-68ac084e374f
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 76
+	sample.sample_id 48bf8764-b53e-4cb1-a677-68ac084e374f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866261/ERR866261_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866261/ERR866261_2.fastq.gz
-		assay.seq.ena_experiment ERX945889
-		assay.seq.ena_run ERR866261
-		assay.id 7c272cd4-b0c4-45c6-92e4-840e86b8d375
+		assay.seq.insdc_experiment ERX945889
+		assay.seq.insdc_run ERR866261
+		assay.assay_id 7c272cd4-b0c4-45c6-92e4-840e86b8d375
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866357/ERR866357_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866357/ERR866357_2.fastq.gz
-		assay.seq.ena_experiment ERX945985
-		assay.seq.ena_run ERR866357
-		assay.id bfb425dd-fe92-4b1a-b957-eeb69e715472
+		assay.seq.insdc_experiment ERX945985
+		assay.seq.insdc_run ERR866357
+		assay.assay_id bfb425dd-fe92-4b1a-b957-eeb69e715472
 
-	sample.well.name POMC_GFP_I_77
-	sample.ena_sample ERS639412
+	sample.cell_suspension.well.name POMC_GFP_I_77
 	sample.name POMC+ from mouse 77
-	sample.submitter_id ERS639412
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 77
-	sample.id bac2c7a8-4ff2-4970-a78c-5515acf60e92
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 77
+	sample.sample_id bac2c7a8-4ff2-4970-a78c-5515acf60e92
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866262/ERR866262_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866262/ERR866262_2.fastq.gz
-		assay.seq.ena_experiment ERX945890
-		assay.seq.ena_run ERR866262
-		assay.id 596bfdef-7e99-42b1-9431-3690f97ececf
+		assay.seq.insdc_experiment ERX945890
+		assay.seq.insdc_run ERR866262
+		assay.assay_id 596bfdef-7e99-42b1-9431-3690f97ececf
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866358/ERR866358_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866358/ERR866358_2.fastq.gz
-		assay.seq.ena_experiment ERX945986
-		assay.seq.ena_run ERR866358
-		assay.id 4569e9e4-d109-49f0-8db4-1ee28bf6d1fb
+		assay.seq.insdc_experiment ERX945986
+		assay.seq.insdc_run ERR866358
+		assay.assay_id 4569e9e4-d109-49f0-8db4-1ee28bf6d1fb
 
-	sample.well.name POMC_GFP_I_78
-	sample.ena_sample ERS639413
+	sample.cell_suspension.well.name POMC_GFP_I_78
 	sample.name POMC+ from mouse 78
-	sample.submitter_id ERS639413
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 78
-	sample.id b16e80dc-9860-4cd7-8db2-9ac8ff9df3c6
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 78
+	sample.sample_id b16e80dc-9860-4cd7-8db2-9ac8ff9df3c6
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866263/ERR866263_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866263/ERR866263_2.fastq.gz
-		assay.seq.ena_experiment ERX945891
-		assay.seq.ena_run ERR866263
-		assay.id a262e143-d58c-4f11-bf3c-a456d40d139e
+		assay.seq.insdc_experiment ERX945891
+		assay.seq.insdc_run ERR866263
+		assay.assay_id a262e143-d58c-4f11-bf3c-a456d40d139e
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866359/ERR866359_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866359/ERR866359_2.fastq.gz
-		assay.seq.ena_experiment ERX945987
-		assay.seq.ena_run ERR866359
-		assay.id 2fe9301e-b946-4187-b412-7ff402c46769
+		assay.seq.insdc_experiment ERX945987
+		assay.seq.insdc_run ERR866359
+		assay.assay_id 2fe9301e-b946-4187-b412-7ff402c46769
 
-	sample.well.name POMC_GFP_I_79
-	sample.ena_sample ERS639414
+	sample.cell_suspension.well.name POMC_GFP_I_79
 	sample.name POMC+ from mouse 79
-	sample.submitter_id ERS639414
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 79
-	sample.id 41c3a255-7090-4acb-95b8-ffc4bc3c27a3
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 79
+	sample.sample_id 41c3a255-7090-4acb-95b8-ffc4bc3c27a3
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866264/ERR866264_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866264/ERR866264_2.fastq.gz
-		assay.seq.ena_experiment ERX945892
-		assay.seq.ena_run ERR866264
-		assay.id 9693d4d7-7574-4806-86ef-1297a4e19dcf
+		assay.seq.insdc_experiment ERX945892
+		assay.seq.insdc_run ERR866264
+		assay.assay_id 9693d4d7-7574-4806-86ef-1297a4e19dcf
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866360/ERR866360_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866360/ERR866360_2.fastq.gz
-		assay.seq.ena_experiment ERX945988
-		assay.seq.ena_run ERR866360
-		assay.id 58f66f70-5659-407b-ae09-bf9017ec2331
+		assay.seq.insdc_experiment ERX945988
+		assay.seq.insdc_run ERR866360
+		assay.assay_id 58f66f70-5659-407b-ae09-bf9017ec2331
 
-	sample.well.name POMC_GFP_I_80
-	sample.ena_sample ERS639415
+	sample.cell_suspension.well.name POMC_GFP_I_80
 	sample.name POMC+ from mouse 80
-	sample.submitter_id ERS639415
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 80
-	sample.id 12425ae8-353f-4343-a28b-cd15e9b1df01
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 80
+	sample.sample_id 12425ae8-353f-4343-a28b-cd15e9b1df01
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866265/ERR866265_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866265/ERR866265_2.fastq.gz
-		assay.seq.ena_experiment ERX945893
-		assay.seq.ena_run ERR866265
-		assay.id fa0af84a-f9f8-4dbb-895f-a7b65b36fdb1
+		assay.seq.insdc_experiment ERX945893
+		assay.seq.insdc_run ERR866265
+		assay.assay_id fa0af84a-f9f8-4dbb-895f-a7b65b36fdb1
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866361/ERR866361_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866361/ERR866361_2.fastq.gz
-		assay.seq.ena_experiment ERX945989
-		assay.seq.ena_run ERR866361
-		assay.id 0da27215-3294-48b5-86ce-e0c03b12d8cb
+		assay.seq.insdc_experiment ERX945989
+		assay.seq.insdc_run ERR866361
+		assay.assay_id 0da27215-3294-48b5-86ce-e0c03b12d8cb
 
-	sample.well.name POMC_GFP_I_81
-	sample.ena_sample ERS639416
+	sample.cell_suspension.well.name POMC_GFP_I_81
 	sample.name POMC+ from mouse 81
-	sample.submitter_id ERS639416
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 81
-	sample.id 5a644a6c-9daf-4bae-802e-04d50640d3ec
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 81
+	sample.sample_id 5a644a6c-9daf-4bae-802e-04d50640d3ec
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866266/ERR866266_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866266/ERR866266_2.fastq.gz
-		assay.seq.ena_experiment ERX945894
-		assay.seq.ena_run ERR866266
-		assay.id e4d46a53-d4da-4947-92e9-ed1604c5ae19
+		assay.seq.insdc_experiment ERX945894
+		assay.seq.insdc_run ERR866266
+		assay.assay_id e4d46a53-d4da-4947-92e9-ed1604c5ae19
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866362/ERR866362_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866362/ERR866362_2.fastq.gz
-		assay.seq.ena_experiment ERX945990
-		assay.seq.ena_run ERR866362
-		assay.id 0ba64017-5b11-4b61-8eb6-9365c3c0d0d1
+		assay.seq.insdc_experiment ERX945990
+		assay.seq.insdc_run ERR866362
+		assay.assay_id 0ba64017-5b11-4b61-8eb6-9365c3c0d0d1
 
-	sample.well.name POMC_GFP_I_82
-	sample.ena_sample ERS639417
+	sample.cell_suspension.well.name POMC_GFP_I_82
 	sample.name POMC+ from mouse 82
-	sample.submitter_id ERS639417
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 82
-	sample.id 73a7b848-967e-4e42-82e0-a26586d6bbf0
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 82
+	sample.sample_id 73a7b848-967e-4e42-82e0-a26586d6bbf0
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866267/ERR866267_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866267/ERR866267_2.fastq.gz
-		assay.seq.ena_experiment ERX945895
-		assay.seq.ena_run ERR866267
-		assay.id 4f910a93-d27d-413f-9b56-c5e4d9c0bcd2
+		assay.seq.insdc_experiment ERX945895
+		assay.seq.insdc_run ERR866267
+		assay.assay_id 4f910a93-d27d-413f-9b56-c5e4d9c0bcd2
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866363/ERR866363_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866363/ERR866363_2.fastq.gz
-		assay.seq.ena_experiment ERX945991
-		assay.seq.ena_run ERR866363
-		assay.id 5aee0200-f94a-4ada-a229-4f28a6169ea7
+		assay.seq.insdc_experiment ERX945991
+		assay.seq.insdc_run ERR866363
+		assay.assay_id 5aee0200-f94a-4ada-a229-4f28a6169ea7
 
-	sample.well.name POMC_GFP_I_83
-	sample.ena_sample ERS639418
+	sample.cell_suspension.well.name POMC_GFP_I_83
 	sample.name POMC+ from mouse 83
-	sample.submitter_id ERS639418
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 83
-	sample.id 6b62fd66-ffca-473d-9475-b78a18b397c0
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 83
+	sample.sample_id 6b62fd66-ffca-473d-9475-b78a18b397c0
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866268/ERR866268_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866268/ERR866268_2.fastq.gz
-		assay.seq.ena_experiment ERX945896
-		assay.seq.ena_run ERR866268
-		assay.id 7b3b97be-16d7-475d-a64e-f75d97e5d1a3
+		assay.seq.insdc_experiment ERX945896
+		assay.seq.insdc_run ERR866268
+		assay.assay_id 7b3b97be-16d7-475d-a64e-f75d97e5d1a3
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866364/ERR866364_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866364/ERR866364_2.fastq.gz
-		assay.seq.ena_experiment ERX945992
-		assay.seq.ena_run ERR866364
-		assay.id b7b36758-09ef-4d35-9ab8-f00687ecb2e8
+		assay.seq.insdc_experiment ERX945992
+		assay.seq.insdc_run ERR866364
+		assay.assay_id b7b36758-09ef-4d35-9ab8-f00687ecb2e8
 
-	sample.well.name POMC_GFP_I_84
-	sample.ena_sample ERS639419
+	sample.cell_suspension.well.name POMC_GFP_I_84
 	sample.name POMC+ from mouse 84
-	sample.submitter_id ERS639419
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 84
-	sample.id 3e828ae9-7c4e-4d4a-ac52-aa11092f6f34
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 84
+	sample.sample_id 3e828ae9-7c4e-4d4a-ac52-aa11092f6f34
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866269/ERR866269_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866269/ERR866269_2.fastq.gz
-		assay.seq.ena_experiment ERX945897
-		assay.seq.ena_run ERR866269
-		assay.id d87f6d36-85f6-4593-8a48-80e54e10eecb
+		assay.seq.insdc_experiment ERX945897
+		assay.seq.insdc_run ERR866269
+		assay.assay_id d87f6d36-85f6-4593-8a48-80e54e10eecb
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866365/ERR866365_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866365/ERR866365_2.fastq.gz
-		assay.seq.ena_experiment ERX945993
-		assay.seq.ena_run ERR866365
-		assay.id a530a806-fc07-4cb7-a00f-22e555371576
+		assay.seq.insdc_experiment ERX945993
+		assay.seq.insdc_run ERR866365
+		assay.assay_id a530a806-fc07-4cb7-a00f-22e555371576
 
-	sample.well.name POMC_GFP_I_85
-	sample.ena_sample ERS639420
+	sample.cell_suspension.well.name POMC_GFP_I_85
 	sample.name POMC+ from mouse 85
-	sample.submitter_id ERS639420
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 85
-	sample.id ee23fdca-8140-4763-ab72-331fc86433ed
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 85
+	sample.sample_id ee23fdca-8140-4763-ab72-331fc86433ed
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866270/ERR866270_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866270/ERR866270_2.fastq.gz
-		assay.seq.ena_experiment ERX945898
-		assay.seq.ena_run ERR866270
-		assay.id c88c1dce-0779-4070-908e-b7724ce9ba3f
+		assay.seq.insdc_experiment ERX945898
+		assay.seq.insdc_run ERR866270
+		assay.assay_id c88c1dce-0779-4070-908e-b7724ce9ba3f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866366/ERR866366_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866366/ERR866366_2.fastq.gz
-		assay.seq.ena_experiment ERX945994
-		assay.seq.ena_run ERR866366
-		assay.id 54e12f9e-0463-4586-bfd6-06c2235befa7
+		assay.seq.insdc_experiment ERX945994
+		assay.seq.insdc_run ERR866366
+		assay.assay_id 54e12f9e-0463-4586-bfd6-06c2235befa7
 
-	sample.well.name POMC_GFP_I_86
-	sample.ena_sample ERS639421
+	sample.cell_suspension.well.name POMC_GFP_I_86
 	sample.name POMC+ from mouse 86
-	sample.submitter_id ERS639421
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 86
-	sample.id af29beb1-f698-452e-8c22-38ca41f7e92c
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 86
+	sample.sample_id af29beb1-f698-452e-8c22-38ca41f7e92c
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866271/ERR866271_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866271/ERR866271_2.fastq.gz
-		assay.seq.ena_experiment ERX945899
-		assay.seq.ena_run ERR866271
-		assay.id 450045ba-858b-4dc6-8cc8-704eb80c10f0
+		assay.seq.insdc_experiment ERX945899
+		assay.seq.insdc_run ERR866271
+		assay.assay_id 450045ba-858b-4dc6-8cc8-704eb80c10f0
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866367/ERR866367_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866367/ERR866367_2.fastq.gz
-		assay.seq.ena_experiment ERX945995
-		assay.seq.ena_run ERR866367
-		assay.id 15233acc-bc24-4d39-8151-eae12d066f5e
+		assay.seq.insdc_experiment ERX945995
+		assay.seq.insdc_run ERR866367
+		assay.assay_id 15233acc-bc24-4d39-8151-eae12d066f5e
 
-	sample.well.name POMC_GFP_I_87
-	sample.ena_sample ERS639422
+	sample.cell_suspension.well.name POMC_GFP_I_87
 	sample.name POMC+ from mouse 87
-	sample.submitter_id ERS639422
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 87
-	sample.id 086097dd-8475-4b43-a34f-d5d3391a7c4c
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 87
+	sample.sample_id 086097dd-8475-4b43-a34f-d5d3391a7c4c
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866272/ERR866272_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866272/ERR866272_2.fastq.gz
-		assay.seq.ena_experiment ERX945900
-		assay.seq.ena_run ERR866272
-		assay.id 64257755-4808-4158-bffa-876d09c6c5b5
+		assay.seq.insdc_experiment ERX945900
+		assay.seq.insdc_run ERR866272
+		assay.assay_id 64257755-4808-4158-bffa-876d09c6c5b5
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866368/ERR866368_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866368/ERR866368_2.fastq.gz
-		assay.seq.ena_experiment ERX945996
-		assay.seq.ena_run ERR866368
-		assay.id 665d1c0b-f59c-4efe-839d-b2f41b2284c5
+		assay.seq.insdc_experiment ERX945996
+		assay.seq.insdc_run ERR866368
+		assay.assay_id 665d1c0b-f59c-4efe-839d-b2f41b2284c5
 
-	sample.well.name POMC_GFP_I_88
-	sample.ena_sample ERS639423
+	sample.cell_suspension.well.name POMC_GFP_I_88
 	sample.name POMC+ from mouse 88
-	sample.submitter_id ERS639423
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 88
-	sample.id 1299be0f-582b-48b9-8b92-032191d0725d
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 88
+	sample.sample_id 1299be0f-582b-48b9-8b92-032191d0725d
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866273/ERR866273_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866273/ERR866273_2.fastq.gz
-		assay.seq.ena_experiment ERX945901
-		assay.seq.ena_run ERR866273
-		assay.id 0737aec0-116e-4046-9c3a-180b2d264dc8
+		assay.seq.insdc_experiment ERX945901
+		assay.seq.insdc_run ERR866273
+		assay.assay_id 0737aec0-116e-4046-9c3a-180b2d264dc8
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866369/ERR866369_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866369/ERR866369_2.fastq.gz
-		assay.seq.ena_experiment ERX945997
-		assay.seq.ena_run ERR866369
-		assay.id f6eead6b-e63a-48f9-9ad9-9fe624e3953e
+		assay.seq.insdc_experiment ERX945997
+		assay.seq.insdc_run ERR866369
+		assay.assay_id f6eead6b-e63a-48f9-9ad9-9fe624e3953e
 
-	sample.well.name POMC_GFP_I_89
-	sample.ena_sample ERS639424
+	sample.cell_suspension.well.name POMC_GFP_I_89
 	sample.name POMC+ from mouse 89
-	sample.submitter_id ERS639424
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 89
-	sample.id 78c57170-637a-4834-ae35-30027c2848e9
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 89
+	sample.sample_id 78c57170-637a-4834-ae35-30027c2848e9
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866274/ERR866274_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866274/ERR866274_2.fastq.gz
-		assay.seq.ena_experiment ERX945902
-		assay.seq.ena_run ERR866274
-		assay.id 544e3171-01db-4842-9a69-6450fbc499d1
+		assay.seq.insdc_experiment ERX945902
+		assay.seq.insdc_run ERR866274
+		assay.assay_id 544e3171-01db-4842-9a69-6450fbc499d1
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866370/ERR866370_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866370/ERR866370_2.fastq.gz
-		assay.seq.ena_experiment ERX945998
-		assay.seq.ena_run ERR866370
-		assay.id 103bee55-8c99-49d2-b2b9-a6c6420c02ed
+		assay.seq.insdc_experiment ERX945998
+		assay.seq.insdc_run ERR866370
+		assay.assay_id 103bee55-8c99-49d2-b2b9-a6c6420c02ed
 
-	sample.well.name POMC_GFP_I_90
-	sample.ena_sample ERS639425
+	sample.cell_suspension.well.name POMC_GFP_I_90
 	sample.name POMC+ from mouse 90
-	sample.submitter_id ERS639425
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 90
-	sample.id 4b83ca0b-aeb1-44ed-a0b7-78e27cdb9bcf
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 90
+	sample.sample_id 4b83ca0b-aeb1-44ed-a0b7-78e27cdb9bcf
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866275/ERR866275_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866275/ERR866275_2.fastq.gz
-		assay.seq.ena_experiment ERX945903
-		assay.seq.ena_run ERR866275
-		assay.id f0ba1d7c-0014-4aeb-94ee-4933e18b3fdb
+		assay.seq.insdc_experiment ERX945903
+		assay.seq.insdc_run ERR866275
+		assay.assay_id f0ba1d7c-0014-4aeb-94ee-4933e18b3fdb
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866371/ERR866371_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866371/ERR866371_2.fastq.gz
-		assay.seq.ena_experiment ERX945999
-		assay.seq.ena_run ERR866371
-		assay.id b9ee9a37-62eb-45f7-9621-d29abe01d611
+		assay.seq.insdc_experiment ERX945999
+		assay.seq.insdc_run ERR866371
+		assay.assay_id b9ee9a37-62eb-45f7-9621-d29abe01d611
 
-	sample.well.name POMC_GFP_I_91
-	sample.ena_sample ERS639426
+	sample.cell_suspension.well.name POMC_GFP_I_91
 	sample.name POMC+ from mouse 91
-	sample.submitter_id ERS639426
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 91
-	sample.id b2441f3c-06bd-4d58-a2fd-119b589ed4ce
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 91
+	sample.sample_id b2441f3c-06bd-4d58-a2fd-119b589ed4ce
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866276/ERR866276_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866276/ERR866276_2.fastq.gz
-		assay.seq.ena_experiment ERX945904
-		assay.seq.ena_run ERR866276
-		assay.id b56cf781-615d-49cc-8c2f-2143436ca022
+		assay.seq.insdc_experiment ERX945904
+		assay.seq.insdc_run ERR866276
+		assay.assay_id b56cf781-615d-49cc-8c2f-2143436ca022
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866372/ERR866372_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866372/ERR866372_2.fastq.gz
-		assay.seq.ena_experiment ERX946000
-		assay.seq.ena_run ERR866372
-		assay.id fbd61cf0-b77b-4f7c-900c-0d4071c2a0b2
+		assay.seq.insdc_experiment ERX946000
+		assay.seq.insdc_run ERR866372
+		assay.assay_id fbd61cf0-b77b-4f7c-900c-0d4071c2a0b2
 
-	sample.well.name POMC_GFP_I_92
-	sample.ena_sample ERS639427
+	sample.cell_suspension.well.name POMC_GFP_I_92
 	sample.name POMC+ from mouse 92
-	sample.submitter_id ERS639427
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 92
-	sample.id 8a209efd-5bbd-452c-918d-e796a23115f3
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 92
+	sample.sample_id 8a209efd-5bbd-452c-918d-e796a23115f3
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866277/ERR866277_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866277/ERR866277_2.fastq.gz
-		assay.seq.ena_experiment ERX945905
-		assay.seq.ena_run ERR866277
-		assay.id bb2833f2-a884-43eb-83c9-348ff551b209
+		assay.seq.insdc_experiment ERX945905
+		assay.seq.insdc_run ERR866277
+		assay.assay_id bb2833f2-a884-43eb-83c9-348ff551b209
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866373/ERR866373_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866373/ERR866373_2.fastq.gz
-		assay.seq.ena_experiment ERX946001
-		assay.seq.ena_run ERR866373
-		assay.id a8f2dd0f-0325-4866-a335-6eca4ac070d1
+		assay.seq.insdc_experiment ERX946001
+		assay.seq.insdc_run ERR866373
+		assay.assay_id a8f2dd0f-0325-4866-a335-6eca4ac070d1
 
-	sample.well.name POMC_GFP_I_93
-	sample.ena_sample ERS639428
+	sample.cell_suspension.well.name POMC_GFP_I_93
 	sample.name POMC+ from mouse 93
-	sample.submitter_id ERS639428
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 93
-	sample.id 76d75f08-9b76-48f3-9073-2bcf51688c7f
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 93
+	sample.sample_id 76d75f08-9b76-48f3-9073-2bcf51688c7f
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866278/ERR866278_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866278/ERR866278_2.fastq.gz
-		assay.seq.ena_experiment ERX945906
-		assay.seq.ena_run ERR866278
-		assay.id 7d24ef0b-c0ee-49e6-8a0e-b97072a4db35
+		assay.seq.insdc_experiment ERX945906
+		assay.seq.insdc_run ERR866278
+		assay.assay_id 7d24ef0b-c0ee-49e6-8a0e-b97072a4db35
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866374/ERR866374_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866374/ERR866374_2.fastq.gz
-		assay.seq.ena_experiment ERX946002
-		assay.seq.ena_run ERR866374
-		assay.id 78775071-9db1-4a05-a7c1-bfbb093ee50e
+		assay.seq.insdc_experiment ERX946002
+		assay.seq.insdc_run ERR866374
+		assay.assay_id 78775071-9db1-4a05-a7c1-bfbb093ee50e
 
-	sample.well.name POMC_GFP_I_94
-	sample.ena_sample ERS639429
+	sample.cell_suspension.well.name POMC_GFP_I_94
 	sample.name POMC+ from mouse 94
-	sample.submitter_id ERS639429
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 94
-	sample.id 5884de00-0bbc-4148-ab18-3b4f2ef8e642
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 94
+	sample.sample_id 5884de00-0bbc-4148-ab18-3b4f2ef8e642
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866279/ERR866279_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866279/ERR866279_2.fastq.gz
-		assay.seq.ena_experiment ERX945907
-		assay.seq.ena_run ERR866279
-		assay.id fa3e169a-35fa-40b3-91f3-4bfe0cece6f3
+		assay.seq.insdc_experiment ERX945907
+		assay.seq.insdc_run ERR866279
+		assay.assay_id fa3e169a-35fa-40b3-91f3-4bfe0cece6f3
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866375/ERR866375_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866375/ERR866375_2.fastq.gz
-		assay.seq.ena_experiment ERX946003
-		assay.seq.ena_run ERR866375
-		assay.id dd76cdce-615e-4ad5-a04e-b4d26c7d0b16
+		assay.seq.insdc_experiment ERX946003
+		assay.seq.insdc_run ERR866375
+		assay.assay_id dd76cdce-615e-4ad5-a04e-b4d26c7d0b16
 
-	sample.well.name POMC_GFP_I_95
-	sample.ena_sample ERS639430
+	sample.cell_suspension.well.name POMC_GFP_I_95
 	sample.name POMC+ from mouse 95
-	sample.submitter_id ERS639430
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 95
-	sample.id b8c89003-88cd-4088-be15-bb8c7995d900
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 95
+	sample.sample_id b8c89003-88cd-4088-be15-bb8c7995d900
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866280/ERR866280_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866280/ERR866280_2.fastq.gz
-		assay.seq.ena_experiment ERX945908
-		assay.seq.ena_run ERR866280
-		assay.id 8ff46a04-dd19-4a99-9938-29113483e24c
+		assay.seq.insdc_experiment ERX945908
+		assay.seq.insdc_run ERR866280
+		assay.assay_id 8ff46a04-dd19-4a99-9938-29113483e24c
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866376/ERR866376_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866376/ERR866376_2.fastq.gz
-		assay.seq.ena_experiment ERX946004
-		assay.seq.ena_run ERR866376
-		assay.id 3435cd73-8b75-4481-9e0d-abbfe0ad7264
+		assay.seq.insdc_experiment ERX946004
+		assay.seq.insdc_run ERR866376
+		assay.assay_id 3435cd73-8b75-4481-9e0d-abbfe0ad7264
 
-	sample.well.name POMC_GFP_I_96
-	sample.ena_sample ERS639431
+	sample.cell_suspension.well.name POMC_GFP_I_96
 	sample.name POMC+ from mouse 96
-	sample.submitter_id ERS639431
-	sample.title POMC+ neurons from arcuate nucleus of hypothalamus of mouse 96
-	sample.id 3e7b622e-8d0a-4619-b729-8653d69718ec
+	sample.description POMC+ neurons from arcuate nucleus of hypothalamus of mouse 96
+	sample.sample_id 3e7b622e-8d0a-4619-b729-8653d69718ec
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866281/ERR866281_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866281/ERR866281_2.fastq.gz
-		assay.seq.ena_experiment ERX945909
-		assay.seq.ena_run ERR866281
-		assay.id e52b3f77-0be7-4ebe-9b98-13a216e0b8ab
+		assay.seq.insdc_experiment ERX945909
+		assay.seq.insdc_run ERR866281
+		assay.assay_id e52b3f77-0be7-4ebe-9b98-13a216e0b8ab
 
 		assay.seq.files ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866377/ERR866377_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR866/ERR866377/ERR866377_2.fastq.gz
-		assay.seq.ena_experiment ERX946005
-		assay.seq.ena_run ERR866377
-		assay.id ec874f44-4b07-4313-a7fe-7d41f61e16e8
+		assay.seq.insdc_experiment ERX946005
+		assay.seq.insdc_run ERR866377
+		assay.assay_id ec874f44-4b07-4313-a7fe-7d41f61e16e8
 

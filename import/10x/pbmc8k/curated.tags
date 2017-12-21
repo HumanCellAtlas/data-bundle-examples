@@ -1,6 +1,6 @@
 project.title Peripheral blood mononuclear cells (PBMCs) from a healthy donor
-project.id 10x_pbmc8k
-assay.id c349cce6-6d63-4976-832e-3c27ca1399ac
+project.project_id 10x_pbmc8k
+assay.assay_id c349cce6-6d63-4976-832e-3c27ca1399ac
 assay.seq.files pbmc8k_S1_L007_R1_001.fastq.gz, pbmc8k_S1_L007_R2_001.fastq.gz, pbmc8k_S1_L008_R1_001.fastq.gz, pbmc8k_S1_L008_R2_001.fastq.gz
 assay.rna.end_bias three_prime_end
 assay.rna.primer poly-dt
@@ -18,21 +18,22 @@ assay.single_cell.barcode.size 16
 assay.single_cell.cell_handling 10x_v2
 project.description "Peripheral blood mononuclear cells (PBMCs) from a healthy donor (same donor as pbmc4k). PBMCs are primary cells with relatively small amounts of RNA (~1pg RNA/cell). Used Chromium v2 chemistry and Cell Ranger 1.3.0 software.  8403 cells were detected."
 project.contributors.1.name 10X Genomics Inc.
-project.submitter.address "7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA"
-project.submitter.city Pleasanton
-project.submitter.country USA
-project.submitter.country_division CA
-project.submitter.email info@10xgenomics.com
-project.submitter.institution 10X Genomics Inc.
-project.submitter.name 10X Genomics Inc.
-sample.body_part.text peripheral blood mononuclear cells (PBMCs)
-sample.id 63cba020-fbb5-4fe5-82c2-eeb1cd5dd957
+project.submitters.1.address "7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA"
+project.submitters.1.city Pleasanton
+project.submitters.1.country USA
+project.submitters.1.country_division CA
+project.submitters.1.email info@10xgenomics.com
+project.submitters.1.institution 10X Genomics Inc.
+project.submitters.1.name 10X Genomics Inc.
+sample.sample_id 63cba020-fbb5-4fe5-82c2-eeb1cd5dd957
+sample.donor.id 9a07fd64-c7d2-4929-9c0a-e1f0cfd0f90d
 sample.donor.is_living yes
 sample.donor.life_stage adult
-sample.donor.species.ontology 9606
-sample.donor.species.text Homo sapiens
+sample.ncbi_taxon_id 9606
+sample.genus_species Homo sapiens
 sample.name PBMCs
-sample.organ.ontology UBERON_0000178
-sample.organ.text blood
-sample.title peripheral blood mononuclear cells (PBMCs)
+sample.specimen_from_organism.body_part.text peripheral blood mononuclear cells (PBMCs)
+sample.specimen_from_organism.organ.ontology UBERON_0000178
+sample.specimen_from_organism.organ.text blood
+sample.specimen_from_organism.title peripheral blood mononuclear cells (PBMCs)
 

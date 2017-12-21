@@ -1,5 +1,5 @@
-project.title A single-cell transcriptomic map of the human and mouse pancreas reveals inter- and intra-cell population structure
-project.id GSE84133
+project.name A single-cell transcriptomic map of the human and mouse pancreas reveals inter- and intra-cell population structure
+project.project_id GSE84133
 assay.rna.end_bias three_prime_bias
 assay.rna.library_construction CEL-seq
 assay.rna.primer poly-dt
@@ -12,114 +12,99 @@ assay.seq.paired_ends yes
 project.contributors.1.name "Adrian,,Veres"
 project.contributors.2.name "Maayan,,Baron"
 project.description "While the function of the mammalian pancreas hinges on complex interactions of distinct cell types, gene expression profiles have primarily been described with bulk mixtures of cells. Here, we invoked inDrop, a droplet-based single-cell RNA-Seq method, to determine the transcriptomes of over 12,000 individual pancreatic cells from four human donors and two strains of mice. Cells could be divided into 15 clusters that matched previously characterized cell types: all endocrine cell types, including rare ghrelin-expressing epsilon-cells, exocrine cell types, vascular cells, Schwann cells, quiescent and activated pancreatic stellate cells, and four types of immune cells. We detected subpopulations of ductal cells with distinct expression profiles, and validated their existence with immuno-histochemistry stains. Moreover, among human beta-cells, we detected heterogeneity in the regulation of genes relating to functional maturation and levels of ER-stress. Finally, we deconvolve bulk gene expression samples using single-cell RNA-Seq to detect disease associated differential expression. Thus, our cross-species dataset provides a resource for the discovery of novel cell type-specific and cell type-restricted transcription factors, signaling receptors, and medically-relevant genes."
-project.experimental_design.1.text Single-cell RNA sequencing of pancreatic islets from 4 human donors and 2 mice strains.
+project.experimental_design.1 Single-cell RNA sequencing of pancreatic islets from 4 human donors and 2 mice strains.
 project.geo_series GSE84133
-project.ncbi_bioproject PRJNA328774
 project.publications.1.pmid 27667365
-project.sra_project SRP078321
+project.insdc_project SRP078321
 project.submit_date 2016-07-07
-project.submitter.address "7 Divinity Ave; Cambridge, MA 02138 USA"
-project.submitter.city Cambridge
-project.submitter.country USA
-project.submitter.country_division MA
-project.submitter.email adrian.veres@gmail.com
-project.submitter.institution Harvard University
-project.submitter.name "Adrian,,Veres"
+project.submitters.1.address "7 Divinity Ave; Cambridge, MA 02138 USA"
+project.submitters.1.city Cambridge
+project.submitters.1.country USA
+project.submitters.1.country_division MA
+project.submitters.1.email adrian.veres@gmail.com
+project.submitters.1.institution Harvard University
+project.submitters.1.name "Adrian,,Veres"
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP078/SRP078321,ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84133/suppl/GSE84133_RAW.tar
 project.update_date 2017-06-02
-sample.body_part.ontology UBERON_0000006
-sample.body_part.text islet of Langerhans
-sample.organ.ontology UBERON_0001264
-sample.organ.text pancreas
-sample.submit_date 2016-07-11
-project.protocols.1.description "Human pancreatic islets were obtained from Prodo or NDRI and recovered in CMRLS at 37°C for 24h-48h hours after receipt. Mouse islets were prepared using gradient centrifugation and islets from the same strain were pooled, then recovered in XX for 24h."
-project.protocols.1.type.text treatment protocol
-project.protocols.2.description "Cells were encapsulated using the inDrop platform, into droplets on ice and lysed  in the 4nL microfluidic droplets using a final concentration of 0.4% NP-40. Single cell lysates were subject to reverse transcription at 50°C without purification of RNA (as previously described in Klein et al., Cell 2015)."
-project.protocols.2.type.text nucleic acid library construction protocol
-sample.update_date 2016-09-26
-project.protocols.1.id df2c9001-6802-4972-b367-2dcfa4728713
-project.protocols.2.id ad8c409f-bb6a-41e2-ad1f-8d25da0b9bcd
+sample.specimen_from_organism.body_part.ontology UBERON_0000006
+sample.specimen_from_organism.body_part.text islet of Langerhans
+sample.specimen_from_organism.organ.ontology UBERON_0001264
+sample.specimen_from_organism.organ.text pancreas
+protocols.1.description "Human pancreatic islets were obtained from Prodo or NDRI and recovered in CMRLS at 37°C for 24h-48h hours after receipt. Mouse islets were prepared using gradient centrifugation and islets from the same strain were pooled, then recovered in XX for 24h."
+protocols.1.type.text treatment protocol
+protocols.2.description "Cells were encapsulated using the inDrop platform, into droplets on ice and lysed  in the 4nL microfluidic droplets using a final concentration of 0.4% NP-40. Single cell lysates were subject to reverse transcription at 50°C without purification of RNA (as previously described in Klein et al., Cell 2015)."
+protocols.2.type.text nucleic acid library construction protocol
+protocols.1.id df2c9001-6802-4972-b367-2dcfa4728713
+protocols.2.id ad8c409f-bb6a-41e2-ad1f-8d25da0b9bcd
 sample.protocol_ids df2c9001-6802-4972-b367-2dcfa4728713,ad8c409f-bb6a-41e2-ad1f-8d25da0b9bcd
 sample.donor.is_living no
 
-	sample.donor.species.ontology 9606
-	sample.donor.species.text Homo sapiens
+	sample.ncbi_taxon_id 9606
+	sample.genus_species Homo sapiens
 
-		assay.seq.sra_experiment SRX1935938
-		assay.seq.sra_run SRR3879601,SRR3879602,SRR3879603
-		sample.id 521b4fef-8239-4e78-a1ee-ea9ce242026d
+		assay.seq.insdc_experiment SRX1935938
+		assay.seq.insdc_run SRR3879601,SRR3879602,SRR3879603
+		sample.sample_id 521b4fef-8239-4e78-a1ee-ea9ce242026d
 		sample.donor.age 17
 		sample.donor.body_mass_index 21.5
 		sample.donor.sex male
-		sample.geo_sample GSM2230757
 		sample.name pancreas islet BMI22
-		sample.ncbi_biosample SAMN05379702
-		sample.submitter_id "human pancreatic islets, sample 1"
+		sample.sample_accessions.biosd_sample SAMN05379702
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230757/suppl/GSM2230757_human1_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935938
-		sample.title "Pancreatic islets from male donor, age 17, BMI 21.5, no diabetes"
+		sample.description "Pancreatic islets from male donor, age 17, BMI 21.5, no diabetes"
 
-		assay.seq.sra_experiment SRX1935939
-		assay.seq.sra_run SRR3879604,SRR3879605,SRR3879606
-		sample.id 69ef9006-c127-45c6-9b35-68852896d504
+		assay.seq.insdc_experiment SRX1935939
+		assay.seq.insdc_run SRR3879604,SRR3879605,SRR3879606
+		sample.sample_id 69ef9006-c127-45c6-9b35-68852896d504
 		sample.donor.age 51
 		sample.donor.body_mass_index 21.1
 		sample.donor.sex female
-		sample.geo_sample GSM2230758
 		sample.name pancreas islet BMI21
-		sample.ncbi_biosample SAMN05379703
-		sample.submitter_id "human pancreatic islets, sample 2"
+		sample.sample_accessions.biosd_sample SAMN05379703
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230758/suppl/GSM2230758_human2_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935939
-		sample.title "Pancreatic islets from female donor, age 51, BMI 21.1, no diabetes"
+		sample.description "Pancreatic islets from female donor, age 51, BMI 21.1, no diabetes"
 
-		assay.seq.sra_experiment SRX1935941
-		assay.seq.sra_run SRR3879607,SRR3879608,SRR3879609,SRR3879610
-		sample.id d399ccad-b5ad-4663-a060-b1723d75aa04
+		assay.seq.insdc_experiment SRX1935941
+		assay.seq.insdc_run SRR3879607,SRR3879608,SRR3879609,SRR3879610
+		sample.sample_id d399ccad-b5ad-4663-a060-b1723d75aa04
 		sample.donor.age 38
 		sample.donor.body_mass_index 27.5
 		sample.donor.sex male
-		sample.geo_sample GSM2230759
 		sample.name pancreas islet BMI28
-		sample.ncbi_biosample SAMN05379704
-		sample.submitter_id "human pancreatic islets, sample 3"
+		sample.sample_accessions.biosd_sample SAMN05379704
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230759/suppl/GSM2230759_human3_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935941
-		sample.title "Pancreatic islets from male donor, age 38, BMI 27.5, no diabetes"
+		sample.description "Pancreatic islets from male donor, age 38, BMI 27.5, no diabetes"
 
-		assay.seq.sra_experiment SRX1935942
-		assay.seq.sra_run SRR3879611,SRR3879612,SRR3879613
-		sample.id c9c71349-5724-48d8-b349-2d3402db6655
+		assay.seq.insdc_experiment SRX1935942
+		assay.seq.insdc_run SRR3879611,SRR3879612,SRR3879613
+		sample.sample_id c9c71349-5724-48d8-b349-2d3402db6655
 		sample.donor.age 59
 		sample.donor.body_mass_index 29.9
 		sample.donor.disease.1.text type II diabetes mellitus
 		sample.donor.sex female
-		sample.geo_sample GSM2230760
 		sample.name pancreas islet diab II
-		sample.ncbi_biosample SAMN05379705
-		sample.submitter_id "human pancreatic islets, sample 4"
+		sample.sample_accessions.biosd_sample SAMN05379705
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230760/suppl/GSM2230760_human4_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935942
-		sample.title "Pancreatic islets from female donor, age 59, BMI 29.9, diabetes type 2"
+		sample.description "Pancreatic islets from female donor, age 59, BMI 29.9, diabetes type 2"
 
-	sample.donor.species.ontology 10090
-	sample.donor.species.text Mus musculus
+	sample.ncbi_taxon_id 10090
+	sample.genus_species Mus musculus
 
-		assay.seq.sra_experiment SRX1935943
-		assay.seq.sra_run SRR3879614,SRR3879615,SRR3879616
-		sample.id bf9fe4f8-b859-4874-b610-b84fdd069b6f
+		assay.seq.insdc_experiment SRX1935943
+		assay.seq.insdc_run SRR3879614,SRR3879615,SRR3879616
+		sample.sample_id bf9fe4f8-b859-4874-b610-b84fdd069b6f
 		sample.donor.strain.1.text ICR
-		sample.geo_sample GSM2230761
 		sample.name "pancreas islet ICR"
-		sample.ncbi_biosample SAMN05379706
-		sample.submitter_id "mouse pancreatic islets, sample 1"
+		sample.sample_accessions.biosd_sample SAMN05379706
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230761/suppl/GSM2230761_mouse1_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935943
-		sample.title "pancreatic islets from five ICR mice pooled together"
+		sample.description "pancreatic islets from five ICR mice pooled together"
 
-		assay.seq.sra_experiment SRX1935944
-		assay.seq.sra_run SRR3879617,SRR3879618,SRR3879619
-		sample.id 8bfbfec2-f0e5-4072-9343-b7ae0a9877a4
+		assay.seq.insdc_experiment SRX1935944
+		assay.seq.insdc_run SRR3879617,SRR3879618,SRR3879619
+		sample.sample_id 8bfbfec2-f0e5-4072-9343-b7ae0a9877a4
 		sample.donor.strain.1.text C57BL/6
-		sample.geo_sample GSM2230762
 		sample.name "pancreas islet C57BL/6"
-		sample.ncbi_biosample SAMN05379707
-		sample.submitter_id "mouse pancreatic islets, sample 2"
+		sample.sample_accessions.biosd_sample SAMN05379707
 		sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230762/suppl/GSM2230762_mouse2_umifm_counts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX193/SRX1935944
-		sample.title "pancreatic islets from five C57BL/6 mice pooled together"
+		sample.description "pancreatic islets from five C57BL/6 mice pooled together"
 

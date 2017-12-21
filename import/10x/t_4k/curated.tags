@@ -1,6 +1,6 @@
 project.title Pan T Cells isolated from mononuclear cells of a healthy donor
-project.id 10x_t_4k
-assay.id 2a54e2ca-7b6f-4544-a431-bd58fbd549c7
+project.project_id 10x_t_4k
+assay.assay_id 2a54e2ca-7b6f-4544-a431-bd58fbd549c7
 assay.seq.files t_4k_S1_L001_R1_001.fastq.gz, t_4k_S1_L001_R2_001.fastq.gz, t_4k_S1_L002_R1_001.fastq.gz, t_4k_S1_L002_R2_001.fastq.gz, t_4k_S1_L003_R1_001.fastq.gz, t_4k_S1_L003_R2_001.fastq.gz, t_4k_S1_L004_R1_001.fastq.gz, t_4k_S1_L004_R2_001.fastq.gz, t_4k_S1_L005_R1_001.fastq.gz, t_4k_S1_L005_R2_001.fastq.gz, t_4k_S1_L006_R1_001.fastq.gz, t_4k_S1_L006_R2_001.fastq.gz, t_4k_S1_L007_R1_001.fastq.gz, t_4k_S1_L007_R2_001.fastq.gz, t_4k_S1_L008_R1_001.fastq.gz, t_4k_S1_L008_R2_001.fastq.gz
 assay.rna.end_bias three_prime_end
 assay.rna.primer poly-dt
@@ -18,24 +18,24 @@ assay.single_cell.barcode.size 16
 assay.single_cell.cell_handling 10x_v2
 project.description "Pan T cells isolated from mononuclear cells of a healthy donor (same donor as t_3k). T cells are primary cells with relatively small amounts of RNA (~1pg RNA/cell).   Used Chromium v2 chemistry and Cell Ranger 1.3.0 software. 4,518 cells detected. Sequenced on Illumina Hiseq4000 with approximately 73,000 reads per cell"
 project.contributors.1.name 10X Genomics Inc.
-project.submitter.address "7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA"
-project.submitter.city Pleasanton
-project.submitter.country USA
-project.submitter.country_division CA
-project.submitter.email info@10xgenomics.com
-project.submitter.institution 10X Genomics Inc.
-project.submitter.name 10X Genomics Inc.
-sample.body_part.text peripheral blood pan T-cells
-sample.id 849f023a-da3b-4017-a151-23575bd94ca4
+project.submitters.1.address "7068 Koll Center Parkway Suite 401; Pleasanton, CA 94566 USA"
+project.submitters.1.city Pleasanton
+project.submitters.1.country USA
+project.submitters.1.country_division CA
+project.submitters.1.email info@10xgenomics.com
+project.submitters.1.institution 10X Genomics Inc.
+project.submitters.1.name 10X Genomics Inc.
+sample.specimen_from_organism.body_part.text peripheral blood pan T-cells
+sample.sample_id 849f023a-da3b-4017-a151-23575bd94ca4
 sample.donor.id 0f4108bb-d548-495a-a19e-87e36b0a198e
 sample.donor.life_stage adult
 sample.donor.is_living yes
-sample.donor.species.ontology 9606
-sample.donor.species.text Homo sapiens
-sample.enrichment.1.markers CD3+
-sample.enrichment.1.type Ficoll gradient
-sample.name T-cells
-sample.organ.ontology UBERON_0000178
-sample.organ.text blood
-sample.title peripheral blood pan T-cells
+sample.ncbi_taxon_id 9606
+sample.genus_species Homo sapiens
+sample.cell_suspension.enrichment.1.markers CD3+
+sample.cell_suspension.enrichment.1.type Ficoll gradient
+sample.cell_suspension.name T-cells
+sample.specimen_from_organism.organ.ontology UBERON_0000178
+sample.specimen_from_organism.organ.text blood
+sample.cell_suspension.title peripheral blood pan T-cells
 

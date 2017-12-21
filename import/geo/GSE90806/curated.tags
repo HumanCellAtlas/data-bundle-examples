@@ -1,5 +1,5 @@
-project.title A Molecular Census of Arcuate Hypothalamus and Median Eminence Cell Types
-project.id GSE90806
+project.name A Molecular Census of Arcuate Hypothalamus and Median Eminence Cell Types
+project.project_id GSE90806
 assay.rna.end_bias three_prime_bias
 assay.rna.primer poly-dt
 assay.rna.library_construction unknown
@@ -11,240 +11,212 @@ assay.single_cell.cell_handling mouth pipette
 project.contributors.1.name "Linus,T,Tsai"
 project.contributors.2.name "John,N,Campbell"
 project.description Drop-seq and single cell sequencing of mouse arcuate nucleus and median eminence
-project.experimental_design.1.text Single-cell RNA-seq was performed on Cre-dependent AAV-GFP+ cells that were manually isolated from dissociated Arc-ME of two adult male RIP-Cre mice
+project.experimental_design.1 Single-cell RNA-seq was performed on Cre-dependent AAV-GFP+ cells that were manually isolated from dissociated Arc-ME of two adult male RIP-Cre mice
 project.geo_series GSE90806
-project.ncbi_bioproject PRJNA355987
 project.publications.1.pmid 28166221
-project.sra_project SRP094469
+project.insdc_project SRP094469
 project.submit_date 2016-12-02
-project.submitter.address "Center for Life Science, room 7-717; Boston, MA 02115 USA"
-project.submitter.city Boston
-project.submitter.country USA
-project.submitter.country_division MA
-project.submitter.email jncampbe@caregroup.org
-project.submitter.institution Beth Israel Deaconess Medical Center
-project.submitter.laboratory Lowell Lab
-project.submitter.name "John,N,Campbell"
+project.submitters.1.address "Center for Life Science, room 7-717; Boston, MA 02115 USA"
+project.submitters.1.city Boston
+project.submitters.1.country USA
+project.submitters.1.country_division MA
+project.submitters.1.email jncampbe@caregroup.org
+project.submitters.1.institution Beth Israel Deaconess Medical Center
+project.submitters.1.laboratory Lowell Lab
+project.submitters.1.name "John,N,Campbell"
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90806/suppl/GSE90806_RIP-Cre_ARC_GeneCounts.csv.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP094/SRP094469
 project.update_date 2017-06-05
-sample.body_part.text arcuate nucleus and median eminence of hypothalamus
+sample.specimen_from_organism.body_part.text arcuate nucleus and median eminence of hypothalamus
 sample.donor.age 63
 sample.donor.age_unit day
 sample.donor.genotype AAV-GFP+ RIP-Cre+
 sample.donor.life_stage adult
 sample.donor.sex male
-sample.donor.species.ontology 10090
-sample.donor.species.text Mus musculus
+sample.ncbi_taxon_id 10090
+sample.genus_species Mus musculus
 sample.donor.is_living no
 sample.donor.strain.1.text (C57BL/6 x DBA)F2
 sample.name brain: Arc-ME
-sample.organ.ontology UBERON_0000955
-sample.organ.text brain
-sample.submit_date 2016-12-02
-project.protocols.1.description GFP+ cells were manually isolated from a cell suspension prepared by triturating and washing papain-digested Arc-ME
-project.protocols.1.type.text nucleic acid library construction protocol
-sample.title arcuate hypothalamus/median eminence cells from RIP-Cre::AAV-loxSTOPlox-GFP+ mouse
-sample.update_date 2017-02-06
-project.protocols.1.id da241a08-e717-4faf-b83c-6f807a1f20b3
+sample.specimen_from_organism.organ.ontology UBERON_0000955
+sample.specimen_from_organism.organ.text brain
+protocols.1.description GFP+ cells were manually isolated from a cell suspension prepared by triturating and washing papain-digested Arc-ME
+protocols.1.type.text nucleic acid library construction protocol
+sample.description arcuate hypothalamus/median eminence cells from RIP-Cre::AAV-loxSTOPlox-GFP+ mouse
+protocols.1.id da241a08-e717-4faf-b83c-6f807a1f20b3
 sample.protocol_ids da241a08-e717-4faf-b83c-6f807a1f20b3
 
-	assay.seq.sra_experiment SRX2390154
-	assay.seq.sra_run SRR5070307
-	sample.id bdb35279-e6e5-4a9a-8e44-0b2fcd8392c2
-	sample.geo_sample GSM2413264
-	sample.ncbi_biosample SAMN06099681
+	assay.seq.insdc_experiment SRX2390154
+	assay.seq.insdc_run SRR5070307
+	sample.sample_id bdb35279-e6e5-4a9a-8e44-0b2fcd8392c2
+	sample.sample_accessions.biosd_sample SAMN06099681
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390154
-	sample.well.name RIPCre-2-01
+	sample.cell_suspension.well.name RIPCre-2-01
 
-	assay.seq.sra_experiment SRX2390155
-	assay.seq.sra_run SRR5070308
-	sample.id 89d5f337-bfce-49c1-8f17-c8f10f371c92
-	sample.geo_sample GSM2413265
-	sample.ncbi_biosample SAMN06099680
+	assay.seq.insdc_experiment SRX2390155
+	assay.seq.insdc_run SRR5070308
+	sample.sample_id 89d5f337-bfce-49c1-8f17-c8f10f371c92
+	sample.sample_accessions.biosd_sample SAMN06099680
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390155
-	sample.well.name RIPCre-2-02
+	sample.cell_suspension.well.name RIPCre-2-02
 
-	assay.seq.sra_experiment SRX2390156
-	assay.seq.sra_run SRR5070309
-	sample.id 3d274cf5-3b4d-416a-912e-e5fde832ced1
-	sample.geo_sample GSM2413266
-	sample.ncbi_biosample SAMN06099679
+	assay.seq.insdc_experiment SRX2390156
+	assay.seq.insdc_run SRR5070309
+	sample.sample_id 3d274cf5-3b4d-416a-912e-e5fde832ced1
+	sample.sample_accessions.biosd_sample SAMN06099679
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390156
-	sample.well.name RIPCre-2-03
+	sample.cell_suspension.well.name RIPCre-2-03
 
-	assay.seq.sra_experiment SRX2390157
-	assay.seq.sra_run SRR5070310
-	sample.id 8af0f2ab-4cc3-4c36-9542-b54164711549
-	sample.geo_sample GSM2413267
-	sample.ncbi_biosample SAMN06099678
+	assay.seq.insdc_experiment SRX2390157
+	assay.seq.insdc_run SRR5070310
+	sample.sample_id 8af0f2ab-4cc3-4c36-9542-b54164711549
+	sample.sample_accessions.biosd_sample SAMN06099678
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390157
-	sample.well.name RIPCre-2-04
+	sample.cell_suspension.well.name RIPCre-2-04
 
-	assay.seq.sra_experiment SRX2390158
-	assay.seq.sra_run SRR5070311
-	sample.id ceb8f013-52e9-49b4-a6e8-aed65aa6441b
-	sample.geo_sample GSM2413268
-	sample.ncbi_biosample SAMN06099696
+	assay.seq.insdc_experiment SRX2390158
+	assay.seq.insdc_run SRR5070311
+	sample.sample_id ceb8f013-52e9-49b4-a6e8-aed65aa6441b
+	sample.sample_accessions.biosd_sample SAMN06099696
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390158
-	sample.well.name RIPCre-2-05
+	sample.cell_suspension.well.name RIPCre-2-05
 
-	assay.seq.sra_experiment SRX2390159
-	assay.seq.sra_run SRR5070312
-	sample.id b4c3e6b1-0391-42ae-ade1-f6c6ecc19f69
-	sample.geo_sample GSM2413269
-	sample.ncbi_biosample SAMN06099698
+	assay.seq.insdc_experiment SRX2390159
+	assay.seq.insdc_run SRR5070312
+	sample.sample_id b4c3e6b1-0391-42ae-ade1-f6c6ecc19f69
+	sample.sample_accessions.biosd_sample SAMN06099698
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390159
-	sample.well.name RIPCre-2-06
+	sample.cell_suspension.well.name RIPCre-2-06
 
-	assay.seq.sra_experiment SRX2390160
-	assay.seq.sra_run SRR5070313
-	sample.id d1c40891-f3df-47a2-bb01-268d83160ca1
-	sample.geo_sample GSM2413270
-	sample.ncbi_biosample SAMN06099697
+	assay.seq.insdc_experiment SRX2390160
+	assay.seq.insdc_run SRR5070313
+	sample.sample_id d1c40891-f3df-47a2-bb01-268d83160ca1
+	sample.sample_accessions.biosd_sample SAMN06099697
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390160
-	sample.well.name RIPCre-2-07
+	sample.cell_suspension.well.name RIPCre-2-07
 
-	assay.seq.sra_experiment SRX2390161
-	assay.seq.sra_run SRR5070314
-	sample.id 454d3253-6f29-4c87-bfbb-5997274f38cd
-	sample.geo_sample GSM2413271
-	sample.ncbi_biosample SAMN06099677
+	assay.seq.insdc_experiment SRX2390161
+	assay.seq.insdc_run SRR5070314
+	sample.sample_id 454d3253-6f29-4c87-bfbb-5997274f38cd
+	sample.sample_accessions.biosd_sample SAMN06099677
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390161
-	sample.well.name RIPCre-2-08
+	sample.cell_suspension.well.name RIPCre-2-08
 
-	assay.seq.sra_experiment SRX2390162
-	assay.seq.sra_run SRR5070315
-	sample.id 1bad4dd9-f303-4f28-91ae-1e288cea3696
-	sample.geo_sample GSM2413272
-	sample.ncbi_biosample SAMN06099701
+	assay.seq.insdc_experiment SRX2390162
+	assay.seq.insdc_run SRR5070315
+	sample.sample_id 1bad4dd9-f303-4f28-91ae-1e288cea3696
+	sample.sample_accessions.biosd_sample SAMN06099701
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390162
-	sample.well.name RIPCre-2-09
+	sample.cell_suspension.well.name RIPCre-2-09
 
-	assay.seq.sra_experiment SRX2390163
-	assay.seq.sra_run SRR5070316
-	sample.id afa093e3-28c6-4e67-aeb9-842a60dadd08
-	sample.geo_sample GSM2413273
-	sample.ncbi_biosample SAMN06099700
+	assay.seq.insdc_experiment SRX2390163
+	assay.seq.insdc_run SRR5070316
+	sample.sample_id afa093e3-28c6-4e67-aeb9-842a60dadd08
+	sample.sample_accessions.biosd_sample SAMN06099700
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390163
-	sample.well.name RIPCre-2-10
+	sample.cell_suspension.well.name RIPCre-2-10
 
-	assay.seq.sra_experiment SRX2390164
-	assay.seq.sra_run SRR5070317
-	sample.id 38fa0daf-cd90-435c-995f-597ea261512d
-	sample.geo_sample GSM2413274
-	sample.ncbi_biosample SAMN06099699
+	assay.seq.insdc_experiment SRX2390164
+	assay.seq.insdc_run SRR5070317
+	sample.sample_id 38fa0daf-cd90-435c-995f-597ea261512d
+	sample.sample_accessions.biosd_sample SAMN06099699
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390164
-	sample.well.name RIPCre-2-11
+	sample.cell_suspension.well.name RIPCre-2-11
 
-	assay.seq.sra_experiment SRX2390165
-	assay.seq.sra_run SRR5070318
-	sample.id ed31ee22-329f-46b8-9deb-7fef182edfaf
-	sample.geo_sample GSM2413275
-	sample.ncbi_biosample SAMN06099689
+	assay.seq.insdc_experiment SRX2390165
+	assay.seq.insdc_run SRR5070318
+	sample.sample_id ed31ee22-329f-46b8-9deb-7fef182edfaf
+	sample.sample_accessions.biosd_sample SAMN06099689
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390165
-	sample.well.name RIPCre-2-12
+	sample.cell_suspension.well.name RIPCre-2-12
 
-	assay.seq.sra_experiment SRX2390166
-	assay.seq.sra_run SRR5070319
-	sample.id 59207b9c-30f5-42f7-886d-8b8f28e21cf3
-	sample.geo_sample GSM2413276
-	sample.ncbi_biosample SAMN06099695
+	assay.seq.insdc_experiment SRX2390166
+	assay.seq.insdc_run SRR5070319
+	sample.sample_id 59207b9c-30f5-42f7-886d-8b8f28e21cf3
+	sample.sample_accessions.biosd_sample SAMN06099695
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390166
-	sample.well.name RIPCre-2-13
+	sample.cell_suspension.well.name RIPCre-2-13
 
-	assay.seq.sra_experiment SRX2390167
-	assay.seq.sra_run SRR5070320
-	sample.id bb442216-677a-40a6-908f-bb1b52898c0e
-	sample.geo_sample GSM2413277
-	sample.ncbi_biosample SAMN06099694
+	assay.seq.insdc_experiment SRX2390167
+	assay.seq.insdc_run SRR5070320
+	sample.sample_id bb442216-677a-40a6-908f-bb1b52898c0e
+	sample.sample_accessions.biosd_sample SAMN06099694
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390167
-	sample.well.name RIPCre-2-14
+	sample.cell_suspension.well.name RIPCre-2-14
 
-	assay.seq.sra_experiment SRX2390168
-	assay.seq.sra_run SRR5070321
-	sample.id 55c13220-7b2e-4163-80eb-ad1f8b611cb2
-	sample.geo_sample GSM2413278
-	sample.ncbi_biosample SAMN06099693
+	assay.seq.insdc_experiment SRX2390168
+	assay.seq.insdc_run SRR5070321
+	sample.sample_id 55c13220-7b2e-4163-80eb-ad1f8b611cb2
+	sample.sample_accessions.biosd_sample SAMN06099693
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390168
-	sample.well.name RIPCre-2-15
+	sample.cell_suspension.well.name RIPCre-2-15
 
-	assay.seq.sra_experiment SRX2390169
-	assay.seq.sra_run SRR5070322
-	sample.id 966f4684-3afb-48c8-8ce1-4110711712ea
-	sample.geo_sample GSM2413279
-	sample.ncbi_biosample SAMN06099692
+	assay.seq.insdc_experiment SRX2390169
+	assay.seq.insdc_run SRR5070322
+	sample.sample_id 966f4684-3afb-48c8-8ce1-4110711712ea
+	sample.sample_accessions.biosd_sample SAMN06099692
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390169
-	sample.well.name RIPCre-2-17
+	sample.cell_suspension.well.name RIPCre-2-17
 
-	assay.seq.sra_experiment SRX2390170
-	assay.seq.sra_run SRR5070323
-	sample.id e216e865-492a-4780-b94a-f110c2b59823
-	sample.geo_sample GSM2413280
-	sample.ncbi_biosample SAMN06099691
+	assay.seq.insdc_experiment SRX2390170
+	assay.seq.insdc_run SRR5070323
+	sample.sample_id e216e865-492a-4780-b94a-f110c2b59823
+	sample.sample_accessions.biosd_sample SAMN06099691
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390170
-	sample.well.name RIPCre-2-24
+	sample.cell_suspension.well.name RIPCre-2-24
 
-	assay.seq.sra_experiment SRX2390171
-	assay.seq.sra_run SRR5070324
-	sample.id 3b7a8845-a394-4de5-beaa-170be0bee2a6
-	sample.geo_sample GSM2413281
-	sample.ncbi_biosample SAMN06099690
+	assay.seq.insdc_experiment SRX2390171
+	assay.seq.insdc_run SRR5070324
+	sample.sample_id 3b7a8845-a394-4de5-beaa-170be0bee2a6
+	sample.sample_accessions.biosd_sample SAMN06099690
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390171
-	sample.well.name RIPCre-2-25
+	sample.cell_suspension.well.name RIPCre-2-25
 
-	assay.seq.sra_experiment SRX2390172
-	assay.seq.sra_run SRR5070325
-	sample.id 057649b4-7d09-4880-881f-ea3336c92ed8
-	sample.geo_sample GSM2413282
-	sample.ncbi_biosample SAMN06099685
+	assay.seq.insdc_experiment SRX2390172
+	assay.seq.insdc_run SRR5070325
+	sample.sample_id 057649b4-7d09-4880-881f-ea3336c92ed8
+	sample.sample_accessions.biosd_sample SAMN06099685
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390172
-	sample.well.name RIPCre-2-26
+	sample.cell_suspension.well.name RIPCre-2-26
 
-	assay.seq.sra_experiment SRX2390173
-	assay.seq.sra_run SRR5070326
-	sample.id d1169a7c-9a43-4feb-a3f2-44f2f6a0cbe2
-	sample.geo_sample GSM2413283
-	sample.ncbi_biosample SAMN06099684
+	assay.seq.insdc_experiment SRX2390173
+	assay.seq.insdc_run SRR5070326
+	sample.sample_id d1169a7c-9a43-4feb-a3f2-44f2f6a0cbe2
+	sample.sample_accessions.biosd_sample SAMN06099684
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390173
-	sample.well.name RIPCre-2-27
+	sample.cell_suspension.well.name RIPCre-2-27
 
-	assay.seq.sra_experiment SRX2390174
-	assay.seq.sra_run SRR5070327
-	sample.id 97e0db31-097a-4080-8ccf-9a13e7e36a10
-	sample.geo_sample GSM2413284
-	sample.ncbi_biosample SAMN06099683
+	assay.seq.insdc_experiment SRX2390174
+	assay.seq.insdc_run SRR5070327
+	sample.sample_id 97e0db31-097a-4080-8ccf-9a13e7e36a10
+	sample.sample_accessions.biosd_sample SAMN06099683
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390174
-	sample.well.name RIPCre-2-29
+	sample.cell_suspension.well.name RIPCre-2-29
 
-	assay.seq.sra_experiment SRX2390175
-	assay.seq.sra_run SRR5070328
-	sample.id 43f511af-db20-4bd2-8b8a-5c07b85b9ffc
-	sample.geo_sample GSM2413285
-	sample.ncbi_biosample SAMN06099686
+	assay.seq.insdc_experiment SRX2390175
+	assay.seq.insdc_run SRR5070328
+	sample.sample_id 43f511af-db20-4bd2-8b8a-5c07b85b9ffc
+	sample.sample_accessions.biosd_sample SAMN06099686
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390175
-	sample.well.name RIPCre-2-31
+	sample.cell_suspension.well.name RIPCre-2-31
 
-	assay.seq.sra_experiment SRX2390176
-	assay.seq.sra_run SRR5070329
-	sample.id 84e12785-1e35-437e-b22e-e5d9724d2037
-	sample.geo_sample GSM2413286
-	sample.ncbi_biosample SAMN06099688
+	assay.seq.insdc_experiment SRX2390176
+	assay.seq.insdc_run SRR5070329
+	sample.sample_id 84e12785-1e35-437e-b22e-e5d9724d2037
+	sample.sample_accessions.biosd_sample SAMN06099688
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390176
-	sample.well.name RIPCre-2-32
+	sample.cell_suspension.well.name RIPCre-2-32
 
-	assay.seq.sra_experiment SRX2390177
-	assay.seq.sra_run SRR5070330
-	sample.id 3750825f-8328-41a1-8a69-df4c4be0e6cb
-	sample.geo_sample GSM2413287
-	sample.ncbi_biosample SAMN06099687
+	assay.seq.insdc_experiment SRX2390177
+	assay.seq.insdc_run SRR5070330
+	sample.sample_id 3750825f-8328-41a1-8a69-df4c4be0e6cb
+	sample.sample_accessions.biosd_sample SAMN06099687
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390177
-	sample.well.name RIPCre-2-34
+	sample.cell_suspension.well.name RIPCre-2-34
 
-	assay.seq.sra_experiment SRX2390178
-	assay.seq.sra_run SRR5070331
-	sample.id bffa470e-5bea-4fd2-8727-62d36f09e75d
-	sample.geo_sample GSM2413288
-	sample.ncbi_biosample SAMN06099682
+	assay.seq.insdc_experiment SRX2390178
+	assay.seq.insdc_run SRR5070331
+	sample.sample_id bffa470e-5bea-4fd2-8727-62d36f09e75d
+	sample.sample_accessions.biosd_sample SAMN06099682
 	sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX239/SRX2390178
-	sample.well.name RIPCre-2-43
+	sample.cell_suspension.well.name RIPCre-2-43
 

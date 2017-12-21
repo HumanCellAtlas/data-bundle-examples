@@ -1,5 +1,5 @@
-project.title "Drop-Seq analysis of  P17 FACS sorted retinal cells from the Tg(Chx10-EGFP/cre,-ALPP)2Clc or Vsx2-GFP transgenic line"
-project.id GSE81904
+project.name "Drop-Seq analysis of  P17 FACS sorted retinal cells from the Tg(Chx10-EGFP/cre,-ALPP)2Clc or Vsx2-GFP transgenic line"
+project.project_id GSE81904
 assay.rna.end_bias three_prime_end
 assay.rna.primer poly-dt
 assay.rna.library_construction drop-seq
@@ -11,97 +11,88 @@ assay.seq.paired_ends yes
 assay.seq.umi_barcode.offset 12
 assay.seq.umi_barcode.read r1
 assay.seq.umi_barcode.size 8
-assay.single_cell.barcode.offset 0
-assay.single_cell.barcode.read r1
-assay.single_cell.barcode.size 12
+assay.single_cell.cell_barcode.offset 0
+assay.single_cell.cell_barcode.read r1
+assay.single_cell.cell_barcode.size 12
 assay.single_cell.cell_handling drop-seq
 project.array_express_investigation E-MTAB-81904
 project.contributors.1.name "Karthik,,Shekhar"
 project.description "Vsx2-GFP mouse retinas were dissected, FACS sorted for GFP+ cells and single-cell mRNAseq libraries generated with Drop-Seq"
-project.experimental_design.1.text Drop-Seq was performed on two different batches. Bipolar1-Bipolar4 are replicates from batch 1 and Bipolar5-6 are replicates from Batch 2
+project.experimental_design.1 Drop-Seq was performed on two different batches. Bipolar1-Bipolar4 are replicates from batch 1 and Bipolar5-6 are replicates from Batch 2
 project.geo_series GSE81904
-project.ncbi_bioproject PRJNA323370
 project.publications.1.pmid 27565351
-project.sra_project SRP075719
+project.insdc_project SRP075719
 project.submit_date 2016-05-25
-project.submitter.address "415 Main St.; Cambridge, MA 02142 USA"
-project.submitter.city Cambridge
-project.submitter.country USA
-project.submitter.country_division MA
-project.submitter.email karthik@broadinstitute.org
-project.submitter.institution Broad Institute
-project.submitter.name "Karthik,,Shekhar"
+project.submitters.1.address "415 Main St.; Cambridge, MA 02142 USA"
+project.submitters.1.city Cambridge
+project.submitters.1.country USA
+project.submitters.1.country_division MA
+project.submitters.1.email karthik@broadinstitute.org
+project.submitters.1.institution Broad Institute
+project.submitters.1.name "Karthik,,Shekhar"
 project.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE81904/GSE81904_BipolarUMICounts_Cell2016.txt.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE81904/GSE81904_RAW.tar,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE81904/GSE81904_bipolar_data_Cell2016.Rdata.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE81904/GSE81904_class.R.gz,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP075/SRP075719
 project.update_date 2017-05-26
-sample.body_part.ontology UBERON_0000966
-sample.body_part.text retina
+sample.specimen_from_organism.body_part.ontology UBERON_0000966
+sample.specimen_from_organism.body_part.text retina
 sample.donor.age 17
 sample.donor.age_unit day
 sample.donor.genotype Vsx2-GFP
 sample.donor.life_stage postpartum
-sample.donor.species.ontology 10090
-sample.donor.species.text Mus musculus
+sample.ncbi_taxon_id 10090
+sample.genus_species Mus musculus
 sample.donor.is_living no
-sample.organ.ontology UBERON_0000970
-sample.organ.text eye
-sample.submit_date 2016-05-25
-project.protocols.1.description "suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads. Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol."
-project.protocols.1.type.text nucleic acid library construction protocol
-sample.update_date 2016-08-25
-project.protocols.1.id 0414acee-2ea8-4d6d-b552-520836cb0825
+sample.specimen_from_organism.organ.ontology UBERON_0000970
+sample.specimen_from_organism.organ.text eye
+protocols.1.description "suspensions were processed through Drop-Seq to generate single-cell cDNA libraries attached to microbeads. Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA prepared for sequencing using a modified Nextera XT protocol."
+protocols.1.type.text nucleic acid library construction protocol
+protocols.1.id 0414acee-2ea8-4d6d-b552-520836cb0825
 sample.protocol_ids 0414acee-2ea8-4d6d-b552-520836cb0825
 
-	assay.seq.sra_experiment SRX1800075
-	assay.seq.sra_run SRR3587500
-	sample.id 5053a2b0-0c07-4df3-8a9d-4485688e29e7
-	sample.geo_sample GSM2177570
+	assay.seq.insdc_experiment SRX1800075
+	assay.seq.insdc_run SRR3587500
+	sample.sample_id 5053a2b0-0c07-4df3-8a9d-4485688e29e7
 	sample.name retina bipolar 1
-	sample.ncbi_biosample SAMN05177285
+	sample.sample_accessions.biosd_sample SAMN05177285
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177570/GSM2177570_Bipolar1.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800075
-	sample.title P17 Vsx2-GFP sorted mouse bipolar retina cells 1 (Batch 1)
+	sample.description P17 Vsx2-GFP sorted mouse bipolar retina cells 1 (Batch 1)
 
-	assay.seq.sra_experiment SRX1800076
-	assay.seq.sra_run SRR3587501
-	sample.id df661039-ad34-4e2b-8555-f42e8869ba6c
-	sample.geo_sample GSM2177571
+	assay.seq.insdc_experiment SRX1800076
+	assay.seq.insdc_run SRR3587501
+	sample.sample_id df661039-ad34-4e2b-8555-f42e8869ba6c
 	sample.name retina bipolar 2
-	sample.ncbi_biosample SAMN05177286
+	sample.sample_accessions.biosd_sample SAMN05177286
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177571/GSM2177571_Bipolar2.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800076
-	sample.title P17 Vsx2-GFP sorted mouse bipolar retina cells 2 (Batch 1)
+	sample.description P17 Vsx2-GFP sorted mouse bipolar retina cells 2 (Batch 1)
 
-	assay.seq.sra_experiment SRX1800077
-	assay.seq.sra_run SRR3587502
-	sample.id df557776-643b-40e4-8502-389b4c697a92
-	sample.geo_sample GSM2177572
+	assay.seq.insdc_experiment SRX1800077
+	assay.seq.insdc_run SRR3587502
+	sample.sample_id df557776-643b-40e4-8502-389b4c697a92
 	sample.name retina bipolar 3
-	sample.ncbi_biosample SAMN05177287
+	sample.sample_accessions.biosd_sample SAMN05177287
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177572/GSM2177572_Bipolar3.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800077
-	sample.title P17 Vsx2-GFP sorted mouse bipolar retina cells 3 (Batch 1)
+	sample.description P17 Vsx2-GFP sorted mouse bipolar retina cells 3 (Batch 1)
 
-	assay.seq.sra_experiment SRX1800078
-	assay.seq.sra_run SRR3587503
-	sample.id 13b08ba4-0eb6-4555-bf21-d89950b62b0e
-	sample.geo_sample GSM2177573
+	assay.seq.insdc_experiment SRX1800078
+	assay.seq.insdc_run SRR3587503
+	sample.sample_id 13b08ba4-0eb6-4555-bf21-d89950b62b0e
 	sample.name retina bipolar 4
-	sample.ncbi_biosample SAMN05177288
+	sample.sample_accessions.biosd_sample SAMN05177288
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177573/GSM2177573_Bipolar4.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800078
-	sample.title P17 Vsx2-GFP sorted mouse bipolar retina cells 4 (Batch 1)
+	sample.description P17 Vsx2-GFP sorted mouse bipolar retina cells 4 (Batch 1)
 
-	assay.seq.sra_experiment SRX1800079
-	assay.seq.sra_run SRR3587504
-	sample.id 0088e6cb-7ea4-47e1-a228-207f1cb17532
-	sample.geo_sample GSM2177574
+	assay.seq.insdc_experiment SRX1800079
+	assay.seq.insdc_run SRR3587504
+	sample.sample_id 0088e6cb-7ea4-47e1-a228-207f1cb17532
 	sample.name retina bipolar 5
-	sample.ncbi_biosample SAMN05177289
+	sample.sample_accessions.biosd_sample SAMN05177289
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177574/GSM2177574_Bipolar5.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800079
-	sample.title P17 Vsx2-GFP sorted mouse bipolar retina cells 5 (Batch 2)
+	sample.description P17 Vsx2-GFP sorted mouse bipolar retina cells 5 (Batch 2)
 
-	assay.seq.sra_experiment SRX1800080
-	assay.seq.sra_run SRR3587505
-	sample.id c5644370-fe35-4909-90cf-9ee99900d10d
-	sample.geo_sample GSM2177575
+	assay.seq.insdc_experiment SRX1800080
+	assay.seq.insdc_run SRR3587505
+	sample.sample_id c5644370-fe35-4909-90cf-9ee99900d10d
 	sample.name retina bipolar 6
-	sample.ncbi_biosample SAMN05177290
+	sample.sample_accessions.biosd_sample SAMN05177290
 	sample.supplementary_files ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2177nnn/GSM2177575/GSM2177575_Bipolar6.bam,ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX180/SRX1800080
-	sample.title P17 Vsx2-GFP sorted mouse bipolar retina cells 6 (Batch 2)
+	sample.description P17 Vsx2-GFP sorted mouse bipolar retina cells 6 (Batch 2)
 

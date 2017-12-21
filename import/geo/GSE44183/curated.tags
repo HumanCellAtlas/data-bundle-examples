@@ -1,5 +1,5 @@
-project.title Genetic Programs in Human and Mouse Early Embryos Revealed by Single-Cell RNA-Sequencing
-project.id GSE44183
+project.name Genetic Programs in Human and Mouse Early Embryos Revealed by Single-Cell RNA-Sequencing
+project.project_id GSE44183
 assay.seq.instrument_model Illumina HiSeq 2000
 assay.seq.instrument_platform Illumina
 assay.seq.molecule polyA RNA
@@ -10,36 +10,34 @@ project.contributors.1.name "Kevin,,Huang"
 project.contributors.2.name "Xue,,Zhigang"
 project.contributors.3.name "Guoping,,Fan"
 project.description "Mammalian preimplantation development is a complex process involving dramatic changes in the transcriptional architecture. Through single-cell RNA-sequencing (RNA-seq), we report here a comprehensive analysis of transcriptome dynamics from oocyte to morula in both human and mouse embryos. Based on single nucleotide variants (SNVs) in blastomere mRNAs and paternal-specific SNPs, we identify novel stage-specific monoallelic expression patterns for a significant portion of polymorphic gene transcripts (25-53%). By weighted gene co-expression network analysis (WGCNA), we find that each developmental stage can be concisely delineated by a small number of functional modules of co-expressed genes. This result indicates a sequential order of transcriptional changes in pathways of cell cycle, gene regulation, translation, and metabolism in a step-wise fashion from cleavage to morula.  Cross-species comparisons reveal that the majority of human stage-specific modules (7 out of 9) are remarkably preserved, only to diverge in developmental specificity and timing in mice. We further identify conserved key members (or hub genes) of the human and mouse networks. These genes represent novel candidates that are likely key players in driving mammalian preimplantation development. Collectively, we demonstrate that mammalian preimplantation development is orchestrated by evolutionarily conserved genetic programs that diverge in developmental timing.  Our results provide a valuable resource to dissect gene regulatory mechanism underlying progressive development of early mammalian embryos."
-project.experimental_design.1.text single-cell RNA-seq of human and mouse blastomeres
+project.experimental_design.1 single-cell RNA-seq of human and mouse blastomeres
 project.geo_series GSE44183
-project.ncbi_bioproject PRJNA189204
 project.publications.1.pmid 23892778
-project.sra_project SRP018525
+project.insdc_project SRP018525
 project.submit_date 2013-02-08
-project.submitter.address "Gonda BLDG Rm. 6554, P.O.Box 957088; Los Angeles, CA 90095-7088 USA"
-project.submitter.city Los Angeles
-project.submitter.country USA
-project.submitter.country_division CA
-project.submitter.email kevinhuang@ucla.edu
-project.submitter.institution UCLA
-project.submitter.laboratory Guoping Fan
-project.submitter.name "Kevin,,Huang"
+project.submitters.1.address "Gonda BLDG Rm. 6554, P.O.Box 957088; Los Angeles, CA 90095-7088 USA"
+project.submitters.1.city Los Angeles
+project.submitters.1.country USA
+project.submitters.1.country_division CA
+project.submitters.1.email kevinhuang@ucla.edu
+project.submitters.1.institution UCLA
+project.submitters.1.laboratory Guoping Fan
+project.submitters.1.name "Kevin,,Huang"
 project.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP018/SRP018525,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE44183/GSE44183_RAW.tar,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE44183/GSE44183_human_expression_mat.txt.gz,ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE44183/GSE44183_mouse_expression_mat.txt.gz
 project.update_date 2017-05-26
 sample.donor.life_stage embryo
 sample.donor.is_living no
-sample.organ.ontology UBERON_0000922
-sample.organ.text embryo
-project.protocols.1.description "Single blastomeres were isolated by removing the zona pellucida using acidic tyrode solution (Sigma, cat. no. T1788), then separated by gentle mouth pipetting in a calcium-free medium."
-project.protocols.1.type.text growth protocol
-project.protocols.2.description Single cells were washed twice with 1x PBS containing 0.1% BSA before placing in lysis buffer.
-project.protocols.2.type.text treatment protocol
-project.protocols.3.description "RNA was isolated from single cells or single morula embryos and amplified as previously described (Tang et al., 2010, Nat Protoc)"
-project.protocols.3.type.text nucleic acid library construction protocol
-sample.update_date 2013-07-29
-project.protocols.1.id bd94de32-3a72-4090-a34e-3315d2cb9655
-project.protocols.2.id f0d0154b-d7ba-4745-9578-bc23b9bc0a3e
-project.protocols.3.id 9b1c41af-8f1b-4c5b-aaf4-f6eebce54324
+sample.specimen_from_organism.organ.ontology UBERON_0000922
+sample.specimen_from_organism.organ.text embryo
+protocols.1.description "Single blastomeres were isolated by removing the zona pellucida using acidic tyrode solution (Sigma, cat. no. T1788), then separated by gentle mouth pipetting in a calcium-free medium."
+protocols.1.type.text growth protocol
+protocols.2.description Single cells were washed twice with 1x PBS containing 0.1% BSA before placing in lysis buffer.
+protocols.2.type.text treatment protocol
+protocols.3.description "RNA was isolated from single cells or single morula embryos and amplified as previously described (Tang et al., 2010, Nat Protoc)"
+protocols.3.type.text nucleic acid library construction protocol
+protocols.1.id bd94de32-3a72-4090-a34e-3315d2cb9655
+protocols.2.id f0d0154b-d7ba-4745-9578-bc23b9bc0a3e
+protocols.3.id 9b1c41af-8f1b-4c5b-aaf4-f6eebce54324
 sample.protocol_ids bd94de32-3a72-4090-a34e-3315d2cb9655,f0d0154b-d7ba-4745-9578-bc23b9bc0a3e,9b1c41af-8f1b-4c5b-aaf4-f6eebce54324
 
 	assay.rna.end_bias full_transcript
@@ -48,468 +46,420 @@ sample.protocol_ids bd94de32-3a72-4090-a34e-3315d2cb9655,f0d0154b-d7ba-4745-9578
 	sample.donor.age 0
 	sample.donor.age_unit week
 	sample.donor.ancestry.1.text Han Chinese
-	sample.donor.species.ontology 9606
-	sample.donor.species.text Homo sapiens
-	sample.submit_date 2013-06-11
+	sample.ncbi_taxon_id 9606
+	sample.genus_species Homo sapiens
 
-		sample.body_part.text oocyte
+		sample.specimen_from_organism.body_part.text oocyte
 		sample.donor.development_stage.text oocyte
 		sample.name unfertilized oocytes
-		sample.title unfertilized oocytes from Fan lab 2013
+		sample.description unfertilized oocytes from Fan lab 2013
 		sample.well.cell_type.ontology CL_0000023
 		sample.well.cell_type.text oocyte
 
-			assay.seq.sra_experiment SRX300873
-			assay.seq.sra_run SRR893046
-			sample.id 0e0c85ff-849d-4b6c-aba6-eda30024b35d
-			sample.geo_sample GSM1160112
-			sample.ncbi_biosample SAMN02195141
+			assay.seq.insdc_experiment SRX300873
+			assay.seq.insdc_run SRR893046
+			sample.sample_id 0e0c85ff-849d-4b6c-aba6-eda30024b35d
+			sample.sample_accessions.biosd_sample SAMN02195141
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300873
-			sample.well.name human oocyte 1
+			sample.cell_suspension.well.name human oocyte 1
 
-			assay.seq.sra_experiment SRX300874
-			assay.seq.sra_run SRR893047
-			sample.id 2f7c4284-dc41-4b3e-834f-5beea7fd88d7
-			sample.geo_sample GSM1160113
-			sample.ncbi_biosample SAMN02195142
+			assay.seq.insdc_experiment SRX300874
+			assay.seq.insdc_run SRR893047
+			sample.sample_id 2f7c4284-dc41-4b3e-834f-5beea7fd88d7
+			sample.sample_accessions.biosd_sample SAMN02195142
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300874
-			sample.well.name human oocyte 3
+			sample.cell_suspension.well.name human oocyte 3
 
-			assay.seq.sra_experiment SRX300875
-			assay.seq.sra_run SRR893048
-			sample.id fce04869-faee-4719-9605-c5d4186741b0
-			sample.geo_sample GSM1160114
-			sample.ncbi_biosample SAMN02195143
+			assay.seq.insdc_experiment SRX300875
+			assay.seq.insdc_run SRR893048
+			sample.sample_id fce04869-faee-4719-9605-c5d4186741b0
+			sample.sample_accessions.biosd_sample SAMN02195143
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300875
-			sample.well.name human oocyte 4
+			sample.cell_suspension.well.name human oocyte 4
 
-		sample.body_part.text pronucleus phase zygote
+		sample.specimen_from_organism.body_part.text pronucleus phase zygote
 		sample.donor.development_stage.text pronucleus phase zygote
 		sample.name pronucleus phase zygote
-		sample.title fertilized oocyte at pronucleus phase from Fan lab 2013
+		sample.description fertilized oocyte at pronucleus phase from Fan lab 2013
 		sample.well.cell_type.text pronucleus phase zygote
 
-			assay.seq.sra_experiment SRX300876
-			assay.seq.sra_run SRR893049
-			sample.id 0034d227-a8bd-48b5-8278-2b0f4aa18a9a
-			sample.geo_sample GSM1160115
-			sample.ncbi_biosample SAMN02195144
+			assay.seq.insdc_experiment SRX300876
+			assay.seq.insdc_run SRR893049
+			sample.sample_id 0034d227-a8bd-48b5-8278-2b0f4aa18a9a
+			sample.sample_accessions.biosd_sample SAMN02195144
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300876
-			sample.well.name human pronuclei 2
+			sample.cell_suspension.well.name human pronuclei 2
 
-			assay.seq.sra_experiment SRX300877
-			assay.seq.sra_run SRR893050
-			sample.id 784ffcab-a8a5-45a4-9218-fbb533506fb0
-			sample.geo_sample GSM1160116
-			sample.ncbi_biosample SAMN02195145
+			assay.seq.insdc_experiment SRX300877
+			assay.seq.insdc_run SRR893050
+			sample.sample_id 784ffcab-a8a5-45a4-9218-fbb533506fb0
+			sample.sample_accessions.biosd_sample SAMN02195145
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300877
-			sample.well.name human pronuclei 3
+			sample.cell_suspension.well.name human pronuclei 3
 
-			assay.seq.sra_experiment SRX300878
-			assay.seq.sra_run SRR893051
-			sample.id d80b90b5-a32a-4ea7-a609-e469743aae32
-			sample.geo_sample GSM1160117
-			sample.ncbi_biosample SAMN02195146
+			assay.seq.insdc_experiment SRX300878
+			assay.seq.insdc_run SRR893051
+			sample.sample_id d80b90b5-a32a-4ea7-a609-e469743aae32
+			sample.sample_accessions.biosd_sample SAMN02195146
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300878
-			sample.well.name human pronuclei 4
+			sample.cell_suspension.well.name human pronuclei 4
 
-		sample.body_part.text zygote
+		sample.specimen_from_organism.body_part.text zygote
 		sample.donor.development_stage.text zygote
 		sample.name zygotes
-		sample.title zygotes from Fan lab 2013
+		sample.description zygotes from Fan lab 2013
 		sample.well.cell_type.ontology CL_0000365
 		sample.well.cell_type.text animal zygote
 
-			assay.seq.sra_experiment SRX300879
-			assay.seq.sra_run SRR893052
-			sample.id 218d4093-a1d6-491f-b8be-857481f9e7b1
-			sample.geo_sample GSM1160118
-			sample.ncbi_biosample SAMN02195147
+			assay.seq.insdc_experiment SRX300879
+			assay.seq.insdc_run SRR893052
+			sample.sample_id 218d4093-a1d6-491f-b8be-857481f9e7b1
+			sample.sample_accessions.biosd_sample SAMN02195147
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300879
-			sample.well.name human zygote 1
+			sample.cell_suspension.well.name human zygote 1
 
-			assay.seq.sra_experiment SRX300880
-			assay.seq.sra_run SRR893053
-			sample.id 91c28071-7f4b-4e7f-84db-dfa70c18829f
-			sample.geo_sample GSM1160119
-			sample.ncbi_biosample SAMN02195148
+			assay.seq.insdc_experiment SRX300880
+			assay.seq.insdc_run SRR893053
+			sample.sample_id 91c28071-7f4b-4e7f-84db-dfa70c18829f
+			sample.sample_accessions.biosd_sample SAMN02195148
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300880
-			sample.well.name human zygote 2
+			sample.cell_suspension.well.name human zygote 2
 
-		sample.body_part.text 2-cell blastomere
+		sample.specimen_from_organism.body_part.text 2-cell blastomere
 		sample.donor.development_stage.text 2-cell blastomeres
 		sample.name 2-cell blastomeres
-		sample.title disassociated blastomeres from 2-cell stage from Fan lab 2013
+		sample.description disassociated blastomeres from 2-cell stage from Fan lab 2013
 		sample.well.cell_type.text 2-cell blastomere
 
-			assay.seq.sra_experiment SRX300881
-			assay.seq.sra_run SRR893054
-			sample.id 21989aaa-caa7-4d16-bfe8-cbf816538652
-			sample.geo_sample GSM1160120
-			sample.ncbi_biosample SAMN02195149
+			assay.seq.insdc_experiment SRX300881
+			assay.seq.insdc_run SRR893054
+			sample.sample_id 21989aaa-caa7-4d16-bfe8-cbf816538652
+			sample.sample_accessions.biosd_sample SAMN02195149
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300881
-			sample.well.name human 2-cell 1
+			sample.cell_suspension.well.name human 2-cell 1
 
-			assay.seq.sra_experiment SRX300882
-			assay.seq.sra_run SRR893055
-			sample.id 3dfc852e-3ae5-4292-b269-af32ffdf6b2f
-			sample.geo_sample GSM1160121
-			sample.ncbi_biosample SAMN02195150
+			assay.seq.insdc_experiment SRX300882
+			assay.seq.insdc_run SRR893055
+			sample.sample_id 3dfc852e-3ae5-4292-b269-af32ffdf6b2f
+			sample.sample_accessions.biosd_sample SAMN02195150
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300882
-			sample.well.name human 2-cell 5
+			sample.cell_suspension.well.name human 2-cell 5
 
-			assay.seq.sra_experiment SRX300883
-			assay.seq.sra_run SRR893056
-			sample.id 1ba549ae-a264-41b6-a54d-6c5e389191ff
-			sample.geo_sample GSM1160122
-			sample.ncbi_biosample SAMN02195151
+			assay.seq.insdc_experiment SRX300883
+			assay.seq.insdc_run SRR893056
+			sample.sample_id 1ba549ae-a264-41b6-a54d-6c5e389191ff
+			sample.sample_accessions.biosd_sample SAMN02195151
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300883
-			sample.well.name human 2-cell 6
+			sample.cell_suspension.well.name human 2-cell 6
 
-		sample.body_part.text 4-cell blastomere
+		sample.specimen_from_organism.body_part.text 4-cell blastomere
 		sample.donor.development_stage.text 4-cell blastomeres
 		sample.name 4-cell blastomeres
-		sample.title disassociated blastomeres from 4-cell stage from Fan lab 2013
+		sample.description disassociated blastomeres from 4-cell stage from Fan lab 2013
 		sample.well.cell_type.text 4-cell blastomere
 
-			assay.seq.sra_experiment SRX300884
-			assay.seq.sra_run SRR893057
-			sample.id 29d39aa5-6431-4ad8-828b-4ba7b37b7f8a
-			sample.geo_sample GSM1160123
-			sample.ncbi_biosample SAMN02195152
+			assay.seq.insdc_experiment SRX300884
+			assay.seq.insdc_run SRR893057
+			sample.sample_id 29d39aa5-6431-4ad8-828b-4ba7b37b7f8a
+			sample.sample_accessions.biosd_sample SAMN02195152
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300884
-			sample.well.name human 4-cell 1
+			sample.cell_suspension.well.name human 4-cell 1
 
-			assay.seq.sra_experiment SRX300885
-			assay.seq.sra_run SRR893058
-			sample.id 0bc0f088-8c64-4e31-9498-922146ff2528
-			sample.geo_sample GSM1160124
-			sample.ncbi_biosample SAMN02195153
+			assay.seq.insdc_experiment SRX300885
+			assay.seq.insdc_run SRR893058
+			sample.sample_id 0bc0f088-8c64-4e31-9498-922146ff2528
+			sample.sample_accessions.biosd_sample SAMN02195153
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300885
-			sample.well.name human 4-cell 2
+			sample.cell_suspension.well.name human 4-cell 2
 
-			assay.seq.sra_experiment SRX300886
-			assay.seq.sra_run SRR893059
-			sample.id 63a710e2-7492-472e-a547-784ee60db914
-			sample.geo_sample GSM1160125
-			sample.ncbi_biosample SAMN02195154
+			assay.seq.insdc_experiment SRX300886
+			assay.seq.insdc_run SRR893059
+			sample.sample_id 63a710e2-7492-472e-a547-784ee60db914
+			sample.sample_accessions.biosd_sample SAMN02195154
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300886
-			sample.well.name human 4-cell 3
+			sample.cell_suspension.well.name human 4-cell 3
 
-			assay.seq.sra_experiment SRX300887
-			assay.seq.sra_run SRR893060
-			sample.id d20a04dc-38be-421a-9193-339fa4eba94c
-			sample.geo_sample GSM1160126
-			sample.ncbi_biosample SAMN02195155
+			assay.seq.insdc_experiment SRX300887
+			assay.seq.insdc_run SRR893060
+			sample.sample_id d20a04dc-38be-421a-9193-339fa4eba94c
+			sample.sample_accessions.biosd_sample SAMN02195155
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300887
-			sample.well.name human 4-cell 4
+			sample.cell_suspension.well.name human 4-cell 4
 
-		sample.body_part.text 8-cell blastomere
+		sample.specimen_from_organism.body_part.text 8-cell blastomere
 		sample.donor.development_stage.text 8-cell blastomeres
 		sample.name 8-cell blastomeres
-		sample.title disassociated blastomeres from 8-cell stage from Fan lab 2013
+		sample.description disassociated blastomeres from 8-cell stage from Fan lab 2013
 		sample.well.cell_type.text 8-cell blastomere
 
-			assay.seq.sra_experiment SRX300888
-			assay.seq.sra_run SRR893061
-			sample.id 803e3b8a-3029-4cc2-90d1-10439fa12fec
-			sample.geo_sample GSM1160127
-			sample.ncbi_biosample SAMN02195156
+			assay.seq.insdc_experiment SRX300888
+			assay.seq.insdc_run SRR893061
+			sample.sample_id 803e3b8a-3029-4cc2-90d1-10439fa12fec
+			sample.sample_accessions.biosd_sample SAMN02195156
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300888
-			sample.well.name human 8-cell 3a
+			sample.cell_suspension.well.name human 8-cell 3a
 
-			assay.seq.sra_experiment SRX300889
-			assay.seq.sra_run SRR893062
-			sample.id 9ea5f974-6554-493f-9981-e506c1681ac8
-			sample.geo_sample GSM1160128
-			sample.ncbi_biosample SAMN02195157
+			assay.seq.insdc_experiment SRX300889
+			assay.seq.insdc_run SRR893062
+			sample.sample_id 9ea5f974-6554-493f-9981-e506c1681ac8
+			sample.sample_accessions.biosd_sample SAMN02195157
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300889
-			sample.well.name human 8-cell 6a
+			sample.cell_suspension.well.name human 8-cell 6a
 
-			assay.seq.sra_experiment SRX300890
-			assay.seq.sra_run SRR893063
-			sample.id 3b923941-948a-4a86-b549-106919bbf561
-			sample.geo_sample GSM1160129
-			sample.ncbi_biosample SAMN02195158
+			assay.seq.insdc_experiment SRX300890
+			assay.seq.insdc_run SRR893063
+			sample.sample_id 3b923941-948a-4a86-b549-106919bbf561
+			sample.sample_accessions.biosd_sample SAMN02195158
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300890
-			sample.well.name human 8-cell 7a
+			sample.cell_suspension.well.name human 8-cell 7a
 
-			assay.seq.sra_experiment SRX300891
-			assay.seq.sra_run SRR893064
-			sample.id 9dda6c78-2269-4e4e-ba06-7dd27d6b538a
-			sample.geo_sample GSM1160130
-			sample.ncbi_biosample SAMN02195159
+			assay.seq.insdc_experiment SRX300891
+			assay.seq.insdc_run SRR893064
+			sample.sample_id 9dda6c78-2269-4e4e-ba06-7dd27d6b538a
+			sample.sample_accessions.biosd_sample SAMN02195159
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300891
-			sample.well.name human 8-cell 1b
+			sample.cell_suspension.well.name human 8-cell 1b
 
-			assay.seq.sra_experiment SRX300892
-			assay.seq.sra_run SRR893065
-			sample.id 0c30122b-06a2-4c36-99ef-74f127a3919f
-			sample.geo_sample GSM1160131
-			sample.ncbi_biosample SAMN02195160
+			assay.seq.insdc_experiment SRX300892
+			assay.seq.insdc_run SRR893065
+			sample.sample_id 0c30122b-06a2-4c36-99ef-74f127a3919f
+			sample.sample_accessions.biosd_sample SAMN02195160
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300892
-			sample.well.name human 8-cell 2b
+			sample.cell_suspension.well.name human 8-cell 2b
 
-			assay.seq.sra_experiment SRX300893
-			assay.seq.sra_run SRR893066
-			sample.id 0f4b7c13-7b43-43c5-af12-9b3e42a29acf
-			sample.geo_sample GSM1160132
-			sample.ncbi_biosample SAMN02195161
+			assay.seq.insdc_experiment SRX300893
+			assay.seq.insdc_run SRR893066
+			sample.sample_id 0f4b7c13-7b43-43c5-af12-9b3e42a29acf
+			sample.sample_accessions.biosd_sample SAMN02195161
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300893
-			sample.well.name human 8-cell 3b
+			sample.cell_suspension.well.name human 8-cell 3b
 
-			assay.seq.sra_experiment SRX300894
-			assay.seq.sra_run SRR893067
-			sample.id b84e9169-3fe6-47f9-b9a1-3a8fbe6c7607
-			sample.geo_sample GSM1160133
-			sample.ncbi_biosample SAMN02195162
+			assay.seq.insdc_experiment SRX300894
+			assay.seq.insdc_run SRR893067
+			sample.sample_id b84e9169-3fe6-47f9-b9a1-3a8fbe6c7607
+			sample.sample_accessions.biosd_sample SAMN02195162
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300894
-			sample.well.name human 8-cell 4b
+			sample.cell_suspension.well.name human 8-cell 4b
 
-			assay.seq.sra_experiment SRX300895
-			assay.seq.sra_run SRR893068
-			sample.id e745ba47-52b8-4b52-b466-ae866a89f189
-			sample.geo_sample GSM1160134
-			sample.ncbi_biosample SAMN02195163
+			assay.seq.insdc_experiment SRX300895
+			assay.seq.insdc_run SRR893068
+			sample.sample_id e745ba47-52b8-4b52-b466-ae866a89f189
+			sample.sample_accessions.biosd_sample SAMN02195163
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300895
-			sample.well.name human 8-cell 5b
+			sample.cell_suspension.well.name human 8-cell 5b
 
-			assay.seq.sra_experiment SRX300896
-			assay.seq.sra_run SRR893069
-			sample.id e69a40bb-e975-4329-9912-72b052c8a6ed
-			sample.geo_sample GSM1160135
-			sample.ncbi_biosample SAMN02195164
+			assay.seq.insdc_experiment SRX300896
+			assay.seq.insdc_run SRR893069
+			sample.sample_id e69a40bb-e975-4329-9912-72b052c8a6ed
+			sample.sample_accessions.biosd_sample SAMN02195164
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300896
-			sample.well.name human 8-cell 3c
+			sample.cell_suspension.well.name human 8-cell 3c
 
-			assay.seq.sra_experiment SRX300897
-			assay.seq.sra_run SRR893070
-			sample.id 44892d68-ccf4-4ac3-bb93-eb64a7e874d9
-			sample.geo_sample GSM1160136
-			sample.ncbi_biosample SAMN02195165
+			assay.seq.insdc_experiment SRX300897
+			assay.seq.insdc_run SRR893070
+			sample.sample_id 44892d68-ccf4-4ac3-bb93-eb64a7e874d9
+			sample.sample_accessions.biosd_sample SAMN02195165
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300897
-			sample.well.name human 8-cell 5c
+			sample.cell_suspension.well.name human 8-cell 5c
 
-			assay.seq.sra_experiment SRX300898
-			assay.seq.sra_run SRR893071
-			sample.id b68aa770-7b4b-441b-911a-19bbbb4b17f1
-			sample.geo_sample GSM1160137
-			sample.ncbi_biosample SAMN02195166
+			assay.seq.insdc_experiment SRX300898
+			assay.seq.insdc_run SRR893071
+			sample.sample_id b68aa770-7b4b-441b-911a-19bbbb4b17f1
+			sample.sample_accessions.biosd_sample SAMN02195166
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300898
-			sample.well.name human 8-cell pooled
+			sample.cell_suspension.well.name human 8-cell pooled
 
-		sample.body_part.text morula stage embryo
+		sample.specimen_from_organism.body_part.text morula stage embryo
 		sample.donor.development_stage.text morula
 		sample.name morula blastomeres
-		sample.title disassociated blastomeres from morula stage embryo from Fan lab 2013
+		sample.description disassociated blastomeres from morula stage embryo from Fan lab 2013
 		sample.well.cell_type.ontology CL_0000360
 		sample.well.cell_type.text morula cell
 
-			assay.seq.sra_experiment SRX300899
-			assay.seq.sra_run SRR893072
-			sample.id e80eb11e-457a-45a5-bd0d-3462016d093e
-			sample.geo_sample GSM1160138
-			sample.ncbi_biosample SAMN02195167
+			assay.seq.insdc_experiment SRX300899
+			assay.seq.insdc_run SRR893072
+			sample.sample_id e80eb11e-457a-45a5-bd0d-3462016d093e
+			sample.sample_accessions.biosd_sample SAMN02195167
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300899
-			sample.well.name human morula stage embryo cell 1
+			sample.cell_suspension.well.name human morula stage embryo cell 1
 
-			assay.seq.sra_experiment SRX300900
-			assay.seq.sra_run SRR893073
-			sample.id 358a1142-7dae-42e0-b757-cb73b2dff90e
-			sample.geo_sample GSM1160139
-			sample.ncbi_biosample SAMN02195168
+			assay.seq.insdc_experiment SRX300900
+			assay.seq.insdc_run SRR893073
+			sample.sample_id 358a1142-7dae-42e0-b757-cb73b2dff90e
+			sample.sample_accessions.biosd_sample SAMN02195168
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300900
-			sample.well.name human morula 4
+			sample.cell_suspension.well.name human morula 4
 
-			assay.seq.sra_experiment SRX300901
-			assay.seq.sra_run SRR893074
-			sample.id 31666589-5a36-4ccc-a55f-2a1d1fcf91d6
-			sample.geo_sample GSM1160140
-			sample.ncbi_biosample SAMN02195169
+			assay.seq.insdc_experiment SRX300901
+			assay.seq.insdc_run SRR893074
+			sample.sample_id 31666589-5a36-4ccc-a55f-2a1d1fcf91d6
+			sample.sample_accessions.biosd_sample SAMN02195169
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX300/SRX300901
-			sample.well.name human morula 5
+			sample.cell_suspension.well.name human morula 5
 
 	assay.rna.end_bias three_prime_bias
 	assay.rna.primer poly-dt
 	assay.rna.library_construction unknown
 	sample.donor.age 0
 	sample.donor.age_unit day
-	sample.donor.species.ontology 10090
-	sample.donor.species.text Mus musculus
+	sample.ncbi_taxon_id 10090
+	sample.genus_species Mus musculus
 	sample.donor.strain.1.text C57BL/6
-	sample.submit_date 2013-02-08
 
-		sample.body_part.text oocyte
+		sample.specimen_from_organism.body_part.text oocyte
 		sample.donor.development_stage.text oocyte
 		sample.name oocytes
-		sample.title unfertilized oocytes from Fan lab 2013
+		sample.description unfertilized oocytes from Fan lab 2013
 		sample.well.cell_type.ontology CL_0000023
 		sample.well.cell_type.text oocyte
 
-			assay.seq.sra_experiment SRX229784
-			assay.seq.sra_run SRR689233
-			sample.id 9c0d8469-0597-47ab-b3ca-5fa7b3e5b51b
-			sample.geo_sample GSM1080195
-			sample.ncbi_biosample SAMN01915415
+			assay.seq.insdc_experiment SRX229784
+			assay.seq.insdc_run SRR689233
+			sample.sample_id 9c0d8469-0597-47ab-b3ca-5fa7b3e5b51b
+			sample.sample_accessions.biosd_sample SAMN01915415
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229784
-			sample.well.name mouse oocyte 1
+			sample.cell_suspension.well.name mouse oocyte 1
 
-			assay.seq.sra_experiment SRX229785
-			assay.seq.sra_run SRR689234
-			sample.id 9f0970a9-4651-446e-af23-4861aa04a178
-			sample.geo_sample GSM1080196
-			sample.ncbi_biosample SAMN01915416
+			assay.seq.insdc_experiment SRX229785
+			assay.seq.insdc_run SRR689234
+			sample.sample_id 9f0970a9-4651-446e-af23-4861aa04a178
+			sample.sample_accessions.biosd_sample SAMN01915416
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229785
-			sample.well.name mouse oocyte 2
+			sample.cell_suspension.well.name mouse oocyte 2
 
-		sample.body_part.text pronucleus phase zygote
+		sample.specimen_from_organism.body_part.text pronucleus phase zygote
 		sample.donor.development_stage.text pronucleus phase zygote
 		sample.name pronucleus phase zygote
-		sample.title fertilized oocyte at pronucleus phase from Fan lab 2013
+		sample.description fertilized oocyte at pronucleus phase from Fan lab 2013
 		sample.well.cell_type.text pronucleus phase zygote
 
-			assay.seq.sra_experiment SRX229786
-			assay.seq.sra_run SRR689235
-			sample.id b7b7b191-fbf6-440c-890f-dbf43beedde2
-			sample.geo_sample GSM1080197
-			sample.ncbi_biosample SAMN01915417
+			assay.seq.insdc_experiment SRX229786
+			assay.seq.insdc_run SRR689235
+			sample.sample_id b7b7b191-fbf6-440c-890f-dbf43beedde2
+			sample.sample_accessions.biosd_sample SAMN01915417
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229786
-			sample.well.name mouse pronuclei cell 1
+			sample.cell_suspension.well.name mouse pronuclei cell 1
 
-			assay.seq.sra_experiment SRX229787
-			assay.seq.sra_run SRR689236
-			sample.id 11a90e51-5207-49e2-b376-21ce5281bede
-			sample.geo_sample GSM1080198
-			sample.ncbi_biosample SAMN01915418
+			assay.seq.insdc_experiment SRX229787
+			assay.seq.insdc_run SRR689236
+			sample.sample_id 11a90e51-5207-49e2-b376-21ce5281bede
+			sample.sample_accessions.biosd_sample SAMN01915418
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229787
-			sample.well.name mouse pronuclei cell 2
+			sample.cell_suspension.well.name mouse pronuclei cell 2
 
-			assay.seq.sra_experiment SRX229788
-			assay.seq.sra_run SRR689237
-			sample.id accda7d0-1dc1-4032-9133-b57a730dc952
-			sample.geo_sample GSM1080199
-			sample.ncbi_biosample SAMN01915419
+			assay.seq.insdc_experiment SRX229788
+			assay.seq.insdc_run SRR689237
+			sample.sample_id accda7d0-1dc1-4032-9133-b57a730dc952
+			sample.sample_accessions.biosd_sample SAMN01915419
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229788
-			sample.well.name mouse pronuclei 3
+			sample.cell_suspension.well.name mouse pronuclei 3
 
-		sample.body_part.text 2-cell blastomere
+		sample.specimen_from_organism.body_part.text 2-cell blastomere
 		sample.donor.development_stage.text 2-cell blastomeres
 		sample.name 2-cell blastomeres
-		sample.title disassociated blastomeres from 2-cell stage from Fan lab 2013
+		sample.description disassociated blastomeres from 2-cell stage from Fan lab 2013
 		sample.well.cell_type.text 2-cell blastomere
 
-			assay.seq.sra_experiment SRX229789
-			assay.seq.sra_run SRR689238
-			sample.id fdf0f4ab-8ee8-443b-bdee-56af2a562134
-			sample.geo_sample GSM1080200
-			sample.ncbi_biosample SAMN01915420
+			assay.seq.insdc_experiment SRX229789
+			assay.seq.insdc_run SRR689238
+			sample.sample_id fdf0f4ab-8ee8-443b-bdee-56af2a562134
+			sample.sample_accessions.biosd_sample SAMN01915420
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229789
-			sample.well.name mouse 2-cell 1
+			sample.cell_suspension.well.name mouse 2-cell 1
 
-			assay.seq.sra_experiment SRX229790
-			assay.seq.sra_run SRR689239
-			sample.id bf265839-d035-4445-a8bf-1bf92f0b33a3
-			sample.geo_sample GSM1080201
-			sample.ncbi_biosample SAMN01915421
+			assay.seq.insdc_experiment SRX229790
+			assay.seq.insdc_run SRR689239
+			sample.sample_id bf265839-d035-4445-a8bf-1bf92f0b33a3
+			sample.sample_accessions.biosd_sample SAMN01915421
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229790
-			sample.well.name mouse 2-cell 2
+			sample.cell_suspension.well.name mouse 2-cell 2
 
-			assay.seq.sra_experiment SRX229791
-			assay.seq.sra_run SRR689240
-			sample.id 9aa3ef97-b809-4dae-a0c6-318ca0ce1872
-			sample.geo_sample GSM1080202
-			sample.ncbi_biosample SAMN01915422
+			assay.seq.insdc_experiment SRX229791
+			assay.seq.insdc_run SRR689240
+			sample.sample_id 9aa3ef97-b809-4dae-a0c6-318ca0ce1872
+			sample.sample_accessions.biosd_sample SAMN01915422
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229791
-			sample.well.name mouse 2-cell 3
+			sample.cell_suspension.well.name mouse 2-cell 3
 
-		sample.body_part.text 4-cell blastomere
+		sample.specimen_from_organism.body_part.text 4-cell blastomere
 		sample.donor.development_stage.text 4-cell blastomeres
 		sample.name 4-cell blastomeres
-		sample.title disassociated blastomeres from 4-cell stage from Fan lab 2013
+		sample.description disassociated blastomeres from 4-cell stage from Fan lab 2013
 		sample.well.cell_type.text 4-cell blastomere
 
-			assay.seq.sra_experiment SRX229792
-			assay.seq.sra_run SRR689241
-			sample.id 21aba87a-7b1d-40df-b058-4e5ac35f0ae3
-			sample.geo_sample GSM1080203
-			sample.ncbi_biosample SAMN01915423
+			assay.seq.insdc_experiment SRX229792
+			assay.seq.insdc_run SRR689241
+			sample.sample_id 21aba87a-7b1d-40df-b058-4e5ac35f0ae3
+			sample.sample_accessions.biosd_sample SAMN01915423
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229792
-			sample.well.name mouse 4-cell 1
+			sample.cell_suspension.well.name mouse 4-cell 1
 
-			assay.seq.sra_experiment SRX229793
-			assay.seq.sra_run SRR689242
-			sample.id 3de9c2ae-c344-4878-8f81-c6802a02103b
-			sample.geo_sample GSM1080204
-			sample.ncbi_biosample SAMN01915424
+			assay.seq.insdc_experiment SRX229793
+			assay.seq.insdc_run SRR689242
+			sample.sample_id 3de9c2ae-c344-4878-8f81-c6802a02103b
+			sample.sample_accessions.biosd_sample SAMN01915424
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229793
-			sample.well.name mouse 4-cell 2
+			sample.cell_suspension.well.name mouse 4-cell 2
 
-			assay.seq.sra_experiment SRX229794
-			assay.seq.sra_run SRR689243
-			sample.id 219e0f35-5753-48f5-bdff-f4de3107374b
-			sample.geo_sample GSM1080205
-			sample.ncbi_biosample SAMN01915425
+			assay.seq.insdc_experiment SRX229794
+			assay.seq.insdc_run SRR689243
+			sample.sample_id 219e0f35-5753-48f5-bdff-f4de3107374b
+			sample.sample_accessions.biosd_sample SAMN01915425
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229794
-			sample.well.name mouse 4-cell 3
+			sample.cell_suspension.well.name mouse 4-cell 3
 
-		sample.body_part.text 8-cell blastomere
+		sample.specimen_from_organism.body_part.text 8-cell blastomere
 		sample.donor.development_stage.text 8-cell blastomeres
 		sample.name 8-cell blastomeres
-		sample.title disassociated blastomeres from 8-cell stage from Fan lab 2013
+		sample.description disassociated blastomeres from 8-cell stage from Fan lab 2013
 		sample.well.cell_type.text 8-cell blastomere
 
-			assay.seq.sra_experiment SRX229795
-			assay.seq.sra_run SRR689244
-			sample.id d11822da-0041-460b-ab41-f6af6b8d420d
-			sample.geo_sample GSM1080206
-			sample.ncbi_biosample SAMN01915426
+			assay.seq.insdc_experiment SRX229795
+			assay.seq.insdc_run SRR689244
+			sample.sample_id d11822da-0041-460b-ab41-f6af6b8d420d
+			sample.sample_accessions.biosd_sample SAMN01915426
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229795
-			sample.well.name mouse 8-cell 1
+			sample.cell_suspension.well.name mouse 8-cell 1
 
-			assay.seq.sra_experiment SRX229796
-			assay.seq.sra_run SRR689245
-			sample.id 406b0eab-95af-4161-9452-ee1d982a2293
-			sample.geo_sample GSM1080207
-			sample.ncbi_biosample SAMN01915427
+			assay.seq.insdc_experiment SRX229796
+			assay.seq.insdc_run SRR689245
+			sample.sample_id 406b0eab-95af-4161-9452-ee1d982a2293
+			sample.sample_accessions.biosd_sample SAMN01915427
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229796
-			sample.well.name mouse 8-cell 2
+			sample.cell_suspension.well.name mouse 8-cell 2
 
-			assay.seq.sra_experiment SRX229797
-			assay.seq.sra_run SRR689246
-			sample.id 8439b4f1-2b0d-4f8f-b0f1-3d59c055357d
-			sample.geo_sample GSM1080208
-			sample.ncbi_biosample SAMN01915428
+			assay.seq.insdc_experiment SRX229797
+			assay.seq.insdc_run SRR689246
+			sample.sample_id 8439b4f1-2b0d-4f8f-b0f1-3d59c055357d
+			sample.sample_accessions.biosd_sample SAMN01915428
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229797
-			sample.well.name mouse 8-cell 3
+			sample.cell_suspension.well.name mouse 8-cell 3
 
-		sample.body_part.text morula stage embryo
+		sample.specimen_from_organism.body_part.text morula stage embryo
 		sample.donor.development_stage.text morula
 		sample.name morula blastomeres
-		sample.title disassociated blastomeres from morula stage embryo from Fan lab 2013
+		sample.description disassociated blastomeres from morula stage embryo from Fan lab 2013
 		sample.well.cell_type.ontology CL_0000360
 		sample.well.cell_type.text morula cell
 
-			assay.seq.sra_experiment SRX229798
-			assay.seq.sra_run SRR689247
-			sample.id 0046ed2b-da4e-42ac-a923-d5eded8311d0
-			sample.geo_sample GSM1080209
-			sample.ncbi_biosample SAMN01915429
+			assay.seq.insdc_experiment SRX229798
+			assay.seq.insdc_run SRR689247
+			sample.sample_id 0046ed2b-da4e-42ac-a923-d5eded8311d0
+			sample.sample_accessions.biosd_sample SAMN01915429
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229798
-			sample.well.name mouse morula stage embryo cell 1
+			sample.cell_suspension.well.name mouse morula stage embryo cell 1
 
-			assay.seq.sra_experiment SRX229799
-			assay.seq.sra_run SRR689248
-			sample.id 2efea911-5ecc-4287-b28d-e6764bdb3ebb
-			sample.geo_sample GSM1080210
-			sample.ncbi_biosample SAMN01915430
+			assay.seq.insdc_experiment SRX229799
+			assay.seq.insdc_run SRR689248
+			sample.sample_id 2efea911-5ecc-4287-b28d-e6764bdb3ebb
+			sample.sample_accessions.biosd_sample SAMN01915430
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229799
-			sample.well.name mouse morula stage embryo cell 2
+			sample.cell_suspension.well.name mouse morula stage embryo cell 2
 
-			assay.seq.sra_experiment SRX229800
-			assay.seq.sra_run SRR689249
-			sample.id bf331fed-a837-417a-9396-43796cbb8edf
-			sample.geo_sample GSM1080211
-			sample.ncbi_biosample SAMN01915431
+			assay.seq.insdc_experiment SRX229800
+			assay.seq.insdc_run SRR689249
+			sample.sample_id bf331fed-a837-417a-9396-43796cbb8edf
+			sample.sample_accessions.biosd_sample SAMN01915431
 			sample.supplementary_files ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX229/SRX229800
-			sample.well.name mouse morula 3
+			sample.cell_suspension.well.name mouse morula 3
 
