@@ -29,9 +29,10 @@ class S3Location(DotMap):
 
 class S3Agent:
 
-    def __init__(self):
-        self.s3 = boto3.resource('s3')
-        self.s3client = self.s3.meta.client
+    def __init__(self, credentials={}):
+        session = boto3.session.Session(**credentials)
+        self.s3 = session.resource('s3')
+        self.s3client = session.client('s3')
 
     def copy_between_buckets(self, src_url: str, dest_url: str, file_size: int):
         src = S3Location(src_url)
@@ -121,9 +122,9 @@ class S3ObjectTagger:
     MIME_TAG = 'hca-dss-content-type'
     ALL_TAGS = CHECKSUM_TAGS + (MIME_TAG,)
 
-    def __init__(self, target_url: str):
+    def __init__(self, target_url: str, credentials={}):
         self.target_url = target_url
-        self.s3 = S3Agent()
+        self.s3 = S3Agent(credentials)
 
     def copy_tags_from_object(self, s3url: str):
         self.s3.copy_object_tagging(s3url, self.target_url)

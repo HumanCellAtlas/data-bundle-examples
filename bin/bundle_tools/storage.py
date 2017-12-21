@@ -195,8 +195,7 @@ class DSSrestDriver(DSSDriver):
                 return response
             elif response.status_code in (404, 504):
                 time.sleep(wait)
-                # progress dots are prolematic when parallelized.
-                #  logger.output(".", flush=True)
+                logger.output(".")  #, flush=True) flushing progress dots is problematic when parallelized.
                 wait = min(60.0, wait * self.BACKOFF_FACTOR)
             else:
                 raise RuntimeError(response)
