@@ -1,0 +1,27 @@
+{
+    "content": {
+        "biomaterial_core": {
+            "has_input_biomaterial": "A1-Spl-0-TL5",
+            "ncbi_taxon_id": [
+                9606
+            ],
+            "biomaterial_id": "A1-Spl-0-TL5_cells",
+            "biomaterial_name": "cells from fresh spleen"
+        },
+        "genus_species": [
+            {
+                "text": "Homo sapiens",
+                "ontology": "NCBITaxon:9606"
+            }
+        ],
+        "describedBy": "https://schema.humancellatlas.org/type/biomaterial/5.1.0/cell_suspension",
+        "total_estimated_cells": 39300000,
+        "schema_type": "biomaterial"
+    },
+    "hca_ingest": {
+        "accession": "",
+        "submissionDate": "2018-03-27T13:10:38.189Z",
+        "updateDate": "2018-03-27T13:10:43.316Z",
+        "document_id": "a86b1fda-bb1d-4ef8-87d9-392517d4a937"
+    }
+}

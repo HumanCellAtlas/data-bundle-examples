@@ -1,0 +1,43 @@
+{
+    "content": {
+        "state_of_specimen": {
+            "ischemic_time": 7200,
+            "gross_image": [
+                "284C_IMAGE_spleen_annotated.jpg"
+            ],
+            "postmortem_interval": 19800,
+            "ischemic_temperature": "warm",
+            "microscopic_description": "dead cells are quite faint on microscope at LMB"
+        },
+        "organ": {
+            "text": "spleen",
+            "ontology": "UBERON:0002106"
+        },
+        "genus_species": [
+            {
+                "text": "Homo sapiens",
+                "ontology": "NCBITaxon:9606"
+            }
+        ],
+        "schema_type": "biomaterial",
+        "biomaterial_core": {
+            "biomaterial_description": "fresh spleen",
+            "has_input_biomaterial": "284C-A1",
+            "biomaterial_name": "284C_spleen_fresh",
+            "supplementary_files": [
+                "284C_IMAGE_spleen_annotated.jpeg"
+            ],
+            "ncbi_taxon_id": [
+                9606
+            ],
+            "biomaterial_id": "A1-Spl-0-TL5"
+        },
+        "describedBy": "https://schema.humancellatlas.org/type/biomaterial/5.1.0/specimen_from_organism"
+    },
+    "hca_ingest": {
+        "accession": "",
+        "submissionDate": "2018-03-27T13:10:38.291Z",
+        "updateDate": "2018-03-27T13:10:43.420Z",
+        "document_id": "d231b8f3-8fa3-4f3b-a8e5-66eca6228ae7"
+    }
+}

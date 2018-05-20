@@ -1,0 +1,33 @@
+{
+    "content": {
+        "input_nucleic_acid_molecule": {
+            "text": "polyA RNA",
+            "ontology": "OBI:0000869"
+        },
+        "process_core": {
+            "process_id": "library_preparation_process_1",
+            "process_name": "Library preparation for 10x_v2 sequencing"
+        },
+        "umi_barcode": {
+            "barcode_offset": 16,
+            "barcode_length": 10,
+            "barcode_read": "Read 1"
+        },
+        "library_construction_approach": "10x_v2",
+        "cell_barcode": {
+            "barcode_offset": 0,
+            "barcode_length": 16,
+            "barcode_read": "Read 1"
+        },
+        "schema_type": "process",
+        "end_bias": "3 prime tag",
+        "describedBy": "https://schema.humancellatlas.org/type/process/sequencing/5.1.0/library_preparation_process",
+        "strand": "second"
+    },
+    "hca_ingest": {
+        "accession": "",
+        "submissionDate": "2018-03-27T13:10:38.700Z",
+        "updateDate": "2018-03-27T13:10:48.152Z",
+        "document_id": "fa9febdf-425e-41bc-925f-b17f27b96e61"
+    }
+}

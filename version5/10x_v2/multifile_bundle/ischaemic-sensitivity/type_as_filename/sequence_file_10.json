@@ -1,0 +1,16 @@
+{
+    "content": {
+        "file_core": {
+            "file_name": "HCATisStabAug177078016_S4_L001_R1_001.fastq.gz",
+            "file_format": "fastq.gz"
+        },
+        "lane_index": 1,
+        "read_index": "read1",
+        "describedBy": "https://schema.humancellatlas.org/type/file/5.1.0/sequence_file",
+        "schema_type": "file"
+    },
+    "hca_ingest": {
+        "submissionDate": "2018-03-27T13:10:38.587Z",
+        "document_id": "5239e70b-7d8d-4285-971f-9a156441c2f2"
+    }
+}

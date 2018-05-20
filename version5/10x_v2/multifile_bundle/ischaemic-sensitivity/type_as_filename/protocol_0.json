@@ -1,0 +1,22 @@
+{
+    "content": {
+        "protocol_core": {
+            "protocol_name": "10X Genomics protocol - including loading single cells and library prep",
+            "protocol_description": "ChromiumTM Single Cell 3' Library & Gel Bead Kit v2",
+            "document": "10x_sequencing_protocol.pdf",
+            "protocol_id": "10x_sequencing_protocol"
+        },
+        "describedBy": "https://schema.humancellatlas.org/type/protocol/5.1.0/protocol",
+        "protocol_type": {
+            "text": "single cell nucleic acid sequencing protocol",
+            "ontology": "EFO:0008439"
+        },
+        "schema_type": "protocol"
+    },
+    "hca_ingest": {
+        "accession": "",
+        "submissionDate": "2018-03-27T13:10:38.103Z",
+        "updateDate": "2018-03-27T13:10:45.995Z",
+        "document_id": "73b0c9ae-a5bb-446e-9c7b-d0954e6af425"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "content": {
+        "contributors": [
+            {
+                "country": "UK",
+                "email": "ms31@sanger.ac.uk",
+                "phone": "44 (0)1223 834244",
+                "address": "Wellcome Trust Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge. CB10 1SA.",
+                "laboratory": "Human Cell Atlas (Mike Stubbington)",
+                "contact_name": "Mike,,Stubbington",
+                "institution": "Wellcome Trust Sanger Institute"
+            },
+            {
+                "country": "UK",
+                "email": "ph11@sanger.ac.uk",
+                "phone": "44 (0)1223 834244",
+                "address": "Wellcome Trust Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge. CB10 1SA.",
+                "laboratory": "Human Cell Atlas (Mike Stubbington)",
+                "contact_name": "Phillipa,,Harding",
+                "institution": "Wellcome Trust Sanger Institute"
+            },
+            {
+                "country": "UK",
+                "email": "aw24@sanger.ac.uk",
+                "phone": "44 (0)1223 834244",
+                "address": "Wellcome Trust Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge. CB10 1SA.",
+                "laboratory": "Human Cell Atlas (Mike Stubbington)",
+                "contact_name": "Anna,,Wilbrey-Clark",
+                "institution": "Wellcome Trust Sanger Institute"
+            },
+            {
+                "country": "UK",
+                "institution": "Wellcome Trust Sanger Institute",
+                "address": "Wellcome Trust Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge. CB10 1SA.",
+                "laboratory": "Human Cell Atlas (Mike Stubbington)",
+                "contact_name": "Krzysztof,,Polanski",
+                "email": "kp9@sanger.ac.uk"
+            },
+            {
+                "country": "UK",
+                "institution": "University of Cambridge",
+                "address": "Cambridge CB2 0QQ",
+                "laboratory": "Molecular Immunity Unit, Department of Medicine",
+                "contact_name": "Kevin,,Loudon",
+                "email": "kevinloudon@doctors.org.uk"
+            },
+            {
+                "country": "UK",
+                "institution": "University of Cambridge",
+                "address": "Cambridge CB2 0QQ",
+                "laboratory": "Molecular Immunity Unit, Department of Medicine",
+                "contact_name": "John,,Ferdinand",
+                "email": "jrf58@cam.ac.uk"
+            },
+            {
+                "country": "UK",
+                "institution": "University of Cambridge",
+                "address": "Cambridge CB2 0QQ",
+                "laboratory": "Cambridge Biorepository for Translational Medicine",
+                "contact_name": "Krishnaa,,Mahbubani",
+                "email": "ktam2@cam.ac.uk"
+            },
+            {
+                "country": "UK",
+                "institution": "University of Cambridge",
+                "address": "Cambridge CB2 0QQ",
+                "laboratory": "Cambridge Biorepository for Translational Medicine",
+                "contact_name": "Nikitas,,Georgakopoulos",
+                "email": "ng395@cam.ac.uk"
+            },
+            {
+                "country": "UK",
+                "contact_name": "Kerstin,,Meyer",
+                "email": "km16@sanger.ac.uk",
+                "institution": "Wellcome Trust Sanger Institute",
+                "address": "Wellcome Trust Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge. CB10 1SA."
+            }
+        ],
+        "project_core": {
+            "project_shortname": "Tissue stability",
+            "project_description": "Assessment of ischaemic sensitivity of three human tissues using 10x 3' single cell RNA sequencing - this submission is ONLY for the first spleen sample; further samples to be collected.  Ultimately we aim to collect data from three tissues expected to have different sensitivity to ischaemia: spleen (expected least sensitive), oesophagus (in the middle) and liver (expected most sensitive).  Samples will be collected 'fresh' (ie as soon as possible) and at 12h, 24h and 72h post onset of ischaemia in the donor.  Single cell RNA sequencing data will be generated at each time point using the 10x genomics single cell 3' method.",
+            "project_title": "Ischaemic sensitivity of human tissue by single cell RNA seq"
+        },
+        "supplementary_files": [
+            "Experimental_report.docx",
+            "Human_spleen_dissociation_protocol.pdf",
+            "Clinical_metadata.xlsx",
+            "284C_IMAGE_spleen_annotated.jpeg",
+            "10x_protocol.pdf"
+        ],
+        "publications": [],
+        "schema_type": "project",
+        "describedBy": "https://schema.humancellatlas.org/type/project/5.1.0/project"
+    },
+    "hca_ingest": {
+        "accession": "",
+        "submissionDate": "2018-03-27T13:10:38.067Z",
+        "updateDate": "2018-03-27T13:10:46.070Z",
+        "document_id": "6ec8e247-2eb0-42d1-823f-75facd03988d"
+    },
+    "describedBy": "https://schema.humancellatlas.org/bundle/5.1.0/project",
+    "schema_version": "5.1.0",
+    "schema_type": "project_bundle"
+}

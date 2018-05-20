@@ -1,0 +1,21 @@
+{
+    "content": {
+        "process_core": {
+            "process_id": "sequencing_process_1",
+            "process_name": "10x_v2 sequencing"
+        },
+        "instrument_manufacturer_model": {
+            "text": "Illumina HiSeq 4000",
+            "ontology": "EFO:0008563"
+        },
+        "paired_ends": true,
+        "describedBy": "https://schema.humancellatlas.org/type/process/sequencing/5.1.0/sequencing_process",
+        "schema_type": "process"
+    },
+    "hca_ingest": {
+        "accession": "",
+        "submissionDate": "2018-03-27T13:10:38.859Z",
+        "updateDate": "2018-03-27T13:10:48.049Z",
+        "document_id": "0c6332ef-633b-403b-b4ed-c61ccacf87c8"
+    }
+}

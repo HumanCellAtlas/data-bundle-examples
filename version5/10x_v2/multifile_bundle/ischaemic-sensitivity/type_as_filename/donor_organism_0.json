@@ -1,0 +1,61 @@
+{
+    "content": {
+        "is_living": false,
+        "death": {
+            "cause_of_death": "Hypoxic brain damage",
+            "cold_perfused": false
+        },
+        "biological_sex": "male",
+        "weight": "80-85",
+        "disease": [
+            {
+                "text": "normal",
+                "ontology": "PATO:0000461"
+            }
+        ],
+        "genus_species": [
+            {
+                "text": "Homo sapiens",
+                "ontology": "NCBITaxon:9606"
+            }
+        ],
+        "height_unit": {
+            "text": "meter",
+            "ontology": "UO:0000008"
+        },
+        "height": "1.75-1.8",
+        "describedBy": "https://schema.humancellatlas.org/type/biomaterial/5.1.0/donor_organism",
+        "organism_age": "55-60",
+        "schema_type": "biomaterial",
+        "biomaterial_core": {
+            "biomaterial_id": "284C-A1",
+            "ncbi_taxon_id": [
+                9606
+            ],
+            "biomaterial_description": "Spleen",
+            "biomaterial_name": "284C-spleen"
+        },
+        "medical_history": {
+            "alcohol_history": "3-6 units/day",
+            "smoking_history": "Smoker, 20/day for 25 years, stopped 2000"
+        },
+        "organism_age_unit": {
+            "text": "year",
+            "ontology": "UO:0000036"
+        },
+        "development_stage": {
+            "text": "adult",
+            "ontology": "EFO:0001272"
+        },
+        "weight_unit": {
+            "text": "kg",
+            "ontology": "UO:0000009"
+        }
+    },
+    "hca_ingest": {
+        "accession": "",
+        "submissionDate": "2018-03-27T13:10:38.212Z",
+        "updateDate": "2018-03-27T13:10:46.762Z",
+        "document_id": "9a7acc6d-8352-497e-b162-5e63b380366f"
+    }
+}

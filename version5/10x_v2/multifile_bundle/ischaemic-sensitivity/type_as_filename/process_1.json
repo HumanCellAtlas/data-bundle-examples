@@ -1,0 +1,15 @@
+{
+    "content": {
+        "process_core": {
+            "process_id": "sampling_process_3"
+        },
+        "describedBy": "https://schema.humancellatlas.org/type/process/1.0.0/process",
+        "schema_type": "process"
+    },
+    "hca_ingest": {
+        "accession": "",
+        "submissionDate": "2018-03-27T13:10:38.410Z",
+        "updateDate": "2018-03-27T13:10:46.927Z",
+        "document_id": "8797a64c-b498-4de6-aea7-86401199bee4"
+    }
+}
